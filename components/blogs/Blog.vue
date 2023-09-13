@@ -80,7 +80,7 @@ export default {
         }
     },
     created: async function () {
-        const response = await axios.get('https://dealdoxstrapi.pbwebvision.com/api/featuredblogs?populate=*')
+        const response = await axios.get('https://cms.dealdox.io/api/featuredblogs?populate=*')
         this.featuredblogs = response.data.data;
         this.rows = this.blogs?.length;
     },

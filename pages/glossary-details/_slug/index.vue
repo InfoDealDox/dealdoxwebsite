@@ -34,7 +34,7 @@ export default {
     },
     created: async function () {
         const { slug } = this.$route.params
-        const reaponse = await axios.get(`https://dealdoxstrapi.pbwebvision.com/api/glossaries?filters[slug][$eq]=${slug}&populate=*`, { params: { slug } })
+        const reaponse = await axios.get(`https://cms.dealdox.io/api/glossaries?filters[slug][$eq]=${slug}&populate=*`, { params: { slug } })
         this.details = reaponse.data.data
         const pageData = this.details.length > 0 ? this.details[0] : {};
         if (pageData?.attributes?.seo) {

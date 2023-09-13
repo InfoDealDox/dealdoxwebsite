@@ -452,7 +452,7 @@ methods: {
         }
     },
     created: async function () {
-        const response = await axios.get('https://dealdoxstrapi.pbwebvision.com/api/ebooks?populate=*')
+        const response = await axios.get('https://cms.dealdox.io/api/ebooks?populate=*')
         this.ebooks = response.data.data;
     },
 }

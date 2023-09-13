@@ -52,14 +52,14 @@ export default {
         }
     },
     created: async function () {
-        axios.get('https://dealdoxstrapi.pbwebvision.com/api/successcategories')
+        axios.get('https://cms.dealdox.io/api/successcategories')
             .then(response => {
                 this.successcategories = response.data.data;
             })
             .catch(error => {
                 console.error(error);
             });
-        const response = await axios.get('https://dealdoxstrapi.pbwebvision.com/api/successstories?populate=*')
+        const response = await axios.get('https://cms.dealdox.io/api/successstories?populate=*')
         this.successstories = response.data.data;
     },
 }

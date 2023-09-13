@@ -29,7 +29,7 @@ export default {
         }
     },
     created: async function () {
-        const response = await axios.get('https://dealdoxstrapi.pbwebvision.com/api/pages?filters[slug][$eq]=privacy-policy&populate=deep,5')
+        const response = await axios.get('https://cms.dealdox.io/api/pages?filters[slug][$eq]=privacy-policy&populate=deep,5')
         const pageData = response.data.data?.length > 0 ? response.data.data[0] : {};
         if (pageData?.attributes?.seo?.length > 0) {
             this.seoData = pageData.attributes.seo[0];

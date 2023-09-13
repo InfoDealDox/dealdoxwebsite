@@ -109,7 +109,7 @@ export default {
         }
     },
     created: async function () {
-        axios.get('https://dealdoxstrapi.pbwebvision.com/api/glossary-categories')
+        axios.get('https://cms.dealdox.io/api/glossary-categories')
             .then(response => {
                 this.categories = response.data.data;
                 // console.log("categories....", this.categories)
@@ -117,7 +117,7 @@ export default {
             .catch(error => {
                 console.error(error);
             });
-        const response = await axios.get('https://dealdoxstrapi.pbwebvision.com/api/glossaries?populate=*')
+        const response = await axios.get('https://cms.dealdox.io/api/glossaries?populate=*')
         this.glossaries = response.data.data;
     },
 }

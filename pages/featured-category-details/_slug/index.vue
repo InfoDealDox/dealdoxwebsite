@@ -38,7 +38,7 @@ export default {
     async fetchCategories() {
       try {
         const { slug } = this.$route.params
-        const reaponse = await axios.get(`https://dealdoxstrapi.pbwebvision.com/api/featuredblogs?filters[slug][$eq]=${slug}&populate=deep,5`, { params: { slug } })
+        const reaponse = await axios.get(`https://cms.dealdox.io/api/featuredblogs?filters[slug][$eq]=${slug}&populate=deep,5`, { params: { slug } })
         this.category = reaponse.data.data;
       } catch (error) {
         console.error(error);

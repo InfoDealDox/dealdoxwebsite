@@ -49,10 +49,10 @@ export default {
         }
     },
     created: async function () {
-        const response1 = await axios.get('https://dealdoxstrapi.pbwebvision.com/api/glossary-categories');
+        const response1 = await axios.get('https://cms.dealdox.io/api/glossary-categories');
         const sortCat = response1?.data?.data.sort((a, b) => a.id - b.id);
         this.categories = sortCat;
-        const response = await axios.get('https://dealdoxstrapi.pbwebvision.com/api/glossaries?populate=*')
+        const response = await axios.get('https://cms.dealdox.io/api/glossaries?populate=*')
         this.glossaries = response.data.data;
         let groupby = {};
         this.categories.map(x => {

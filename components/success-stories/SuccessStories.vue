@@ -72,7 +72,7 @@ export default {
         }
     },
     created: async function () {
-        const response = await axios.get('https://dealdoxstrapi.pbwebvision.com/api/successstories?populate=*')
+        const response = await axios.get('https://cms.dealdox.io/api/successstories?populate=*')
         this.successstories = response.data.data
         this.rows = this.successstories?.length;
     },

@@ -41,7 +41,7 @@ export default {
         }
     },
     created: async function () {
-        const response = await axios.get('https://dealdoxstrapi.pbwebvision.com/api/team?populate=deep,5')
+        const response = await axios.get('https://cms.dealdox.io/api/team?populate=deep,5')
         const { data: { attributes } } = response.data
         this.teams = attributes
     },
