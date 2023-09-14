@@ -1,11 +1,11 @@
 <template>
   <div>
   <Navbar class="navbar-style-two"/>
-  <MainBanner />
-  <TransformYourSales />
-  <Partner />
-  <WithOurSubscrip />
-  <EasyIntegration />
+  <!-- <MainBanner /> -->
+  <!-- <TransformYourSales /> -->
+  <!-- <Partner /> -->
+  <!-- <WithOurSubscrip /> -->
+  <!-- <EasyIntegration /> -->
   <LightningFast />
   <ImproveSales />
   <EasyCPQ />
@@ -38,11 +38,11 @@ import DealDoxFooter from '../layouts/DealDoxFooter';
 export default {
 components: {
     Navbar,
-    MainBanner,
-    TransformYourSales,
-    Partner,
-    WithOurSubscrip,
-    EasyIntegration,
+    // MainBanner,
+    // TransformYourSales,
+    // Partner,
+    // WithOurSubscrip,
+    // EasyIntegration,
     LightningFast,
     ImproveSales,
     EasyCPQ,
