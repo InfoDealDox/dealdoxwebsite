@@ -21,31 +21,31 @@
                 <div class="col-lg-2 col-md-6 col-sm-6">
                     <div class="single-footer-widget">
                         <router-link to="/" class="logo">
-                            <img src="../assets/images/footer-logo.svg" alt="logo">
+                            <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694695209/footer-logo_ytczcz.svg" alt="logo">
                         </router-link>
                         <p>The all-in-one solution that streamlines quoting, closes deals faster, and boosts sales
                             efficiency.</p>
                         <ul class="social-links">
                             <li>
                                 <a href="https://www.facebook.com/dealdox.io" target="_blank">
-                                    <img src="../assets/images/facebook.svg" alt="logo"></a>
+                                    <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694695209/facebook_m5vbrm.svg" alt="logo"></a>
                             </li>
                             <li>
                                 <a href="https://www.instagram.com/dealdox.io/" target="_blank">
-                                    <img src="../assets/images/instagram.svg" alt="logo">
+                                    <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694695209/instagram_ha9zry.svg" alt="logo">
                                 </a>
                             </li>
                             <li>
                                 <a href="https://www.linkedin.com/in/dealdox/" target="_blank">
-                                    <img src="../assets/images/linkedin.svg" alt="logo"></a>
+                                    <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694695210/linkedin_dlsana.svg" alt="logo"></a>
                             </li>
                             <li>
                                 <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FDealdox_io"
-                                    target="_blank"> <img src="../assets/images/twitter.svg" alt="logo"></a>
+                                    target="_blank"> <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694695208/twitter_izcbuf.svg" alt="logo"></a>
                             </li>
                             <li>
                                 <a href="https://www.youtube.com/channel/UCUyG5sKBn2yVwLG0PbbE8IA" target="_blank">
-                                    <img src="../assets/images/youtube.svg" alt="logo">
+                                    <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694695209/youtube_jjx6li.svg" alt="logo">
                                 </a>
                             </li>
                         </ul>
