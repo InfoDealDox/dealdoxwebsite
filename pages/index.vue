@@ -11,9 +11,9 @@
   <EasyCPQ />
   <AdditionalFeature />
   <AutomatedQuotes /> -->
-  <GetInTouch />
-  <Faq />
-  <DealDoxFooter/>
+  <!-- <GetInTouch /> -->
+  <!-- <Faq /> -->
+  <!-- <DealDoxFooter/> -->
 </div>
 </template>
 
@@ -49,8 +49,8 @@ components: {
     // AdditionalFeature,
     // AutomatedQuotes,
     // GetInTouch,
-    Faq,
-    DealDoxFooter,
+    // // Faq,
+    // DealDoxFooter,
 },
 }
 </script>
