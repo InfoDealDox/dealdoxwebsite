@@ -6,11 +6,11 @@
   <!-- <Partner /> -->
   <!-- <WithOurSubscrip /> -->
   <!-- <EasyIntegration /> -->
-  <LightningFast />
+  <!-- <LightningFast />
   <ImproveSales />
   <EasyCPQ />
   <AdditionalFeature />
-  <AutomatedQuotes />
+  <AutomatedQuotes /> -->
   <GetInTouch />
   <Faq />
   <DealDoxFooter/>
@@ -43,12 +43,12 @@ components: {
     // Partner,
     // WithOurSubscrip,
     // EasyIntegration,
-    LightningFast,
-    ImproveSales,
-    EasyCPQ,
-    AdditionalFeature,
-    AutomatedQuotes,
-    GetInTouch,
+    // LightningFast,
+    // ImproveSales,
+    // EasyCPQ,
+    // AdditionalFeature,
+    // AutomatedQuotes,
+    // GetInTouch,
     Faq,
     DealDoxFooter,
 },
