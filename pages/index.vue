@@ -1,7 +1,7 @@
 <template>
   <div>
   <Navbar class="navbar-style-two"/>
-  <!-- <MainBanner />
+  <MainBanner />
   <TransformYourSales />
   <Partner />
   <WithOurSubscrip />
@@ -12,7 +12,7 @@
   <AdditionalFeature />
   <AutomatedQuotes />
   <GetInTouch />
-  <Faq /> -->
+  <Faq />
   <DealDoxFooter/>
 </div>
 </template>
@@ -38,18 +38,18 @@ import DealDoxFooter from '../layouts/DealDoxFooter';
 export default {
 components: {
     Navbar,
-    // MainBanner,
-    // TransformYourSales,
-    // Partner,
-    // WithOurSubscrip,
-    // EasyIntegration,
-    // LightningFast,
-    // ImproveSales,
-    // EasyCPQ,
-    // AdditionalFeature,
-    // AutomatedQuotes,
-    // GetInTouch,
-    // Faq,
+    MainBanner,
+    TransformYourSales,
+    Partner,
+    WithOurSubscrip,
+    EasyIntegration,
+    LightningFast,
+    ImproveSales,
+    EasyCPQ,
+    AdditionalFeature,
+    AutomatedQuotes,
+    GetInTouch,
+    Faq,
     DealDoxFooter,
 },
 }
