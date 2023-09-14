@@ -9,7 +9,7 @@
                     </span>
                 </div>
                 <div class="stats-map text-center">
-                    <img src="../../assets/images/banner/banner-home.png" alt="cpq">
+                    <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694696703/banner-home_gsvir8.png" alt="cpq">
                 </div>
             </div>
         </div>
