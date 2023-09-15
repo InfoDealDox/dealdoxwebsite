@@ -1,19 +1,19 @@
 <template>
   <div>
   <Navbar class="navbar-style-two"/>
-  <!-- <MainBanner /> -->
-  <!-- <TransformYourSales /> -->
-  <!-- <Partner /> -->
-  <!-- <WithOurSubscrip /> -->
-  <!-- <EasyIntegration /> -->
-  <!-- <LightningFast />
+  <MainBanner />
+  <TransformYourSales />
+  <Partner />
+  <WithOurSubscrip />
+  <EasyIntegration />
+  <LightningFast />
   <ImproveSales />
   <EasyCPQ />
   <AdditionalFeature />
-  <AutomatedQuotes /> -->
-  <!-- <GetInTouch /> -->
-  <!-- <Faq /> -->
-  <!-- <DealDoxFooter/> -->
+  <AutomatedQuotes />
+  <GetInTouch />
+  <Faq />
+  <DealDoxFooter/>
 </div>
 </template>
 
@@ -38,19 +38,19 @@ import DealDoxFooter from '../layouts/DealDoxFooter';
 export default {
 components: {
     Navbar,
-    // MainBanner,
-    // TransformYourSales,
-    // Partner,
-    // WithOurSubscrip,
-    // EasyIntegration,
-    // LightningFast,
-    // ImproveSales,
-    // EasyCPQ,
-    // AdditionalFeature,
-    // AutomatedQuotes,
-    // GetInTouch,
-    // // Faq,
-    // DealDoxFooter,
+    MainBanner,
+    TransformYourSales,
+    Partner,
+    WithOurSubscrip,
+    EasyIntegration,
+    LightningFast,
+    ImproveSales,
+    EasyCPQ,
+    AdditionalFeature,
+    AutomatedQuotes,
+    GetInTouch,
+    Faq,
+    DealDoxFooter,
 },
 }
 </script>
