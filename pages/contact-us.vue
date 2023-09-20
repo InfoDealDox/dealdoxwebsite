@@ -4,7 +4,7 @@
         <PageHeader />
         <Partner />
         <Blog />
-        <Faq />
+        <!-- <Faq /> -->
         <DealDoxFooter />
     </div>
 </template>
@@ -15,7 +15,7 @@ import Navbar from '../layouts/Navbar';
 import PageHeader from '../components/ContactUs/PageHeader'
 import Partner from '../components/Common/Partner'
 import Blog from '../components/Common/Blog'
-import Faq from '../components/Common/Faq';
+// import Faq from '../components/Common/Faq';
 import DealDoxFooter from '../layouts/DealDoxFooter';
 import axios from 'axios';
 
@@ -26,7 +26,7 @@ export default {
         PageHeader,
         Partner,
         Blog,
-        Faq,
+        // Faq,
         DealDoxFooter,
     },
     data() {

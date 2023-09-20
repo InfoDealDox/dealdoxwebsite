@@ -11,7 +11,7 @@
                             customer satisfaction, increasing win rates, improving sales team productivity, and optimizing
                             revenue generation. Experience the Power of Quick Approvals. Get started with a free onboarding
                             today! Sign up now!</h3>
-                        <router-link to="/" class="default-btn">Get your free quotes now!</router-link>
+                        <router-link to="/sign-up-free-trial" class="default-btn">Start My Free Trial</router-link>
                     </div>
                 </div>
             </div>

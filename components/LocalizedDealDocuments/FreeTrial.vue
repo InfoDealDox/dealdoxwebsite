@@ -11,7 +11,7 @@
                             international markets, expand your customer base, and close deals faster. By speaking your
                             prospects' language, you demonstrate a deep understanding of their needs, culture, and
                             preferences, elevating your sales effectiveness to a whole new level. </h3>
-                        <router-link to="/" class="default-btn">Start My Free Trial</router-link>
+                        <router-link to="/sign-up-free-trial" class="default-btn">Start My Free Trial</router-link>
                     </div>
                 </div>
             </div>

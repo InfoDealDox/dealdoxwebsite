@@ -11,7 +11,7 @@
                             ensuring accurate and consistent quotes. It also enables seamless collaboration between sales
                             teams, partners, and customers, leading to faster sales cycles and improved customer
                             satisfaction. <br>Supercharge Your Sales Process and Get started free onboarding today!</h3>
-                        <router-link to="/" class="default-btn">Start My Free Trial</router-link>
+                        <router-link to="/sign-up-free-trial" class="default-btn">Start My Free Trial</router-link>
                     </div>
                 </div>
             </div>

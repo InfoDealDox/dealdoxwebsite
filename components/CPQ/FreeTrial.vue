@@ -10,7 +10,7 @@
                         <h3>Automated Quote Generation tool helps businesses achieve faster sales cycles and higher win
                             rates by providing accurate pricing and quotes in a timely manner. Get started free onboarding
                             today!</h3>
-                        <router-link to="/" class="default-btn">Start My Free Trial</router-link>
+                        <router-link to="/sign-up-free-trial" class="default-btn">Start My Free Trial</router-link>
                     </div>
                 </div>
             </div>

@@ -145,13 +145,13 @@
                         <h3>Get in Touch </h3>
                         <ul class="links-list">
                             <li>
-                                <p>Locate us on map</p>
+                                <!-- <p>Locate us on map</p> -->
                             </li>
                             <li>
                                 <p>Mail us - <a href="mailto:info@dealdox.io">info@dealdox.io</a></p>
                             </li>
                             <li>
-                                <p>Call us - +91 9999999999</p>
+                                <p>Call us - +91 8431995645</p>
                             </li>
                         </ul>
                     </div>
