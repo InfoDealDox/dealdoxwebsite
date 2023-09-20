@@ -4,7 +4,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="new-app-main-banner-wrap-image" data-aos="fade-left" data-aos-duration="2000">
-                        <img src="../../assets/images/cpq/cpq-banner.png" alt="image">
+                        <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694696577/cpq-banner_chwd0d.png" alt="image" loading="lazy">
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12">
@@ -22,16 +22,11 @@
                 </div>
             </div>
         </div>
-
-        <div class="new-app-main-banner-wrap-shape">
-            <img src="../../assets/images/more-home/banner/shape-5.png" alt="image">
-        </div>
     </div>
 </template>
 
 <script>
-
-export default ({
+export default {
     name: 'HomeBanner',
-})
+}
 </script>

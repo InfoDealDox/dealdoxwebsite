@@ -12,7 +12,7 @@
                     </div>
                     <div class="col-lg-6 col-md-12">
                         <div class="app-download-images" data-aos="fade-up">
-                            <img src="../../assets/images/HomePage/onboarding-assistance.png" alt="app-img">
+                            <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694696847/onboarding-assistance_izkf1q.png" alt="app-img">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">

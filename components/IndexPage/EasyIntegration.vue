@@ -35,7 +35,7 @@
 
                     <div class="col-lg-6 col-md-12">
                         <div class="software-integrations-list">
-                            <img src="../../assets/images/HomePage/Openroboticsoft.png" alt="border">
+                            <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694696873/Openroboticsoft_qsoyfe.png" alt="border">
                         </div>
                     </div>
                 </div>

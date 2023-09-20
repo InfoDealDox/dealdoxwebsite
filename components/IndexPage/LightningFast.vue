@@ -35,7 +35,7 @@
 
                     <div class="col-lg-6 col-md-12">
                         <div class="software-integrations-list">
-                            <img src="../../assets/images/lightning-fast-quote-approvals/lfqa-banner.png" alt="border">
+                            <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694696753/lfqa-banner_jscbk9.png" alt="border">
                         </div>
                     </div>
                 </div>

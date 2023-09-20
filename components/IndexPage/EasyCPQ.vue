@@ -35,7 +35,7 @@
 
                     <div class="col-lg-6 col-md-12">
                         <div class="software-integrations-list">
-                            <img src="../../assets/images/HomePage/easy-integration.png" alt="border">
+                            <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694696802/easy-integration_ndti2t.png" alt="border">
                         </div>
                     </div>
                 </div>
