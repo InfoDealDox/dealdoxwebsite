@@ -625,6 +625,10 @@ Free Trial Area CSS
   .about-img {
     margin-top: 30px;
   }
+  .about-img-one {
+    margin-top: 30px;
+    padding-left: 30px;
+  }
   .features-inner {
     padding-bottom: 0;
     padding-top: 25px;

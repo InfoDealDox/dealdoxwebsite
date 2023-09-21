@@ -235,6 +235,10 @@ p:last-child {
   background-color: #F9F9FD;
 }
 
+.bg-f4f4f6 {
+  background-color: #715CF3;
+}
+
 /*default-btn*/
 .default-btn {
   z-index: 1;
@@ -251,6 +255,51 @@ p:last-child {
   font-size: var(--fontSize);
   font-weight: 600;
 }
+
+/* New code for login page */
+
+.default-btn-two {
+  z-index: 1;
+  border: none;
+  position: relative;
+  padding: 16px 35px;
+  margin-top: 40;
+  margin-bottom: 40;
+  border-radius: 0px;
+  display: inline-block;
+  color: var(--whiteColor);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  -webkit-box-shadow: 0px 12px 35px rgba(244, 235, 238, 0.25);
+  box-shadow: 0px 12px 35px rgba(244, 236, 239, 0.25);
+  font-size: var(--fontSize);
+  font-weight: 600;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+
+
+.default-btn-one {
+  z-index: 1;
+  border: none;
+  position: relative;
+  padding: 16px 271px;
+  margin-top: 40;
+  margin-bottom: 40;
+  border-radius: 0px;
+  display: inline-block;
+  color: var(--whiteColor);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  -webkit-box-shadow: 0px 12px 35px rgba(244, 235, 238, 0.25);
+  box-shadow: 0px 12px 35px rgba(244, 236, 239, 0.25);
+  font-size: var(--fontSize);
+  font-weight: 600;
+  background-color: #715CF3;
+}
+
+/* Code Ends */
 
 .default-btn-home {
   z-index: 1;
@@ -369,7 +418,7 @@ p:last-child {
 
 .section-title-home h4 {
   color: #ffffff;
-  font-size: 30px;
+  font-size: 39px;
   font-weight: 600;
 }
 
@@ -883,6 +932,16 @@ textarea.form-control {
   margin-bottom: 0;
   padding-left: 25px;
 }
+
+/* New css added */
+.form-check-label-one {
+  padding-right: 8px;
+  padding-left: 473px;
+  margin-top: -23px;
+  color: #E53935;
+  text-decoration: underline;
+}
+/* New css end */
 
 .page-title-content ul {
   padding-left: 0;
@@ -4038,19 +4097,21 @@ New Demo CSS
   border-bottom: 1px solid var(--blackColor);
 }
 
-/* New App Download Area CSS */
-.new-app-download-area {
-  background-image: url(../../assets/images/more-home/app-download/download-bg.jpg);
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+/* For login page css */
 
-.new-app-download-content {
+
+
+/* login css ends here */
+
+
+
+/* New App Download Area CSS */
+
+.new-app-download-one-content {
   position: relative;
 }
 
-.new-app-download-content .big-text {
+.new-app-download-content-one .big-text {
   font-size: 100px;
   font-weight: 800;
   opacity: 0.1;
@@ -4062,7 +4123,7 @@ New Demo CSS
   left: -5px;
 }
 
-.new-app-download-content .sub-title {
+.new-app-download-content-one .sub-title {
   font-size: 14px;
   display: inline-block;
   background: var(--gradientColor);
@@ -4072,7 +4133,7 @@ New Demo CSS
   font-weight: 500;
 }
 
-.new-app-download-content h2 {
+.new-app-download-content-one h2 {
   font-size: 36px;
   line-height: 1.4;
   margin-bottom: 20px;
