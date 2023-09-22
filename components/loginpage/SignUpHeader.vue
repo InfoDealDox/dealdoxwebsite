@@ -16,12 +16,12 @@
                                         method="POST">
                                         <input name="oid" type="hidden" value="00D2v000003PByK" />
                                         <input name="retURL" type="hidden"
-                                            value="https://dealdox.pbwebvision.com/thank-you" />
+                                            value="https://www.dealdox.io/thank-you" />
                                         <div class="row">
                                             <div class="col-lg-12 col-md-12 col-sm-12">
                                                 <div class="form-group">
                                                     <p>Email</p>
-                                                    <input type="text" maxlength="40" name="first_name" required
+                                                    <input type="email" maxlength="40" name="first_name" required
                                                         class="form-control" id="first_name" placeholder="Eg: David">
                                                 </div>
                                             </div>
@@ -29,7 +29,7 @@
                                             <div class="col-lg-12 col-md-12 col-sm-12">
                                                 <div class="form-group">
                                                     <p>Password</p>
-                                                    <input type="text" maxlength="40" name="last_name" required
+                                                    <input type="password" maxlength="40" name="last_name" required
                                                         class="form-control" id="last_name" placeholder="Eg: Marsh">
                                                 </div>
                                             </div>
@@ -42,7 +42,8 @@
                                                         Remember me <router-link to="/terms-of-use"> </router-link>
                                                     </label>
                                                     <label class="form-check-label-one" for="flexCheckDefault">
-                                                        forgot my password? <router-link to="/terms-of-use"> </router-link>
+                                                        <router-link to="/sign-up-free-trial"> forgot my password?</router-link>
+ 
                                                     </label>
                                                 </div>
                                             </div>
@@ -52,7 +53,7 @@
                                                         class='bx bx-paper-plane'></i>
                                                     Log In </button>
                                             </div>
-                                            <p> Haven’t joined us as a customer yet? <span class="sub-title-faq">Sign Up
+                                            <p> Haven’t joined us as a customer yet? <span class="sub-title-faq"> <router-link to="/sign-up-free-trial"> Sign Up</router-link>
                                                 </span> </p>
 
                                         </div>
@@ -75,7 +76,7 @@
                                         method="POST">
                                         <input name="oid" type="hidden" value="00D2v000003PByK" />
                                         <input name="retURL" type="hidden"
-                                            value="https://dealdox.pbwebvision.com/thank-you" />
+                                            value="https://dealdox.io/demo" />
                                         <div class="row ">
                                             <div class="section-title-home">
                                                 <h4>Generate Quotations 10x Faster with DealDox CPQ!</h4>

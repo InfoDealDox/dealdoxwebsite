@@ -941,6 +941,14 @@ textarea.form-control {
   color: #E53935;
   text-decoration: underline;
 }
+
+.form-check-label-one a {
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  color: #E53935;
+  text-decoration: none;
+  outline: 0 !important;
+}
 /* New css end */
 
 .page-title-content ul {
