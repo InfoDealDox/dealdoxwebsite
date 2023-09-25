@@ -70,7 +70,7 @@
                                         method="POST">
                                         <input name="oid" type="hidden" value="00D2v000003PByK" />
                                         <input name="retURL" type="hidden"
-                                            value="https://dealdox.pbwebvision.com/thank-you" />
+                                            value="https://dealdox.io/thank-you" />
                                         <div class="row">
                                             <div class="col-lg-6 col-md-6 col-sm-6">
                                                 <div class="form-group">

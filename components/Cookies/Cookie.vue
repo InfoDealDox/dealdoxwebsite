@@ -14,7 +14,7 @@
                 <p class="text-justify">DealDox and our third-party partners utilize these cookies to deliver interest-based advertising and personalized content across various browsers and devices. 
                 </p>
 
-                <p> For more information, please refer to our <a href="https://dealdox.pbwebvision.com/privacy-policy">Privacy Policy.</a>  </p>
+                <p> For more information, please refer to our <a href="https://dealdox.io/privacy-policy">Privacy Policy.</a>  </p>
             </div>
         </div>
     </div>
