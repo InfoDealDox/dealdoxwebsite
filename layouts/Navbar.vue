@@ -87,9 +87,9 @@
                     <div class="others-option">
                         <router-link to="/demo" class="default-btn">Request a Demo</router-link>
                     </div>
-                    <div class="others-option">
+                    <!-- <div class="others-option">
                         <router-link to="/login" class="default-btn">Login</router-link>
-                    </div>
+                    </div> -->
                 </nav>
             </div>
         </div>

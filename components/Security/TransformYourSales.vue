@@ -29,7 +29,7 @@
                         <div class="icon">
                             <img src="../../assets/images/security/PenetrationTesting.png" alt="image">
                         </div>
-                        <h5>Penetration Testing</h5>
+                        <h5>Penetration<br>Testing</h5>
                         <p>Essential penetration testing identifies and addresses vulnerabilities, ensuring proactive security measures.</p>
                     </div>
                 </div>
@@ -47,7 +47,7 @@
                         <div class="icon">
                             <img src="../../assets/images/security/DisasterRecover(DRP).png" alt="image">
                         </div>
-                        <h5>Disaster Recovery Plan</h5>
+                        <h5>Disaster Recovery<br>Plan</h5>
                         <p>A robust DRP ensures business continuity in unforeseen events</p>
                     </div>
                 </div>
@@ -66,7 +66,7 @@
                         <div class="icon">
                             <img src="../../assets/images/security/SourceCodeReview.png" alt="image">
                         </div>
-                        <h5>Source Code Reviews</h5>
+                        <h5>Source Code<br>Reviews</h5>
                         <p>Thorough reviews help identify and address code vulnerabilities.</p>
                     </div>
                 </div>

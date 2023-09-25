@@ -439,12 +439,12 @@ Features Area CSS
   background-color: #F6F8FA;
   -webkit-transition: var(--transition);
   transition: var(--transition);
-  padding: 70px 50px 50px 80px;
+  padding: 70px 40px 50px 40px;
   margin-bottom: 80px;
   border-radius: 20px;
   position: relative;
   z-index: 1;
-  /* height: 261px; */
+  height: 261px;
 }
 
 
