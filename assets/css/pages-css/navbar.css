@@ -754,6 +754,7 @@ border-radius: 25px;
   }
   .navbar-area .jexa-nav .navbar .others-option .default-btn {
     padding: 8px 20px;
+    margin-top: -5;
   }
 }
 
