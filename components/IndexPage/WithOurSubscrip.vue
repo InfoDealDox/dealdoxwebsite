@@ -83,7 +83,7 @@
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <h5 class="with-top-border-subscription">Staffing Requirements Documnet</h5>
+                                    <h5 class="with-top-border-subscription">Staffing Requirements Document</h5>
                                 </li>
                             </ul>
                         </div>
