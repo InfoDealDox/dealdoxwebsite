@@ -5,7 +5,7 @@
                 <h1>Meet our Extraordinary Individuals who bring Our Values to Life</h1>
             </div>
             <div class="row justify-content-center" v-if="teams !== null">
-                <div class="col-lg-3 col-md-6 col-sm-6" v-for="team in teams.singleTeam" :key="team.id">
+                <div class="col-lg-4 col-md-4 col-sm-4" v-for="team in teams.singleTeam" :key="team.id">
                     <div class="single-team-member bg-white">
                         <div class="image">
                             <img :src="team.image.data.attributes.url" alt="teams">

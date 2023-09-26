@@ -5,7 +5,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="new-app-main-banner-wrap-content heading-title">
                         <h1>{{ details[0].attributes.shortDesc }}</h1>
-                        <p>{{ details[0].attributes.title }}</p>
+                        <h3>{{ details[0].attributes.title }}</h3>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12">
