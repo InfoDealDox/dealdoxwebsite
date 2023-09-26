@@ -40,8 +40,8 @@
                                     <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694695210/linkedin_dlsana.svg" alt="logo"></a>
                             </li>
                             <li>
-                                <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FDealdox_io"
-                                    target="_blank"> <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694695208/twitter_izcbuf.svg" alt="logo"></a>
+                                <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FDealdox_io" target="_blank">
+                                <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1695711842/twitter-logo_tlcmv6.svg" alt="logo"></a>
                             </li>
                             <li>
                                 <a href="https://www.youtube.com/channel/UCUyG5sKBn2yVwLG0PbbE8IA" target="_blank">
