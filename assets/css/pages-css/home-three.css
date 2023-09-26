@@ -1852,6 +1852,13 @@ Blog Area CSS
     background-repeat: no-repeat;
   }
 
+  .features-item-free-quotes.with-border h3 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
   .features-item-mid-content-senction h3 {
     font-size: 18px;
     font-weight: 700;
