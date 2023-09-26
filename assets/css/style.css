@@ -787,7 +787,7 @@ textarea.form-control {
   padding-bottom: 150px;
   padding-top: 150px;
   margin-top: 80px;
-  background-size: contain;
+  background-size: cover;
 }
 
 .page-title-area.page-title-style-privacy {
@@ -798,7 +798,7 @@ textarea.form-control {
   padding-bottom: 150px;
   padding-top: 150px;
   margin-top: 80px;
-  background-size: contain;
+  background-size: cover;
 }
 
 .page-title-area.page-title-style-termsofuse {
@@ -809,7 +809,7 @@ textarea.form-control {
   padding-bottom: 150px;
   padding-top: 150px;
   margin-top: 80px;
-  background-size: contain;
+  background-size: cover;
 }
 
 .page-title-area::before {
