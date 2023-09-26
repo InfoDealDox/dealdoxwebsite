@@ -44,8 +44,8 @@
                                     </li>
                                 </ul>
                                 <div class="btn-box">
-                                    <router-link to="/sign-up-free-trial" class="default-btn-home">Start My Free
-                                        Trial</router-link>
+                                    <NuxtLink to="/sign-up-free-trial" class="default-btn-home">Start My Free
+                                        Trial</NuxtLink>
                                 </div>
                             </div>
                         </div>

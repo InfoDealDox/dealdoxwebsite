@@ -9,7 +9,7 @@
                         </div>
                         <p>The page you are looking for might have been removed had its name changed or is temporarily
                             unavailable.</p>
-                        <router-link to="/" class="default-btn">Back To Home</router-link>
+                        <NuxtLink to="/" class="default-btn">Back To Home</NuxtLink>
                     </div>
                 </div>
             </div>

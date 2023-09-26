@@ -15,15 +15,15 @@
                 )" :key="ebook.id">
                     <div class="single-blog-post bg-F9F9FD">
                         <div class="image">
-                            <router-link :to="'/ebook-details/' + ebook.attributes.slug" class="d-block">
+                            <NuxtLink :to="'/ebook-details/' + ebook.attributes.slug" class="d-block">
                                 <img :src="ebook.attributes.image.data.attributes.url" alt="blog">
-                            </router-link>
+                            </NuxtLink>
                         </div>
                         <div class="content">
                             <h3>
-                                <router-link :to="'/ebook-details/' + ebook.attributes.slug">
+                                <NuxtLink :to="'/ebook-details/' + ebook.attributes.slug">
                                     {{ ebook.attributes.name }}
-                                </router-link>
+                                </NuxtLink>
                             </h3>
                             <ul class="meta">
                                 <li><i class="ri-time-line"></i> {{ ebook.attributes.date }}</li>

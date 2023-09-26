@@ -39,10 +39,10 @@
                                                     <input class="form-check-input" type="checkbox" value=""
                                                         id="flexCheckDefault">
                                                     <label class="form-check-label" for="flexCheckDefault">
-                                                        Remember me <router-link to="/terms-of-use"> </router-link>
+                                                        Remember me <NuxtLink to="/terms-of-use"> </NuxtLink>
                                                     </label>
                                                     <label class="form-check-label-one" for="flexCheckDefault">
-                                                        <router-link to="/sign-up-free-trial"> forgot my password?</router-link>
+                                                        <NuxtLink to="/sign-up-free-trial"> forgot my password?</NuxtLink>
  
                                                     </label>
                                                 </div>
@@ -53,7 +53,7 @@
                                                         class='bx bx-paper-plane'></i>
                                                     Log In </button>
                                             </div>
-                                            <p> Haven’t joined us as a customer yet? <span class="sub-title-faq"> <router-link to="/sign-up-free-trial"> Sign Up</router-link>
+                                            <p> Haven’t joined us as a customer yet? <span class="sub-title-faq"> <NuxtLink to="/sign-up-free-trial"> Sign Up</NuxtLink>
                                                 </span> </p>
 
                                         </div>
@@ -72,16 +72,11 @@
                         <div class="contact-area">
                             <div class="container">
                                 <div class="contact-form ">
-                                    <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8"
-                                        method="POST">
-                                        <input name="oid" type="hidden" value="00D2v000003PByK" />
-                                        <input name="retURL" type="hidden"
-                                            value="https://dealdox.io/demo" />
                                         <div class="row ">
                                             <div class="section-title-home">
-                                                <h4>Generate Quotations 10x Faster with DealDox CPQ!</h4>
                                             </div>
                                             <div class="app-download-content-one">
+                                                <h4>Generate Quotations 10x Faster with DealDox CPQ!</h4>
                                                 <h6> Close deals faster now</h6>
                                                 <p> Introducing DealDox, your ultimate destination for streamlining
                                                     sales processes. Emrace our Lighting Platform, delivering
@@ -90,17 +85,18 @@
                                                     more efficient way to close deals.</p>
 
                                             </div>
-                                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                            <div class="section-title-home">
+                                            </div>
+                                            <!-- <div class="col-lg-12 col-md-12 col-sm-12">
                                                 <button type="submit" name="submit" required class="default-btn-two"><i
                                                         class='bx bx-paper-plane'></i>
                                                     Request Demo </button>
-                                            </div>
+                                            </div> -->
                                             <div class="">
                                                 <img src="../../assets/images/logingroup.png" data-aos="fade-up"
                                                     alt="about">
                                             </div>
                                         </div>
-                                    </form>
                                 </div>
                             </div>
                         </div>

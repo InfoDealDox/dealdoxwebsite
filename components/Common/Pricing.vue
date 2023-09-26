@@ -22,7 +22,7 @@
                             <li><i class="ri-check-line"></i> Adaptations to meet your needs and so much more!</li>
                         </ul>
                         <div class="pricing-btn">
-                            <router-link to="/" class="default-btn"> Sign Up Now!</router-link>
+                            <NuxtLink to="/" class="default-btn"> Sign Up Now!</NuxtLink>
                         </div>
                     </div>
                 </div>
@@ -47,7 +47,7 @@
 
                         </ul>
                         <div class="pricing-btn">
-                            <router-link to="/" class="default-btn">Purchase Plan</router-link>
+                            <NuxtLink to="/" class="default-btn">Purchase Plan</NuxtLink>
                         </div>
                     </div>
                 </div>
@@ -70,14 +70,14 @@
                             <li><i class="ri-check-line"></i> Online forms</li>
                         </ul>
                         <div class="pricing-btn">
-                            <router-link to="/" class="default-btn">Request a Quote</router-link>
+                            <NuxtLink to="/" class="default-btn">Request a Quote</NuxtLink>
                         </div>
                     </div>
                 </div> -->
             </div>
 
             <div class="app-pricing-bottom-text">
-                <router-link to="/pricing">See All Pricing Plan</router-link>
+                <NuxtLink to="/pricing">See All Pricing Plan</NuxtLink>
             </div>
         </div>
     </div>

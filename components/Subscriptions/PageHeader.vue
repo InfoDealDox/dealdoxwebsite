@@ -57,7 +57,7 @@
                             <div class="contact-limited-offer">
                                 <div class="signup-button">
                                     <div class="btn-box">
-                                        <!-- <router-link to="/SignUp" class="default-btn">Sign Up</router-link> -->
+                                        <!-- <NuxtLink to="/SignUp" class="default-btn">Sign Up</NuxtLink> -->
                                     </div>
                                 </div>
                             </div>

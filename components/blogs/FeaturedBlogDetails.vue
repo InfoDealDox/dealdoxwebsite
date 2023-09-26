@@ -5,15 +5,15 @@
                 <div class="col-lg-8 col-md-12">
                     <div class="blog-details-desc">
                         <div class="article-image">
-                            <!-- <router-link to="/blog-grid" class="tag">{{ details[0].attributes.tag }}</router-link> -->
+                            <!-- <NuxtLink to="/blog-grid" class="tag">{{ details[0].attributes.tag }}</NuxtLink> -->
                             <img :src="details[0].attributes.image.data.attributes.url" alt="image">
                         </div>
                         <div class="article-content">
                             <div class="entry-meta">
                                 <ul>
                                     <li><i class="ri-calendar-2-line"></i>{{ details[0].attributes.date }}</li>
-                                    <!-- <li><i class="ri-message-2-line"></i><router-link to="/blog-grid">(4)
-                                            Comments</router-link></li> -->
+                                    <!-- <li><i class="ri-message-2-line"></i><NuxtLink to="/blog-grid">(4)
+                                            Comments</NuxtLink></li> -->
                                 </ul>
                             </div>
                             <h4>{{ details[0].attributes.title }}</h4>
@@ -25,7 +25,7 @@
                                 <div class="d-flex align-items-center">
                                     <img src="../../assets/images/user/user6.jpg" alt="user">
                                     <div class="title">
-                                        <span class="name">By <router-link to="/blog-grid">Deal Dox</router-link></span>
+                                        <span class="name">By <NuxtLink to="/blog-grid">Deal Dox</NuxtLink></span>
                                         <span class="date">March 17, 2021</span>
                                     </div>
                                 </div>
@@ -51,38 +51,38 @@
                                 <div class="col-lg-6 col-md-6">
                                     <div class="single-blog-post">
                                         <div class="image">
-                                            <router-link to="/blog-details" class="d-block">
+                                            <NuxtLink to="/blog-details" class="d-block">
                                                 <img src="../../assets/images/blog/blog2.jpg" alt="blog">
-                                            </router-link>
-                                            <router-link to="/blog-grid" class="tag">Branding</router-link>
+                                            </NuxtLink>
+                                            <NuxtLink to="/blog-grid" class="tag">Branding</NuxtLink>
                                         </div>
                                         <div class="content">
                                             <ul class="meta">
                                                 <li><i class="ri-time-line"></i> April 14, 2021</li>
-                                                <li><i class="ri-message-2-line"></i> <router-link to="/blog-details">(0)
-                                                        Comment</router-link></li>
+                                                <li><i class="ri-message-2-line"></i> <NuxtLink to="/blog-details">(0)
+                                                        Comment</NuxtLink></li>
                                             </ul>
-                                            <h3><router-link to="/blog-details">Branding involves developing strategy to
-                                                    create a point of differentiation</router-link></h3>
+                                            <h3><NuxtLink to="/blog-details">Branding involves developing strategy to
+                                                    create a point of differentiation</NuxtLink></h3>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6">
                                     <div class="single-blog-post">
                                         <div class="image">
-                                            <router-link to="/blog-details" class="d-block">
+                                            <NuxtLink to="/blog-details" class="d-block">
                                                 <img src="../../assets/images/blog/blog3.jpg" alt="blog">
-                                            </router-link>
-                                            <router-link to="/blog-grid" class="tag">Agency</router-link>
+                                            </NuxtLink>
+                                            <NuxtLink to="/blog-grid" class="tag">Agency</NuxtLink>
                                         </div>
                                         <div class="content">
                                             <ul class="meta">
                                                 <li><i class="ri-time-line"></i> April 13, 2021</li>
-                                                <li><i class="ri-message-2-line"></i> <router-link to="/blog-details">(4)
-                                                        Comment</router-link></li>
+                                                <li><i class="ri-message-2-line"></i> <NuxtLink to="/blog-details">(4)
+                                                        Comment</NuxtLink></li>
                                             </ul>
-                                            <h3><router-link to="/blog-details">Design is a plan or specification for the
-                                                    construction of an object</router-link></h3>
+                                            <h3><NuxtLink to="/blog-details">Design is a plan or specification for the
+                                                    construction of an object</NuxtLink></h3>
                                         </div>
                                     </div>
                                 </div>
@@ -109,7 +109,7 @@
                                                 type specimen.</p>
                                         </div>
                                         <div class="reply">
-                                            <router-link to="/blog-details" class="comment-reply-link">Reply</router-link>
+                                            <NuxtLink to="/blog-details" class="comment-reply-link">Reply</NuxtLink>
                                         </div>
                                     </div>
                                     <ol class="children">
@@ -263,13 +263,13 @@
                         <div class="widget widget_jexa_posts_thumb">
                             <h3 class="widget-title">Popular Posts</h3>
                             <article class="item" v-for="blog in blogs" :key="blog.id">
-                                <router-link :to="'/blog-details/' + blog.attributes.slug" class="thumb">
+                                <NuxtLink :to="'/blog-details/' + blog.attributes.slug" class="thumb">
                                     <img :src="blog.attributes.image.data.attributes.url" alt="blog">
-                                </router-link>
+                                </NuxtLink>
                                 <div class="info">
-                                    <h4 class="title usmall"><router-link :to="'/blog-details/' + blog.attributes.slug">
+                                    <h4 class="title usmall"><NuxtLink :to="'/blog-details/' + blog.attributes.slug">
                                             {{ blog.attributes.title }}
-                                        </router-link></h4>
+                                        </NuxtLink></h4>
                                     <span class="date"><i class="ri-calendar-2-fill"></i> {{ blog.attributes.date
                                     }}</span>
                                 </div>
@@ -280,8 +280,8 @@
                             <h3 class="widget-title">Categories</h3>
                             <ul>
                                 <li v-for="category in categories" :key="category.id">
-                                    <router-link :to="`/category-details/${category.attributes.slug}`">{{
-                                        category.attributes.name }}</router-link>
+                                    <NuxtLink :to="`/category-details/${category.attributes.slug}`">{{
+                                        category.attributes.name }}</NuxtLink>
                                 </li>
                             </ul>
                         </div>
@@ -289,23 +289,23 @@
                         <!-- <div class="widget widget_archive">
                             <h3 class="widget-title">Archives</h3>
                             <ul>
-                                <li><router-link to="/blog-right-sidebar">May 2020 (1)</router-link></li>
-                                <li><router-link to="/blog-right-sidebar">April 2020 (2)</router-link></li>
-                                <li><router-link to="/blog-right-sidebar">June 2020 (3)</router-link></li>
+                                <li><NuxtLink to="/blog-right-sidebar">May 2020 (1)</NuxtLink></li>
+                                <li><NuxtLink to="/blog-right-sidebar">April 2020 (2)</NuxtLink></li>
+                                <li><NuxtLink to="/blog-right-sidebar">June 2020 (3)</NuxtLink></li>
                             </ul>
                         </div> -->
 
                         <!-- <div class="widget widget_tag_cloud">
                             <h3 class="widget-title">Tags</h3>
                             <div class="tagcloud">
-                                <router-link to="/blog-right-sidebar">Advertisment</router-link>
-                                <router-link to="/blog-right-sidebar">Business</router-link>
-                                <router-link to="/blog-right-sidebar">Life</router-link>
-                                <router-link to="/blog-right-sidebar">Lifestyle</router-link>
-                                <router-link to="/blog-right-sidebar">Fashion</router-link>
-                                <router-link to="/blog-right-sidebar">Ads</router-link>
-                                <router-link to="/blog-right-sidebar">Inspiration</router-link>
-                                <router-link to="/blog-right-sidebar">Blog</router-link>
+                                <NuxtLink to="/blog-right-sidebar">Advertisment</NuxtLink>
+                                <NuxtLink to="/blog-right-sidebar">Business</NuxtLink>
+                                <NuxtLink to="/blog-right-sidebar">Life</NuxtLink>
+                                <NuxtLink to="/blog-right-sidebar">Lifestyle</NuxtLink>
+                                <NuxtLink to="/blog-right-sidebar">Fashion</NuxtLink>
+                                <NuxtLink to="/blog-right-sidebar">Ads</NuxtLink>
+                                <NuxtLink to="/blog-right-sidebar">Inspiration</NuxtLink>
+                                <NuxtLink to="/blog-right-sidebar">Blog</NuxtLink>
                             </div>
                         </div> -->
 

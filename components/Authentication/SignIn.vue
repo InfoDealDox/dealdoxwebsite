@@ -5,9 +5,9 @@
                 <div class="container">
                     <div class="signin-form">
                         <div class="logo">
-                            <router-link class="navbar-brand" to="/">
+                            <NuxtLink class="navbar-brand" to="/">
                                 <img src="~/assets/images/logo.svg" alt="logo">
-                            </router-link>
+                            </NuxtLink>
                         </div>
                         <h2>Sign In</h2>
                         <form>
@@ -25,15 +25,15 @@
                                     </p>
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-6 lost-your-password-wrap">
-                                    <router-link to="/ForgetPassword" class="lost-your-password">
+                                    <NuxtLink to="/ForgetPassword" class="lost-your-password">
                                         Lost your password?
-                                    </router-link>
+                                    </NuxtLink>
                                 </div>
                             </div>
                             <button type="submit">Sign In</button>
                             <span class="dont-account">
                                 Don't have an account?
-                                <router-link to="/SignUp">Sign Up Now!</router-link>
+                                <NuxtLink to="/SignUp">Sign Up Now!</NuxtLink>
                             </span>
                         </form>
                         <div class="sign-in-with-button">

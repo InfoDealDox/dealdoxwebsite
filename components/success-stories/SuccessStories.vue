@@ -26,15 +26,15 @@
                 <div class="col-lg-4 col-md-6" v-for="successstory in successstories" :key="successstory.id">
                     <div class="single-blog-post">
                         <div class="image">
-                            <router-link :to="'/success-stories-details/' + successstory.attributes.slug" class="d-block">
+                            <NuxtLink :to="'/success-stories-details/' + successstory.attributes.slug" class="d-block">
                                 <img :src="successstory.attributes.image.data.attributes.url" alt="blog">
-                            </router-link>
+                            </NuxtLink>
                         </div>
                         <div class="content">
                             <h3>
-                                <router-link :to="'/success-stories-details/' + successstory.attributes.slug">
+                                <NuxtLink :to="'/success-stories-details/' + successstory.attributes.slug">
                                     {{ successstory.attributes.title }}
-                                </router-link>
+                                </NuxtLink>
                             </h3>
                         </div>
                     </div>
@@ -43,10 +43,10 @@
                     <div class="pagination-area">
                         <!-- <div class="nav-links">
                             <span class="page-numbers current">1</span>
-                            <router-link to="/blog-grid" class="page-numbers">2</router-link>
-                            <router-link to="/blog-grid" class="page-numbers">3</router-link>
-                            <router-link to="/blog-grid" class="next page-numbers" title="Next Page"><i
-                                    class="ri-arrow-right-line"></i></router-link>
+                            <NuxtLink to="/blog-grid" class="page-numbers">2</NuxtLink>
+                            <NuxtLink to="/blog-grid" class="page-numbers">3</NuxtLink>
+                            <NuxtLink to="/blog-grid" class="next page-numbers" title="Next Page"><i
+                                    class="ri-arrow-right-line"></i></NuxtLink>
                         </div> -->
                         <b-pagination v-model="currentPage" :total-rows="rows" :per-page="perPage" aria-controls="itemList"
                             align="center"></b-pagination>

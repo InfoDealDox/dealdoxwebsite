@@ -21,7 +21,7 @@
                     <div class="col-lg-12 col-md-12">
                         <div class="blog-details-desc">
                             <div class="article-image">
-                                <!-- <router-link to="/blog-grid" class="tag">{{ details[0].attributes.tag }}</router-link> -->
+                                <!-- <NuxtLink to="/blog-grid" class="tag">{{ details[0].attributes.tag }}</NuxtLink> -->
                                 <!-- <img :src="details[0].attributes.image.data.attributes.url" alt="image"> -->
                             </div>
                             <div class="article-content">

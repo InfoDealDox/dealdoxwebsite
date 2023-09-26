@@ -303,15 +303,15 @@
                                                 <input class="form-check-input" type="checkbox" value=""
                                                     id="flexCheckDefault">
                                                 <label class="form-check-label" for="flexCheckDefault">
-                                                    I agree to the <router-link to="/terms-of-use"> Terms of
-                                                        Use</router-link>
+                                                    I agree to the <NuxtLink to="/terms-of-use"> Terms of
+                                                        Use</NuxtLink>
                                                 </label>
                                             </div>
                                         </div>
 
                                         <p> By registering, you confirm that you agree to the storing and processing of
-                                            your personal data by DealDox as described in the<router-link
-                                                to="/privacy-policy"> Privacy Statement.</router-link> </p>
+                                            your personal data by DealDox as described in the<NuxtLink
+                                                to="/privacy-policy"> Privacy Statement.</NuxtLink> </p>
 
 
                                         <div style="display: none;">

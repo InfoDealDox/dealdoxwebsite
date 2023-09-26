@@ -37,8 +37,8 @@
                         <p>Empower your sales team with DealDox for faster and more accurate quotes for timely deal delivery
                         </p>
                         <div class="tb-30">
-                            <router-link to="/requestdemo" required class="default-btn"><i class='bx bx-paper-plane'></i>
-                                Request a Demo</router-link>
+                            <NuxtLink to="/requestdemo" required class="default-btn"><i class='bx bx-paper-plane'></i>
+                                Request a Demo</NuxtLink>
                         </div>
                     </div>
                 </div>

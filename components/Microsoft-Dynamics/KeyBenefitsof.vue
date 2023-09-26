@@ -14,7 +14,7 @@
                         </div>
                         <h3>Swift Quotes</h3>
                         <p>Generate quotations and any deal documents in a few seconds.</p>
-                        <router-link to="/quoting-software" class="default-btn">Know more</router-link>
+                        <NuxtLink to="/quoting-software" class="default-btn">Know more</NuxtLink>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-6 col-sm-6 col-md-6">
@@ -25,7 +25,7 @@
                         <h3>Quick Approvals</h3>
                         <p>Complex approvals are made easy with DealDox - it simplifies the sales process.
                         </p>
-                        <router-link to="/approval-software" class="default-btn">Know more</router-link>
+                        <NuxtLink to="/approval-software" class="default-btn">Know more</NuxtLink>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-6 col-sm-6 col-md-6">
@@ -35,7 +35,7 @@
                             </div>                       
                              <h3>Configure Price Quote (CPQ)</h3>
                         <p>Easy configurations and error-free quotes in minutes.</p>
-                        <router-link to="/services-cpq" class="default-btn">Know more</router-link>
+                        <NuxtLink to="/services-cpq" class="default-btn">Know more</NuxtLink>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-6 col-sm-6 col-md-6">
@@ -45,7 +45,7 @@
                         </div>
                         <h3>Subscription</h3>
                         <p>Upselling, Expand and Automated renewals. Pay only for what you use.</p>
-                        <router-link to="/subscriptions" class="default-btn">Know more</router-link>
+                        <NuxtLink to="/subscriptions" class="default-btn">Know more</NuxtLink>
                     </div>
                 </div>
             </div>

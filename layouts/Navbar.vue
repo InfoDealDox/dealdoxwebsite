@@ -3,9 +3,9 @@
         <div class="jexa-nav">
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <router-link class="navbar-brand" to="/#">
+                    <NuxtLink class="navbar-brand" to="/#">
                         <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694695208/logo_m8wwsx.svg" alt="logo">
-                    </router-link>
+                    </NuxtLink>
 
                     <div class="navbar-toggler" @click="active = !active" :aria-pressed="active ? 'true' : 'false'"
                         v-bind:class="{ 'active': button_active_state }"
@@ -17,29 +17,29 @@
 
                     <div class="collapse navbar-collapse" :class="{ show: active }">
                         <ul class="navbar-nav">
-                            <li class="nav-item"><a href="/" class="toggle nav-link">Home</a>
+                            <li class="nav-item"><a href="/#" class="toggle nav-link">Home</a>
                             </li>
 
                             <li class="nav-item"><a href="#" class="dropdown-toggle nav-link">Features</a>
                                 <ul class="dropdown-menu">
                                     <li class="nav-item">
-                                        <router-link to="/services-cpq" class="nav-link">CPQ</router-link>
+                                        <NuxtLink to="/services-cpq" class="nav-link">CPQ</NuxtLink>
                                     </li>
                                     <li class="nav-item">
-                                        <router-link to="/cpq-integrations" class="nav-link">Integration</router-link>
+                                        <NuxtLink to="/cpq-integrations" class="nav-link">Integration</NuxtLink>
                                     </li>
                                     <li class="nav-item">
-                                        <router-link to="/quoting-software" class="nav-link">Automated Quotations
-                                        </router-link>
+                                        <NuxtLink to="/quoting-software" class="nav-link">Automated Quotations
+                                        </NuxtLink>
                                     </li>
                                     <li class="nav-item">
-                                        <router-link to="/approval-software" class="nav-link">Quick
-                                            Approvals</router-link>
+                                        <NuxtLink to="/approval-software" class="nav-link">Quick
+                                            Approvals</NuxtLink>
                                     </li>
                                     <li class="nav-item">
-                                        <router-link to="/localized-deal-documents" class="nav-link">
+                                        <NuxtLink to="/localized-deal-documents" class="nav-link">
                                             Localized Deal Documents
-                                        </router-link>
+                                        </NuxtLink>
                                     </li>
                                 </ul>
                             </li>
@@ -51,10 +51,10 @@
                             <li class="nav-item"><a href="#" class="dropdown-toggle nav-link">Company</a>
                                 <ul class="dropdown-menu">
                                     <li class="nav-item">
-                                        <router-link to="/our-team" class="nav-link">Our Team</router-link>
+                                        <NuxtLink to="/our-team" class="nav-link">Our Team</NuxtLink>
                                     </li>
                                     <li class="nav-item">
-                                        <router-link to="/contact-us" class="nav-link">Get In Touch</router-link>
+                                        <NuxtLink to="/contact-us" class="nav-link">Get In Touch</NuxtLink>
                                     </li>
                                 </ul>
                             </li>
@@ -62,34 +62,25 @@
                             <li class="nav-item"><a href="#" class="dropdown-toggle nav-link">Resources</a>
                                 <ul class="dropdown-menu">
                                     <li class="nav-item">
-                                        <router-link to="/blogs" class="nav-link">Blogs</router-link>
+                                        <NuxtLink to="/blogs" class="nav-link">Blogs</NuxtLink>
                                     </li>
                                     <li class="nav-item">
-                                        <router-link to="/success-stories" class="nav-link">Success Stories</router-link>
+                                        <NuxtLink to="/success-stories" class="nav-link">Success Stories</NuxtLink>
                                     </li>
                                     <li class="nav-item">
-                                        <router-link to="/glossary" class="nav-link">Glossary</router-link>
+                                        <NuxtLink to="/glossary" class="nav-link">Glossary</NuxtLink>
                                     </li>
                                     <li class="nav-item">
-                                        <router-link to="/ebook" class="nav-link">Ebook</router-link>
+                                        <NuxtLink to="/ebook" class="nav-link">Ebook</NuxtLink>
                                     </li>
                                 </ul>
                             </li>
-                            <!-- <li class="nav-item">
-                                <router-link to="/demo" class="nav-link">Request a Demo</router-link>
-                            </li> -->
-                            <!-- <div class="others-option">
-                                <router-link to="/sign-in" class="default-btn">Login</router-link>
-                            </div> -->
                         </ul>
                     </div>
 
                     <div class="others-option">
-                        <router-link to="/demo" class="default-btn">Request a Demo</router-link>
+                        <NuxtLink to="/demo" class="default-btn">Request a Demo</NuxtLink>
                     </div>
-                    <!-- <div class="others-option">
-                        <router-link to="/login" class="default-btn">Login</router-link>
-                    </div> -->
                 </nav>
             </div>
         </div>

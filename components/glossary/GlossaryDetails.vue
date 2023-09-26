@@ -63,14 +63,14 @@
                         <div class="widget widget_jexa_posts_thumb">
                             <h3 class="widget-title">Popular Posts</h3>
                             <article class="item" v-for="glossary in glossaries.slice(0, 3)" :key="glossary.id">
-                                <router-link :to="'/glossary-details/' + glossary.attributes.slug" class="thumb">
+                                <NuxtLink :to="'/glossary-details/' + glossary.attributes.slug" class="thumb">
                                     <img :src="glossary?.attributes?.image?.data?.attributes?.url" alt="blog">
-                                </router-link>
+                                </NuxtLink>
                                 <div class="info">
-                                    <h4 class="title usmall"><router-link
+                                    <h4 class="title usmall"><NuxtLink
                                             :to="'/glossary-details/' + glossary.attributes.slug">
                                             {{ glossary.attributes.title }}
-                                        </router-link></h4>
+                                        </NuxtLink></h4>
                                     <span class="date"><i class="ri-calendar-2-fill"></i> {{ glossary.attributes.date
                                     }}</span>
                                 </div>
@@ -81,8 +81,8 @@
                             <h3 class="widget-title">Categories</h3>
                             <ul>
                                 <li v-for="category in categories" :key="category.id">
-                                    <router-link :to="`/glossary-category-details/${category.attributes.slug}`">{{
-                                        category.attributes.name }}</router-link>
+                                    <NuxtLink :to="`/glossary-category-details/${category.attributes.slug}`">{{
+                                        category.attributes.name }}</NuxtLink>
                                 </li>
                             </ul>
                         </div>

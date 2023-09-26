@@ -28,7 +28,7 @@
                             </ul>
 
                             <div class="btn-box">
-                                <router-link to="/approval-software" class="default-btn">Know more</router-link>
+                                <NuxtLink to="/approval-software" class="default-btn">Know more</NuxtLink>
                             </div>
                         </div>
                     </div>

@@ -11,16 +11,16 @@
                     :key="glossary.id">
                     <div class="single-blog-post bg-white">
                         <div class="image">
-                            <router-link :to="'/glossary-details/' + glossary.attributes.slug" class="d-block">
+                            <NuxtLink :to="'/glossary-details/' + glossary.attributes.slug" class="d-block">
                                 <img :src="glossary?.attributes?.image?.data?.attributes?.url" alt="blog">
-                            </router-link>
-                            <!-- <router-link to="/glossary-details/" class="tag">{{ glossary?.attributes?.tag }}</router-link> -->
+                            </NuxtLink>
+                            <!-- <NuxtLink to="/glossary-details/" class="tag">{{ glossary?.attributes?.tag }}</NuxtLink> -->
                         </div>
                         <div class="content">
                             <h3>
-                                <router-link :to="'/glossary-details/' + glossary.attributes.slug">
+                                <NuxtLink :to="'/glossary-details/' + glossary.attributes.slug">
                                     {{ glossary.attributes.title }}
-                                </router-link>
+                                </NuxtLink>
                             </h3>
                             <p>{{ glossary.attributes.shortDesc }}</p>
                             <ul class="meta">

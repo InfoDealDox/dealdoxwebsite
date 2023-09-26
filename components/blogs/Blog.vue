@@ -28,16 +28,16 @@
                 )" :key="featuredblog.id">
                     <div class="single-blog-post bg-F9F9FD">
                         <div class="image">
-                            <router-link :to="'/featured-blog-details/' + featuredblog.attributes.slug" class="d-block">
+                            <NuxtLink :to="'/featured-blog-details/' + featuredblog.attributes.slug" class="d-block">
                                 <img :src="featuredblog.attributes.image.data.attributes.url" alt="blog">
-                            </router-link>
-                            <!-- <router-link to="/blog-grid" class="tag">{{ blog.attributes.tag }}</router-link> -->
+                            </NuxtLink>
+                            <!-- <NuxtLink to="/blog-grid" class="tag">{{ blog.attributes.tag }}</NuxtLink> -->
                         </div>
                         <div class="content">
                             <h3>
-                                <router-link :to="'/featured-blog-details/' + featuredblog.attributes.slug">
+                                <NuxtLink :to="'/featured-blog-details/' + featuredblog.attributes.slug">
                                     {{ featuredblog.attributes.title }}
-                                </router-link>
+                                </NuxtLink>
                             </h3>
                             <p>{{ featuredblog.attributes.shortDesc }}</p>
                             <ul class="meta">
@@ -51,10 +51,10 @@
                     <div class="pagination-area">
                         <!-- <div class="nav-links">
                             <span class="page-numbers current">1</span>
-                            <router-link to="/blog-grid" class="page-numbers">2</router-link>
-                            <router-link to="/blog-grid" class="page-numbers">3</router-link>
-                            <router-link to="/blog-grid" class="next page-numbers" title="Next Page"><i
-                                    class="ri-arrow-right-line"></i></router-link>
+                            <NuxtLink to="/blog-grid" class="page-numbers">2</NuxtLink>
+                            <NuxtLink to="/blog-grid" class="page-numbers">3</NuxtLink>
+                            <NuxtLink to="/blog-grid" class="next page-numbers" title="Next Page"><i
+                                    class="ri-arrow-right-line"></i></NuxtLink>
                         </div> -->
                         <b-pagination v-model="currentPage" :total-rows="rows" :per-page="perPage" aria-controls="itemList"
                             align="center"></b-pagination>
