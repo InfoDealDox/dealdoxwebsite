@@ -1237,11 +1237,7 @@ New Demo CSS
 
 /* New App Main Banner Area CSS */
 .new-app-main-banner-area {
-    background-image: url(../../assets/images/more-home/banner/banner-bg.jpg);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-
+    
     padding: {
         top: 250px;
     }
@@ -1800,11 +1796,6 @@ New Demo CSS
 
 // New App Main Banner Wrap Area CSS
 .new-app-main-banner-gradient-area {
-    background-image: url(../../assets/images/more-home/banner/banner-bg-2.jpg);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    overflow: hidden;
 
     padding: {
         top: 120px;
@@ -2561,10 +2552,6 @@ New Demo CSS
 }
 
 .new-app-progress-wrap-area {
-    background-image: url(../../assets/images/more-home/progress/progress-bg.jpg);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
 
     .container-fluid {
         padding: {
@@ -2730,10 +2717,6 @@ New Demo CSS
 }
 
 .app-screenshots-wrap-area {
-    background-image: url(../../assets/images/more-home/screenshots/screenshots-bg.jpg);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
 
     .section-title {
         .sub-title {
@@ -3597,12 +3580,6 @@ New Demo CSS
 }
 
 /* New App Download Area CSS */
-.new-app-download-area {
-    background-image: url(../../assets/images/more-home/app-download/download-bg.jpg);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 
 .new-app-download-content {
     position: relative;
