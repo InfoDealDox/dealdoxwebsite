@@ -83,7 +83,7 @@
                                             <div class="col-lg-6 col-md-6 col-sm-6">
                                                 <div class="form-group">
                                                     <p>Last Name</p>
-                                                    <input type="text" maxlength="40" name="last_name" required
+                                                    <input type="text" maxlength="40" name="last_name"
                                                         class="form-control" id="last_name" placeholder="Eg: Jhon">
                                                 </div>
                                             </div>
@@ -92,13 +92,13 @@
                                                 <p>Phone Number</p>
                                                 <input type="text" v-model="phoneNumber" @input="validatePhoneNumber"
                                                     @keypress="allowOnlyNumbers" :maxlength="maxPhoneNumberLength"
-                                                    name="phone" required class="form-control" id="phone" maxlength="15"
+                                                    name="phone" class="form-control" id="phone" maxlength="15"
                                                     placeholder="Eg: 123456789012345" :title="phoneValidationMessage" />
                                             </div>
 
                                             <div class="col-lg-6 col-md-6 col-sm-6">
                                                 <div class="form-group">
-                                                    <p>e-mail</p>
+                                                    <p>Email</p>
                                                     <input type="email" maxlength="40" name="email" required
                                                         class="form-control" id="email" placeholder="Eg: abc@gmail.com">
                                                 </div>
@@ -107,7 +107,7 @@
                                             <div class="col-lg-6 col-md-6 col-sm-6">
                                                 <div class="form-group">
                                                     <p>Company</p>
-                                                    <input type="text" maxlength="40" name="company" required
+                                                    <input type="text" maxlength="40" name="company"
                                                         class="form-control" id="company" placeholder="Eg: ABC">
                                                 </div>
                                             </div>
@@ -115,7 +115,7 @@
                                             <div class="col-lg-6 col-md-6 col-sm-6">
                                                 <div class="form-group">
                                                     <p>Country</p>
-                                                    <input type="text" maxlength="40" name="country" required
+                                                    <input type="country" maxlength="40" name="country"
                                                         class="form-control" id="country" placeholder="Eg: India">
                                                 </div>
                                             </div>
@@ -123,7 +123,7 @@
                                             <div class="col-lg-12 col-md-12 col-sm-12">
                                                 <div class="form-group">
                                                     <p>Leave your message</p>
-                                                    <textarea name="00N2v00000XQu8f" id="00N2v00000XQu8f" required
+                                                    <textarea name="00N2v00000XQu8f" id="00N2v00000XQu8f"
                                                         class="form-control" cols="30" rows="6"
                                                         placeholder="This just a dummy message! please dont mind"></textarea>
                                                 </div>
