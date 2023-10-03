@@ -21,7 +21,7 @@
                         <div class="row contents">
                             <div class="col-sm-3" v-for="glossData in glossary.data" :key="glossData.id">
                                 <NuxtLink class="text-decoration-underline"
-                                    :to="'/glossary-details/' + glossData.attributes.slug">
+                                    :to="'/glossary/' + glossData.attributes.slug">
                                     {{ glossData.attributes.title }}
                                 </NuxtLink>
                             </div>

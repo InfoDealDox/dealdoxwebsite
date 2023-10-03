@@ -13,8 +13,8 @@
 
 <script>
 import Navbar from '../layouts/Navbar';
-import PageTitle from '../components/glossary/PageTitle';
-import GlossaryPage from '../components/glossary/GlossaryPage'
+import PageTitle from '../components/GlossaryFolder/PageTitle';
+import GlossaryPage from '../components/GlossaryFolder/GlossaryPage'
 import AutomatedQuotes from '../components/Common/AutomatedQuotes';
 import DealDoxFooter from '../layouts/DealDoxFooter'
 

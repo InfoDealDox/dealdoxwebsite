@@ -14,7 +14,7 @@
 <script>
 import Navbar from '../../../layouts/Navbar';
 import PageTitle from '../../../components/Common/PageTitle';
-import GlossaryDetails from '../../../components/glossary/GlossaryDetails'
+import GlossaryDetails from '../../../components/GlossaryFolder/GlossaryDetails'
 import DealDoxFooter from '../../../layouts/DealDoxFooter'
 import axios from 'axios';
 
