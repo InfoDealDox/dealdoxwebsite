@@ -5,7 +5,7 @@
             pageDesc="" />
         <!-- <PageTitle class="page-title-style-two-ebook" pageTitle="Ebook"
             pageDesc="Stay Up-to-Date with Our Latest Insights, Tips, and News" /> -->
-        <Ebook />
+        <EbookMain />
         <AutomatedQuotes />
         <DealDoxFooter />
     </div>
@@ -14,7 +14,7 @@
 <script>
 import Navbar from '../layouts/Navbar';
 import PageTitle from '../components/Common/PageTitle';
-import Ebook from '../components/ebook/Ebook'
+import EbookMain from '../components/EbookFolder/EbookMain'
 import AutomatedQuotes from '../components/Common/AutomatedQuotes';
 import DealDoxFooter from '../layouts/DealDoxFooter'
 
@@ -22,7 +22,7 @@ export default {
     components: {
         Navbar,
         PageTitle,
-        Ebook,
+        EbookMain,
         AutomatedQuotes,
         DealDoxFooter,
     },

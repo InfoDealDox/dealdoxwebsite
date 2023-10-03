@@ -14,7 +14,7 @@
 <script>
 import Navbar from '../../../layouts/Navbar';
 import PageTitle from '../../../components/Common/PageTitle';
-import EbookDetails from '../../../components/ebook/EbookDetails'
+import EbookDetails from '../../../components/EbookFolder/EbookDetails'
 import DealDoxFooter from '../../../layouts/DealDoxFooter'
 import axios from 'axios';
 
