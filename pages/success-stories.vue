@@ -21,6 +21,8 @@ import SuccessStories from '../components/success-stories/SuccessStories'
 // import Blog from '../components/Common/Blog';
 // import GetInTouch from '../components/Common/GetInTouch';
 import DealDoxFooter from '../layouts/DealDoxFooter'
+import axios from 'axios';
+
 
 export default {
     components: {
@@ -33,19 +35,25 @@ export default {
         // GetInTouch,
         DealDoxFooter,
     },
-    head: {
-        title: '',
-        htmlAttrs: {
-            lang: 'en-us'
-        },
-        meta: [
-            { charset: 'utf-8' },
-            { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-            { hid: 'description', name: 'description', content: '' },
-            { hid: 'keywords', name: 'keywords', content: '' }
-        ],
-        link: [{ hid: 'canonical', rel: 'canonical', href: '#' }
-        ],
+    data() {
+        return {
+            seoData: [],
+        }
     },
-};
+    created: async function () {
+        const response = await axios.get('https://cms.dealdox.io/api/pages?filters[slug][$eq]=success-stories&populate=deep,5')
+        const pageData = response.data.data?.length > 0 ? response.data.data[0] : {};
+        if (pageData?.attributes?.seo?.length > 0) {
+            this.seoData = pageData.attributes.seo[0];
+        }
+    },
+    head({ $seo }) {
+        return $seo({
+            title: this.seoData.metaTitle,
+            description: this.seoData.metaDescription,
+            keywords: this.seoData.keywords,
+            // image: this.post.image || '',
+        });
+    },
+}
 </script>
