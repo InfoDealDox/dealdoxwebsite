@@ -28,7 +28,7 @@
                             </ul>
 
                             <div class="btn-box">
-                                <router-link to="/cpq-integrations" class="default-btn">Know more</router-link>
+                                <NuxtLink to="/cpq-integrations" class="default-btn">Know more</NuxtLink>
                             </div>
                         </div>
                     </div>

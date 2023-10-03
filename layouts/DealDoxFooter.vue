@@ -10,8 +10,8 @@
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="single-footer-widget">
                         <div>
-                            <router-link to="/demo" required class="default-btn"><i class='bx bx-paper-plane'></i>
-                                Request a Demo</router-link>
+                            <NuxtLink to="/demo" required class="default-btn"><i class='bx bx-paper-plane'></i>
+                                Request a Demo</NuxtLink>
                         </div>
                     </div>
                 </div>
@@ -20,9 +20,9 @@
             <div class="row">
                 <div class="col-lg-2 col-md-6 col-sm-6">
                     <div class="single-footer-widget">
-                        <router-link to="/" class="logo">
+                        <NuxtLink to="/" class="logo">
                             <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694695209/footer-logo_ytczcz.svg" alt="logo">
-                        </router-link>
+                        </NuxtLink>
                         <p>The all-in-one solution that streamlines quoting, closes deals faster, and boosts sales
                             efficiency.</p>
                         <ul class="social-links">
@@ -56,19 +56,19 @@
                         <h3>Features</h3>
                         <ul class="links-list">
                             <li>
-                                <router-link to="/quoting-software">Automated Quotations</router-link>
+                                <NuxtLink to="/quoting-software">Automated Quotations</NuxtLink>
                             </li>
                             <li>
-                                <router-link to="/approval-software">Quick Approvals</router-link>
+                                <NuxtLink to="/approval-software">Quick Approvals</NuxtLink>
                             </li>
                             <li>
-                                <router-link to="/services-cpq">CPQ</router-link>
+                                <NuxtLink to="/services-cpq">CPQ</NuxtLink>
                             </li>
                             <li>
-                                <router-link to="/cpq-integrations">Integration</router-link>
+                                <NuxtLink to="/cpq-integrations">Integration</NuxtLink>
                             </li>
                             <li>
-                                <router-link to="/localized-deal-documents">Localized Deal Documents</router-link>
+                                <NuxtLink to="/localized-deal-documents">Localized Deal Documents</NuxtLink>
                             </li>
                         </ul>
                     </div>
@@ -78,24 +78,24 @@
                         <h3>Integrations</h3>
                         <ul class="links-list">
                             <li>
-                                <router-link to="/salesforce-cpq-integration">Salesforce
-                                </router-link>
+                                <NuxtLink to="/salesforce-cpq-integration">Salesforce
+                                </NuxtLink>
                             </li>
                             <li>
-                                <router-link to="/microsoft-dynamics-365-cpq-integration">Microsoft Dynamics
-                                </router-link>
+                                <NuxtLink to="/microsoft-dynamics-365-cpq-integration">Microsoft Dynamics
+                                </NuxtLink>
                             </li>
                             <li>
-                                <router-link to="/freshworks-cpq-integration">Freshworks
-                                </router-link>
+                                <NuxtLink to="/freshworks-cpq-integration">Freshworks
+                                </NuxtLink>
                             </li>
 
                             <li>
-                                <router-link to="/hubspot-cpq-integration">HubSpot
-                                </router-link>
+                                <NuxtLink to="/hubspot-cpq-integration">HubSpot
+                                </NuxtLink>
                             </li>
                             <li>
-                                <router-link to="/sugarcrm-cpq-integration">SugarCRM</router-link>
+                                <NuxtLink to="/sugarcrm-cpq-integration">SugarCRM</NuxtLink>
                             </li>
                         </ul>
                     </div>
@@ -105,13 +105,13 @@
                         <h3>Resources</h3>
                         <ul class="links-list">
                             <li>
-                                <router-link to="/blogs">Blogs</router-link>
+                                <NuxtLink to="/blogs">Blogs</NuxtLink>
                             </li>
                             <li>
-                                <router-link to="/success-stories">Success Stories</router-link>
+                                <NuxtLink to="/success-stories">Success Stories</NuxtLink>
                             </li>
                             <li>
-                                <router-link to="/glossary">Glossary </router-link>
+                                <NuxtLink to="/glossary">Glossary </NuxtLink>
                             </li>
                         </ul>
                     </div>
@@ -121,13 +121,13 @@
                         <h3>Company </h3>
                         <ul class="links-list">
                             <li>
-                                <router-link to="/our-team">Our Team</router-link>
+                                <NuxtLink to="/our-team">Our Team</NuxtLink>
                             </li>
                             <li>
-                                <router-link to="/contact-us">Get in Touch</router-link>
+                                <NuxtLink to="/contact-us">Get in Touch</NuxtLink>
                             </li>
                             <li>
-                                <router-link to="/sign-up-free-trial">Sign Up</router-link>
+                                <NuxtLink to="/sign-up-free-trial">Sign Up</NuxtLink>
                             </li>
                         </ul>
 
@@ -161,16 +161,16 @@
             <div class="copyright-area">
                 <div class="row">
                     <div class="col-lg-4 col-sm-3">
-                        <p><router-link to="/security">Security</router-link> |
-                            <router-link to="/terms-of-use">Terms of Use</router-link> |
-                            <router-link to="/privacy-policy">Privacy Policy</router-link> |
-                            <router-link to="/cookie-preference">Cookie Preference</router-link>
+                        <p><NuxtLink to="/security">Security</NuxtLink> |
+                            <NuxtLink to="/terms-of-use">Terms of Use</NuxtLink> |
+                            <NuxtLink to="/privacy-policy">Privacy Policy</NuxtLink> |
+                            <NuxtLink to="/cookie-preference">Cookie Preference</NuxtLink>
                         </p>
                     </div>
                     <div class="col-lg-4 col-sm-12">
-                        <router-link to="/" class="logo">
+                        <NuxtLink to="/" class="logo">
                             <img src="../assets/images/footer-logo.svg" alt="logo">
-                        </router-link>
+                        </NuxtLink>
                     </div>
                     <div class="col-lg-4 col-sm-3">
                         <p class="text-center">Copyright @ 2023 DealDox Pvt Ltd. All Rights Reserved.</p>

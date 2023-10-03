@@ -9,8 +9,8 @@
                             workflows, share information effortlessly, and make faster, more informed decisions. Enjoy a
                             centralized hub for policies, customizable workflows, and real-time alerts.</p>
                         <div class="tb-30">
-                            <router-link to="/demo" required class="default-btn"><i class='bx bx-paper-plane'></i>
-                                Request a Demo</router-link>
+                            <NuxtLink to="/demo" required class="default-btn"><i class='bx bx-paper-plane'></i>
+                                Request a Demo</NuxtLink>
                         </div>
                     </div>
                 </div>

@@ -11,7 +11,7 @@
                             its just began. backup just log in with your mail account from.</p>
                         <p>Most provabily best for your data backup just log in with your mail account from play store and
                             using whatever you want for your business purpose orem ipsum dummy.</p>
-                        <router-link to="/contact" class="default-btn">Get Started</router-link>
+                        <NuxtLink to="/contact" class="default-btn">Get Started</NuxtLink>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12">

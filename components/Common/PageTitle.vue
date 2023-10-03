@@ -6,7 +6,7 @@
                 <!-- <p>Stay Up-to-Date with Our Latest Insights, Tips, and News</p> -->
                 <!-- <ul>
                     <li>
-                        <router-link to="/">Home</router-link>
+                        <NuxtLink to="/">Home</NuxtLink>
                     </li>
                     <li>{{pageTitle}}</li>
                 </ul> -->

@@ -4,8 +4,8 @@
             <div class="features-content-improve-sales">
                 <div class="section-title">
                     <h1>Frequently asked questions</h1>
-                    <p>Can’t find your query listed? <span class="sub-title-faq"><router-link to="/contact-us">
-                            Write us</router-link></span> your query</p>
+                    <p>Can’t find your query listed? <span class="sub-title-faq"><NuxtLink to="/contact-us">
+                            Write us</NuxtLink></span> your query</p>
                 </div>
             </div>
             <div class="row align-items-center">
@@ -287,7 +287,7 @@
                                 <template v-slot:accordion-content>
                                     <div class="accordion-body">
                                         <p>
-                                            Requesting a demo of DealDox is easy and convenient.<router-link to="/demo"> Click here</router-link> to know more.
+                                            Requesting a demo of DealDox is easy and convenient.<NuxtLink to="/demo"> Click here</NuxtLink> to know more.
                                          </p>
                                     </div>
                                 </template>

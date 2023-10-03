@@ -6,9 +6,9 @@
                     <div class="coming-soon-content">
                         <div class="d-table">
                             <div class="d-table-cell">
-                                <router-link to="/" class="logo">
+                                <NuxtLink to="/" class="logo">
                                     <img src="../../assets/images/logo.svg" alt="image">
-                                </router-link>
+                                </NuxtLink>
                                 <h2>We Are Launching Soon</h2>
                                 <div id="timer" class="flex-wrap justify-content-center d-flex">
                                     <div

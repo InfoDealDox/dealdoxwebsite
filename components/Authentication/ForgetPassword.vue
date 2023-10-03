@@ -1,9 +1,9 @@
 <template>
     <div class="profile-authentication-area">
         <div class="logo">
-            <router-link class="navbar-brand" to="/">
+            <NuxtLink class="navbar-brand" to="/">
                 <img src="~/assets/images/logo.svg" alt="logo">
-            </router-link>
+            </NuxtLink>
         </div>
         <div class="d-table">
             <div class="d-table-cell">

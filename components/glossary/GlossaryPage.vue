@@ -5,8 +5,8 @@
                 <div class="nav-links">
                     <ul v-for="category in categories" :key="category.id">
                         <!-- <li > -->
-                        <router-link :to="`/glossary-category-details/${category.attributes.slug}`" class="page-numbers">{{
-                            category.attributes.name }}</router-link>
+                        <NuxtLink :to="`/glossary-category-details/${category.attributes.slug}`" class="page-numbers">{{
+                            category.attributes.name }}</NuxtLink>
                         <!-- </li> -->
                     </ul>
                 </div>
@@ -20,10 +20,10 @@
                     <div class="single-blog-post bg-FAFAFA pt-1">
                         <div class="row contents">
                             <div class="col-sm-3" v-for="glossData in glossary.data" :key="glossData.id">
-                                <router-link class="text-decoration-underline"
+                                <NuxtLink class="text-decoration-underline"
                                     :to="'/glossary-details/' + glossData.attributes.slug">
                                     {{ glossData.attributes.title }}
-                                </router-link>
+                                </NuxtLink>
                             </div>
                         </div>
                     </div>

@@ -15,8 +15,8 @@
                             shifting estimates from Excel to Word, and then converting them to PDFs? Say goodbye to these
                             tedious tasks and welcome effortless quoting with DealDox also called DD CPQ.</p>
                         <div class="tb-30">
-                            <router-link to="/demo" required class="default-btn"><i class='bx bx-paper-plane'></i>
-                                Request a Demo</router-link>
+                            <NuxtLink to="/demo" required class="default-btn"><i class='bx bx-paper-plane'></i>
+                                Request a Demo</NuxtLink>
                         </div>
                     </div>
                 </div>
