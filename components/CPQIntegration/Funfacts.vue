@@ -4,7 +4,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-12 col-md-12">
                     <div class="features-item-mid-content-senction bg-white with-border">
-                        <h3>How does DealDox CPQ Integration work? </h3>
+                        <h3>How does DealDox  <a href="https://www.dealdox.io/cpq-integration">CPQ Integration</a> work? </h3>
                         <p>DealDox incorporates any CRM and ERP, which offers project and resource management alongside cost
                             tracking, project billing and revenue forecast. CPQ CRM integration accepts customers' projects
                             and delivers quote and deal transitions to the ERP platform.

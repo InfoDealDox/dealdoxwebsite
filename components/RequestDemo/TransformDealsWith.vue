@@ -7,9 +7,10 @@
                         <div class="features-content">
                             <ul class="features-list">
                                 <h2>Transform Deals with <br><span class="sub-title">DealDox</span> in Action!</h2>
-                                <p>A centralized platform for automated quote generation, Accurate Pricing, Product Bundling
+                                <p>A centralized platform for automated quote generation, <a href="https://www.dealdox.io/cpq">Accurate Pricing,</a> Product Bundling
                                     and Upselling, Margin Optimization, Cost Visibility, Efficient Pricing Strategy,
-                                    Customize Deal Documents in your desired language, and more! </p>
+                                     <a href="https://www.dealdox.io/localized-deal-documents">Customize Deal Documents in your desired language,</a>
+ and more! </p>
                                 <li>
                                     <div class="icon">
                                         <i class="ri-check-line"></i>

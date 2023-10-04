@@ -11,7 +11,8 @@
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p class="with-top-border">Integrate services CPQ with your CRM & ERP system effortlessly</p>
+                                    <p class="with-top-border">Integrate <a href="https://www.dealdox.io/services-cpq">services CPQ</a>
+                                        with your CRM & ERP system effortlessly</p>
                                 </li>
                                 <li>
                                     <div class="icon">
@@ -35,7 +36,8 @@
 
                     <div class="col-lg-6 col-md-12">
                         <div class="software-integrations-list">
-                            <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694696802/easy-integration_ndti2t.png" alt="border">
+                            <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694696802/easy-integration_ndti2t.png"
+                                alt="border">
                         </div>
                     </div>
                 </div>

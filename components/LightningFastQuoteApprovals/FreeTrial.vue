@@ -8,9 +8,12 @@
                             <img src="../../assets/images/do-you-know-tag.svg" alt="image">
                         </div>
                         <h3>Fast approvals can significantly benefit your business by reducing sales cycle time, boosting
-                            customer satisfaction, increasing win rates, improving sales team productivity, and optimizing
-                            revenue generation. Experience the Power of Quick Approvals. Get started with a free onboarding
-                            today! Sign up now!</h3>
+                            <a href="https://www.dealdox.io/enhancing-customer-satisfaction">customer satisfaction</a>
+                            , increasing win rates, improving sales team productivity, and optimizing
+                            <a href="https://www.dealdox.io/revenuegeneration">revenue generation.</a>
+                            Experience the Power of Quick Approvals. Get started with a free onboarding
+                            today! Sign up now!
+                        </h3>
                         <NuxtLink to="/sign-up-free-trial" class="default-btn">Start My Free Trial</NuxtLink>
                     </div>
                 </div>

@@ -11,7 +11,7 @@
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content">
-                        <h2>Quick and Accurate Quoting</h2>
+                        <h2> <a href="https://www.dealdox.io/quoting-software">Quick and Accurate Quoting</a></h2>
                         <p>DealDox's unique feature of advanced guided selling makes it the best tool for sales engagement.
                             With real-time insights into your prospect's needs, the best quote automation software enables
                             quick and accurate quoting for any sized business - small, middle & big.
@@ -119,7 +119,8 @@
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p>Automated Quoting Software streamlines quoting, configuration, pricing, and proposal
+                                    <p> <a href="https://www.dealdox.io/quoting-software"> Automated Quoting Software</a>
+                                        streamlines quoting, configuration, pricing, and proposal
                                         generation, eliminating manual processes.</p>
                                 </li>
 
