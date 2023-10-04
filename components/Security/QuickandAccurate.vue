@@ -118,7 +118,7 @@
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p>ISO 27001: We are proud to have achieved ISO 27001 certification, demonstrating our commitment to maintaining robust information security management systems.</p>
+                                    <p>ISO 27001: We are proud to have achieved ISO 27001 certification, demonstrating our commitment to maintaining robust <a href="https://www.dealdox.io/privacy-policy">information security</a> management systems.</p>
                                 </li>
                             </ul>
                         </div>
