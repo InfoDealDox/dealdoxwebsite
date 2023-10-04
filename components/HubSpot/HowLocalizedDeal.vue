@@ -5,7 +5,8 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="features-item with-border">
                         <div class="about-img">
-                            <img src="../../assets/images/Hubspot/Simplify Deal Closing with Guided Selling and DealDox.png" data-aos="fade-up" alt="about">
+                            <img src="../../assets/images/Hubspot/Simplify Deal Closing with Guided Selling and DealDox.png"
+                                data-aos="fade-up" alt="about">
                         </div>
                     </div>
                 </div>
@@ -36,7 +37,8 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="features-item with-border">
                         <div class="about-img">
-                            <img src="../../assets/images/Hubspot/Quick and Professional Quote Generation with DealDox.png" data-aos="fade-up" alt="about">
+                            <img src="../../assets/images/Hubspot/Quick and Professional Quote Generation with DealDox.png"
+                                data-aos="fade-up" alt="about">
                         </div>
                     </div>
                 </div>
@@ -45,7 +47,8 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="features-item with-border">
                         <div class="about-img">
-                            <img src="../../assets/images/Hubspot/Streamline Sales Processes for Swift Deal Closures.png" data-aos="fade-up" alt="about">
+                            <img src="../../assets/images/Hubspot/Streamline Sales Processes for Swift Deal Closures.png"
+                                data-aos="fade-up" alt="about">
                         </div>
                     </div>
                 </div>
@@ -83,7 +86,8 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="features-item with-border">
                         <div class="about-img">
-                            <img src="../../assets/images/Hubspot/Empower Your Sales Success with Actionable Data for Optimal Conversions.png" data-aos="fade-up" alt="about">
+                            <img src="../../assets/images/Hubspot/Empower Your Sales Success with Actionable Data for Optimal Conversions.png"
+                                data-aos="fade-up" alt="about">
                         </div>
                     </div>
                 </div>
@@ -92,29 +96,31 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="features-item with-border">
                             <div class="about-img">
-                                <img src="../../assets/images/Hubspot/Simplify CPQ Implementation and Maintenance Efforts.png" data-aos="fade-up"
-                                    alt="about">
+                                <img src="../../assets/images/Hubspot/Simplify CPQ Implementation and Maintenance Efforts.png"
+                                    data-aos="fade-up" alt="about">
                             </div>
                         </div>
-                </div>
-                <div class="col-lg-6 col-md-12">
-                    <div class="about-content">
-                        <h3>Simplify CPQ Implementation and Maintenance Efforts</h3>
-                        <p>DealDox's <strong>code-free CPQ solution</strong> eliminates the need for your operations
-                            teams to make complex backend configuration changes. Anyone with the appropriate permissions
-                            can easily make modifications to your product library, removing bottlenecks and making
-                            maintenance much more straightforward compared to <strong>traditional CPQ systems</strong>.
-                        </p>
-                        <p>Our expert in-house implementation team ensures that your operations teams can go live in
-                            just a matter of weeks, rather than months. You can confidently rely on their support and
-                            expertise, knowing that they adhere to <strong>CPQ's best practices</strong> every step of
-                            the way.</p>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="about-content">
+                            <h3>Simplify <a href="https://www.dealdox.io/services-cpq">CPQ</a>
+                                Implementation and Maintenance Efforts</h3>
+                            <p>DealDox's <strong>code-free CPQ solution</strong> eliminates the need for your operations
+                                teams to make complex backend configuration changes. Anyone with the appropriate permissions
+                                can easily make modifications to your product library, removing bottlenecks and making
+                                maintenance much more straightforward compared to <strong>traditional CPQ systems</strong>.
+                            </p>
+                            <p>Our expert in-house implementation team ensures that your operations teams can go live in
+                                just a matter of weeks, rather than months. You can confidently rely on their support and
+                                expertise, knowing that they adhere to <strong>CPQ's best practices</strong> every step of
+                                the way.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div></template>
+</template>
 
 <script>
 export default {
