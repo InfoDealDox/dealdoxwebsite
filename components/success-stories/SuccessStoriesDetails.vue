@@ -1,6 +1,6 @@
 <template>
     <div class="new-app-main-banner-wrap-area bg-white">
-        <div class="container-fluid">
+        <div class="container pt-100">
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="new-app-main-banner-wrap-content heading-title">
