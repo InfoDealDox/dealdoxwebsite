@@ -15,7 +15,7 @@
                         <h3>Close Deals Faster with DealDox</h3>
                         <p><strong>Microsoft Dynamics 365 for Sales and DealDox</strong> work together to help sales teams
                             sell quicker and more efficiently. <strong><a
-                                    href="https://www.dealdox.io/microsoft-dynamics-integration"> Dynamics 365 CRM</a>
+                                    href="https://www.dealdox.io/microsoft-dynamics-365-cpq-integration"> Dynamics 365 CRM</a>
                             </strong> allows sales teams to create <strong> <a
                                     href="https://www.dealdox.io/quoting-software">advanced quotes</a>
                             </strong>, expedite contract
