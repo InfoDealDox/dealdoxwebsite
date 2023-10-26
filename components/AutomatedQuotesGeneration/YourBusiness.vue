@@ -4,14 +4,14 @@
             <div class="row align-items-center">
                 <div class="col-lg-12 col-md-12">
                     <div class="features-item-mid-content-senction bg-white with-border">
-                        <h3>Your Business, Your Way: Our CPQ Software Focuses on Customization</h3>
+                        <h3>Your Business, Your Way: Our  <a href="https://www.dealdox.io/glossary/configure-price-quote">CPQ</a> Software Focuses on Customization</h3>
                         <p>We know that every company is different and that customers have different needs. As a result, our
                             powerful CPQ software to automate their sales processes makes it easier for users to configure a
                             wide range of services to meet all their requirements.</p>
                         <p>Automate contract and renewal processes, reducing time-consuming manual processes and saving
                             money and resources.</p>
-                        <p>Automate your sales process with pricing and quote generator software, assuring quick and
-                            accurate quotes. Bring on efficient and effective operations and eliminate errors and delays.
+                        <p>Automate your sales process with pricing and <a href="https://www.dealdox.io/approval-software">quote generator software</a>, assuring <a href="https://www.dealdox.io/quoting-software">quick and
+                            accurate quotes </a>. Bring on efficient and effective operations and eliminate errors and delays.
                         </p>
                         <p>Effortlessly adapt to global pricing requirements with DealDox CPQ: Switch between price listings
                             based on country of delivery and contract currency. For example - If your price listing is in
