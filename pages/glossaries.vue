@@ -1,8 +1,17 @@
 <template>
     <div>
         <Navbar class="navbar-style-two" />
-        <PageTitle class="page-title-style-two-glossary" pageTitle=""
-            pageDesc="" />
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12 col-md-12">
+                    <div class="new-app-main-banner-wrap-image">
+                        <img src="../assets/images/banner/glossary.png" alt="image">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <PageTitle class="page-title-style-two-glossary" pageTitle=""
+            pageDesc="" /> -->
         <!-- <PageTitle class="page-title-style-two-glossary" pageTitle="Glossary"
             pageDesc="Stay Up-to-Date with Our Latest Insights, Tips, and News" /> -->
         <GlossaryPage />
@@ -13,7 +22,7 @@
 
 <script>
 import Navbar from '../layouts/Navbar';
-import PageTitle from '../components/GlossaryFolder/PageTitle';
+// import PageTitle from '../components/GlossaryFolder/PageTitle';
 import GlossaryPage from '../components/GlossaryFolder/GlossaryPage'
 import AutomatedQuotes from '../components/Common/AutomatedQuotes';
 import DealDoxFooter from '../layouts/DealDoxFooter'
@@ -23,7 +32,7 @@ import axios from 'axios';
 export default {
     components: {
         Navbar,
-        PageTitle,
+        // PageTitle,
         GlossaryPage,
         AutomatedQuotes,
         DealDoxFooter,
