@@ -17,8 +17,10 @@
                                             <div class="icon">
                                                 <i class="ri-check-line"></i>
                                             </div>
-                                            <h6 class="with-top-border-subscription"> <a href="https://https://www.dealdox.io/guided-selling-solutions-solutions">Guided selling approach</a>
- to empower
+                                            <h6 class="with-top-border-subscription"> <a
+                                                    href="https://www.dealdox.io/glossary/guided-selling-solutions">Guided
+                                                    selling approach</a>
+                                                to empower
                                                 sales reps, leaders, and other teams
                                                 for efficient sales processes and optimized decision-making.</h6>
                                         </li>
@@ -44,20 +46,23 @@
                                             <div class="icon">
                                                 <i class="ri-check-line"></i>
                                             </div>
-                                            <h6 class="with-top-border-subscription">Streamline single or <a href="https://www.dealdox.io/approval-software">multi-level
-                                                approvals</a>
-faster.</h6>
+                                            <h6 class="with-top-border-subscription">Streamline single or <a
+                                                    href="https://www.dealdox.io/approval-software">multi-level
+                                                    approvals</a>
+                                                faster.</h6>
                                         </li>
 
                                         <li>
                                             <div class="icon">
                                                 <i class="ri-check-line"></i>
                                             </div>
-                                            <h6 class="with-top-border-subscription">Get your <a href="https://www.dealdox.io/">deal documents in your
-                                                local language,</a> regardless of your country.
+                                            <h6 class="with-top-border-subscription">Get your <a
+                                                    href="https://www.dealdox.io/">deal documents in your
+                                                    local language,</a> regardless of your country.
                                             </h6>
                                         </li>
-                                        <h5>Question? Talk to an expert: <span class="sub-title-faq">+91 8431995645</span></h5>
+                                        <h5>Question? Talk to an expert: <span class="sub-title-faq">+91 8431995645</span>
+                                        </h5>
                                     </ul>
                                 </div>
                             </div>

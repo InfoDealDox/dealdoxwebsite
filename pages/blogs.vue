@@ -12,7 +12,7 @@
         </div>
         <!-- <PageTitle class="page-title-style-two" pageTitle=""
             pageDesc="" /> -->
-        <Blog />
+        <!-- <Blog /> -->
         <LatestBlog />
         <AutomatedQuotes />
         <DealDoxFooter />
@@ -22,7 +22,7 @@
 <script>
 import Navbar from '../layouts/Navbar';
 // import PageTitle from '../components/Common/PageTitle';
-import Blog from '../components/blogs/Blog'
+// import Blog from '../components/blogs/Blog'
 import LatestBlog from '../components/blogs/LatestBlog'
 import AutomatedQuotes from '../components/Common/AutomatedQuotes';
 import DealDoxFooter from '../layouts/DealDoxFooter'
@@ -33,7 +33,7 @@ export default {
     components: {
         Navbar,
         // PageTitle,
-        Blog,
+        // Blog,
         LatestBlog,
         AutomatedQuotes,
         DealDoxFooter,

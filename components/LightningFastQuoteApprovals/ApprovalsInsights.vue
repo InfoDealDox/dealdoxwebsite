@@ -14,7 +14,7 @@
                     <div class="about-content">
                         <h3>Approvals Insights</h3>
                         <p>DealDox makes it possible to have a delegation dashboard with all quotes accessible from a
-                            single, simple insight. <a href="https://www.dealdox.io/cpq">CPQ</a>
+                            single, simple insight. <a href="https://www.dealdox.io/glossary/configure-price-quote">CPQ</a>
                             instant quote approval process includes examining quote details
                             approval,
                             commenting on the quotation, and advising changes. DealDox automatically synchronizes data with
