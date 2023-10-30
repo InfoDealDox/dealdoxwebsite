@@ -1,8 +1,17 @@
 <template>
     <div>
         <Navbar class="navbar-style-two" />
-        <PageTitle class="page-title-style-two" pageTitle=""
-            pageDesc="" />
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12 col-md-12">
+                    <div class="new-app-main-banner-wrap-image">
+                        <img src="../../../assets/images/more-home/banner/blogsheader.png" alt="image">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <PageTitle class="page-title-style-two" pageTitle=""
+            pageDesc="" /> -->
         <!-- <PageTitle class="page-title-style-two" v-if="details !== null" :pageTitle="details[0].attributes.title" pageDesc="News and Insights" /> -->
         <div v-if="details !== null">
             <BlogDetails v-bind:detailsContent="details" />
