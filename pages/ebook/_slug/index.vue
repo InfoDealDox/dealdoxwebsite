@@ -1,8 +1,17 @@
 <template>
     <div>
         <Navbar class="navbar-style-two" />
-        <PageTitle class="page-title-style-two-ebook" pageTitle=""
-            pageDesc="" />
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12 col-md-12">
+                    <div class="new-app-main-banner-wrap-image">
+                        <img src="../../../assets/images/banner/ebook.png" alt="image">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <PageTitle class="page-title-style-two-ebook" pageTitle=""
+            pageDesc="" /> -->
         <!-- <PageTitle v-if="details !== null" :pageTitle="details[0].attributes.name" pageDesc="News and Insights" /> -->
         <div v-if="details !== null">
             <EbookDetails v-bind:detailsContent="details" />
@@ -13,7 +22,7 @@
 
 <script>
 import Navbar from '../../../layouts/Navbar';
-import PageTitle from '../../../components/Common/PageTitle';
+// import PageTitle from '../../../components/Common/PageTitle';
 import EbookDetails from '../../../components/EbookFolder/EbookDetails'
 import DealDoxFooter from '../../../layouts/DealDoxFooter'
 import axios from 'axios';
@@ -21,7 +30,7 @@ import axios from 'axios';
 export default {
     components: {
         Navbar,
-        PageTitle,
+        // PageTitle,
         EbookDetails,
         DealDoxFooter,
     },
