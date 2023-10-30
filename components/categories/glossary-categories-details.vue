@@ -11,9 +11,9 @@
                     :key="glossary.id">
                     <div class="single-blog-post bg-white">
                         <div class="image">
-                            <NuxtLink :to="'/glossary/' + glossary.attributes.slug" class="d-block">
+                            <!-- <NuxtLink :to="'/glossary/' + glossary.attributes.slug" class="d-block">
                                 <img :src="glossary?.attributes?.image?.data?.attributes?.url" alt="blog">
-                            </NuxtLink>
+                            </NuxtLink> -->
                             <!-- <NuxtLink to="/glossary-details/" class="tag">{{ glossary?.attributes?.tag }}</NuxtLink> -->
                         </div>
                         <div class="content">
