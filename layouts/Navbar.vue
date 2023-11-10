@@ -3,7 +3,7 @@
         <div class="jexa-nav">
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <NuxtLink class="navbar-brand" to="/#">
+                    <NuxtLink class="navbar-brand" to="/">
                         <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694695208/logo_m8wwsx.svg" alt="logo">
                     </NuxtLink>
 
