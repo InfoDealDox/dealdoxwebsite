@@ -82,19 +82,19 @@
                                         <input name="retURL" type="hidden"
                                             value="https://dealdox.io/thank-you" />
                                         <div class="row">
-                                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                                <div class="form-group">
-                                                    <p>First Name</p>
-                                                    <input type="text" maxlength="40" name="first_name" required
-                                                        class="form-control" id="first_name" placeholder="Eg: David">
-                                                </div>
-                                            </div>
+                                           <div class="col-lg-6 col-md-6 col-sm-6">
+        <div class="form-group">
+            <p>Full Name</p>
+            <input type="text" maxlength="40" v-model="fullName" class="form-control" id="first_name" placeholder="Eg: David" required>
+           
+        </div>
+    </div>
 
-                                            <div class="col-lg-6 col-md-6 col-sm-6">
+     <div class="col-lg-6 col-md-6 col-sm-6">
                                                 <div class="form-group">
-                                                    <p>Last Name</p>
-                                                    <input type="text" maxlength="40" name="last_name"
-                                                        class="form-control" id="last_name" placeholder="Eg: Marsh">
+                                                    <p> Business Email</p>
+                                                    <input type="email" maxlength="40" name="email" required
+                                                        class="form-control" id="email" placeholder="Eg: abc@gmail.com">
                                                 </div>
                                             </div>
 
@@ -106,22 +106,9 @@
                                                     placeholder="Eg: 123456789012345" :title="phoneValidationMessage" />
                                             </div>
 
-                                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                                <div class="form-group">
-                                                    <p>Email</p>
-                                                    <input type="email" maxlength="40" name="email" required
-                                                        class="form-control" id="email" placeholder="Eg: abc@gmail.com">
-                                                </div>
-                                            </div>
+                                           
 
-                                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                                <div class="form-group">
-                                                    <p>Job Title</p>
-                                                    <input type="text" maxlength="40" name="title"
-                                                        class="form-control" id="title"
-                                                        placeholder="Eg: Associate Consultant">
-                                                </div>
-                                            </div>
+                                         
 
                                             <div class="col-lg-6 col-md-6 col-sm-6">
                                                 <div class="form-group">
@@ -131,19 +118,7 @@
                                                 </div>
                                             </div>
 
-                                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                                <div class="form-group">
-                                                    <p>Employees</p>
-                                                    <select required name="Employees__c" id="Employees__c"
-                                                        class="form-control">
-                                                        <option>--None--</option>
-                                                        <option value="1-20">1-20</option>
-                                                        <option value="21-200">21-200</option>
-                                                        <option value="201-10000">201-10000</option>
-                                                        <option value="10000+">10000+</option>
-                                                    </select>
-                                                </div>
-                                            </div>
+                                           
 
                                             <div class="col-lg-6 col-md-6 col-sm-6">
                                                 <div class="form-group">
@@ -199,7 +174,6 @@ new Vue({
     data: {
         formData: {
             first_name: '',
-            last_name: '',
             phone: '',
             email: '',
             company: '',
@@ -234,13 +208,10 @@ export default {
         validateForm() {
             this.errors = {};
 
-            if (!this.formData.first_name) {
-                this.errors.first_name = 'First Name is required.';
-            }
+             if (!this.isValidname(this.formData.name)) {
+                this.errors.name = 'Please enter a valid full name';
+                }
 
-            if (!this.formData.last_name) {
-                this.errors.last_name = 'Last Name is required.';
-            }
 
             if (!this.formData.phoneNumber) {
                 this.errors.phoneNumber = 'Phone is required.';
