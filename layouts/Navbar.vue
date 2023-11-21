@@ -21,7 +21,9 @@
                             </li>
 
                             <li class="nav-item"><a href="#" class="dropdown-toggle nav-link">Features</a>
-                                <ul class="dropdown-menu">
+                                <ul class="dropdown-menu1">
+                                <div class="mainDiv">
+                                <div class="div1">
                                     <li class="nav-item">
                                         <NuxtLink to="/services-cpq" class="nav-link">CPQ</NuxtLink>
                                     </li>
@@ -41,6 +43,28 @@
                                             Localized Deal Documents
                                         </NuxtLink>
                                     </li>
+                                    </div>
+                                <div class="div2">
+                                    <li class="nav-item">
+                                        <NuxtLink to="/salesforce-cpq-integration" class="nav-link">Salesforce</NuxtLink>
+                                    </li>
+                                    <li class="nav-item">
+                                        <NuxtLink to="/microsoft-dynamics-365-cpq-integration" class="nav-link">Microsoft Dynamics</NuxtLink>
+                                    </li>
+                                    <li class="nav-item">
+                                        <NuxtLink to="/freshworks-cpq-integration" class="nav-link">Freshworks
+                                        </NuxtLink>
+                                    </li>
+                                    <li class="nav-item">
+                                        <NuxtLink to="/hubspot-cpq-integration" class="nav-link">HubSpot</NuxtLink>
+                                    </li>
+                                    <li class="nav-item">
+                                        <NuxtLink to="/sugarcrm-cpq-integration" class="nav-link">
+                                           SugarCRM
+                                        </NuxtLink>
+                                    </li>
+                                    </div>
+                                    </div>
                                 </ul>
                             </li>
 
