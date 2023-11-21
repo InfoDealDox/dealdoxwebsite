@@ -1,3 +1,4 @@
+
 <template>
     <div>
         <Navbar class="navbar-style-two" />

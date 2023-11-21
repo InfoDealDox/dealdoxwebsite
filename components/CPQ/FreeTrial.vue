@@ -15,13 +15,7 @@
                     </div>
                 </div>
             </div>
-              <div class="faqDiv">
-<h3>Automated Quote Generation tool helps businesses achieve faster sales cycles and higher win
-                            rates by providing accurate pricing and quotes in a timely manner. Get started free onboarding
-                            today!</h3>
-      </div>
     </div>
-  
     </div>
 </template>
  
