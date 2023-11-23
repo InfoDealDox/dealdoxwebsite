@@ -8,7 +8,7 @@
                                 Communication</span><span class="sub-title"></span> for Global Business</h1>
                         <div class="tb-30">
                             <NuxtLink to="/demo" required class="default-btn"><i class='bx bx-paper-plane'></i>
-                                Request a Demo</NuxtLink>
+                                Start My Free Trial</NuxtLink>
                         </div>
                     </div>
                 </div>

@@ -24,7 +24,7 @@
                                 <ul class="dropdown-menu1">
                                 <div class="mainDiv">
                                 <div class="div1">
-                                <h3></h3>
+                                <h4 class="headingForNav">Solutions</h4>
                                     <li class="nav-item">
                                         <NuxtLink to="/services-cpq" class="nav-link">CPQ</NuxtLink>
                                     </li>
@@ -46,7 +46,8 @@
                                     </li>
                                     </div>
                                 <div class="div2">
-                                    <li class="nav-item">
+                                 <h4 class="headingForNav">Top Integrations</h4>
+                                     <li class="nav-item">
                                         <NuxtLink to="/salesforce-cpq-integration" class="nav-link">Salesforce</NuxtLink>
                                     </li>
                                     <li class="nav-item">

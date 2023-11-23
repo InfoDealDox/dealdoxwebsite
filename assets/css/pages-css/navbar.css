@@ -1034,6 +1034,12 @@ border-radius: 25px;
   }
 }
 
+.headingForNav{
+font-size: 17px;
+padding: 5px 6px 0px 19px;
+color: rgb(113, 92, 243);
+}
+
 /* Min width 1200px to Max width 1399px */
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .navbar-area.navbar-style-four .container-fluid {
