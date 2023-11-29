@@ -7,7 +7,9 @@
                         <div class="did-you-know">
                             <img src="../../assets/images/do-you-know-tag.svg" alt="image">
                         </div>
-                        <h4>With automated quotations software, you can automate proposal generation, eliminating manual content creation hassles. </h4>
+                        <h3>By using CPQ software, you can automate the process of generating proposals and eliminate the
+                            burden of manual content creation. Experience streamlined efficiency and unlock more time for
+                            selling. Get started with free onboarding today!</h3>
                         <NuxtLink to="/sign-up-free-trial" class="default-btn">Start My Free Trial</NuxtLink>
                     </div>
                 </div>

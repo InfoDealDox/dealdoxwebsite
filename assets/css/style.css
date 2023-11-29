@@ -120,9 +120,8 @@ img {
 
 p {
   color: var(--paragraphColor);
-  /* font-size: var(--fontSize); */
+  font-size: var(--fontSize);
   margin-bottom: 15px;
-  font-size: 1.25rem;
   line-height: 1.5;
 }
 

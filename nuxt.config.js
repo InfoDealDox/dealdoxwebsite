@@ -101,10 +101,6 @@ export default {
       }
     }
   },
-  extend(config, { isDev, isClient }) {
-    config.resolve.alias.vue = 'vue/dist/vue.common';
-  }
-}
   // seo: {
   //   // My custom configuration
   //   baseUrl: 'https://domain',
@@ -115,3 +111,4 @@ export default {
   //   canonical: 'auto',
   //   isForcedTrailingSlash: false
   // }
+}
