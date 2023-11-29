@@ -8,7 +8,6 @@
         <ModesofApprovals />
         <ApprovalsInsights />
         <FreeTrial />
-      
         <DealDoxFooter />
     </div>
 </template>

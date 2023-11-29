@@ -12,12 +12,13 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content">
                         <h2> <a href="https://www.dealdox.io/quoting-software">Quick and Accurate Quoting</a></h2>
-                        <p>DealDox excels as the best CPQ software with advanced guided selling. 
-                        It provides real-time insights, facilitating precise quoting for businesses of all sizes, from small to large, enhancing sales engagement. 
+                        <p>DealDox's unique feature of advanced guided selling makes it the best tool for sales engagement.
+                            With real-time insights into your prospect's needs, the best quote automation software enables
+                            quick and accurate quoting for any sized business - small, middle & big.
                         </p>
-                        <p>A predetermined questionnaire flow, facilitated by the best CPQ tools, 
-                        guides the sales team in configuring the ideal product. 
-                        This process automatically prompts upgrade, upsell, and cross-selling recommendations to enhance deal size. 
+                        <p>A predetermined questionnaire flow, from CPQ guided selling setup, directs the sales team through
+                            setting up the product that fits perfectly. Upgrade, upsell, and cross-selling suggestions are
+                            automatically triggered to expand the deal size.
                         </p>
                     </div>
                 </div>
@@ -30,7 +31,7 @@
                         <p>With features like role-based pricing, customizable stages, and flexible pricing options, you can
                             create accurate and detailed quotes. Gain a complete view of your quotes with summaries, stages,
                             timeframes, and contract durations. Plus, effortlessly switch between different pricing models,
-                            including time and expense, fixed price, and margin target with the best CPQ software.</p>
+                            including time and expense, fixed price, and margin target.</p>
                     </div>
                 </div>
 
@@ -54,9 +55,10 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content">
                         <h2>Managed Services</h2>
-                        <p>With the best CPQ tools, you can effortlessly generate quotes for an extensive range of managed services, 
-                        spanning help desk support, hosting, security monitoring, and more. 
-                        Custom pricing structures to include vital specifics like contract duration, target margin, discounts, setup and exit fees, user counts, and more. 
+                        <p>Create quotes for a wide range of managed services, including help desk support, hosting,
+                            security monitoring, data storage, network operations, IoT services, analytics, and more.
+                            Experience the flexibility to customize pricing ramps and include essential details such as
+                            contract duration, target margin, discounts, setup and exit fees, user counts, and beyond.
                         </p>
                     </div>
                 </div>
@@ -66,8 +68,11 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content-right">
                         <h2>Subscription Services</h2>
-                        <p>Best CPQ tools automate quoting with versatility. 
-                        Handle fixed, tiered, or pay-per-usage pricing, manage discounts, update prices, and adapt contracts with ease. Add-ons enhance flexibility and scalability. 
+                        <p>With automated quotation solution, you can seamlessly handle any pricing model, whether it's
+                            fixed,
+                            tiered, or pay-per-usage. You can add setup fees, effortlessly manage discounts, update pricing
+                            mid-contract, and handle renewals with ease. In addition, you have the freedom to attach add-ons
+                            and upgrades to existing contract terms, ensuring flexibility and scalability for your services.
                         </p>
                     </div>
                 </div>
@@ -93,7 +98,7 @@
                     <div class="about-content">
                         <h2>Everything-as-a-Service</h2>
                         <p>We offer everything as a service where you can add services, subscriptions, and items from our
-                            catalogue in a quote. With the best CPQ software automation you can get quotes for all of your services at
+                            catalogue in a quote. With CPQ sales automation you can get quotes for all of your services at
                             once or for each category separately, which is a unique feature.</p>
                     </div>
                 </div>
@@ -123,7 +128,7 @@
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p>The best CPQ Software saves time, ensures accuracy, and accelerates sales cycles.</p>
+                                    <p>It saves time, ensures accuracy, and accelerates sales cycles.</p>
                                 </li>
 
                                 <li>
@@ -165,12 +170,6 @@
                                         <i class="ri-check-line"></i>
                                     </div>
                                     <p>Maintain pricing and discounts consistency.</p>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <i class="ri-check-line"></i>
-                                    </div>
-                                    <p>Services CPQ automates diverse managed service approvals.</p>
                                 </li>
 
                                 <li>
@@ -238,8 +237,8 @@
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p>The best CPQ tools integrate with ERP systems, facilitating real-time data synchronization and smooth cross-platform communication for operational efficiency. 
-                                        </p>
+                                    <p>Salesforce, Microsoft Dynamics 365 for Sales, Freshworks, Hubspot, and Sugar CRMs -
+                                        can be easily integrated.</p>
                                 </li>
 
                                 <li>
@@ -281,7 +280,7 @@
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content">
-                        <h2>Streamline Quoting with Best CPQ Tools </h2>
+                        <h2>Streamlined Quoting Process</h2>
                         <div class="features-content">
                             <ul class="features-list">
                                 <li>

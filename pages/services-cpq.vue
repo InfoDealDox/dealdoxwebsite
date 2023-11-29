@@ -7,7 +7,6 @@
         <QuickandAccurate />
         <FreeTrial />
         <DealDoxFooter />
-        
     </div>
 </template>
 
@@ -31,7 +30,6 @@ export default {
         WhatisCPQService,
         FreeTrial,
         DealDoxFooter,
-    
     },
 
     data() {

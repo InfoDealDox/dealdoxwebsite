@@ -7,8 +7,11 @@
                         <div class="did-you-know">
                             <img src="../../assets/images/do-you-know-tag.svg" alt="image">
                         </div>
-                        <h4>DealDox CPQ accelerates global deals with multilingual document creation, showcasing a deep understanding of prospects for enhanced sales effectiveness. 
-                      </h4>
+                        <h3>With the multilingual document creation capability of <a
+                             href="https://www.dealdox.io">DealDox</a> CPQ, you can confidently navigate
+                            international markets, expand your customer base, and close deals faster. By speaking your
+                            prospects' language, you demonstrate a deep understanding of their needs, culture, and
+                            preferences, elevating your sales effectiveness to a whole new level. </h3>
                         <NuxtLink to="/sign-up-free-trial" class="default-btn">Start My Free Trial</NuxtLink>
                     </div>
                 </div>

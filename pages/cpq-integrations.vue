@@ -1,7 +1,8 @@
 <template>
     <div>
         <Navbar class="navbar-style-two" />
-        <PageHeader />        <Stats />
+        <PageHeader />
+        <Stats />
         <Funfacts />
         <IAQSolutions />
         <FreeTrial />
@@ -16,7 +17,6 @@ import IAQSolutions from '../components/CPQIntegration/IAQSolutions'
 import Funfacts from '../components/CPQIntegration/Funfacts'
 import Stats from '../components/CPQIntegration/Stats'
 import FreeTrial from '../components/CPQIntegration/FreeTrial'
-
 import DealDoxFooter from '../layouts/DealDoxFooter'
 import axios from 'axios';
 
@@ -31,7 +31,7 @@ export default {
         FreeTrial,
         DealDoxFooter,
     },
-    data() { 
+    data() {
         return {
             seoData: [],
         }
