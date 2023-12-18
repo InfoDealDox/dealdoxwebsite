@@ -7,8 +7,8 @@
                         <h1>Introducing Localized Deal Documents: Unlocking <span style="color: #715CF3">Multilingual
                                 Communication</span><span class="sub-title"></span> for Global Business</h1>
                         <div class="tb-30">
-                            <NuxtLink to="/demo" required class="default-btn"><i class='bx bx-paper-plane'></i>
-                                Request a Demo</NuxtLink>
+                            <NuxtLink to="/sign-up-free-trial" required class="default-btn"><i class='bx bx-paper-plane'></i>
+                                Start My Free Trail</NuxtLink>
                         </div>
                     </div>
                 </div>
