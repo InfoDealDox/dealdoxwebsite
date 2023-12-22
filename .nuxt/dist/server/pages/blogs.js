@@ -1,21 +1,21 @@
-exports.ids = [121,15,35];
+exports.ids = [117,15,34];
 exports.modules = {
 
-/***/ 130:
+/***/ 128:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/shape4.f931a06.png";
+module.exports = __webpack_require__.p + "img/shape4.a5ecfff.png";
 
 /***/ }),
 
-/***/ 133:
+/***/ 131:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/onboarding-assistance.4fdaa14.png";
+module.exports = __webpack_require__.p + "img/onboarding-assistance.230686e.png";
 
 /***/ }),
 
-/***/ 148:
+/***/ 146:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -28,12 +28,12 @@ var render = function render() {
     _c = _vm._self._c;
   return _c('div', {
     staticClass: "app-download-area pt-70"
-  }, [_vm._ssrNode("<div class=\"container\">", "</div>", [_vm._ssrNode("<div class=\"app-download-inner\">", "</div>", [_vm._ssrNode("<div class=\"row align-items-center\">", "</div>", [_vm._ssrNode("<div class=\"section-title-home tb-30\"><h4>Enjoy DealDox At Zero Cost! Including:</h4></div> <div class=\"col-lg-6 col-md-12\"><div data-aos=\"fade-up\" class=\"app-download-images\"><img" + _vm._ssrAttr("src", __webpack_require__(133)) + " alt=\"app-img\"></div></div> "), _vm._ssrNode("<div class=\"col-lg-6 col-md-12\">", "</div>", [_vm._ssrNode("<div class=\"app-download-content\">", "</div>", [_vm._ssrNode("<div class=\"features-content\">", "</div>", [_vm._ssrNode("<ul class=\"features-list\"><li><div class=\"icon-home\"><i class=\"ri-check-line\"></i></div> <h4>Onboarding Assistance</h4></li> <li><div class=\"icon-home\"><i class=\"ri-check-line\"></i></div> <h4>Comprehensive Implementation</h4></li> <li><div class=\"icon-home\"><i class=\"ri-check-line\"></i></div> <h4>Adaptations to meet your needs and so much more</h4></li> <li><div class=\"features-content-home\"><p>Don't miss added perks here</p></div></li></ul> "), _vm._ssrNode("<div class=\"btn-box\">", "</div>", [_c('NuxtLink', {
+  }, [_vm._ssrNode("<div class=\"container\">", "</div>", [_vm._ssrNode("<div class=\"app-download-inner\">", "</div>", [_vm._ssrNode("<div class=\"row align-items-center\">", "</div>", [_vm._ssrNode("<div class=\"section-title-home tb-30\"><h4>Enjoy DealDox At Zero Cost! Including:</h4></div> <div class=\"col-lg-6 col-md-12\"><div data-aos=\"fade-up\" class=\"app-download-images\"><img" + _vm._ssrAttr("src", __webpack_require__(131)) + " alt=\"app-img\"></div></div> "), _vm._ssrNode("<div class=\"col-lg-6 col-md-12\">", "</div>", [_vm._ssrNode("<div class=\"app-download-content\">", "</div>", [_vm._ssrNode("<div class=\"features-content\">", "</div>", [_vm._ssrNode("<ul class=\"features-list\"><li><div class=\"icon-home\"><i class=\"ri-check-line\"></i></div> <h4>Onboarding Assistance</h4></li> <li><div class=\"icon-home\"><i class=\"ri-check-line\"></i></div> <h4>Comprehensive Implementation</h4></li> <li><div class=\"icon-home\"><i class=\"ri-check-line\"></i></div> <h4>Adaptations to meet your needs and so much more</h4></li> <li><div class=\"features-content-home\"><p>Don't miss added perks here</p></div></li></ul> "), _vm._ssrNode("<div class=\"btn-box\">", "</div>", [_c('NuxtLink', {
     staticClass: "default-btn-home",
     attrs: {
       "to": "/sign-up-free-trial"
     }
-  }, [_vm._v("Start My Free Trial")])], 1)], 2)])])], 2), _vm._ssrNode(" <div class=\"shape5\"><img" + _vm._ssrAttr("src", __webpack_require__(130)) + " alt=\"shape4\"></div> <div class=\"lines\"><div class=\"line\"></div> <div class=\"line\"></div> <div class=\"line\"></div> <div class=\"line\"></div> <div class=\"line\"></div></div>")], 2)])]);
+  }, [_vm._v("Start My Free Trial")])], 1)], 2)])])], 2), _vm._ssrNode(" <div class=\"shape5\"><img" + _vm._ssrAttr("src", __webpack_require__(128)) + " alt=\"shape4\"></div> <div class=\"lines\"><div class=\"line\"></div> <div class=\"line\"></div> <div class=\"line\"></div> <div class=\"line\"></div> <div class=\"line\"></div></div>")], 2)])]);
 };
 var staticRenderFns = [];
 
@@ -63,7 +63,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "6dc955d2"
+  "3b8b61b9"
   
 )
 
@@ -74,11 +74,11 @@ var component = Object(componentNormalizer["a" /* default */])(
 /***/ 150:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/blogsheader.84e5690.png";
+module.exports = __webpack_require__.p + "img/blogsheader.7b6ef23.png";
 
 /***/ }),
 
-/***/ 249:
+/***/ 248:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -170,7 +170,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "2fbe8a10"
+  "4b554f37"
   
 )
 
@@ -178,7 +178,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 334:
+/***/ 330:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -201,10 +201,10 @@ var staticRenderFns = [];
 var Navbar = __webpack_require__(12);
 
 // EXTERNAL MODULE: ./components/blogs/LatestBlog.vue + 4 modules
-var LatestBlog = __webpack_require__(249);
+var LatestBlog = __webpack_require__(248);
 
 // EXTERNAL MODULE: ./components/Common/AutomatedQuotes.vue + 4 modules
-var AutomatedQuotes = __webpack_require__(148);
+var AutomatedQuotes = __webpack_require__(146);
 
 // EXTERNAL MODULE: ./layouts/DealDoxFooter.vue + 4 modules
 var DealDoxFooter = __webpack_require__(11);
@@ -274,7 +274,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "2980e422"
+  "5588fdd4"
   
 )
 

@@ -1,14 +1,14 @@
-exports.ids = [96];
+exports.ids = [92];
 exports.modules = {
 
 /***/ 204:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/DealDox and Salesforce CRM.b01718f.png";
+module.exports = __webpack_require__.p + "img/DealDox and Salesforce CRM.8be1ce4.png";
 
 /***/ }),
 
-/***/ 286:
+/***/ 283:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -59,7 +59,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "4c42d9d4"
+  "070409e2"
   
 )
 

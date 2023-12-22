@@ -1,246 +1,80 @@
-exports.ids = [119,32,33,34,73,74,75,76,77,78,79];
+exports.ids = [115,69,70,71,72,73,74,75];
 exports.modules = {
 
 /***/ 123:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/shape-5.5c9d317.png";
+module.exports = __webpack_require__.p + "img/shape-5.7c2c12c.png";
 
 /***/ }),
 
 /***/ 124:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Common/Accordion.vue?vue&type=template&id=2de24dc2&
-var render = function render() {
-  var _vm = this,
-    _c = _vm._self._c;
-  return _c('ul', {
-    staticClass: "accordion"
-  }, [_vm._t("default")], 2);
-};
-var staticRenderFns = [];
-
-// CONCATENATED MODULE: ./components/Common/Accordion.vue?vue&type=template&id=2de24dc2&
-
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Common/Accordion.vue?vue&type=script&lang=js&
-/* harmony default export */ var Accordionvue_type_script_lang_js_ = ({
-  name: 'Accordion',
-  props: {},
-  data() {
-    return {
-      Accordion: {
-        count: 0,
-        active: null
-      }
-    };
-  },
-  provide() {
-    return {
-      Accordion: this.Accordion
-    };
-  }
-});
-// CONCATENATED MODULE: ./components/Common/Accordion.vue?vue&type=script&lang=js&
- /* harmony default export */ var Common_Accordionvue_type_script_lang_js_ = (Accordionvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(3);
-
-// CONCATENATED MODULE: ./components/Common/Accordion.vue
-
-
-
-
-
-/* normalize component */
-
-var component = Object(componentNormalizer["a" /* default */])(
-  Common_Accordionvue_type_script_lang_js_,
-  render,
-  staticRenderFns,
-  false,
-  null,
-  null,
-  "f21c4cda"
-  
-)
-
-/* harmony default export */ var Accordion = __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ 125:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Common/AccordionItem.vue?vue&type=template&id=fc85f8fe&
-var render = function render() {
-  var _vm = this,
-    _c = _vm._self._c;
-  return _c('li', {
-    staticClass: "accordion__item"
-  }, [_vm._ssrNode("<div" + _vm._ssrClass("accordion__trigger", {
-    'accordion__trigger_active': _vm.visible
-  }) + ">", "</div>", [_vm._t("accordion-trigger")], 2), _vm._ssrNode(" "), _c('transition', {
-    attrs: {
-      "name": "accordion"
-    },
-    on: {
-      "enter": _vm.start,
-      "after-enter": _vm.end,
-      "before-leave": _vm.start,
-      "after-leave": _vm.end
-    }
-  }, [_c('div', {
-    directives: [{
-      name: "show",
-      rawName: "v-show",
-      value: _vm.visible,
-      expression: "visible"
-    }],
-    staticClass: "accordion__content"
-  }, [_c('ul', [_vm._t("accordion-content")], 2)])])], 2);
-};
-var staticRenderFns = [];
-
-// CONCATENATED MODULE: ./components/Common/AccordionItem.vue?vue&type=template&id=fc85f8fe&
-
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Common/AccordionItem.vue?vue&type=script&lang=js&
-/* harmony default export */ var AccordionItemvue_type_script_lang_js_ = ({
-  name: 'AccordionItem',
-  props: {},
-  inject: ["Accordion"],
-  data() {
-    return {
-      index: null
-    };
-  },
-  computed: {
-    visible() {
-      return this.index == this.Accordion.active;
-    }
-  },
-  methods: {
-    open() {
-      if (this.visible) {
-        this.Accordion.active = null;
-      } else {
-        this.Accordion.active = this.index;
-      }
-    },
-    start(el) {
-      el.style.height = el.scrollHeight + "px";
-    },
-    end(el) {
-      el.style.height = "";
-    }
-  },
-  created() {
-    this.index = this.Accordion.count++;
-  }
-});
-// CONCATENATED MODULE: ./components/Common/AccordionItem.vue?vue&type=script&lang=js&
- /* harmony default export */ var Common_AccordionItemvue_type_script_lang_js_ = (AccordionItemvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(3);
-
-// CONCATENATED MODULE: ./components/Common/AccordionItem.vue
-
-
-
-
-
-/* normalize component */
-
-var component = Object(componentNormalizer["a" /* default */])(
-  Common_AccordionItemvue_type_script_lang_js_,
-  render,
-  staticRenderFns,
-  false,
-  null,
-  null,
-  "10a201c6"
-  
-)
-
-/* harmony default export */ var AccordionItem = __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ 126:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/do-you-know-tag.700e777.svg";
+module.exports = __webpack_require__.p + "img/do-you-know-tag.20dc659.svg";
 
 /***/ }),
 
-/***/ 132:
+/***/ 130:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/DocumentAnalytics.23450ea.png";
+module.exports = __webpack_require__.p + "img/DocumentAnalytics.08a6ad6.png";
 
 /***/ }),
 
 /***/ 149:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/swiftautomated.79ec144.svg";
+module.exports = __webpack_require__.p + "img/swiftautomated.1c2b15c.svg";
 
 /***/ }),
 
 /***/ 162:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/lfqa-banner.3255ad2.png";
+module.exports = __webpack_require__.p + "img/lfqa-banner.48e5179.png";
 
 /***/ }),
 
 /***/ 163:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/effortless-automation.e097522.svg";
+module.exports = __webpack_require__.p + "img/effortless-automation.d9c7a54.svg";
 
 /***/ }),
 
 /***/ 164:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/automated-approval.b04222e.png";
+module.exports = __webpack_require__.p + "img/automated-approval.fd56e9b.png";
 
 /***/ }),
 
 /***/ 165:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/scope.1282b40.png";
+module.exports = __webpack_require__.p + "img/scope.40e05bc.png";
 
 /***/ }),
 
 /***/ 166:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/risk.edb5d03.png";
+module.exports = __webpack_require__.p + "img/risk.d8a036d.png";
 
 /***/ }),
 
 /***/ 167:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/margin.6359416.png";
+module.exports = __webpack_require__.p + "img/margin.cecba2c.png";
 
 /***/ }),
 
 /***/ 168:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Filemanagementbyemployee.f90219e.png";
+module.exports = __webpack_require__.p + "img/Filemanagementbyemployee.57445b3.png";
 
 /***/ }),
 
@@ -251,7 +85,7 @@ module.exports = __webpack_require__.p + "img/Filemanagementbyemployee.f90219e.p
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/LightningFastQuoteApprovals/BannerLighteningFast.vue?vue&type=template&id=d706aaee&
+// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/LightningFastQuoteApprovals/BannerLighteningFast.vue?vue&type=template&id=56106ca4&
 var render = function render() {
   var _vm = this,
     _c = _vm._self._c;
@@ -260,16 +94,16 @@ var render = function render() {
   }, [_vm._ssrNode("<div class=\"container\">", "</div>", [_vm._ssrNode("<div class=\"row align-items-center\">", "</div>", [_vm._ssrNode("<div class=\"col-lg-6 col-md-12\">", "</div>", [_vm._ssrNode("<div class=\"new-app-main-banner-wrap-content\">", "</div>", [_vm._ssrNode("<h1>Lightening Fast <span style=\"color: #715CF3\"><br>Quote Approvals</span></h1> <p>Unleash the Power of CPQ Quick Approval Process for Rapid Sales, Delighted Customers, and Maximum\n                        Revenue </p> "), _vm._ssrNode("<div class=\"tb-30\">", "</div>", [_c('NuxtLink', {
     staticClass: "default-btn",
     attrs: {
-      "to": "/sign-up-free-trial",
+      "to": "/demo",
       "required": ""
     }
   }, [_c('i', {
     staticClass: "bx bx-paper-plane"
-  }), _vm._v("\n                            Start My Free Trail")])], 1)], 2)]), _vm._ssrNode(" <div class=\"col-lg-6 col-md-12\"><div data-aos=\"fade-left\" data-aos-duration=\"2000\" class=\"new-app-main-banner-wrap-image\"><img" + _vm._ssrAttr("src", __webpack_require__(162)) + " alt=\"image\"></div></div>")], 2)]), _vm._ssrNode(" <div class=\"new-app-main-banner-wrap-shape\"><img" + _vm._ssrAttr("src", __webpack_require__(123)) + " alt=\"image\"></div>")], 2);
+  }), _vm._v("\n                            Request a Demo")])], 1)], 2)]), _vm._ssrNode(" <div class=\"col-lg-6 col-md-12\"><div data-aos=\"fade-left\" data-aos-duration=\"2000\" class=\"new-app-main-banner-wrap-image\"><img" + _vm._ssrAttr("src", __webpack_require__(162)) + " alt=\"image\"></div></div>")], 2)]), _vm._ssrNode(" <div class=\"new-app-main-banner-wrap-shape\"><img" + _vm._ssrAttr("src", __webpack_require__(123)) + " alt=\"image\"></div>")], 2);
 };
 var staticRenderFns = [];
 
-// CONCATENATED MODULE: ./components/LightningFastQuoteApprovals/BannerLighteningFast.vue?vue&type=template&id=d706aaee&
+// CONCATENATED MODULE: ./components/LightningFastQuoteApprovals/BannerLighteningFast.vue?vue&type=template&id=56106ca4&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/LightningFastQuoteApprovals/BannerLighteningFast.vue?vue&type=script&lang=js&
 /* harmony default export */ var BannerLighteningFastvue_type_script_lang_js_ = ({
@@ -295,7 +129,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "f75e5bee"
+  "111d89a0"
   
 )
 
@@ -346,7 +180,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "3b675c79"
+  "681217e0"
   
 )
 
@@ -397,7 +231,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "5241447a"
+  "753ca4be"
   
 )
 
@@ -448,7 +282,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "6325e856"
+  "418d74fc"
   
 )
 
@@ -499,7 +333,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "2f66fac7"
+  "74000f6e"
   
 )
 
@@ -520,7 +354,7 @@ var render = function render() {
     _c = _vm._self._c;
   return _c('div', {
     staticClass: "about-area bg-FAFAFA ptb-75"
-  }, [_vm._ssrNode("<div class=\"container\"><div class=\"row align-items-center\"><div class=\"col-lg-6 col-md-12\"><div class=\"features-item with-border bg-FAFAFA\"><div class=\"about-img\"><img" + _vm._ssrAttr("src", __webpack_require__(168)) + " data-aos=\"fade-up\" alt=\"about\"></div></div></div> <div class=\"col-lg-6 col-md-12\"><div class=\"about-content\"><h3>Approvals Insights</h3> <p>DealDox makes it possible to have a delegation dashboard with all quotes accessible from a\n                        single, simple insight. <a href=\"https://www.dealdox.io/glossary/configure-price-quote\">CPQ</a>\n                        instant quote approval process includes examining quote details\n                        approval,\n                        commenting on the quotation, and advising changes. DealDox automatically synchronizes data with\n                        CRM and ERP applications following approval.\n                    </p></div></div></div> <div class=\"row align-items-center\"><div class=\"col-lg-6 col-md-12\"><div class=\"about-content\"><h3>Reapprove with Ease </h3> <p>DealDox provides a flexible and streamlined approach <a href=\"https://www.dealdox.io/approval-software\">CPQ approval process.</a> Even after\n                        approval,\n                        if\n                        any modifications are require, they can be made easily can be re-approved without any delay.\n                        This feature ensures that deals are always up-to-date and all parties involved are on the same\n                        plate.\n                    </p></div></div> <div class=\"col-lg-6 col-md-12\"><div class=\"features-item with-border bg-FAFAFA\"><div class=\"about-img\"><img" + _vm._ssrAttr("src", __webpack_require__(132)) + " data-aos=\"fade-up\" alt=\"about\"></div></div></div></div></div>")]);
+  }, [_vm._ssrNode("<div class=\"container\"><div class=\"row align-items-center\"><div class=\"col-lg-6 col-md-12\"><div class=\"features-item with-border bg-FAFAFA\"><div class=\"about-img\"><img" + _vm._ssrAttr("src", __webpack_require__(168)) + " data-aos=\"fade-up\" alt=\"about\"></div></div></div> <div class=\"col-lg-6 col-md-12\"><div class=\"about-content\"><h3>Approvals Insights</h3> <p>DealDox makes it possible to have a delegation dashboard with all quotes accessible from a\n                        single, simple insight. <a href=\"https://www.dealdox.io/glossary/configure-price-quote\">CPQ</a>\n                        instant quote approval process includes examining quote details\n                        approval,\n                        commenting on the quotation, and advising changes. DealDox automatically synchronizes data with\n                        CRM and ERP applications following approval.\n                    </p></div></div></div> <div class=\"row align-items-center\"><div class=\"col-lg-6 col-md-12\"><div class=\"about-content\"><h3>Reapprove with Ease </h3> <p>DealDox provides a flexible and streamlined approach <a href=\"https://www.dealdox.io/approval-software\">CPQ approval process.</a> Even after\n                        approval,\n                        if\n                        any modifications are require, they can be made easily can be re-approved without any delay.\n                        This feature ensures that deals are always up-to-date and all parties involved are on the same\n                        plate.\n                    </p></div></div> <div class=\"col-lg-6 col-md-12\"><div class=\"features-item with-border bg-FAFAFA\"><div class=\"about-img\"><img" + _vm._ssrAttr("src", __webpack_require__(130)) + " data-aos=\"fade-up\" alt=\"about\"></div></div></div></div></div>")]);
 };
 var staticRenderFns = [];
 
@@ -550,7 +384,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "097c0e06"
+  "49cb7936"
   
 )
 
@@ -571,7 +405,7 @@ var render = function render() {
     _c = _vm._self._c;
   return _c('div', {
     staticClass: "new-free-trial-area bg-white ptb-75"
-  }, [_vm._ssrNode("<div class=\"container\">", "</div>", [_vm._ssrNode("<div class=\"row align-items-center\">", "</div>", [_vm._ssrNode("<div class=\"col-lg-12 col-md-12\">", "</div>", [_vm._ssrNode("<div class=\"features-item-free-quotes with-border bg-grey\">", "</div>", [_vm._ssrNode("<div class=\"did-you-know\"><img" + _vm._ssrAttr("src", __webpack_require__(126)) + " alt=\"image\"></div> <h3>Fast approvals can significantly benefit your business by reducing sales cycle time, boosting\n                        <a href=\"https://www.dealdox.io/glossary/enhancing-customer-satisfaction\">customer satisfaction</a>\n                        , increasing win rates, improving sales team productivity, and optimizing\n                        <a href=\"https://www.dealdox.io/glossary/drive-revenue-generation\">revenue generation.</a>\n                        Experience the Power of Quick Approvals. Get started with a free onboarding\n                        today! Sign up now!\n                    </h3> "), _c('NuxtLink', {
+  }, [_vm._ssrNode("<div class=\"container\">", "</div>", [_vm._ssrNode("<div class=\"row align-items-center\">", "</div>", [_vm._ssrNode("<div class=\"col-lg-12 col-md-12\">", "</div>", [_vm._ssrNode("<div class=\"features-item-free-quotes with-border bg-grey\">", "</div>", [_vm._ssrNode("<div class=\"did-you-know\"><img" + _vm._ssrAttr("src", __webpack_require__(124)) + " alt=\"image\"></div> <h3>Fast approvals can significantly benefit your business by reducing sales cycle time, boosting\n                        <a href=\"https://www.dealdox.io/glossary/enhancing-customer-satisfaction\">customer satisfaction</a>\n                        , increasing win rates, improving sales team productivity, and optimizing\n                        <a href=\"https://www.dealdox.io/glossary/drive-revenue-generation\">revenue generation.</a>\n                        Experience the Power of Quick Approvals. Get started with a free onboarding\n                        today! Sign up now!\n                    </h3> "), _c('NuxtLink', {
     staticClass: "default-btn",
     attrs: {
       "to": "/sign-up-free-trial"
@@ -606,7 +440,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "728a4e08"
+  "4be0a235"
   
 )
 
@@ -614,145 +448,24 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 248:
+/***/ 329:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Common/approvalfaq.vue?vue&type=template&id=12f9fa5e&
-var render = function render() {
-  var _vm = this,
-    _c = _vm._self._c;
-  return _c('div', {
-    staticClass: "app-download-area pt-65"
-  }, [_vm._ssrNode("<div class=\"container\">", "</div>", [_vm._ssrNode("<div class=\"features-content-improve-sales\">", "</div>", [_vm._ssrNode("<div class=\"section-title\">", "</div>", [_vm._ssrNode("<h1>Frequently asked questions</h1> "), _vm._ssrNode("<p>", "</p>", [_vm._ssrNode("Can’t find your query listed? "), _vm._ssrNode("<span class=\"sub-title-faq\">", "</span>", [_c('NuxtLink', {
-    attrs: {
-      "to": "/contact-us"
-    }
-  }, [_vm._v("\n                            Write us")])], 1), _vm._ssrNode(" your query")], 2)], 2)]), _vm._ssrNode(" "), _vm._ssrNode("<div class=\"row align-items-center\">", "</div>", [_vm._ssrNode("<div class=\"col-lg-2 col-md-12\"></div> "), _vm._ssrNode("<div class=\"col-lg-8 col-md-12\">", "</div>", [_vm._ssrNode("<div class=\"faq-accordion\">", "</div>", [_c('accordion', [_c('accordion-item', {
-    scopedSlots: _vm._u([{
-      key: "accordion-trigger",
-      fn: function () {
-        return [_c('button', {
-          staticClass: "accordion-title"
-        }, [_vm._v("\nWhy is the implementation of approval workflows crucial in business processes?     ")])];
-      },
-      proxy: true
-    }, {
-      key: "accordion-content",
-      fn: function () {
-        return [_c('div', {
-          staticClass: "accordion-body"
-        }, [_c('p', [_vm._v("Approval workflows are vital to business processes as they ensure that documents, such as quotes or proposals, meet established criteria before finalization. Their importance lies in maintaining consistency, compliance, and overall document quality, leading to informed decision-making and increased accountability. \n\n   \n                                        ")])])];
-      },
-      proxy: true
-    }])
-  }), _vm._v(" "), _c('accordion-item', {
-    scopedSlots: _vm._u([{
-      key: "accordion-trigger",
-      fn: function () {
-        return [_c('button', {
-          staticClass: "accordion-title"
-        }, [_vm._v("\n                                 What exactly is an approval workflow engine?  \n                                    ")])];
-      },
-      proxy: true
-    }, {
-      key: "accordion-content",
-      fn: function () {
-        return [_c('div', {
-          staticClass: "accordion-body"
-        }, [_c('p', [_vm._v("An approval workflow engine is a system that automates and manages the sequence of steps involved in approving documents or processes within an organization. It orchestrates the flow of information and approvals, enhancing efficiency and reducing the likelihood of errors. \n                                        ")])])];
-      },
-      proxy: true
-    }])
-  }), _vm._v(" "), _c('accordion-item', {
-    scopedSlots: _vm._u([{
-      key: "accordion-trigger",
-      fn: function () {
-        return [_c('button', {
-          staticClass: "accordion-title"
-        }, [_vm._v("\nWhat sets workflows and the approval process apart?  \n                                    ")])];
-      },
-      proxy: true
-    }, {
-      key: "accordion-content",
-      fn: function () {
-        return [_c('div', {
-          staticClass: "accordion-body"
-        }, [_c('p', [_vm._v("Workflows encompass a broader range of processes, defining how tasks move through various stages. On the other hand, the approval process specifically focuses on obtaining authorization for a document or action. While workflows are more general, approval processes are a subset designed for specific decision points within a workflow. \n                                        ")])])];
-      },
-      proxy: true
-    }])
-  })], 1)], 1)]), _vm._ssrNode(" <div class=\"col-lg-2 col-md-12\"></div>")], 2)], 2)]);
-};
-var staticRenderFns = [];
-
-// CONCATENATED MODULE: ./components/Common/approvalfaq.vue?vue&type=template&id=12f9fa5e&
-
-// EXTERNAL MODULE: ./components/Common/Accordion.vue + 4 modules
-var Accordion = __webpack_require__(124);
-
-// EXTERNAL MODULE: ./components/Common/AccordionItem.vue + 4 modules
-var AccordionItem = __webpack_require__(125);
-
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Common/approvalfaq.vue?vue&type=script&lang=js&
-
-
-/* harmony default export */ var approvalfaqvue_type_script_lang_js_ = ({
-  name: 'Faq',
-  components: {
-    Accordion: Accordion["default"],
-    AccordionItem: AccordionItem["default"]
-  }
-});
-// CONCATENATED MODULE: ./components/Common/approvalfaq.vue?vue&type=script&lang=js&
- /* harmony default export */ var Common_approvalfaqvue_type_script_lang_js_ = (approvalfaqvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(3);
-
-// CONCATENATED MODULE: ./components/Common/approvalfaq.vue
-
-
-
-
-
-/* normalize component */
-
-var component = Object(componentNormalizer["a" /* default */])(
-  Common_approvalfaqvue_type_script_lang_js_,
-  render,
-  staticRenderFns,
-  false,
-  null,
-  null,
-  "851b6fc4"
-  
-)
-
-/* harmony default export */ var approvalfaq = __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ 333:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/approval-software.vue?vue&type=template&id=3e2c9baa&
+// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/approval-software.vue?vue&type=template&id=92b31efa&
 var render = function render() {
   var _vm = this,
     _c = _vm._self._c;
   return _c('div', [_c('Navbar', {
     staticClass: "navbar-style-two"
-  }), _vm._ssrNode(" "), _c('BannerLighteningFast'), _vm._ssrNode(" "), _c('AchieveSalesExcellence'), _vm._ssrNode(" "), _c('EffortlessAutomation'), _vm._ssrNode(" "), _c('RoutingCapabilitiess'), _vm._ssrNode(" "), _c('ModesofApprovals'), _vm._ssrNode(" "), _c('ApprovalsInsights'), _vm._ssrNode(" "), _c('FreeTrial'), _vm._ssrNode(" "), _c('approvalFaq'), _vm._ssrNode(" "), _c('DealDoxFooter')], 2);
+  }), _vm._ssrNode(" "), _c('BannerLighteningFast'), _vm._ssrNode(" "), _c('AchieveSalesExcellence'), _vm._ssrNode(" "), _c('EffortlessAutomation'), _vm._ssrNode(" "), _c('RoutingCapabilitiess'), _vm._ssrNode(" "), _c('ModesofApprovals'), _vm._ssrNode(" "), _c('ApprovalsInsights'), _vm._ssrNode(" "), _c('FreeTrial'), _vm._ssrNode(" "), _c('DealDoxFooter')], 2);
 };
 var staticRenderFns = [];
 
-// CONCATENATED MODULE: ./pages/approval-software.vue?vue&type=template&id=3e2c9baa&
+// CONCATENATED MODULE: ./pages/approval-software.vue?vue&type=template&id=92b31efa&
 
 // EXTERNAL MODULE: ./layouts/Navbar.vue + 4 modules
 var Navbar = __webpack_require__(12);
@@ -778,9 +491,6 @@ var ApprovalsInsights = __webpack_require__(246);
 // EXTERNAL MODULE: ./components/LightningFastQuoteApprovals/FreeTrial.vue + 4 modules
 var FreeTrial = __webpack_require__(247);
 
-// EXTERNAL MODULE: ./components/Common/approvalfaq.vue + 4 modules
-var approvalfaq = __webpack_require__(248);
-
 // EXTERNAL MODULE: ./layouts/DealDoxFooter.vue + 4 modules
 var DealDoxFooter = __webpack_require__(11);
 
@@ -789,7 +499,6 @@ var external_axios_ = __webpack_require__(6);
 var external_axios_default = /*#__PURE__*/__webpack_require__.n(external_axios_);
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/approval-software.vue?vue&type=script&lang=js&
-
 
 
 
@@ -811,7 +520,6 @@ var external_axios_default = /*#__PURE__*/__webpack_require__.n(external_axios_)
     ModesofApprovals: ModesofApprovals["default"],
     ApprovalsInsights: ApprovalsInsights["default"],
     FreeTrial: FreeTrial["default"],
-    approvalFaq: approvalfaq["default"],
     DealDoxFooter: DealDoxFooter["a" /* default */]
   },
   data() {
@@ -858,7 +566,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "04c139cf"
+  "f942ab14"
   
 )
 

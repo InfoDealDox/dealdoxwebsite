@@ -1,7 +1,7 @@
-exports.ids = [141,1,3,36,40,41,43,46];
+exports.ids = [137,1,3,35,39,40,41,44];
 exports.modules = {
 
-/***/ 134:
+/***/ 132:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -83,7 +83,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "8acffc5a"
+  "079be4ba"
   
 )
 
@@ -91,7 +91,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 135:
+/***/ 133:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -164,7 +164,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "45bdf7a7"
+  "a62753c0"
   
 )
 
@@ -172,24 +172,24 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
+/***/ 134:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/cpq-integration-banner-icon1.c3f453d.png";
+
+/***/ }),
+
+/***/ 135:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/cpq-integration-banner-icon2.2bbd018.png";
+
+/***/ }),
+
 /***/ 136:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/cpq-integration-banner-icon1.958f8eb.png";
-
-/***/ }),
-
-/***/ 137:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "img/cpq-integration-banner-icon2.7cb4454.png";
-
-/***/ }),
-
-/***/ 138:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "img/Automated-Oppertunity.439e03c.png";
+module.exports = __webpack_require__.p + "img/Automated-Oppertunity.3a2dcb8.png";
 
 /***/ }),
 
@@ -236,7 +236,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "6fe69e29"
+  "71af043c"
   
 )
 
@@ -247,32 +247,32 @@ var component = Object(componentNormalizer["a" /* default */])(
 /***/ 198:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/predictiona.cde8ae4.png";
+module.exports = __webpack_require__.p + "img/predictiona.595cae9.png";
 
 /***/ }),
 
 /***/ 199:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/synca.4ecfad7.png";
+module.exports = __webpack_require__.p + "img/synca.694694a.png";
 
 /***/ }),
 
 /***/ 200:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/income.d00d051.png";
+module.exports = __webpack_require__.p + "img/income.558c9fb.png";
 
 /***/ }),
 
 /***/ 201:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Dealdoxteampic.24e476c.png";
+module.exports = __webpack_require__.p + "img/Dealdoxteampic.49ef469.png";
 
 /***/ }),
 
-/***/ 276:
+/***/ 274:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -285,7 +285,7 @@ var render = function render() {
     _c = _vm._self._c;
   return _c('div', {
     staticClass: "features-area pt-100 bg-white"
-  }, [_vm._ssrNode("<div class=\"container\"><div class=\"section-title-about\"><h1>Our Values</h1> <p>At our core, we have a team of skilled developers and architects who excel in crafting state-of-the-art\n                    software solutions. With their expertise, we specialize in creating innovative and scalable software\n                    that addresses the distinct requirements of every business. </p></div> <div class=\"row justify-content-center pt-60\"><div class=\"col-xl-4 col-lg-6 col-sm-6 col-md-6\"><div class=\"single-features-item\" style=\"height:290px\"><div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(136)) + " alt=\"image\"></div> <h5>Trust</h5> <p>Trust is paramount for our team. We prioritize it by fostering honest communication, maintaining\n                            transparency, and consistently fulfilling our commitments to each<br> other.</p></div></div> <div class=\"col-xl-4 col-lg-6 col-sm-6 col-md-6\"><div class=\"single-features-item\" style=\"height:290px\"><div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(137)) + " alt=\"image\"></div> <h5>Collaboration</h5> <p>Open communication and collaboration are the pillars of our team's success. We empower team\n                            members to come together, share ideas, solve problems collectively, and make informed decisions.\n                        </p></div></div> <div class=\"col-xl-4 col-lg-6 col-sm-6 col-md-6\"><div class=\"single-features-item\" style=\"height:290px\"><div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(198)) + " alt=\"image\"></div> <h5>Accountability </h5> <p>By taking ownership of our work and holding ourselves and others accountable for our actions, we\n                            ensure to actively contribute to success and <br> work towards achieving our goals.</p></div></div> <div class=\"col-xl-4 col-lg-6 col-sm-6 col-md-6\"><div class=\"single-features-item\" style=\"height:290px\"><div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(138)) + " alt=\"image\"></div> <h5>Adaptability </h5> <p>We embrace change and vulnerability with an adaptable mentality, enabling us to change our course\n                            and approach faster. We actively look for new opportunities and solutions in the face of\n                            changing circumstances.</p></div></div> <div class=\"col-xl-4 col-lg-6 col-sm-6 col-md-6\"><div class=\"single-features-item\" style=\"height:290px\"><div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(199)) + " alt=\"image\"></div> <h5>Innovation</h5> <p>The motivation of originality and creativity in problem-solving and decision-making is at the\n                            heart of our team's ethos. We think outside the box, sparking innovative thinking and\n                            groundbreaking solutions.</p></div></div> <div class=\"col-xl-4 col-lg-6 col-sm-6 col-md-6\"><div class=\"single-features-item\" style=\"height:290px\"><div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(200)) + " alt=\"image\"></div> <h5>Excellence </h5> <p>Excellence is our relentless pursuit. We set and maintain high standards, driving each team\n                            member to excel in their role, fostering growth, and achieving exceptional outcomes across all\n                            aspects of our work.</p></div></div></div></div>")]);
+  }, [_vm._ssrNode("<div class=\"container\"><div class=\"section-title-about\"><h1>Our Values</h1> <p>At our core, we have a team of skilled developers and architects who excel in crafting state-of-the-art\n                    software solutions. With their expertise, we specialize in creating innovative and scalable software\n                    that addresses the distinct requirements of every business. </p></div> <div class=\"row justify-content-center pt-60\"><div class=\"col-xl-4 col-lg-6 col-sm-6 col-md-6\"><div class=\"single-features-item\" style=\"height:290px\"><div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(134)) + " alt=\"image\"></div> <h5>Trust</h5> <p>Trust is paramount for our team. We prioritize it by fostering honest communication, maintaining\n                            transparency, and consistently fulfilling our commitments to each<br> other.</p></div></div> <div class=\"col-xl-4 col-lg-6 col-sm-6 col-md-6\"><div class=\"single-features-item\" style=\"height:290px\"><div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(135)) + " alt=\"image\"></div> <h5>Collaboration</h5> <p>Open communication and collaboration are the pillars of our team's success. We empower team\n                            members to come together, share ideas, solve problems collectively, and make informed decisions.\n                        </p></div></div> <div class=\"col-xl-4 col-lg-6 col-sm-6 col-md-6\"><div class=\"single-features-item\" style=\"height:290px\"><div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(198)) + " alt=\"image\"></div> <h5>Accountability </h5> <p>By taking ownership of our work and holding ourselves and others accountable for our actions, we\n                            ensure to actively contribute to success and <br> work towards achieving our goals.</p></div></div> <div class=\"col-xl-4 col-lg-6 col-sm-6 col-md-6\"><div class=\"single-features-item\" style=\"height:290px\"><div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(136)) + " alt=\"image\"></div> <h5>Adaptability </h5> <p>We embrace change and vulnerability with an adaptable mentality, enabling us to change our course\n                            and approach faster. We actively look for new opportunities and solutions in the face of\n                            changing circumstances.</p></div></div> <div class=\"col-xl-4 col-lg-6 col-sm-6 col-md-6\"><div class=\"single-features-item\" style=\"height:290px\"><div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(199)) + " alt=\"image\"></div> <h5>Innovation</h5> <p>The motivation of originality and creativity in problem-solving and decision-making is at the\n                            heart of our team's ethos. We think outside the box, sparking innovative thinking and\n                            groundbreaking solutions.</p></div></div> <div class=\"col-xl-4 col-lg-6 col-sm-6 col-md-6\"><div class=\"single-features-item\" style=\"height:290px\"><div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(200)) + " alt=\"image\"></div> <h5>Excellence </h5> <p>Excellence is our relentless pursuit. We set and maintain high standards, driving each team\n                            member to excel in their role, fostering growth, and achieving exceptional outcomes across all\n                            aspects of our work.</p></div></div></div></div>")]);
 };
 var staticRenderFns = [];
 
@@ -315,7 +315,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "79a29eae"
+  "97170f56"
   
 )
 
@@ -323,7 +323,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 277:
+/***/ 275:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -387,7 +387,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "5c189c54"
+  "adc7018a"
   
 )
 
@@ -395,7 +395,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 278:
+/***/ 276:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -485,7 +485,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "2a840b8a"
+  "7dfc8583"
   
 )
 
@@ -493,7 +493,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 279:
+/***/ 277:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -536,7 +536,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "59b9f482"
+  "a26ace8a"
   
 )
 
@@ -544,7 +544,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 348:
+/***/ 344:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -567,22 +567,22 @@ var staticRenderFns = [];
 var Navbar = __webpack_require__(12);
 
 // EXTERNAL MODULE: ./components/AboutUs/IAQSolutions.vue + 4 modules
-var IAQSolutions = __webpack_require__(276);
+var IAQSolutions = __webpack_require__(274);
 
 // EXTERNAL MODULE: ./components/Common/OurTeam.vue + 4 modules
-var OurTeam = __webpack_require__(277);
+var OurTeam = __webpack_require__(275);
 
 // EXTERNAL MODULE: ./components/Common/Feedback.vue + 4 modules
-var Feedback = __webpack_require__(278);
+var Feedback = __webpack_require__(276);
 
 // EXTERNAL MODULE: ./components/Common/Partner.vue + 4 modules
-var Partner = __webpack_require__(134);
+var Partner = __webpack_require__(132);
 
 // EXTERNAL MODULE: ./components/Common/Blog.vue + 4 modules
-var Blog = __webpack_require__(135);
+var Blog = __webpack_require__(133);
 
 // EXTERNAL MODULE: ./components/AboutUs/Stats.vue + 4 modules
-var Stats = __webpack_require__(279);
+var Stats = __webpack_require__(277);
 
 // EXTERNAL MODULE: ./components/Common/GetInTouch.vue + 4 modules
 var GetInTouch = __webpack_require__(160);
@@ -661,7 +661,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "c169f960"
+  "c4102a6e"
   
 )
 

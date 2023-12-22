@@ -1,21 +1,21 @@
-exports.ids = [109];
+exports.ids = [105];
 exports.modules = {
 
 /***/ 123:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/shape-5.5c9d317.png";
+module.exports = __webpack_require__.p + "img/shape-5.7c2c12c.png";
 
 /***/ }),
 
-/***/ 147:
+/***/ 145:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Productprice.993bad4.png";
+module.exports = __webpack_require__.p + "img/Productprice.d9a6926.png";
 
 /***/ }),
 
-/***/ 384:
+/***/ 380:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -28,7 +28,7 @@ var render = function render() {
     _c = _vm._self._c;
   return _c('div', {
     staticClass: "new-app-main-banner-wrap-area bg-white"
-  }, [_vm._ssrNode("<div class=\"container-fluid\"><div class=\"row align-items-center\"><div class=\"col-lg-6 col-md-12\"><div class=\"new-app-main-banner-wrap-content heading-title\"><h1>" + _vm._ssrEscape(_vm._s(_vm.pageTitle)) + "</h1> <p>" + _vm._ssrEscape(_vm._s(_vm.shortDesc)) + "</p></div></div> <div class=\"col-lg-6 col-md-12\"><div data-aos=\"fade-left\" data-aos-duration=\"2000\" class=\"new-app-main-banner-wrap-image\"><img" + _vm._ssrAttr("src", __webpack_require__(147)) + " alt=\"image\"></div></div></div></div> <div class=\"new-app-main-banner-wrap-shape\"><img" + _vm._ssrAttr("src", __webpack_require__(123)) + " alt=\"image\"></div>")]);
+  }, [_vm._ssrNode("<div class=\"container-fluid\"><div class=\"row align-items-center\"><div class=\"col-lg-6 col-md-12\"><div class=\"new-app-main-banner-wrap-content heading-title\"><h1>" + _vm._ssrEscape(_vm._s(_vm.pageTitle)) + "</h1> <p>" + _vm._ssrEscape(_vm._s(_vm.shortDesc)) + "</p></div></div> <div class=\"col-lg-6 col-md-12\"><div data-aos=\"fade-left\" data-aos-duration=\"2000\" class=\"new-app-main-banner-wrap-image\"><img" + _vm._ssrAttr("src", __webpack_require__(145)) + " alt=\"image\"></div></div></div></div> <div class=\"new-app-main-banner-wrap-shape\"><img" + _vm._ssrAttr("src", __webpack_require__(123)) + " alt=\"image\"></div>")]);
 };
 var staticRenderFns = [];
 
@@ -59,7 +59,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "065f70be"
+  "fc13de4c"
   
 )
 

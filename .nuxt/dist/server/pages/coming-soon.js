@@ -1,14 +1,14 @@
-exports.ids = [123,38];
+exports.ids = [119,37];
 exports.modules = {
 
-/***/ 131:
+/***/ 129:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/logo.ea827d1.svg";
+module.exports = __webpack_require__.p + "img/logo.fd05a61.svg";
 
 /***/ }),
 
-/***/ 250:
+/***/ 249:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -28,7 +28,7 @@ var render = function render() {
     }
   }, [_c('img', {
     attrs: {
-      "src": __webpack_require__(131),
+      "src": __webpack_require__(129),
       "alt": "image"
     }
   })]), _vm._ssrNode(" <h2>We Are Launching Soon</h2> <div id=\"timer\" class=\"flex-wrap justify-content-center d-flex\"><div id=\"days\" class=\"time align-items-center flex-column d-flex justify-content-center\"><h3>" + _vm._ssrEscape(_vm._s(_vm.days)) + "</h3> <p>Days</p></div> <div id=\"hours\" class=\"time align-items-center flex-column d-flex justify-content-center\"><h3>" + _vm._ssrEscape(_vm._s(_vm.hours)) + "</h3> <p>Hours</p></div> <div id=\"minutes\" class=\"time align-items-center flex-column d-flex justify-content-center\"><h3>" + _vm._ssrEscape(_vm._s(_vm.minutes)) + "</h3> <p>Minutes</p></div> <div id=\"seconds\" class=\"time align-items-center flex-column d-flex justify-content-center\"><h3>" + _vm._ssrEscape(_vm._s(_vm.seconds)) + "</h3> <p>Seconds</p></div></div>")], 2)])])]), _vm._ssrNode(" <div class=\"col-lg-6 col-md-12 p-0\"><div class=\"coming-soon-image\"><img" + _vm._ssrAttr("src", __webpack_require__(14)) + " alt=\"coming-soon\"></div></div>")], 2)])]);
@@ -101,7 +101,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "1c2530e1"
+  "7367109a"
   
 )
 
@@ -109,7 +109,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 335:
+/***/ 331:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -132,7 +132,7 @@ var staticRenderFns = [];
 var Navbar = __webpack_require__(12);
 
 // EXTERNAL MODULE: ./components/Common/ComingSoon.vue + 4 modules
-var ComingSoon = __webpack_require__(250);
+var ComingSoon = __webpack_require__(249);
 
 // EXTERNAL MODULE: ./layouts/DealDoxFooter.vue + 4 modules
 var DealDoxFooter = __webpack_require__(11);
@@ -169,7 +169,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "46e243b6"
+  "90c8cfe8"
   
 )
 

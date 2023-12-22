@@ -1,14 +1,14 @@
-exports.ids = [117,5];
+exports.ids = [113,5];
 exports.modules = {
 
-/***/ 131:
+/***/ 129:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/logo.ea827d1.svg";
+module.exports = __webpack_require__.p + "img/logo.fd05a61.svg";
 
 /***/ }),
 
-/***/ 299:
+/***/ 296:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -28,7 +28,7 @@ var render = function render() {
     }
   }, [_c('img', {
     attrs: {
-      "src": __webpack_require__(131),
+      "src": __webpack_require__(129),
       "alt": "logo"
     }
   })])], 1), _vm._ssrNode(" <h2>Sign In</h2> "), _vm._ssrNode("<form>", "</form>", [_vm._ssrNode("<div class=\"form-group\"><input type=\"text\" required=\"required\" placeholder=\"Username or email\" class=\"form-control\"></div> <div class=\"form-group\"><input type=\"password\" required=\"required\" placeholder=\"Password\" class=\"form-control\"></div> "), _vm._ssrNode("<div class=\"row align-items-center\">", "</div>", [_vm._ssrNode("<div class=\"col-lg-6 col-md-6 col-sm-6 remember-me-wrap\"><p><input type=\"checkbox\" required=\"required\" id=\"test\"> <label for=\"test\">Remember me</label></p></div> "), _vm._ssrNode("<div class=\"col-lg-6 col-md-6 col-sm-6 lost-your-password-wrap\">", "</div>", [_c('NuxtLink', {
@@ -70,7 +70,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "51b85dda"
+  "7121b913"
   
 )
 
@@ -78,7 +78,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 354:
+/***/ 351:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -96,7 +96,7 @@ var staticRenderFns = [];
 // CONCATENATED MODULE: ./pages/SignIn.vue?vue&type=template&id=458c1376&
 
 // EXTERNAL MODULE: ./components/Authentication/SignIn.vue + 4 modules
-var SignIn = __webpack_require__(299);
+var SignIn = __webpack_require__(296);
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/SignIn.vue?vue&type=script&lang=js&
 
@@ -126,7 +126,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "5e931b74"
+  "97d4e5a6"
   
 )
 

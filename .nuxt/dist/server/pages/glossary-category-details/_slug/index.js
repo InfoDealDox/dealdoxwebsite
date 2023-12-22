@@ -1,7 +1,7 @@
-exports.ids = [134,30];
+exports.ids = [130,30];
 exports.modules = {
 
-/***/ 309:
+/***/ 306:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -62,7 +62,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "04fa3148"
+  "1d164543"
   
 )
 
@@ -70,7 +70,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 366:
+/***/ 363:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -97,7 +97,7 @@ var staticRenderFns = [];
 var Navbar = __webpack_require__(12);
 
 // EXTERNAL MODULE: ./components/categories/glossary-categories-details.vue + 4 modules
-var glossary_categories_details = __webpack_require__(309);
+var glossary_categories_details = __webpack_require__(306);
 
 // EXTERNAL MODULE: ./layouts/DealDoxFooter.vue + 4 modules
 var DealDoxFooter = __webpack_require__(11);
@@ -165,7 +165,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "39c0c078"
+  "146d36eb"
   
 )
 

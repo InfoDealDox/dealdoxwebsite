@@ -1,35 +1,35 @@
-exports.ids = [111];
+exports.ids = [107];
 exports.modules = {
+
+/***/ 137:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/Swift Quote.38e722f.png";
+
+/***/ }),
+
+/***/ 138:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/Quick Approvals.da945d5.png";
+
+/***/ }),
 
 /***/ 139:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Swift Quote.594db53.png";
+module.exports = __webpack_require__.p + "img/Configure Price Quote.dbe6706.png";
 
 /***/ }),
 
 /***/ 140:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Quick Approvals.9a3686f.png";
+module.exports = __webpack_require__.p + "img/Subscription.40a9e1b.png";
 
 /***/ }),
 
-/***/ 141:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "img/Configure Price Quote.cc04311.png";
-
-/***/ }),
-
-/***/ 142:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "img/Subscription.032aa12.png";
-
-/***/ }),
-
-/***/ 305:
+/***/ 302:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -42,22 +42,22 @@ var render = function render() {
     _c = _vm._self._c;
   return _c('div', {
     staticClass: "key-features-area bg-FAFAFA ptb-100"
-  }, [_vm._ssrNode("<div class=\"container\">", "</div>", [_vm._ssrNode("<div class=\"section-title-pages-full\"><div class=\"new-app-main-banner-wrap-content-full tb-20\"><h3>Expand Your <span class=\"sub-title-effortless\">CRM Horizons</span> with DealDox</h3></div></div> "), _vm._ssrNode("<div class=\"row justify-content-center pt-60\">", "</div>", [_vm._ssrNode("<div class=\"col-xl-3 col-lg-6 col-sm-6 col-md-6\">", "</div>", [_vm._ssrNode("<div class=\"single-features-item\">", "</div>", [_vm._ssrNode("<div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(139)) + " alt=\"image\"></div> <h3><a href=\"https://www.dealdox.io/quoting-software\">Swift Quotes </a></h3> <p>Generate quotations and any deal documents in a few seconds.</p> "), _c('NuxtLink', {
+  }, [_vm._ssrNode("<div class=\"container\">", "</div>", [_vm._ssrNode("<div class=\"section-title-pages-full\"><div class=\"new-app-main-banner-wrap-content-full tb-20\"><h3>Expand Your <span class=\"sub-title-effortless\">CRM Horizons</span> with DealDox</h3></div></div> "), _vm._ssrNode("<div class=\"row justify-content-center pt-60\">", "</div>", [_vm._ssrNode("<div class=\"col-xl-3 col-lg-6 col-sm-6 col-md-6\">", "</div>", [_vm._ssrNode("<div class=\"single-features-item\">", "</div>", [_vm._ssrNode("<div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(137)) + " alt=\"image\"></div> <h3><a href=\"https://www.dealdox.io/quoting-software\">Swift Quotes </a></h3> <p>Generate quotations and any deal documents in a few seconds.</p> "), _c('NuxtLink', {
     staticClass: "default-btn",
     attrs: {
       "to": "/quoting-software"
     }
-  }, [_vm._v("Know more")])], 2)]), _vm._ssrNode(" "), _vm._ssrNode("<div class=\"col-xl-3 col-lg-6 col-sm-6 col-md-6\">", "</div>", [_vm._ssrNode("<div class=\"single-features-item\">", "</div>", [_vm._ssrNode("<div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(140)) + " alt=\"image\"></div> <h3><a href=\"https://www.dealdox.io/approval-software\">Quick Approvals</a></h3> <p>Complex approvals are made easy with DealDox - it simplifies the sales process.\n                    </p> "), _c('NuxtLink', {
+  }, [_vm._v("Know more")])], 2)]), _vm._ssrNode(" "), _vm._ssrNode("<div class=\"col-xl-3 col-lg-6 col-sm-6 col-md-6\">", "</div>", [_vm._ssrNode("<div class=\"single-features-item\">", "</div>", [_vm._ssrNode("<div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(138)) + " alt=\"image\"></div> <h3><a href=\"https://www.dealdox.io/approval-software\">Quick Approvals</a></h3> <p>Complex approvals are made easy with DealDox - it simplifies the sales process.\n                    </p> "), _c('NuxtLink', {
     staticClass: "default-btn",
     attrs: {
       "to": "/approval-software"
     }
-  }, [_vm._v("Know more")])], 2)]), _vm._ssrNode(" "), _vm._ssrNode("<div class=\"col-xl-3 col-lg-6 col-sm-6 col-md-6\">", "</div>", [_vm._ssrNode("<div class=\"single-features-item\">", "</div>", [_vm._ssrNode("<div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(141)) + " alt=\"image\"></div> <h3>Configure Price Quote (CPQ)</h3> <p>Easy configurations and error-free quotes in minutes.</p> "), _c('NuxtLink', {
+  }, [_vm._v("Know more")])], 2)]), _vm._ssrNode(" "), _vm._ssrNode("<div class=\"col-xl-3 col-lg-6 col-sm-6 col-md-6\">", "</div>", [_vm._ssrNode("<div class=\"single-features-item\">", "</div>", [_vm._ssrNode("<div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(139)) + " alt=\"image\"></div> <h3>Configure Price Quote (CPQ)</h3> <p>Easy configurations and error-free quotes in minutes.</p> "), _c('NuxtLink', {
     staticClass: "default-btn",
     attrs: {
       "to": "/services-cpq"
     }
-  }, [_vm._v("Know more")])], 2)]), _vm._ssrNode(" "), _vm._ssrNode("<div class=\"col-xl-3 col-lg-6 col-sm-6 col-md-6\">", "</div>", [_vm._ssrNode("<div class=\"single-features-item\">", "</div>", [_vm._ssrNode("<div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(142)) + " alt=\"image\"></div> <h3><a href=\"https://www.dealdox.io/subscription\">Subscription</a></h3> <p>Upselling, Expand and Automated renewals. Pay only for what you use.</p> "), _c('NuxtLink', {
+  }, [_vm._v("Know more")])], 2)]), _vm._ssrNode(" "), _vm._ssrNode("<div class=\"col-xl-3 col-lg-6 col-sm-6 col-md-6\">", "</div>", [_vm._ssrNode("<div class=\"single-features-item\">", "</div>", [_vm._ssrNode("<div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(140)) + " alt=\"image\"></div> <h3><a href=\"https://www.dealdox.io/subscription\">Subscription</a></h3> <p>Upselling, Expand and Automated renewals. Pay only for what you use.</p> "), _c('NuxtLink', {
     staticClass: "default-btn",
     attrs: {
       "to": "/subscriptions"
@@ -92,7 +92,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "3fe60051"
+  "2a65714a"
   
 )
 

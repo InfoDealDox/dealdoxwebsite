@@ -9,8 +9,8 @@
                         <p>Empower your sales team with DealDox for faster and more accurate quotes for timely deal
                             delivery.</p>
                             <div class="tb-30">
-                            <NuxtLink to="/sign-up-free-trial" required class="default-btn"><i class='bx bx-paper-plane'></i>
-                              Start My Free Trail  </NuxtLink>
+                            <NuxtLink to="/demo" required class="default-btn"><i class='bx bx-paper-plane'></i>
+                                Request a Demo</NuxtLink>
                         </div>
                     </div>
                 </div>

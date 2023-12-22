@@ -1,84 +1,84 @@
-exports.ids = [126,18,19,20,21,23];
+exports.ids = [122,18,19,20,21,23];
 exports.modules = {
 
 /***/ 123:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/shape-5.5c9d317.png";
+module.exports = __webpack_require__.p + "img/shape-5.7c2c12c.png";
 
 /***/ }),
 
-/***/ 126:
+/***/ 124:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/do-you-know-tag.700e777.svg";
+module.exports = __webpack_require__.p + "img/do-you-know-tag.20dc659.svg";
+
+/***/ }),
+
+/***/ 134:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/cpq-integration-banner-icon1.c3f453d.png";
+
+/***/ }),
+
+/***/ 135:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/cpq-integration-banner-icon2.2bbd018.png";
 
 /***/ }),
 
 /***/ 136:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/cpq-integration-banner-icon1.958f8eb.png";
-
-/***/ }),
-
-/***/ 137:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "img/cpq-integration-banner-icon2.7cb4454.png";
-
-/***/ }),
-
-/***/ 138:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "img/Automated-Oppertunity.439e03c.png";
+module.exports = __webpack_require__.p + "img/Automated-Oppertunity.3a2dcb8.png";
 
 /***/ }),
 
 /***/ 151:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/cpq-integration-banner.90793f5.png";
+module.exports = __webpack_require__.p + "img/cpq-integration-banner.cf30e96.png";
 
 /***/ }),
 
 /***/ 169:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/predictioncpq.cde8ae4.png";
+module.exports = __webpack_require__.p + "img/predictioncpq.595cae9.png";
 
 /***/ }),
 
 /***/ 170:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/synccpq.4ecfad7.png";
+module.exports = __webpack_require__.p + "img/synccpq.694694a.png";
 
 /***/ }),
 
 /***/ 171:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/income.d00d051.png";
+module.exports = __webpack_require__.p + "img/income.558c9fb.png";
 
 /***/ }),
 
 /***/ 172:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/BridgeGapBetween.9a6afc3.svg";
+module.exports = __webpack_require__.p + "img/BridgeGapBetween.d9662a3.svg";
 
 /***/ }),
 
-/***/ 252:
+/***/ 251:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/CPQIntegration/PageHeader.vue?vue&type=template&id=7e5d2018&
+// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/CPQIntegration/PageHeader.vue?vue&type=template&id=df61c432&
 var render = function render() {
   var _vm = this,
     _c = _vm._self._c;
@@ -87,16 +87,16 @@ var render = function render() {
   }, [_vm._ssrNode("<div class=\"container\">", "</div>", [_vm._ssrNode("<div class=\"row align-items-center\">", "</div>", [_vm._ssrNode("<div class=\"col-lg-6 col-md-12\">", "</div>", [_vm._ssrNode("<div class=\"new-app-main-banner-wrap-content\">", "</div>", [_vm._ssrNode("<h1>Simple <span style=\"color: #715CF3\">CPQ integration</span> for businesses</h1> <p>Streamline sales operations, enhance accuracy, and deliver a seamless customer experience </p> "), _vm._ssrNode("<div class=\"tb-30\">", "</div>", [_c('NuxtLink', {
     staticClass: "default-btn",
     attrs: {
-      "to": "/sign-up-free-trial",
+      "to": "/demo",
       "required": ""
     }
   }, [_c('i', {
     staticClass: "bx bx-paper-plane"
-  }), _vm._v("\n                            Start My Free Trail")])], 1)], 2)]), _vm._ssrNode(" <div class=\"col-lg-6 col-md-12\"><div data-aos=\"fade-left\" data-aos-duration=\"2000\" class=\"new-app-main-banner-wrap-image\"><img" + _vm._ssrAttr("src", __webpack_require__(151)) + " alt=\"image\"></div></div>")], 2)]), _vm._ssrNode(" <div class=\"new-app-main-banner-wrap-shape\"><img" + _vm._ssrAttr("src", __webpack_require__(123)) + " alt=\"image\"></div>")], 2);
+  }), _vm._v("\n                            Request a Demo")])], 1)], 2)]), _vm._ssrNode(" <div class=\"col-lg-6 col-md-12\"><div data-aos=\"fade-left\" data-aos-duration=\"2000\" class=\"new-app-main-banner-wrap-image\"><img" + _vm._ssrAttr("src", __webpack_require__(151)) + " alt=\"image\"></div></div>")], 2)]), _vm._ssrNode(" <div class=\"new-app-main-banner-wrap-shape\"><img" + _vm._ssrAttr("src", __webpack_require__(123)) + " alt=\"image\"></div>")], 2);
 };
 var staticRenderFns = [];
 
-// CONCATENATED MODULE: ./components/CPQIntegration/PageHeader.vue?vue&type=template&id=7e5d2018&
+// CONCATENATED MODULE: ./components/CPQIntegration/PageHeader.vue?vue&type=template&id=df61c432&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/CPQIntegration/PageHeader.vue?vue&type=script&lang=js&
 /* harmony default export */ var PageHeadervue_type_script_lang_js_ = ({
@@ -122,7 +122,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "ce79a608"
+  "3dab7896"
   
 )
 
@@ -130,7 +130,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 253:
+/***/ 252:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -143,7 +143,7 @@ var render = function render() {
     _c = _vm._self._c;
   return _c('div', {
     staticClass: "features-area pt-65 bg-white"
-  }, [_vm._ssrNode("<div class=\"container\"><div class=\"section-title\"><h1>Leveraging DealDox Integration for Success</h1></div> <br> <div class=\"row justify-content-center\"><div class=\"col-xl-4 col-lg-6 col-sm-6 col-md-6\"><div class=\"single-features-item\" style=\"height:160px\"><div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(136)) + " alt=\"image\"></div> <p>The entire quote-to-delivery process is transparent.</p></div></div> <div class=\"col-xl-4 col-lg-6 col-sm-6 col-md-6\"><div class=\"single-features-item\" style=\"height:160px\"><div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(137)) + " alt=\"image\"></div> <p>No more mistakes from manual data entering.</p></div></div> <div class=\"col-xl-4 col-lg-6 col-sm-6 col-md-6\"><div class=\"single-features-item\" style=\"height:160px\"><div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(169)) + " alt=\"image\"></div> <p>Proper prediction of resource <br> demand.</p></div></div> <div class=\"col-xl-4 col-lg-6 col-sm-6 col-md-6\"><div class=\"single-features-item\" style=\"height:160px\"><div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(138)) + " alt=\"image\"></div> <p>Automated opportunity update with current deal price and data.</p></div></div> <div class=\"col-xl-4 col-lg-6 col-sm-6 col-md-6\"><div class=\"single-features-item\" style=\"height:160px\"><div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(170)) + " alt=\"image\"></div> <p>Sync up opportunities, jobs, talents, rates, and so on.</p></div></div> <div class=\"col-xl-4 col-lg-6 col-sm-6 col-md-6\"><div class=\"single-features-item\" style=\"height:160px\"><div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(171)) + " alt=\"image\"></div> <p>Enables easy revenue<br>forecasting.</p></div></div></div></div>")]);
+  }, [_vm._ssrNode("<div class=\"container\"><div class=\"section-title\"><h1>Leveraging DealDox Integration for Success</h1></div> <br> <div class=\"row justify-content-center\"><div class=\"col-xl-4 col-lg-6 col-sm-6 col-md-6\"><div class=\"single-features-item\" style=\"height:160px\"><div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(134)) + " alt=\"image\"></div> <p>The entire quote-to-delivery process is transparent.</p></div></div> <div class=\"col-xl-4 col-lg-6 col-sm-6 col-md-6\"><div class=\"single-features-item\" style=\"height:160px\"><div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(135)) + " alt=\"image\"></div> <p>No more mistakes from manual data entering.</p></div></div> <div class=\"col-xl-4 col-lg-6 col-sm-6 col-md-6\"><div class=\"single-features-item\" style=\"height:160px\"><div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(169)) + " alt=\"image\"></div> <p>Proper prediction of resource <br> demand.</p></div></div> <div class=\"col-xl-4 col-lg-6 col-sm-6 col-md-6\"><div class=\"single-features-item\" style=\"height:160px\"><div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(136)) + " alt=\"image\"></div> <p>Automated opportunity update with current deal price and data.</p></div></div> <div class=\"col-xl-4 col-lg-6 col-sm-6 col-md-6\"><div class=\"single-features-item\" style=\"height:160px\"><div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(170)) + " alt=\"image\"></div> <p>Sync up opportunities, jobs, talents, rates, and so on.</p></div></div> <div class=\"col-xl-4 col-lg-6 col-sm-6 col-md-6\"><div class=\"single-features-item\" style=\"height:160px\"><div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(171)) + " alt=\"image\"></div> <p>Enables easy revenue<br>forecasting.</p></div></div></div></div>")]);
 };
 var staticRenderFns = [];
 
@@ -173,7 +173,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "33e2fb7e"
+  "9dea628c"
   
 )
 
@@ -181,7 +181,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 254:
+/***/ 253:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -224,7 +224,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "311b4868"
+  "1b9ab961"
   
 )
 
@@ -232,7 +232,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 255:
+/***/ 254:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -275,7 +275,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "07d8a04f"
+  "42aa79f6"
   
 )
 
@@ -283,7 +283,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 256:
+/***/ 255:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -296,7 +296,7 @@ var render = function render() {
     _c = _vm._self._c;
   return _c('div', {
     staticClass: "new-free-trial-area bg-FAFAFA ptb-75"
-  }, [_vm._ssrNode("<div class=\"container\">", "</div>", [_vm._ssrNode("<div class=\"row align-items-center\">", "</div>", [_vm._ssrNode("<div class=\"col-xl-12 col-lg-12 col-md-12\">", "</div>", [_vm._ssrNode("<div class=\"features-item-free-quotes with-border bg-white\">", "</div>", [_vm._ssrNode("<div class=\"did-you-know\"><img" + _vm._ssrAttr("src", __webpack_require__(126)) + " alt=\"image\"></div> <h3><a href=\"https://www.dealdox.io/services-cpq\">CPQ </a>\n                        allows for real-time access to product catalogues, pricing information, and inventory data,\n                        ensuring accurate and consistent quotes. It also enables seamless collaboration between sales\n                        teams, partners, and customers, leading to faster sales cycles and improved customer\n                        satisfaction. <br>Supercharge Your Sales Process and Get started free onboarding today!</h3> "), _c('NuxtLink', {
+  }, [_vm._ssrNode("<div class=\"container\">", "</div>", [_vm._ssrNode("<div class=\"row align-items-center\">", "</div>", [_vm._ssrNode("<div class=\"col-xl-12 col-lg-12 col-md-12\">", "</div>", [_vm._ssrNode("<div class=\"features-item-free-quotes with-border bg-white\">", "</div>", [_vm._ssrNode("<div class=\"did-you-know\"><img" + _vm._ssrAttr("src", __webpack_require__(124)) + " alt=\"image\"></div> <h3><a href=\"https://www.dealdox.io/services-cpq\">CPQ </a>\n                        allows for real-time access to product catalogues, pricing information, and inventory data,\n                        ensuring accurate and consistent quotes. It also enables seamless collaboration between sales\n                        teams, partners, and customers, leading to faster sales cycles and improved customer\n                        satisfaction. <br>Supercharge Your Sales Process and Get started free onboarding today!</h3> "), _c('NuxtLink', {
     staticClass: "default-btn",
     attrs: {
       "to": "/sign-up-free-trial"
@@ -331,7 +331,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "4f6b638c"
+  "3db8fc61"
   
 )
 
@@ -339,7 +339,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 338:
+/***/ 334:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -362,19 +362,19 @@ var staticRenderFns = [];
 var Navbar = __webpack_require__(12);
 
 // EXTERNAL MODULE: ./components/CPQIntegration/PageHeader.vue + 4 modules
-var PageHeader = __webpack_require__(252);
+var PageHeader = __webpack_require__(251);
 
 // EXTERNAL MODULE: ./components/CPQIntegration/IAQSolutions.vue + 4 modules
-var IAQSolutions = __webpack_require__(253);
+var IAQSolutions = __webpack_require__(252);
 
 // EXTERNAL MODULE: ./components/CPQIntegration/Funfacts.vue + 4 modules
-var Funfacts = __webpack_require__(254);
+var Funfacts = __webpack_require__(253);
 
 // EXTERNAL MODULE: ./components/CPQIntegration/Stats.vue + 4 modules
-var Stats = __webpack_require__(255);
+var Stats = __webpack_require__(254);
 
 // EXTERNAL MODULE: ./components/CPQIntegration/FreeTrial.vue + 4 modules
-var FreeTrial = __webpack_require__(256);
+var FreeTrial = __webpack_require__(255);
 
 // EXTERNAL MODULE: ./layouts/DealDoxFooter.vue + 4 modules
 var DealDoxFooter = __webpack_require__(11);
@@ -447,7 +447,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "98421a8c"
+  "1b0d5133"
   
 )
 

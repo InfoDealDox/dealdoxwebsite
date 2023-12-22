@@ -1,91 +1,91 @@
-exports.ids = [145,97,98,99,100,101];
+exports.ids = [141,93,94,95,96,97];
 exports.modules = {
 
 /***/ 123:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/shape-5.5c9d317.png";
+module.exports = __webpack_require__.p + "img/shape-5.7c2c12c.png";
 
 /***/ }),
 
 /***/ 153:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/SourceCodeReview.2665770.png";
+module.exports = __webpack_require__.p + "img/SourceCodeReview.b1b8e85.png";
 
 /***/ }),
 
 /***/ 210:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/DataPrivacy.279b162.png";
+module.exports = __webpack_require__.p + "img/DataPrivacy.763a32a.png";
 
 /***/ }),
 
 /***/ 211:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/SecurityAwarenessandTraining.7b78fe3.png";
+module.exports = __webpack_require__.p + "img/SecurityAwarenessandTraining.6cba4b2.png";
 
 /***/ }),
 
 /***/ 212:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/PenetrationTesting.7181013.png";
+module.exports = __webpack_require__.p + "img/PenetrationTesting.0f47c0c.png";
 
 /***/ }),
 
 /***/ 213:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/OngoingVulnerabilityAssessments.07655c1.png";
+module.exports = __webpack_require__.p + "img/OngoingVulnerabilityAssessments.d4ef154.png";
 
 /***/ }),
 
 /***/ 214:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/DisasterRecover(DRP).24d6e42.png";
+module.exports = __webpack_require__.p + "img/DisasterRecover(DRP).1da6fe6.png";
 
 /***/ }),
 
 /***/ 215:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/GlobalInformationSecurityPolicy(GISP).7573e88.png";
+module.exports = __webpack_require__.p + "img/GlobalInformationSecurityPolicy(GISP).13f7149.png";
 
 /***/ }),
 
 /***/ 216:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/RegulatoryCompliance.1db5f3d.png";
+module.exports = __webpack_require__.p + "img/RegulatoryCompliance.2c703c1.png";
 
 /***/ }),
 
 /***/ 217:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/robustsecuritydataprotection.2e4a1f2.png";
+module.exports = __webpack_require__.p + "img/robustsecuritydataprotection.030e676.png";
 
 /***/ }),
 
 /***/ 218:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/criticalsecuritymeasures.10e6829.png";
+module.exports = __webpack_require__.p + "img/criticalsecuritymeasures.cfc3c22.png";
 
 /***/ }),
 
 /***/ 219:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/CertificationsandCompliance.7493317.png";
+module.exports = __webpack_require__.p + "img/CertificationsandCompliance.d422257.png";
 
 /***/ }),
 
-/***/ 289:
+/***/ 286:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -128,7 +128,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "cd991d02"
+  "66f57d66"
   
 )
 
@@ -136,7 +136,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 290:
+/***/ 287:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -179,7 +179,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "6c1eeb46"
+  "d6265254"
   
 )
 
@@ -187,7 +187,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 291:
+/***/ 288:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -230,7 +230,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "43800f2e"
+  "e831b432"
   
 )
 
@@ -238,7 +238,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 292:
+/***/ 289:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -281,7 +281,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "171bda62"
+  "3cd92988"
   
 )
 
@@ -289,7 +289,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 293:
+/***/ 290:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -337,7 +337,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "0b0f72ea"
+  "c7eceb5e"
   
 )
 
@@ -345,7 +345,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 352:
+/***/ 348:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -368,19 +368,19 @@ var staticRenderFns = [];
 var Navbar = __webpack_require__(12);
 
 // EXTERNAL MODULE: ./components/Security/MainBannerCPQ.vue + 4 modules
-var MainBannerCPQ = __webpack_require__(289);
+var MainBannerCPQ = __webpack_require__(286);
 
 // EXTERNAL MODULE: ./components/Security/TransformYourSales.vue + 4 modules
-var TransformYourSales = __webpack_require__(290);
+var TransformYourSales = __webpack_require__(287);
 
 // EXTERNAL MODULE: ./components/Security/QuickandAccurate.vue + 4 modules
-var QuickandAccurate = __webpack_require__(291);
+var QuickandAccurate = __webpack_require__(288);
 
 // EXTERNAL MODULE: ./components/Security/WhatisCPQService.vue + 4 modules
-var WhatisCPQService = __webpack_require__(292);
+var WhatisCPQService = __webpack_require__(289);
 
 // EXTERNAL MODULE: ./components/Security/FreeTrial.vue + 4 modules
-var FreeTrial = __webpack_require__(293);
+var FreeTrial = __webpack_require__(290);
 
 // EXTERNAL MODULE: ./layouts/DealDoxFooter.vue + 4 modules
 var DealDoxFooter = __webpack_require__(11);
@@ -453,7 +453,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "10b8755c"
+  "135ea66a"
   
 )
 

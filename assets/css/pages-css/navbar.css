@@ -766,8 +766,6 @@ border-radius: 25px;
   }
 }
 
-
-
 /* Min width 1200px to Max width 1399px */
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .navbar-area.navbar-style-four .container-fluid {

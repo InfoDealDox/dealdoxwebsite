@@ -1,10 +1,10 @@
-exports.ids = [122,28];
+exports.ids = [118,28];
 exports.modules = {
 
 /***/ 150:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/blogsheader.84e5690.png";
+module.exports = __webpack_require__.p + "img/blogsheader.7b6ef23.png";
 
 /***/ }),
 
@@ -80,7 +80,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "0735aff6"
+  "0cff8b84"
   
 )
 
@@ -88,7 +88,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 362:
+/***/ 359:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -183,7 +183,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "1069eda9"
+  "0a2d42bc"
   
 )
 

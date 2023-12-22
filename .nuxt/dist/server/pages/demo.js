@@ -1,7 +1,178 @@
-exports.ids = [127,32,33,36,39,46,50,93];
+exports.ids = [123,32,33,35,38,44,46,89];
 exports.modules = {
 
-/***/ 124:
+/***/ 132:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Common/Partner.vue?vue&type=template&id=eda3a3ae&
+var render = function render() {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c('div', {
+    staticClass: "partner-area pt-70"
+  }, [_vm._ssrNode("<div class=\"container\">", "</div>", [_vm._ssrNode("<div class=\"partner-title\">\n            Industry-Preferred CPQ SaaS Solution at Your Fingertips\n        </div> "), _vm._ssrNode("<div class=\"partner-slides\">", "</div>", [_vm.partners !== null ? _c('carousel', {
+    attrs: {
+      "autoplay": true,
+      "loop": true,
+      "paginationEnabled": false,
+      "perPageCustom": [[0, 3], [576, 3], [768, 3], [1200, 7]]
+    }
+  }, _vm._l(_vm.partners.partnerSlides, function (slide) {
+    return _c('slide', {
+      key: slide.id
+    }, [_c('div', {
+      staticClass: "single-partner-item"
+    }, [_c('a', [_c('img', {
+      attrs: {
+        "src": slide.image.data.attributes.url,
+        "alt": "image"
+      }
+    })])])]);
+  }), 1) : _vm._e()], 1)], 2)]);
+};
+var staticRenderFns = [];
+
+// CONCATENATED MODULE: ./components/Common/Partner.vue?vue&type=template&id=eda3a3ae&
+
+// EXTERNAL MODULE: external "axios"
+var external_axios_ = __webpack_require__(6);
+var external_axios_default = /*#__PURE__*/__webpack_require__.n(external_axios_);
+
+// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Common/Partner.vue?vue&type=script&lang=js&
+
+/* harmony default export */ var Partnervue_type_script_lang_js_ = ({
+  name: 'Partner',
+  data: () => ({
+    settings: {
+      itemsToShow: 1,
+      snapAlign: 'center'
+    },
+    partners: null
+  }),
+  created: async function () {
+    const response = await external_axios_default.a.get('https://cms.dealdox.io/api/partner?populate=partnerSlides.image');
+    const {
+      data: {
+        attributes
+      }
+    } = response.data;
+    this.partners = attributes;
+  }
+});
+// CONCATENATED MODULE: ./components/Common/Partner.vue?vue&type=script&lang=js&
+ /* harmony default export */ var Common_Partnervue_type_script_lang_js_ = (Partnervue_type_script_lang_js_); 
+// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
+var componentNormalizer = __webpack_require__(3);
+
+// CONCATENATED MODULE: ./components/Common/Partner.vue
+
+
+
+
+
+/* normalize component */
+
+var component = Object(componentNormalizer["a" /* default */])(
+  Common_Partnervue_type_script_lang_js_,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  "079be4ba"
+  
+)
+
+/* harmony default export */ var Partner = __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ 133:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Common/Blog.vue?vue&type=template&id=1cf293d9&
+var render = function render() {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c('div', {
+    staticClass: "blog-area pt-70 bg-FAFAFA"
+  }, [_vm._ssrNode("<div class=\"container\">", "</div>", [_vm._ssrNode("<div class=\"section-title\"><span class=\"sub-title\"></span> <h1>Our Latest Blogs</h1></div> "), _vm.blogs !== [] ? _vm._ssrNode("<div class=\"row justify-content-center\">", "</div>", _vm._l(_vm.blogs.slice(0, 3), function (blog) {
+    return _vm._ssrNode("<div class=\"col-lg-4 col-md-6\">", "</div>", [_vm._ssrNode("<div class=\"single-blog-post bg-white\">", "</div>", [_vm._ssrNode("<div class=\"image\">", "</div>", [_c('NuxtLink', {
+      staticClass: "d-block",
+      attrs: {
+        "to": '/blog/' + blog.attributes.slug
+      }
+    }, [_c('img', {
+      attrs: {
+        "src": blog.attributes.image.data.attributes.url,
+        "alt": "blog"
+      }
+    })])], 1), _vm._ssrNode(" "), _vm._ssrNode("<div class=\"content\">", "</div>", [_vm._ssrNode("<h3>", "</h3>", [_c('NuxtLink', {
+      attrs: {
+        "to": '/blog/' + blog.attributes.slug
+      }
+    }, [_vm._v("\n                                " + _vm._s(blog.attributes.title) + "\n                            ")])], 1), _vm._ssrNode(" <p>" + _vm._ssrEscape(_vm._s(blog.attributes.shortDesc)) + "</p> <ul class=\"meta\"><li><i class=\"ri-time-line\"></i>" + _vm._ssrEscape(" " + _vm._s(blog.attributes.date)) + "</li></ul>")], 2)], 2)]);
+  }), 0) : _vm._e()], 2)]);
+};
+var staticRenderFns = [];
+
+// CONCATENATED MODULE: ./components/Common/Blog.vue?vue&type=template&id=1cf293d9&
+
+// EXTERNAL MODULE: external "axios"
+var external_axios_ = __webpack_require__(6);
+var external_axios_default = /*#__PURE__*/__webpack_require__.n(external_axios_);
+
+// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Common/Blog.vue?vue&type=script&lang=js&
+
+/* harmony default export */ var Blogvue_type_script_lang_js_ = ({
+  name: 'Blog',
+  data() {
+    return {
+      blogs: []
+    };
+  },
+  created: async function () {
+    const response = await external_axios_default.a.get('https://cms.dealdox.io/api/blogs?populate=*');
+    this.blogs = response.data.data;
+  }
+});
+// CONCATENATED MODULE: ./components/Common/Blog.vue?vue&type=script&lang=js&
+ /* harmony default export */ var Common_Blogvue_type_script_lang_js_ = (Blogvue_type_script_lang_js_); 
+// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
+var componentNormalizer = __webpack_require__(3);
+
+// CONCATENATED MODULE: ./components/Common/Blog.vue
+
+
+
+
+
+/* normalize component */
+
+var component = Object(componentNormalizer["a" /* default */])(
+  Common_Blogvue_type_script_lang_js_,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  "a62753c0"
+  
+)
+
+/* harmony default export */ var Blog = __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ 147:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -58,7 +229,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "f21c4cda"
+  "baeec28c"
   
 )
 
@@ -66,7 +237,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 125:
+/***/ 148:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -159,182 +330,11 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "10a201c6"
+  "4b73db6d"
   
 )
 
 /* harmony default export */ var AccordionItem = __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ 134:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Common/Partner.vue?vue&type=template&id=eda3a3ae&
-var render = function render() {
-  var _vm = this,
-    _c = _vm._self._c;
-  return _c('div', {
-    staticClass: "partner-area pt-70"
-  }, [_vm._ssrNode("<div class=\"container\">", "</div>", [_vm._ssrNode("<div class=\"partner-title\">\n            Industry-Preferred CPQ SaaS Solution at Your Fingertips\n        </div> "), _vm._ssrNode("<div class=\"partner-slides\">", "</div>", [_vm.partners !== null ? _c('carousel', {
-    attrs: {
-      "autoplay": true,
-      "loop": true,
-      "paginationEnabled": false,
-      "perPageCustom": [[0, 3], [576, 3], [768, 3], [1200, 7]]
-    }
-  }, _vm._l(_vm.partners.partnerSlides, function (slide) {
-    return _c('slide', {
-      key: slide.id
-    }, [_c('div', {
-      staticClass: "single-partner-item"
-    }, [_c('a', [_c('img', {
-      attrs: {
-        "src": slide.image.data.attributes.url,
-        "alt": "image"
-      }
-    })])])]);
-  }), 1) : _vm._e()], 1)], 2)]);
-};
-var staticRenderFns = [];
-
-// CONCATENATED MODULE: ./components/Common/Partner.vue?vue&type=template&id=eda3a3ae&
-
-// EXTERNAL MODULE: external "axios"
-var external_axios_ = __webpack_require__(6);
-var external_axios_default = /*#__PURE__*/__webpack_require__.n(external_axios_);
-
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Common/Partner.vue?vue&type=script&lang=js&
-
-/* harmony default export */ var Partnervue_type_script_lang_js_ = ({
-  name: 'Partner',
-  data: () => ({
-    settings: {
-      itemsToShow: 1,
-      snapAlign: 'center'
-    },
-    partners: null
-  }),
-  created: async function () {
-    const response = await external_axios_default.a.get('https://cms.dealdox.io/api/partner?populate=partnerSlides.image');
-    const {
-      data: {
-        attributes
-      }
-    } = response.data;
-    this.partners = attributes;
-  }
-});
-// CONCATENATED MODULE: ./components/Common/Partner.vue?vue&type=script&lang=js&
- /* harmony default export */ var Common_Partnervue_type_script_lang_js_ = (Partnervue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(3);
-
-// CONCATENATED MODULE: ./components/Common/Partner.vue
-
-
-
-
-
-/* normalize component */
-
-var component = Object(componentNormalizer["a" /* default */])(
-  Common_Partnervue_type_script_lang_js_,
-  render,
-  staticRenderFns,
-  false,
-  null,
-  null,
-  "8acffc5a"
-  
-)
-
-/* harmony default export */ var Partner = __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ 135:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Common/Blog.vue?vue&type=template&id=1cf293d9&
-var render = function render() {
-  var _vm = this,
-    _c = _vm._self._c;
-  return _c('div', {
-    staticClass: "blog-area pt-70 bg-FAFAFA"
-  }, [_vm._ssrNode("<div class=\"container\">", "</div>", [_vm._ssrNode("<div class=\"section-title\"><span class=\"sub-title\"></span> <h1>Our Latest Blogs</h1></div> "), _vm.blogs !== [] ? _vm._ssrNode("<div class=\"row justify-content-center\">", "</div>", _vm._l(_vm.blogs.slice(0, 3), function (blog) {
-    return _vm._ssrNode("<div class=\"col-lg-4 col-md-6\">", "</div>", [_vm._ssrNode("<div class=\"single-blog-post bg-white\">", "</div>", [_vm._ssrNode("<div class=\"image\">", "</div>", [_c('NuxtLink', {
-      staticClass: "d-block",
-      attrs: {
-        "to": '/blog/' + blog.attributes.slug
-      }
-    }, [_c('img', {
-      attrs: {
-        "src": blog.attributes.image.data.attributes.url,
-        "alt": "blog"
-      }
-    })])], 1), _vm._ssrNode(" "), _vm._ssrNode("<div class=\"content\">", "</div>", [_vm._ssrNode("<h3>", "</h3>", [_c('NuxtLink', {
-      attrs: {
-        "to": '/blog/' + blog.attributes.slug
-      }
-    }, [_vm._v("\n                                " + _vm._s(blog.attributes.title) + "\n                            ")])], 1), _vm._ssrNode(" <p>" + _vm._ssrEscape(_vm._s(blog.attributes.shortDesc)) + "</p> <ul class=\"meta\"><li><i class=\"ri-time-line\"></i>" + _vm._ssrEscape(" " + _vm._s(blog.attributes.date)) + "</li></ul>")], 2)], 2)]);
-  }), 0) : _vm._e()], 2)]);
-};
-var staticRenderFns = [];
-
-// CONCATENATED MODULE: ./components/Common/Blog.vue?vue&type=template&id=1cf293d9&
-
-// EXTERNAL MODULE: external "axios"
-var external_axios_ = __webpack_require__(6);
-var external_axios_default = /*#__PURE__*/__webpack_require__.n(external_axios_);
-
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Common/Blog.vue?vue&type=script&lang=js&
-
-/* harmony default export */ var Blogvue_type_script_lang_js_ = ({
-  name: 'Blog',
-  data() {
-    return {
-      blogs: []
-    };
-  },
-  created: async function () {
-    const response = await external_axios_default.a.get('https://cms.dealdox.io/api/blogs?populate=*');
-    this.blogs = response.data.data;
-  }
-});
-// CONCATENATED MODULE: ./components/Common/Blog.vue?vue&type=script&lang=js&
- /* harmony default export */ var Common_Blogvue_type_script_lang_js_ = (Blogvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(3);
-
-// CONCATENATED MODULE: ./components/Common/Blog.vue
-
-
-
-
-
-/* normalize component */
-
-var component = Object(componentNormalizer["a" /* default */])(
-  Common_Blogvue_type_script_lang_js_,
-  render,
-  staticRenderFns,
-  false,
-  null,
-  null,
-  "45bdf7a7"
-  
-)
-
-/* harmony default export */ var Blog = __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
@@ -471,7 +471,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "61952776"
+  "c731fdc6"
   
 )
 
@@ -831,10 +831,10 @@ var staticRenderFns = [];
 // CONCATENATED MODULE: ./components/Common/Faq.vue?vue&type=template&id=934f5480&
 
 // EXTERNAL MODULE: ./components/Common/Accordion.vue + 4 modules
-var Accordion = __webpack_require__(124);
+var Accordion = __webpack_require__(147);
 
 // EXTERNAL MODULE: ./components/Common/AccordionItem.vue + 4 modules
-var AccordionItem = __webpack_require__(125);
+var AccordionItem = __webpack_require__(148);
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Common/Faq.vue?vue&type=script&lang=js&
 
@@ -866,7 +866,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "57bc0aa1"
+  "087b7908"
   
 )
 
@@ -874,7 +874,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 257:
+/***/ 256:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1014,7 +1014,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "212d7fb2"
+  "d49f15e4"
   
 )
 
@@ -1022,7 +1022,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 339:
+/***/ 335:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1048,13 +1048,13 @@ var Navbar = __webpack_require__(12);
 var PageHeader = __webpack_require__(158);
 
 // EXTERNAL MODULE: ./components/RequestDemo/TransformDealsWith.vue + 4 modules
-var TransformDealsWith = __webpack_require__(257);
+var TransformDealsWith = __webpack_require__(256);
 
 // EXTERNAL MODULE: ./components/Common/Partner.vue + 4 modules
-var Partner = __webpack_require__(134);
+var Partner = __webpack_require__(132);
 
 // EXTERNAL MODULE: ./components/Common/Blog.vue + 4 modules
-var Blog = __webpack_require__(135);
+var Blog = __webpack_require__(133);
 
 // EXTERNAL MODULE: ./components/Common/Faq.vue + 4 modules
 var Faq = __webpack_require__(159);
@@ -1129,7 +1129,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "54d9e116"
+  "fb6ec924"
   
 )
 

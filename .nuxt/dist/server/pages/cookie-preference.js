@@ -1,14 +1,14 @@
-exports.ids = [125,45,51];
+exports.ids = [121,43,47];
 exports.modules = {
 
-/***/ 127:
+/***/ 125:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/shape9.09ec238.png";
+module.exports = __webpack_require__.p + "img/shape9.ecd8f02.png";
 
 /***/ }),
 
-/***/ 129:
+/***/ 127:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -21,7 +21,7 @@ var render = function render() {
     _c = _vm._self._c;
   return _c('div', {
     staticClass: "page-title-area"
-  }, [_vm._ssrNode("<div class=\"container\"><div class=\"page-title-content\"><h2>" + _vm._ssrEscape(_vm._s(_vm.pageTitle)) + "</h2></div></div> <div class=\"divider\"></div> <div class=\"lines\"><div class=\"line\"></div> <div class=\"line\"></div> <div class=\"line\"></div> <div class=\"line\"></div> <div class=\"line\"></div></div> <div class=\"banner-shape1\"><img" + _vm._ssrAttr("src", __webpack_require__(127)) + " alt=\"image\"></div>")]);
+  }, [_vm._ssrNode("<div class=\"container\"><div class=\"page-title-content\"><h2>" + _vm._ssrEscape(_vm._s(_vm.pageTitle)) + "</h2></div></div> <div class=\"divider\"></div> <div class=\"lines\"><div class=\"line\"></div> <div class=\"line\"></div> <div class=\"line\"></div> <div class=\"line\"></div> <div class=\"line\"></div></div> <div class=\"banner-shape1\"><img" + _vm._ssrAttr("src", __webpack_require__(125)) + " alt=\"image\"></div>")]);
 };
 var staticRenderFns = [];
 
@@ -52,7 +52,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "21985cd4"
+  "3d2f21fb"
   
 )
 
@@ -60,7 +60,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 251:
+/***/ 250:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -103,7 +103,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "6aff7ce6"
+  "17842474"
   
 )
 
@@ -111,7 +111,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 337:
+/***/ 333:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -138,10 +138,10 @@ var staticRenderFns = [];
 var Navbar = __webpack_require__(12);
 
 // EXTERNAL MODULE: ./components/Common/PageTitle.vue + 4 modules
-var PageTitle = __webpack_require__(129);
+var PageTitle = __webpack_require__(127);
 
 // EXTERNAL MODULE: ./components/Cookies/Cookie.vue + 4 modules
-var Cookie = __webpack_require__(251);
+var Cookie = __webpack_require__(250);
 
 // EXTERNAL MODULE: ./layouts/DealDoxFooter.vue + 4 modules
 var DealDoxFooter = __webpack_require__(11);
@@ -207,7 +207,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "3de4a642"
+  "86fbd22e"
   
 )
 

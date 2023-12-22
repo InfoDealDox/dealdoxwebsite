@@ -1,35 +1,35 @@
-exports.ids = [148,103,104];
+exports.ids = [144,99,100];
 exports.modules = {
 
 /***/ 123:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/shape-5.5c9d317.png";
+module.exports = __webpack_require__.p + "img/shape-5.7c2c12c.png";
 
 /***/ }),
 
-/***/ 130:
+/***/ 128:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/shape4.f931a06.png";
+module.exports = __webpack_require__.p + "img/shape4.a5ecfff.png";
 
 /***/ }),
 
-/***/ 133:
+/***/ 131:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/onboarding-assistance.4fdaa14.png";
+module.exports = __webpack_require__.p + "img/onboarding-assistance.230686e.png";
 
 /***/ }),
 
 /***/ 227:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/RevenueGrowth.5265293.png";
+module.exports = __webpack_require__.p + "img/RevenueGrowth.769597c.png";
 
 /***/ }),
 
-/***/ 301:
+/***/ 298:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -80,7 +80,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "49360264"
+  "5e05ae0b"
   
 )
 
@@ -88,7 +88,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 302:
+/***/ 299:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -101,12 +101,12 @@ var render = function render() {
     _c = _vm._self._c;
   return _c('div', {
     staticClass: "app-download-area pt-60"
-  }, [_vm._ssrNode("<div class=\"container\">", "</div>", [_vm._ssrNode("<div class=\"section-title-about\"><h1>Enhance Your Quote Generation Process with the best CPQ Solution Now</h1> <h5>Let's get started!</h5></div> "), _vm._ssrNode("<div class=\"app-download-inner\">", "</div>", [_vm._ssrNode("<div class=\"row align-items-center\">", "</div>", [_vm._ssrNode("<div class=\"section-title-home tb-30\"><h4>Enjoy DealDox At Zero Cost! Including:</h4></div> <div class=\"col-lg-6 col-md-12\"><div data-aos=\"fade-up\" class=\"app-download-images\"><img" + _vm._ssrAttr("src", __webpack_require__(133)) + " alt=\"app-img\"></div></div> "), _vm._ssrNode("<div class=\"col-lg-6 col-md-12\">", "</div>", [_vm._ssrNode("<div class=\"app-download-content\">", "</div>", [_vm._ssrNode("<div class=\"features-content\">", "</div>", [_vm._ssrNode("<ul class=\"features-list\"><li><div class=\"icon-home\"><i class=\"ri-check-line\"></i></div> <h4>Onboarding Assistance</h4></li> <li><div class=\"icon-home\"><i class=\"ri-check-line\"></i></div> <h4>Comprehensive Implementation</h4></li> <li><div class=\"icon-home\"><i class=\"ri-check-line\"></i></div> <h4>Adaptaions to meet your needs and so much more</h4></li> <li><div class=\"features-content-home\"><p>Don't miss added perks here</p></div></li></ul> "), _vm._ssrNode("<div class=\"btn-box\">", "</div>", [_c('NuxtLink', {
+  }, [_vm._ssrNode("<div class=\"container\">", "</div>", [_vm._ssrNode("<div class=\"section-title-about\"><h1>Enhance Your Quote Generation Process with the best CPQ Solution Now</h1> <h5>Let's get started!</h5></div> "), _vm._ssrNode("<div class=\"app-download-inner\">", "</div>", [_vm._ssrNode("<div class=\"row align-items-center\">", "</div>", [_vm._ssrNode("<div class=\"section-title-home tb-30\"><h4>Enjoy DealDox At Zero Cost! Including:</h4></div> <div class=\"col-lg-6 col-md-12\"><div data-aos=\"fade-up\" class=\"app-download-images\"><img" + _vm._ssrAttr("src", __webpack_require__(131)) + " alt=\"app-img\"></div></div> "), _vm._ssrNode("<div class=\"col-lg-6 col-md-12\">", "</div>", [_vm._ssrNode("<div class=\"app-download-content\">", "</div>", [_vm._ssrNode("<div class=\"features-content\">", "</div>", [_vm._ssrNode("<ul class=\"features-list\"><li><div class=\"icon-home\"><i class=\"ri-check-line\"></i></div> <h4>Onboarding Assistance</h4></li> <li><div class=\"icon-home\"><i class=\"ri-check-line\"></i></div> <h4>Comprehensive Implementation</h4></li> <li><div class=\"icon-home\"><i class=\"ri-check-line\"></i></div> <h4>Adaptaions to meet your needs and so much more</h4></li> <li><div class=\"features-content-home\"><p>Don't miss added perks here</p></div></li></ul> "), _vm._ssrNode("<div class=\"btn-box\">", "</div>", [_c('NuxtLink', {
     staticClass: "default-btn-home",
     attrs: {
       "to": "/sign-up-free-trial"
     }
-  }, [_vm._v("Start My Free\n                                    Trial")])], 1)], 2)])])], 2), _vm._ssrNode(" <div class=\"shape5\"><img" + _vm._ssrAttr("src", __webpack_require__(130)) + " alt=\"shape4\"></div> <div class=\"lines\"><div class=\"line\"></div> <div class=\"line\"></div> <div class=\"line\"></div> <div class=\"line\"></div> <div class=\"line\"></div></div>")], 2)], 2)]);
+  }, [_vm._v("Start My Free\n                                    Trial")])], 1)], 2)])])], 2), _vm._ssrNode(" <div class=\"shape5\"><img" + _vm._ssrAttr("src", __webpack_require__(128)) + " alt=\"shape4\"></div> <div class=\"lines\"><div class=\"line\"></div> <div class=\"line\"></div> <div class=\"line\"></div> <div class=\"line\"></div> <div class=\"line\"></div></div>")], 2)], 2)]);
 };
 var staticRenderFns = [];
 
@@ -136,7 +136,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "5dc71c39"
+  "720b85a0"
   
 )
 
@@ -144,7 +144,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 356:
+/***/ 353:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -167,10 +167,10 @@ var staticRenderFns = [];
 var Navbar = __webpack_require__(12);
 
 // EXTERNAL MODULE: ./components/Subscriptions/MainBannerSubscription.vue + 4 modules
-var MainBannerSubscription = __webpack_require__(301);
+var MainBannerSubscription = __webpack_require__(298);
 
 // EXTERNAL MODULE: ./components/Subscriptions/OnbaordingAssistance.vue + 4 modules
-var OnbaordingAssistance = __webpack_require__(302);
+var OnbaordingAssistance = __webpack_require__(299);
 
 // EXTERNAL MODULE: ./layouts/DealDoxFooter.vue + 4 modules
 var DealDoxFooter = __webpack_require__(11);
@@ -242,7 +242,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "7434f354"
+  "820a610a"
   
 )
 

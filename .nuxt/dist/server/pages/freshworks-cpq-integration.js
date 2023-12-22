@@ -1,77 +1,77 @@
-exports.ids = [132,54,55,56];
+exports.ids = [128,50,51,52];
 exports.modules = {
 
 /***/ 173:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/DealDox and Freshwork.eccd9e2.png";
+module.exports = __webpack_require__.p + "img/DealDox and Freshwork.0779609.png";
 
 /***/ }),
 
 /***/ 174:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Drive Sales Success.ed6e0ae.png";
+module.exports = __webpack_require__.p + "img/Drive Sales Success.81c79fa.png";
 
 /***/ }),
 
 /***/ 175:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Improve the Buyer Experience with Real-time Insights.cbf2f22.png";
+module.exports = __webpack_require__.p + "img/Improve the Buyer Experience with Real-time Insights.ed5bf53.png";
 
 /***/ }),
 
 /***/ 176:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Streamline Your Sales.3e53230.png";
+module.exports = __webpack_require__.p + "img/Streamline Your Sales.3a3fec5.png";
 
 /***/ }),
 
 /***/ 177:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Empower Your Sales Success with Actionable Data for Optimal Conversions.2ca7f10.png";
+module.exports = __webpack_require__.p + "img/Empower Your Sales Success with Actionable Data for Optimal Conversions.7e04fad.png";
 
 /***/ }),
 
 /***/ 178:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Lightning-fast Results with DealDox.3ed095b.png";
+module.exports = __webpack_require__.p + "img/Lightning-fast Results with DealDox.9b0c0f6.png";
 
 /***/ }),
 
 /***/ 179:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Swift Quote.594db53.png";
+module.exports = __webpack_require__.p + "img/Swift Quote.38e722f.png";
 
 /***/ }),
 
 /***/ 180:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Quick Approvals.9a3686f.png";
+module.exports = __webpack_require__.p + "img/Quick Approvals.da945d5.png";
 
 /***/ }),
 
 /***/ 181:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Configure Price Quote.cc04311.png";
+module.exports = __webpack_require__.p + "img/Configure Price Quote.dbe6706.png";
 
 /***/ }),
 
 /***/ 182:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Subscription.032aa12.png";
+module.exports = __webpack_require__.p + "img/Subscription.40a9e1b.png";
 
 /***/ }),
 
-/***/ 259:
+/***/ 258:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -122,7 +122,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "88cfd9fe"
+  "43910a0c"
   
 )
 
@@ -130,7 +130,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 260:
+/***/ 259:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -173,7 +173,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "07f0f2da"
+  "71f859e8"
   
 )
 
@@ -181,7 +181,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 261:
+/***/ 260:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -244,7 +244,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "133af606"
+  "78a9a42d"
   
 )
 
@@ -252,7 +252,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 342:
+/***/ 338:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -275,13 +275,13 @@ var staticRenderFns = [];
 var Navbar = __webpack_require__(12);
 
 // EXTERNAL MODULE: ./components/Freshworks/MainBannerLoacalized.vue + 4 modules
-var MainBannerLoacalized = __webpack_require__(259);
+var MainBannerLoacalized = __webpack_require__(258);
 
 // EXTERNAL MODULE: ./components/Freshworks/HowLocalizedDeal.vue + 4 modules
-var HowLocalizedDeal = __webpack_require__(260);
+var HowLocalizedDeal = __webpack_require__(259);
 
 // EXTERNAL MODULE: ./components/Freshworks/KeyBenefitsof.vue + 4 modules
-var KeyBenefitsof = __webpack_require__(261);
+var KeyBenefitsof = __webpack_require__(260);
 
 // EXTERNAL MODULE: ./layouts/DealDoxFooter.vue + 4 modules
 var DealDoxFooter = __webpack_require__(11);
@@ -350,7 +350,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "0a5595f8"
+  "1a3e903d"
   
 )
 

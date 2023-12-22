@@ -1,14 +1,14 @@
-exports.ids = [118,6];
+exports.ids = [114,6];
 exports.modules = {
 
-/***/ 131:
+/***/ 129:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/logo.ea827d1.svg";
+module.exports = __webpack_require__.p + "img/logo.fd05a61.svg";
 
 /***/ }),
 
-/***/ 300:
+/***/ 297:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -28,7 +28,7 @@ var render = function render() {
     }
   }, [_c('img', {
     attrs: {
-      "src": __webpack_require__(131),
+      "src": __webpack_require__(129),
       "alt": "logo"
     }
   })])], 1), _vm._ssrNode(" "), _vm._ssrNode("<div class=\"d-table\">", "</div>", [_vm._ssrNode("<div class=\"d-table-cell\">", "</div>", [_vm._ssrNode("<div class=\"container\">", "</div>", [_vm._ssrNode("<div class=\"signup-form\">", "</div>", [_vm._ssrNode("<h2>Sign Up</h2> "), _vm._ssrNode("<form>", "</form>", [_vm._ssrNode("<div class=\"form-group\"><input type=\"text\" placeholder=\"Full Name\" class=\"form-control\"></div> <div class=\"form-group\"><input type=\"email\" placeholder=\"Email Address\" class=\"form-control\"></div> <div class=\"form-group\"><input type=\"password\" placeholder=\"Password\" class=\"form-control\"></div> <div class=\"form-group\"><input type=\"password\" placeholder=\"Confirm Password\" class=\"form-control\"></div> <button type=\"submit\">Sign Up</button> "), _vm._ssrNode("<span class=\"dont-account\">", "</span>", [_vm._ssrNode("\n                            Already have an account?\n                            "), _c('NuxtLink', {
@@ -65,7 +65,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "664eb450"
+  "f48fe0ee"
   
 )
 
@@ -73,7 +73,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 355:
+/***/ 352:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -91,7 +91,7 @@ var staticRenderFns = [];
 // CONCATENATED MODULE: ./pages/SignUp.vue?vue&type=template&id=0292728a&
 
 // EXTERNAL MODULE: ./components/Authentication/SignUp.vue + 4 modules
-var SignUp = __webpack_require__(300);
+var SignUp = __webpack_require__(297);
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/SignUp.vue?vue&type=script&lang=js&
 
@@ -121,7 +121,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "732971ea"
+  "6ea838ba"
   
 )
 

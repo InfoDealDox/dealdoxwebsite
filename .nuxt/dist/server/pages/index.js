@@ -1,7 +1,104 @@
-exports.ids = [137,32,33,39,46,63,64,65,66,67,68,69,70,71,72];
+exports.ids = [133,32,33,38,44,59,60,61,62,63,64,65,66,67,68];
 exports.modules = {
 
-/***/ 124:
+/***/ 128:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/shape4.a5ecfff.png";
+
+/***/ }),
+
+/***/ 132:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Common/Partner.vue?vue&type=template&id=eda3a3ae&
+var render = function render() {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c('div', {
+    staticClass: "partner-area pt-70"
+  }, [_vm._ssrNode("<div class=\"container\">", "</div>", [_vm._ssrNode("<div class=\"partner-title\">\n            Industry-Preferred CPQ SaaS Solution at Your Fingertips\n        </div> "), _vm._ssrNode("<div class=\"partner-slides\">", "</div>", [_vm.partners !== null ? _c('carousel', {
+    attrs: {
+      "autoplay": true,
+      "loop": true,
+      "paginationEnabled": false,
+      "perPageCustom": [[0, 3], [576, 3], [768, 3], [1200, 7]]
+    }
+  }, _vm._l(_vm.partners.partnerSlides, function (slide) {
+    return _c('slide', {
+      key: slide.id
+    }, [_c('div', {
+      staticClass: "single-partner-item"
+    }, [_c('a', [_c('img', {
+      attrs: {
+        "src": slide.image.data.attributes.url,
+        "alt": "image"
+      }
+    })])])]);
+  }), 1) : _vm._e()], 1)], 2)]);
+};
+var staticRenderFns = [];
+
+// CONCATENATED MODULE: ./components/Common/Partner.vue?vue&type=template&id=eda3a3ae&
+
+// EXTERNAL MODULE: external "axios"
+var external_axios_ = __webpack_require__(6);
+var external_axios_default = /*#__PURE__*/__webpack_require__.n(external_axios_);
+
+// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Common/Partner.vue?vue&type=script&lang=js&
+
+/* harmony default export */ var Partnervue_type_script_lang_js_ = ({
+  name: 'Partner',
+  data: () => ({
+    settings: {
+      itemsToShow: 1,
+      snapAlign: 'center'
+    },
+    partners: null
+  }),
+  created: async function () {
+    const response = await external_axios_default.a.get('https://cms.dealdox.io/api/partner?populate=partnerSlides.image');
+    const {
+      data: {
+        attributes
+      }
+    } = response.data;
+    this.partners = attributes;
+  }
+});
+// CONCATENATED MODULE: ./components/Common/Partner.vue?vue&type=script&lang=js&
+ /* harmony default export */ var Common_Partnervue_type_script_lang_js_ = (Partnervue_type_script_lang_js_); 
+// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
+var componentNormalizer = __webpack_require__(3);
+
+// CONCATENATED MODULE: ./components/Common/Partner.vue
+
+
+
+
+
+/* normalize component */
+
+var component = Object(componentNormalizer["a" /* default */])(
+  Common_Partnervue_type_script_lang_js_,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  "079be4ba"
+  
+)
+
+/* harmony default export */ var Partner = __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ 147:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -58,7 +155,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "f21c4cda"
+  "baeec28c"
   
 )
 
@@ -66,7 +163,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 125:
+/***/ 148:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -159,108 +256,11 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "10a201c6"
+  "4b73db6d"
   
 )
 
 /* harmony default export */ var AccordionItem = __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ 130:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "img/shape4.f931a06.png";
-
-/***/ }),
-
-/***/ 134:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Common/Partner.vue?vue&type=template&id=eda3a3ae&
-var render = function render() {
-  var _vm = this,
-    _c = _vm._self._c;
-  return _c('div', {
-    staticClass: "partner-area pt-70"
-  }, [_vm._ssrNode("<div class=\"container\">", "</div>", [_vm._ssrNode("<div class=\"partner-title\">\n            Industry-Preferred CPQ SaaS Solution at Your Fingertips\n        </div> "), _vm._ssrNode("<div class=\"partner-slides\">", "</div>", [_vm.partners !== null ? _c('carousel', {
-    attrs: {
-      "autoplay": true,
-      "loop": true,
-      "paginationEnabled": false,
-      "perPageCustom": [[0, 3], [576, 3], [768, 3], [1200, 7]]
-    }
-  }, _vm._l(_vm.partners.partnerSlides, function (slide) {
-    return _c('slide', {
-      key: slide.id
-    }, [_c('div', {
-      staticClass: "single-partner-item"
-    }, [_c('a', [_c('img', {
-      attrs: {
-        "src": slide.image.data.attributes.url,
-        "alt": "image"
-      }
-    })])])]);
-  }), 1) : _vm._e()], 1)], 2)]);
-};
-var staticRenderFns = [];
-
-// CONCATENATED MODULE: ./components/Common/Partner.vue?vue&type=template&id=eda3a3ae&
-
-// EXTERNAL MODULE: external "axios"
-var external_axios_ = __webpack_require__(6);
-var external_axios_default = /*#__PURE__*/__webpack_require__.n(external_axios_);
-
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Common/Partner.vue?vue&type=script&lang=js&
-
-/* harmony default export */ var Partnervue_type_script_lang_js_ = ({
-  name: 'Partner',
-  data: () => ({
-    settings: {
-      itemsToShow: 1,
-      snapAlign: 'center'
-    },
-    partners: null
-  }),
-  created: async function () {
-    const response = await external_axios_default.a.get('https://cms.dealdox.io/api/partner?populate=partnerSlides.image');
-    const {
-      data: {
-        attributes
-      }
-    } = response.data;
-    this.partners = attributes;
-  }
-});
-// CONCATENATED MODULE: ./components/Common/Partner.vue?vue&type=script&lang=js&
- /* harmony default export */ var Common_Partnervue_type_script_lang_js_ = (Partnervue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(3);
-
-// CONCATENATED MODULE: ./components/Common/Partner.vue
-
-
-
-
-
-/* normalize component */
-
-var component = Object(componentNormalizer["a" /* default */])(
-  Common_Partnervue_type_script_lang_js_,
-  render,
-  staticRenderFns,
-  false,
-  null,
-  null,
-  "8acffc5a"
-  
-)
-
-/* harmony default export */ var Partner = __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
@@ -616,10 +616,10 @@ var staticRenderFns = [];
 // CONCATENATED MODULE: ./components/Common/Faq.vue?vue&type=template&id=934f5480&
 
 // EXTERNAL MODULE: ./components/Common/Accordion.vue + 4 modules
-var Accordion = __webpack_require__(124);
+var Accordion = __webpack_require__(147);
 
 // EXTERNAL MODULE: ./components/Common/AccordionItem.vue + 4 modules
-var AccordionItem = __webpack_require__(125);
+var AccordionItem = __webpack_require__(148);
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Common/Faq.vue?vue&type=script&lang=js&
 
@@ -651,7 +651,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "57bc0aa1"
+  "087b7908"
   
 )
 
@@ -662,11 +662,11 @@ var component = Object(componentNormalizer["a" /* default */])(
 /***/ 235:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Financialdocumentsandfor.e9f9a62.png";
+module.exports = __webpack_require__.p + "img/Financialdocumentsandfor.519be5c.png";
 
 /***/ }),
 
-/***/ 312:
+/***/ 309:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -717,7 +717,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "3ebd593c"
+  "798f32e3"
   
 )
 
@@ -725,7 +725,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 313:
+/***/ 310:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -768,7 +768,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "8d7c7af8"
+  "4dcf052b"
   
 )
 
@@ -776,7 +776,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 314:
+/***/ 311:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -819,7 +819,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "2e731e30"
+  "312d87a1"
   
 )
 
@@ -827,7 +827,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 315:
+/***/ 312:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -875,7 +875,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "42595aea"
+  "273a6944"
   
 )
 
@@ -883,7 +883,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 316:
+/***/ 313:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -931,7 +931,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "9579cac2"
+  "c07ae8d0"
   
 )
 
@@ -939,7 +939,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 317:
+/***/ 314:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -987,7 +987,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "187f47aa"
+  "7cfb2fdc"
   
 )
 
@@ -995,7 +995,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 318:
+/***/ 315:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1043,7 +1043,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "1eacfd4a"
+  "47eb6114"
   
 )
 
@@ -1051,7 +1051,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 319:
+/***/ 316:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1099,7 +1099,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "7ac22c28"
+  "45be78a1"
   
 )
 
@@ -1107,7 +1107,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 320:
+/***/ 317:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1125,7 +1125,7 @@ var render = function render() {
     attrs: {
       "to": "/sign-up-free-trial"
     }
-  }, [_vm._v("Start My Free Trial")])], 1)], 2)])])], 2), _vm._ssrNode(" <div class=\"shape5\"><img" + _vm._ssrAttr("src", __webpack_require__(130)) + " alt=\"shape4\"></div> <div class=\"lines\"><div class=\"line\"></div> <div class=\"line\"></div> <div class=\"line\"></div> <div class=\"line\"></div> <div class=\"line\"></div></div>")], 2)], 2)]);
+  }, [_vm._v("Start My Free Trial")])], 1)], 2)])])], 2), _vm._ssrNode(" <div class=\"shape5\"><img" + _vm._ssrAttr("src", __webpack_require__(128)) + " alt=\"shape4\"></div> <div class=\"lines\"><div class=\"line\"></div> <div class=\"line\"></div> <div class=\"line\"></div> <div class=\"line\"></div> <div class=\"line\"></div></div>")], 2)], 2)]);
 };
 var staticRenderFns = [];
 
@@ -1155,7 +1155,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "360606e0"
+  "7e6d1d99"
   
 )
 
@@ -1163,7 +1163,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 321:
+/***/ 318:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1295,7 +1295,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "6ef2074a"
+  "0358d602"
   
 )
 
@@ -1303,7 +1303,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 370:
+/***/ 367:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1326,37 +1326,37 @@ var staticRenderFns = [];
 var Navbar = __webpack_require__(12);
 
 // EXTERNAL MODULE: ./components/IndexPage/MainBanner.vue + 4 modules
-var MainBanner = __webpack_require__(312);
+var MainBanner = __webpack_require__(309);
 
 // EXTERNAL MODULE: ./components/IndexPage/TransformYourSales.vue + 4 modules
-var TransformYourSales = __webpack_require__(313);
+var TransformYourSales = __webpack_require__(310);
 
 // EXTERNAL MODULE: ./components/Common/Partner.vue + 4 modules
-var Partner = __webpack_require__(134);
+var Partner = __webpack_require__(132);
 
 // EXTERNAL MODULE: ./components/IndexPage/WithOurSubscrip.vue + 4 modules
-var WithOurSubscrip = __webpack_require__(314);
+var WithOurSubscrip = __webpack_require__(311);
 
 // EXTERNAL MODULE: ./components/IndexPage/EasyIntegration.vue + 4 modules
-var EasyIntegration = __webpack_require__(315);
+var EasyIntegration = __webpack_require__(312);
 
 // EXTERNAL MODULE: ./components/IndexPage/LightningFast.vue + 4 modules
-var LightningFast = __webpack_require__(316);
+var LightningFast = __webpack_require__(313);
 
 // EXTERNAL MODULE: ./components/IndexPage/ImproveSales.vue + 4 modules
-var ImproveSales = __webpack_require__(317);
+var ImproveSales = __webpack_require__(314);
 
 // EXTERNAL MODULE: ./components/IndexPage/EasyCPQ.vue + 4 modules
-var EasyCPQ = __webpack_require__(318);
+var EasyCPQ = __webpack_require__(315);
 
 // EXTERNAL MODULE: ./components/IndexPage/AdditionalFeature.vue + 4 modules
-var AdditionalFeature = __webpack_require__(319);
+var AdditionalFeature = __webpack_require__(316);
 
 // EXTERNAL MODULE: ./components/IndexPage/AutomatedQuotes.vue + 4 modules
-var AutomatedQuotes = __webpack_require__(320);
+var AutomatedQuotes = __webpack_require__(317);
 
 // EXTERNAL MODULE: ./components/IndexPage/GetInTouch.vue + 4 modules
-var GetInTouch = __webpack_require__(321);
+var GetInTouch = __webpack_require__(318);
 
 // EXTERNAL MODULE: ./components/Common/Faq.vue + 4 modules
 var Faq = __webpack_require__(159);
@@ -1445,7 +1445,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "7fd92930"
+  "69d51c57"
   
 )
 

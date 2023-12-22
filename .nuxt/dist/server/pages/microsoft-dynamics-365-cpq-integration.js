@@ -1,70 +1,70 @@
-exports.ids = [140,88,89,90];
+exports.ids = [136,84,85,86];
 exports.modules = {
+
+/***/ 141:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/Swift Quote.7153646.png";
+
+/***/ }),
+
+/***/ 142:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/Quick Approvals.da945d5.png";
+
+/***/ }),
 
 /***/ 143:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Swift Quote.2bdf0fd.png";
+module.exports = __webpack_require__.p + "img/Configure Price Quote.dbe6706.png";
 
 /***/ }),
 
 /***/ 144:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Quick Approvals.9a3686f.png";
-
-/***/ }),
-
-/***/ 145:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "img/Configure Price Quote.cc04311.png";
-
-/***/ }),
-
-/***/ 146:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "img/Subscription.032aa12.png";
+module.exports = __webpack_require__.p + "img/Subscription.40a9e1b.png";
 
 /***/ }),
 
 /***/ 152:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Close Deals Faster with DealDox.b6a8348.png";
+module.exports = __webpack_require__.p + "img/Close Deals Faster with DealDox.4e1f53f.png";
 
 /***/ }),
 
 /***/ 194:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/DealDox and Microsoft Dynamic CRM.2232e42.png";
+module.exports = __webpack_require__.p + "img/DealDox and Microsoft Dynamic CRM.3315c2c.png";
 
 /***/ }),
 
 /***/ 195:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Generate Lightning-fast Professional Quotes.6a7f99a.png";
+module.exports = __webpack_require__.p + "img/Generate Lightning-fast Professional Quotes.765aad6.png";
 
 /***/ }),
 
 /***/ 196:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Utilize the Power of a User-Friendly CPQ Solution.48049e2.png";
+module.exports = __webpack_require__.p + "img/Utilize the Power of a User-Friendly CPQ Solution.15805df.png";
 
 /***/ }),
 
 /***/ 197:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Deliver Timely Experiences with Precision.77c60b9.png";
+module.exports = __webpack_require__.p + "img/Deliver Timely Experiences with Precision.b1218aa.png";
 
 /***/ }),
 
-/***/ 273:
+/***/ 271:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -115,7 +115,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "137facc2"
+  "334fe88a"
   
 )
 
@@ -123,7 +123,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 274:
+/***/ 272:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -166,7 +166,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "3f7c28d4"
+  "98762766"
   
 )
 
@@ -174,7 +174,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 275:
+/***/ 273:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -187,22 +187,22 @@ var render = function render() {
     _c = _vm._self._c;
   return _c('div', {
     staticClass: "key-features-area bg-FAFAFA ptb-100"
-  }, [_vm._ssrNode("<div class=\"container\">", "</div>", [_vm._ssrNode("<div class=\"section-title-pages-full\"><div class=\"new-app-main-banner-wrap-content-full tb-20\"><h3>Expand Your <span class=\"sub-title-effortless\">CRM Horizons</span> with DealDox</h3></div></div> "), _vm._ssrNode("<div class=\"row justify-content-center pt-60\">", "</div>", [_vm._ssrNode("<div class=\"col-xl-3 col-lg-6 col-sm-6 col-md-6\">", "</div>", [_vm._ssrNode("<div class=\"single-features-item\">", "</div>", [_vm._ssrNode("<div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(143)) + " alt=\"image\"></div> <h3>Swift Quotes</h3> <p>Generate quotations and any deal documents in a few seconds.</p> "), _c('NuxtLink', {
+  }, [_vm._ssrNode("<div class=\"container\">", "</div>", [_vm._ssrNode("<div class=\"section-title-pages-full\"><div class=\"new-app-main-banner-wrap-content-full tb-20\"><h3>Expand Your <span class=\"sub-title-effortless\">CRM Horizons</span> with DealDox</h3></div></div> "), _vm._ssrNode("<div class=\"row justify-content-center pt-60\">", "</div>", [_vm._ssrNode("<div class=\"col-xl-3 col-lg-6 col-sm-6 col-md-6\">", "</div>", [_vm._ssrNode("<div class=\"single-features-item\">", "</div>", [_vm._ssrNode("<div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(141)) + " alt=\"image\"></div> <h3>Swift Quotes</h3> <p>Generate quotations and any deal documents in a few seconds.</p> "), _c('NuxtLink', {
     staticClass: "default-btn",
     attrs: {
       "to": "/quoting-software"
     }
-  }, [_vm._v("Know more")])], 2)]), _vm._ssrNode(" "), _vm._ssrNode("<div class=\"col-xl-3 col-lg-6 col-sm-6 col-md-6\">", "</div>", [_vm._ssrNode("<div class=\"single-features-item\">", "</div>", [_vm._ssrNode("<div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(144)) + " alt=\"image\"></div> <h3>Quick Approvals</h3> <p>Complex approvals are made easy with DealDox - it simplifies the sales process.\n                    </p> "), _c('NuxtLink', {
+  }, [_vm._v("Know more")])], 2)]), _vm._ssrNode(" "), _vm._ssrNode("<div class=\"col-xl-3 col-lg-6 col-sm-6 col-md-6\">", "</div>", [_vm._ssrNode("<div class=\"single-features-item\">", "</div>", [_vm._ssrNode("<div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(142)) + " alt=\"image\"></div> <h3>Quick Approvals</h3> <p>Complex approvals are made easy with DealDox - it simplifies the sales process.\n                    </p> "), _c('NuxtLink', {
     staticClass: "default-btn",
     attrs: {
       "to": "/approval-software"
     }
-  }, [_vm._v("Know more")])], 2)]), _vm._ssrNode(" "), _vm._ssrNode("<div class=\"col-xl-3 col-lg-6 col-sm-6 col-md-6\">", "</div>", [_vm._ssrNode("<div class=\"single-features-item\">", "</div>", [_vm._ssrNode("<div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(145)) + " alt=\"image\"></div> <h3>Configure Price Quote (CPQ)</h3> <p>Easy configurations and error-free quotes in minutes.</p> "), _c('NuxtLink', {
+  }, [_vm._v("Know more")])], 2)]), _vm._ssrNode(" "), _vm._ssrNode("<div class=\"col-xl-3 col-lg-6 col-sm-6 col-md-6\">", "</div>", [_vm._ssrNode("<div class=\"single-features-item\">", "</div>", [_vm._ssrNode("<div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(143)) + " alt=\"image\"></div> <h3>Configure Price Quote (CPQ)</h3> <p>Easy configurations and error-free quotes in minutes.</p> "), _c('NuxtLink', {
     staticClass: "default-btn",
     attrs: {
       "to": "/services-cpq"
     }
-  }, [_vm._v("Know more")])], 2)]), _vm._ssrNode(" "), _vm._ssrNode("<div class=\"col-xl-3 col-lg-6 col-sm-6 col-md-6\">", "</div>", [_vm._ssrNode("<div class=\"single-features-item\">", "</div>", [_vm._ssrNode("<div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(146)) + " alt=\"image\"></div> <h3>Subscription</h3> <p>Upselling, Expand and Automated renewals. Pay only for what you use.</p> "), _c('NuxtLink', {
+  }, [_vm._v("Know more")])], 2)]), _vm._ssrNode(" "), _vm._ssrNode("<div class=\"col-xl-3 col-lg-6 col-sm-6 col-md-6\">", "</div>", [_vm._ssrNode("<div class=\"single-features-item\">", "</div>", [_vm._ssrNode("<div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(144)) + " alt=\"image\"></div> <h3>Subscription</h3> <p>Upselling, Expand and Automated renewals. Pay only for what you use.</p> "), _c('NuxtLink', {
     staticClass: "default-btn",
     attrs: {
       "to": "/subscriptions"
@@ -237,7 +237,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "bac33936"
+  "58280ae8"
   
 )
 
@@ -245,7 +245,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 347:
+/***/ 343:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -268,13 +268,13 @@ var staticRenderFns = [];
 var Navbar = __webpack_require__(12);
 
 // EXTERNAL MODULE: ./components/Microsoft-Dynamics/MainBannerLoacalized.vue + 4 modules
-var MainBannerLoacalized = __webpack_require__(273);
+var MainBannerLoacalized = __webpack_require__(271);
 
 // EXTERNAL MODULE: ./components/Microsoft-Dynamics/HowLocalizedDeal.vue + 4 modules
-var HowLocalizedDeal = __webpack_require__(274);
+var HowLocalizedDeal = __webpack_require__(272);
 
 // EXTERNAL MODULE: ./components/Microsoft-Dynamics/KeyBenefitsof.vue + 4 modules
-var KeyBenefitsof = __webpack_require__(275);
+var KeyBenefitsof = __webpack_require__(273);
 
 // EXTERNAL MODULE: ./layouts/DealDoxFooter.vue + 4 modules
 var DealDoxFooter = __webpack_require__(11);
@@ -343,7 +343,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "2170b730"
+  "30a61bbe"
   
 )
 

@@ -1,77 +1,77 @@
-exports.ids = [152,110,111,112];
+exports.ids = [148,106,107,108];
 exports.modules = {
+
+/***/ 137:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/Swift Quote.38e722f.png";
+
+/***/ }),
+
+/***/ 138:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/Quick Approvals.da945d5.png";
+
+/***/ }),
 
 /***/ 139:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Swift Quote.594db53.png";
+module.exports = __webpack_require__.p + "img/Configure Price Quote.dbe6706.png";
 
 /***/ }),
 
 /***/ 140:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Quick Approvals.9a3686f.png";
-
-/***/ }),
-
-/***/ 141:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "img/Configure Price Quote.cc04311.png";
-
-/***/ }),
-
-/***/ 142:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "img/Subscription.032aa12.png";
+module.exports = __webpack_require__.p + "img/Subscription.40a9e1b.png";
 
 /***/ }),
 
 /***/ 228:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/DealDox and Sugar CRM.1b16860.png";
+module.exports = __webpack_require__.p + "img/DealDox and Sugar CRM.7c2e6a5.png";
 
 /***/ }),
 
 /***/ 229:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Accelerate Deal Closures with Guided Selling.987f6c1.png";
+module.exports = __webpack_require__.p + "img/Accelerate Deal Closures with Guided Selling.9ca015b.png";
 
 /***/ }),
 
 /***/ 230:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Quick and Professional Quote Generation with DealDox.152591a.png";
+module.exports = __webpack_require__.p + "img/Quick and Professional Quote Generation with DealDox.fac2554.png";
 
 /***/ }),
 
 /***/ 231:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Optimize sales procedures to get rid of bottlenecks.063fdae.png";
+module.exports = __webpack_require__.p + "img/Optimize sales procedures to get rid of bottlenecks.91e473d.png";
 
 /***/ }),
 
 /***/ 232:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Cut Costs and Simplify Your Sales Stack with DealDox Integration.8abba6d.png";
+module.exports = __webpack_require__.p + "img/Cut Costs and Simplify Your Sales Stack with DealDox Integration.e79456d.png";
 
 /***/ }),
 
 /***/ 233:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Accelerate Revenue Growth with Automated Quoting Software's Expert Services.fd9b3ff.png";
+module.exports = __webpack_require__.p + "img/Accelerate Revenue Growth with Automated Quoting Software's Expert Services.04acaec.png";
 
 /***/ }),
 
-/***/ 303:
+/***/ 300:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -122,7 +122,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "4345ee56"
+  "2ce5b986"
   
 )
 
@@ -130,7 +130,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 304:
+/***/ 301:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -173,7 +173,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "102a5468"
+  "56b3d662"
   
 )
 
@@ -181,7 +181,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 305:
+/***/ 302:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -194,22 +194,22 @@ var render = function render() {
     _c = _vm._self._c;
   return _c('div', {
     staticClass: "key-features-area bg-FAFAFA ptb-100"
-  }, [_vm._ssrNode("<div class=\"container\">", "</div>", [_vm._ssrNode("<div class=\"section-title-pages-full\"><div class=\"new-app-main-banner-wrap-content-full tb-20\"><h3>Expand Your <span class=\"sub-title-effortless\">CRM Horizons</span> with DealDox</h3></div></div> "), _vm._ssrNode("<div class=\"row justify-content-center pt-60\">", "</div>", [_vm._ssrNode("<div class=\"col-xl-3 col-lg-6 col-sm-6 col-md-6\">", "</div>", [_vm._ssrNode("<div class=\"single-features-item\">", "</div>", [_vm._ssrNode("<div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(139)) + " alt=\"image\"></div> <h3><a href=\"https://www.dealdox.io/quoting-software\">Swift Quotes </a></h3> <p>Generate quotations and any deal documents in a few seconds.</p> "), _c('NuxtLink', {
+  }, [_vm._ssrNode("<div class=\"container\">", "</div>", [_vm._ssrNode("<div class=\"section-title-pages-full\"><div class=\"new-app-main-banner-wrap-content-full tb-20\"><h3>Expand Your <span class=\"sub-title-effortless\">CRM Horizons</span> with DealDox</h3></div></div> "), _vm._ssrNode("<div class=\"row justify-content-center pt-60\">", "</div>", [_vm._ssrNode("<div class=\"col-xl-3 col-lg-6 col-sm-6 col-md-6\">", "</div>", [_vm._ssrNode("<div class=\"single-features-item\">", "</div>", [_vm._ssrNode("<div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(137)) + " alt=\"image\"></div> <h3><a href=\"https://www.dealdox.io/quoting-software\">Swift Quotes </a></h3> <p>Generate quotations and any deal documents in a few seconds.</p> "), _c('NuxtLink', {
     staticClass: "default-btn",
     attrs: {
       "to": "/quoting-software"
     }
-  }, [_vm._v("Know more")])], 2)]), _vm._ssrNode(" "), _vm._ssrNode("<div class=\"col-xl-3 col-lg-6 col-sm-6 col-md-6\">", "</div>", [_vm._ssrNode("<div class=\"single-features-item\">", "</div>", [_vm._ssrNode("<div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(140)) + " alt=\"image\"></div> <h3><a href=\"https://www.dealdox.io/approval-software\">Quick Approvals</a></h3> <p>Complex approvals are made easy with DealDox - it simplifies the sales process.\n                    </p> "), _c('NuxtLink', {
+  }, [_vm._v("Know more")])], 2)]), _vm._ssrNode(" "), _vm._ssrNode("<div class=\"col-xl-3 col-lg-6 col-sm-6 col-md-6\">", "</div>", [_vm._ssrNode("<div class=\"single-features-item\">", "</div>", [_vm._ssrNode("<div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(138)) + " alt=\"image\"></div> <h3><a href=\"https://www.dealdox.io/approval-software\">Quick Approvals</a></h3> <p>Complex approvals are made easy with DealDox - it simplifies the sales process.\n                    </p> "), _c('NuxtLink', {
     staticClass: "default-btn",
     attrs: {
       "to": "/approval-software"
     }
-  }, [_vm._v("Know more")])], 2)]), _vm._ssrNode(" "), _vm._ssrNode("<div class=\"col-xl-3 col-lg-6 col-sm-6 col-md-6\">", "</div>", [_vm._ssrNode("<div class=\"single-features-item\">", "</div>", [_vm._ssrNode("<div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(141)) + " alt=\"image\"></div> <h3>Configure Price Quote (CPQ)</h3> <p>Easy configurations and error-free quotes in minutes.</p> "), _c('NuxtLink', {
+  }, [_vm._v("Know more")])], 2)]), _vm._ssrNode(" "), _vm._ssrNode("<div class=\"col-xl-3 col-lg-6 col-sm-6 col-md-6\">", "</div>", [_vm._ssrNode("<div class=\"single-features-item\">", "</div>", [_vm._ssrNode("<div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(139)) + " alt=\"image\"></div> <h3>Configure Price Quote (CPQ)</h3> <p>Easy configurations and error-free quotes in minutes.</p> "), _c('NuxtLink', {
     staticClass: "default-btn",
     attrs: {
       "to": "/services-cpq"
     }
-  }, [_vm._v("Know more")])], 2)]), _vm._ssrNode(" "), _vm._ssrNode("<div class=\"col-xl-3 col-lg-6 col-sm-6 col-md-6\">", "</div>", [_vm._ssrNode("<div class=\"single-features-item\">", "</div>", [_vm._ssrNode("<div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(142)) + " alt=\"image\"></div> <h3><a href=\"https://www.dealdox.io/subscription\">Subscription</a></h3> <p>Upselling, Expand and Automated renewals. Pay only for what you use.</p> "), _c('NuxtLink', {
+  }, [_vm._v("Know more")])], 2)]), _vm._ssrNode(" "), _vm._ssrNode("<div class=\"col-xl-3 col-lg-6 col-sm-6 col-md-6\">", "</div>", [_vm._ssrNode("<div class=\"single-features-item\">", "</div>", [_vm._ssrNode("<div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(140)) + " alt=\"image\"></div> <h3><a href=\"https://www.dealdox.io/subscription\">Subscription</a></h3> <p>Upselling, Expand and Automated renewals. Pay only for what you use.</p> "), _c('NuxtLink', {
     staticClass: "default-btn",
     attrs: {
       "to": "/subscriptions"
@@ -244,7 +244,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "3fe60051"
+  "2a65714a"
   
 )
 
@@ -252,7 +252,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 358:
+/***/ 355:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -275,13 +275,13 @@ var staticRenderFns = [];
 var Navbar = __webpack_require__(12);
 
 // EXTERNAL MODULE: ./components/Sugar-CRM/MainBannerLoacalized.vue + 4 modules
-var MainBannerLoacalized = __webpack_require__(303);
+var MainBannerLoacalized = __webpack_require__(300);
 
 // EXTERNAL MODULE: ./components/Sugar-CRM/HowLocalizedDeal.vue + 4 modules
-var HowLocalizedDeal = __webpack_require__(304);
+var HowLocalizedDeal = __webpack_require__(301);
 
 // EXTERNAL MODULE: ./components/Sugar-CRM/KeyBenefitsof.vue + 4 modules
-var KeyBenefitsof = __webpack_require__(305);
+var KeyBenefitsof = __webpack_require__(302);
 
 // EXTERNAL MODULE: ./layouts/DealDoxFooter.vue + 4 modules
 var DealDoxFooter = __webpack_require__(11);
@@ -350,7 +350,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "c1cea950"
+  "2d6180d1"
   
 )
 

@@ -1,201 +1,35 @@
-exports.ids = [143,7,8,9,10,11,32,33,48];
+exports.ids = [139,7,8,9,10,11];
 exports.modules = {
 
 /***/ 124:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Common/Accordion.vue?vue&type=template&id=2de24dc2&
-var render = function render() {
-  var _vm = this,
-    _c = _vm._self._c;
-  return _c('ul', {
-    staticClass: "accordion"
-  }, [_vm._t("default")], 2);
-};
-var staticRenderFns = [];
-
-// CONCATENATED MODULE: ./components/Common/Accordion.vue?vue&type=template&id=2de24dc2&
-
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Common/Accordion.vue?vue&type=script&lang=js&
-/* harmony default export */ var Accordionvue_type_script_lang_js_ = ({
-  name: 'Accordion',
-  props: {},
-  data() {
-    return {
-      Accordion: {
-        count: 0,
-        active: null
-      }
-    };
-  },
-  provide() {
-    return {
-      Accordion: this.Accordion
-    };
-  }
-});
-// CONCATENATED MODULE: ./components/Common/Accordion.vue?vue&type=script&lang=js&
- /* harmony default export */ var Common_Accordionvue_type_script_lang_js_ = (Accordionvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(3);
-
-// CONCATENATED MODULE: ./components/Common/Accordion.vue
-
-
-
-
-
-/* normalize component */
-
-var component = Object(componentNormalizer["a" /* default */])(
-  Common_Accordionvue_type_script_lang_js_,
-  render,
-  staticRenderFns,
-  false,
-  null,
-  null,
-  "f21c4cda"
-  
-)
-
-/* harmony default export */ var Accordion = __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ 125:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Common/AccordionItem.vue?vue&type=template&id=fc85f8fe&
-var render = function render() {
-  var _vm = this,
-    _c = _vm._self._c;
-  return _c('li', {
-    staticClass: "accordion__item"
-  }, [_vm._ssrNode("<div" + _vm._ssrClass("accordion__trigger", {
-    'accordion__trigger_active': _vm.visible
-  }) + ">", "</div>", [_vm._t("accordion-trigger")], 2), _vm._ssrNode(" "), _c('transition', {
-    attrs: {
-      "name": "accordion"
-    },
-    on: {
-      "enter": _vm.start,
-      "after-enter": _vm.end,
-      "before-leave": _vm.start,
-      "after-leave": _vm.end
-    }
-  }, [_c('div', {
-    directives: [{
-      name: "show",
-      rawName: "v-show",
-      value: _vm.visible,
-      expression: "visible"
-    }],
-    staticClass: "accordion__content"
-  }, [_c('ul', [_vm._t("accordion-content")], 2)])])], 2);
-};
-var staticRenderFns = [];
-
-// CONCATENATED MODULE: ./components/Common/AccordionItem.vue?vue&type=template&id=fc85f8fe&
-
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Common/AccordionItem.vue?vue&type=script&lang=js&
-/* harmony default export */ var AccordionItemvue_type_script_lang_js_ = ({
-  name: 'AccordionItem',
-  props: {},
-  inject: ["Accordion"],
-  data() {
-    return {
-      index: null
-    };
-  },
-  computed: {
-    visible() {
-      return this.index == this.Accordion.active;
-    }
-  },
-  methods: {
-    open() {
-      if (this.visible) {
-        this.Accordion.active = null;
-      } else {
-        this.Accordion.active = this.index;
-      }
-    },
-    start(el) {
-      el.style.height = el.scrollHeight + "px";
-    },
-    end(el) {
-      el.style.height = "";
-    }
-  },
-  created() {
-    this.index = this.Accordion.count++;
-  }
-});
-// CONCATENATED MODULE: ./components/Common/AccordionItem.vue?vue&type=script&lang=js&
- /* harmony default export */ var Common_AccordionItemvue_type_script_lang_js_ = (AccordionItemvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(3);
-
-// CONCATENATED MODULE: ./components/Common/AccordionItem.vue
-
-
-
-
-
-/* normalize component */
-
-var component = Object(componentNormalizer["a" /* default */])(
-  Common_AccordionItemvue_type_script_lang_js_,
-  render,
-  staticRenderFns,
-  false,
-  null,
-  null,
-  "10a201c6"
-  
-)
-
-/* harmony default export */ var AccordionItem = __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ 126:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/do-you-know-tag.700e777.svg";
+module.exports = __webpack_require__.p + "img/do-you-know-tag.20dc659.svg";
 
 /***/ }),
 
 /***/ 202:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/automatedqutations.7881917.png";
+module.exports = __webpack_require__.p + "img/automatedqutations.d5d9903.png";
 
 /***/ }),
 
 /***/ 203:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/robotic-process-automation.cd4ff62.png";
+module.exports = __webpack_require__.p + "img/robotic-process-automation.b488c03.png";
 
 /***/ }),
 
-/***/ 280:
+/***/ 278:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/AutomatedQuotesGeneration/Banner.vue?vue&type=template&id=5181acd6&
+// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/AutomatedQuotesGeneration/Banner.vue?vue&type=template&id=8b217ec2&
 var render = function render() {
   var _vm = this,
     _c = _vm._self._c;
@@ -204,16 +38,16 @@ var render = function render() {
   }, [_vm._ssrNode("<div class=\"container\">", "</div>", [_vm._ssrNode("<div class=\"row align-items-center\">", "</div>", [_vm._ssrNode("<div class=\"col-lg-6 col-md-12\">", "</div>", [_vm._ssrNode("<div class=\"new-app-main-banner-wrap-content\">", "</div>", [_vm._ssrNode("<h1>Quote Smarter, Sell Faster with <span style=\"color: #715CF3\"><a href=\"https://www.dealdox.io/quoting-software\"> Quote Automation Software</a></span></h1> <p>Streamline sales, accelerate efficiency and enable faster sales cycle</p> "), _vm._ssrNode("<div class=\"tb-30\">", "</div>", [_c('NuxtLink', {
     staticClass: "default-btn",
     attrs: {
-      "to": "/sign-up-free-trial",
+      "to": "/demo",
       "required": ""
     }
   }, [_c('i', {
     staticClass: "bx bx-paper-plane"
-  }), _vm._v("\n                            Start My Free Trail")])], 1)], 2)]), _vm._ssrNode(" <div class=\"col-lg-6 col-md-12\"><div data-aos=\"fade-left\" data-aos-duration=\"2000\" class=\"new-app-main-banner-wrap-image\"><img" + _vm._ssrAttr("src", __webpack_require__(202)) + " alt=\"image\"></div></div>")], 2)])]);
+  }), _vm._v("\n                            Request a Demo")])], 1)], 2)]), _vm._ssrNode(" <div class=\"col-lg-6 col-md-12\"><div data-aos=\"fade-left\" data-aos-duration=\"2000\" class=\"new-app-main-banner-wrap-image\"><img" + _vm._ssrAttr("src", __webpack_require__(202)) + " alt=\"image\"></div></div>")], 2)])]);
 };
 var staticRenderFns = [];
 
-// CONCATENATED MODULE: ./components/AutomatedQuotesGeneration/Banner.vue?vue&type=template&id=5181acd6&
+// CONCATENATED MODULE: ./components/AutomatedQuotesGeneration/Banner.vue?vue&type=template&id=8b217ec2&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/AutomatedQuotesGeneration/Banner.vue?vue&type=script&lang=js&
 /* harmony default export */ var Bannervue_type_script_lang_js_ = ({
@@ -239,7 +73,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "56fd7a25"
+  "ef69dd68"
   
 )
 
@@ -247,7 +81,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 281:
+/***/ 279:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -290,7 +124,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "52c00bda"
+  "25297a4c"
   
 )
 
@@ -298,7 +132,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 282:
+/***/ 280:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -341,7 +175,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "7d277821"
+  "689e0f4c"
   
 )
 
@@ -349,7 +183,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 283:
+/***/ 281:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -392,7 +226,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "65a2d868"
+  "267c1c9a"
   
 )
 
@@ -400,7 +234,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 284:
+/***/ 282:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -413,7 +247,7 @@ var render = function render() {
     _c = _vm._self._c;
   return _c('div', {
     staticClass: "new-free-trial-area bg-white ptb-100"
-  }, [_vm._ssrNode("<div class=\"container\">", "</div>", [_vm._ssrNode("<div class=\"row align-items-center\">", "</div>", [_vm._ssrNode("<div class=\"col-lg-12 col-md-12\">", "</div>", [_vm._ssrNode("<div class=\"features-item-free-quotes with-border bg-grey\">", "</div>", [_vm._ssrNode("<div class=\"did-you-know\"><img" + _vm._ssrAttr("src", __webpack_require__(126)) + " alt=\"image\"></div> <h3>By using CPQ software, you can automate the process of generating proposals and eliminate the\n                        burden of manual content creation. Experience streamlined efficiency and unlock more time for\n                        selling. Get started with free onboarding today!</h3> "), _c('NuxtLink', {
+  }, [_vm._ssrNode("<div class=\"container\">", "</div>", [_vm._ssrNode("<div class=\"row align-items-center\">", "</div>", [_vm._ssrNode("<div class=\"col-lg-12 col-md-12\">", "</div>", [_vm._ssrNode("<div class=\"features-item-free-quotes with-border bg-grey\">", "</div>", [_vm._ssrNode("<div class=\"did-you-know\"><img" + _vm._ssrAttr("src", __webpack_require__(124)) + " alt=\"image\"></div> <h3>By using CPQ software, you can automate the process of generating proposals and eliminate the\n                        burden of manual content creation. Experience streamlined efficiency and unlock more time for\n                        selling. Get started with free onboarding today!</h3> "), _c('NuxtLink', {
     staticClass: "default-btn",
     attrs: {
       "to": "/sign-up-free-trial"
@@ -448,7 +282,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "7c8b38be"
+  "3603271a"
   
 )
 
@@ -456,202 +290,42 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 285:
+/***/ 346:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Common/quotefaq.vue?vue&type=template&id=d9eb1638&
-var render = function render() {
-  var _vm = this,
-    _c = _vm._self._c;
-  return _c('div', {
-    staticClass: "app-download-area pt-65"
-  }, [_vm._ssrNode("<div class=\"container\">", "</div>", [_vm._ssrNode("<div class=\"features-content-improve-sales\">", "</div>", [_vm._ssrNode("<div class=\"section-title\">", "</div>", [_vm._ssrNode("<h1>Frequently asked questions</h1> "), _vm._ssrNode("<p>", "</p>", [_vm._ssrNode("Can’t find your query listed? "), _vm._ssrNode("<span class=\"sub-title-faq\">", "</span>", [_c('NuxtLink', {
-    attrs: {
-      "to": "/contact-us"
-    }
-  }, [_vm._v("\n                            Write us")])], 1), _vm._ssrNode(" your query")], 2)], 2)]), _vm._ssrNode(" "), _vm._ssrNode("<div class=\"row align-items-center\">", "</div>", [_vm._ssrNode("<div class=\"col-lg-2 col-md-12\"></div> "), _vm._ssrNode("<div class=\"col-lg-8 col-md-12\">", "</div>", [_vm._ssrNode("<div class=\"faq-accordion\">", "</div>", [_c('accordion', [_c('accordion-item', {
-    scopedSlots: _vm._u([{
-      key: "accordion-trigger",
-      fn: function () {
-        return [_c('button', {
-          staticClass: "accordion-title"
-        }, [_vm._v("\n                                    What is an automated quotation software, and how does it work?  ")])];
-      },
-      proxy: true
-    }, {
-      key: "accordion-content",
-      fn: function () {
-        return [_c('div', {
-          staticClass: "accordion-body"
-        }, [_c('p', [_vm._v("An automated quotation system is a technology that uses algorithms and predefined rules to generate price quotes without manual intervention. \n                                        ")])])];
-      },
-      proxy: true
-    }])
-  }), _vm._v(" "), _c('accordion-item', {
-    scopedSlots: _vm._u([{
-      key: "accordion-trigger",
-      fn: function () {
-        return [_c('button', {
-          staticClass: "accordion-title"
-        }, [_vm._v("\n                                      How does automated quotation software work? \n                                    ")])];
-      },
-      proxy: true
-    }, {
-      key: "accordion-content",
-      fn: function () {
-        return [_c('div', {
-          staticClass: "accordion-body"
-        }, [_c('p', [_vm._v("It works by analyzing input data, such as product details and customer requirements, to produce accurate and timely quotations. \n                                        ")])])];
-      },
-      proxy: true
-    }])
-  }), _vm._v(" "), _c('accordion-item', {
-    scopedSlots: _vm._u([{
-      key: "accordion-trigger",
-      fn: function () {
-        return [_c('button', {
-          staticClass: "accordion-title"
-        }, [_vm._v("\n                                       What are the key benefits of using an automated quotation tool for businesses?  \n                                    ")])];
-      },
-      proxy: true
-    }, {
-      key: "accordion-content",
-      fn: function () {
-        return [_c('div', {
-          staticClass: "accordion-body"
-        }, [_c('p', [_vm._v("Automated quotation tool offer advantages such as increased operational efficiency, reduced errors, faster response times, and improved customer satisfaction. \n                                        ")])])];
-      },
-      proxy: true
-    }])
-  }), _vm._v(" "), _c('accordion-item', {
-    scopedSlots: _vm._u([{
-      key: "accordion-trigger",
-      fn: function () {
-        return [_c('button', {
-          staticClass: "accordion-title"
-        }, [_vm._v("\n                    Can an automated quotation software be customized to fit the specific needs of my business?               \n                                     ")])];
-      },
-      proxy: true
-    }, {
-      key: "accordion-content",
-      fn: function () {
-        return [_c('div', {
-          staticClass: "accordion-body"
-        }, [_c('p', [_vm._v("Yes, automated quotation systems are designed to be customizable. \n                                        ")])])];
-      },
-      proxy: true
-    }])
-  }), _vm._v(" "), _c('accordion-item', {
-    scopedSlots: _vm._u([{
-      key: "accordion-trigger",
-      fn: function () {
-        return [_c('button', {
-          staticClass: "accordion-title"
-        }, [_vm._v("\n                                       What types of businesses or industries can benefit from automated quotations? \n                                    ")])];
-      },
-      proxy: true
-    }, {
-      key: "accordion-content",
-      fn: function () {
-        return [_c('div', {
-          staticClass: "accordion-body"
-        }, [_c('p', [_vm._v(" Whether in manufacturing, services, or other sectors, the adaptability of these systems makes them valuable for enhancing efficiency and accuracy in generating quotes. \n                                        ")])])];
-      },
-      proxy: true
-    }])
-  })], 1)], 1)]), _vm._ssrNode(" <div class=\"col-lg-2 col-md-12\"></div>")], 2)], 2)]);
-};
-var staticRenderFns = [];
-
-// CONCATENATED MODULE: ./components/Common/quotefaq.vue?vue&type=template&id=d9eb1638&
-
-// EXTERNAL MODULE: ./components/Common/Accordion.vue + 4 modules
-var Accordion = __webpack_require__(124);
-
-// EXTERNAL MODULE: ./components/Common/AccordionItem.vue + 4 modules
-var AccordionItem = __webpack_require__(125);
-
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Common/quotefaq.vue?vue&type=script&lang=js&
-
-
-/* harmony default export */ var quotefaqvue_type_script_lang_js_ = ({
-  name: 'Faq',
-  components: {
-    Accordion: Accordion["default"],
-    AccordionItem: AccordionItem["default"]
-  }
-});
-// CONCATENATED MODULE: ./components/Common/quotefaq.vue?vue&type=script&lang=js&
- /* harmony default export */ var Common_quotefaqvue_type_script_lang_js_ = (quotefaqvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(3);
-
-// CONCATENATED MODULE: ./components/Common/quotefaq.vue
-
-
-
-
-
-/* normalize component */
-
-var component = Object(componentNormalizer["a" /* default */])(
-  Common_quotefaqvue_type_script_lang_js_,
-  render,
-  staticRenderFns,
-  false,
-  null,
-  null,
-  "604e3702"
-  
-)
-
-/* harmony default export */ var quotefaq = __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ 350:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/quoting-software.vue?vue&type=template&id=53d1f4c4&
+// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/quoting-software.vue?vue&type=template&id=3e7f819a&
 var render = function render() {
   var _vm = this,
     _c = _vm._self._c;
   return _c('div', [_c('Navbar', {
     staticClass: "navbar-style-two"
-  }), _vm._ssrNode(" "), _c('Banner'), _vm._ssrNode(" "), _c('AccelerateYourSales'), _vm._ssrNode(" "), _c('Experiencethefuture'), _vm._ssrNode(" "), _c('YourBusiness'), _vm._ssrNode(" "), _c('FreeTrial'), _vm._ssrNode(" "), _c('quotingfaq'), _vm._ssrNode(" "), _c('DealDoxFooter')], 2);
+  }), _vm._ssrNode(" "), _c('Banner'), _vm._ssrNode(" "), _c('AccelerateYourSales'), _vm._ssrNode(" "), _c('Experiencethefuture'), _vm._ssrNode(" "), _c('YourBusiness'), _vm._ssrNode(" "), _c('FreeTrial'), _vm._ssrNode(" "), _c('DealDoxFooter')], 2);
 };
 var staticRenderFns = [];
 
-// CONCATENATED MODULE: ./pages/quoting-software.vue?vue&type=template&id=53d1f4c4&
+// CONCATENATED MODULE: ./pages/quoting-software.vue?vue&type=template&id=3e7f819a&
 
 // EXTERNAL MODULE: ./layouts/Navbar.vue + 4 modules
 var Navbar = __webpack_require__(12);
 
 // EXTERNAL MODULE: ./components/AutomatedQuotesGeneration/Banner.vue + 4 modules
-var Banner = __webpack_require__(280);
+var Banner = __webpack_require__(278);
 
 // EXTERNAL MODULE: ./components/AutomatedQuotesGeneration/AccelerateYourSales.vue + 4 modules
-var AccelerateYourSales = __webpack_require__(281);
+var AccelerateYourSales = __webpack_require__(279);
 
 // EXTERNAL MODULE: ./components/AutomatedQuotesGeneration/Experiencethefuture.vue + 4 modules
-var Experiencethefuture = __webpack_require__(282);
+var Experiencethefuture = __webpack_require__(280);
 
 // EXTERNAL MODULE: ./components/AutomatedQuotesGeneration/YourBusiness.vue + 4 modules
-var YourBusiness = __webpack_require__(283);
+var YourBusiness = __webpack_require__(281);
 
 // EXTERNAL MODULE: ./components/AutomatedQuotesGeneration/FreeTrial.vue + 4 modules
-var FreeTrial = __webpack_require__(284);
-
-// EXTERNAL MODULE: ./components/Common/quotefaq.vue + 4 modules
-var quotefaq = __webpack_require__(285);
+var FreeTrial = __webpack_require__(282);
 
 // EXTERNAL MODULE: ./layouts/DealDoxFooter.vue + 4 modules
 var DealDoxFooter = __webpack_require__(11);
@@ -669,7 +343,6 @@ var external_axios_default = /*#__PURE__*/__webpack_require__.n(external_axios_)
 
 
 
-
 /* harmony default export */ var quoting_softwarevue_type_script_lang_js_ = ({
   name: 'AutomatedQuotesGeneration',
   components: {
@@ -679,7 +352,6 @@ var external_axios_default = /*#__PURE__*/__webpack_require__.n(external_axios_)
     Experiencethefuture: Experiencethefuture["default"],
     YourBusiness: YourBusiness["default"],
     FreeTrial: FreeTrial["default"],
-    quotingfaq: quotefaq["default"],
     DealDoxFooter: DealDoxFooter["a" /* default */]
   },
   data() {
@@ -726,7 +398,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "72163166"
+  "2e2345c6"
   
 )
 

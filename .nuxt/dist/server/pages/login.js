@@ -1,4 +1,4 @@
-exports.ids = [139,87,102];
+exports.ids = [135,83,98];
 exports.modules = {
 
 /***/ 155:
@@ -8,13 +8,13 @@ exports.modules = {
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/SignUp/SignUpHeader.vue?vue&type=template&id=070aaa6d&
+// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/SignUp/SignUpHeader.vue?vue&type=template&id=0b4c06fe&
 var render = function render() {
   var _vm = this,
     _c = _vm._self._c;
   return _c('div', {
     staticClass: "contact-page-header-form-app-download-area pb-80 bg-F7F7FF"
-  }, [_vm._ssrNode("<div class=\"container\">", "</div>", [_vm._ssrNode("<div class=\"contact-page-header-form-app-download-inner\">", "</div>", [_vm._ssrNode("<div class=\"row align-items-center\">", "</div>", [_vm._ssrNode("<div class=\"col-lg-6 col-md-12\"><div class=\"software-integrations-inner bg-gradient-color\"><div class=\"features-content-improve-sales\"><h2>Sign Up Now and Start Using DealDox CPQ! </h2> <h6>Tired of tedious Quoting? Boost Your Sales with DealDox CPQ. Sign up now and unleash its\n                                power!</h6> <h5><strong>With DD CPQ platform, you'll experience: </strong></h5> <div class=\"features-content\"><ul class=\"features-list\"><li><div class=\"icon\"><i class=\"ri-check-line\"></i></div> <h6 class=\"with-top-border-subscription\">Streamlined Quotation Process\n                                        </h6></li> <li><div class=\"icon\"><i class=\"ri-check-line\"></i></div> <h6 class=\"with-top-border-subscription\">\n                                            Faster Deal Closures </h6></li> <li><div class=\"icon\"><i class=\"ri-check-line\"></i></div> <h6 class=\"with-top-border-subscription\">\n                                            Dynamic Pricing and Product Bundling</h6></li> <li><div class=\"icon\"><i class=\"ri-check-line\"></i></div> <h6 class=\"with-top-border-subscription\">Real-time Pricing and Availability\n                                        </h6></li> <li><div class=\"icon\"><i class=\"ri-check-line\"></i></div> <h6 class=\"with-top-border-subscription\">\n                                            Enhanced Customer Experience\n                                        </h6></li> <li><div class=\"icon\"><i class=\"ri-check-line\"></i></div> <h6 class=\"with-top-border-subscription\">\n                                            Actionable Analytics\n                                        </h6></li> <li><div class=\"icon\"><i class=\"ri-check-line\"></i></div> <h6 class=\"with-top-border-subscription\">\n                                            Multi-lingual Deal Document Capabilities\n                                        </h6></li> <h5>Sign up Now and Boost Your Sales Process with DealDox CPQ!</h5></ul></div></div></div></div> "), _vm._ssrNode("<div class=\"col-lg-6 col-md-12 ptb-100\">", "</div>", [_vm._ssrNode("<div class=\"contact-area\">", "</div>", [_vm._ssrNode("<div class=\"container\">", "</div>", [_vm._ssrNode("<div class=\"contact-form\">", "</div>", [_vm._ssrNode("<form action=\"https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8\" method=\"POST\">", "</form>", [_vm._ssrNode("<input name=\"oid\" type=\"hidden\" value=\"00D2v000003PByK\"> <input name=\"retURL\" type=\"hidden\" value=\"https://dealdox.io/thank-you\"> "), _vm._ssrNode("<div class=\"row\">", "</div>", [_vm._ssrNode("<div class=\"col-lg-6 col-md-6 col-sm-6\"><div class=\"form-group\"><p>Full Name</p> <input type=\"text\" maxlength=\"40\" name=\"last_name\" id=\"last_name\" placeholder=\"Eg: David\" required=\"required\" class=\"form-control\"></div></div> <div class=\"col-lg-6 col-md-6 col-sm-6\"><div class=\"form-group\"><p> Business Email</p> <input type=\"email\" maxlength=\"40\" name=\"email\" required=\"required\" id=\"email\" placeholder=\"Eg: abc@gmail.com\" class=\"form-control\"></div></div> <div class=\"col-lg-6 col-md-6 col-sm-6\"><p>Phone Number</p> <input type=\"text\"" + _vm._ssrAttr("maxlength", _vm.maxPhoneNumberLength) + " name=\"phone\" id=\"phone\" maxlength=\"15\" placeholder=\"Eg: 123456789012345\"" + _vm._ssrAttr("title", _vm.phoneValidationMessage) + _vm._ssrAttr("value", _vm.phoneNumber) + " class=\"form-control\"></div> <div class=\"col-lg-6 col-md-6 col-sm-6\"><div class=\"form-group\"><p>Company</p> <input type=\"text\" maxlength=\"40\" name=\"company\" id=\"company\" placeholder=\"Eg: ABC\" class=\"form-control\"></div></div> <div class=\"col-lg-6 col-md-6 col-sm-6\"><div class=\"form-group\"><p>Country</p> <input type=\"country\" maxlength=\"40\" name=\"country\" id=\"country\" placeholder=\"Eg: India\" class=\"form-control\"></div></div> "), _vm._ssrNode("<div class=\"col-lg-12 col-md-12 col-sm-12\">", "</div>", [_vm._ssrNode("<div class=\"form-group\">", "</div>", [_vm._ssrNode("<input required=\"required\" type=\"checkbox\" value id=\"flexCheckDefault\" class=\"form-check-input\"> "), _vm._ssrNode("<label for=\"flexCheckDefault\" class=\"form-check-label\">", "</label>", [_vm._ssrNode("\n                                                    I agree to the "), _c('NuxtLink', {
+  }, [_vm._ssrNode("<div class=\"container\">", "</div>", [_vm._ssrNode("<div class=\"contact-page-header-form-app-download-inner\">", "</div>", [_vm._ssrNode("<div class=\"row align-items-center\">", "</div>", [_vm._ssrNode("<div class=\"col-lg-6 col-md-12\"><div class=\"software-integrations-inner bg-gradient-color\"><div class=\"features-content-improve-sales\"><h2>Sign Up Now and Start Using DealDox CPQ! </h2> <h6>Tired of tedious Quoting? Boost Your Sales with DealDox CPQ. Sign up now and unleash its\n                                power!</h6> <h5><strong>With DD CPQ platform, you'll experience: </strong></h5> <div class=\"features-content\"><ul class=\"features-list\"><li><div class=\"icon\"><i class=\"ri-check-line\"></i></div> <h6 class=\"with-top-border-subscription\">Streamlined Quotation Process\n                                        </h6></li> <li><div class=\"icon\"><i class=\"ri-check-line\"></i></div> <h6 class=\"with-top-border-subscription\">\n                                            Faster Deal Closures </h6></li> <li><div class=\"icon\"><i class=\"ri-check-line\"></i></div> <h6 class=\"with-top-border-subscription\">\n                                            Dynamic Pricing and Product Bundling</h6></li> <li><div class=\"icon\"><i class=\"ri-check-line\"></i></div> <h6 class=\"with-top-border-subscription\">Real-time Pricing and Availability\n                                        </h6></li> <li><div class=\"icon\"><i class=\"ri-check-line\"></i></div> <h6 class=\"with-top-border-subscription\">\n                                            Enhanced Customer Experience\n                                        </h6></li> <li><div class=\"icon\"><i class=\"ri-check-line\"></i></div> <h6 class=\"with-top-border-subscription\">\n                                            Actionable Analytics\n                                        </h6></li> <li><div class=\"icon\"><i class=\"ri-check-line\"></i></div> <h6 class=\"with-top-border-subscription\">\n                                            Multi-lingual Deal Document Capabilities\n                                        </h6></li> <h5>Sign up Now and Boost Your Sales Process with DealDox CPQ!</h5></ul></div></div></div></div> "), _vm._ssrNode("<div class=\"col-lg-6 col-md-12 ptb-100\">", "</div>", [_vm._ssrNode("<div class=\"contact-area\">", "</div>", [_vm._ssrNode("<div class=\"container\">", "</div>", [_vm._ssrNode("<div class=\"contact-form\">", "</div>", [_vm._ssrNode("<form action=\"https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8\" method=\"POST\">", "</form>", [_vm._ssrNode("<input name=\"oid\" type=\"hidden\" value=\"00D2v000003PByK\"> <input name=\"retURL\" type=\"hidden\" value=\"https://dealdox.io/thank-you\"> "), _vm._ssrNode("<div class=\"row\">", "</div>", [_vm._ssrNode("<div class=\"col-lg-6 col-md-6 col-sm-6\"><div class=\"form-group\"><p>Full Name</p> <input type=\"text\" maxlength=\"40\" id=\"first_name\" placeholder=\"Eg: David\" required=\"required\"" + _vm._ssrAttr("value", _vm.fullName) + " class=\"form-control\"></div></div> <div class=\"col-lg-6 col-md-6 col-sm-6\"><div class=\"form-group\"><p> Business Email</p> <input type=\"email\" maxlength=\"40\" name=\"email\" required=\"required\" id=\"email\" placeholder=\"Eg: abc@gmail.com\" class=\"form-control\"></div></div> <div class=\"col-lg-6 col-md-6 col-sm-6\"><p>Phone Number</p> <input type=\"text\"" + _vm._ssrAttr("maxlength", _vm.maxPhoneNumberLength) + " name=\"phone\" id=\"phone\" maxlength=\"15\" placeholder=\"Eg: 123456789012345\"" + _vm._ssrAttr("title", _vm.phoneValidationMessage) + _vm._ssrAttr("value", _vm.phoneNumber) + " class=\"form-control\"></div> <div class=\"col-lg-6 col-md-6 col-sm-6\"><div class=\"form-group\"><p>Company</p> <input type=\"text\" maxlength=\"40\" name=\"company\" id=\"company\" placeholder=\"Eg: ABC\" class=\"form-control\"></div></div> <div class=\"col-lg-6 col-md-6 col-sm-6\"><div class=\"form-group\"><p>Country</p> <input type=\"country\" maxlength=\"40\" name=\"country\" id=\"country\" placeholder=\"Eg: India\" class=\"form-control\"></div></div> "), _vm._ssrNode("<div class=\"col-lg-12 col-md-12 col-sm-12\">", "</div>", [_vm._ssrNode("<div class=\"form-group\">", "</div>", [_vm._ssrNode("<input required=\"required\" type=\"checkbox\" value id=\"flexCheckDefault\" class=\"form-check-input\"> "), _vm._ssrNode("<label for=\"flexCheckDefault\" class=\"form-check-label\">", "</label>", [_vm._ssrNode("\n                                                    I agree to the "), _c('NuxtLink', {
     attrs: {
       "to": "/terms-of-use"
     }
@@ -26,7 +26,7 @@ var render = function render() {
 };
 var staticRenderFns = [];
 
-// CONCATENATED MODULE: ./components/SignUp/SignUpHeader.vue?vue&type=template&id=070aaa6d&
+// CONCATENATED MODULE: ./components/SignUp/SignUpHeader.vue?vue&type=template&id=0b4c06fe&
 
 // EXTERNAL MODULE: external "vue"
 var external_vue_ = __webpack_require__(1);
@@ -129,7 +129,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "de487886"
+  "1f249936"
   
 )
 
@@ -140,18 +140,18 @@ var component = Object(componentNormalizer["a" /* default */])(
 /***/ 192:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/logohome.ea827d1.svg";
+module.exports = __webpack_require__.p + "img/logohome.fd05a61.svg";
 
 /***/ }),
 
 /***/ 193:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/logingroup.3e31918.png";
+module.exports = __webpack_require__.p + "img/logingroup.2f5f614.png";
 
 /***/ }),
 
-/***/ 272:
+/***/ 270:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -287,7 +287,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "8ec94236"
+  "f3452a68"
   
 )
 
@@ -295,7 +295,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 346:
+/***/ 342:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -318,7 +318,7 @@ var staticRenderFns = [];
 var Navbar = __webpack_require__(12);
 
 // EXTERNAL MODULE: ./components/loginpage/SignUpHeader.vue + 4 modules
-var SignUpHeader = __webpack_require__(272);
+var SignUpHeader = __webpack_require__(270);
 
 // EXTERNAL MODULE: ./layouts/DealDoxFooter.vue + 4 modules
 var DealDoxFooter = __webpack_require__(11);
@@ -382,7 +382,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "4980cc47"
+  "337cbf6e"
   
 )
 

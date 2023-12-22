@@ -1,222 +1,56 @@
-exports.ids = [138,32,33,42,80,81,82,83,84,85];
+exports.ids = [134,76,77,78,79,80,81];
 exports.modules = {
 
 /***/ 124:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Common/Accordion.vue?vue&type=template&id=2de24dc2&
-var render = function render() {
-  var _vm = this,
-    _c = _vm._self._c;
-  return _c('ul', {
-    staticClass: "accordion"
-  }, [_vm._t("default")], 2);
-};
-var staticRenderFns = [];
-
-// CONCATENATED MODULE: ./components/Common/Accordion.vue?vue&type=template&id=2de24dc2&
-
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Common/Accordion.vue?vue&type=script&lang=js&
-/* harmony default export */ var Accordionvue_type_script_lang_js_ = ({
-  name: 'Accordion',
-  props: {},
-  data() {
-    return {
-      Accordion: {
-        count: 0,
-        active: null
-      }
-    };
-  },
-  provide() {
-    return {
-      Accordion: this.Accordion
-    };
-  }
-});
-// CONCATENATED MODULE: ./components/Common/Accordion.vue?vue&type=script&lang=js&
- /* harmony default export */ var Common_Accordionvue_type_script_lang_js_ = (Accordionvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(3);
-
-// CONCATENATED MODULE: ./components/Common/Accordion.vue
-
-
-
-
-
-/* normalize component */
-
-var component = Object(componentNormalizer["a" /* default */])(
-  Common_Accordionvue_type_script_lang_js_,
-  render,
-  staticRenderFns,
-  false,
-  null,
-  null,
-  "f21c4cda"
-  
-)
-
-/* harmony default export */ var Accordion = __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ 125:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Common/AccordionItem.vue?vue&type=template&id=fc85f8fe&
-var render = function render() {
-  var _vm = this,
-    _c = _vm._self._c;
-  return _c('li', {
-    staticClass: "accordion__item"
-  }, [_vm._ssrNode("<div" + _vm._ssrClass("accordion__trigger", {
-    'accordion__trigger_active': _vm.visible
-  }) + ">", "</div>", [_vm._t("accordion-trigger")], 2), _vm._ssrNode(" "), _c('transition', {
-    attrs: {
-      "name": "accordion"
-    },
-    on: {
-      "enter": _vm.start,
-      "after-enter": _vm.end,
-      "before-leave": _vm.start,
-      "after-leave": _vm.end
-    }
-  }, [_c('div', {
-    directives: [{
-      name: "show",
-      rawName: "v-show",
-      value: _vm.visible,
-      expression: "visible"
-    }],
-    staticClass: "accordion__content"
-  }, [_c('ul', [_vm._t("accordion-content")], 2)])])], 2);
-};
-var staticRenderFns = [];
-
-// CONCATENATED MODULE: ./components/Common/AccordionItem.vue?vue&type=template&id=fc85f8fe&
-
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Common/AccordionItem.vue?vue&type=script&lang=js&
-/* harmony default export */ var AccordionItemvue_type_script_lang_js_ = ({
-  name: 'AccordionItem',
-  props: {},
-  inject: ["Accordion"],
-  data() {
-    return {
-      index: null
-    };
-  },
-  computed: {
-    visible() {
-      return this.index == this.Accordion.active;
-    }
-  },
-  methods: {
-    open() {
-      if (this.visible) {
-        this.Accordion.active = null;
-      } else {
-        this.Accordion.active = this.index;
-      }
-    },
-    start(el) {
-      el.style.height = el.scrollHeight + "px";
-    },
-    end(el) {
-      el.style.height = "";
-    }
-  },
-  created() {
-    this.index = this.Accordion.count++;
-  }
-});
-// CONCATENATED MODULE: ./components/Common/AccordionItem.vue?vue&type=script&lang=js&
- /* harmony default export */ var Common_AccordionItemvue_type_script_lang_js_ = (AccordionItemvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(3);
-
-// CONCATENATED MODULE: ./components/Common/AccordionItem.vue
-
-
-
-
-
-/* normalize component */
-
-var component = Object(componentNormalizer["a" /* default */])(
-  Common_AccordionItemvue_type_script_lang_js_,
-  render,
-  staticRenderFns,
-  false,
-  null,
-  null,
-  "10a201c6"
-  
-)
-
-/* harmony default export */ var AccordionItem = __webpack_exports__["default"] = (component.exports);
+module.exports = __webpack_require__.p + "img/do-you-know-tag.20dc659.svg";
 
 /***/ }),
 
 /***/ 126:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/do-you-know-tag.700e777.svg";
+module.exports = __webpack_require__.p + "img/Filemanagementbyemployee.c0fea9d.png";
 
 /***/ }),
 
-/***/ 128:
+/***/ 130:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Filemanagementbyemployee.61dc3d8.png";
-
-/***/ }),
-
-/***/ 132:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "img/DocumentAnalytics.23450ea.png";
+module.exports = __webpack_require__.p + "img/DocumentAnalytics.08a6ad6.png";
 
 /***/ }),
 
 /***/ 189:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/LocalizedDealDocuments.3c66342.png";
+module.exports = __webpack_require__.p + "img/LocalizedDealDocuments.8b8ea13.png";
 
 /***/ }),
 
 /***/ 190:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Financialdocumentsandforms.9484b8d.png";
+module.exports = __webpack_require__.p + "img/Financialdocumentsandforms.14fd04c.png";
 
 /***/ }),
 
 /***/ 191:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Womanearningthroughpassiveincome.5d9aa26.png";
+module.exports = __webpack_require__.p + "img/Womanearningthroughpassiveincome.fc79f2d.png";
 
 /***/ }),
 
-/***/ 265:
+/***/ 264:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/LocalizedDealDocuments/MainBannerLoacalized.vue?vue&type=template&id=0f80d6ef&
+// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/LocalizedDealDocuments/MainBannerLoacalized.vue?vue&type=template&id=15082656&
 var render = function render() {
   var _vm = this,
     _c = _vm._self._c;
@@ -225,16 +59,16 @@ var render = function render() {
   }, [_vm._ssrNode("<div class=\"container\">", "</div>", [_vm._ssrNode("<div class=\"row align-items-center\">", "</div>", [_vm._ssrNode("<div class=\"col-lg-6 col-md-12\">", "</div>", [_vm._ssrNode("<div class=\"new-app-main-banner-wrap-content\">", "</div>", [_vm._ssrNode("<h1>Introducing Localized Deal Documents: Unlocking <span style=\"color: #715CF3\">Multilingual\n                            Communication</span><span class=\"sub-title\"></span> for Global Business</h1> "), _vm._ssrNode("<div class=\"tb-30\">", "</div>", [_c('NuxtLink', {
     staticClass: "default-btn",
     attrs: {
-      "to": "/sign-up-free-trial",
+      "to": "/demo",
       "required": ""
     }
   }, [_c('i', {
     staticClass: "bx bx-paper-plane"
-  }), _vm._v("\n                            Start My Free Trail")])], 1)], 2)]), _vm._ssrNode(" <div class=\"col-lg-6 col-md-12\"><div data-aos=\"fade-left\" data-aos-duration=\"2000\" class=\"new-app-main-banner-wrap-image\"><img" + _vm._ssrAttr("src", __webpack_require__(189)) + " alt=\"image\"></div></div>")], 2)])]);
+  }), _vm._v("\n                            Request a Demo")])], 1)], 2)]), _vm._ssrNode(" <div class=\"col-lg-6 col-md-12\"><div data-aos=\"fade-left\" data-aos-duration=\"2000\" class=\"new-app-main-banner-wrap-image\"><img" + _vm._ssrAttr("src", __webpack_require__(189)) + " alt=\"image\"></div></div>")], 2)])]);
 };
 var staticRenderFns = [];
 
-// CONCATENATED MODULE: ./components/LocalizedDealDocuments/MainBannerLoacalized.vue?vue&type=template&id=0f80d6ef&
+// CONCATENATED MODULE: ./components/LocalizedDealDocuments/MainBannerLoacalized.vue?vue&type=template&id=15082656&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/LocalizedDealDocuments/MainBannerLoacalized.vue?vue&type=script&lang=js&
 /* harmony default export */ var MainBannerLoacalizedvue_type_script_lang_js_ = ({
@@ -260,7 +94,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "480de278"
+  "85b16d86"
   
 )
 
@@ -268,7 +102,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 266:
+/***/ 265:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -281,7 +115,7 @@ var render = function render() {
     _c = _vm._self._c;
   return _c('div', {
     staticClass: "about-area bg-white ptb-100"
-  }, [_vm._ssrNode("<div class=\"container\"><div class=\"row align-items-center\"><div class=\"col-lg-6 col-md-12\"><div class=\"features-item with-border\"><div class=\"about-img\"><img" + _vm._ssrAttr("src", __webpack_require__(128)) + " data-aos=\"fade-up\" alt=\"about\"></div></div></div> <div class=\"col-lg-6 col-md-12\"><div class=\"about-content\"><h3>Breaking Barriers, Connecting Deals:</h3> <p>Businesses are crossing international boundaries and interacting with partners, clients, and\n                            consumers who come from a variety of language origins. It is essential to get through language\n                            barriers and guarantee clarity in all business contacts in order to promote successful\n                            communication and cooperation. This is where Localized Deal Documents' pioneering functionality\n                            shines.\n                        </p> <h5>Going Global: The Benefits of Multilingual Automated Quotation CPQ Software for Your Business\n                        </h5> <p>Regional CPQ <a href=\"https://www.dealdox.io/quoting-software\">automated quote generation</a>\n                            is an advanced solution designed to support multilingual communication in a global business\n                            environment. This feature enables businesses to create and share deal documents, such as\n                            quotations, contracts, proposals, agreements, SOW and more, in a variety of languages. By\n                            offering support for a wide range of languages, including English, Chinese (Mandarin and\n                            Cantonese), Spanish, Arabic, Hindi, Bengali, Portuguese, Russian, Japanese, German, French,\n                            Italian, Korean, Turkish, Polish, Dutch, Indonesian, Vietnamese, Thai, and Swedish, businesses\n                            can now engage with stakeholders worldwide with ease.</p></div></div></div> <div class=\"row align-items-center\"><div class=\"col-lg-6 col-md-12\"><div class=\"about-content-right\"><h3>Regional CPQ automated quote <br> generation </h3> <p>is an advanced solution designed to support multilingual communication in a global business\n                            environment. This feature enables businesses to create and share deal documents, such as\n                            quotations, contracts, proposals, agreements, SOW and more, in a variety of languages. By\n                            offering support for a wide range of languages, including English, Chinese (Mandarin and\n                            Cantonese), Spanish, Arabic, Hindi, Bengali, Portuguese, Russian, Japanese, German, French,\n                            Italian, Korean, Turkish, Polish, Dutch, Indonesian, Vietnamese, Thai, and Swedish, businesses\n                            can now engage with stakeholders worldwide with ease.\n                        </p></div></div> <div class=\"col-lg-6 col-md-12\"><div class=\"features-item with-border\"><div class=\"about-img\"><img" + _vm._ssrAttr("src", __webpack_require__(132)) + " data-aos=\"fade-up\" alt=\"about\"></div></div></div></div></div>")]);
+  }, [_vm._ssrNode("<div class=\"container\"><div class=\"row align-items-center\"><div class=\"col-lg-6 col-md-12\"><div class=\"features-item with-border\"><div class=\"about-img\"><img" + _vm._ssrAttr("src", __webpack_require__(126)) + " data-aos=\"fade-up\" alt=\"about\"></div></div></div> <div class=\"col-lg-6 col-md-12\"><div class=\"about-content\"><h3>Breaking Barriers, Connecting Deals:</h3> <p>Businesses are crossing international boundaries and interacting with partners, clients, and\n                            consumers who come from a variety of language origins. It is essential to get through language\n                            barriers and guarantee clarity in all business contacts in order to promote successful\n                            communication and cooperation. This is where Localized Deal Documents' pioneering functionality\n                            shines.\n                        </p> <h5>Going Global: The Benefits of Multilingual Automated Quotation CPQ Software for Your Business\n                        </h5> <p>Regional CPQ <a href=\"https://www.dealdox.io/quoting-software\">automated quote generation</a>\n                            is an advanced solution designed to support multilingual communication in a global business\n                            environment. This feature enables businesses to create and share deal documents, such as\n                            quotations, contracts, proposals, agreements, SOW and more, in a variety of languages. By\n                            offering support for a wide range of languages, including English, Chinese (Mandarin and\n                            Cantonese), Spanish, Arabic, Hindi, Bengali, Portuguese, Russian, Japanese, German, French,\n                            Italian, Korean, Turkish, Polish, Dutch, Indonesian, Vietnamese, Thai, and Swedish, businesses\n                            can now engage with stakeholders worldwide with ease.</p></div></div></div> <div class=\"row align-items-center\"><div class=\"col-lg-6 col-md-12\"><div class=\"about-content-right\"><h3>Regional CPQ automated quote <br> generation </h3> <p>is an advanced solution designed to support multilingual communication in a global business\n                            environment. This feature enables businesses to create and share deal documents, such as\n                            quotations, contracts, proposals, agreements, SOW and more, in a variety of languages. By\n                            offering support for a wide range of languages, including English, Chinese (Mandarin and\n                            Cantonese), Spanish, Arabic, Hindi, Bengali, Portuguese, Russian, Japanese, German, French,\n                            Italian, Korean, Turkish, Polish, Dutch, Indonesian, Vietnamese, Thai, and Swedish, businesses\n                            can now engage with stakeholders worldwide with ease.\n                        </p></div></div> <div class=\"col-lg-6 col-md-12\"><div class=\"features-item with-border\"><div class=\"about-img\"><img" + _vm._ssrAttr("src", __webpack_require__(130)) + " data-aos=\"fade-up\" alt=\"about\"></div></div></div></div></div>")]);
 };
 var staticRenderFns = [];
 
@@ -311,7 +145,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "546adbd6"
+  "27433acf"
   
 )
 
@@ -319,7 +153,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 267:
+/***/ 266:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -362,7 +196,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "a30b40ba"
+  "796be96c"
   
 )
 
@@ -370,7 +204,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 268:
+/***/ 267:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -413,7 +247,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "ce468b6c"
+  "0d257dc3"
   
 )
 
@@ -421,7 +255,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 269:
+/***/ 268:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -464,7 +298,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "80cde8d4"
+  "33e1cf0f"
   
 )
 
@@ -472,7 +306,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 270:
+/***/ 269:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -485,7 +319,7 @@ var render = function render() {
     _c = _vm._self._c;
   return _c('div', {
     staticClass: "new-free-trial-area bg-FAFAFA ptb-100"
-  }, [_vm._ssrNode("<div class=\"container\">", "</div>", [_vm._ssrNode("<div class=\"row align-items-center\">", "</div>", [_vm._ssrNode("<div class=\"col-lg-12 col-md-12\">", "</div>", [_vm._ssrNode("<div class=\"features-item-free-quotes with-border bg-white\">", "</div>", [_vm._ssrNode("<div class=\"did-you-know\"><img" + _vm._ssrAttr("src", __webpack_require__(126)) + " alt=\"image\"></div> <h3>With the multilingual document creation capability of <a href=\"https://www.dealdox.io\">DealDox</a> CPQ, you can confidently navigate\n                        international markets, expand your customer base, and close deals faster. By speaking your\n                        prospects' language, you demonstrate a deep understanding of their needs, culture, and\n                        preferences, elevating your sales effectiveness to a whole new level. </h3> "), _c('NuxtLink', {
+  }, [_vm._ssrNode("<div class=\"container\">", "</div>", [_vm._ssrNode("<div class=\"row align-items-center\">", "</div>", [_vm._ssrNode("<div class=\"col-lg-12 col-md-12\">", "</div>", [_vm._ssrNode("<div class=\"features-item-free-quotes with-border bg-white\">", "</div>", [_vm._ssrNode("<div class=\"did-you-know\"><img" + _vm._ssrAttr("src", __webpack_require__(124)) + " alt=\"image\"></div> <h3>With the multilingual document creation capability of <a href=\"https://www.dealdox.io\">DealDox</a> CPQ, you can confidently navigate\n                        international markets, expand your customer base, and close deals faster. By speaking your\n                        prospects' language, you demonstrate a deep understanding of their needs, culture, and\n                        preferences, elevating your sales effectiveness to a whole new level. </h3> "), _c('NuxtLink', {
     staticClass: "default-btn",
     attrs: {
       "to": "/sign-up-free-trial"
@@ -520,7 +354,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "c10d924a"
+  "5e7263fc"
   
 )
 
@@ -528,205 +362,45 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 271:
+/***/ 341:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Common/localizedfaq.vue?vue&type=template&id=39c49f7e&
-var render = function render() {
-  var _vm = this,
-    _c = _vm._self._c;
-  return _c('div', {
-    staticClass: "app-download-area pt-65"
-  }, [_vm._ssrNode("<div class=\"container\">", "</div>", [_vm._ssrNode("<div class=\"features-content-improve-sales\">", "</div>", [_vm._ssrNode("<div class=\"section-title\">", "</div>", [_vm._ssrNode("<h1>Frequently asked questions</h1> "), _vm._ssrNode("<p>", "</p>", [_vm._ssrNode("Can’t find your query listed? "), _vm._ssrNode("<span class=\"sub-title-faq\">", "</span>", [_c('NuxtLink', {
-    attrs: {
-      "to": "/contact-us"
-    }
-  }, [_vm._v("\n                            Write us")])], 1), _vm._ssrNode(" your query")], 2)], 2)]), _vm._ssrNode(" "), _vm._ssrNode("<div class=\"row align-items-center\">", "</div>", [_vm._ssrNode("<div class=\"col-lg-2 col-md-12\"></div> "), _vm._ssrNode("<div class=\"col-lg-8 col-md-12\">", "</div>", [_vm._ssrNode("<div class=\"faq-accordion\">", "</div>", [_c('accordion', [_c('accordion-item', {
-    scopedSlots: _vm._u([{
-      key: "accordion-trigger",
-      fn: function () {
-        return [_c('button', {
-          staticClass: "accordion-title"
-        }, [_vm._v("\n                                     What is the significance of DealDox CPQ's multilingual document capabilities?   ")])];
-      },
-      proxy: true
-    }, {
-      key: "accordion-content",
-      fn: function () {
-        return [_c('div', {
-          staticClass: "accordion-body"
-        }, [_c('p', [_vm._v("DealDox CPQ's multilingual capabilities enable users to create deal documents in various languages, facilitating effective communication and negotiation in international markets. \n\n   \n                                        ")])])];
-      },
-      proxy: true
-    }])
-  }), _vm._v(" "), _c('accordion-item', {
-    scopedSlots: _vm._u([{
-      key: "accordion-trigger",
-      fn: function () {
-        return [_c('button', {
-          staticClass: "accordion-title"
-        }, [_vm._v("\n                                     How does multilingual document creation in DealDox quotation software benefit businesses in global markets?  \n                                    ")])];
-      },
-      proxy: true
-    }, {
-      key: "accordion-content",
-      fn: function () {
-        return [_c('div', {
-          staticClass: "accordion-body"
-        }, [_c('p', [_vm._v("It allows businesses to navigate diverse linguistic landscapes, expand their reach, and close deals faster by tailoring documents to the language preferences of international clients.  \n                                        ")])])];
-      },
-      proxy: true
-    }])
-  }), _vm._v(" "), _c('accordion-item', {
-    scopedSlots: _vm._u([{
-      key: "accordion-trigger",
-      fn: function () {
-        return [_c('button', {
-          staticClass: "accordion-title"
-        }, [_vm._v("\n                                     How does using multilingual documents enhance sales effectiveness in DealDox quoting tool?  \n                                    ")])];
-      },
-      proxy: true
-    }, {
-      key: "accordion-content",
-      fn: function () {
-        return [_c('div', {
-          staticClass: "accordion-body"
-        }, [_c('p', [_vm._v("By speaking the language of prospects, businesses demonstrate a deep understanding of their needs and preferences, elevating the overall effectiveness of sales communication and negotiation.  \n                                        ")])])];
-      },
-      proxy: true
-    }])
-  }), _vm._v(" "), _c('accordion-item', {
-    scopedSlots: _vm._u([{
-      key: "accordion-trigger",
-      fn: function () {
-        return [_c('button', {
-          staticClass: "accordion-title"
-        }, [_vm._v("\n                  Is there a limit to the number of languages supported by DealDox CPQ for document creation?              \n                                     ")])];
-      },
-      proxy: true
-    }, {
-      key: "accordion-content",
-      fn: function () {
-        return [_c('div', {
-          staticClass: "accordion-body"
-        }, [_c('p', [_vm._v("DealDox CPQ is designed to support a wide range of languages, and the platform can be configured to include additional languages based on specific business requirements.  \n                                        ")])])];
-      },
-      proxy: true
-    }])
-  }), _vm._v(" "), _c('accordion-item', {
-    scopedSlots: _vm._u([{
-      key: "accordion-trigger",
-      fn: function () {
-        return [_c('button', {
-          staticClass: "accordion-title"
-        }, [_vm._v("\n                                       Can users customize the language preferences in DealDox CPQ for different clients?  \n                                    ")])];
-      },
-      proxy: true
-    }, {
-      key: "accordion-content",
-      fn: function () {
-        return [_c('div', {
-          staticClass: "accordion-body"
-        }, [_c('p', [_vm._v(" Yes, users have the flexibility to customize language preferences based on individual client requirements, allowing for a personalized and tailored approach in deal document creation. \n                                        ")])])];
-      },
-      proxy: true
-    }])
-  })], 1)], 1)]), _vm._ssrNode(" <div class=\"col-lg-2 col-md-12\"></div>")], 2)], 2)]);
-};
-var staticRenderFns = [];
-
-// CONCATENATED MODULE: ./components/Common/localizedfaq.vue?vue&type=template&id=39c49f7e&
-
-// EXTERNAL MODULE: ./components/Common/Accordion.vue + 4 modules
-var Accordion = __webpack_require__(124);
-
-// EXTERNAL MODULE: ./components/Common/AccordionItem.vue + 4 modules
-var AccordionItem = __webpack_require__(125);
-
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Common/localizedfaq.vue?vue&type=script&lang=js&
-
-
-/* harmony default export */ var localizedfaqvue_type_script_lang_js_ = ({
-  name: 'Faq',
-  components: {
-    Accordion: Accordion["default"],
-    AccordionItem: AccordionItem["default"]
-  }
-});
-// CONCATENATED MODULE: ./components/Common/localizedfaq.vue?vue&type=script&lang=js&
- /* harmony default export */ var Common_localizedfaqvue_type_script_lang_js_ = (localizedfaqvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(3);
-
-// CONCATENATED MODULE: ./components/Common/localizedfaq.vue
-
-
-
-
-
-/* normalize component */
-
-var component = Object(componentNormalizer["a" /* default */])(
-  Common_localizedfaqvue_type_script_lang_js_,
-  render,
-  staticRenderFns,
-  false,
-  null,
-  null,
-  "40e2e420"
-  
-)
-
-/* harmony default export */ var localizedfaq = __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ 345:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/localized-deal-documents.vue?vue&type=template&id=247b76fe&
+// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/localized-deal-documents.vue?vue&type=template&id=8a6ba976&
 var render = function render() {
   var _vm = this,
     _c = _vm._self._c;
   return _c('div', [_c('Navbar', {
     staticClass: "navbar-style-two"
-  }), _vm._ssrNode(" "), _c('MainBannerLoacalized'), _vm._ssrNode(" "), _c('HowLocalizedDeal'), _vm._ssrNode(" "), _c('KeyBenefitsof'), _vm._ssrNode(" "), _c('HowLocalized'), _vm._ssrNode(" "), _c('EmpoerGlobal'), _vm._ssrNode(" "), _c('FreeTrial'), _vm._ssrNode(" "), _c('localizfaq'), _vm._ssrNode(" "), _c('DealDoxFooter')], 2);
+  }), _vm._ssrNode(" "), _c('MainBannerLoacalized'), _vm._ssrNode(" "), _c('HowLocalizedDeal'), _vm._ssrNode(" "), _c('KeyBenefitsof'), _vm._ssrNode(" "), _c('HowLocalized'), _vm._ssrNode(" "), _c('EmpoerGlobal'), _vm._ssrNode(" "), _c('FreeTrial'), _vm._ssrNode(" "), _c('DealDoxFooter')], 2);
 };
 var staticRenderFns = [];
 
-// CONCATENATED MODULE: ./pages/localized-deal-documents.vue?vue&type=template&id=247b76fe&
+// CONCATENATED MODULE: ./pages/localized-deal-documents.vue?vue&type=template&id=8a6ba976&
 
 // EXTERNAL MODULE: ./layouts/Navbar.vue + 4 modules
 var Navbar = __webpack_require__(12);
 
 // EXTERNAL MODULE: ./components/LocalizedDealDocuments/MainBannerLoacalized.vue + 4 modules
-var MainBannerLoacalized = __webpack_require__(265);
+var MainBannerLoacalized = __webpack_require__(264);
 
 // EXTERNAL MODULE: ./components/LocalizedDealDocuments/HowLocalizedDeal.vue + 4 modules
-var HowLocalizedDeal = __webpack_require__(266);
+var HowLocalizedDeal = __webpack_require__(265);
 
 // EXTERNAL MODULE: ./components/LocalizedDealDocuments/KeyBenefitsof.vue + 4 modules
-var KeyBenefitsof = __webpack_require__(267);
+var KeyBenefitsof = __webpack_require__(266);
 
 // EXTERNAL MODULE: ./components/LocalizedDealDocuments/HowLocalized.vue + 4 modules
-var HowLocalized = __webpack_require__(268);
+var HowLocalized = __webpack_require__(267);
 
 // EXTERNAL MODULE: ./components/LocalizedDealDocuments/EmpoerGlobal.vue + 4 modules
-var EmpoerGlobal = __webpack_require__(269);
+var EmpoerGlobal = __webpack_require__(268);
 
 // EXTERNAL MODULE: ./components/LocalizedDealDocuments/FreeTrial.vue + 4 modules
-var FreeTrial = __webpack_require__(270);
-
-// EXTERNAL MODULE: ./components/Common/localizedfaq.vue + 4 modules
-var localizedfaq = __webpack_require__(271);
+var FreeTrial = __webpack_require__(269);
 
 // EXTERNAL MODULE: ./layouts/DealDoxFooter.vue + 4 modules
 var DealDoxFooter = __webpack_require__(11);
@@ -736,7 +410,6 @@ var external_axios_ = __webpack_require__(6);
 var external_axios_default = /*#__PURE__*/__webpack_require__.n(external_axios_);
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/localized-deal-documents.vue?vue&type=script&lang=js&
-
 
 
 
@@ -756,7 +429,6 @@ var external_axios_default = /*#__PURE__*/__webpack_require__.n(external_axios_)
     HowLocalized: HowLocalized["default"],
     EmpoerGlobal: EmpoerGlobal["default"],
     FreeTrial: FreeTrial["default"],
-    localizfaq: localizedfaq["default"],
     DealDoxFooter: DealDoxFooter["a" /* default */]
   },
   data() {
@@ -808,7 +480,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "13e1bcbb"
+  "bbaadb98"
   
 )
 

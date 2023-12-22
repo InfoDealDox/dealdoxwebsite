@@ -1,21 +1,21 @@
-exports.ids = [98];
+exports.ids = [94];
 exports.modules = {
 
 /***/ 123:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/shape-5.5c9d317.png";
+module.exports = __webpack_require__.p + "img/shape-5.7c2c12c.png";
 
 /***/ }),
 
 /***/ 210:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/DataPrivacy.279b162.png";
+module.exports = __webpack_require__.p + "img/DataPrivacy.763a32a.png";
 
 /***/ }),
 
-/***/ 289:
+/***/ 286:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -58,7 +58,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "cd991d02"
+  "66f57d66"
   
 )
 

@@ -1,84 +1,84 @@
-exports.ids = [136,60,61,62];
+exports.ids = [132,56,57,58];
 exports.modules = {
+
+/***/ 137:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/Swift Quote.38e722f.png";
+
+/***/ }),
+
+/***/ 138:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/Quick Approvals.da945d5.png";
+
+/***/ }),
 
 /***/ 139:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Swift Quote.594db53.png";
+module.exports = __webpack_require__.p + "img/Configure Price Quote.dbe6706.png";
 
 /***/ }),
 
 /***/ 140:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Quick Approvals.9a3686f.png";
-
-/***/ }),
-
-/***/ 141:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "img/Configure Price Quote.cc04311.png";
-
-/***/ }),
-
-/***/ 142:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "img/Subscription.032aa12.png";
+module.exports = __webpack_require__.p + "img/Subscription.40a9e1b.png";
 
 /***/ }),
 
 /***/ 183:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/DealDox Hubspot.8f5613d.png";
+module.exports = __webpack_require__.p + "img/DealDox Hubspot.747026c.png";
 
 /***/ }),
 
 /***/ 184:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Simplify Deal Closing with Guided Selling and DealDox.b0e594e.png";
+module.exports = __webpack_require__.p + "img/Simplify Deal Closing with Guided Selling and DealDox.a3bc765.png";
 
 /***/ }),
 
 /***/ 185:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Quick and Professional Quote Generation with DealDox.3882ae3.png";
+module.exports = __webpack_require__.p + "img/Quick and Professional Quote Generation with DealDox.dbf5627.png";
 
 /***/ }),
 
 /***/ 186:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Streamline Sales Processes for Swift Deal Closures.9a04148.png";
+module.exports = __webpack_require__.p + "img/Streamline Sales Processes for Swift Deal Closures.7c3837f.png";
 
 /***/ }),
 
 /***/ 187:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Empower Your Sales Success with Actionable Data for Optimal Conversions.3bf33d8.png";
+module.exports = __webpack_require__.p + "img/Empower Your Sales Success with Actionable Data for Optimal Conversions.052dd43.png";
 
 /***/ }),
 
 /***/ 188:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Simplify CPQ Implementation and Maintenance Efforts.237f0d5.png";
+module.exports = __webpack_require__.p + "img/Simplify CPQ Implementation and Maintenance Efforts.692b1a6.png";
 
 /***/ }),
 
-/***/ 262:
+/***/ 261:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/HubSpot/MainBannerLoacalized.vue?vue&type=template&id=695e9ff8&
+// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/HubSpot/MainBannerLoacalized.vue?vue&type=template&id=4d6866ec&
 var render = function render() {
   var _vm = this,
     _c = _vm._self._c;
@@ -87,7 +87,7 @@ var render = function render() {
   }, [_vm._ssrNode("<div class=\"container\">", "</div>", [_vm._ssrNode("<div class=\"row align-items-center\">", "</div>", [_vm._ssrNode("<div class=\"col-lg-6 col-md-12\">", "</div>", [_vm._ssrNode("<div class=\"new-app-main-banner-wrap-content\">", "</div>", [_vm._ssrNode("<h1>DealDox and <br><span class=\"sub-title\">Hubspot</span></h1> <p>Boost Your Sales with a Native HubSpot Integration and a Powerful, User-Friendly CPQ Solution</p> "), _vm._ssrNode("<div class=\"tb-30\">", "</div>", [_c('NuxtLink', {
     staticClass: "default-btn",
     attrs: {
-      "to": "/sign-up-free-trial",
+      "to": "/demo",
       "required": ""
     }
   }, [_c('i', {
@@ -96,7 +96,7 @@ var render = function render() {
 };
 var staticRenderFns = [];
 
-// CONCATENATED MODULE: ./components/HubSpot/MainBannerLoacalized.vue?vue&type=template&id=695e9ff8&
+// CONCATENATED MODULE: ./components/HubSpot/MainBannerLoacalized.vue?vue&type=template&id=4d6866ec&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/HubSpot/MainBannerLoacalized.vue?vue&type=script&lang=js&
 /* harmony default export */ var MainBannerLoacalizedvue_type_script_lang_js_ = ({
@@ -122,7 +122,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "b3986b34"
+  "3ac10d0d"
   
 )
 
@@ -130,7 +130,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 263:
+/***/ 262:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -173,7 +173,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "1008b878"
+  "7577669f"
   
 )
 
@@ -181,7 +181,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 264:
+/***/ 263:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -194,22 +194,22 @@ var render = function render() {
     _c = _vm._self._c;
   return _c('div', {
     staticClass: "key-features-area bg-FAFAFA ptb-100"
-  }, [_vm._ssrNode("<div class=\"container\">", "</div>", [_vm._ssrNode("<div class=\"section-title-pages-full\"><div class=\"new-app-main-banner-wrap-content-full tb-20\"><h3>Expand Your <span class=\"sub-title-effortless\">CRM Horizons</span> with DealDox</h3></div></div> "), _vm._ssrNode("<div class=\"row justify-content-center pt-60\">", "</div>", [_vm._ssrNode("<div class=\"col-xl-3 col-lg-6 col-sm-6 col-md-6\">", "</div>", [_vm._ssrNode("<div class=\"single-features-item\">", "</div>", [_vm._ssrNode("<div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(139)) + " alt=\"image\"></div> <h3><a href=\"https://www.dealdox.io/quoting-software\">Swift Quotes </a></h3> <p>Generate quotations and any deal documents in a few seconds.</p> "), _c('NuxtLink', {
+  }, [_vm._ssrNode("<div class=\"container\">", "</div>", [_vm._ssrNode("<div class=\"section-title-pages-full\"><div class=\"new-app-main-banner-wrap-content-full tb-20\"><h3>Expand Your <span class=\"sub-title-effortless\">CRM Horizons</span> with DealDox</h3></div></div> "), _vm._ssrNode("<div class=\"row justify-content-center pt-60\">", "</div>", [_vm._ssrNode("<div class=\"col-xl-3 col-lg-6 col-sm-6 col-md-6\">", "</div>", [_vm._ssrNode("<div class=\"single-features-item\">", "</div>", [_vm._ssrNode("<div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(137)) + " alt=\"image\"></div> <h3><a href=\"https://www.dealdox.io/quoting-software\">Swift Quotes </a></h3> <p>Generate quotations and any deal documents in a few seconds.</p> "), _c('NuxtLink', {
     staticClass: "default-btn",
     attrs: {
       "to": "/quoting-software"
     }
-  }, [_vm._v("Know more")])], 2)]), _vm._ssrNode(" "), _vm._ssrNode("<div class=\"col-xl-3 col-lg-6 col-sm-6 col-md-6\">", "</div>", [_vm._ssrNode("<div class=\"single-features-item\">", "</div>", [_vm._ssrNode("<div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(140)) + " alt=\"image\"></div> <h3><a href=\"https://www.dealdox.io/approval-software\">Quick Approvals </a></h3> <p>Complex approvals are made easy with DealDox - it simplifies the sales process.\n                    </p> "), _c('NuxtLink', {
+  }, [_vm._v("Know more")])], 2)]), _vm._ssrNode(" "), _vm._ssrNode("<div class=\"col-xl-3 col-lg-6 col-sm-6 col-md-6\">", "</div>", [_vm._ssrNode("<div class=\"single-features-item\">", "</div>", [_vm._ssrNode("<div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(138)) + " alt=\"image\"></div> <h3><a href=\"https://www.dealdox.io/approval-software\">Quick Approvals </a></h3> <p>Complex approvals are made easy with DealDox - it simplifies the sales process.\n                    </p> "), _c('NuxtLink', {
     staticClass: "default-btn",
     attrs: {
       "to": "/approval-software"
     }
-  }, [_vm._v("Know more")])], 2)]), _vm._ssrNode(" "), _vm._ssrNode("<div class=\"col-xl-3 col-lg-6 col-sm-6 col-md-6\">", "</div>", [_vm._ssrNode("<div class=\"single-features-item\">", "</div>", [_vm._ssrNode("<div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(141)) + " alt=\"image\"></div> <h3>Configure Price Quote (CPQ)</h3> <p>Easy configurations and error-free quotes in minutes.</p> "), _c('NuxtLink', {
+  }, [_vm._v("Know more")])], 2)]), _vm._ssrNode(" "), _vm._ssrNode("<div class=\"col-xl-3 col-lg-6 col-sm-6 col-md-6\">", "</div>", [_vm._ssrNode("<div class=\"single-features-item\">", "</div>", [_vm._ssrNode("<div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(139)) + " alt=\"image\"></div> <h3>Configure Price Quote (CPQ)</h3> <p>Easy configurations and error-free quotes in minutes.</p> "), _c('NuxtLink', {
     staticClass: "default-btn",
     attrs: {
       "to": "/services-cpq"
     }
-  }, [_vm._v("Know more")])], 2)]), _vm._ssrNode(" "), _vm._ssrNode("<div class=\"col-xl-3 col-lg-6 col-sm-6 col-md-6\">", "</div>", [_vm._ssrNode("<div class=\"single-features-item\">", "</div>", [_vm._ssrNode("<div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(142)) + " alt=\"image\"></div> <h3><a href=\"https://www.dealdox.io/subscription\">Subscription</a></h3> <p>Upselling, Expand and Automated renewals. Pay only for what you use.</p> "), _c('NuxtLink', {
+  }, [_vm._v("Know more")])], 2)]), _vm._ssrNode(" "), _vm._ssrNode("<div class=\"col-xl-3 col-lg-6 col-sm-6 col-md-6\">", "</div>", [_vm._ssrNode("<div class=\"single-features-item\">", "</div>", [_vm._ssrNode("<div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(140)) + " alt=\"image\"></div> <h3><a href=\"https://www.dealdox.io/subscription\">Subscription</a></h3> <p>Upselling, Expand and Automated renewals. Pay only for what you use.</p> "), _c('NuxtLink', {
     staticClass: "default-btn",
     attrs: {
       "to": "/subscriptions"
@@ -244,7 +244,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "0ff09641"
+  "2f59f17a"
   
 )
 
@@ -252,7 +252,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 344:
+/***/ 340:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -275,13 +275,13 @@ var staticRenderFns = [];
 var Navbar = __webpack_require__(12);
 
 // EXTERNAL MODULE: ./components/HubSpot/MainBannerLoacalized.vue + 4 modules
-var MainBannerLoacalized = __webpack_require__(262);
+var MainBannerLoacalized = __webpack_require__(261);
 
 // EXTERNAL MODULE: ./components/HubSpot/HowLocalizedDeal.vue + 4 modules
-var HowLocalizedDeal = __webpack_require__(263);
+var HowLocalizedDeal = __webpack_require__(262);
 
 // EXTERNAL MODULE: ./components/HubSpot/KeyBenefitsof.vue + 4 modules
-var KeyBenefitsof = __webpack_require__(264);
+var KeyBenefitsof = __webpack_require__(263);
 
 // EXTERNAL MODULE: ./layouts/DealDoxFooter.vue + 4 modules
 var DealDoxFooter = __webpack_require__(11);
@@ -350,7 +350,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "9c795b9a"
+  "42bd699a"
   
 )
 
