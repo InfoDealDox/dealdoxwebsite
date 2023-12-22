@@ -4,11 +4,11 @@ exports.modules = {
 /***/ 203:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/robotic-process-automation.cd4ff62.png";
+module.exports = __webpack_require__.p + "img/robotic-process-automation.b488c03.png";
 
 /***/ }),
 
-/***/ 281:
+/***/ 279:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -51,7 +51,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "52c00bda"
+  "25297a4c"
   
 )
 

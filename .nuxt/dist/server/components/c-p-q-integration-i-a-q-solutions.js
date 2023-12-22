@@ -1,49 +1,49 @@
 exports.ids = [20];
 exports.modules = {
 
+/***/ 134:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/cpq-integration-banner-icon1.c3f453d.png";
+
+/***/ }),
+
+/***/ 135:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/cpq-integration-banner-icon2.2bbd018.png";
+
+/***/ }),
+
 /***/ 136:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/cpq-integration-banner-icon1.958f8eb.png";
-
-/***/ }),
-
-/***/ 137:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "img/cpq-integration-banner-icon2.7cb4454.png";
-
-/***/ }),
-
-/***/ 138:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "img/Automated-Oppertunity.439e03c.png";
+module.exports = __webpack_require__.p + "img/Automated-Oppertunity.3a2dcb8.png";
 
 /***/ }),
 
 /***/ 169:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/predictioncpq.cde8ae4.png";
+module.exports = __webpack_require__.p + "img/predictioncpq.595cae9.png";
 
 /***/ }),
 
 /***/ 170:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/synccpq.4ecfad7.png";
+module.exports = __webpack_require__.p + "img/synccpq.694694a.png";
 
 /***/ }),
 
 /***/ 171:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/income.d00d051.png";
+module.exports = __webpack_require__.p + "img/income.558c9fb.png";
 
 /***/ }),
 
-/***/ 253:
+/***/ 252:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -56,7 +56,7 @@ var render = function render() {
     _c = _vm._self._c;
   return _c('div', {
     staticClass: "features-area pt-65 bg-white"
-  }, [_vm._ssrNode("<div class=\"container\"><div class=\"section-title\"><h1>Leveraging DealDox Integration for Success</h1></div> <br> <div class=\"row justify-content-center\"><div class=\"col-xl-4 col-lg-6 col-sm-6 col-md-6\"><div class=\"single-features-item\" style=\"height:160px\"><div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(136)) + " alt=\"image\"></div> <p>The entire quote-to-delivery process is transparent.</p></div></div> <div class=\"col-xl-4 col-lg-6 col-sm-6 col-md-6\"><div class=\"single-features-item\" style=\"height:160px\"><div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(137)) + " alt=\"image\"></div> <p>No more mistakes from manual data entering.</p></div></div> <div class=\"col-xl-4 col-lg-6 col-sm-6 col-md-6\"><div class=\"single-features-item\" style=\"height:160px\"><div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(169)) + " alt=\"image\"></div> <p>Proper prediction of resource <br> demand.</p></div></div> <div class=\"col-xl-4 col-lg-6 col-sm-6 col-md-6\"><div class=\"single-features-item\" style=\"height:160px\"><div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(138)) + " alt=\"image\"></div> <p>Automated opportunity update with current deal price and data.</p></div></div> <div class=\"col-xl-4 col-lg-6 col-sm-6 col-md-6\"><div class=\"single-features-item\" style=\"height:160px\"><div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(170)) + " alt=\"image\"></div> <p>Sync up opportunities, jobs, talents, rates, and so on.</p></div></div> <div class=\"col-xl-4 col-lg-6 col-sm-6 col-md-6\"><div class=\"single-features-item\" style=\"height:160px\"><div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(171)) + " alt=\"image\"></div> <p>Enables easy revenue<br>forecasting.</p></div></div></div></div>")]);
+  }, [_vm._ssrNode("<div class=\"container\"><div class=\"section-title\"><h1>Leveraging DealDox Integration for Success</h1></div> <br> <div class=\"row justify-content-center\"><div class=\"col-xl-4 col-lg-6 col-sm-6 col-md-6\"><div class=\"single-features-item\" style=\"height:160px\"><div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(134)) + " alt=\"image\"></div> <p>The entire quote-to-delivery process is transparent.</p></div></div> <div class=\"col-xl-4 col-lg-6 col-sm-6 col-md-6\"><div class=\"single-features-item\" style=\"height:160px\"><div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(135)) + " alt=\"image\"></div> <p>No more mistakes from manual data entering.</p></div></div> <div class=\"col-xl-4 col-lg-6 col-sm-6 col-md-6\"><div class=\"single-features-item\" style=\"height:160px\"><div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(169)) + " alt=\"image\"></div> <p>Proper prediction of resource <br> demand.</p></div></div> <div class=\"col-xl-4 col-lg-6 col-sm-6 col-md-6\"><div class=\"single-features-item\" style=\"height:160px\"><div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(136)) + " alt=\"image\"></div> <p>Automated opportunity update with current deal price and data.</p></div></div> <div class=\"col-xl-4 col-lg-6 col-sm-6 col-md-6\"><div class=\"single-features-item\" style=\"height:160px\"><div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(170)) + " alt=\"image\"></div> <p>Sync up opportunities, jobs, talents, rates, and so on.</p></div></div> <div class=\"col-xl-4 col-lg-6 col-sm-6 col-md-6\"><div class=\"single-features-item\" style=\"height:160px\"><div class=\"icon\"><img" + _vm._ssrAttr("src", __webpack_require__(171)) + " alt=\"image\"></div> <p>Enables easy revenue<br>forecasting.</p></div></div></div></div>")]);
 };
 var staticRenderFns = [];
 
@@ -86,7 +86,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "33e2fb7e"
+  "9dea628c"
   
 )
 

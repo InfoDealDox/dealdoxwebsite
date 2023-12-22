@@ -73,7 +73,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "0735aff6"
+  "0cff8b84"
   
 )
 

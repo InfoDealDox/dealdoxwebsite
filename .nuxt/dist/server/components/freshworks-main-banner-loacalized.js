@@ -1,14 +1,14 @@
-exports.ids = [56];
+exports.ids = [52];
 exports.modules = {
 
 /***/ 173:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/DealDox and Freshwork.eccd9e2.png";
+module.exports = __webpack_require__.p + "img/DealDox and Freshwork.0779609.png";
 
 /***/ }),
 
-/***/ 259:
+/***/ 258:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -59,7 +59,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "88cfd9fe"
+  "43910a0c"
   
 )
 

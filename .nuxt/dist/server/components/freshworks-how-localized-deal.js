@@ -1,42 +1,42 @@
-exports.ids = [54];
+exports.ids = [50];
 exports.modules = {
 
 /***/ 174:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Drive Sales Success.ed6e0ae.png";
+module.exports = __webpack_require__.p + "img/Drive Sales Success.81c79fa.png";
 
 /***/ }),
 
 /***/ 175:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Improve the Buyer Experience with Real-time Insights.cbf2f22.png";
+module.exports = __webpack_require__.p + "img/Improve the Buyer Experience with Real-time Insights.ed5bf53.png";
 
 /***/ }),
 
 /***/ 176:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Streamline Your Sales.3e53230.png";
+module.exports = __webpack_require__.p + "img/Streamline Your Sales.3a3fec5.png";
 
 /***/ }),
 
 /***/ 177:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Empower Your Sales Success with Actionable Data for Optimal Conversions.2ca7f10.png";
+module.exports = __webpack_require__.p + "img/Empower Your Sales Success with Actionable Data for Optimal Conversions.7e04fad.png";
 
 /***/ }),
 
 /***/ 178:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Lightning-fast Results with DealDox.3ed095b.png";
+module.exports = __webpack_require__.p + "img/Lightning-fast Results with DealDox.9b0c0f6.png";
 
 /***/ }),
 
-/***/ 260:
+/***/ 259:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -79,7 +79,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "07f0f2da"
+  "71f859e8"
   
 )
 

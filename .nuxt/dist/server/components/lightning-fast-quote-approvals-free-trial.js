@@ -1,10 +1,10 @@
-exports.ids = [76];
+exports.ids = [72];
 exports.modules = {
 
-/***/ 126:
+/***/ 124:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/do-you-know-tag.700e777.svg";
+module.exports = __webpack_require__.p + "img/do-you-know-tag.20dc659.svg";
 
 /***/ }),
 
@@ -21,7 +21,7 @@ var render = function render() {
     _c = _vm._self._c;
   return _c('div', {
     staticClass: "new-free-trial-area bg-white ptb-75"
-  }, [_vm._ssrNode("<div class=\"container\">", "</div>", [_vm._ssrNode("<div class=\"row align-items-center\">", "</div>", [_vm._ssrNode("<div class=\"col-lg-12 col-md-12\">", "</div>", [_vm._ssrNode("<div class=\"features-item-free-quotes with-border bg-grey\">", "</div>", [_vm._ssrNode("<div class=\"did-you-know\"><img" + _vm._ssrAttr("src", __webpack_require__(126)) + " alt=\"image\"></div> <h3>Fast approvals can significantly benefit your business by reducing sales cycle time, boosting\n                        <a href=\"https://www.dealdox.io/glossary/enhancing-customer-satisfaction\">customer satisfaction</a>\n                        , increasing win rates, improving sales team productivity, and optimizing\n                        <a href=\"https://www.dealdox.io/glossary/drive-revenue-generation\">revenue generation.</a>\n                        Experience the Power of Quick Approvals. Get started with a free onboarding\n                        today! Sign up now!\n                    </h3> "), _c('NuxtLink', {
+  }, [_vm._ssrNode("<div class=\"container\">", "</div>", [_vm._ssrNode("<div class=\"row align-items-center\">", "</div>", [_vm._ssrNode("<div class=\"col-lg-12 col-md-12\">", "</div>", [_vm._ssrNode("<div class=\"features-item-free-quotes with-border bg-grey\">", "</div>", [_vm._ssrNode("<div class=\"did-you-know\"><img" + _vm._ssrAttr("src", __webpack_require__(124)) + " alt=\"image\"></div> <h3>Fast approvals can significantly benefit your business by reducing sales cycle time, boosting\n                        <a href=\"https://www.dealdox.io/glossary/enhancing-customer-satisfaction\">customer satisfaction</a>\n                        , increasing win rates, improving sales team productivity, and optimizing\n                        <a href=\"https://www.dealdox.io/glossary/drive-revenue-generation\">revenue generation.</a>\n                        Experience the Power of Quick Approvals. Get started with a free onboarding\n                        today! Sign up now!\n                    </h3> "), _c('NuxtLink', {
     staticClass: "default-btn",
     attrs: {
       "to": "/sign-up-free-trial"
@@ -56,7 +56,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "728a4e08"
+  "4be0a235"
   
 )
 

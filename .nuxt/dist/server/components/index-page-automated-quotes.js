@@ -1,14 +1,14 @@
-exports.ids = [64];
+exports.ids = [60];
 exports.modules = {
 
-/***/ 130:
+/***/ 128:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/shape4.f931a06.png";
+module.exports = __webpack_require__.p + "img/shape4.a5ecfff.png";
 
 /***/ }),
 
-/***/ 320:
+/***/ 317:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -26,7 +26,7 @@ var render = function render() {
     attrs: {
       "to": "/sign-up-free-trial"
     }
-  }, [_vm._v("Start My Free Trial")])], 1)], 2)])])], 2), _vm._ssrNode(" <div class=\"shape5\"><img" + _vm._ssrAttr("src", __webpack_require__(130)) + " alt=\"shape4\"></div> <div class=\"lines\"><div class=\"line\"></div> <div class=\"line\"></div> <div class=\"line\"></div> <div class=\"line\"></div> <div class=\"line\"></div></div>")], 2)], 2)]);
+  }, [_vm._v("Start My Free Trial")])], 1)], 2)])])], 2), _vm._ssrNode(" <div class=\"shape5\"><img" + _vm._ssrAttr("src", __webpack_require__(128)) + " alt=\"shape4\"></div> <div class=\"lines\"><div class=\"line\"></div> <div class=\"line\"></div> <div class=\"line\"></div> <div class=\"line\"></div> <div class=\"line\"></div></div>")], 2)], 2)]);
 };
 var staticRenderFns = [];
 
@@ -56,7 +56,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "360606e0"
+  "7e6d1d99"
   
 )
 

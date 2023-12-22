@@ -1,14 +1,14 @@
 exports.ids = [4];
 exports.modules = {
 
-/***/ 131:
+/***/ 129:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/logo.ea827d1.svg";
+module.exports = __webpack_require__.p + "img/logo.fd05a61.svg";
 
 /***/ }),
 
-/***/ 258:
+/***/ 257:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -28,7 +28,7 @@ var render = function render() {
     }
   }, [_c('img', {
     attrs: {
-      "src": __webpack_require__(131),
+      "src": __webpack_require__(129),
       "alt": "logo"
     }
   })])], 1), _vm._ssrNode(" <div class=\"d-table\"><div class=\"d-table-cell\"><div class=\"container\"><div class=\"forget-password-form\"><h2>Forget Password</h2> <form><div class=\"form-group\"><input type=\"text\" placeholder=\"Username or email\" class=\"form-control\"></div> <button type=\"submit\">Send Reset Link</button></form></div></div></div></div>")], 2);
@@ -61,7 +61,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "a7c45a80"
+  "ad8e360e"
   
 )
 

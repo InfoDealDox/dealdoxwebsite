@@ -1,17 +1,17 @@
-exports.ids = [77];
+exports.ids = [73];
 exports.modules = {
 
-/***/ 132:
+/***/ 130:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/DocumentAnalytics.23450ea.png";
+module.exports = __webpack_require__.p + "img/DocumentAnalytics.08a6ad6.png";
 
 /***/ }),
 
 /***/ 168:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Filemanagementbyemployee.f90219e.png";
+module.exports = __webpack_require__.p + "img/Filemanagementbyemployee.57445b3.png";
 
 /***/ }),
 
@@ -28,7 +28,7 @@ var render = function render() {
     _c = _vm._self._c;
   return _c('div', {
     staticClass: "about-area bg-FAFAFA ptb-75"
-  }, [_vm._ssrNode("<div class=\"container\"><div class=\"row align-items-center\"><div class=\"col-lg-6 col-md-12\"><div class=\"features-item with-border bg-FAFAFA\"><div class=\"about-img\"><img" + _vm._ssrAttr("src", __webpack_require__(168)) + " data-aos=\"fade-up\" alt=\"about\"></div></div></div> <div class=\"col-lg-6 col-md-12\"><div class=\"about-content\"><h3>Approvals Insights</h3> <p>DealDox makes it possible to have a delegation dashboard with all quotes accessible from a\n                        single, simple insight. <a href=\"https://www.dealdox.io/glossary/configure-price-quote\">CPQ</a>\n                        instant quote approval process includes examining quote details\n                        approval,\n                        commenting on the quotation, and advising changes. DealDox automatically synchronizes data with\n                        CRM and ERP applications following approval.\n                    </p></div></div></div> <div class=\"row align-items-center\"><div class=\"col-lg-6 col-md-12\"><div class=\"about-content\"><h3>Reapprove with Ease </h3> <p>DealDox provides a flexible and streamlined approach <a href=\"https://www.dealdox.io/approval-software\">CPQ approval process.</a> Even after\n                        approval,\n                        if\n                        any modifications are require, they can be made easily can be re-approved without any delay.\n                        This feature ensures that deals are always up-to-date and all parties involved are on the same\n                        plate.\n                    </p></div></div> <div class=\"col-lg-6 col-md-12\"><div class=\"features-item with-border bg-FAFAFA\"><div class=\"about-img\"><img" + _vm._ssrAttr("src", __webpack_require__(132)) + " data-aos=\"fade-up\" alt=\"about\"></div></div></div></div></div>")]);
+  }, [_vm._ssrNode("<div class=\"container\"><div class=\"row align-items-center\"><div class=\"col-lg-6 col-md-12\"><div class=\"features-item with-border bg-FAFAFA\"><div class=\"about-img\"><img" + _vm._ssrAttr("src", __webpack_require__(168)) + " data-aos=\"fade-up\" alt=\"about\"></div></div></div> <div class=\"col-lg-6 col-md-12\"><div class=\"about-content\"><h3>Approvals Insights</h3> <p>DealDox makes it possible to have a delegation dashboard with all quotes accessible from a\n                        single, simple insight. <a href=\"https://www.dealdox.io/glossary/configure-price-quote\">CPQ</a>\n                        instant quote approval process includes examining quote details\n                        approval,\n                        commenting on the quotation, and advising changes. DealDox automatically synchronizes data with\n                        CRM and ERP applications following approval.\n                    </p></div></div></div> <div class=\"row align-items-center\"><div class=\"col-lg-6 col-md-12\"><div class=\"about-content\"><h3>Reapprove with Ease </h3> <p>DealDox provides a flexible and streamlined approach <a href=\"https://www.dealdox.io/approval-software\">CPQ approval process.</a> Even after\n                        approval,\n                        if\n                        any modifications are require, they can be made easily can be re-approved without any delay.\n                        This feature ensures that deals are always up-to-date and all parties involved are on the same\n                        plate.\n                    </p></div></div> <div class=\"col-lg-6 col-md-12\"><div class=\"features-item with-border bg-FAFAFA\"><div class=\"about-img\"><img" + _vm._ssrAttr("src", __webpack_require__(130)) + " data-aos=\"fade-up\" alt=\"about\"></div></div></div></div></div>")]);
 };
 var staticRenderFns = [];
 
@@ -58,7 +58,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "097c0e06"
+  "49cb7936"
   
 )
 

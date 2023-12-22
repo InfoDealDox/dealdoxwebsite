@@ -1,14 +1,14 @@
-exports.ids = [80];
+exports.ids = [76];
 exports.modules = {
 
 /***/ 191:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Womanearningthroughpassiveincome.5d9aa26.png";
+module.exports = __webpack_require__.p + "img/Womanearningthroughpassiveincome.fc79f2d.png";
 
 /***/ }),
 
-/***/ 269:
+/***/ 268:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -51,7 +51,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "80cde8d4"
+  "33e1cf0f"
   
 )
 

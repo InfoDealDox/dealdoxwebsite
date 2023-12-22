@@ -1,21 +1,21 @@
-exports.ids = [83];
+exports.ids = [79];
 exports.modules = {
 
-/***/ 128:
+/***/ 126:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Filemanagementbyemployee.61dc3d8.png";
+module.exports = __webpack_require__.p + "img/Filemanagementbyemployee.c0fea9d.png";
 
 /***/ }),
 
-/***/ 132:
+/***/ 130:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/DocumentAnalytics.23450ea.png";
+module.exports = __webpack_require__.p + "img/DocumentAnalytics.08a6ad6.png";
 
 /***/ }),
 
-/***/ 266:
+/***/ 265:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -28,7 +28,7 @@ var render = function render() {
     _c = _vm._self._c;
   return _c('div', {
     staticClass: "about-area bg-white ptb-100"
-  }, [_vm._ssrNode("<div class=\"container\"><div class=\"row align-items-center\"><div class=\"col-lg-6 col-md-12\"><div class=\"features-item with-border\"><div class=\"about-img\"><img" + _vm._ssrAttr("src", __webpack_require__(128)) + " data-aos=\"fade-up\" alt=\"about\"></div></div></div> <div class=\"col-lg-6 col-md-12\"><div class=\"about-content\"><h3>Breaking Barriers, Connecting Deals:</h3> <p>Businesses are crossing international boundaries and interacting with partners, clients, and\n                            consumers who come from a variety of language origins. It is essential to get through language\n                            barriers and guarantee clarity in all business contacts in order to promote successful\n                            communication and cooperation. This is where Localized Deal Documents' pioneering functionality\n                            shines.\n                        </p> <h5>Going Global: The Benefits of Multilingual Automated Quotation CPQ Software for Your Business\n                        </h5> <p>Regional CPQ <a href=\"https://www.dealdox.io/quoting-software\">automated quote generation</a>\n                            is an advanced solution designed to support multilingual communication in a global business\n                            environment. This feature enables businesses to create and share deal documents, such as\n                            quotations, contracts, proposals, agreements, SOW and more, in a variety of languages. By\n                            offering support for a wide range of languages, including English, Chinese (Mandarin and\n                            Cantonese), Spanish, Arabic, Hindi, Bengali, Portuguese, Russian, Japanese, German, French,\n                            Italian, Korean, Turkish, Polish, Dutch, Indonesian, Vietnamese, Thai, and Swedish, businesses\n                            can now engage with stakeholders worldwide with ease.</p></div></div></div> <div class=\"row align-items-center\"><div class=\"col-lg-6 col-md-12\"><div class=\"about-content-right\"><h3>Regional CPQ automated quote <br> generation </h3> <p>is an advanced solution designed to support multilingual communication in a global business\n                            environment. This feature enables businesses to create and share deal documents, such as\n                            quotations, contracts, proposals, agreements, SOW and more, in a variety of languages. By\n                            offering support for a wide range of languages, including English, Chinese (Mandarin and\n                            Cantonese), Spanish, Arabic, Hindi, Bengali, Portuguese, Russian, Japanese, German, French,\n                            Italian, Korean, Turkish, Polish, Dutch, Indonesian, Vietnamese, Thai, and Swedish, businesses\n                            can now engage with stakeholders worldwide with ease.\n                        </p></div></div> <div class=\"col-lg-6 col-md-12\"><div class=\"features-item with-border\"><div class=\"about-img\"><img" + _vm._ssrAttr("src", __webpack_require__(132)) + " data-aos=\"fade-up\" alt=\"about\"></div></div></div></div></div>")]);
+  }, [_vm._ssrNode("<div class=\"container\"><div class=\"row align-items-center\"><div class=\"col-lg-6 col-md-12\"><div class=\"features-item with-border\"><div class=\"about-img\"><img" + _vm._ssrAttr("src", __webpack_require__(126)) + " data-aos=\"fade-up\" alt=\"about\"></div></div></div> <div class=\"col-lg-6 col-md-12\"><div class=\"about-content\"><h3>Breaking Barriers, Connecting Deals:</h3> <p>Businesses are crossing international boundaries and interacting with partners, clients, and\n                            consumers who come from a variety of language origins. It is essential to get through language\n                            barriers and guarantee clarity in all business contacts in order to promote successful\n                            communication and cooperation. This is where Localized Deal Documents' pioneering functionality\n                            shines.\n                        </p> <h5>Going Global: The Benefits of Multilingual Automated Quotation CPQ Software for Your Business\n                        </h5> <p>Regional CPQ <a href=\"https://www.dealdox.io/quoting-software\">automated quote generation</a>\n                            is an advanced solution designed to support multilingual communication in a global business\n                            environment. This feature enables businesses to create and share deal documents, such as\n                            quotations, contracts, proposals, agreements, SOW and more, in a variety of languages. By\n                            offering support for a wide range of languages, including English, Chinese (Mandarin and\n                            Cantonese), Spanish, Arabic, Hindi, Bengali, Portuguese, Russian, Japanese, German, French,\n                            Italian, Korean, Turkish, Polish, Dutch, Indonesian, Vietnamese, Thai, and Swedish, businesses\n                            can now engage with stakeholders worldwide with ease.</p></div></div></div> <div class=\"row align-items-center\"><div class=\"col-lg-6 col-md-12\"><div class=\"about-content-right\"><h3>Regional CPQ automated quote <br> generation </h3> <p>is an advanced solution designed to support multilingual communication in a global business\n                            environment. This feature enables businesses to create and share deal documents, such as\n                            quotations, contracts, proposals, agreements, SOW and more, in a variety of languages. By\n                            offering support for a wide range of languages, including English, Chinese (Mandarin and\n                            Cantonese), Spanish, Arabic, Hindi, Bengali, Portuguese, Russian, Japanese, German, French,\n                            Italian, Korean, Turkish, Polish, Dutch, Indonesian, Vietnamese, Thai, and Swedish, businesses\n                            can now engage with stakeholders worldwide with ease.\n                        </p></div></div> <div class=\"col-lg-6 col-md-12\"><div class=\"features-item with-border\"><div class=\"about-img\"><img" + _vm._ssrAttr("src", __webpack_require__(130)) + " data-aos=\"fade-up\" alt=\"about\"></div></div></div></div></div>")]);
 };
 var staticRenderFns = [];
 
@@ -58,7 +58,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "546adbd6"
+  "27433acf"
   
 )
 

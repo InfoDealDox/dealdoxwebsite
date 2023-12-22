@@ -1,24 +1,24 @@
-exports.ids = [78];
+exports.ids = [74];
 exports.modules = {
 
 /***/ 165:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/scope.1282b40.png";
+module.exports = __webpack_require__.p + "img/scope.40e05bc.png";
 
 /***/ }),
 
 /***/ 166:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/risk.edb5d03.png";
+module.exports = __webpack_require__.p + "img/risk.d8a036d.png";
 
 /***/ }),
 
 /***/ 167:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/margin.6359416.png";
+module.exports = __webpack_require__.p + "img/margin.cecba2c.png";
 
 /***/ }),
 
@@ -65,7 +65,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "2f66fac7"
+  "74000f6e"
   
 )
 

@@ -4,18 +4,18 @@ exports.modules = {
 /***/ 123:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/shape-5.5c9d317.png";
+module.exports = __webpack_require__.p + "img/shape-5.7c2c12c.png";
 
 /***/ }),
 
 /***/ 151:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/cpq-integration-banner.90793f5.png";
+module.exports = __webpack_require__.p + "img/cpq-integration-banner.cf30e96.png";
 
 /***/ }),
 
-/***/ 371:
+/***/ 368:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -58,7 +58,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "0cc4feae"
+  "ead0cfe0"
   
 )
 

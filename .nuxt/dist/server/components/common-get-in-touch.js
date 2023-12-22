@@ -1,4 +1,4 @@
-exports.ids = [41];
+exports.ids = [40];
 exports.modules = {
 
 /***/ 160:
@@ -44,7 +44,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "6fe69e29"
+  "71af043c"
   
 )
 

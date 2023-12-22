@@ -1,14 +1,14 @@
-exports.ids = [81];
+exports.ids = [77];
 exports.modules = {
 
-/***/ 126:
+/***/ 124:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/do-you-know-tag.700e777.svg";
+module.exports = __webpack_require__.p + "img/do-you-know-tag.20dc659.svg";
 
 /***/ }),
 
-/***/ 270:
+/***/ 269:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -21,7 +21,7 @@ var render = function render() {
     _c = _vm._self._c;
   return _c('div', {
     staticClass: "new-free-trial-area bg-FAFAFA ptb-100"
-  }, [_vm._ssrNode("<div class=\"container\">", "</div>", [_vm._ssrNode("<div class=\"row align-items-center\">", "</div>", [_vm._ssrNode("<div class=\"col-lg-12 col-md-12\">", "</div>", [_vm._ssrNode("<div class=\"features-item-free-quotes with-border bg-white\">", "</div>", [_vm._ssrNode("<div class=\"did-you-know\"><img" + _vm._ssrAttr("src", __webpack_require__(126)) + " alt=\"image\"></div> <h3>With the multilingual document creation capability of <a href=\"https://www.dealdox.io\">DealDox</a> CPQ, you can confidently navigate\n                        international markets, expand your customer base, and close deals faster. By speaking your\n                        prospects' language, you demonstrate a deep understanding of their needs, culture, and\n                        preferences, elevating your sales effectiveness to a whole new level. </h3> "), _c('NuxtLink', {
+  }, [_vm._ssrNode("<div class=\"container\">", "</div>", [_vm._ssrNode("<div class=\"row align-items-center\">", "</div>", [_vm._ssrNode("<div class=\"col-lg-12 col-md-12\">", "</div>", [_vm._ssrNode("<div class=\"features-item-free-quotes with-border bg-white\">", "</div>", [_vm._ssrNode("<div class=\"did-you-know\"><img" + _vm._ssrAttr("src", __webpack_require__(124)) + " alt=\"image\"></div> <h3>With the multilingual document creation capability of <a href=\"https://www.dealdox.io\">DealDox</a> CPQ, you can confidently navigate\n                        international markets, expand your customer base, and close deals faster. By speaking your\n                        prospects' language, you demonstrate a deep understanding of their needs, culture, and\n                        preferences, elevating your sales effectiveness to a whole new level. </h3> "), _c('NuxtLink', {
     staticClass: "default-btn",
     attrs: {
       "to": "/sign-up-free-trial"
@@ -56,7 +56,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "c10d924a"
+  "5e7263fc"
   
 )
 

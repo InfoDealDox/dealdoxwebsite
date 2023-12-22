@@ -4,11 +4,11 @@ exports.modules = {
 /***/ 154:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/banner-home.89a146c.png";
+module.exports = __webpack_require__.p + "img/banner-home.78dcee3.png";
 
 /***/ }),
 
-/***/ 295:
+/***/ 292:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -51,7 +51,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "fb66f1fe"
+  "500e92e8"
   
 )
 

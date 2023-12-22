@@ -1,63 +1,63 @@
 exports.ids = [22];
 exports.modules = {
 
+/***/ 319:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/border.3259fa9.png";
+
+/***/ }),
+
+/***/ 320:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/atlassian.e176735.png";
+
+/***/ }),
+
+/***/ 321:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/skype.c30742a.png";
+
+/***/ }),
+
 /***/ 322:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/border.027d334.png";
+module.exports = __webpack_require__.p + "img/gdrive.f1aa0b9.png";
 
 /***/ }),
 
 /***/ 323:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/atlassian.3e16506.png";
+module.exports = __webpack_require__.p + "img/slack.a2ea88d.png";
 
 /***/ }),
 
 /***/ 324:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/skype.1e3d747.png";
+module.exports = __webpack_require__.p + "img/jira.0a71bb6.png";
 
 /***/ }),
 
 /***/ 325:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/gdrive.2db518e.png";
+module.exports = __webpack_require__.p + "img/frame.9e5b84c.png";
 
 /***/ }),
 
 /***/ 326:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "img/slack.be6449b.png";
-
-/***/ }),
-
-/***/ 327:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "img/jira.be3a7ab.png";
-
-/***/ }),
-
-/***/ 328:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "img/frame.3ac5395.png";
-
-/***/ }),
-
-/***/ 329:
 /***/ (function(module, exports) {
 
 module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAE4AAAAvCAYAAABNAvziAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAANnSURBVHgB7ZuLkdowEIaXmRRABzEVHFdBnApCCe4gdJB0cHRgrgLmKjCpgOvApAIuFWy0p1+HbOT3iwN9MzuGQZat1Wq1WokZjQQzR/j4OpvNXslTjVJayFlSJbGSlZI5edwo5Sy5nCf6ZHyhDojl4ONeyYtc1TB8y5eToanKLtTHpRKxsADXBxT5S/eCDDElJ4f1xEoC8hQjClKyVrKD3zL8ph6R+lDvAc+SZ0biI+kWgC/r3eGjg7YF/nFJnnKgwAhWd4CrCMjjmQRY5BOsMiBPPTDTp5b/k6GcKPlFU4GeTOFfIr7SiL9kIvlKUwBnnCfpOyRQ9f20wo7WQw4K3KCuhKbCmtE2DiX2FhKwO6g+8K34LPgTWbxHFeUkWJUANqR69a5hyUlOeRu6F/gyK2KGd1TzftM595VFQcPFUacOBaZ3pYy2WNZjfGQ6pd+Czw4o+36+I8tgd2L15EdBBZYLcc3gYZ06ZtQSmLnJ3P4hncScZC8BVhIpkSTqEdd3cSVWc/eGuPcB5b/TkLCO6VwOP+aRVxYF72IYJIzpanE70ulwF0clj1U9XlK/sSLZFdtXlJV3iPHVWN0/XLdt32Fw+JzAlBkzgeV1crR8zvoaS47IUw3ChcThCm4jXT4GrMMHexYMydMM9glKj2csWCcrEx5gb4B1ppoRT4Y0FQgzIuoRvlzqHNDQzglRvkyyptJRuTIrlEtY5//CXpXMl4vhXR9KxIvvHI3cUUesMCbN1R3nyuR/F9bUB3y5a2T3Yq876DzQEg1KWubrR9uiXPv6UZz1YHv33BDRyPBA+6VQ7LBHKdBTAY0MhvfHsGO/gqhHgV9KaSJaZ0emImftb1eb+WgC61n4po5dlfo/Pk/frY83cDaZeOIrPypRB7gHmyTjX9mde5dCYYOHrNmN1D3doZeOYFJK822a4cdAXULS2dxvdM7qiv9Y1PUjlqLl/kCJHHQxh6Uf+/ZHfD4T8kx6z+NIA8E6/PpBuj0vRYU+dtBpYPCsmPUac1XXR3I2PDHEfC9pp4IhnlYNb3YfrzD33v65YC7foZpX3GtWNVvOrmpWJeVj1tmZgDpwFXEcLCSg8x9HxBc23qeFMuZF97H+G4FtyXslz6r8ljzFcHFWpPEKpNNfkj4bmHUXsHAz24s0nu3/A7adOcKF1JhoAAAAAElFTkSuQmCC"
 
 /***/ }),
 
-/***/ 378:
+/***/ 374:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -75,7 +75,7 @@ var render = function render() {
     attrs: {
       "to": "/contact"
     }
-  }, [_vm._v("Get Started")])], 2)]), _vm._ssrNode(" <div class=\"col-lg-6 col-md-12\"><div class=\"software-integrations-list\"><img" + _vm._ssrAttr("src", __webpack_require__(322)) + " alt=\"border\"> <ul><li data-aos=\"fade-down\"><img" + _vm._ssrAttr("src", __webpack_require__(323)) + " alt=\"atlassian\" class=\"atlassian\"></li> <li data-aos=\"fade-right\"><img" + _vm._ssrAttr("src", __webpack_require__(324)) + " alt=\"skype\" class=\"skype\"></li> <li data-aos=\"fade-up\"><img" + _vm._ssrAttr("src", __webpack_require__(325)) + " alt=\"gdrive\" class=\"gdrive\"></li> <li data-aos=\"fade-down\"><img" + _vm._ssrAttr("src", __webpack_require__(326)) + " alt=\"slack\" class=\"slack\"></li> <li data-aos=\"fade-up\"><img" + _vm._ssrAttr("src", __webpack_require__(327)) + " alt=\"jira\" class=\"jira\"></li> <li><img" + _vm._ssrAttr("src", __webpack_require__(328)) + " alt=\"frame\" class=\"frame\"></li></ul></div></div>")], 2)]), _vm._ssrNode(" <div class=\"shape8\"><img" + _vm._ssrAttr("src", __webpack_require__(329)) + " alt=\"shape\"></div>")], 2);
+  }, [_vm._v("Get Started")])], 2)]), _vm._ssrNode(" <div class=\"col-lg-6 col-md-12\"><div class=\"software-integrations-list\"><img" + _vm._ssrAttr("src", __webpack_require__(319)) + " alt=\"border\"> <ul><li data-aos=\"fade-down\"><img" + _vm._ssrAttr("src", __webpack_require__(320)) + " alt=\"atlassian\" class=\"atlassian\"></li> <li data-aos=\"fade-right\"><img" + _vm._ssrAttr("src", __webpack_require__(321)) + " alt=\"skype\" class=\"skype\"></li> <li data-aos=\"fade-up\"><img" + _vm._ssrAttr("src", __webpack_require__(322)) + " alt=\"gdrive\" class=\"gdrive\"></li> <li data-aos=\"fade-down\"><img" + _vm._ssrAttr("src", __webpack_require__(323)) + " alt=\"slack\" class=\"slack\"></li> <li data-aos=\"fade-up\"><img" + _vm._ssrAttr("src", __webpack_require__(324)) + " alt=\"jira\" class=\"jira\"></li> <li><img" + _vm._ssrAttr("src", __webpack_require__(325)) + " alt=\"frame\" class=\"frame\"></li></ul></div></div>")], 2)]), _vm._ssrNode(" <div class=\"shape8\"><img" + _vm._ssrAttr("src", __webpack_require__(326)) + " alt=\"shape\"></div>")], 2);
 };
 var staticRenderFns = [];
 
@@ -105,7 +105,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "ddec1734"
+  "0552b7df"
   
 )
 

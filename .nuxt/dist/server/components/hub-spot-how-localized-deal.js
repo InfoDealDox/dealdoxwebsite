@@ -1,42 +1,42 @@
-exports.ids = [60];
+exports.ids = [56];
 exports.modules = {
 
 /***/ 184:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Simplify Deal Closing with Guided Selling and DealDox.b0e594e.png";
+module.exports = __webpack_require__.p + "img/Simplify Deal Closing with Guided Selling and DealDox.a3bc765.png";
 
 /***/ }),
 
 /***/ 185:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Quick and Professional Quote Generation with DealDox.3882ae3.png";
+module.exports = __webpack_require__.p + "img/Quick and Professional Quote Generation with DealDox.dbf5627.png";
 
 /***/ }),
 
 /***/ 186:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Streamline Sales Processes for Swift Deal Closures.9a04148.png";
+module.exports = __webpack_require__.p + "img/Streamline Sales Processes for Swift Deal Closures.7c3837f.png";
 
 /***/ }),
 
 /***/ 187:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Empower Your Sales Success with Actionable Data for Optimal Conversions.3bf33d8.png";
+module.exports = __webpack_require__.p + "img/Empower Your Sales Success with Actionable Data for Optimal Conversions.052dd43.png";
 
 /***/ }),
 
 /***/ 188:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Simplify CPQ Implementation and Maintenance Efforts.237f0d5.png";
+module.exports = __webpack_require__.p + "img/Simplify CPQ Implementation and Maintenance Efforts.692b1a6.png";
 
 /***/ }),
 
-/***/ 263:
+/***/ 262:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -79,7 +79,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "1008b878"
+  "7577669f"
   
 )
 

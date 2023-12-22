@@ -1,14 +1,14 @@
 exports.ids = [18];
 exports.modules = {
 
-/***/ 126:
+/***/ 124:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/do-you-know-tag.700e777.svg";
+module.exports = __webpack_require__.p + "img/do-you-know-tag.20dc659.svg";
 
 /***/ }),
 
-/***/ 256:
+/***/ 255:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -21,7 +21,7 @@ var render = function render() {
     _c = _vm._self._c;
   return _c('div', {
     staticClass: "new-free-trial-area bg-FAFAFA ptb-75"
-  }, [_vm._ssrNode("<div class=\"container\">", "</div>", [_vm._ssrNode("<div class=\"row align-items-center\">", "</div>", [_vm._ssrNode("<div class=\"col-xl-12 col-lg-12 col-md-12\">", "</div>", [_vm._ssrNode("<div class=\"features-item-free-quotes with-border bg-white\">", "</div>", [_vm._ssrNode("<div class=\"did-you-know\"><img" + _vm._ssrAttr("src", __webpack_require__(126)) + " alt=\"image\"></div> <h3><a href=\"https://www.dealdox.io/services-cpq\">CPQ </a>\n                        allows for real-time access to product catalogues, pricing information, and inventory data,\n                        ensuring accurate and consistent quotes. It also enables seamless collaboration between sales\n                        teams, partners, and customers, leading to faster sales cycles and improved customer\n                        satisfaction. <br>Supercharge Your Sales Process and Get started free onboarding today!</h3> "), _c('NuxtLink', {
+  }, [_vm._ssrNode("<div class=\"container\">", "</div>", [_vm._ssrNode("<div class=\"row align-items-center\">", "</div>", [_vm._ssrNode("<div class=\"col-xl-12 col-lg-12 col-md-12\">", "</div>", [_vm._ssrNode("<div class=\"features-item-free-quotes with-border bg-white\">", "</div>", [_vm._ssrNode("<div class=\"did-you-know\"><img" + _vm._ssrAttr("src", __webpack_require__(124)) + " alt=\"image\"></div> <h3><a href=\"https://www.dealdox.io/services-cpq\">CPQ </a>\n                        allows for real-time access to product catalogues, pricing information, and inventory data,\n                        ensuring accurate and consistent quotes. It also enables seamless collaboration between sales\n                        teams, partners, and customers, leading to faster sales cycles and improved customer\n                        satisfaction. <br>Supercharge Your Sales Process and Get started free onboarding today!</h3> "), _c('NuxtLink', {
     staticClass: "default-btn",
     attrs: {
       "to": "/sign-up-free-trial"
@@ -56,7 +56,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "4f6b638c"
+  "3db8fc61"
   
 )
 

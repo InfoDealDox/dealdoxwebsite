@@ -4,11 +4,11 @@ exports.modules = {
 /***/ 201:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Dealdoxteampic.24e476c.png";
+module.exports = __webpack_require__.p + "img/Dealdoxteampic.49ef469.png";
 
 /***/ }),
 
-/***/ 279:
+/***/ 277:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -51,7 +51,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "59b9f482"
+  "a26ace8a"
   
 )
 

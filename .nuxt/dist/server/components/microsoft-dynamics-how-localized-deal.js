@@ -1,35 +1,35 @@
-exports.ids = [88];
+exports.ids = [84];
 exports.modules = {
 
 /***/ 152:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Close Deals Faster with DealDox.b6a8348.png";
+module.exports = __webpack_require__.p + "img/Close Deals Faster with DealDox.4e1f53f.png";
 
 /***/ }),
 
 /***/ 195:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Generate Lightning-fast Professional Quotes.6a7f99a.png";
+module.exports = __webpack_require__.p + "img/Generate Lightning-fast Professional Quotes.765aad6.png";
 
 /***/ }),
 
 /***/ 196:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Utilize the Power of a User-Friendly CPQ Solution.48049e2.png";
+module.exports = __webpack_require__.p + "img/Utilize the Power of a User-Friendly CPQ Solution.15805df.png";
 
 /***/ }),
 
 /***/ 197:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Deliver Timely Experiences with Precision.77c60b9.png";
+module.exports = __webpack_require__.p + "img/Deliver Timely Experiences with Precision.b1218aa.png";
 
 /***/ }),
 
-/***/ 274:
+/***/ 272:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -72,7 +72,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "3f7c28d4"
+  "98762766"
   
 )
 

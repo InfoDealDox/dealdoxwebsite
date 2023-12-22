@@ -1,10 +1,10 @@
-exports.ids = [79];
+exports.ids = [75];
 exports.modules = {
 
 /***/ 164:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/automated-approval.b04222e.png";
+module.exports = __webpack_require__.p + "img/automated-approval.fd56e9b.png";
 
 /***/ }),
 
@@ -51,7 +51,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "6325e856"
+  "418d74fc"
   
 )
 
