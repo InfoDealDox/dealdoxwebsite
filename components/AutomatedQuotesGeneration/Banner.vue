@@ -4,7 +4,9 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="new-app-main-banner-wrap-content">
-                        <h1>Quote Smarter, Sell Faster with <span style="color: #715CF3">Quote Automation Software</span>
+                        <h1>Quote Smarter, Sell Faster with <span style="color: #715CF3"> <a
+                                    href="https://www.dealdox.io/quoting-software"> Quote Automation Software</a>
+                            </span>
                         </h1>
                         <p>Streamline sales, accelerate efficiency and enable faster sales cycle</p>
                         <div class="tb-30">

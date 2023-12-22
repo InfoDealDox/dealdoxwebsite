@@ -15,13 +15,13 @@
                 )" :key="ebook.id">
                     <div class="single-blog-post bg-F9F9FD">
                         <div class="image">
-                            <NuxtLink :to="'/ebook-details/' + ebook.attributes.slug" class="d-block">
+                            <NuxtLink :to="'/ebook/' + ebook.attributes.slug" class="d-block">
                                 <img :src="ebook.attributes.image.data.attributes.url" alt="blog">
                             </NuxtLink>
                         </div>
                         <div class="content">
                             <h3>
-                                <NuxtLink :to="'/ebook-details/' + ebook.attributes.slug">
+                                <NuxtLink :to="'/ebook/' + ebook.attributes.slug">
                                     {{ ebook.attributes.name }}
                                 </NuxtLink>
                             </h3>

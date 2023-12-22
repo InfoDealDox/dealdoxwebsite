@@ -263,11 +263,11 @@
                         <div class="widget widget_jexa_posts_thumb">
                             <h3 class="widget-title">Popular Posts</h3>
                             <article class="item" v-for="blog in blogs" :key="blog.id">
-                                <NuxtLink :to="'/blog-details/' + blog.attributes.slug" class="thumb">
+                                <NuxtLink :to="'/blog/' + blog.attributes.slug" class="thumb">
                                     <img :src="blog.attributes.image.data.attributes.url" alt="blog">
                                 </NuxtLink>
                                 <div class="info">
-                                    <h4 class="title usmall"><NuxtLink :to="'/blog-details/' + blog.attributes.slug">
+                                    <h4 class="title usmall"><NuxtLink :to="'/blog/' + blog.attributes.slug">
                                             {{ blog.attributes.title }}
                                         </NuxtLink></h4>
                                     <span class="date"><i class="ri-calendar-2-fill"></i> {{ blog.attributes.date

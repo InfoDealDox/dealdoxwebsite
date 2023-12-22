@@ -1559,16 +1559,6 @@ New Demo CSS
 }
 
 /* New App Main Banner Area CSS */
-.new-app-main-banner-area {
-  background-image: url(../../assets/images/more-home/banner/banner-bg.jpg);
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding-top: 250px;
-  position: relative;
-  z-index: 1;
-  overflow: hidden;
-}
 
 .new-app-main-banner-content {
   height: 100%;
@@ -2353,16 +2343,6 @@ New Demo CSS
   z-index: -1;
 }
 
-.new-app-main-banner-gradient-area {
-  background-image: url(../../assets/images/more-home/banner/banner-bg-2.jpg);
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  overflow: hidden;
-  padding-top: 120px;
-  padding-bottom: 80px;
-}
-
 .new-app-main-banner-gradient-content {
   max-width: 635px;
   margin-left: auto;
@@ -3109,13 +3089,6 @@ New Demo CSS
   animation: movebounce 2s linear infinite;
 }
 
-.new-app-progress-wrap-area {
-  background-image: url(../../assets/images/more-home/progress/progress-bg.jpg);
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
 .new-app-progress-wrap-area .container-fluid {
   padding-left: 50px;
 }
@@ -3256,13 +3229,6 @@ New Demo CSS
   z-index: -1;
   -webkit-animation: movebounce 2s linear infinite;
   animation: movebounce 2s linear infinite;
-}
-
-.app-screenshots-wrap-area {
-  background-image: url(../../assets/images/more-home/screenshots/screenshots-bg.jpg);
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .app-screenshots-wrap-area .section-title .sub-title {

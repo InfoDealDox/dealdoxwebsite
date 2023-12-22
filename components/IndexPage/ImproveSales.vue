@@ -6,7 +6,8 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="features-content">
                             <ul class="features-list">
-                                <h2>Improve Sales Efficiency with the best <span class="sub-title">CPQ Solutions</span></h2>
+                                <h2>Improve Sales Efficiency with the best <span class="sub-title"> <a href="https://www.dealdox.io/services-cpq">CPQ Solutions</a>
+</span></h2>
                                 <li>
                                     <div class="icon">
                                         <i class="ri-check-line"></i>

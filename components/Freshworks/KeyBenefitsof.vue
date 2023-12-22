@@ -12,7 +12,7 @@
                         <div class="icon">
                             <img src="../../assets/images/Freshwork/Swift Quote.png" alt="image">
                         </div>
-                        <h3>Swift Quotes</h3>
+                        <h3><a href="https://www.dealdox.io/quoting-software">Swift Quotes </a> </h3>
                         <p>Generate quotations and any deal documents in a few seconds.</p>
                         <NuxtLink to="/quoting-software" class="default-btn">Know more</NuxtLink>
                     </div>
@@ -22,7 +22,7 @@
                         <div class="icon">
                             <img src="../../assets/images/Freshwork/Quick Approvals.png" alt="image">
                         </div>
-                        <h3>Quick Approvals</h3>
+                        <h3><a href="https://www.dealdox.io/approval-software">Quick Approvals</a></h3>
                         <p>Complex approvals are made easy with DealDox - it simplifies the sales process.
                         </p>
                         <NuxtLink to="/approval-software" class="default-btn">Know more</NuxtLink>
@@ -43,7 +43,7 @@
                         <div class="icon">
                             <img src="../../assets/images/Freshwork/Subscription.png" alt="image">
                         </div>
-                        <h3>Subscription</h3>
+                        <h3><a href="https://www.dealdox.io/subscription">Subscription</a></h3>
                         <p>Upselling, Expand and Automated renewals. Pay only for what you use.</p>
                         <NuxtLink to="/subscriptions" class="default-btn">Know more</NuxtLink>
                     </div>

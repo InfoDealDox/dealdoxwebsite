@@ -1,13 +1,4 @@
 {
-  "AboutUsIAQSolutions": {
-    "description": "Auto imported from components/AboutUs/IAQSolutions.vue"
-  },
-  "AboutUsPageHeader": {
-    "description": "Auto imported from components/AboutUs/PageHeader.vue"
-  },
-  "AboutUsStats": {
-    "description": "Auto imported from components/AboutUs/Stats.vue"
-  },
   "BlogsBlog": {
     "description": "Auto imported from components/blogs/Blog.vue"
   },
@@ -19,6 +10,15 @@
   },
   "BlogsLatestBlog": {
     "description": "Auto imported from components/blogs/LatestBlog.vue"
+  },
+  "AboutUsIAQSolutions": {
+    "description": "Auto imported from components/AboutUs/IAQSolutions.vue"
+  },
+  "AboutUsPageHeader": {
+    "description": "Auto imported from components/AboutUs/PageHeader.vue"
+  },
+  "AboutUsStats": {
+    "description": "Auto imported from components/AboutUs/Stats.vue"
   },
   "AutomatedQuotesGenerationAccelerateYourSales": {
     "description": "Auto imported from components/AutomatedQuotesGeneration/AccelerateYourSales.vue"
@@ -43,18 +43,6 @@
   },
   "AuthenticationSignUp": {
     "description": "Auto imported from components/Authentication/SignUp.vue"
-  },
-  "CategoriesDetails": {
-    "description": "Auto imported from components/categories/categories-details.vue"
-  },
-  "CategoriesFeaturedCategoriesDetails": {
-    "description": "Auto imported from components/categories/featured-categories-details.vue"
-  },
-  "CategoriesGlossaryCategoriesDetails": {
-    "description": "Auto imported from components/categories/glossary-categories-details.vue"
-  },
-  "CategoriesSuccessStoryCategoriesDetails": {
-    "description": "Auto imported from components/categories/success-story-categories-details.vue"
   },
   "CommonAccordion": {
     "description": "Auto imported from components/Common/Accordion.vue"
@@ -98,8 +86,23 @@
   "CommonPricing": {
     "description": "Auto imported from components/Common/Pricing.vue"
   },
+  "CategoriesDetails": {
+    "description": "Auto imported from components/categories/categories-details.vue"
+  },
+  "CategoriesFeaturedCategoriesDetails": {
+    "description": "Auto imported from components/categories/featured-categories-details.vue"
+  },
+  "CategoriesGlossaryCategoriesDetails": {
+    "description": "Auto imported from components/categories/glossary-categories-details.vue"
+  },
+  "CategoriesSuccessStoryCategoriesDetails": {
+    "description": "Auto imported from components/categories/success-story-categories-details.vue"
+  },
   "ContactUsPageHeader": {
     "description": "Auto imported from components/ContactUs/PageHeader.vue"
+  },
+  "CookiesCookie": {
+    "description": "Auto imported from components/Cookies/Cookie.vue"
   },
   "CPQFreeTrial": {
     "description": "Auto imported from components/CPQ/FreeTrial.vue"
@@ -115,9 +118,6 @@
   },
   "CPQWhatisCPQService": {
     "description": "Auto imported from components/CPQ/WhatisCPQService.vue"
-  },
-  "CookiesCookie": {
-    "description": "Auto imported from components/Cookies/Cookie.vue"
   },
   "CPQIntegrationChallengesAndTrack": {
     "description": "Auto imported from components/CPQIntegration/ChallengesAndTrack.vue"
@@ -140,20 +140,20 @@
   "CPQIntegrationStats": {
     "description": "Auto imported from components/CPQIntegration/Stats.vue"
   },
-  "Ebook": {
-    "description": "Auto imported from components/ebook/Ebook.vue"
-  },
   "EbookDetails": {
-    "description": "Auto imported from components/ebook/EbookDetails.vue"
+    "description": "Auto imported from components/EbookFolder/EbookDetails.vue"
   },
-  "FreshworksHowLocalizedDeal": {
-    "description": "Auto imported from components/Freshworks/HowLocalizedDeal.vue"
+  "EbookMain": {
+    "description": "Auto imported from components/EbookFolder/EbookMain.vue"
   },
-  "FreshworksKeyBenefitsof": {
-    "description": "Auto imported from components/Freshworks/KeyBenefitsof.vue"
+  "GlossaryDetails": {
+    "description": "Auto imported from components/GlossaryFolder/GlossaryDetails.vue"
   },
-  "FreshworksMainBannerLoacalized": {
-    "description": "Auto imported from components/Freshworks/MainBannerLoacalized.vue"
+  "GlossaryPage": {
+    "description": "Auto imported from components/GlossaryFolder/GlossaryPage.vue"
+  },
+  "GlossaryFolderPageTitle": {
+    "description": "Auto imported from components/GlossaryFolder/PageTitle.vue"
   },
   "HubSpotHowLocalizedDeal": {
     "description": "Auto imported from components/HubSpot/HowLocalizedDeal.vue"
@@ -163,36 +163,6 @@
   },
   "HubSpotMainBannerLoacalized": {
     "description": "Auto imported from components/HubSpot/MainBannerLoacalized.vue"
-  },
-  "GlossaryDetails": {
-    "description": "Auto imported from components/glossary/GlossaryDetails.vue"
-  },
-  "GlossaryPage": {
-    "description": "Auto imported from components/glossary/GlossaryPage.vue"
-  },
-  "GlossaryPageTitle": {
-    "description": "Auto imported from components/glossary/PageTitle.vue"
-  },
-  "LightningFastQuoteApprovalsAchieveSalesExcellence": {
-    "description": "Auto imported from components/LightningFastQuoteApprovals/AchieveSalesExcellence.vue"
-  },
-  "LightningFastQuoteApprovalsInsights": {
-    "description": "Auto imported from components/LightningFastQuoteApprovals/ApprovalsInsights.vue"
-  },
-  "LightningFastQuoteApprovalsBannerLighteningFast": {
-    "description": "Auto imported from components/LightningFastQuoteApprovals/BannerLighteningFast.vue"
-  },
-  "LightningFastQuoteApprovalsEffortlessAutomation": {
-    "description": "Auto imported from components/LightningFastQuoteApprovals/EffortlessAutomation.vue"
-  },
-  "LightningFastQuoteApprovalsFreeTrial": {
-    "description": "Auto imported from components/LightningFastQuoteApprovals/FreeTrial.vue"
-  },
-  "LightningFastQuoteApprovalsModesofApprovals": {
-    "description": "Auto imported from components/LightningFastQuoteApprovals/ModesofApprovals.vue"
-  },
-  "LightningFastQuoteApprovalsRoutingCapabilitiess": {
-    "description": "Auto imported from components/LightningFastQuoteApprovals/RoutingCapabilitiess.vue"
   },
   "IndexPageAdditionalFeature": {
     "description": "Auto imported from components/IndexPage/AdditionalFeature.vue"
@@ -224,6 +194,36 @@
   "IndexPageWithOurSubscrip": {
     "description": "Auto imported from components/IndexPage/WithOurSubscrip.vue"
   },
+  "FreshworksHowLocalizedDeal": {
+    "description": "Auto imported from components/Freshworks/HowLocalizedDeal.vue"
+  },
+  "FreshworksKeyBenefitsof": {
+    "description": "Auto imported from components/Freshworks/KeyBenefitsof.vue"
+  },
+  "FreshworksMainBannerLoacalized": {
+    "description": "Auto imported from components/Freshworks/MainBannerLoacalized.vue"
+  },
+  "LightningFastQuoteApprovalsAchieveSalesExcellence": {
+    "description": "Auto imported from components/LightningFastQuoteApprovals/AchieveSalesExcellence.vue"
+  },
+  "LightningFastQuoteApprovalsInsights": {
+    "description": "Auto imported from components/LightningFastQuoteApprovals/ApprovalsInsights.vue"
+  },
+  "LightningFastQuoteApprovalsBannerLighteningFast": {
+    "description": "Auto imported from components/LightningFastQuoteApprovals/BannerLighteningFast.vue"
+  },
+  "LightningFastQuoteApprovalsEffortlessAutomation": {
+    "description": "Auto imported from components/LightningFastQuoteApprovals/EffortlessAutomation.vue"
+  },
+  "LightningFastQuoteApprovalsFreeTrial": {
+    "description": "Auto imported from components/LightningFastQuoteApprovals/FreeTrial.vue"
+  },
+  "LightningFastQuoteApprovalsModesofApprovals": {
+    "description": "Auto imported from components/LightningFastQuoteApprovals/ModesofApprovals.vue"
+  },
+  "LightningFastQuoteApprovalsRoutingCapabilitiess": {
+    "description": "Auto imported from components/LightningFastQuoteApprovals/RoutingCapabilitiess.vue"
+  },
   "LocalizedDealDocumentsEmpoerGlobal": {
     "description": "Auto imported from components/LocalizedDealDocuments/EmpoerGlobal.vue"
   },
@@ -248,6 +248,9 @@
   "LoginpageSignUpHeader": {
     "description": "Auto imported from components/loginpage/SignUpHeader.vue"
   },
+  "PrivacyPolicy": {
+    "description": "Auto imported from components/PrivacyPolicy/PrivacyPolicy.vue"
+  },
   "MicrosoftDynamicsHowLocalizedDeal": {
     "description": "Auto imported from components/Microsoft-Dynamics/HowLocalizedDeal.vue"
   },
@@ -257,15 +260,6 @@
   "MicrosoftDynamicsMainBannerLoacalized": {
     "description": "Auto imported from components/Microsoft-Dynamics/MainBannerLoacalized.vue"
   },
-  "RequestDemoPageHeader": {
-    "description": "Auto imported from components/RequestDemo/PageHeader.vue"
-  },
-  "RequestDemoTransformDealsWith": {
-    "description": "Auto imported from components/RequestDemo/TransformDealsWith.vue"
-  },
-  "PrivacyPolicy": {
-    "description": "Auto imported from components/PrivacyPolicy/PrivacyPolicy.vue"
-  },
   "SalesforceHowLocalizedDeal": {
     "description": "Auto imported from components/Salesforce/HowLocalizedDeal.vue"
   },
@@ -274,6 +268,12 @@
   },
   "SalesforceMainBannerLoacalized": {
     "description": "Auto imported from components/Salesforce/MainBannerLoacalized.vue"
+  },
+  "RequestDemoPageHeader": {
+    "description": "Auto imported from components/RequestDemo/PageHeader.vue"
+  },
+  "RequestDemoTransformDealsWith": {
+    "description": "Auto imported from components/RequestDemo/TransformDealsWith.vue"
   },
   "SecurityFreeTrial": {
     "description": "Auto imported from components/Security/FreeTrial.vue"

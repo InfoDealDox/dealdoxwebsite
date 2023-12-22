@@ -5,9 +5,13 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="new-app-main-banner-wrap-content heading-title">
                         <h1>Thank you, We’ll contact you shortly.</h1>
-                        <p>In the mean time you can enhance your knowledge by reading our <span
-                                class="sub-title-faq"><NuxtLink to="/blogs">
-                                    blogs</NuxtLink></span></p>
+                        <p>In the mean time you can enhance your knowledge by reading our
+                            <span class="sub-title-faq">
+                                <NuxtLink to="/blogs">
+                                    <strong>Blogs</strong>
+                                </NuxtLink>
+                            </span>
+                        </p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 pt-100">
