@@ -17,7 +17,7 @@
 
                     <div class="collapse navbar-collapse" :class="{ show: active }">
                         <ul class="navbar-nav">
-                            <li class="nav-item"><a href="/#" class="toggle nav-link">Homee</a>
+                            <li class="nav-item"><a href="/#" class="toggle nav-link">Home</a>
                             </li>
 
                             <li class="nav-item"><a href="#" class="dropdown-toggle nav-link">Features</a>
