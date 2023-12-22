@@ -682,6 +682,22 @@ Widget Area CSS
   background-position: center center !important;
 }
 
+.widget-area .widget_jexa_posts_thumb .item .thumb .fullimage.bg1 {
+  background-image: url(../../images/blog/blog4.jpg);
+}
+
+.widget-area .widget_jexa_posts_thumb .item .thumb .fullimage.bg2 {
+  background-image: url(../../images/blog/blog5.jpg);
+}
+
+.widget-area .widget_jexa_posts_thumb .item .thumb .fullimage.bg3 {
+  background-image: url(../../images/blog/blog6.jpg);
+}
+
+.widget-area .widget_jexa_posts_thumb .item .thumb .fullimage.bg4 {
+  background-image: url(../../images/blog/blog7.jpg);
+}
+
 .widget-area .widget_jexa_posts_thumb .item .thumb::before, .widget-area .widget_jexa_posts_thumb .item .thumb::after {
   top: 50%;
   left: 50%;

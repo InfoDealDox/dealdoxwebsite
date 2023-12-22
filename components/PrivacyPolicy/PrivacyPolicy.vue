@@ -2,8 +2,8 @@
     <div class="privacy-policy-area ptb-100">
         <div class="container">
             <div class="privacy-policy-content">
-                <h6> <a href="https://www.dealdox.io/privacy-policy">Privacy Policy</a> for IT Consulting and Solutions Organization </h6>
-                <p class="text-justify" >At our DealDox Pvt Ltd organization, we are committed to protecting the privacy and <a href="https://www.dealdox.io/security">security</a> of our
+                <h6>Privacy Policy for IT Consulting and Solutions Organization </h6>
+                <p class="text-justify" >At our DealDox Pvt Ltd organization, we are committed to protecting the privacy and security of our
                     clients' and website visitors' personal information. This privacy policy outlines how we collect, use,
                     and protect your personal information.</p>
 

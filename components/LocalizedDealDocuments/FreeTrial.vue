@@ -7,8 +7,7 @@
                         <div class="did-you-know">
                             <img src="../../assets/images/do-you-know-tag.svg" alt="image">
                         </div>
-                        <h3>With the multilingual document creation capability of <a
-                             href="https://www.dealdox.io">DealDox</a> CPQ, you can confidently navigate
+                        <h3>With the multilingual document creation capability of DealDox CPQ, you can confidently navigate
                             international markets, expand your customer base, and close deals faster. By speaking your
                             prospects' language, you demonstrate a deep understanding of their needs, culture, and
                             preferences, elevating your sales effectiveness to a whole new level. </h3>

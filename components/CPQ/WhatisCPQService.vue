@@ -14,8 +14,8 @@
                 <p> CPQ Services is a sales tool to generate quick quotes accurately. It caters to businesses of all sizes,
                     including small, medium, and large enterprises. CPQ for Services automates the presales process of
                     configuring the pricing of services. With CPQ software solutions, you can generate quick and accurate
-                    quotes, SOW and proposals in minutes! CPQ tools enable automation and simplify the <a
-                        href="https://www.dealdox.io/glossary/quote-to-cash-solution">quote-to-cash </a>process.
+                    quotes, SOW and proposals in minutes! CPQ tools enable automation and simplify the quote-to-cash process
+                    eliminating manual and error-prone procedures.
                 </p>
             </div>
 
@@ -53,8 +53,7 @@
                             <i class="ri-leaf-line"></i>
                         </div> -->
                         <h3>Finance</h3>
-                        <p class="text-left">Boost <a href="https://www.dealdox.io/glossary/accelerate-revenue-growth">revenue growth</a>
-                            with enhanced discount Governance, streamlined Quote
+                        <p class="text-left">Boost revenue growth with enhanced discount Governance, streamlined Quote
                             Version control, and advanced approval workflows.</p>
                     </div>
                 </div>

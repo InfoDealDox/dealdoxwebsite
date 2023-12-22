@@ -12,10 +12,10 @@ const _361e3afa = () => interopDefault(import('..\\pages\\contact-us.vue' /* web
 const _2207c3b6 = () => interopDefault(import('..\\pages\\cookie-preference.vue' /* webpackChunkName: "pages/cookie-preference" */))
 const _7c511b12 = () => interopDefault(import('..\\pages\\cpq-integrations.vue' /* webpackChunkName: "pages/cpq-integrations" */))
 const _5f30fa9c = () => interopDefault(import('..\\pages\\demo.vue' /* webpackChunkName: "pages/demo" */))
-const _78c50918 = () => interopDefault(import('..\\pages\\ebooks.vue' /* webpackChunkName: "pages/ebooks" */))
+const _0631178f = () => interopDefault(import('..\\pages\\ebook.vue' /* webpackChunkName: "pages/ebook" */))
 const _a294bd52 = () => interopDefault(import('..\\pages\\ForgetPassword.vue' /* webpackChunkName: "pages/ForgetPassword" */))
 const _5452ec81 = () => interopDefault(import('..\\pages\\freshworks-cpq-integration.vue' /* webpackChunkName: "pages/freshworks-cpq-integration" */))
-const _373f536a = () => interopDefault(import('..\\pages\\glossaries.vue' /* webpackChunkName: "pages/glossaries" */))
+const _7e7d85ed = () => interopDefault(import('..\\pages\\glossary.vue' /* webpackChunkName: "pages/glossary" */))
 const _3967d854 = () => interopDefault(import('..\\pages\\hubspot-cpq-integration.vue' /* webpackChunkName: "pages/hubspot-cpq-integration" */))
 const _13712f78 = () => interopDefault(import('..\\pages\\localized-deal-documents.vue' /* webpackChunkName: "pages/localized-deal-documents" */))
 const _ad8a7eac = () => interopDefault(import('..\\pages\\login.vue' /* webpackChunkName: "pages/login" */))
@@ -34,15 +34,15 @@ const _f1ac1aec = () => interopDefault(import('..\\pages\\success-stories.vue' /
 const _c2afc3d6 = () => interopDefault(import('..\\pages\\sugarcrm-cpq-integration.vue' /* webpackChunkName: "pages/sugarcrm-cpq-integration" */))
 const _aea1d934 = () => interopDefault(import('..\\pages\\terms-of-use.vue' /* webpackChunkName: "pages/terms-of-use" */))
 const _0e455dfd = () => interopDefault(import('..\\pages\\thank-you.vue' /* webpackChunkName: "pages/thank-you" */))
-const _4c7b2f39 = () => interopDefault(import('..\\pages\\blog\\_slug\\index.vue' /* webpackChunkName: "pages/blog/_slug/index" */))
+const _35a8c86e = () => interopDefault(import('..\\pages\\blog-details\\_slug\\index.vue' /* webpackChunkName: "pages/blog-details/_slug/index" */))
 const _6842074a = () => interopDefault(import('..\\pages\\category-details\\_slug\\index.vue' /* webpackChunkName: "pages/category-details/_slug/index" */))
-const _256ec552 = () => interopDefault(import('..\\pages\\ebook\\_slug\\index.vue' /* webpackChunkName: "pages/ebook/_slug/index" */))
+const _fda58ee8 = () => interopDefault(import('..\\pages\\ebook-details\\_slug\\index.vue' /* webpackChunkName: "pages/ebook-details/_slug/index" */))
 const _77db16df = () => interopDefault(import('..\\pages\\featured-blog-details\\_slug\\index.vue' /* webpackChunkName: "pages/featured-blog-details/_slug/index" */))
 const _da54958a = () => interopDefault(import('..\\pages\\featured-category-details\\_slug\\index.vue' /* webpackChunkName: "pages/featured-category-details/_slug/index" */))
 const _f491ed6a = () => interopDefault(import('..\\pages\\glossary-category-details\\_slug\\index.vue' /* webpackChunkName: "pages/glossary-category-details/_slug/index" */))
-const _36cd8f35 = () => interopDefault(import('..\\pages\\glossary\\_slug\\index.vue' /* webpackChunkName: "pages/glossary/_slug/index" */))
+const _06896c6a = () => interopDefault(import('..\\pages\\glossary-details\\_slug\\index.vue' /* webpackChunkName: "pages/glossary-details/_slug/index" */))
 const _4814490e = () => interopDefault(import('..\\pages\\success-stories-category-details\\_slug\\index.vue' /* webpackChunkName: "pages/success-stories-category-details/_slug/index" */))
-const _7e4bc4f4 = () => interopDefault(import('..\\pages\\success-story\\_slug\\index.vue' /* webpackChunkName: "pages/success-story/_slug/index" */))
+const _7347d547 = () => interopDefault(import('..\\pages\\success-stories-details\\_slug\\index.vue' /* webpackChunkName: "pages/success-stories-details/_slug/index" */))
 const _40d9c4da = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
@@ -89,9 +89,9 @@ export const routerOptions = {
     component: _5f30fa9c,
     name: "demo"
   }, {
-    path: "/ebooks",
-    component: _78c50918,
-    name: "ebooks"
+    path: "/ebook",
+    component: _0631178f,
+    name: "ebook"
   }, {
     path: "/ForgetPassword",
     component: _a294bd52,
@@ -101,9 +101,9 @@ export const routerOptions = {
     component: _5452ec81,
     name: "freshworks-cpq-integration"
   }, {
-    path: "/glossaries",
-    component: _373f536a,
-    name: "glossaries"
+    path: "/glossary",
+    component: _7e7d85ed,
+    name: "glossary"
   }, {
     path: "/hubspot-cpq-integration",
     component: _3967d854,
@@ -177,17 +177,17 @@ export const routerOptions = {
     component: _0e455dfd,
     name: "thank-you"
   }, {
-    path: "/blog/:slug",
-    component: _4c7b2f39,
-    name: "blog-slug"
+    path: "/blog-details/:slug",
+    component: _35a8c86e,
+    name: "blog-details-slug"
   }, {
     path: "/category-details/:slug",
     component: _6842074a,
     name: "category-details-slug"
   }, {
-    path: "/ebook/:slug",
-    component: _256ec552,
-    name: "ebook-slug"
+    path: "/ebook-details/:slug",
+    component: _fda58ee8,
+    name: "ebook-details-slug"
   }, {
     path: "/featured-blog-details/:slug",
     component: _77db16df,
@@ -201,17 +201,17 @@ export const routerOptions = {
     component: _f491ed6a,
     name: "glossary-category-details-slug"
   }, {
-    path: "/glossary/:slug",
-    component: _36cd8f35,
-    name: "glossary-slug"
+    path: "/glossary-details/:slug",
+    component: _06896c6a,
+    name: "glossary-details-slug"
   }, {
     path: "/success-stories-category-details/:slug",
     component: _4814490e,
     name: "success-stories-category-details-slug"
   }, {
-    path: "/success-story/:slug",
-    component: _7e4bc4f4,
-    name: "success-story-slug"
+    path: "/success-stories-details/:slug",
+    component: _7347d547,
+    name: "success-stories-details-slug"
   }, {
     path: "/",
     component: _40d9c4da,

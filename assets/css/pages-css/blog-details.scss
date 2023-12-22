@@ -616,6 +616,18 @@ Widget Area CSS
                         size: cover !important;
                         position: center center !important;
                     };
+                    &.bg1 {
+                        background-image: url(../../images/blog/blog4.jpg);
+                    }
+                    &.bg2 {
+                        background-image: url(../../images/blog/blog5.jpg);
+                    }
+                    &.bg3 {
+                        background-image: url(../../images/blog/blog6.jpg);
+                    }
+                    &.bg4 {
+                        background-image: url(../../images/blog/blog7.jpg);
+                    }
                 }
                 &::before, &::after {
                     top: 50%;

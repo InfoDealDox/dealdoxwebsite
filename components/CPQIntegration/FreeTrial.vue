@@ -7,8 +7,7 @@
                         <div class="did-you-know">
                             <img src="../../assets/images/do-you-know-tag.svg" alt="image">
                         </div>
-                        <h3><a href="https://www.dealdox.io/services-cpq">CPQ </a>
-                            allows for real-time access to product catalogues, pricing information, and inventory data,
+                        <h3>CPQ allows for real-time access to product catalogues, pricing information, and inventory data,
                             ensuring accurate and consistent quotes. It also enables seamless collaboration between sales
                             teams, partners, and customers, leading to faster sales cycles and improved customer
                             satisfaction. <br>Supercharge Your Sales Process and Get started free onboarding today!</h3>

@@ -9,14 +9,14 @@
                 <div class="col-lg-4 col-md-6" v-for="blog in blogs.slice(0, 3)" :key="blog.id">
                     <div class="single-blog-post bg-white">
                         <div class="image">
-                            <NuxtLink :to="'/blog/' + blog.attributes.slug" class="d-block">
+                            <NuxtLink :to="'/blog-details/' + blog.attributes.slug" class="d-block">
                                 <img :src="blog.attributes.image.data.attributes.url" alt="blog">
                             </NuxtLink>
                             <!-- <NuxtLink to="/blog-grid" class="tag">{{ blog.attributes.tag }}</NuxtLink> -->
                         </div>
                         <div class="content">
                             <h3>
-                                <NuxtLink :to="'/blog/' + blog.attributes.slug">
+                                <NuxtLink :to="'/blog-details/' + blog.attributes.slug">
                                     {{ blog.attributes.title }}
                                 </NuxtLink>
                             </h3>

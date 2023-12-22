@@ -14,8 +14,7 @@
                         <h3>Accelerate Deals, Delight Buyers, and Achieve Outstanding Success Rates</h3>
                         <p>Salesforce customers can speed up their transactions by controlling their complete deal cycle
                             within their CRM. With real-time insights on your prospect's engagements and degree of interest,
-                            DealDox's reliable <a href="https://www.dealdox.io/services-cpq">CPQ </a> enables quotations
-                            easier and faster.</p>
+                            DealDox's reliable CPQ enables quotations easier and faster.</p>
                     </div>
                 </div>
             </div>
@@ -62,8 +61,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="features-item with-border">
                         <div class="about-img">
-                            <img src="../../assets/images/Salesforce/Drive Operational Excellence.png" data-aos="fade-up"
-                                alt="about">
+                            <img src="../../assets/images/Salesforce/Drive Operational Excellence.png" data-aos="fade-up" alt="about">
                         </div>
                     </div>
                 </div>
@@ -72,8 +70,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="features-item with-border">
                         <div class="about-img">
-                            <img src="../../assets/images/Salesforce/Deep Dive into Customer Insights.png"
-                                data-aos="fade-up" alt="about">
+                            <img src="../../assets/images/Salesforce/Deep Dive into Customer Insights.png" data-aos="fade-up" alt="about">
                         </div>
                     </div>
                 </div>
@@ -140,8 +137,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="features-item with-border">
                         <div class="about-img">
-                            <img src="../../assets/images/Salesforce/Empower Your Business Collaborations and Maximize Deal Success.png"
-                                data-aos="fade-up" alt="about">
+                            <img src="../../assets/images/Salesforce/Empower Your Business Collaborations and Maximize Deal Success.png" data-aos="fade-up" alt="about">
                         </div>
                     </div>
                 </div>
@@ -150,8 +146,8 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="features-item with-border">
                             <div class="about-img">
-                                <img src="../../assets/images/Salesforce/Achieve Results Faster Than Ever.png"
-                                    data-aos="fade-up" alt="about">
+                                <img src="../../assets/images/Salesforce/Achieve Results Faster Than Ever.png" data-aos="fade-up"
+                                    alt="about">
                             </div>
                         </div>
                     </div>

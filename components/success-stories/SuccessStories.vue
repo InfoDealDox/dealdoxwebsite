@@ -26,13 +26,13 @@
                 <div class="col-lg-4 col-md-6" v-for="successstory in successstories" :key="successstory.id">
                     <div class="single-blog-post">
                         <div class="image">
-                            <NuxtLink :to="'/success-story/' + successstory.attributes.slug" class="d-block">
+                            <NuxtLink :to="'/success-stories-details/' + successstory.attributes.slug" class="d-block">
                                 <img :src="successstory.attributes.image.data.attributes.url" alt="blog">
                             </NuxtLink>
                         </div>
                         <div class="content">
                             <h3>
-                                <NuxtLink :to="'/success-story/' + successstory.attributes.slug">
+                                <NuxtLink :to="'/success-stories-details/' + successstory.attributes.slug">
                                     {{ successstory.attributes.title }}
                                 </NuxtLink>
                             </h3>

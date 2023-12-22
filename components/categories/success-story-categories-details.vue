@@ -11,7 +11,7 @@
                     :key="successstory.id">
                     <div class="single-blog-post bg-white">
                         <div class="image">
-                            <NuxtLink :to="'/success-stories/' + successstory.attributes.slug" class="d-block">
+                            <NuxtLink :to="'/success-stories-details/' + successstory.attributes.slug" class="d-block">
                                 <img :src="successstory?.attributes?.image?.data?.attributes?.url" alt="blog">
                             </NuxtLink>
                             <!-- <NuxtLink to="/success-stories-details" class="tag">{{ successstory?.attributes?.tag
@@ -19,7 +19,7 @@
                         </div>
                         <div class="content">
                             <h3>
-                                <NuxtLink :to="'/success-stories/' + successstory.attributes.slug">
+                                <NuxtLink :to="'/success-stories-details/' + successstory.attributes.slug">
                                     {{ successstory.attributes.title }}
                                 </NuxtLink>
                             </h3>

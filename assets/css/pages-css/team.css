@@ -33,6 +33,50 @@ Team Area CSS
   background-size: cover;
 }
 
+.single-team-box .image div.bg-1 {
+  background-image: url(../../images/team/team1.jpg);
+}
+
+.single-team-box .image div.bg-2 {
+  background-image: url(../../images/team/team2.jpg);
+}
+
+.single-team-box .image div.bg-3 {
+  background-image: url(../../images/team/team3.jpg);
+}
+
+.single-team-box .image div.bg-4 {
+  background-image: url(../../images/team/team4.jpg);
+}
+
+.single-team-box .image div.bg-5 {
+  background-image: url(../../images/team/team5.jpg);
+}
+
+.single-team-box .image div.bg-6 {
+  background-image: url(../../images/team/team6.jpg);
+}
+
+.single-team-box .image div.bg-7 {
+  background-image: url(../../images/team/team7.jpg);
+}
+
+.single-team-box .image div.bg-8 {
+  background-image: url(../../images/team/team8.jpg);
+}
+
+.single-team-box .image div.bg-9 {
+  background-image: url(../../images/team/team9.jpg);
+}
+
+.single-team-box .image div.bg-10 {
+  background-image: url(../../images/team/team10.jpg);
+}
+
+.single-team-box .image div.bg-11 {
+  background-image: url(../../images/team/team11.jpg);
+}
+
 .single-team-box .content {
   margin-top: 45px;
 }

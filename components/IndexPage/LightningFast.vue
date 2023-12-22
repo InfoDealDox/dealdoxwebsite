@@ -17,9 +17,7 @@
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p class="with-top-border">Expedites <a
-                                            href="https://www.dealdox.io/approval-software">multi-level approval</a>
-                                        workflow by eliminating bottlenecks</p>
+                                    <p class="with-top-border">Expedites multi-level approval workflow by eliminating bottlenecks</p>
                                 </li>
                                 <li>
                                     <div class="icon">
@@ -37,8 +35,7 @@
 
                     <div class="col-lg-6 col-md-12">
                         <div class="software-integrations-list">
-                            <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694696753/lfqa-banner_jscbk9.png"
-                                alt="border">
+                            <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694696753/lfqa-banner_jscbk9.png" alt="border">
                         </div>
                     </div>
                 </div>

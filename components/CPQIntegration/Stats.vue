@@ -2,10 +2,9 @@
     <div class="key-features-area bg-#FAFAFA pt-100">
         <div class="container">
             <div class="section-titles title-with-bg-text">
-                <h2>Bridge the Gap between CRM and ERP</h2>
+                <h2>Bridge the gap between CRM and ERP.</h2>
                 <p>DealDox is designed to automate the sales quoting process and close more deals with ease and confidence.
-                    Our <a href="https://www.dealdox.io/quoting-software">CPQ for Services</a>
-                    allows you to generate detailed statements of work, proposals, quotes, and
+                    Our CPQ for Services allows you to generate detailed statements of work, proposals, quotes, and
                     documents swiftly, ensuring lightning-fast speed and unmatched accuracy.
                 </p>
             </div>

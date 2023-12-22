@@ -8,8 +8,7 @@
                             <div class="features-content-improve-sales">
                                 <h2>Start Your Free Onboarding Now!</h2>
                                 <h6>No credit card or software installation is required.</h6>
-                                <h5>With <strong> <a href="https://www.dealdox.io"> Advanced Quoting Solution</a>
-                                        , Beyond Invoicing</strong> you can benefit from:
+                                <h5>With <strong>Advanced Quoting Solution, Beyond Invoicing</strong> you can benefit from:
                                 </h5>
                                 <div class="features-content">
                                     <ul class="features-list">
@@ -17,10 +16,7 @@
                                             <div class="icon">
                                                 <i class="ri-check-line"></i>
                                             </div>
-                                            <h6 class="with-top-border-subscription"> <a
-                                                    href="https://www.dealdox.io/glossary/guided-selling-solutions">Guided
-                                                    selling approach</a>
-                                                to empower
+                                            <h6 class="with-top-border-subscription">Guided selling approach to empower
                                                 sales reps, leaders, and other teams
                                                 for efficient sales processes and optimized decision-making.</h6>
                                         </li>
@@ -46,23 +42,20 @@
                                             <div class="icon">
                                                 <i class="ri-check-line"></i>
                                             </div>
-                                            <h6 class="with-top-border-subscription">Streamline single or <a
-                                                    href="https://www.dealdox.io/approval-software">multi-level
-                                                    approvals</a>
-                                                faster.</h6>
+                                            <h6 class="with-top-border-subscription">Streamline single or multi-level
+                                                approvals faster.</h6>
                                         </li>
 
                                         <li>
                                             <div class="icon">
                                                 <i class="ri-check-line"></i>
                                             </div>
-                                            <h6 class="with-top-border-subscription">Get your <a
-                                                    href="https://www.dealdox.io/">deal documents in your
-                                                    local language,</a> regardless of your country.
+                                            <h6 class="with-top-border-subscription">Get your deal documents in your
+                                                local language, regardless of your
+                                                country.
                                             </h6>
                                         </li>
-                                        <h5>Question? Talk to an expert: <span class="sub-title-faq">+91 8431995645</span>
-                                        </h5>
+                                        <h5>Question? Talk to an expert: <span class="sub-title-faq">8431995645</span></h5>
                                     </ul>
                                 </div>
                             </div>
@@ -76,7 +69,8 @@
                                     <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8"
                                         method="POST">
                                         <input name="oid" type="hidden" value="00D2v000003PByK" />
-                                        <input name="retURL" type="hidden" value="https://dealdox.io/thank-you" />
+                                        <input name="retURL" type="hidden"
+                                            value="https://dealdox.io/thank-you" />
                                         <div class="row">
                                             <div class="col-lg-6 col-md-6 col-sm-6">
                                                 <div class="form-group">
@@ -89,8 +83,8 @@
                                             <div class="col-lg-6 col-md-6 col-sm-6">
                                                 <div class="form-group">
                                                     <p>Last Name</p>
-                                                    <input type="text" maxlength="40" name="last_name" class="form-control"
-                                                        id="last_name" placeholder="Eg: Jhon">
+                                                    <input type="text" maxlength="40" name="last_name" required
+                                                        class="form-control" id="last_name" placeholder="Eg: Jhon">
                                                 </div>
                                             </div>
 
@@ -98,13 +92,13 @@
                                                 <p>Phone Number</p>
                                                 <input type="text" v-model="phoneNumber" @input="validatePhoneNumber"
                                                     @keypress="allowOnlyNumbers" :maxlength="maxPhoneNumberLength"
-                                                    name="phone" class="form-control" id="phone" maxlength="15"
+                                                    name="phone" required class="form-control" id="phone" maxlength="15"
                                                     placeholder="Eg: 123456789012345" :title="phoneValidationMessage" />
                                             </div>
 
                                             <div class="col-lg-6 col-md-6 col-sm-6">
                                                 <div class="form-group">
-                                                    <p>Email</p>
+                                                    <p>e-mail</p>
                                                     <input type="email" maxlength="40" name="email" required
                                                         class="form-control" id="email" placeholder="Eg: abc@gmail.com">
                                                 </div>
@@ -113,23 +107,23 @@
                                             <div class="col-lg-6 col-md-6 col-sm-6">
                                                 <div class="form-group">
                                                     <p>Company</p>
-                                                    <input type="text" maxlength="40" name="company" class="form-control"
-                                                        id="company" placeholder="Eg: ABC">
+                                                    <input type="text" maxlength="40" name="company" required
+                                                        class="form-control" id="company" placeholder="Eg: ABC">
                                                 </div>
                                             </div>
 
                                             <div class="col-lg-6 col-md-6 col-sm-6">
                                                 <div class="form-group">
                                                     <p>Country</p>
-                                                    <input type="country" maxlength="40" name="country" class="form-control"
-                                                        id="country" placeholder="Eg: India">
+                                                    <input type="text" maxlength="40" name="country" required
+                                                        class="form-control" id="country" placeholder="Eg: India">
                                                 </div>
                                             </div>
 
                                             <div class="col-lg-12 col-md-12 col-sm-12">
                                                 <div class="form-group">
                                                     <p>Leave your message</p>
-                                                    <textarea name="00N2v00000XQu8f" id="00N2v00000XQu8f"
+                                                    <textarea name="00N2v00000XQu8f" id="00N2v00000XQu8f" required
                                                         class="form-control" cols="30" rows="6"
                                                         placeholder="This just a dummy message! please dont mind"></textarea>
                                                 </div>
@@ -149,8 +143,7 @@
                                             <p> By registering, you confirm that you agree to the storing and processing of
                                                 your personal data by DealDox as described in the<NuxtLink
                                                     to="/privacy-policy">
-                                                    Privacy Statement.</NuxtLink>
-                                            </p>
+                                                    Privacy Statement.</NuxtLink> </p>
 
                                             <div style="display: none;">
                                                 <label for="Contact_us__c">Contact</label>
@@ -203,16 +196,16 @@ export default {
     methods: {
 
         validatePhoneNumber() {
-            // Remove any non-numeric characters from the phone number
-            this.phoneNumber = this.phoneNumber.replace(/\D/g, '');
-        },
-        allowOnlyNumbers(event) {
-            // Allow only numeric digits (0-9) in the input field
-            const charCode = event.which ? event.which : event.keyCode;
-            if (charCode > 31 && (charCode < 48 || charCode > 57)) {
-                event.preventDefault();
-            }
-        },
+      // Remove any non-numeric characters from the phone number
+      this.phoneNumber = this.phoneNumber.replace(/\D/g, '');
+    },
+    allowOnlyNumbers(event) {
+      // Allow only numeric digits (0-9) in the input field
+      const charCode = event.which ? event.which : event.keyCode;
+      if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+        event.preventDefault();
+      }
+    },
         submitForm() {
             const response = grecaptcha.getResponse();
 
