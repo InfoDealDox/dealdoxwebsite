@@ -8,17 +8,14 @@
   "AboutUsStats": {
     "description": "Auto imported from components/AboutUs/Stats.vue"
   },
-  "BlogsBlog": {
-    "description": "Auto imported from components/blogs/Blog.vue"
+  "AuthenticationForgetPassword": {
+    "description": "Auto imported from components/Authentication/ForgetPassword.vue"
   },
-  "BlogsBlogDetails": {
-    "description": "Auto imported from components/blogs/BlogDetails.vue"
+  "AuthenticationSignIn": {
+    "description": "Auto imported from components/Authentication/SignIn.vue"
   },
-  "BlogsFeaturedBlogDetails": {
-    "description": "Auto imported from components/blogs/FeaturedBlogDetails.vue"
-  },
-  "BlogsLatestBlog": {
-    "description": "Auto imported from components/blogs/LatestBlog.vue"
+  "AuthenticationSignUp": {
+    "description": "Auto imported from components/Authentication/SignUp.vue"
   },
   "AutomatedQuotesGenerationAccelerateYourSales": {
     "description": "Auto imported from components/AutomatedQuotesGeneration/AccelerateYourSales.vue"
@@ -35,14 +32,17 @@
   "AutomatedQuotesGenerationYourBusiness": {
     "description": "Auto imported from components/AutomatedQuotesGeneration/YourBusiness.vue"
   },
-  "AuthenticationForgetPassword": {
-    "description": "Auto imported from components/Authentication/ForgetPassword.vue"
+  "BlogsBlog": {
+    "description": "Auto imported from components/blogs/Blog.vue"
   },
-  "AuthenticationSignIn": {
-    "description": "Auto imported from components/Authentication/SignIn.vue"
+  "BlogsBlogDetails": {
+    "description": "Auto imported from components/blogs/BlogDetails.vue"
   },
-  "AuthenticationSignUp": {
-    "description": "Auto imported from components/Authentication/SignUp.vue"
+  "BlogsFeaturedBlogDetails": {
+    "description": "Auto imported from components/blogs/FeaturedBlogDetails.vue"
+  },
+  "BlogsLatestBlog": {
+    "description": "Auto imported from components/blogs/LatestBlog.vue"
   },
   "CategoriesDetails": {
     "description": "Auto imported from components/categories/categories-details.vue"
@@ -119,12 +119,6 @@
   "CPQWhatisCPQService": {
     "description": "Auto imported from components/CPQ/WhatisCPQService.vue"
   },
-  "EbookDetails": {
-    "description": "Auto imported from components/EbookFolder/EbookDetails.vue"
-  },
-  "EbookMain": {
-    "description": "Auto imported from components/EbookFolder/EbookMain.vue"
-  },
   "CPQIntegrationChallengesAndTrack": {
     "description": "Auto imported from components/CPQIntegration/ChallengesAndTrack.vue"
   },
@@ -146,6 +140,12 @@
   "CPQIntegrationStats": {
     "description": "Auto imported from components/CPQIntegration/Stats.vue"
   },
+  "EbookDetails": {
+    "description": "Auto imported from components/EbookFolder/EbookDetails.vue"
+  },
+  "EbookMain": {
+    "description": "Auto imported from components/EbookFolder/EbookMain.vue"
+  },
   "FreshworksHowLocalizedDeal": {
     "description": "Auto imported from components/Freshworks/HowLocalizedDeal.vue"
   },
@@ -155,15 +155,6 @@
   "FreshworksMainBannerLoacalized": {
     "description": "Auto imported from components/Freshworks/MainBannerLoacalized.vue"
   },
-  "HubSpotHowLocalizedDeal": {
-    "description": "Auto imported from components/HubSpot/HowLocalizedDeal.vue"
-  },
-  "HubSpotKeyBenefitsof": {
-    "description": "Auto imported from components/HubSpot/KeyBenefitsof.vue"
-  },
-  "HubSpotMainBannerLoacalized": {
-    "description": "Auto imported from components/HubSpot/MainBannerLoacalized.vue"
-  },
   "GlossaryDetails": {
     "description": "Auto imported from components/GlossaryFolder/GlossaryDetails.vue"
   },
@@ -172,6 +163,15 @@
   },
   "GlossaryFolderPageTitle": {
     "description": "Auto imported from components/GlossaryFolder/PageTitle.vue"
+  },
+  "HubSpotHowLocalizedDeal": {
+    "description": "Auto imported from components/HubSpot/HowLocalizedDeal.vue"
+  },
+  "HubSpotKeyBenefitsof": {
+    "description": "Auto imported from components/HubSpot/KeyBenefitsof.vue"
+  },
+  "HubSpotMainBannerLoacalized": {
+    "description": "Auto imported from components/HubSpot/MainBannerLoacalized.vue"
   },
   "IndexPageAdditionalFeature": {
     "description": "Auto imported from components/IndexPage/AdditionalFeature.vue"
