@@ -7,7 +7,7 @@
         <HowLocalized />
         <EmpoerGlobal />
         <FreeTrial />
-        <localizfaq/>
+        <faq/>
         <DealDoxFooter />
     </div>
 </template>
@@ -20,7 +20,7 @@ import KeyBenefitsof from '../components/LocalizedDealDocuments/KeyBenefitsof'
 import HowLocalized from '../components/LocalizedDealDocuments/HowLocalized'
 import EmpoerGlobal from '../components/LocalizedDealDocuments/EmpoerGlobal'
 import FreeTrial from '../components/LocalizedDealDocuments/FreeTrial'
-import localizfaq from '../components/Common/localizedfaq'
+import faq from '../components/LocalizedDealDocuments/faq'
 import DealDoxFooter from '../layouts/DealDoxFooter'
 import axios from 'axios';
 
@@ -34,7 +34,7 @@ export default {
         HowLocalized,
         EmpoerGlobal,
         FreeTrial,
-        localizfaq,
+        faq,
         DealDoxFooter,
     },
     data() {
