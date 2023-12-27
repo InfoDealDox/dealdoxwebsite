@@ -98,6 +98,9 @@
   "CommonPricing": {
     "description": "Auto imported from components/Common/Pricing.vue"
   },
+  "CommonServicefaq": {
+    "description": "Auto imported from components/Common/servicefaq.vue"
+  },
   "ContactUsPageHeader": {
     "description": "Auto imported from components/ContactUs/PageHeader.vue"
   },

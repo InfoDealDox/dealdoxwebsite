@@ -39,6 +39,7 @@ You can directly use them in pages and other components without the need to impo
 - `<CommonPageTitle>` | `<common-page-title>` (components/Common/PageTitle.vue)
 - `<CommonPartner>` | `<common-partner>` (components/Common/Partner.vue)
 - `<CommonPricing>` | `<common-pricing>` (components/Common/Pricing.vue)
+- `<CommonServicefaq>` | `<common-servicefaq>` (components/Common/servicefaq.vue)
 - `<ContactUsPageHeader>` | `<contact-us-page-header>` (components/ContactUs/PageHeader.vue)
 - `<CookiesCookie>` | `<cookies-cookie>` (components/Cookies/Cookie.vue)
 - `<CPQFreeTrial>` | `<c-p-q-free-trial>` (components/CPQ/FreeTrial.vue)

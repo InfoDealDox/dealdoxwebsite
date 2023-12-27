@@ -31,6 +31,7 @@ export const CommonPageSeo = () => import('../..\\components\\Common\\PageSeo.vu
 export const CommonPageTitle = () => import('../..\\components\\Common\\PageTitle.vue' /* webpackChunkName: "components/common-page-title" */).then(c => wrapFunctional(c.default || c))
 export const CommonPartner = () => import('../..\\components\\Common\\Partner.vue' /* webpackChunkName: "components/common-partner" */).then(c => wrapFunctional(c.default || c))
 export const CommonPricing = () => import('../..\\components\\Common\\Pricing.vue' /* webpackChunkName: "components/common-pricing" */).then(c => wrapFunctional(c.default || c))
+export const CommonServicefaq = () => import('../..\\components\\Common\\servicefaq.vue' /* webpackChunkName: "components/common-servicefaq" */).then(c => wrapFunctional(c.default || c))
 export const ContactUsPageHeader = () => import('../..\\components\\ContactUs\\PageHeader.vue' /* webpackChunkName: "components/contact-us-page-header" */).then(c => wrapFunctional(c.default || c))
 export const CookiesCookie = () => import('../..\\components\\Cookies\\Cookie.vue' /* webpackChunkName: "components/cookies-cookie" */).then(c => wrapFunctional(c.default || c))
 export const CPQFreeTrial = () => import('../..\\components\\CPQ\\FreeTrial.vue' /* webpackChunkName: "components/c-p-q-free-trial" */).then(c => wrapFunctional(c.default || c))
