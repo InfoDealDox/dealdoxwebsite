@@ -17,6 +17,18 @@
   "AuthenticationSignUp": {
     "description": "Auto imported from components/Authentication/SignUp.vue"
   },
+  "BlogsBlog": {
+    "description": "Auto imported from components/blogs/Blog.vue"
+  },
+  "BlogsBlogDetails": {
+    "description": "Auto imported from components/blogs/BlogDetails.vue"
+  },
+  "BlogsFeaturedBlogDetails": {
+    "description": "Auto imported from components/blogs/FeaturedBlogDetails.vue"
+  },
+  "BlogsLatestBlog": {
+    "description": "Auto imported from components/blogs/LatestBlog.vue"
+  },
   "AutomatedQuotesGenerationAccelerateYourSales": {
     "description": "Auto imported from components/AutomatedQuotesGeneration/AccelerateYourSales.vue"
   },
@@ -32,17 +44,11 @@
   "AutomatedQuotesGenerationYourBusiness": {
     "description": "Auto imported from components/AutomatedQuotesGeneration/YourBusiness.vue"
   },
-  "BlogsBlog": {
-    "description": "Auto imported from components/blogs/Blog.vue"
+  "ContactUsPageHeader": {
+    "description": "Auto imported from components/ContactUs/PageHeader.vue"
   },
-  "BlogsBlogDetails": {
-    "description": "Auto imported from components/blogs/BlogDetails.vue"
-  },
-  "BlogsFeaturedBlogDetails": {
-    "description": "Auto imported from components/blogs/FeaturedBlogDetails.vue"
-  },
-  "BlogsLatestBlog": {
-    "description": "Auto imported from components/blogs/LatestBlog.vue"
+  "CookiesCookie": {
+    "description": "Auto imported from components/Cookies/Cookie.vue"
   },
   "CategoriesDetails": {
     "description": "Auto imported from components/categories/categories-details.vue"
@@ -55,6 +61,48 @@
   },
   "CategoriesSuccessStoryCategoriesDetails": {
     "description": "Auto imported from components/categories/success-story-categories-details.vue"
+  },
+  "CPQFreeTrial": {
+    "description": "Auto imported from components/CPQ/FreeTrial.vue"
+  },
+  "CPQMainBannerCPQ": {
+    "description": "Auto imported from components/CPQ/MainBannerCPQ.vue"
+  },
+  "CPQQuickandAccurate": {
+    "description": "Auto imported from components/CPQ/QuickandAccurate.vue"
+  },
+  "CPQTransformYourSales": {
+    "description": "Auto imported from components/CPQ/TransformYourSales.vue"
+  },
+  "CPQWhatisCPQService": {
+    "description": "Auto imported from components/CPQ/WhatisCPQService.vue"
+  },
+  "CPQIntegrationChallengesAndTrack": {
+    "description": "Auto imported from components/CPQIntegration/ChallengesAndTrack.vue"
+  },
+  "CPQIntegrationFreeTrial": {
+    "description": "Auto imported from components/CPQIntegration/FreeTrial.vue"
+  },
+  "CPQIntegrationFunfacts": {
+    "description": "Auto imported from components/CPQIntegration/Funfacts.vue"
+  },
+  "CPQIntegrationIAQSolutions": {
+    "description": "Auto imported from components/CPQIntegration/IAQSolutions.vue"
+  },
+  "CPQIntegrationPageHeader": {
+    "description": "Auto imported from components/CPQIntegration/PageHeader.vue"
+  },
+  "CPQIntegrationSoftwareIntegrations": {
+    "description": "Auto imported from components/CPQIntegration/SoftwareIntegrations.vue"
+  },
+  "CPQIntegrationStats": {
+    "description": "Auto imported from components/CPQIntegration/Stats.vue"
+  },
+  "EbookDetails": {
+    "description": "Auto imported from components/EbookFolder/EbookDetails.vue"
+  },
+  "EbookMain": {
+    "description": "Auto imported from components/EbookFolder/EbookMain.vue"
   },
   "CommonAccordion": {
     "description": "Auto imported from components/Common/Accordion.vue"
@@ -103,54 +151,6 @@
   },
   "CommonServicefaq": {
     "description": "Auto imported from components/Common/servicefaq.vue"
-  },
-  "ContactUsPageHeader": {
-    "description": "Auto imported from components/ContactUs/PageHeader.vue"
-  },
-  "CookiesCookie": {
-    "description": "Auto imported from components/Cookies/Cookie.vue"
-  },
-  "CPQFreeTrial": {
-    "description": "Auto imported from components/CPQ/FreeTrial.vue"
-  },
-  "CPQMainBannerCPQ": {
-    "description": "Auto imported from components/CPQ/MainBannerCPQ.vue"
-  },
-  "CPQQuickandAccurate": {
-    "description": "Auto imported from components/CPQ/QuickandAccurate.vue"
-  },
-  "CPQTransformYourSales": {
-    "description": "Auto imported from components/CPQ/TransformYourSales.vue"
-  },
-  "CPQWhatisCPQService": {
-    "description": "Auto imported from components/CPQ/WhatisCPQService.vue"
-  },
-  "CPQIntegrationChallengesAndTrack": {
-    "description": "Auto imported from components/CPQIntegration/ChallengesAndTrack.vue"
-  },
-  "CPQIntegrationFreeTrial": {
-    "description": "Auto imported from components/CPQIntegration/FreeTrial.vue"
-  },
-  "CPQIntegrationFunfacts": {
-    "description": "Auto imported from components/CPQIntegration/Funfacts.vue"
-  },
-  "CPQIntegrationIAQSolutions": {
-    "description": "Auto imported from components/CPQIntegration/IAQSolutions.vue"
-  },
-  "CPQIntegrationPageHeader": {
-    "description": "Auto imported from components/CPQIntegration/PageHeader.vue"
-  },
-  "CPQIntegrationSoftwareIntegrations": {
-    "description": "Auto imported from components/CPQIntegration/SoftwareIntegrations.vue"
-  },
-  "CPQIntegrationStats": {
-    "description": "Auto imported from components/CPQIntegration/Stats.vue"
-  },
-  "EbookDetails": {
-    "description": "Auto imported from components/EbookFolder/EbookDetails.vue"
-  },
-  "EbookMain": {
-    "description": "Auto imported from components/EbookFolder/EbookMain.vue"
   },
   "FreshworksHowLocalizedDeal": {
     "description": "Auto imported from components/Freshworks/HowLocalizedDeal.vue"
