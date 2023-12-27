@@ -34,6 +34,7 @@ You can directly use them in pages and other components without the need to impo
 - `<CommonFaq>` | `<common-faq>` (components/Common/Faq.vue)
 - `<CommonFeedback>` | `<common-feedback>` (components/Common/Feedback.vue)
 - `<CommonGetInTouch>` | `<common-get-in-touch>` (components/Common/GetInTouch.vue)
+- `<CommonLocalizedfaq>` | `<common-localizedfaq>` (components/Common/localizedfaq.vue)
 - `<CommonOurTeam>` | `<common-our-team>` (components/Common/OurTeam.vue)
 - `<CommonPageSeo>` | `<common-page-seo>` (components/Common/PageSeo.vue)
 - `<CommonPageTitle>` | `<common-page-title>` (components/Common/PageTitle.vue)

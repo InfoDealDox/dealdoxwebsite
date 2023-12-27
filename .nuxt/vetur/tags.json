@@ -83,6 +83,9 @@
   "CommonGetInTouch": {
     "description": "Auto imported from components/Common/GetInTouch.vue"
   },
+  "CommonLocalizedfaq": {
+    "description": "Auto imported from components/Common/localizedfaq.vue"
+  },
   "CommonOurTeam": {
     "description": "Auto imported from components/Common/OurTeam.vue"
   },
