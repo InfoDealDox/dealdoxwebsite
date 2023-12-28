@@ -2,312 +2,312 @@
   {
     "name": "App",
     "path": "/App",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\dealdoxwebsite\\\\pages\\\\App.js",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb\\\\dealdoxwebsite\\\\pages\\\\App.js",
     "chunkName": "pages/App",
     "url": "/App",
-    "_name": "_59082c66"
+    "_name": "_613084e8"
   },
   {
     "name": "approval-software",
     "path": "/approval-software",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\dealdoxwebsite\\\\pages\\\\approval-software.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb\\\\dealdoxwebsite\\\\pages\\\\approval-software.vue",
     "chunkName": "pages/approval-software",
     "url": "/approval-software",
-    "_name": "_944e9c9c"
+    "_name": "_b545c592"
   },
   {
     "name": "blogs",
     "path": "/blogs",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\dealdoxwebsite\\\\pages\\\\blogs.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb\\\\dealdoxwebsite\\\\pages\\\\blogs.vue",
     "chunkName": "pages/blogs",
     "url": "/blogs",
-    "_name": "_4af98252"
+    "_name": "_91716552"
   },
   {
     "name": "coming-soon",
     "path": "/coming-soon",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\dealdoxwebsite\\\\pages\\\\coming-soon.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb\\\\dealdoxwebsite\\\\pages\\\\coming-soon.vue",
     "chunkName": "pages/coming-soon",
     "url": "/coming-soon",
-    "_name": "_99ea8770"
+    "_name": "_e9d920e6"
   },
   {
     "name": "contact-us",
     "path": "/contact-us",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\dealdoxwebsite\\\\pages\\\\contact-us.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb\\\\dealdoxwebsite\\\\pages\\\\contact-us.vue",
     "chunkName": "pages/contact-us",
     "url": "/contact-us",
-    "_name": "_361e3afa"
+    "_name": "_3b80e9d6"
   },
   {
     "name": "cookie-preference",
     "path": "/cookie-preference",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\dealdoxwebsite\\\\pages\\\\cookie-preference.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb\\\\dealdoxwebsite\\\\pages\\\\cookie-preference.vue",
     "chunkName": "pages/cookie-preference",
     "url": "/cookie-preference",
-    "_name": "_2207c3b6"
+    "_name": "_42feecac"
   },
   {
     "name": "cpq-integrations",
     "path": "/cpq-integrations",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\dealdoxwebsite\\\\pages\\\\cpq-integrations.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb\\\\dealdoxwebsite\\\\pages\\\\cpq-integrations.vue",
     "chunkName": "pages/cpq-integrations",
     "url": "/cpq-integrations",
-    "_name": "_7c511b12"
+    "_name": "_cff5fb5c"
   },
   {
     "name": "demo",
     "path": "/demo",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\dealdoxwebsite\\\\pages\\\\demo.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb\\\\dealdoxwebsite\\\\pages\\\\demo.vue",
     "chunkName": "pages/demo",
     "url": "/demo",
-    "_name": "_5f30fa9c"
+    "_name": "_793c79e6"
   },
   {
     "name": "ebooks",
     "path": "/ebooks",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\dealdoxwebsite\\\\pages\\\\ebooks.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb\\\\dealdoxwebsite\\\\pages\\\\ebooks.vue",
     "chunkName": "pages/ebooks",
     "url": "/ebooks",
-    "_name": "_78c50918"
+    "_name": "_3deddde2"
   },
   {
     "name": "ForgetPassword",
     "path": "/ForgetPassword",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\dealdoxwebsite\\\\pages\\\\ForgetPassword.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb\\\\dealdoxwebsite\\\\pages\\\\ForgetPassword.vue",
     "chunkName": "pages/ForgetPassword",
     "url": "/ForgetPassword",
-    "_name": "_a294bd52"
+    "_name": "_69a9281c"
   },
   {
     "name": "freshworks-cpq-integration",
     "path": "/freshworks-cpq-integration",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\dealdoxwebsite\\\\pages\\\\freshworks-cpq-integration.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb\\\\dealdoxwebsite\\\\pages\\\\freshworks-cpq-integration.vue",
     "chunkName": "pages/freshworks-cpq-integration",
     "url": "/freshworks-cpq-integration",
-    "_name": "_5452ec81"
+    "_name": "_35bea69c"
   },
   {
     "name": "glossaries",
     "path": "/glossaries",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\dealdoxwebsite\\\\pages\\\\glossaries.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb\\\\dealdoxwebsite\\\\pages\\\\glossaries.vue",
     "chunkName": "pages/glossaries",
     "url": "/glossaries",
-    "_name": "_373f536a"
+    "_name": "_defcb334"
   },
   {
     "name": "hubspot-cpq-integration",
     "path": "/hubspot-cpq-integration",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\dealdoxwebsite\\\\pages\\\\hubspot-cpq-integration.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb\\\\dealdoxwebsite\\\\pages\\\\hubspot-cpq-integration.vue",
     "chunkName": "pages/hubspot-cpq-integration",
     "url": "/hubspot-cpq-integration",
-    "_name": "_3967d854"
+    "_name": "_539df0ca"
   },
   {
     "name": "localized-deal-documents",
     "path": "/localized-deal-documents",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\dealdoxwebsite\\\\pages\\\\localized-deal-documents.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb\\\\dealdoxwebsite\\\\pages\\\\localized-deal-documents.vue",
     "chunkName": "pages/localized-deal-documents",
     "url": "/localized-deal-documents",
-    "_name": "_13712f78"
+    "_name": "_7d2ab453"
   },
   {
     "name": "login",
     "path": "/login",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\dealdoxwebsite\\\\pages\\\\login.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb\\\\dealdoxwebsite\\\\pages\\\\login.vue",
     "chunkName": "pages/login",
     "url": "/login",
-    "_name": "_ad8a7eac"
+    "_name": "_15888baf"
   },
   {
     "name": "microsoft-dynamics-365-cpq-integration",
     "path": "/microsoft-dynamics-365-cpq-integration",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\dealdoxwebsite\\\\pages\\\\microsoft-dynamics-365-cpq-integration.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb\\\\dealdoxwebsite\\\\pages\\\\microsoft-dynamics-365-cpq-integration.vue",
     "chunkName": "pages/microsoft-dynamics-365-cpq-integration",
     "url": "/microsoft-dynamics-365-cpq-integration",
-    "_name": "_14e50865"
+    "_name": "_ef491c00"
   },
   {
     "name": "our-team",
     "path": "/our-team",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\dealdoxwebsite\\\\pages\\\\our-team.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb\\\\dealdoxwebsite\\\\pages\\\\our-team.vue",
     "chunkName": "pages/our-team",
     "url": "/our-team",
-    "_name": "_6809900d"
+    "_name": "_4e33aa30"
   },
   {
     "name": "privacy-policy",
     "path": "/privacy-policy",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\dealdoxwebsite\\\\pages\\\\privacy-policy.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb\\\\dealdoxwebsite\\\\pages\\\\privacy-policy.vue",
     "chunkName": "pages/privacy-policy",
     "url": "/privacy-policy",
-    "_name": "_4a7f95b4"
+    "_name": "_1194007e"
   },
   {
     "name": "quoting-software",
     "path": "/quoting-software",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\dealdoxwebsite\\\\pages\\\\quoting-software.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb\\\\dealdoxwebsite\\\\pages\\\\quoting-software.vue",
     "chunkName": "pages/quoting-software",
     "url": "/quoting-software",
-    "_name": "_562531ec"
+    "_name": "_a9ca1236"
   },
   {
     "name": "salesforce-cpq-integration",
     "path": "/salesforce-cpq-integration",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\dealdoxwebsite\\\\pages\\\\salesforce-cpq-integration.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb\\\\dealdoxwebsite\\\\pages\\\\salesforce-cpq-integration.vue",
     "chunkName": "pages/salesforce-cpq-integration",
     "url": "/salesforce-cpq-integration",
-    "_name": "_7aa7f34c"
+    "_name": "_5c13ad67"
   },
   {
     "name": "security",
     "path": "/security",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\dealdoxwebsite\\\\pages\\\\security.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb\\\\dealdoxwebsite\\\\pages\\\\security.vue",
     "chunkName": "pages/security",
     "url": "/security",
-    "_name": "_7f3b5be2"
+    "_name": "_313eecea"
   },
   {
     "name": "services-cpq",
     "path": "/services-cpq",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\dealdoxwebsite\\\\pages\\\\services-cpq.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb\\\\dealdoxwebsite\\\\pages\\\\services-cpq.vue",
     "chunkName": "pages/services-cpq",
     "url": "/services-cpq",
-    "_name": "_f60966f8"
+    "_name": "_a3edfc42"
   },
   {
     "name": "sign-up-free-trial",
     "path": "/sign-up-free-trial",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\dealdoxwebsite\\\\pages\\\\sign-up-free-trial.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb\\\\dealdoxwebsite\\\\pages\\\\sign-up-free-trial.vue",
     "chunkName": "pages/sign-up-free-trial",
     "url": "/sign-up-free-trial",
-    "_name": "_32dbd534"
+    "_name": "_30c9cafe"
   },
   {
     "name": "SignIn",
     "path": "/SignIn",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\dealdoxwebsite\\\\pages\\\\SignIn.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb\\\\dealdoxwebsite\\\\pages\\\\SignIn.vue",
     "chunkName": "pages/SignIn",
     "url": "/SignIn",
-    "_name": "_13d0991e"
+    "_name": "_1383490c"
   },
   {
     "name": "SignUp",
     "path": "/SignUp",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\dealdoxwebsite\\\\pages\\\\SignUp.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb\\\\dealdoxwebsite\\\\pages\\\\SignUp.vue",
     "chunkName": "pages/SignUp",
     "url": "/SignUp",
-    "_name": "_0aae09e7"
+    "_name": "_28199f82"
   },
   {
     "name": "subscriptions",
     "path": "/subscriptions",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\dealdoxwebsite\\\\pages\\\\subscriptions.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb\\\\dealdoxwebsite\\\\pages\\\\subscriptions.vue",
     "chunkName": "pages/subscriptions",
     "url": "/subscriptions",
-    "_name": "_c99c5692"
+    "_name": "_d84a6a88"
   },
   {
     "name": "success-stories",
     "path": "/success-stories",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\dealdoxwebsite\\\\pages\\\\success-stories.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb\\\\dealdoxwebsite\\\\pages\\\\success-stories.vue",
     "chunkName": "pages/success-stories",
     "url": "/success-stories",
-    "_name": "_f1ac1aec"
+    "_name": "_0d250962"
   },
   {
     "name": "sugarcrm-cpq-integration",
     "path": "/sugarcrm-cpq-integration",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\dealdoxwebsite\\\\pages\\\\sugarcrm-cpq-integration.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb\\\\dealdoxwebsite\\\\pages\\\\sugarcrm-cpq-integration.vue",
     "chunkName": "pages/sugarcrm-cpq-integration",
     "url": "/sugarcrm-cpq-integration",
-    "_name": "_c2afc3d6"
+    "_name": "_0861a2f0"
   },
   {
     "name": "terms-of-use",
     "path": "/terms-of-use",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\dealdoxwebsite\\\\pages\\\\terms-of-use.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb\\\\dealdoxwebsite\\\\pages\\\\terms-of-use.vue",
     "chunkName": "pages/terms-of-use",
     "url": "/terms-of-use",
-    "_name": "_aea1d934"
+    "_name": "_5c866e7e"
   },
   {
     "name": "thank-you",
     "path": "/thank-you",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\dealdoxwebsite\\\\pages\\\\thank-you.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb\\\\dealdoxwebsite\\\\pages\\\\thank-you.vue",
     "chunkName": "pages/thank-you",
     "url": "/thank-you",
-    "_name": "_0e455dfd"
+    "_name": "_8e07c2fc"
   },
   {
     "name": "blog-slug",
     "path": "/blog/:slug",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\dealdoxwebsite\\\\pages\\\\blog\\\\_slug\\\\index.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb\\\\dealdoxwebsite\\\\pages\\\\blog\\\\_slug\\\\index.vue",
     "chunkName": "pages/blog/_slug/index",
-    "_name": "_4c7b2f39"
+    "_name": "_4d843454"
   },
   {
     "name": "category-details-slug",
     "path": "/category-details/:slug",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\dealdoxwebsite\\\\pages\\\\category-details\\\\_slug\\\\index.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb\\\\dealdoxwebsite\\\\pages\\\\category-details\\\\_slug\\\\index.vue",
     "chunkName": "pages/category-details/_slug/index",
-    "_name": "_6842074a"
+    "_name": "_4a858836"
   },
   {
     "name": "ebook-slug",
     "path": "/ebook/:slug",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\dealdoxwebsite\\\\pages\\\\ebook\\\\_slug\\\\index.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb\\\\dealdoxwebsite\\\\pages\\\\ebook\\\\_slug\\\\index.vue",
     "chunkName": "pages/ebook/_slug/index",
-    "_name": "_256ec552"
+    "_name": "_0d603b9c"
   },
   {
     "name": "featured-blog-details-slug",
     "path": "/featured-blog-details/:slug",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\dealdoxwebsite\\\\pages\\\\featured-blog-details\\\\_slug\\\\index.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb\\\\dealdoxwebsite\\\\pages\\\\featured-blog-details\\\\_slug\\\\index.vue",
     "chunkName": "pages/featured-blog-details/_slug/index",
-    "_name": "_77db16df"
+    "_name": "_1ebf8b24"
   },
   {
     "name": "featured-category-details-slug",
     "path": "/featured-category-details/:slug",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\dealdoxwebsite\\\\pages\\\\featured-category-details\\\\_slug\\\\index.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb\\\\dealdoxwebsite\\\\pages\\\\featured-category-details\\\\_slug\\\\index.vue",
     "chunkName": "pages/featured-category-details/_slug/index",
-    "_name": "_da54958a"
+    "_name": "_e3a70200"
   },
   {
     "name": "glossary-category-details-slug",
     "path": "/glossary-category-details/:slug",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\dealdoxwebsite\\\\pages\\\\glossary-category-details\\\\_slug\\\\index.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb\\\\dealdoxwebsite\\\\pages\\\\glossary-category-details\\\\_slug\\\\index.vue",
     "chunkName": "pages/glossary-category-details/_slug/index",
-    "_name": "_f491ed6a"
+    "_name": "_fde459e0"
   },
   {
     "name": "glossary-slug",
     "path": "/glossary/:slug",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\dealdoxwebsite\\\\pages\\\\glossary\\\\_slug\\\\index.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb\\\\dealdoxwebsite\\\\pages\\\\glossary\\\\_slug\\\\index.vue",
     "chunkName": "pages/glossary/_slug/index",
-    "_name": "_36cd8f35"
+    "_name": "_596ee260"
   },
   {
     "name": "success-stories-category-details-slug",
     "path": "/success-stories-category-details/:slug",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\dealdoxwebsite\\\\pages\\\\success-stories-category-details\\\\_slug\\\\index.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb\\\\dealdoxwebsite\\\\pages\\\\success-stories-category-details\\\\_slug\\\\index.vue",
     "chunkName": "pages/success-stories-category-details/_slug/index",
-    "_name": "_4814490e"
+    "_name": "_86fe30ae"
   },
   {
     "name": "success-story-slug",
     "path": "/success-story/:slug",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\dealdoxwebsite\\\\pages\\\\success-story\\\\_slug\\\\index.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb\\\\dealdoxwebsite\\\\pages\\\\success-story\\\\_slug\\\\index.vue",
     "chunkName": "pages/success-story/_slug/index",
-    "_name": "_7e4bc4f4"
+    "_name": "_6b51638e"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\dealdoxwebsite\\\\pages\\\\index.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb\\\\dealdoxwebsite\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
     "url": "/",
-    "_name": "_40d9c4da"
+    "_name": "_4be0e898"
   }
 ]

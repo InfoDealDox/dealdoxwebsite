@@ -6,6 +6,7 @@
         <Experiencethefuture />
         <YourBusiness />
         <FreeTrial />
+        <quotefaq/>
         <DealDoxFooter />
     </div>
 </template>
@@ -17,6 +18,7 @@ import AccelerateYourSales from '../components/AutomatedQuotesGeneration/Acceler
 import Experiencethefuture from '../components/AutomatedQuotesGeneration/Experiencethefuture'
 import YourBusiness from '../components/AutomatedQuotesGeneration/YourBusiness'
 import FreeTrial from '../components/AutomatedQuotesGeneration/FreeTrial'
+import quotefaq from '../components/AutomatedQuotesGeneration/quotefaq'
 import DealDoxFooter from '../layouts/DealDoxFooter'
 import axios from 'axios';
 
@@ -30,6 +32,7 @@ export default {
         Experiencethefuture,
         YourBusiness,
         FreeTrial,
+        quotefaq,
         DealDoxFooter,
     },
     data() {
