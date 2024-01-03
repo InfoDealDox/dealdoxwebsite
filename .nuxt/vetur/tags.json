@@ -29,6 +29,18 @@
   "BlogsLatestBlog": {
     "description": "Auto imported from components/blogs/LatestBlog.vue"
   },
+  "CategoriesDetails": {
+    "description": "Auto imported from components/categories/categories-details.vue"
+  },
+  "CategoriesFeaturedCategoriesDetails": {
+    "description": "Auto imported from components/categories/featured-categories-details.vue"
+  },
+  "CategoriesGlossaryCategoriesDetails": {
+    "description": "Auto imported from components/categories/glossary-categories-details.vue"
+  },
+  "CategoriesSuccessStoryCategoriesDetails": {
+    "description": "Auto imported from components/categories/success-story-categories-details.vue"
+  },
   "AutomatedQuotesGenerationAccelerateYourSales": {
     "description": "Auto imported from components/AutomatedQuotesGeneration/AccelerateYourSales.vue"
   },
@@ -46,18 +58,6 @@
   },
   "AutomatedQuotesGenerationYourBusiness": {
     "description": "Auto imported from components/AutomatedQuotesGeneration/YourBusiness.vue"
-  },
-  "CategoriesDetails": {
-    "description": "Auto imported from components/categories/categories-details.vue"
-  },
-  "CategoriesFeaturedCategoriesDetails": {
-    "description": "Auto imported from components/categories/featured-categories-details.vue"
-  },
-  "CategoriesGlossaryCategoriesDetails": {
-    "description": "Auto imported from components/categories/glossary-categories-details.vue"
-  },
-  "CategoriesSuccessStoryCategoriesDetails": {
-    "description": "Auto imported from components/categories/success-story-categories-details.vue"
   },
   "CommonAccordion": {
     "description": "Auto imported from components/Common/Accordion.vue"
@@ -179,15 +179,6 @@
   "GlossaryFolderPageTitle": {
     "description": "Auto imported from components/GlossaryFolder/PageTitle.vue"
   },
-  "HubSpotHowLocalizedDeal": {
-    "description": "Auto imported from components/HubSpot/HowLocalizedDeal.vue"
-  },
-  "HubSpotKeyBenefitsof": {
-    "description": "Auto imported from components/HubSpot/KeyBenefitsof.vue"
-  },
-  "HubSpotMainBannerLoacalized": {
-    "description": "Auto imported from components/HubSpot/MainBannerLoacalized.vue"
-  },
   "IndexPageAdditionalFeature": {
     "description": "Auto imported from components/IndexPage/AdditionalFeature.vue"
   },
@@ -217,6 +208,15 @@
   },
   "IndexPageWithOurSubscrip": {
     "description": "Auto imported from components/IndexPage/WithOurSubscrip.vue"
+  },
+  "HubSpotHowLocalizedDeal": {
+    "description": "Auto imported from components/HubSpot/HowLocalizedDeal.vue"
+  },
+  "HubSpotKeyBenefitsof": {
+    "description": "Auto imported from components/HubSpot/KeyBenefitsof.vue"
+  },
+  "HubSpotMainBannerLoacalized": {
+    "description": "Auto imported from components/HubSpot/MainBannerLoacalized.vue"
   },
   "LightningFastQuoteApprovalsAchieveSalesExcellence": {
     "description": "Auto imported from components/LightningFastQuoteApprovals/AchieveSalesExcellence.vue"
