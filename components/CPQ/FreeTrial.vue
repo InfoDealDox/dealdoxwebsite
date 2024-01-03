@@ -7,9 +7,10 @@
                         <div class="did-you-know">
                             <img src="../../assets/images/do-you-know-tag.svg" alt="image">
                         </div>
-                        <h3>Automated Quote Generation tool helps businesses achieve faster sales cycles and higher win
-                            rates by providing accurate pricing and quotes in a timely manner. Get started free onboarding
-                            today!</h3>
+                        <h3>
+                        Automated Quote Generation tool speeds up sales cycles, 
+                        and boosts win rates with precise pricing and timely quotes. 
+                    </h3>
                         <NuxtLink to="/sign-up-free-trial" class="default-btn">Start My Free Trial</NuxtLink>
                     </div>
                 </div>

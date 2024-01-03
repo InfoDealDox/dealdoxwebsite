@@ -10,8 +10,8 @@
                         </h1>
                         <p>Streamline sales, accelerate efficiency and enable faster sales cycle</p>
                         <div class="tb-30">
-                            <NuxtLink to="/demo" required class="default-btn"><i class='bx bx-paper-plane'></i>
-                                Request a Demo</NuxtLink>
+                            <NuxtLink to="/sign-up-free-trial" required class="default-btn"><i class='bx bx-paper-plane'></i>
+                                Start My Free Trial</NuxtLink>
                         </div>
                     </div>
                 </div>

@@ -46,6 +46,7 @@ export { default as CPQIntegrationChallengesAndTrack } from '../..\\components\\
 export { default as CPQIntegrationFreeTrial } from '../..\\components\\CPQIntegration\\FreeTrial.vue'
 export { default as CPQIntegrationFunfacts } from '../..\\components\\CPQIntegration\\Funfacts.vue'
 export { default as CPQIntegrationIAQSolutions } from '../..\\components\\CPQIntegration\\IAQSolutions.vue'
+export { default as CPQIntegrationIntegrationfaq } from '../..\\components\\CPQIntegration\\integrationfaq.vue'
 export { default as CPQIntegrationPageHeader } from '../..\\components\\CPQIntegration\\PageHeader.vue'
 export { default as CPQIntegrationSoftwareIntegrations } from '../..\\components\\CPQIntegration\\SoftwareIntegrations.vue'
 export { default as CPQIntegrationStats } from '../..\\components\\CPQIntegration\\Stats.vue'

@@ -54,6 +54,7 @@ You can directly use them in pages and other components without the need to impo
 - `<CPQIntegrationFreeTrial>` | `<c-p-q-integration-free-trial>` (components/CPQIntegration/FreeTrial.vue)
 - `<CPQIntegrationFunfacts>` | `<c-p-q-integration-funfacts>` (components/CPQIntegration/Funfacts.vue)
 - `<CPQIntegrationIAQSolutions>` | `<c-p-q-integration-i-a-q-solutions>` (components/CPQIntegration/IAQSolutions.vue)
+- `<CPQIntegrationIntegrationfaq>` | `<c-p-q-integration-integrationfaq>` (components/CPQIntegration/integrationfaq.vue)
 - `<CPQIntegrationPageHeader>` | `<c-p-q-integration-page-header>` (components/CPQIntegration/PageHeader.vue)
 - `<CPQIntegrationSoftwareIntegrations>` | `<c-p-q-integration-software-integrations>` (components/CPQIntegration/SoftwareIntegrations.vue)
 - `<CPQIntegrationStats>` | `<c-p-q-integration-stats>` (components/CPQIntegration/Stats.vue)

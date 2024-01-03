@@ -143,6 +143,9 @@
   "CPQIntegrationIAQSolutions": {
     "description": "Auto imported from components/CPQIntegration/IAQSolutions.vue"
   },
+  "CPQIntegrationIntegrationfaq": {
+    "description": "Auto imported from components/CPQIntegration/integrationfaq.vue"
+  },
   "CPQIntegrationPageHeader": {
     "description": "Auto imported from components/CPQIntegration/PageHeader.vue"
   },

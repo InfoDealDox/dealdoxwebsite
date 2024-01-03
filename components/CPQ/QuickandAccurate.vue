@@ -277,7 +277,7 @@
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content">
-                        <h2>Streamlined Quoting Process</h2>
+                        <h2>Streamline Quoting with Best CPQ Tools </h2>
                         <div class="features-content">
                             <ul class="features-list">
                                 <li>
@@ -469,8 +469,10 @@
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p class="text-left">Easily integrates with ERP systems, enabling real-time data
-                                        synchronization and smooth communication between the platforms</p>
+                                    <p class="text-left">
+                                    The best CPQ tools integrate with ERP systems, facilitating real-time data synchronization 
+                                    and smooth cross-platform communication for operational efficiency. 
+                                        </p>
                                 </li>
                                 <li>
                                     <div class="icon">
