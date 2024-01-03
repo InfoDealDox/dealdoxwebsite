@@ -85,8 +85,7 @@
                                            <div class="col-lg-6 col-md-6 col-sm-6">
       <div class="form-group">
             <p>Full Name</p>
-            <input type="text" maxlength="40" name="last_name" class="form-control" id="last_name" placeholder="Eg: David" required>
-           
+            <input type="text" maxlength="40" name="last_name" class="form-control" id="last_name" placeholder="Eg: David" required>      
         </div>
     </div>
 

@@ -2,312 +2,272 @@
   {
     "name": "App",
     "path": "/App",
-    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\(2-1)\\\\dealdoxwebsite\\\\pages\\\\App.js",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb(2-1)\\\\dealdoxwebsite\\\\pages\\\\App.js",
     "chunkName": "pages/App",
-    "url": "/App",
-    "_name": "_7e4ac121"
+    "url": "/App"
   },
   {
     "name": "approval-software",
     "path": "/approval-software",
-    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\(2-1)\\\\dealdoxwebsite\\\\pages\\\\approval-software.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb(2-1)\\\\dealdoxwebsite\\\\pages\\\\approval-software.vue",
     "chunkName": "pages/approval-software",
-    "url": "/approval-software",
-    "_name": "_4b047044"
+    "url": "/approval-software"
   },
   {
     "name": "blogs",
     "path": "/blogs",
-    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\(2-1)\\\\dealdoxwebsite\\\\pages\\\\blogs.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb(2-1)\\\\dealdoxwebsite\\\\pages\\\\blogs.vue",
     "chunkName": "pages/blogs",
-    "url": "/blogs",
-    "_name": "_674d7a7e"
+    "url": "/blogs"
   },
   {
     "name": "coming-soon",
     "path": "/coming-soon",
-    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\(2-1)\\\\dealdoxwebsite\\\\pages\\\\coming-soon.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb(2-1)\\\\dealdoxwebsite\\\\pages\\\\coming-soon.vue",
     "chunkName": "pages/coming-soon",
-    "url": "/coming-soon",
-    "_name": "_2616e374"
+    "url": "/coming-soon"
   },
   {
     "name": "contact-us",
     "path": "/contact-us",
-    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\(2-1)\\\\dealdoxwebsite\\\\pages\\\\contact-us.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb(2-1)\\\\dealdoxwebsite\\\\pages\\\\contact-us.vue",
     "chunkName": "pages/contact-us",
-    "url": "/contact-us",
-    "_name": "_529a7e4e"
+    "url": "/contact-us"
   },
   {
     "name": "cookie-preference",
     "path": "/cookie-preference",
-    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\(2-1)\\\\dealdoxwebsite\\\\pages\\\\cookie-preference.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb(2-1)\\\\dealdoxwebsite\\\\pages\\\\cookie-preference.vue",
     "chunkName": "pages/cookie-preference",
-    "url": "/cookie-preference",
-    "_name": "_13a13451"
+    "url": "/cookie-preference"
   },
   {
     "name": "cpq-integrations",
     "path": "/cpq-integrations",
-    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\(2-1)\\\\dealdoxwebsite\\\\pages\\\\cpq-integrations.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb(2-1)\\\\dealdoxwebsite\\\\pages\\\\cpq-integrations.vue",
     "chunkName": "pages/cpq-integrations",
-    "url": "/cpq-integrations",
-    "_name": "_2e60e6cb"
+    "url": "/cpq-integrations"
   },
   {
     "name": "demo",
     "path": "/demo",
-    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\(2-1)\\\\dealdoxwebsite\\\\pages\\\\demo.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb(2-1)\\\\dealdoxwebsite\\\\pages\\\\demo.vue",
     "chunkName": "pages/demo",
-    "url": "/demo",
-    "_name": "_02ddd506"
+    "url": "/demo"
   },
   {
     "name": "ebooks",
     "path": "/ebooks",
-    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\(2-1)\\\\dealdoxwebsite\\\\pages\\\\ebooks.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb(2-1)\\\\dealdoxwebsite\\\\pages\\\\ebooks.vue",
     "chunkName": "pages/ebooks",
-    "url": "/ebooks",
-    "_name": "_31c888c8"
+    "url": "/ebooks"
   },
   {
     "name": "ForgetPassword",
     "path": "/ForgetPassword",
-    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\(2-1)\\\\dealdoxwebsite\\\\pages\\\\ForgetPassword.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb(2-1)\\\\dealdoxwebsite\\\\pages\\\\ForgetPassword.vue",
     "chunkName": "pages/ForgetPassword",
-    "url": "/ForgetPassword",
-    "_name": "_3c0fcaaa"
+    "url": "/ForgetPassword"
   },
   {
     "name": "freshworks-cpq-integration",
     "path": "/freshworks-cpq-integration",
-    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\(2-1)\\\\dealdoxwebsite\\\\pages\\\\freshworks-cpq-integration.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb(2-1)\\\\dealdoxwebsite\\\\pages\\\\freshworks-cpq-integration.vue",
     "chunkName": "pages/freshworks-cpq-integration",
-    "url": "/freshworks-cpq-integration",
-    "_name": "_34b3f056"
+    "url": "/freshworks-cpq-integration"
   },
   {
     "name": "glossaries",
     "path": "/glossaries",
-    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\(2-1)\\\\dealdoxwebsite\\\\pages\\\\glossaries.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb(2-1)\\\\dealdoxwebsite\\\\pages\\\\glossaries.vue",
     "chunkName": "pages/glossaries",
-    "url": "/glossaries",
-    "_name": "_00dc999f"
+    "url": "/glossaries"
   },
   {
     "name": "hubspot-cpq-integration",
     "path": "/hubspot-cpq-integration",
-    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\(2-1)\\\\dealdoxwebsite\\\\pages\\\\hubspot-cpq-integration.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb(2-1)\\\\dealdoxwebsite\\\\pages\\\\hubspot-cpq-integration.vue",
     "chunkName": "pages/hubspot-cpq-integration",
-    "url": "/hubspot-cpq-integration",
-    "_name": "_18dad902"
+    "url": "/hubspot-cpq-integration"
   },
   {
     "name": "localized-deal-documents",
     "path": "/localized-deal-documents",
-    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\(2-1)\\\\dealdoxwebsite\\\\pages\\\\localized-deal-documents.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb(2-1)\\\\dealdoxwebsite\\\\pages\\\\localized-deal-documents.vue",
     "chunkName": "pages/localized-deal-documents",
-    "url": "/localized-deal-documents",
-    "_name": "_e089e068"
+    "url": "/localized-deal-documents"
   },
   {
     "name": "login",
     "path": "/login",
-    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\(2-1)\\\\dealdoxwebsite\\\\pages\\\\login.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb(2-1)\\\\dealdoxwebsite\\\\pages\\\\login.vue",
     "chunkName": "pages/login",
-    "url": "/login",
-    "_name": "_74e28e54"
+    "url": "/login"
   },
   {
     "name": "microsoft-dynamics-365-cpq-integration",
     "path": "/microsoft-dynamics-365-cpq-integration",
-    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\(2-1)\\\\dealdoxwebsite\\\\pages\\\\microsoft-dynamics-365-cpq-integration.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb(2-1)\\\\dealdoxwebsite\\\\pages\\\\microsoft-dynamics-365-cpq-integration.vue",
     "chunkName": "pages/microsoft-dynamics-365-cpq-integration",
-    "url": "/microsoft-dynamics-365-cpq-integration",
-    "_name": "_5665c5b9"
+    "url": "/microsoft-dynamics-365-cpq-integration"
   },
   {
     "name": "our-team",
     "path": "/our-team",
-    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\(2-1)\\\\dealdoxwebsite\\\\pages\\\\our-team.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb(2-1)\\\\dealdoxwebsite\\\\pages\\\\our-team.vue",
     "chunkName": "pages/our-team",
-    "url": "/our-team",
-    "_name": "_10b2cf3e"
+    "url": "/our-team"
   },
   {
     "name": "privacy-policy",
     "path": "/privacy-policy",
-    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\(2-1)\\\\dealdoxwebsite\\\\pages\\\\privacy-policy.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb(2-1)\\\\dealdoxwebsite\\\\pages\\\\privacy-policy.vue",
     "chunkName": "pages/privacy-policy",
-    "url": "/privacy-policy",
-    "_name": "_0e02ae7a"
+    "url": "/privacy-policy"
   },
   {
     "name": "quoting-software",
     "path": "/quoting-software",
-    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\(2-1)\\\\dealdoxwebsite\\\\pages\\\\quoting-software.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb(2-1)\\\\dealdoxwebsite\\\\pages\\\\quoting-software.vue",
     "chunkName": "pages/quoting-software",
-    "url": "/quoting-software",
-    "_name": "_4176db5e"
+    "url": "/quoting-software"
   },
   {
     "name": "salesforce-cpq-integration",
     "path": "/salesforce-cpq-integration",
-    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\(2-1)\\\\dealdoxwebsite\\\\pages\\\\salesforce-cpq-integration.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb(2-1)\\\\dealdoxwebsite\\\\pages\\\\salesforce-cpq-integration.vue",
     "chunkName": "pages/salesforce-cpq-integration",
-    "url": "/salesforce-cpq-integration",
-    "_name": "_0bfb0ea0"
+    "url": "/salesforce-cpq-integration"
   },
   {
     "name": "security",
     "path": "/security",
-    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\(2-1)\\\\dealdoxwebsite\\\\pages\\\\security.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb(2-1)\\\\dealdoxwebsite\\\\pages\\\\security.vue",
     "chunkName": "pages/security",
-    "url": "/security",
-    "_name": "_4fff5a63"
+    "url": "/security"
   },
   {
     "name": "services-cpq",
     "path": "/services-cpq",
-    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\(2-1)\\\\dealdoxwebsite\\\\pages\\\\services-cpq.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb(2-1)\\\\dealdoxwebsite\\\\pages\\\\services-cpq.vue",
     "chunkName": "pages/services-cpq",
-    "url": "/services-cpq",
-    "_name": "_73740ad8"
+    "url": "/services-cpq"
   },
   {
     "name": "sign-up-free-trial",
     "path": "/sign-up-free-trial",
-    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\(2-1)\\\\dealdoxwebsite\\\\pages\\\\sign-up-free-trial.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb(2-1)\\\\dealdoxwebsite\\\\pages\\\\sign-up-free-trial.vue",
     "chunkName": "pages/sign-up-free-trial",
-    "url": "/sign-up-free-trial",
-    "_name": "_568fc4ba"
+    "url": "/sign-up-free-trial"
   },
   {
     "name": "SignIn",
     "path": "/SignIn",
-    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\(2-1)\\\\dealdoxwebsite\\\\pages\\\\SignIn.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb(2-1)\\\\dealdoxwebsite\\\\pages\\\\SignIn.vue",
     "chunkName": "pages/SignIn",
-    "url": "/SignIn",
-    "_name": "_6442c0c5"
+    "url": "/SignIn"
   },
   {
     "name": "SignUp",
     "path": "/SignUp",
-    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\(2-1)\\\\dealdoxwebsite\\\\pages\\\\SignUp.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb(2-1)\\\\dealdoxwebsite\\\\pages\\\\SignUp.vue",
     "chunkName": "pages/SignUp",
-    "url": "/SignUp",
-    "_name": "_78d9173b"
+    "url": "/SignUp"
   },
   {
     "name": "subscriptions",
     "path": "/subscriptions",
-    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\(2-1)\\\\dealdoxwebsite\\\\pages\\\\subscriptions.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb(2-1)\\\\dealdoxwebsite\\\\pages\\\\subscriptions.vue",
     "chunkName": "pages/subscriptions",
-    "url": "/subscriptions",
-    "_name": "_7bd0e0e3"
+    "url": "/subscriptions"
   },
   {
     "name": "success-stories",
     "path": "/success-stories",
-    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\(2-1)\\\\dealdoxwebsite\\\\pages\\\\success-stories.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb(2-1)\\\\dealdoxwebsite\\\\pages\\\\success-stories.vue",
     "chunkName": "pages/success-stories",
-    "url": "/success-stories",
-    "_name": "_8792b894"
+    "url": "/success-stories"
   },
   {
     "name": "sugarcrm-cpq-integration",
     "path": "/sugarcrm-cpq-integration",
-    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\(2-1)\\\\dealdoxwebsite\\\\pages\\\\sugarcrm-cpq-integration.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb(2-1)\\\\dealdoxwebsite\\\\pages\\\\sugarcrm-cpq-integration.vue",
     "chunkName": "pages/sugarcrm-cpq-integration",
-    "url": "/sugarcrm-cpq-integration",
-    "_name": "_1af1fe69"
+    "url": "/sugarcrm-cpq-integration"
   },
   {
     "name": "terms-of-use",
     "path": "/terms-of-use",
-    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\(2-1)\\\\dealdoxwebsite\\\\pages\\\\terms-of-use.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb(2-1)\\\\dealdoxwebsite\\\\pages\\\\terms-of-use.vue",
     "chunkName": "pages/terms-of-use",
-    "url": "/terms-of-use",
-    "_name": "_d1b05c8c"
+    "url": "/terms-of-use"
   },
   {
     "name": "thank-you",
     "path": "/thank-you",
-    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\(2-1)\\\\dealdoxwebsite\\\\pages\\\\thank-you.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb(2-1)\\\\dealdoxwebsite\\\\pages\\\\thank-you.vue",
     "chunkName": "pages/thank-you",
-    "url": "/thank-you",
-    "_name": "_72496029"
+    "url": "/thank-you"
   },
   {
     "name": "blog-slug",
     "path": "/blog/:slug",
-    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\(2-1)\\\\dealdoxwebsite\\\\pages\\\\blog\\\\_slug\\\\index.vue",
-    "chunkName": "pages/blog/_slug/index",
-    "_name": "_870e42e6"
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb(2-1)\\\\dealdoxwebsite\\\\pages\\\\blog\\\\_slug\\\\index.vue",
+    "chunkName": "pages/blog/_slug/index"
   },
   {
     "name": "category-details-slug",
     "path": "/category-details/:slug",
-    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\(2-1)\\\\dealdoxwebsite\\\\pages\\\\category-details\\\\_slug\\\\index.vue",
-    "chunkName": "pages/category-details/_slug/index",
-    "_name": "_cda14ec4"
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb(2-1)\\\\dealdoxwebsite\\\\pages\\\\category-details\\\\_slug\\\\index.vue",
+    "chunkName": "pages/category-details/_slug/index"
   },
   {
     "name": "ebook-slug",
     "path": "/ebook/:slug",
-    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\(2-1)\\\\dealdoxwebsite\\\\pages\\\\ebook\\\\_slug\\\\index.vue",
-    "chunkName": "pages/ebook/_slug/index",
-    "_name": "_7d00d883"
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb(2-1)\\\\dealdoxwebsite\\\\pages\\\\ebook\\\\_slug\\\\index.vue",
+    "chunkName": "pages/ebook/_slug/index"
   },
   {
     "name": "featured-blog-details-slug",
     "path": "/featured-blog-details/:slug",
-    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\(2-1)\\\\dealdoxwebsite\\\\pages\\\\featured-blog-details\\\\_slug\\\\index.vue",
-    "chunkName": "pages/featured-blog-details/_slug/index",
-    "_name": "_ca210bea"
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb(2-1)\\\\dealdoxwebsite\\\\pages\\\\featured-blog-details\\\\_slug\\\\index.vue",
+    "chunkName": "pages/featured-blog-details/_slug/index"
   },
   {
     "name": "featured-category-details-slug",
     "path": "/featured-category-details/:slug",
-    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\(2-1)\\\\dealdoxwebsite\\\\pages\\\\featured-category-details\\\\_slug\\\\index.vue",
-    "chunkName": "pages/featured-category-details/_slug/index",
-    "_name": "_fd26bb32"
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb(2-1)\\\\dealdoxwebsite\\\\pages\\\\featured-category-details\\\\_slug\\\\index.vue",
+    "chunkName": "pages/featured-category-details/_slug/index"
   },
   {
     "name": "glossary-category-details-slug",
     "path": "/glossary-category-details/:slug",
-    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\(2-1)\\\\dealdoxwebsite\\\\pages\\\\glossary-category-details\\\\_slug\\\\index.vue",
-    "chunkName": "pages/glossary-category-details/_slug/index",
-    "_name": "_744df677"
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb(2-1)\\\\dealdoxwebsite\\\\pages\\\\glossary-category-details\\\\_slug\\\\index.vue",
+    "chunkName": "pages/glossary-category-details/_slug/index"
   },
   {
     "name": "glossary-slug",
     "path": "/glossary/:slug",
-    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\(2-1)\\\\dealdoxwebsite\\\\pages\\\\glossary\\\\_slug\\\\index.vue",
-    "chunkName": "pages/glossary/_slug/index",
-    "_name": "_06fb7489"
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb(2-1)\\\\dealdoxwebsite\\\\pages\\\\glossary\\\\_slug\\\\index.vue",
+    "chunkName": "pages/glossary/_slug/index"
   },
   {
     "name": "success-stories-category-details-slug",
     "path": "/success-stories-category-details/:slug",
-    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\(2-1)\\\\dealdoxwebsite\\\\pages\\\\success-stories-category-details\\\\_slug\\\\index.vue",
-    "chunkName": "pages/success-stories-category-details/_slug/index",
-    "_name": "_35fc7262"
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb(2-1)\\\\dealdoxwebsite\\\\pages\\\\success-stories-category-details\\\\_slug\\\\index.vue",
+    "chunkName": "pages/success-stories-category-details/_slug/index"
   },
   {
     "name": "success-story-slug",
     "path": "/success-story/:slug",
-    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\(2-1)\\\\dealdoxwebsite\\\\pages\\\\success-story\\\\_slug\\\\index.vue",
-    "chunkName": "pages/success-story/_slug/index",
-    "_name": "_175c1420"
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb(2-1)\\\\dealdoxwebsite\\\\pages\\\\success-story\\\\_slug\\\\index.vue",
+    "chunkName": "pages/success-story/_slug/index"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\(2-1)\\\\dealdoxwebsite\\\\pages\\\\index.vue",
+    "component": "C:\\\\Users\\\\Bhagyashree Kathani\\\\Desktop\\\\ddweb(2-1)\\\\dealdoxwebsite\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
-    "url": "/",
-    "_name": "_0831d482"
+    "url": "/"
   }
 ]
