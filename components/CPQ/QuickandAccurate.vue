@@ -125,7 +125,7 @@
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p>It saves time, ensures accuracy, and accelerates sales cycles.</p>
+                                    <p>The best CPQ Software saves time, ensures accuracy, and accelerates sales cycles.</p>
                                 </li>
 
                                 <li>
@@ -173,7 +173,7 @@
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p>Automate approval processes.</p>
+                                    <p>Services CPQ automates diverse managed service approvals .</p>
                                 </li>
 
                                 <li>
@@ -242,8 +242,8 @@
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p>Easily integrates with ERP systems, enabling real-time data synchronization and
-                                        smooth communication between the platforms.</p>
+                                    <p>The best CPQ tools integrate with ERP systems, facilitating real-time data synchronization and 
+                                    smooth cross-platform communication for operational efficiency. </p>
                                 </li>
 
                                 <li>
@@ -277,7 +277,7 @@
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content">
-                        <h2>Streamline Quoting with Best CPQ Tools </h2>
+                        <h2>Streamline Quoting with Best CPQ Tools  </h2>
                         <div class="features-content">
                             <ul class="features-list">
                                 <li>
