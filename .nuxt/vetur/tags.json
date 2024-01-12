@@ -1,4 +1,13 @@
 {
+  "AuthenticationForgetPassword": {
+    "description": "Auto imported from components/Authentication/ForgetPassword.vue"
+  },
+  "AuthenticationSignIn": {
+    "description": "Auto imported from components/Authentication/SignIn.vue"
+  },
+  "AuthenticationSignUp": {
+    "description": "Auto imported from components/Authentication/SignUp.vue"
+  },
   "BlogsBlog": {
     "description": "Auto imported from components/blogs/Blog.vue"
   },
@@ -10,24 +19,6 @@
   },
   "BlogsLatestBlog": {
     "description": "Auto imported from components/blogs/LatestBlog.vue"
-  },
-  "AuthenticationForgetPassword": {
-    "description": "Auto imported from components/Authentication/ForgetPassword.vue"
-  },
-  "AuthenticationSignIn": {
-    "description": "Auto imported from components/Authentication/SignIn.vue"
-  },
-  "AuthenticationSignUp": {
-    "description": "Auto imported from components/Authentication/SignUp.vue"
-  },
-  "AboutUsIAQSolutions": {
-    "description": "Auto imported from components/AboutUs/IAQSolutions.vue"
-  },
-  "AboutUsPageHeader": {
-    "description": "Auto imported from components/AboutUs/PageHeader.vue"
-  },
-  "AboutUsStats": {
-    "description": "Auto imported from components/AboutUs/Stats.vue"
   },
   "AutomatedQuotesGenerationAccelerateYourSales": {
     "description": "Auto imported from components/AutomatedQuotesGeneration/AccelerateYourSales.vue"
@@ -46,6 +37,15 @@
   },
   "AutomatedQuotesGenerationYourBusiness": {
     "description": "Auto imported from components/AutomatedQuotesGeneration/YourBusiness.vue"
+  },
+  "AboutUsIAQSolutions": {
+    "description": "Auto imported from components/AboutUs/IAQSolutions.vue"
+  },
+  "AboutUsPageHeader": {
+    "description": "Auto imported from components/AboutUs/PageHeader.vue"
+  },
+  "AboutUsStats": {
+    "description": "Auto imported from components/AboutUs/Stats.vue"
   },
   "CategoriesDetails": {
     "description": "Auto imported from components/categories/categories-details.vue"
@@ -296,6 +296,9 @@
   "SalesforceMainBannerLoacalized": {
     "description": "Auto imported from components/Salesforce/MainBannerLoacalized.vue"
   },
+  "SignUpHeader": {
+    "description": "Auto imported from components/SignUp/SignUpHeader.vue"
+  },
   "SecurityFreeTrial": {
     "description": "Auto imported from components/Security/FreeTrial.vue"
   },
@@ -310,9 +313,6 @@
   },
   "SecurityWhatisCPQService": {
     "description": "Auto imported from components/Security/WhatisCPQService.vue"
-  },
-  "SignUpHeader": {
-    "description": "Auto imported from components/SignUp/SignUpHeader.vue"
   },
   "SubscriptionsMainBannerSubscription": {
     "description": "Auto imported from components/Subscriptions/MainBannerSubscription.vue"
@@ -349,5 +349,8 @@
   },
   "ThankYouPage": {
     "description": "Auto imported from components/ThankYou/ThankYouPage.vue"
+  },
+  "ThankYouTrackingImage": {
+    "description": "Auto imported from components/ThankYou/TrackingImage.vue"
   }
 }

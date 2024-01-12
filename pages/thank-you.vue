@@ -2,6 +2,7 @@
   <div>
     <Navbar class="navbar-style-two" />
     <ThankYouPage />
+    <TrackingImage />
     <DealDoxFooter />
   </div>
 </template>
@@ -11,12 +12,13 @@
 import Navbar from '../layouts/Navbar';
 import ThankYouPage from '../components/ThankYou/ThankYouPage'
 import DealDoxFooter from '../layouts/DealDoxFooter';
-
+import TrackingImage from '~/components/ThankYou/TrackingImage.vue';
 
 export default {
   components: {
     Navbar,
     ThankYouPage,
+    TrackingImage,
     DealDoxFooter,
   },
   // created() {
