@@ -85,7 +85,7 @@
                                            <div class="col-lg-6 col-md-6 col-sm-6">
       <div class="form-group">
             <p>Full Name</p>
-            <input type="text" maxlength="40" name="last_name" class="form-control" id="last_name" placeholder="Eg: David" required>      
+            <input type="text" maxlength="40" name="last_name" class="form-control" id="last_name" placeholder="" required>      
         </div>
     </div>
 
@@ -93,7 +93,7 @@
                                                 <div class="form-group">
                                                     <p> Business Email</p>
                                                     <input type="email" maxlength="40" name="email" required
-                                                        class="form-control" id="email" placeholder="Eg: abc@gmail.com">
+                                                        class="form-control" id="email" placeholder="">
                                                 </div>
                                             </div>
 
@@ -102,7 +102,7 @@
                                                 <input type="text" v-model="phoneNumber" @input="validatePhoneNumber"
                                                     @keypress="allowOnlyNumbers" :maxlength="maxPhoneNumberLength"
                                                     name="phone" class="form-control" id="phone" maxlength="15"
-                                                    placeholder="Eg: 123456789012345" :title="phoneValidationMessage" />
+                                                    placeholder="" :title="phoneValidationMessage" />
                                             </div>
 
                                            
@@ -113,7 +113,7 @@
                                                 <div class="form-group">
                                                     <p>Company</p>
                                                     <input type="text" maxlength="40" name="company"
-                                                        class="form-control" id="company" placeholder="Eg: ABC">
+                                                        class="form-control" id="company" placeholder="">
                                                 </div>
                                             </div>
 
@@ -123,7 +123,7 @@
                                                 <div class="form-group">
                                                     <p>Country</p>
                                                     <input type="country" maxlength="40" name="country"
-                                                        class="form-control" id="country" placeholder="Eg: India">
+                                                        class="form-control" id="country" placeholder="">
                                                 </div>
                                             </div>
 

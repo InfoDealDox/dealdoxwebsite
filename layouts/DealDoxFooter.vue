@@ -151,7 +151,7 @@
                                 <p>Mail us - <a href="mailto:info@dealdox.io">info@dealdox.io</a></p>
                             </li>
                             <li>
-                                <p>Call us - +91 8431995645</p>
+                                <a href="tel:+91 8431995645">Call us - +91 8431995645</a>
                             </li>
                         </ul>
                     </div>
@@ -173,7 +173,7 @@
                         </NuxtLink>
                     </div>
                     <div class="col-lg-4 col-sm-3">
-                        <p class="text-center">Copyright @ 2023 DealDox Pvt Ltd. All Rights Reserved.</p>
+                        <p class="text-center">Copyright @2024 DealDox Pvt Ltd. All Rights Reserved.</p>
                     </div>
                 </div>
             </div>

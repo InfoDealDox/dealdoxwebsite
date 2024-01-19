@@ -5,7 +5,7 @@
         <IAQSolutions />
         <OurTeam />
         <Feedback />
-        <Partner />
+    
         <Blog />
         <GetInTouch />
         <DealDoxFooter />
@@ -18,7 +18,7 @@ import Navbar from '../layouts/Navbar';
 import IAQSolutions from '../components/AboutUs/IAQSolutions';
 import OurTeam from '../components/Common/OurTeam';
 import Feedback from '../components/Common/Feedback';
-import Partner from '../components/Common/Partner';
+
 import Blog from '../components/Common/Blog';
 import Stats from '../components/AboutUs/Stats';
 import GetInTouch from '../components/Common/GetInTouch';
@@ -32,7 +32,7 @@ export default {
         IAQSolutions,
         OurTeam,
         Feedback,
-        Partner,
+   
         Blog,
         Stats,
         GetInTouch,

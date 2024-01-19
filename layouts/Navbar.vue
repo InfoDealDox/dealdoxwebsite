@@ -20,8 +20,11 @@
                             <li class="nav-item"><a href="/#" class="toggle nav-link">Home</a>
                             </li>
 
-                            <li class="nav-item"><a href="#" class="dropdown-toggle nav-link">Features</a>
-                                <ul class="dropdown-menu">
+                            <li class="nav-item"><a href="#" class="dropdown-toggle nav-link">Platform</a>
+                                <ul class="dropdown-menu1">
+                                <div class="main">
+                                <div class="div1">
+                                  <h4 class="navheaders">Top Features</h4>
                                     <li class="nav-item">
                                         <NuxtLink to="/services-cpq" class="nav-link">CPQ</NuxtLink>
                                     </li>
@@ -41,6 +44,29 @@
                                             Localized Deal Documents
                                         </NuxtLink>
                                     </li>
+                                    </div>
+                                      <div class="div2">
+                                    <h4 class="navheaders">Top Integrations</h4>
+                                     <li class="nav-item">
+                                        <NuxtLink to="/salesforce-cpq-integration" class="nav-link">Salesforce CRM</NuxtLink>
+                                    </li>
+                                    <li class="nav-item">
+                                        <NuxtLink to="/microsoft-dynamics-365-cpq-integration" class="nav-link">Microsoft Dynamics CRM</NuxtLink>
+                                    </li>
+                                    <li class="nav-item">
+                                        <NuxtLink to="/freshworks-cpq-integration" class="nav-link">Freshworks CRM
+                                        </NuxtLink>
+                                    </li>
+                                    <li class="nav-item">
+                                        <NuxtLink to="/hubspot-cpq-integration" class="nav-link">HubSpot CRM</NuxtLink>
+                                    </li>
+                                    <li class="nav-item">
+                                        <NuxtLink to="/sugarcrm-cpq-integration" class="nav-link">
+                                          SugarCRM
+                                        </NuxtLink>
+                                    </li>
+                                    </div>
+                                    </div>
                                 </ul>
                             </li>
 
@@ -79,7 +105,7 @@
                     </div>
 
                     <div class="others-option">
-                        <NuxtLink to="/demo" class="default-btn">Request a Demo</NuxtLink>
+                        <NuxtLink to="/sign-up-free-trial" class="default-btn">Start My Free Trial</NuxtLink>
                     </div>
                 </nav>
             </div>

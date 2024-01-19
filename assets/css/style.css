@@ -48,7 +48,7 @@ Default CSS
   --blackColor: #262A37;
   --signupButton: linear-gradient(99.01deg, #715CF3 20.98%, #5C99F3 94.62%);
   --gradientColor: linear-gradient(99.01deg, #715CF3 20.98%, #5C99F3 94.62%);
-  --paragraphColor: #716c80;
+  --paragraphColor: #191717;
   --fontFamily: 'Inter', sans-serif;
 
 }
@@ -1895,7 +1895,7 @@ New Demo CSS
   font-size: 24px;
   line-height: 100%;
   /* or 28px */
-  color: #8E8E8E;
+  color: #191717;
 }
 
 .new-app-main-banner-wrap-content-full h6 {
@@ -1904,7 +1904,7 @@ New Demo CSS
   font-size: 18px;
   line-height: 100%;
   /* or 28px */
-  color: #8E8E8E;
+  color: #191717;
 }
 
 .new-app-main-banner-wrap-content-full strong {
@@ -2110,11 +2110,11 @@ New Demo CSS
 .new-app-main-banner-wrap-content p {
   margin-bottom: 0;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 125%;
   padding-right: 130px;
   /* or 28px */
-  color: #8E8E8E;
+  color: #191717;
 }
 
 .new-app-main-banner-wrap-content h5 {
