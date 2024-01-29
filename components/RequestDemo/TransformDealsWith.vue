@@ -48,7 +48,7 @@
                                                 <div class="form-group">
                                                     <p>First Name</p>
                                                     <input type="text" maxlength="40" name="first_name" required
-                                                        class="form-control" id="first_name" placeholder="Eg: David">
+                                                        class="form-control" id="first_name" placeholder="">
                                                 </div>
                                             </div>
 
@@ -56,7 +56,7 @@
                                                 <div class="form-group">
                                                     <p>Last Name</p>
                                                     <input type="text" maxlength="40" name="last_name" class="form-control"
-                                                        id="last_name" placeholder="Eg: Marsh">
+                                                        id="last_name" placeholder="">
                                                 </div>
                                             </div>
 
@@ -66,7 +66,7 @@
                                                     <input type="text" v-model="phoneNumber" @input="validatePhoneNumber"
                                                         @keypress="allowOnlyNumbers" :maxlength="maxPhoneNumberLength"
                                                         name="phone" class="form-control" id="phone" maxlength="15"
-                                                        placeholder="Eg: 123456789012345" :title="phoneValidationMessage" />
+                                                        placeholder="" :title="phoneValidationMessage" />
 
 
                                                     <!-- <p>Phone</p>
@@ -79,7 +79,7 @@
                                                 <div class="form-group">
                                                     <p>Email</p>
                                                     <input type="email" maxlength="40" name="email" required
-                                                        class="form-control" id="email" placeholder="Eg: abc@gmail.com">
+                                                        class="form-control" id="email" placeholder="">
                                                 </div>
                                             </div>
 
@@ -87,7 +87,7 @@
                                                 <div class="form-group">
                                                     <p>Job Title</p>
                                                     <input type="text" maxlength="40" name="title" class="form-control"
-                                                        id="title" placeholder="Eg: Associate Consultant">
+                                                        id="title" placeholder="">
                                                 </div>
                                             </div>
 
@@ -95,7 +95,7 @@
                                                 <div class="form-group">
                                                     <p>Company</p>
                                                     <input type="text" maxlength="40" name="company" class="form-control"
-                                                        id="company" placeholder="Eg: ABC">
+                                                        id="company" placeholder="">
                                                 </div>
                                             </div>
 
@@ -117,7 +117,7 @@
                                                 <div class="form-group">
                                                     <p>Country</p>
                                                     <input type="country" maxlength="40" name="country" class="form-control"
-                                                        id="country" placeholder="Eg: Country">
+                                                        id="country" placeholder="">
                                                 </div>
                                             </div>
 

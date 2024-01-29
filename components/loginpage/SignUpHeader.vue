@@ -22,7 +22,7 @@
                                                 <div class="form-group">
                                                     <p>Email</p>
                                                     <input type="email" maxlength="40" name="first_name" required
-                                                        class="form-control" id="first_name" placeholder="Eg: David">
+                                                        class="form-control" id="first_name" placeholder="">
                                                 </div>
                                             </div>
 
@@ -30,7 +30,7 @@
                                                 <div class="form-group">
                                                     <p>Password</p>
                                                     <input type="password" maxlength="40" name="last_name" required
-                                                        class="form-control" id="last_name" placeholder="Eg: Marsh">
+                                                        class="form-control" id="last_name" placeholder="">
                                                 </div>
                                             </div>
 

@@ -9,7 +9,7 @@
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="new-app-main-banner-wrap-content">
-                        <h1>Effortlessly streamline your <span style="color: rgb(113, 92, 243);">quote generation</span> process with
+                        <h1>Effortlessly streamline your <span style="color: rgb(113, 92, 243);">Quote Generation</span> process with
                             DealDox</h1>
                         <p>Are you still stuck with outdated spreadsheet calculations, spending precious time manually
                             shifting estimates from Excel to Word, and then converting them to PDFs? Say goodbye to these

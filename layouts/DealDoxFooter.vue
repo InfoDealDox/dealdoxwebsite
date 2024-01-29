@@ -36,7 +36,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.linkedin.com/in/dealdox/" target="_blank">
+                                <a href="https://www.linkedin.com/company/dealdox" target="_blank">
                                     <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694695210/linkedin_dlsana.svg" alt="logo"></a>
                             </li>
                             <li>

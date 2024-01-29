@@ -72,28 +72,28 @@
                                                 <div class="form-group">
                                                     <p>First Name</p>
                                                     <input type="text" name="name" required class="form-control" id="name"
-                                                        placeholder="Eg: Sarah">
+                                                        placeholder="">
                                                 </div>
                                             </div>
                                             <div class="col-lg-6 col-md-6 col-sm-6">
                                                 <div class="form-group">
                                                     <p>Last Name</p>
                                                     <input type="text" name="name" required class="form-control" id="name"
-                                                        placeholder="Eg: Taylor">
+                                                        placeholder="">
                                                 </div>
                                             </div>
                                             <div class="col-lg-12 col-md-12 col-sm-12">
                                                 <div class="form-group">
                                                     <p>Job Title</p>
                                                     <input type="text" name="name" required class="form-control" id="name"
-                                                        placeholder="Eg: Software Developer">
+                                                        placeholder="">
                                                 </div>
                                             </div>
                                             <div class="col-lg-12 col-md-12 col-sm-12">
                                                 <div class="form-group">
                                                     <p>Company</p>
                                                     <input type="text" name="name" class="form-control" required id="name"
-                                                        placeholder="Eg: Lorem Ipsum">
+                                                        placeholder="">
                                                 </div>
                                             </div>
                                             <div class="col-lg-12 col-md-12 col-sm-12">
@@ -111,7 +111,7 @@
                                                 <div class="form-group">
                                                     <p>Country Region</p>
                                                     <input type="text" name="name" required class="form-control" id="name"
-                                                        placeholder="Eg: India">
+                                                        placeholder="">
                                                 </div>
                                             </div>
                                             <div class="col-lg-6 col-md-6 col-sm-6">
@@ -120,14 +120,14 @@
                                                     <input type="text" v-model="phoneNumber" @input="validatePhoneNumber"
                                                         @keypress="allowOnlyNumbers" :maxlength="maxPhoneNumberLength"
                                                         name="phone" required class="form-control" id="phone" maxlength="15"
-                                                        placeholder="Eg: 123456789012345" :title="phoneValidationMessage" />
+                                                        placeholder="" :title="phoneValidationMessage" />
                                                 </div>
                                             </div>
                                             <div class="col-lg-12 col-md-12 col-sm-12">
                                                 <div class="form-group">
                                                     <p>Business Email</p>
                                                     <input type="email" name="email" required class="form-control"
-                                                        id="email" placeholder="hello@sarah.com">
+                                                        id="email" placeholder="">
                                                 </div>
                                             </div>
                                             <div class="col-lg-12 col-md-12 col-sm-12">
