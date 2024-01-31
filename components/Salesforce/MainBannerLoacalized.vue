@@ -4,12 +4,12 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="new-app-main-banner-wrap-content">
-                        <h1>DealDox and<br><span class="sub-title">Salesforce</span>CRM</h1>
+                        <h1>DealDox and<br><span class="sub-title">Salesforce CRM</span></h1>
                         <p>Maximize Your CRM Potential with DealDox <a href="https://www.dealdox.io/services-cpq">CPQ </a>
 </p>
                         <div class="tb-30">
-                            <NuxtLink to="/demo" required class="default-btn"><i class='bx bx-paper-plane'></i>
-                                Request a Demo</NuxtLink>
+                            <NuxtLink to="/sign-up-free-trial" required class="default-btn"><i class='bx bx-paper-plane'></i>
+                                Start My Free Trial</NuxtLink>
                         </div>
                     </div>
                 </div>

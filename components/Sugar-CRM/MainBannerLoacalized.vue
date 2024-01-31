@@ -4,12 +4,12 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="new-app-main-banner-wrap-content">
-                        <h1>DealDox and <br><span class="sub-title">SugarCRM</span></h1>
+                        <h1>DealDox and <br><span class="sub-title">Sugar CRM</span></h1>
                         <p>Boost Your Sales with a Native SugarCRM Integration and a Powerful, User-Friendly <a href="https://www.dealdox.io/services-cpq">CPQ </a> Solution
                         </p>
                         <div class="tb-30">
-                            <NuxtLink to="/demo" required class="default-btn"><i class='bx bx-paper-plane'></i>
-                                Request a Demo</NuxtLink>
+                            <NuxtLink to="/sign-up-free-trial" required class="default-btn"><i class='bx bx-paper-plane'></i>
+                               Start My Free Trial</NuxtLink>
                         </div>
                     </div>
                 </div>

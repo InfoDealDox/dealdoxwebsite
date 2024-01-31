@@ -1377,6 +1377,9 @@ New Demo CSS
 .jexa-new-navbar-area .jexa-nav .navbar .navbar-nav .nav-item a {
   color: var(--blackColor);
 }
+.jexa-new-navbar-area .jexa-nav .navbar .navbar-nav  .loginButton {
+  border:0.1px solid #ccc;
+}
 
 .jexa-new-navbar-area .jexa-nav .navbar .navbar-nav .nav-item a:hover,
 .jexa-new-navbar-area .jexa-nav .navbar .navbar-nav .nav-item a.active {

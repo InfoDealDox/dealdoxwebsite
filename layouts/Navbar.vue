@@ -101,12 +101,16 @@
                                     </li>
                                 </ul>
                             </li>
+                            
                         </ul>
                     </div>
 
                     <div class="others-option">
                         <NuxtLink to="/sign-up-free-trial" class="default-btn">Start My Free Trial</NuxtLink>
-                    </div>
+                      </div>
+                 
+
+                        
                 </nav>
             </div>
         </div>
