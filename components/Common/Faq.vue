@@ -2,7 +2,7 @@
     <div class="app-download-area pt-65">
         <div class="container">
             <div class="features-content-improve-sales">
-                <div class="section-title">
+                <div class="section-title-home">
                     <h1>Frequently asked questions</h1>
                     <p>Can’t find your query listed? <span class="sub-title-faq"><NuxtLink to="/contact-us">
                             Write us</NuxtLink></span> your query</p>

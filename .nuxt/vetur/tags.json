@@ -1,13 +1,4 @@
 {
-  "AuthenticationForgetPassword": {
-    "description": "Auto imported from components/Authentication/ForgetPassword.vue"
-  },
-  "AuthenticationSignIn": {
-    "description": "Auto imported from components/Authentication/SignIn.vue"
-  },
-  "AuthenticationSignUp": {
-    "description": "Auto imported from components/Authentication/SignUp.vue"
-  },
   "AboutUsIAQSolutions": {
     "description": "Auto imported from components/AboutUs/IAQSolutions.vue"
   },
@@ -16,6 +7,15 @@
   },
   "AboutUsStats": {
     "description": "Auto imported from components/AboutUs/Stats.vue"
+  },
+  "AuthenticationForgetPassword": {
+    "description": "Auto imported from components/Authentication/ForgetPassword.vue"
+  },
+  "AuthenticationSignIn": {
+    "description": "Auto imported from components/Authentication/SignIn.vue"
+  },
+  "AuthenticationSignUp": {
+    "description": "Auto imported from components/Authentication/SignUp.vue"
   },
   "BlogsBlog": {
     "description": "Auto imported from components/blogs/Blog.vue"
@@ -28,18 +28,6 @@
   },
   "BlogsLatestBlog": {
     "description": "Auto imported from components/blogs/LatestBlog.vue"
-  },
-  "CategoriesDetails": {
-    "description": "Auto imported from components/categories/categories-details.vue"
-  },
-  "CategoriesFeaturedCategoriesDetails": {
-    "description": "Auto imported from components/categories/featured-categories-details.vue"
-  },
-  "CategoriesGlossaryCategoriesDetails": {
-    "description": "Auto imported from components/categories/glossary-categories-details.vue"
-  },
-  "CategoriesSuccessStoryCategoriesDetails": {
-    "description": "Auto imported from components/categories/success-story-categories-details.vue"
   },
   "AutomatedQuotesGenerationAccelerateYourSales": {
     "description": "Auto imported from components/AutomatedQuotesGeneration/AccelerateYourSales.vue"
@@ -58,6 +46,18 @@
   },
   "AutomatedQuotesGenerationYourBusiness": {
     "description": "Auto imported from components/AutomatedQuotesGeneration/YourBusiness.vue"
+  },
+  "CategoriesDetails": {
+    "description": "Auto imported from components/categories/categories-details.vue"
+  },
+  "CategoriesFeaturedCategoriesDetails": {
+    "description": "Auto imported from components/categories/featured-categories-details.vue"
+  },
+  "CategoriesGlossaryCategoriesDetails": {
+    "description": "Auto imported from components/categories/glossary-categories-details.vue"
+  },
+  "CategoriesSuccessStoryCategoriesDetails": {
+    "description": "Auto imported from components/categories/success-story-categories-details.vue"
   },
   "CommonAccordion": {
     "description": "Auto imported from components/Common/Accordion.vue"
@@ -107,11 +107,11 @@
   "CommonServicefaq": {
     "description": "Auto imported from components/Common/servicefaq.vue"
   },
-  "CookiesCookie": {
-    "description": "Auto imported from components/Cookies/Cookie.vue"
-  },
   "ContactUsPageHeader": {
     "description": "Auto imported from components/ContactUs/PageHeader.vue"
+  },
+  "CookiesCookie": {
+    "description": "Auto imported from components/Cookies/Cookie.vue"
   },
   "CPQFreeTrial": {
     "description": "Auto imported from components/CPQ/FreeTrial.vue"
@@ -323,6 +323,15 @@
   "SubscriptionsPageHeader": {
     "description": "Auto imported from components/Subscriptions/PageHeader.vue"
   },
+  "SugarCRMHowLocalizedDeal": {
+    "description": "Auto imported from components/Sugar-CRM/HowLocalizedDeal.vue"
+  },
+  "SugarCRMKeyBenefitsof": {
+    "description": "Auto imported from components/Sugar-CRM/KeyBenefitsof.vue"
+  },
+  "SugarCRMMainBannerLoacalized": {
+    "description": "Auto imported from components/Sugar-CRM/MainBannerLoacalized.vue"
+  },
   "SuccessStories": {
     "description": "Auto imported from components/success-stories/SuccessStories.vue"
   },
@@ -334,15 +343,6 @@
   },
   "SuccessStoriesSuccesStoryBannerPage": {
     "description": "Auto imported from components/success-stories/SuccesStoryBannerPage.vue"
-  },
-  "SugarCRMHowLocalizedDeal": {
-    "description": "Auto imported from components/Sugar-CRM/HowLocalizedDeal.vue"
-  },
-  "SugarCRMKeyBenefitsof": {
-    "description": "Auto imported from components/Sugar-CRM/KeyBenefitsof.vue"
-  },
-  "SugarCRMMainBannerLoacalized": {
-    "description": "Auto imported from components/Sugar-CRM/MainBannerLoacalized.vue"
   },
   "TermsConditions": {
     "description": "Auto imported from components/TermsConditions/TermsConditions.vue"
