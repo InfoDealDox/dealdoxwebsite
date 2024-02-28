@@ -7,8 +7,8 @@
                         <h1>Simple <span style="color: #715CF3">CPQ integration</span> for businesses</h1>
                         <p>Streamline sales operations, enhance accuracy, and deliver a seamless customer experience </p>
                         <div class="tb-30">
-                            <NuxtLink to="/sign-up-free-trial" required class="default-btn"><i class='bx bx-paper-plane'></i>
-                                Start My Free Trial</NuxtLink>
+                        <a href="https://uat.dealdox.io/register" target="_blank">
+<button class="default-btn"> <i class='bx bx-paper-plane'></i>Start My Free Trial</button></a>
                         </div>
                     </div>
                 </div>

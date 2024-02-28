@@ -6,24 +6,25 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="features-content">
                             <ul class="features-list">
-                                <h2><span class="sub-title">Localised</span><br> Deal Documents</h2>
+                                <h2><span class="sub-title"><a href="https://www.dealdox.io/localized-deal-documents"
+                      >Multilingual Documents</a></span></h2>
                                 <li>
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p class="with-top-border">Eliminate language barriers for seamless communication with clients and partners</p>
+                                    <p class="with-top-border">Bridge language gaps by conveying intentions effectively </p>
                                 </li>
                                 <li>
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p class="with-top-border">Conduct business effortlessly in your preferred language with the global reach of DealDox CPQ</p>
+                                    <p class="with-top-border">Easily conduct business in your preferred language globally</p>
                                 </li>
                                 <li>
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p>Access deal documents in non-English language for enhanced clarity and understanding</p>
+                                    <p>Reach diverse audiences & foster international relationships</p>
                                 </li>
                             </ul>
 

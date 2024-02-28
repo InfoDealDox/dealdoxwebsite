@@ -8,6 +8,9 @@
   background-color: #fff;
 }
 
+
+
+
 .navbar-area.is-sticky {
   top: 0;
   left: 0;
@@ -1109,8 +1112,9 @@ border-radius: 25px;
     right: 45px;
   }
   .navbar-area .jexa-nav .navbar .others-option .default-btn {
-    padding: 8px 20px;
+    padding: 8px 14px;
     margin-top: -5;
+    font-size: 10px;
   }
 }
 

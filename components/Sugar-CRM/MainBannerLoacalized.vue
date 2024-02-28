@@ -8,8 +8,8 @@
                         <p>Boost Your Sales with a Native SugarCRM Integration and a Powerful, User-Friendly <a href="https://www.dealdox.io/services-cpq">CPQ </a> Solution
                         </p>
                         <div class="tb-30">
-                            <NuxtLink to="/sign-up-free-trial" required class="default-btn"><i class='bx bx-paper-plane'></i>
-                               Start My Free Trial</NuxtLink>
+                           <a href="https://uat.dealdox.io/register" target="_blank">
+<button class="default-btn"> <i class='bx bx-paper-plane'></i>Start My Free Trial</button></a>
                         </div>
                     </div>
                 </div>

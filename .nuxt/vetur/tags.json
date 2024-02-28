@@ -8,15 +8,6 @@
   "AboutUsStats": {
     "description": "Auto imported from components/AboutUs/Stats.vue"
   },
-  "AuthenticationForgetPassword": {
-    "description": "Auto imported from components/Authentication/ForgetPassword.vue"
-  },
-  "AuthenticationSignIn": {
-    "description": "Auto imported from components/Authentication/SignIn.vue"
-  },
-  "AuthenticationSignUp": {
-    "description": "Auto imported from components/Authentication/SignUp.vue"
-  },
   "BlogsBlog": {
     "description": "Auto imported from components/blogs/Blog.vue"
   },
@@ -28,6 +19,15 @@
   },
   "BlogsLatestBlog": {
     "description": "Auto imported from components/blogs/LatestBlog.vue"
+  },
+  "AuthenticationForgetPassword": {
+    "description": "Auto imported from components/Authentication/ForgetPassword.vue"
+  },
+  "AuthenticationSignIn": {
+    "description": "Auto imported from components/Authentication/SignIn.vue"
+  },
+  "AuthenticationSignUp": {
+    "description": "Auto imported from components/Authentication/SignUp.vue"
   },
   "AutomatedQuotesGenerationAccelerateYourSales": {
     "description": "Auto imported from components/AutomatedQuotesGeneration/AccelerateYourSales.vue"
@@ -323,15 +323,6 @@
   "SubscriptionsPageHeader": {
     "description": "Auto imported from components/Subscriptions/PageHeader.vue"
   },
-  "SugarCRMHowLocalizedDeal": {
-    "description": "Auto imported from components/Sugar-CRM/HowLocalizedDeal.vue"
-  },
-  "SugarCRMKeyBenefitsof": {
-    "description": "Auto imported from components/Sugar-CRM/KeyBenefitsof.vue"
-  },
-  "SugarCRMMainBannerLoacalized": {
-    "description": "Auto imported from components/Sugar-CRM/MainBannerLoacalized.vue"
-  },
   "SuccessStories": {
     "description": "Auto imported from components/success-stories/SuccessStories.vue"
   },
@@ -343,6 +334,15 @@
   },
   "SuccessStoriesSuccesStoryBannerPage": {
     "description": "Auto imported from components/success-stories/SuccesStoryBannerPage.vue"
+  },
+  "SugarCRMHowLocalizedDeal": {
+    "description": "Auto imported from components/Sugar-CRM/HowLocalizedDeal.vue"
+  },
+  "SugarCRMKeyBenefitsof": {
+    "description": "Auto imported from components/Sugar-CRM/KeyBenefitsof.vue"
+  },
+  "SugarCRMMainBannerLoacalized": {
+    "description": "Auto imported from components/Sugar-CRM/MainBannerLoacalized.vue"
   },
   "TermsConditions": {
     "description": "Auto imported from components/TermsConditions/TermsConditions.vue"

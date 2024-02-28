@@ -12,7 +12,10 @@
                             international markets, expand your customer base, and close deals faster. By speaking your
                             prospects' language, you demonstrate a deep understanding of their needs, culture, and
                             preferences, elevating your sales effectiveness to a whole new level. </h3>
-                        <NuxtLink to="/sign-up-free-trial" class="default-btn">Start My Free Trial</NuxtLink>
+                       <a href="https://uat.dealdox.io/register" target="_blank" class="button-container">
+<button class="default-btn">Start My Free Trial</button></a>
+
+
                     </div>
                 </div>
             </div>

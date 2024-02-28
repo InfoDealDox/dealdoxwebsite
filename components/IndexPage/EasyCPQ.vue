@@ -6,13 +6,13 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="features-content">
                             <ul class="features-list">
-                                <h2>Easy CPQ<br><span class="sub-title">Integration</span></h2>
+                                <h2>Easy <span class="sub-title"><a href="https://www.dealdox.io/cpq-integrations"
+                      >CPQ Integration</a></span></h2>
                                 <li>
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p class="with-top-border">Integrate <a href="https://www.dealdox.io/services-cpq">services CPQ</a>
-                                        with your CRM & ERP system effortlessly</p>
+                                    <p class="with-top-border">Effortlessly integrate services CPQ with CRM and ERP</p>
                                 </li>
                                 <li>
                                     <div class="icon">

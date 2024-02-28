@@ -12,7 +12,9 @@
                             ensuring accurate and consistent quotes. It also enables seamless collaboration between sales
                             teams, partners, and customers, leading to faster sales cycles and improved customer
                             satisfaction. <br>Supercharge Your Sales Process and Get started free onboarding today!</h3>
-                        <NuxtLink to="/sign-up-free-trial" class="default-btn">Start My Free Trial</NuxtLink>
+                       <a href="https://uat.dealdox.io/register" target="_blank" class="button-container">
+<button class="default-btn">Start My Free Trial</button></a>
+
                     </div>
                 </div>
             </div>

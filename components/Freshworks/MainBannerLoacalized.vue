@@ -7,8 +7,8 @@
                         <h1>DealDox and <br><span class="sub-title">Freshworks</span></h1>
                         <p>Maximize Your CRM Potential with DealDox <a href="https://www.dealdox.io/services-cpq">CPQ </a></p>
                         <div class="tb-30">
-                            <NuxtLink to="/sign-up-free-trial" required class="default-btn"><i class='bx bx-paper-plane'></i>
-                                Start My Free Trial</NuxtLink>
+                         <a href="https://uat.dealdox.io/register" target="_blank">
+<button class="default-btn"> <i class='bx bx-paper-plane'></i>Start My Free Trial</button></a>
                         </div>
                     </div>
                 </div>

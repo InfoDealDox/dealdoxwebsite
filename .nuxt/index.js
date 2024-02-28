@@ -12,10 +12,10 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_1cd157c1 from 'nuxt_plugin_plugin_1cd157c1' // Source: .\\components\\plugin.js (mode: 'all')
-import nuxt_plugin_NuxtSeo_e7f7effe from 'nuxt_plugin_NuxtSeo_e7f7effe' // Source: .\\Nuxt-Seo.js (mode: 'all')
-import nuxt_plugin_bootstrapvue_6364df93 from 'nuxt_plugin_bootstrapvue_6364df93' // Source: .\\bootstrap-vue.js (mode: 'all')
-import nuxt_plugin_axios_eaf4b538 from 'nuxt_plugin_axios_eaf4b538' // Source: .\\axios.js (mode: 'all')
+import nuxt_plugin_plugin_55783225 from 'nuxt_plugin_plugin_55783225' // Source: .\\components\\plugin.js (mode: 'all')
+import nuxt_plugin_NuxtSeo_11c1a5c6 from 'nuxt_plugin_NuxtSeo_11c1a5c6' // Source: .\\Nuxt-Seo.js (mode: 'all')
+import nuxt_plugin_bootstrapvue_04408bf7 from 'nuxt_plugin_bootstrapvue_04408bf7' // Source: .\\bootstrap-vue.js (mode: 'all')
+import nuxt_plugin_axios_4df5f5c8 from 'nuxt_plugin_axios_4df5f5c8' // Source: .\\axios.js (mode: 'all')
 import nuxt_plugin_vuecarousel_6c010c3d from 'nuxt_plugin_vuecarousel_6c010c3d' // Source: ..\\plugins\\vue-carousel (mode: 'client')
 import nuxt_plugin_vuebacktotop_5f7b8136 from 'nuxt_plugin_vuebacktotop_5f7b8136' // Source: ..\\plugins\\vue-backtotop (mode: 'client')
 
@@ -183,20 +183,20 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_1cd157c1 === 'function') {
-    await nuxt_plugin_plugin_1cd157c1(app.context, inject)
+  if (typeof nuxt_plugin_plugin_55783225 === 'function') {
+    await nuxt_plugin_plugin_55783225(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_NuxtSeo_e7f7effe === 'function') {
-    await nuxt_plugin_NuxtSeo_e7f7effe(app.context, inject)
+  if (typeof nuxt_plugin_NuxtSeo_11c1a5c6 === 'function') {
+    await nuxt_plugin_NuxtSeo_11c1a5c6(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_bootstrapvue_6364df93 === 'function') {
-    await nuxt_plugin_bootstrapvue_6364df93(app.context, inject)
+  if (typeof nuxt_plugin_bootstrapvue_04408bf7 === 'function') {
+    await nuxt_plugin_bootstrapvue_04408bf7(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_axios_eaf4b538 === 'function') {
-    await nuxt_plugin_axios_eaf4b538(app.context, inject)
+  if (typeof nuxt_plugin_axios_4df5f5c8 === 'function') {
+    await nuxt_plugin_axios_4df5f5c8(app.context, inject)
   }
 
   if (process.client && typeof nuxt_plugin_vuecarousel_6c010c3d === 'function') {

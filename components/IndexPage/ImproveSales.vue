@@ -12,13 +12,13 @@
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p class="with-top-border">Reduce mistakes and increase sales productivity with our CPQ solutions</p>
+                                    <p class="with-top-border">Reduce mistakes and increase sales productivity</p>
                                 </li>
                                 <li>
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p class="with-top-border">Replace manual tasks with quick & accurate quote automation</p>
+                                    <p class="with-top-border">Replace manual tasks with quote automation</p>
                                 </li>
                                 <li>
                                     <div class="icon">

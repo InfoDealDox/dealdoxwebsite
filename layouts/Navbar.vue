@@ -41,7 +41,7 @@
                                     </li>
                                     <li class="nav-item">
                                         <NuxtLink to="/localized-deal-documents" class="nav-link">
-                                            Localized Deal Documents
+                                            Multilingual Documents 
                                         </NuxtLink>
                                     </li>
                                     </div>
@@ -106,9 +106,16 @@
                     </div>
 
                     <div class="others-option">
-                        <NuxtLink to="/sign-up-free-trial" class="default-btn">Start My Free Trial</NuxtLink>
+                        <a href="https://uat.dealdox.io/register" target="_blank" class="button-container">
+                           <button class="default-btn">Start My Free Trial</button></a>
+                        <a href="https://uat.dealdox.io" target="_blank" class="button-container">
+                           <button class="default-btn">Login</button></a>
+
                       </div>
-                 
+                   
+
+                
+                
 
                         
                 </nav>

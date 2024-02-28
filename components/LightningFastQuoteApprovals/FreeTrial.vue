@@ -14,7 +14,9 @@
                             Experience the Power of Quick Approvals. Get started with a free onboarding
                             today! Sign up now!
                         </h3>
-                        <NuxtLink to="/sign-up-free-trial" class="default-btn">Start My Free Trial</NuxtLink>
+                    <a href="https://uat.dealdox.io/register" target="_blank" class="button-container">
+<button class="default-btn">Start My Free Trial</button></a>
+
                     </div>
                 </div>
             </div>

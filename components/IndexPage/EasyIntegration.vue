@@ -14,8 +14,7 @@
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p class="with-top-border">Best Solution for quick and accurate quote generation in less
-                                        time</p>
+                                    <p class="with-top-border">The best cpq solution for quick quotes</p>
                                 </li>
                                 <li>
                                     <div class="icon">

@@ -4,46 +4,46 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _3f81e436 = () => interopDefault(import('..\\pages\\App.js' /* webpackChunkName: "pages/App" */))
-const _16b37829 = () => interopDefault(import('..\\pages\\approval-software.vue' /* webpackChunkName: "pages/approval-software" */))
-const _16a90349 = () => interopDefault(import('..\\pages\\blogs.vue' /* webpackChunkName: "pages/blogs" */))
-const _31853002 = () => interopDefault(import('..\\pages\\coming-soon.vue' /* webpackChunkName: "pages/coming-soon" */))
-const _719bbc63 = () => interopDefault(import('..\\pages\\contact-us.vue' /* webpackChunkName: "pages/contact-us" */))
-const _4fd6e49c = () => interopDefault(import('..\\pages\\cookie-preference.vue' /* webpackChunkName: "pages/cookie-preference" */))
-const _61de8120 = () => interopDefault(import('..\\pages\\cpq-integrations.vue' /* webpackChunkName: "pages/cpq-integrations" */))
-const _52d886db = () => interopDefault(import('..\\pages\\demo.vue' /* webpackChunkName: "pages/demo" */))
-const _6dde195d = () => interopDefault(import('..\\pages\\ebooks.vue' /* webpackChunkName: "pages/ebooks" */))
-const _03524640 = () => interopDefault(import('..\\pages\\ForgetPassword.vue' /* webpackChunkName: "pages/ForgetPassword" */))
-const _b74b082c = () => interopDefault(import('..\\pages\\freshworks-cpq-integration.vue' /* webpackChunkName: "pages/freshworks-cpq-integration" */))
-const _1fddd7b4 = () => interopDefault(import('..\\pages\\glossaries.vue' /* webpackChunkName: "pages/glossaries" */))
-const _617fe50d = () => interopDefault(import('..\\pages\\hubspot-cpq-integration.vue' /* webpackChunkName: "pages/hubspot-cpq-integration" */))
-const _5bb78521 = () => interopDefault(import('..\\pages\\localized-deal-documents.vue' /* webpackChunkName: "pages/localized-deal-documents" */))
-const _74ea41a1 = () => interopDefault(import('..\\pages\\login.vue' /* webpackChunkName: "pages/login" */))
-const _d2687b64 = () => interopDefault(import('..\\pages\\microsoft-dynamics-365-cpq-integration.vue' /* webpackChunkName: "pages/microsoft-dynamics-365-cpq-integration" */))
-const _f6cb5094 = () => interopDefault(import('..\\pages\\our-team.vue' /* webpackChunkName: "pages/our-team" */))
-const _2f5cda0f = () => interopDefault(import('..\\pages\\privacy-policy.vue' /* webpackChunkName: "pages/privacy-policy" */))
-const _74f475b3 = () => interopDefault(import('..\\pages\\quoting-software.vue' /* webpackChunkName: "pages/quoting-software" */))
-const _6aa0fa96 = () => interopDefault(import('..\\pages\\salesforce-cpq-integration.vue' /* webpackChunkName: "pages/salesforce-cpq-integration" */))
-const _4619cc90 = () => interopDefault(import('..\\pages\\security.vue' /* webpackChunkName: "pages/security" */))
-const _51c3d0a6 = () => interopDefault(import('..\\pages\\services-cpq.vue' /* webpackChunkName: "pages/services-cpq" */))
-const _bddfc462 = () => interopDefault(import('..\\pages\\sign-up-free-trial.vue' /* webpackChunkName: "pages/sign-up-free-trial" */))
-const _bf4f5d4c = () => interopDefault(import('..\\pages\\SignIn.vue' /* webpackChunkName: "pages/SignIn" */))
-const _9622b060 = () => interopDefault(import('..\\pages\\SignUp.vue' /* webpackChunkName: "pages/SignUp" */))
-const _e52f22a4 = () => interopDefault(import('..\\pages\\subscriptions.vue' /* webpackChunkName: "pages/subscriptions" */))
-const _73bc2a7e = () => interopDefault(import('..\\pages\\success-stories.vue' /* webpackChunkName: "pages/success-stories" */))
-const _32231884 = () => interopDefault(import('..\\pages\\sugarcrm-cpq-integration.vue' /* webpackChunkName: "pages/sugarcrm-cpq-integration" */))
-const _0a5c42e2 = () => interopDefault(import('..\\pages\\terms-of-use.vue' /* webpackChunkName: "pages/terms-of-use" */))
-const _f864e918 = () => interopDefault(import('..\\pages\\thank-you.vue' /* webpackChunkName: "pages/thank-you" */))
-const _06f937a2 = () => interopDefault(import('..\\pages\\blog\\_slug\\index.vue' /* webpackChunkName: "pages/blog/_slug/index" */))
-const _41b1ba33 = () => interopDefault(import('..\\pages\\category-details\\_slug\\index.vue' /* webpackChunkName: "pages/category-details/_slug/index" */))
-const _fae8bbe4 = () => interopDefault(import('..\\pages\\ebook\\_slug\\index.vue' /* webpackChunkName: "pages/ebook/_slug/index" */))
-const _7803cd96 = () => interopDefault(import('..\\pages\\featured-blog-details\\_slug\\index.vue' /* webpackChunkName: "pages/featured-blog-details/_slug/index" */))
-const _4dc63872 = () => interopDefault(import('..\\pages\\featured-category-details\\_slug\\index.vue' /* webpackChunkName: "pages/featured-category-details/_slug/index" */))
-const _40a78c82 = () => interopDefault(import('..\\pages\\glossary-category-details\\_slug\\index.vue' /* webpackChunkName: "pages/glossary-category-details/_slug/index" */))
-const _0e6189c4 = () => interopDefault(import('..\\pages\\glossary\\_slug\\index.vue' /* webpackChunkName: "pages/glossary/_slug/index" */))
-const _2b09ec12 = () => interopDefault(import('..\\pages\\success-stories-category-details\\_slug\\index.vue' /* webpackChunkName: "pages/success-stories-category-details/_slug/index" */))
-const _2f3622ab = () => interopDefault(import('..\\pages\\success-story\\_slug\\index.vue' /* webpackChunkName: "pages/success-story/_slug/index" */))
-const _a97ac2ec = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _1481495c = () => interopDefault(import('..\\pages\\App.js' /* webpackChunkName: "pages/App" */))
+const _0e2534e6 = () => interopDefault(import('..\\pages\\approval-software.vue' /* webpackChunkName: "pages/approval-software" */))
+const _dd1e32a6 = () => interopDefault(import('..\\pages\\blogs.vue' /* webpackChunkName: "pages/blogs" */))
+const _7d839f3a = () => interopDefault(import('..\\pages\\coming-soon.vue' /* webpackChunkName: "pages/coming-soon" */))
+const _bc235102 = () => interopDefault(import('..\\pages\\contact-us.vue' /* webpackChunkName: "pages/contact-us" */))
+const _3210d200 = () => interopDefault(import('..\\pages\\cookie-preference.vue' /* webpackChunkName: "pages/cookie-preference" */))
+const _88815188 = () => interopDefault(import('..\\pages\\cpq-integrations.vue' /* webpackChunkName: "pages/cpq-integrations" */))
+const _6f94a6f7 = () => interopDefault(import('..\\pages\\demo.vue' /* webpackChunkName: "pages/demo" */))
+const _4c12a279 = () => interopDefault(import('..\\pages\\ebooks.vue' /* webpackChunkName: "pages/ebooks" */))
+const _4469f35c = () => interopDefault(import('..\\pages\\ForgetPassword.vue' /* webpackChunkName: "pages/ForgetPassword" */))
+const _c6a941f4 = () => interopDefault(import('..\\pages\\freshworks-cpq-integration.vue' /* webpackChunkName: "pages/freshworks-cpq-integration" */))
+const _503072d0 = () => interopDefault(import('..\\pages\\glossaries.vue' /* webpackChunkName: "pages/glossaries" */))
+const _7879911e = () => interopDefault(import('..\\pages\\hubspot-cpq-integration.vue' /* webpackChunkName: "pages/hubspot-cpq-integration" */))
+const _41de7f3d = () => interopDefault(import('..\\pages\\localized-deal-documents.vue' /* webpackChunkName: "pages/localized-deal-documents" */))
+const _209bb5f6 = () => interopDefault(import('..\\pages\\login.vue' /* webpackChunkName: "pages/login" */))
+const _4796492c = () => interopDefault(import('..\\pages\\microsoft-dynamics-365-cpq-integration.vue' /* webpackChunkName: "pages/microsoft-dynamics-365-cpq-integration" */))
+const _b05dec5c = () => interopDefault(import('..\\pages\\our-team.vue' /* webpackChunkName: "pages/our-team" */))
+const _7074872b = () => interopDefault(import('..\\pages\\privacy-policy.vue' /* webpackChunkName: "pages/privacy-policy" */))
+const _62556862 = () => interopDefault(import('..\\pages\\quoting-software.vue' /* webpackChunkName: "pages/quoting-software" */))
+const _79ff345e = () => interopDefault(import('..\\pages\\salesforce-cpq-integration.vue' /* webpackChunkName: "pages/salesforce-cpq-integration" */))
+const _0029cbd4 = () => interopDefault(import('..\\pages\\security.vue' /* webpackChunkName: "pages/security" */))
+const _3d365bc9 = () => interopDefault(import('..\\pages\\services-cpq.vue' /* webpackChunkName: "pages/services-cpq" */))
+const _0613dceb = () => interopDefault(import('..\\pages\\sign-up-free-trial.vue' /* webpackChunkName: "pages/sign-up-free-trial" */))
+const _7e8cda76 = () => interopDefault(import('..\\pages\\SignIn.vue' /* webpackChunkName: "pages/SignIn" */))
+const _d9b99e28 = () => interopDefault(import('..\\pages\\SignUp.vue' /* webpackChunkName: "pages/SignUp" */))
+const _2b4ea3dc = () => interopDefault(import('..\\pages\\subscriptions.vue' /* webpackChunkName: "pages/subscriptions" */))
+const _b0003db6 = () => interopDefault(import('..\\pages\\success-stories.vue' /* webpackChunkName: "pages/success-stories" */))
+const _65d5244c = () => interopDefault(import('..\\pages\\sugarcrm-cpq-integration.vue' /* webpackChunkName: "pages/sugarcrm-cpq-integration" */))
+const _60ea22ab = () => interopDefault(import('..\\pages\\terms-of-use.vue' /* webpackChunkName: "pages/terms-of-use" */))
+const _7125c650 = () => interopDefault(import('..\\pages\\thank-you.vue' /* webpackChunkName: "pages/thank-you" */))
+const _6bfcf6be = () => interopDefault(import('..\\pages\\blog\\_slug\\index.vue' /* webpackChunkName: "pages/blog/_slug/index" */))
+const _1263af4f = () => interopDefault(import('..\\pages\\category-details\\_slug\\index.vue' /* webpackChunkName: "pages/category-details/_slug/index" */))
+const _8400731c = () => interopDefault(import('..\\pages\\ebook\\_slug\\index.vue' /* webpackChunkName: "pages/ebook/_slug/index" */))
+const _9deaac0c = () => interopDefault(import('..\\pages\\featured-blog-details\\_slug\\index.vue' /* webpackChunkName: "pages/featured-blog-details/_slug/index" */))
+const _94ff7a54 = () => interopDefault(import('..\\pages\\featured-category-details\\_slug\\index.vue' /* webpackChunkName: "pages/featured-category-details/_slug/index" */))
+const _af3cd234 = () => interopDefault(import('..\\pages\\glossary-category-details\\_slug\\index.vue' /* webpackChunkName: "pages/glossary-category-details/_slug/index" */))
+const _ad33e78c = () => interopDefault(import('..\\pages\\glossary\\_slug\\index.vue' /* webpackChunkName: "pages/glossary/_slug/index" */))
+const _c59171da = () => interopDefault(import('..\\pages\\success-stories-category-details\\_slug\\index.vue' /* webpackChunkName: "pages/success-stories-category-details/_slug/index" */))
+const _4101a30f = () => interopDefault(import('..\\pages\\success-story\\_slug\\index.vue' /* webpackChunkName: "pages/success-story/_slug/index" */))
+const _260a81ee = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -58,163 +58,163 @@ export const routerOptions = {
 
   routes: [{
     path: "/App",
-    component: _3f81e436,
+    component: _1481495c,
     name: "App"
   }, {
     path: "/approval-software",
-    component: _16b37829,
+    component: _0e2534e6,
     name: "approval-software"
   }, {
     path: "/blogs",
-    component: _16a90349,
+    component: _dd1e32a6,
     name: "blogs"
   }, {
     path: "/coming-soon",
-    component: _31853002,
+    component: _7d839f3a,
     name: "coming-soon"
   }, {
     path: "/contact-us",
-    component: _719bbc63,
+    component: _bc235102,
     name: "contact-us"
   }, {
     path: "/cookie-preference",
-    component: _4fd6e49c,
+    component: _3210d200,
     name: "cookie-preference"
   }, {
     path: "/cpq-integrations",
-    component: _61de8120,
+    component: _88815188,
     name: "cpq-integrations"
   }, {
     path: "/demo",
-    component: _52d886db,
+    component: _6f94a6f7,
     name: "demo"
   }, {
     path: "/ebooks",
-    component: _6dde195d,
+    component: _4c12a279,
     name: "ebooks"
   }, {
     path: "/ForgetPassword",
-    component: _03524640,
+    component: _4469f35c,
     name: "ForgetPassword"
   }, {
     path: "/freshworks-cpq-integration",
-    component: _b74b082c,
+    component: _c6a941f4,
     name: "freshworks-cpq-integration"
   }, {
     path: "/glossaries",
-    component: _1fddd7b4,
+    component: _503072d0,
     name: "glossaries"
   }, {
     path: "/hubspot-cpq-integration",
-    component: _617fe50d,
+    component: _7879911e,
     name: "hubspot-cpq-integration"
   }, {
     path: "/localized-deal-documents",
-    component: _5bb78521,
+    component: _41de7f3d,
     name: "localized-deal-documents"
   }, {
     path: "/login",
-    component: _74ea41a1,
+    component: _209bb5f6,
     name: "login"
   }, {
     path: "/microsoft-dynamics-365-cpq-integration",
-    component: _d2687b64,
+    component: _4796492c,
     name: "microsoft-dynamics-365-cpq-integration"
   }, {
     path: "/our-team",
-    component: _f6cb5094,
+    component: _b05dec5c,
     name: "our-team"
   }, {
     path: "/privacy-policy",
-    component: _2f5cda0f,
+    component: _7074872b,
     name: "privacy-policy"
   }, {
     path: "/quoting-software",
-    component: _74f475b3,
+    component: _62556862,
     name: "quoting-software"
   }, {
     path: "/salesforce-cpq-integration",
-    component: _6aa0fa96,
+    component: _79ff345e,
     name: "salesforce-cpq-integration"
   }, {
     path: "/security",
-    component: _4619cc90,
+    component: _0029cbd4,
     name: "security"
   }, {
     path: "/services-cpq",
-    component: _51c3d0a6,
+    component: _3d365bc9,
     name: "services-cpq"
   }, {
     path: "/sign-up-free-trial",
-    component: _bddfc462,
+    component: _0613dceb,
     name: "sign-up-free-trial"
   }, {
     path: "/SignIn",
-    component: _bf4f5d4c,
+    component: _7e8cda76,
     name: "SignIn"
   }, {
     path: "/SignUp",
-    component: _9622b060,
+    component: _d9b99e28,
     name: "SignUp"
   }, {
     path: "/subscriptions",
-    component: _e52f22a4,
+    component: _2b4ea3dc,
     name: "subscriptions"
   }, {
     path: "/success-stories",
-    component: _73bc2a7e,
+    component: _b0003db6,
     name: "success-stories"
   }, {
     path: "/sugarcrm-cpq-integration",
-    component: _32231884,
+    component: _65d5244c,
     name: "sugarcrm-cpq-integration"
   }, {
     path: "/terms-of-use",
-    component: _0a5c42e2,
+    component: _60ea22ab,
     name: "terms-of-use"
   }, {
     path: "/thank-you",
-    component: _f864e918,
+    component: _7125c650,
     name: "thank-you"
   }, {
     path: "/blog/:slug",
-    component: _06f937a2,
+    component: _6bfcf6be,
     name: "blog-slug"
   }, {
     path: "/category-details/:slug",
-    component: _41b1ba33,
+    component: _1263af4f,
     name: "category-details-slug"
   }, {
     path: "/ebook/:slug",
-    component: _fae8bbe4,
+    component: _8400731c,
     name: "ebook-slug"
   }, {
     path: "/featured-blog-details/:slug",
-    component: _7803cd96,
+    component: _9deaac0c,
     name: "featured-blog-details-slug"
   }, {
     path: "/featured-category-details/:slug",
-    component: _4dc63872,
+    component: _94ff7a54,
     name: "featured-category-details-slug"
   }, {
     path: "/glossary-category-details/:slug",
-    component: _40a78c82,
+    component: _af3cd234,
     name: "glossary-category-details-slug"
   }, {
     path: "/glossary/:slug",
-    component: _0e6189c4,
+    component: _ad33e78c,
     name: "glossary-slug"
   }, {
     path: "/success-stories-category-details/:slug",
-    component: _2b09ec12,
+    component: _c59171da,
     name: "success-stories-category-details-slug"
   }, {
     path: "/success-story/:slug",
-    component: _2f3622ab,
+    component: _4101a30f,
     name: "success-story-slug"
   }, {
     path: "/",
-    component: _a97ac2ec,
+    component: _260a81ee,
     name: "index"
   }],
 

@@ -11,7 +11,9 @@
                         Automated Quote Generation tool speeds up sales cycles, 
                         and boosts win rates with precise pricing and timely quotes. 
                     </h3>
-                        <NuxtLink to="/sign-up-free-trial" class="default-btn">Start My Free Trial</NuxtLink>
+                     <a href="https://uat.dealdox.io/register" target="_blank" class="button-container">
+<button class="default-btn">Start My Free Trial</button></a>
+
                     </div>
                 </div>
             </div>

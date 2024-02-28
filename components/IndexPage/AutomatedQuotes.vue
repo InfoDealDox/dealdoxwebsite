@@ -16,7 +16,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
-                        <div class="app-download-content">
+                        <div class="app-download-content-home">
                             <div class="features-content">
                                 <ul class="features-list">
                                     <li>
@@ -31,6 +31,12 @@
                                         </div>
                                         <h4>Comprehensive Implementation</h4>
                                     </li>
+                                      <li>
+                                        <div class="icon-home">
+                                            <i class="ri-check-line"></i>
+                                        </div>
+                                        <h4>Self-service quoting portals</h4>
+                                    </li>
                                     <li>
                                         <div class="icon-home">
                                             <i class="ri-check-line"></i>
@@ -44,7 +50,10 @@
                                     </li>
                                 </ul>
                                 <div class="btn-box">
-                                    <NuxtLink to="/sign-up-free-trial" class="default-btn-home">Start My Free Trial</NuxtLink>
+                                <a href="https://uat.dealdox.io/register" target="_blank" class="button-container">
+<button class="default-btn-home">Start My Free Trial</button></a>
+
+
                                 </div>
                             </div>
                         </div>
