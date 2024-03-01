@@ -2,7 +2,7 @@
     <div class="app-download-area pt-65">
         <div class="container">
             <div class="features-content-improve-sales">
-                <div class="section-title">
+                <div class="section-title-cpq">
                     <h1>Frequently asked questions</h1>
                     <p>Can’t find your query listed? <span class="sub-title-faq"><NuxtLink to="/contact-us">
                             Write us</NuxtLink></span> your query</p>
@@ -12,7 +12,7 @@
                 <div class="col-lg-2 col-md-12"></div>
                 <div class="col-lg-8 col-md-12">
                     <div class="faq-accordion">
-                        <accordion>
+                        <accordion class="cpq">
                             <accordion-item>
                                 <template v-slot:accordion-trigger>
                                     <button class="accordion-title">

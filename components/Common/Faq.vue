@@ -12,7 +12,7 @@
                 <div class="col-lg-2 col-md-12"></div>
                 <div class="col-lg-8 col-md-12">
                     <div class="faq-accordion">
-                        <accordion>
+                        <accordion class="home">
                             <accordion-item>
                                 <template v-slot:accordion-trigger>
                                     <button class="accordion-title">

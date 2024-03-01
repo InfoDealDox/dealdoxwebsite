@@ -185,7 +185,7 @@ p:last-child {
 }
 
 .pt-60 {
-  padding-top: 50px;
+  padding-top: 85px;
 }
 
 .pb-75 {
@@ -5836,6 +5836,10 @@ New Demo CSS
   display: none;
 }
 
+.new-app-main-banner-wrap-area .container  #subscription-header{
+  margin-top: 37px;
+}
+
 .footer-wrap-shape {
   position: absolute;
   right: 0;
@@ -8061,4 +8065,33 @@ Preloader CSS
   display: flex;
   justify-content: center;
   padding-top: 25px;
+}
+
+
+
+.section-title-home {
+  text-align: center;
+  font-weight: 600;
+  margin-top: -168px;
+  font-size: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul.accordion.home {
+  margin-top: -15%;
+  padding-left: 40px;
+}
+
+.section-title-cpq {
+  text-align: center;
+  margin-top: -16%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 55px;
+}
+
+ul.accordion.cpq {
+  margin-top: -135px;
+  padding-left: 65px;
 }
