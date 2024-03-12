@@ -8,6 +8,7 @@
         <ModesofApprovals />
         <ApprovalsInsights />
         <FreeTrial />
+               <TransformDealsWith/>
         <approvalsfaq/>
         <DealDoxFooter />
     </div>
@@ -22,6 +23,7 @@ import RoutingCapabilitiess from '../components/LightningFastQuoteApprovals/Rout
 import ModesofApprovals from '../components/LightningFastQuoteApprovals/ModesofApprovals'
 import ApprovalsInsights from '../components/LightningFastQuoteApprovals/ApprovalsInsights'
 import FreeTrial from '../components/LightningFastQuoteApprovals/FreeTrial'
+import TransformDealsWith  from "../components/RequestDemo/TransformDealsWith"
 import approvalsfaq from '../components/LightningFastQuoteApprovals/approvalsfaq'
 import DealDoxFooter from '../layouts/DealDoxFooter'
 import axios from 'axios';
@@ -38,6 +40,7 @@ export default {
         ModesofApprovals,
         ApprovalsInsights,
         FreeTrial,
+         TransformDealsWith,
         approvalsfaq,
         DealDoxFooter,
     },

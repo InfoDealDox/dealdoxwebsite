@@ -6,6 +6,7 @@
         <Funfacts />
         <IAQSolutions />
         <FreeTrial />
+          <TransformDealsWith/>
         <integrationfaq />
         <DealDoxFooter />
     </div>
@@ -18,6 +19,7 @@ import IAQSolutions from '../components/CPQIntegration/IAQSolutions'
 import Funfacts from '../components/CPQIntegration/Funfacts'
 import Stats from '../components/CPQIntegration/Stats'
 import FreeTrial from '../components/CPQIntegration/FreeTrial'
+import TransformDealsWith  from "../components/RequestDemo/TransformDealsWith"
 import integrationfaq from '../components/CPQIntegration/integrationfaq'
 import DealDoxFooter from '../layouts/DealDoxFooter'
 import axios from 'axios';
@@ -30,7 +32,9 @@ export default {
         IAQSolutions,
         Funfacts,
         Stats,
+        
         FreeTrial,
+        TransformDealsWith,
         DealDoxFooter,
         integrationfaq,
     },

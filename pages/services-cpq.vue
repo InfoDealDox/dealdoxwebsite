@@ -6,6 +6,7 @@
         <TransformYourSales />
         <QuickandAccurate />
         <FreeTrial />
+        <TransformDealsWith/>
         <servicefaq/>    
         <DealDoxFooter />
         
@@ -19,6 +20,7 @@ import TransformYourSales from '../components/CPQ/TransformYourSales'
 import QuickandAccurate from '../components/CPQ/QuickandAccurate'
 import WhatisCPQService from '../components/CPQ/WhatisCPQService'
 import FreeTrial from '../components/CPQ/FreeTrial'
+import TransformDealsWith  from "../components/RequestDemo/TransformDealsWith"
 import servicefaq from '../components/CPQ/servicefaq'
 import DealDoxFooter from '../layouts/DealDoxFooter'
 import axios from 'axios';
@@ -32,6 +34,7 @@ export default {
         QuickandAccurate,
         WhatisCPQService,
         FreeTrial,
+        TransformDealsWith,
         DealDoxFooter,
          servicefaq,
     },

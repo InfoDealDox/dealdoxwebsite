@@ -1,10 +1,6 @@
 <template>
   <div class="new-app-main-banner-wrap-area bg-white">
-    <div class="leap-img">
-      <a href="https://calendly.com/info-dealdox/leap-2024?month=2024-03">
-        <img src="../../assets/images/cpq/DDLeap.png"
-      /></a>
-    </div>
+    
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-6 col-md-12">

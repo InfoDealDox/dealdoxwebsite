@@ -17,6 +17,24 @@
   "AuthenticationSignUp": {
     "description": "Auto imported from components/Authentication/SignUp.vue"
   },
+  "AutomatedQuotesGenerationAccelerateYourSales": {
+    "description": "Auto imported from components/AutomatedQuotesGeneration/AccelerateYourSales.vue"
+  },
+  "AutomatedQuotesGenerationBanner": {
+    "description": "Auto imported from components/AutomatedQuotesGeneration/Banner.vue"
+  },
+  "AutomatedQuotesGenerationExperiencethefuture": {
+    "description": "Auto imported from components/AutomatedQuotesGeneration/Experiencethefuture.vue"
+  },
+  "AutomatedQuotesGenerationFreeTrial": {
+    "description": "Auto imported from components/AutomatedQuotesGeneration/FreeTrial.vue"
+  },
+  "AutomatedQuotesGenerationQuotefaq": {
+    "description": "Auto imported from components/AutomatedQuotesGeneration/quotefaq.vue"
+  },
+  "AutomatedQuotesGenerationYourBusiness": {
+    "description": "Auto imported from components/AutomatedQuotesGeneration/YourBusiness.vue"
+  },
   "BlogsBlog": {
     "description": "Auto imported from components/blogs/Blog.vue"
   },
@@ -40,24 +58,6 @@
   },
   "CategoriesSuccessStoryCategoriesDetails": {
     "description": "Auto imported from components/categories/success-story-categories-details.vue"
-  },
-  "AutomatedQuotesGenerationAccelerateYourSales": {
-    "description": "Auto imported from components/AutomatedQuotesGeneration/AccelerateYourSales.vue"
-  },
-  "AutomatedQuotesGenerationBanner": {
-    "description": "Auto imported from components/AutomatedQuotesGeneration/Banner.vue"
-  },
-  "AutomatedQuotesGenerationExperiencethefuture": {
-    "description": "Auto imported from components/AutomatedQuotesGeneration/Experiencethefuture.vue"
-  },
-  "AutomatedQuotesGenerationFreeTrial": {
-    "description": "Auto imported from components/AutomatedQuotesGeneration/FreeTrial.vue"
-  },
-  "AutomatedQuotesGenerationQuotefaq": {
-    "description": "Auto imported from components/AutomatedQuotesGeneration/quotefaq.vue"
-  },
-  "AutomatedQuotesGenerationYourBusiness": {
-    "description": "Auto imported from components/AutomatedQuotesGeneration/YourBusiness.vue"
   },
   "CommonAccordion": {
     "description": "Auto imported from components/Common/Accordion.vue"
