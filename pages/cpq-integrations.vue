@@ -5,7 +5,7 @@
         <Stats />
         <Funfacts />
         <IAQSolutions />
-        <FreeTrial />
+      
           <TransformDealsWith/>
         <integrationfaq />
         <DealDoxFooter />
@@ -18,7 +18,7 @@ import PageHeader from '../components/CPQIntegration/PageHeader'
 import IAQSolutions from '../components/CPQIntegration/IAQSolutions'
 import Funfacts from '../components/CPQIntegration/Funfacts'
 import Stats from '../components/CPQIntegration/Stats'
-import FreeTrial from '../components/CPQIntegration/FreeTrial'
+
 import TransformDealsWith  from "../components/RequestDemo/TransformDealsWith"
 import integrationfaq from '../components/CPQIntegration/integrationfaq'
 import DealDoxFooter from '../layouts/DealDoxFooter'
@@ -33,7 +33,7 @@ export default {
         Funfacts,
         Stats,
         
-        FreeTrial,
+    
         TransformDealsWith,
         DealDoxFooter,
         integrationfaq,

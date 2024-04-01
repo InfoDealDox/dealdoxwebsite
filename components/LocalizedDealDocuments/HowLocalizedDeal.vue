@@ -20,7 +20,7 @@
                         </p>
                         <h5>Going Global: The Benefits of Multilingual Automated Quotation CPQ Software for Your Business
                         </h5>
-                        <p>Regional CPQ <a href="https://www.dealdox.io/quoting-software">automated quote generation</a>
+                        <p>Regional CPQ automated quote generation
                             is an advanced solution designed to support multilingual communication in a global business
                             environment. This feature enables businesses to create and share deal documents, such as
                             quotations, contracts, proposals, agreements, SOW and more, in a variety of languages. By

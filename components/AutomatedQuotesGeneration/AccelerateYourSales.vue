@@ -16,7 +16,7 @@
                         </h3>
                         <p>Optimize quote generation speed by leveraging our Quoting software to automate your sales
                             process. DealDox, also known as DD CPQ, enables seamless and auto-generating content that
-                            captures the scope, assumptions, price, and client needs. Our <a href="https://www.dealdox.io/quoting-software">automated quoting software</a> covers
+                            captures the scope, assumptions, price, and client needs. Our automated quoting software covers
                             everything - from detailed scopes of work to precise terms and conditions, licensing agreements,
                             automated business proposals, order forms, pricing quotes, and every essential document to seal
                             the deal. When the scope changes, the CPQ quote automation tool dynamically revises all content,

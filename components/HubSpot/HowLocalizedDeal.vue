@@ -103,7 +103,7 @@
                     </div>
                     <div class="col-lg-6 col-md-12">
                         <div class="about-content">
-                            <h3>Simplify <a href="https://www.dealdox.io/services-cpq">CPQ</a>
+                            <h3>Simplify CPQ
                                 Implementation and Maintenance Efforts</h3>
                             <p>DealDox's <strong>code-free CPQ solution</strong> eliminates the need for your operations
                                 teams to make complex backend configuration changes. Anyone with the appropriate permissions

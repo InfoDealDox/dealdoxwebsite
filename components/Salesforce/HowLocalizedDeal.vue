@@ -14,7 +14,7 @@
                         <h3>Accelerate Deals, Delight Buyers, and Achieve Outstanding Success Rates</h3>
                         <p>Salesforce customers can speed up their transactions by controlling their complete deal cycle
                             within their CRM. With real-time insights on your prospect's engagements and degree of interest,
-                            DealDox's reliable <a href="https://www.dealdox.io/services-cpq">CPQ </a> enables quotations
+                            DealDox's reliable CPQ enables quotations
                             easier and faster.</p>
                     </div>
                 </div>

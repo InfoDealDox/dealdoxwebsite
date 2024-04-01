@@ -7,7 +7,7 @@
         <RoutingCapabilitiess />
         <ModesofApprovals />
         <ApprovalsInsights />
-        <FreeTrial />
+       
                <TransformDealsWith/>
         <approvalsfaq/>
         <DealDoxFooter />
@@ -22,7 +22,7 @@ import EffortlessAutomation from '../components/LightningFastQuoteApprovals/Effo
 import RoutingCapabilitiess from '../components/LightningFastQuoteApprovals/RoutingCapabilitiess'
 import ModesofApprovals from '../components/LightningFastQuoteApprovals/ModesofApprovals'
 import ApprovalsInsights from '../components/LightningFastQuoteApprovals/ApprovalsInsights'
-import FreeTrial from '../components/LightningFastQuoteApprovals/FreeTrial'
+
 import TransformDealsWith  from "../components/RequestDemo/TransformDealsWith"
 import approvalsfaq from '../components/LightningFastQuoteApprovals/approvalsfaq'
 import DealDoxFooter from '../layouts/DealDoxFooter'
@@ -39,7 +39,7 @@ export default {
         RoutingCapabilitiess,
         ModesofApprovals,
         ApprovalsInsights,
-        FreeTrial,
+     
          TransformDealsWith,
         approvalsfaq,
         DealDoxFooter,

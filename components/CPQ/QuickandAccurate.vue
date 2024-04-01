@@ -116,7 +116,7 @@
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p> <a href="https://www.dealdox.io/quoting-software"> Automated Quoting Software</a>
+                                    <p>Automated Quoting Software
                                         streamlines quoting, configuration, pricing, and proposal
                                         generation, eliminating manual processes.</p>
                                 </li>

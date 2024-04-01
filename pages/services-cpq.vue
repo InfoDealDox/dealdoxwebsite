@@ -5,7 +5,7 @@
         <WhatisCPQService />
         <TransformYourSales />
         <QuickandAccurate />
-        <FreeTrial />
+      
         <TransformDealsWith/>
         <servicefaq/>    
         <DealDoxFooter />
@@ -19,7 +19,7 @@ import MainBannerCPQ from '../components/CPQ/MainBannerCPQ'
 import TransformYourSales from '../components/CPQ/TransformYourSales'
 import QuickandAccurate from '../components/CPQ/QuickandAccurate'
 import WhatisCPQService from '../components/CPQ/WhatisCPQService'
-import FreeTrial from '../components/CPQ/FreeTrial'
+
 import TransformDealsWith  from "../components/RequestDemo/TransformDealsWith"
 import servicefaq from '../components/CPQ/servicefaq'
 import DealDoxFooter from '../layouts/DealDoxFooter'
@@ -33,7 +33,7 @@ export default {
         TransformYourSales,
         QuickandAccurate,
         WhatisCPQService,
-        FreeTrial,
+      
         TransformDealsWith,
         DealDoxFooter,
          servicefaq,

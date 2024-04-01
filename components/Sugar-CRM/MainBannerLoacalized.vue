@@ -5,7 +5,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="new-app-main-banner-wrap-content">
                         <h1>DealDox and <br><span class="sub-title">Sugar CRM</span></h1>
-                        <p>Boost Your Sales with a Native SugarCRM Integration and a Powerful, User-Friendly <a href="https://www.dealdox.io/services-cpq">CPQ </a> Solution
+                        <p>Boost Your Sales with a Native SugarCRM Integration and a Powerful, User-Friendly CPQ Solution
                         </p>
                         <div class="tb-30">
                            <a href="https://uat.dealdox.io/register" target="_blank">

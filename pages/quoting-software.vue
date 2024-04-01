@@ -5,8 +5,8 @@
         <AccelerateYourSales />
         <Experiencethefuture />
         <YourBusiness />
-        <FreeTrial />
-          <TransformDealsWith/>
+       
+     <PageHeader />
         <quotefaq/>
         <DealDoxFooter />
     </div>
@@ -18,8 +18,8 @@ import Banner from '../components/AutomatedQuotesGeneration/Banner'
 import AccelerateYourSales from '../components/AutomatedQuotesGeneration/AccelerateYourSales'
 import Experiencethefuture from '../components/AutomatedQuotesGeneration/Experiencethefuture'
 import YourBusiness from '../components/AutomatedQuotesGeneration/YourBusiness'
-import FreeTrial from '../components/AutomatedQuotesGeneration/FreeTrial'
-import TransformDealsWith  from "../components/RequestDemo/TransformDealsWith"
+
+import PageHeader from '../components/ContactUs/PageHeader'
 import quotefaq from '../components/AutomatedQuotesGeneration/quotefaq'
 import DealDoxFooter from '../layouts/DealDoxFooter'
 import axios from 'axios';
@@ -33,8 +33,8 @@ export default {
         AccelerateYourSales,
         Experiencethefuture,
         YourBusiness,
-        FreeTrial,
-        TransformDealsWith,
+        
+         PageHeader,
         quotefaq,
         DealDoxFooter,
     },

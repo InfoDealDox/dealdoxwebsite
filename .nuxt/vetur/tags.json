@@ -8,15 +8,6 @@
   "AboutUsStats": {
     "description": "Auto imported from components/AboutUs/Stats.vue"
   },
-  "AuthenticationForgetPassword": {
-    "description": "Auto imported from components/Authentication/ForgetPassword.vue"
-  },
-  "AuthenticationSignIn": {
-    "description": "Auto imported from components/Authentication/SignIn.vue"
-  },
-  "AuthenticationSignUp": {
-    "description": "Auto imported from components/Authentication/SignUp.vue"
-  },
   "AutomatedQuotesGenerationAccelerateYourSales": {
     "description": "Auto imported from components/AutomatedQuotesGeneration/AccelerateYourSales.vue"
   },
@@ -34,6 +25,15 @@
   },
   "AutomatedQuotesGenerationYourBusiness": {
     "description": "Auto imported from components/AutomatedQuotesGeneration/YourBusiness.vue"
+  },
+  "AuthenticationForgetPassword": {
+    "description": "Auto imported from components/Authentication/ForgetPassword.vue"
+  },
+  "AuthenticationSignIn": {
+    "description": "Auto imported from components/Authentication/SignIn.vue"
+  },
+  "AuthenticationSignUp": {
+    "description": "Auto imported from components/Authentication/SignUp.vue"
   },
   "BlogsBlog": {
     "description": "Auto imported from components/blogs/Blog.vue"
@@ -344,13 +344,13 @@
   "SugarCRMMainBannerLoacalized": {
     "description": "Auto imported from components/Sugar-CRM/MainBannerLoacalized.vue"
   },
-  "TermsConditions": {
-    "description": "Auto imported from components/TermsConditions/TermsConditions.vue"
-  },
   "ThankYouPage": {
     "description": "Auto imported from components/ThankYou/ThankYouPage.vue"
   },
   "ThankYouTrackingImage": {
     "description": "Auto imported from components/ThankYou/TrackingImage.vue"
+  },
+  "TermsConditions": {
+    "description": "Auto imported from components/TermsConditions/TermsConditions.vue"
   }
 }

@@ -149,6 +149,14 @@
                                                     type="text" value="True" /><br />
                                             </div>
 
+
+
+                                            <div style="display: none;">
+                                                <label for="lead_source">Lead Source</label>
+                                                <input id="lead_source" maxlength="40" name="lead_source" size="20"
+                                                    type="text" value="Website" /><br />
+                                            </div>
+
                                             <div class="col-lg-12 col-md-12 col-sm-12">
                                                 <button type="submit" name="submit" required class="default-btn"><i
                                                         class='bx bx-paper-plane'></i>

@@ -14,10 +14,8 @@
                     <div class="about-content">
                         <h3>Close Deals Faster with DealDox</h3>
                         <p><strong>Microsoft Dynamics 365 for Sales and DealDox</strong> work together to help sales teams
-                            sell quicker and more efficiently. <strong><a
-                                    href="https://www.dealdox.io/microsoft-dynamics-365-cpq-integration"> Dynamics 365 CRM</a>
-                            </strong> allows sales teams to create <strong> <a
-                                    href="https://www.dealdox.io/quoting-software">advanced quotes</a>
+                            sell quicker and more efficiently. <strong> Dynamics 365 CRM
+                            </strong> allows sales teams to create <strong> advanced quotes
                             </strong>, expedite contract
                             discussions with <strong>automated workflows</strong> and approvals, and sign off huge
                             agreements.</p>
@@ -72,11 +70,11 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content-right">
-                        <h3>Closing Deals at Lightning Speed through <a href="https://www.dealdox.io/services-cpq">CPQ </a> Automation</h3>
+                        <h3>Closing Deals at Lightning Speed through CPQ Automation</h3>
                         <p>In today's digital workplace, seamless cross-team collaboration is essential. At DealDox, we
                             understand that internal conversations and processes surrounding discounting or other aspects
                             should never impede your ability to send a quote. That's why our advanced platform enables you
-                            to assign roles, <a href="https://www.dealdox.io/approval-software">automate approvals</a>
+                            to assign roles, automate approvals
                             based on thresholds, and set up notifications for every step
                             of the deal process. Experience a paradigm shift where approvals that used to take days or hours
                             are now accomplished in minutes.</p>

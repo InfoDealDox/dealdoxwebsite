@@ -7,8 +7,8 @@
                         <div class="features-content">
                             <ul class="features-list">
                                 <h2>How Localized Deal Documents Work:</h2>
-                                <p>Using Localized <a href="https://www.dealdox.io/localized-deal-documents">Deal
-                                        Documents</a>
+                                <p>Using Localized Deal
+                                        Documents
                                     is a straightforward and user-friendly process.</p>
                                 <li>
                                     <div class="icon">
