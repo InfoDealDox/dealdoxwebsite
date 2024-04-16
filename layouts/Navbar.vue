@@ -102,7 +102,7 @@
                                 </ul>
                             </li>
 
-                                <li class="nav-item"><a href="/demo" class="toggle nav-link">Contact Us</a>
+                                <li class="nav-item"><a href="/contact-us" class="toggle nav-link">Contact Us</a>
                             </li>
                             
                         </ul>

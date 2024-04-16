@@ -29,7 +29,7 @@
                 alt="logo"
               />
             </NuxtLink>
-            <p>
+            <p class="footer-contents">
               The all-in-one solution that streamlines quoting, closes deals
               faster, and boosts sales efficiency.
             </p>
@@ -88,19 +88,19 @@
             <h3>Features</h3>
             <ul class="links-list">
               <li>
-                <NuxtLink to="/quoting-software">Automated Quotations</NuxtLink>
+                <NuxtLink to="/quoting-software" class="footer-content">Automated Quotations</NuxtLink>
               </li>
               <li>
-                <NuxtLink to="/approval-software">Quick Approvals</NuxtLink>
+                <NuxtLink to="/approval-software" class="footer-content">Quick Approvals</NuxtLink>
               </li>
               <li>
-                <NuxtLink to="/services-cpq">CPQ</NuxtLink>
+                <NuxtLink to="/services-cpq" class="footer-content">CPQ</NuxtLink>
               </li>
               <li>
-                <NuxtLink to="/cpq-integrations">Integration</NuxtLink>
+                <NuxtLink to="/cpq-integrations" class="footer-content">Integration</NuxtLink>
               </li>
               <li>
-                <NuxtLink to="/localized-deal-documents"
+                <NuxtLink to="/localized-deal-documents" class="footer-content"
                   >Localized Deal Documents</NuxtLink
                 >
               </li>
@@ -113,25 +113,25 @@
             <ul class="links-list">
               <li>
                 <NuxtLink to="/salesforce-cpq-integration"
-                  >Salesforce
+                 class="footer-content" >Salesforce
                 </NuxtLink>
               </li>
               <li>
                 <NuxtLink to="/microsoft-dynamics-365-cpq-integration"
-                  >Microsoft Dynamics
+                  class="footer-content">Microsoft Dynamics
                 </NuxtLink>
               </li>
               <li>
                 <NuxtLink to="/freshworks-cpq-integration"
-                  >Freshworks
+                 class="footer-content" >Freshworks
                 </NuxtLink>
               </li>
 
               <li>
-                <NuxtLink to="/hubspot-cpq-integration">HubSpot </NuxtLink>
+                <NuxtLink to="/hubspot-cpq-integration" class="footer-content">HubSpot </NuxtLink>
               </li>
               <li>
-                <NuxtLink to="/sugarcrm-cpq-integration">SugarCRM</NuxtLink>
+                <NuxtLink to="/sugarcrm-cpq-integration" class="footer-content">SugarCRM</NuxtLink>
               </li>
             </ul>
           </div>
@@ -141,13 +141,13 @@
             <h3>Resources</h3>
             <ul class="links-list">
               <li>
-                <NuxtLink to="/blogs">Blogs</NuxtLink>
+                <NuxtLink to="/blogs" class="footer-content">Blogs</NuxtLink>
               </li>
               <li>
-                <NuxtLink to="/success-stories">Success Stories</NuxtLink>
+                <NuxtLink to="/success-stories" class="footer-content">Success Stories</NuxtLink>
               </li>
               <li>
-                <NuxtLink to="/glossary">Glossary </NuxtLink>
+                <NuxtLink to="/glossary" class="footer-content">Glossary </NuxtLink>
               </li>
             </ul>
           </div>
@@ -157,13 +157,13 @@
             <h3>Company</h3>
             <ul class="links-list">
               <li>
-                <NuxtLink to="/our-team">Our Team</NuxtLink>
+                <NuxtLink to="/our-team" class="footer-content">Our Team</NuxtLink>
               </li>
               <li>
-                <NuxtLink to="/contact-us">Get in Touch</NuxtLink>
+                <NuxtLink to="/contact-us" class="footer-content">Get in Touch</NuxtLink>
               </li>
               <li>
-                <NuxtLink to="/sign-up-free-trial">Sign Up</NuxtLink>
+                <NuxtLink to="/sign-up-free-trial" class="footer-content">Sign Up</NuxtLink>
               </li>
             </ul>
 

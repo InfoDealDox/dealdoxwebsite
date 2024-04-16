@@ -408,6 +408,14 @@ p:last-child {
   margin-bottom: 12%;
 }
 
+.footer-contents{
+  font-size: 14px;
+}
+
+.footer-content{
+  font-size: 15px;
+}
+
 @media (min-width: 768px) {
   .element {
     margin-left: -9%;
@@ -5853,6 +5861,11 @@ New Demo CSS
   opacity: 50%;
 }
 
+#Home-frequently-faq{
+  margin-bottom: 43px;
+}
+
+
 /*================================================
 Preloader CSS
 =================================================*/
@@ -8072,7 +8085,7 @@ Preloader CSS
 .section-title-home {
   text-align: center;
   font-weight: 600;
-  margin-top: -168px;
+  /* margin-top: -168px; */
   font-size: 40px;
   margin-left: auto;
   margin-right: auto;
@@ -8095,3 +8108,4 @@ ul.accordion.cpq {
   margin-top: -135px;
   padding-left: 65px;
 }
+

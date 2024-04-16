@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div :style="{ width: '100%' }">
         <Navbar class="navbar-style-two" />
         <PageHeader />
         <Stats />

@@ -39,7 +39,7 @@
                                     </li>
                                     <li>
                                         <div class="features-content-home">
-                                            <p>Don't miss added perks here</p>
+                                            <p class="home-perks-content">Don't miss added perks here</p>
                                         </div>
                                     </li>
                                 </ul>

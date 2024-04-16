@@ -135,6 +135,9 @@ Main Banner Area CSS
   left: 0;
   top: 0;
 }
+.home-perks-content{
+  color:white;
+}
 
 .banner-shape1 img {
   -webkit-animation: movebounce 5s linear infinite;
@@ -322,6 +325,11 @@ Features Area CSS
   font-size: 18px;
   line-height: 1.4;
   margin-bottom: 15px;
+  /* color: white; */
+}
+
+.features-content-home p{
+  color:white;
 }
 
 .features-content .features-list {
