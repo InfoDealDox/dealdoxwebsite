@@ -54,7 +54,7 @@ export default {
     },
     head({ $seo }) {
         return $seo({
-            title: this.seoData.metaTitle,
+            title: this.seoData.metaTitle ||'',
             description: this.seoData.metaDescription,
             keywords: this.seoData.keywords,
             link: [{ hid: 'canonical', rel: 'canonical', href: this.seoData.canonicalURL }
