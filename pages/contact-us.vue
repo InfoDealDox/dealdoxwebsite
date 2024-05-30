@@ -42,7 +42,7 @@ export default {
     },
     head({ $seo }) {
         return $seo({
-            title: this.seoData.metaTitle ||'',
+            title: this.seoData.metaTitle ||'Transform Sales Efficiency with DealDox',
             description: this.seoData.metaDescription,
             keywords: this.seoData.keywords,
             // image: this.post.image || '',

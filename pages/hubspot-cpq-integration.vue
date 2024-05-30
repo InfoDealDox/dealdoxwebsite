@@ -39,7 +39,7 @@ export default {
     },
     head({ $seo }) {
         return $seo({
-            title: this.seoData.metaTitle ||'',
+            title: this.seoData.metaTitle ||'Maximize Efficiency with HubSpot CRM Integration',
             description: this.seoData.metaDescription,
             keywords: this.seoData.keywords,
             // image: this.post.image || '',

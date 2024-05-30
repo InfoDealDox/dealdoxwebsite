@@ -55,7 +55,7 @@ export default {
     },
     head({ $seo }) {
         return $seo({
-            title: this.seoData?.metaTitle,
+            title: this.seoData?.metaTitle ||'www.dealdox.io',
             description: this.seoData?.metaDescription,
             keywords: this.seoData?.keywords,
         });
