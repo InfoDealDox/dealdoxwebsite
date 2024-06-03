@@ -2,7 +2,7 @@
     <div class="app-download-area pt-60">
         <div class="container">
             <div class="section-title-about">
-                <h1>Enhance Your Quote Generation Process with the best CPQ Solution Now</h1>
+                <h2>Enhance Your Quote Generation Process with the best CPQ Solution Now</h2>
                 <h5>Let's get started!</h5>
             </div>
             <div class="app-download-inner">

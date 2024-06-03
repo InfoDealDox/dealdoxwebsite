@@ -1,7 +1,7 @@
 export default {
-    server: {
-            host: '0.0.0.0'
-    },
+    // server: {
+    //         host: '0.0.0.0'
+    // },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'DealDox',
@@ -74,17 +74,17 @@ export default {
   ],
 
   // site map configuration
-  sitemap: {
-    hostname: 'https://dealdox.io',
-    gzip: true,
-    exclude: [
-      '/secret',
-      '/coming-soon/**',
-      '/careers/**',
-      '/case-studies/**',
-      '/sitemap/**'
-    ],
-  },
+  // sitemap: {
+  //   hostname: 'https://dealdox.io',
+  //   gzip: true,
+  //   exclude: [
+  //     '/secret',
+  //     '/coming-soon/**',
+  //     '/careers/**',
+  //     '/case-studies/**',
+  //     '/sitemap/**'
+  //   ],
+  // },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {

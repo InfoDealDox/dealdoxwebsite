@@ -4,9 +4,9 @@
       <div class="row">
         <div class="col-lg-9 col-md-6 col-sm-6">
           <div class="single-footer-widget">
-            <h1>
+            <h2>
               Ready to transform your sales strategy and crush the competition?
-            </h1>
+            </h2>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-6">
