@@ -36,13 +36,14 @@
                                                     <ul class="ez-toc-list ez-toc-list-level-1 ">
                                                         <li class="ez-toc-page-1"><a
                                                                 class="ez-toc-link ez-toc-heading-1"
-                                                                href="#what-is-account-based-selling"
-                                                                title="What is Account-Based Selling?">What is
-                                                                Account-Based
-                                                                Selling?</a></li>
+                                                                href="#account-based-sales"
+                                                                title="What is Account-Based Selling?">Account Based
+                                                                Sales</a></li>
                                                         <li class="ez-toc-page-1 active"><a
-                                                                class="ez-toc-link ez-toc-heading-2" href="#synonyms"
-                                                                title="Synonyms">Synonyms</a></li>
+                                                                class="ez-toc-link ez-toc-heading-2"
+                                                                href="#Account-Based-Selling"
+                                                                title="Account-Based Selling">Account-Based Selling</a>
+                                                        </li>
                                                         <li class="ez-toc-page-1"><a
                                                                 class="ez-toc-link ez-toc-heading-3"
                                                                 href="#the-account-based-selling-model"
@@ -225,46 +226,27 @@
                                                     </nav>
                                                 </div>
                                                 <h2 class="wp-block-heading"><span class="ez-toc-section"
-                                                        id="what-is-account-based-selling"></span>What is Account-Based
-                                                    Selling?<span class="ez-toc-section-end"></span></h2>
+                                                        id="account-based-sales"></span>Account Based Sales<span
+                                                        class="ez-toc-section-end"></span></h2>
 
-
-
-                                                <p>Account-based selling (ABS) is a strategy for sales teams to focus on
-                                                    and
-                                                    win business from specific high-value accounts. Account-based
-                                                    selling
-                                                    generally starts with identifying and targeting a specific list of
-                                                    accounts that the sales team believes they can win. Once these
-                                                    target
-                                                    accounts have been identified, the sales team creates personalized
-                                                    sales
-                                                    strategies for each one. The goal of account-based selling is to
-                                                    generate more revenue from fewer accounts by better aligning the <a
-                                                        href="https://dealhub.io/glossary/sales-process/"
-                                                        target="_blank" rel="noreferrer noopener">sales process</a> with
-                                                    the needs and
-                                                    buying behavior of large, complex organizations.</p>
-
-
-
-                                                <p>Account-based selling can be contrasted with traditional lead-based
-                                                    selling, which involves trying to sell to as many people as possible
-                                                    without taking into account their specific needs or whether they are
-                                                    likely to be interested in what you have to offer. Account-based
-                                                    selling
-                                                    is a more targeted and personalized approach that can be more
-                                                    effective
-                                                    for sales teams looking to win business from large organizations.
-                                                    When
-                                                    done well, it can result in higher win rates, larger deals, and
-                                                    happier
-                                                    customers.</p>
-
-
+                                                <p>Account-based selling (ABS) is a tactical strategy that enables sales
+                                                    teams to focus their efforts on acquiring new business from a small
+                                                    number of extremely valuable clients. By identifying and targeting a
+                                                    carefully curated list of accounts, sales professionals can create
+                                                    personalized sales strategies that cater to the unique needs of each
+                                                    account. The primary objective of account-based selling is to
+                                                    optimize revenue generation by aligning the sales process with the
+                                                    intricate dynamics of large, complex organizations. This targeted
+                                                    approach allows sales teams to achieve greater success by focusing
+                                                    their resources and expertise on a smaller number of accounts,
+                                                    ultimately driving growth and fostering stronger customer
+                                                    relationships. With its emphasis on deep understanding and tailored
+                                                    engagement, account-based selling enables sales teams to unlock
+                                                    significant business opportunities and maximize their overall sales
+                                                    effectiveness.</p>
 
                                                 <h2 class="wp-block-heading"><span class="ez-toc-section"
-                                                        id="synonyms"></span>Synonyms<span
+                                                        id="Account-Based-Selling"></span>Account-Based Selling<span
                                                         class="ez-toc-section-end"></span></h2>
 
 
@@ -984,12 +966,10 @@
                                                 </div>
                                             </div>
                                         </div>
-
-
                                     </div>
 
-
-                                    <div class="single-glossary__related">
+                                    <!--  FAQ's -->
+                                    <!-- <div class="single-glossary__related">
                                         <hr class="wp-block-separator">
                                         <div class="cmtt_related_articles_wrapper">
                                             <div class="cmtt_related_title cmtt_related_articles_title">Frequently asked
@@ -1002,7 +982,7 @@
                                                             <button class="accordion-title">
                                                                 What is CPQ SaaS Software? </button>
                                                         </template>
-                                                        <template v-slot:accordion-content>
+<template v-slot:accordion-content>
                                                             <div class="accordion-body">
                                                                 <p>A SaaS-based quotation product is a
                                                                     software-as-a-service (SaaS) solution
@@ -1018,14 +998,14 @@
                                                                 </p>
                                                             </div>
                                                         </template>
-                                                    </accordion-item>
-                                                    <accordion-item>
-                                                        <template v-slot:accordion-trigger>
+</accordion-item>
+<accordion-item>
+    <template v-slot:accordion-trigger>
                                                             <button class="accordion-title">
                                                                 What is DealDox?
                                                             </button>
                                                         </template>
-                                                        <template v-slot:accordion-content>
+    <template v-slot:accordion-content>
                                                             <div class="accordion-body">
                                                                 <p>DealDox is the best CPQ SaaS Software that enables a
                                                                     complete sales life cycle
@@ -1060,16 +1040,16 @@
                                                                 </ul>
                                                             </div>
                                                         </template>
-                                                    </accordion-item>
-                                                    <accordion-item>
-                                                        <template v-slot:accordion-trigger>
+</accordion-item>
+<accordion-item>
+    <template v-slot:accordion-trigger>
                                                             <button class="accordion-title">
                                                                 I am running a small business and want to automate the
                                                                 quote generation process.
                                                                 Does DealDox help small businesses?
                                                             </button>
                                                         </template>
-                                                        <template v-slot:accordion-content>
+    <template v-slot:accordion-content>
                                                             <div class="accordion-body">
                                                                 <p>Yes! DealDox is designed for businesses of all sizes
                                                                     – small, medium and
@@ -1083,12 +1063,12 @@
                                                                 </p>
                                                             </div>
                                                         </template>
-                                                    </accordion-item>
-                                                </accordion>
-                                            </div>
-                                        </div>
-                                    </div>
-
+</accordion-item>
+</accordion>
+</div>
+</div>
+</div> -->
+                                    <!--  FAQ's End -->
                                 </div>
 
                             </div>
@@ -1135,8 +1115,8 @@ export default {
     head({ $seo }) {
         return $seo({
             title: this.seoData.metaTitle || 'Account Based Sales',
-            description: this.seoData.metaDescription,
-            keywords: this.seoData.keywords,
+            description: this.seoData.metaDescription || 'Account Based Sales',
+            keywords: this.seoData.keywords || 'th, hht, jjg, hfjj, jjn',
             // image: this.post.image || '',
         });
     },
