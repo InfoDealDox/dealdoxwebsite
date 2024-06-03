@@ -42,6 +42,7 @@ const _e2b4eff6 = () => interopDefault(import('..\\pages\\glossary-category-deta
 const _a40fc58a = () => interopDefault(import('..\\pages\\glossary\\_slug\\index.vue' /* webpackChunkName: "pages/glossary/_slug/index" */))
 const _4516a514 = () => interopDefault(import('..\\pages\\success-stories-category-details\\_slug\\index.vue' /* webpackChunkName: "pages/success-stories-category-details/_slug/index" */))
 const _4bc70aae = () => interopDefault(import('..\\pages\\success-story\\_slug\\index.vue' /* webpackChunkName: "pages/success-story/_slug/index" */))
+const _1aacce0d = () => interopDefault(import('..\\pages\\gloss\\_slug\\account-based-sales.vue' /* webpackChunkName: "pages/gloss/_slug/account-based-sales" */))
 const _598d2a66 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
@@ -207,6 +208,10 @@ export const routerOptions = {
     path: "/success-story/:slug",
     component: _4bc70aae,
     name: "success-story-slug"
+  }, {
+    path: "/gloss/:slug?/account-based-sales",
+    component: _1aacce0d,
+    name: "gloss-slug-account-based-sales"
   }, {
     path: "/",
     component: _598d2a66,

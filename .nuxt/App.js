@@ -32,13 +32,15 @@ import '..\\assets\\css\\pages-css\\blog-details.scss'
 
 import '..\\assets\\custom.scss'
 
+import _af15241c from '..\\layouts\\Accordion.vue'
+import _736c1425 from '..\\layouts\\AccordionItem.vue'
 import _248c4c34 from '..\\layouts\\DealDoxFooter.vue'
 import _6f6c098b from '..\\layouts\\default.vue'
 import _759cc0f7 from '..\\layouts\\GoTop.vue'
 import _493743a6 from '..\\layouts\\Navbar.vue'
 import _59a875c0 from '..\\layouts\\Preloader.vue'
 
-const layouts = { "_DealDoxFooter": sanitizeComponent(_248c4c34),"_default": sanitizeComponent(_6f6c098b),"_GoTop": sanitizeComponent(_759cc0f7),"_Navbar": sanitizeComponent(_493743a6),"_Preloader": sanitizeComponent(_59a875c0) }
+const layouts = { "_Accordion": sanitizeComponent(_af15241c),"_AccordionItem": sanitizeComponent(_736c1425),"_DealDoxFooter": sanitizeComponent(_248c4c34),"_default": sanitizeComponent(_6f6c098b),"_GoTop": sanitizeComponent(_759cc0f7),"_Navbar": sanitizeComponent(_493743a6),"_Preloader": sanitizeComponent(_59a875c0) }
 
 export default {
   render (h, props) {
