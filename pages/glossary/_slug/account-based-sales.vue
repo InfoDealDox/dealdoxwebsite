@@ -1134,7 +1134,7 @@ export default {
     },
     head({ $seo }) {
         return $seo({
-            title: this.seoData.metaTitle || 'CPQ Quick Approval Software | Quick Approval solutions',
+            title: this.seoData.metaTitle || 'Account Based Sales',
             description: this.seoData.metaDescription,
             keywords: this.seoData.keywords,
             // image: this.post.image || '',

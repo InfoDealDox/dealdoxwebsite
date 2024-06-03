@@ -39,10 +39,10 @@ const _3dcb85de = () => interopDefault(import('..\\pages\\ebook\\_slug\\index.vu
 const _740bface = () => interopDefault(import('..\\pages\\featured-blog-details\\_slug\\index.vue' /* webpackChunkName: "pages/featured-blog-details/_slug/index" */))
 const _c8779816 = () => interopDefault(import('..\\pages\\featured-category-details\\_slug\\index.vue' /* webpackChunkName: "pages/featured-category-details/_slug/index" */))
 const _e2b4eff6 = () => interopDefault(import('..\\pages\\glossary-category-details\\_slug\\index.vue' /* webpackChunkName: "pages/glossary-category-details/_slug/index" */))
-const _a40fc58a = () => interopDefault(import('..\\pages\\glossary\\_slug\\index.vue' /* webpackChunkName: "pages/glossary/_slug/index" */))
+const _2050939e = () => interopDefault(import('..\\pages\\glossaryy\\_slug\\index.vue' /* webpackChunkName: "pages/glossaryy/_slug/index" */))
 const _4516a514 = () => interopDefault(import('..\\pages\\success-stories-category-details\\_slug\\index.vue' /* webpackChunkName: "pages/success-stories-category-details/_slug/index" */))
 const _4bc70aae = () => interopDefault(import('..\\pages\\success-story\\_slug\\index.vue' /* webpackChunkName: "pages/success-story/_slug/index" */))
-const _1aacce0d = () => interopDefault(import('..\\pages\\gloss\\_slug\\account-based-sales.vue' /* webpackChunkName: "pages/gloss/_slug/account-based-sales" */))
+const _72855d0a = () => interopDefault(import('..\\pages\\glossary\\_slug\\account-based-sales.vue' /* webpackChunkName: "pages/glossary/_slug/account-based-sales" */))
 const _598d2a66 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
@@ -197,9 +197,9 @@ export const routerOptions = {
     component: _e2b4eff6,
     name: "glossary-category-details-slug"
   }, {
-    path: "/glossary/:slug",
-    component: _a40fc58a,
-    name: "glossary-slug"
+    path: "/glossaryy/:slug",
+    component: _2050939e,
+    name: "glossaryy-slug"
   }, {
     path: "/success-stories-category-details/:slug",
     component: _4516a514,
@@ -209,9 +209,9 @@ export const routerOptions = {
     component: _4bc70aae,
     name: "success-story-slug"
   }, {
-    path: "/gloss/:slug?/account-based-sales",
-    component: _1aacce0d,
-    name: "gloss-slug-account-based-sales"
+    path: "/glossary/:slug?/account-based-sales",
+    component: _72855d0a,
+    name: "glossary-slug-account-based-sales"
   }, {
     path: "/",
     component: _598d2a66,

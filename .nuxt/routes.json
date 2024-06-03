@@ -274,11 +274,11 @@
     "_name": "_e2b4eff6"
   },
   {
-    "name": "glossary-slug",
-    "path": "/glossary/:slug",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\30.05.24\\\\dealdoxwebsite\\\\pages\\\\glossary\\\\_slug\\\\index.vue",
-    "chunkName": "pages/glossary/_slug/index",
-    "_name": "_a40fc58a"
+    "name": "glossaryy-slug",
+    "path": "/glossaryy/:slug",
+    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\30.05.24\\\\dealdoxwebsite\\\\pages\\\\glossaryy\\\\_slug\\\\index.vue",
+    "chunkName": "pages/glossaryy/_slug/index",
+    "_name": "_2050939e"
   },
   {
     "name": "success-stories-category-details-slug",
@@ -295,11 +295,11 @@
     "_name": "_4bc70aae"
   },
   {
-    "name": "gloss-slug-account-based-sales",
-    "path": "/gloss/:slug?/account-based-sales",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\30.05.24\\\\dealdoxwebsite\\\\pages\\\\gloss\\\\_slug\\\\account-based-sales.vue",
-    "chunkName": "pages/gloss/_slug/account-based-sales",
-    "_name": "_1aacce0d"
+    "name": "glossary-slug-account-based-sales",
+    "path": "/glossary/:slug?/account-based-sales",
+    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\30.05.24\\\\dealdoxwebsite\\\\pages\\\\glossary\\\\_slug\\\\account-based-sales.vue",
+    "chunkName": "pages/glossary/_slug/account-based-sales",
+    "_name": "_72855d0a"
   },
   {
     "name": "index",
