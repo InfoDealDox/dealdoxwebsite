@@ -1,5 +1,5 @@
 <template>
-    <div class="features-area pb-85 bg-FAFAFA">
+    <div class="features-area pt-70 bg-FAFAFA">
         <div class="container">
             <div class="software-integrations-inner bg-gradient-color">
                 <div class="row align-items-center">

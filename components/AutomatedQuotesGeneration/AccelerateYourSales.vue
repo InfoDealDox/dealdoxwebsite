@@ -1,5 +1,5 @@
 <template>
-    <div class="about-area ptb-100">
+    <div class="about-area pt-70">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">

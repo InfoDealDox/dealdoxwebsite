@@ -1,5 +1,5 @@
 <template>
-    <div class="stats-area-pages bg-white ptb-100">
+    <div class="stats-area-pages bg-white pt-70">
         <div class="container">
             <div class="section-title-pages-full">
                 <div class="new-app-main-banner-wrap-content-full">

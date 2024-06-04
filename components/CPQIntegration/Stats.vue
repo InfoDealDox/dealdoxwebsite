@@ -1,5 +1,5 @@
 <template>
-    <div class="key-features-area bg-#FAFAFA pt-100">
+    <div class="key-features-area bg-#FAFAFA pt-70">
         <div class="container">
             <div class="section-titles title-with-bg-text">
                 <h2>Bridge the Gap between CRM and ERP</h2>

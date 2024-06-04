@@ -1,5 +1,5 @@
 <template>
-    <div class="app-download-area pt-65">
+    <div class="app-download-area pt-70">
         <div class="container">
             <div class="features-content-improve-sales">
                 <div class="section-title-home" id="Home-frequently-faq">

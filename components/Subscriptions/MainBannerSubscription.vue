@@ -1,6 +1,6 @@
 <template>
     <div class="new-app-main-banner-wrap-area bg-white">
-        <div class="container">
+        <div class="container pt-500">
             <div class="row align-items-center" id="subscription-header">
                 <div class="col-lg-6 col-md-12">
                     <div class="new-app-main-banner-wrap-content pt-100 ">

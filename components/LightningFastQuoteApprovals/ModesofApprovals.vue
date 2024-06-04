@@ -1,5 +1,5 @@
 <template>
-    <div class="new-free-trial-area bg-white ptb-75">
+    <div class="new-free-trial-area bg-white pt-70">
         <div class="container">
             <div class="section-title-pages">
                 <h1>Modes of Approvals</h1>

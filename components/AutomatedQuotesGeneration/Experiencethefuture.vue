@@ -1,5 +1,5 @@
 <template>
-    <div class="features-area bg-FAFAFA ptb-75">
+    <div class="features-area bg-FAFAFA pt-70">
         <div class="container">
             <div class="section-title title-with-bg-text">
                 <h2>Experience the future of business efficiency with advanced features of DealDox</h2>

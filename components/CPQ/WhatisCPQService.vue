@@ -1,5 +1,5 @@
 <template>
-    <div class="key-features-area bg-#FAFAFA pt-100 pb-75">
+    <div class="key-features-area bg-#FAFAFA pt-70">
         <div class="container">
             <div class="section-title-about">
                 <h1> AI-enabled CPQ for Services - Easy to Use and Quick Implementation</h1>

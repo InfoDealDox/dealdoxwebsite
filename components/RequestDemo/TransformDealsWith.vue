@@ -1,5 +1,5 @@
 <template>
-    <div class="features-area pt-60 bg-FAFAFA">
+    <div class="features-area pt-70 bg-FAFAFA">
         <div class="container">
             <div class="software-integrations-inner">
                 <div class="row align-items-center">
@@ -35,7 +35,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-12 ptb-100">
+                    <div class="col-lg-6 col-md-12">
                         <div class="contact-area">
                             <div class="container">
                                 <div class="contact-form">

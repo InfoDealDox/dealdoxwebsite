@@ -1,5 +1,5 @@
 <template>
-    <div class="new-free-trial-area-mid-content-senction ptb-75 bg-background">
+    <div class="new-free-trial-area-mid-content-senction pt-500 bg-background">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-12 col-md-12">

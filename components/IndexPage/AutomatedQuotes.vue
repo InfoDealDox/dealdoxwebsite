@@ -1,5 +1,5 @@
 <template>
-    <div class="app-download-area pt-60">
+    <div class="app-download-area pt-70">
         <div class="container">
             <div class="section-title-about">
                 <h2>Enhance Your Quote Generation Process with the best CPQ Solution Now</h2>

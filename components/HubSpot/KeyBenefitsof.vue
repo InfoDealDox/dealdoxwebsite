@@ -1,12 +1,12 @@
 <template>
-    <div class="key-features-area bg-FAFAFA ptb-100">
+    <div class="key-features-area bg-FAFAFA pt-500">
         <div class="container">
             <div class="section-title-pages-full">
                 <div class="new-app-main-banner-wrap-content-full tb-20">
                     <h3>Expand Your <span class="sub-title-effortless">CRM Horizons</span> with DealDox</h3>
                 </div>
             </div>
-            <div class="row justify-content-center pt-60">
+            <div class="row justify-content-center pt-500">
                 <div class="col-xl-3 col-lg-6 col-sm-6 col-md-6">
                     <div class="single-features-item">
                         <div class="icon">

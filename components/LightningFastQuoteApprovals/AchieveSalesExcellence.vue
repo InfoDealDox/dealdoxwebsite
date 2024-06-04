@@ -1,5 +1,5 @@
 <template>
-    <div class="key-features-area bg-#FAFAFA pt-100 pb-75">
+    <div class="key-features-area bg-#FAFAFA pt-70">
         <div class="container">
             <div class="section-title title-with-bg-text">
                 <h3>Achieve Sales Excellence with FAST CPQ Approvals:<br>Fast-Track Your Way to Success</h3>
