@@ -8,7 +8,7 @@
                             Write us</NuxtLink></span> your query</p>
                 </div>
             </div>
-            <div class="row align-items-center">
+            <div class="row align-items-center pb-200">
                 <div class="col-lg-2 col-md-12"></div>
                 <div class="col-lg-8 col-md-12">
                     <div class="faq-accordion">

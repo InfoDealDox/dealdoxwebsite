@@ -1,5 +1,5 @@
 <template>
-    <div class="features-area pt-70 bg-white">
+    <div class="features-area pt-500 bg-white">
         <div class="container">
             <div class="section-title-about">
                 <h1>Our Values</h1>

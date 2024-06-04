@@ -1,5 +1,5 @@
 <template>
-    <div class="stats-area bg-FAFAFA pt-100">
+    <div class="stats-area bg-FAFAFA pt-500">
         <div class="container">
             <div class="section-title pt-60">
                 <h1>Meet the Stellar Lineup of Professionals on Our Team!</h1>

@@ -5,7 +5,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-12">
                         <div class="software-integrations-inner bg-gradient-color">
-                            <div class="features-content-improve-sales">
+                            <div class="features-content-improve-sales pt-70">
                                 <h2>Start Your Free Onboarding Now!</h2>
                                 <h6>No credit card or software installation is required.</h6>
                                 <h5>With <strong> <a href="https://www.dealdox.io"> Advanced Quoting Solution</a>

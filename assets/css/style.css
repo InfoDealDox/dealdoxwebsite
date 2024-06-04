@@ -210,6 +210,10 @@ p:last-child {
   padding-top: 50px;
 }
 
+.pb-200 {
+  padding-top: 200px;
+}
+
 .bg-F7F7FF {
   background-color: #f7f7ff;
 }
@@ -5870,7 +5874,7 @@ New Demo CSS
 }
 
 #Home-frequently-faq{
-  margin-bottom: 43px;
+  margin-bottom: 175px;
 }
 
 

@@ -1,12 +1,12 @@
 <template>
   <div class="footer-wrap-area pt-100">
     <div class="container">
-      <div class="row">
+      <div class="row pt-500">
         <div class="col-lg-9 col-md-6 col-sm-6">
           <div class="single-footer-widget">
-            <h2>
+            <h3>
               Ready to transform your sales strategy and crush the competition?
-            </h2>
+            </h3>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-6">

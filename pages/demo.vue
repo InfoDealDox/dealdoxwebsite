@@ -2,7 +2,7 @@
     <div>
         <Navbar class="navbar-style-two" />
         <TransformDealsWith />
-        <Partner />
+        <!-- <Partner /> -->
         <DealDoxFooter />
         <!-- <PageHeader /> -->
         <!-- <Blog /> -->
@@ -15,7 +15,7 @@
 import Navbar from '../layouts/Navbar';
 import PageHeader from '../components/ContactUs/PageHeader'
 import TransformDealsWith from '../components/RequestDemo/TransformDealsWith'
-import Partner from '../components/Common/Partner'
+// import Partner from '../components/Common/Partner'
 import Blog from '../components/Common/Blog'
 import Faq from '../components/Common/Faq';
 import DealDoxFooter from '../layouts/DealDoxFooter';
@@ -27,7 +27,7 @@ export default {
         Navbar,
         PageHeader,
         TransformDealsWith,
-        Partner,
+        // Partner,
         Blog,
         Faq,
         DealDoxFooter,
