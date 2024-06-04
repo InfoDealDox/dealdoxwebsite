@@ -1,5 +1,5 @@
 <template>
-    <div class="feedback-area bg-white pt-100">
+    <div class="feedback-area bg-white pt-70">
         <div class="container">
             <div class="feedback-tabs col-lg-12 col-md-6">
                 <div class="tab-content">

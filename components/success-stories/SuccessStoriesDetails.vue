@@ -1,6 +1,6 @@
 <template>
     <div class="new-app-main-banner-wrap-area bg-white">
-        <div class="container pt-100">
+        <div class="container pb-85">
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="new-app-main-banner-wrap-content heading-title">
@@ -15,7 +15,7 @@
                 </div>
             </div>
         </div>
-        <div class="blog-details-area ptb-100">
+        <div class="blog-details-area">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12">

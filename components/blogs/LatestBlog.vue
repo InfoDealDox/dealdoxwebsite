@@ -1,5 +1,5 @@
 <template>
-    <div class="blog-area ptb-100 bg-FAFAFA">
+    <div class="blog-area pt-70 bg-FAFAFA">
         <div class="container">
             <div class="row justify-content-left">
                 <div class="col-lg-4 col-md-6">
@@ -21,7 +21,7 @@
                     </div>
                 </div> -->
             </div>
-            <div class="row justify-content-center" v-if="blogs !== []">
+            <div class="row justify-content-center" v-if="blogs !== null">
                 <div class="col-lg-4 col-md-6" v-for="blog in blogs.slice(
                     (currentPage - 1) * perPage,
                     currentPage * perPage,

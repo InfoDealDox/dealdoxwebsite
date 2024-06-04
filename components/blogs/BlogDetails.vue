@@ -1,5 +1,5 @@
 <template>
-    <div class="blog-details-area ptb-100">
+    <div class="blog-details-area tb-30">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-md-12">

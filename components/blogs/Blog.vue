@@ -1,5 +1,5 @@
 <template>
-    <div class="blog-area ptb-100 bg-LatestBlog">
+    <div class="blog-area pt-70 bg-LatestBlog">
         <div class="container">
             <div class="row justify-content-left">
                 <div class="col-lg-4 col-md-6">

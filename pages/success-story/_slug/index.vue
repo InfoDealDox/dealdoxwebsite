@@ -7,7 +7,7 @@
         <div v-if="details !== null">
             <SuccessStories v-bind:detailsContent="details" />
         </div>
-        <Partner />
+        <!-- <Partner /> -->
         <Blog />
         <GetInTouch />
         <DealDoxFooter />
@@ -19,7 +19,7 @@ import Navbar from '../../../layouts/Navbar';
 // import PageTitle from '../../../components/Common/PageTitle';
 // import SuccesStoryBannerPage from '../../../components/success-stories/SuccesStoryBannerPage'
 import SuccessStories from '../../../components/success-stories/SuccessStoriesDetails'
-import Partner from '../../../components/Common/Partner'
+// import Partner from '../../../components/Common/Partner'
 import Blog from '../../../components/Common/Blog';
 import GetInTouch from '../../../components/Common/GetInTouch';
 import DealDoxFooter from '../../../layouts/DealDoxFooter'
@@ -31,7 +31,7 @@ export default {
         // PageTitle,
         // SuccesStoryBannerPage,
         SuccessStories,
-        Partner,
+        // Partner,
         Blog,
         GetInTouch,
         DealDoxFooter,

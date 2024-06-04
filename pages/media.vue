@@ -51,7 +51,7 @@ export default {
     },
     head({ $seo }) {
         return $seo({
-            title: this.seoData.metaTitle ||'Unlock Knowledge with Our eBooks',
+            title: this.seoData.metaTitle ||'www.dealdox.io',
             description: this.seoData.metaDescription,
             keywords: this.seoData.keywords,
             // image: this.post.image || '',

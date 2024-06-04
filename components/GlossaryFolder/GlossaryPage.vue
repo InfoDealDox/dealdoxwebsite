@@ -1,5 +1,5 @@
 <template>
-    <div class="blog-area ptb-100">
+    <div class="blog-area pt-70">
         <div class="container">
             <div class="pagination-area">
                 <div class="nav-links">
@@ -14,7 +14,7 @@
             <div class="section-title">
                 <!-- <h2>Glossary</h2> -->
             </div>
-            <div class="row justify-content-center" v-if="glossaries !== []">
+            <div class="row justify-content-center" v-if="glossaries !== null">
                 <div class="col-lg-12 col-md-12" v-for="glossary in groupby" :key="glossary.value">
                     <h3 class="glossary-category ml-5"> {{ glossary.value }} </h3>
                     <div class="single-blog-post bg-FAFAFA pt-1">
