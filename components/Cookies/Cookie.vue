@@ -1,5 +1,5 @@
 <template>
-    <div class="privacy-policy-area ptb-100">
+    <div class="privacy-policy-area pt-70">
         <div class="container">
             <div class="privacy-policy-content">
                 <h6>By accessing our websites, DealDox and our third-party partners may employ the use of cookies and similar technologies to gather user data for the following purposes </h6>

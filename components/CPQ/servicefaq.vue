@@ -1,5 +1,5 @@
 <template>
-    <div class="app-download-area pt-70">
+    <div class="app-download-area pb-250">
         <div class="container">
             <div class="features-content-improve-sales">
                 <div class="section-title-cpq">
@@ -8,7 +8,7 @@
                             Write us</NuxtLink></span> your query</p>
                 </div>
             </div>
-            <div class="row align-items-center pb-200">
+            <div class="row align-items-center pt-110 tb-20">
                 <div class="col-lg-2 col-md-12"></div>
                 <div class="col-lg-8 col-md-12">
                     <div class="faq-accordion">
