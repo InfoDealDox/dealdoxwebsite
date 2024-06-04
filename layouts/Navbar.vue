@@ -97,7 +97,7 @@
                                         <NuxtLink to="/glossaries" class="nav-link">Glossary</NuxtLink>
                                     </li>
                                     <li class="nav-item">
-                                        <NuxtLink to="/ebooks" class="nav-link">Media</NuxtLink>
+                                        <NuxtLink to="/media" class="nav-link">Media</NuxtLink>
                                     </li>
                                 </ul>
                             </li>

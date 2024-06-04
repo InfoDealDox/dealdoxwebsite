@@ -18,6 +18,7 @@ const _1049f0f2 = () => interopDefault(import('..\\pages\\freshworks-cpq-integra
 const _109b3d51 = () => interopDefault(import('..\\pages\\glossaries.vue' /* webpackChunkName: "pages/glossaries" */))
 const _51734690 = () => interopDefault(import('..\\pages\\hubspot-cpq-integration.vue' /* webpackChunkName: "pages/hubspot-cpq-integration" */))
 const _6a3053fe = () => interopDefault(import('..\\pages\\localized-deal-documents.vue' /* webpackChunkName: "pages/localized-deal-documents" */))
+const _fa204e42 = () => interopDefault(import('..\\pages\\media.vue' /* webpackChunkName: "pages/media" */))
 const _152eca6b = () => interopDefault(import('..\\pages\\microsoft-dynamics-365-cpq-integration.vue' /* webpackChunkName: "pages/microsoft-dynamics-365-cpq-integration" */))
 const _2dbe8093 = () => interopDefault(import('..\\pages\\our-team.vue' /* webpackChunkName: "pages/our-team" */))
 const _1184292c = () => interopDefault(import('..\\pages\\privacy-policy.vue' /* webpackChunkName: "pages/privacy-policy" */))
@@ -115,6 +116,10 @@ export const routerOptions = {
     path: "/localized-deal-documents",
     component: _6a3053fe,
     name: "localized-deal-documents"
+  }, {
+    path: "/media",
+    component: _fa204e42,
+    name: "media"
   }, {
     path: "/microsoft-dynamics-365-cpq-integration",
     component: _152eca6b,
