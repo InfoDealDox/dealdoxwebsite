@@ -1,3 +1,7 @@
+
+
+
+
 <template>
     <div class="team-area pt-70 bg-FAFAFA">
         <div class="container">
@@ -31,12 +35,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-12 col-md-12">
+                <!-- <div class="col-lg-12 col-md-12">
                     <div class="pagination-area">
                         <b-pagination v-model="currentPage" :total-rows="rows" :per-page="perPage"
                             aria-controls="itemList" align="center"></b-pagination>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
@@ -53,11 +57,11 @@ export default {
             teams: null,
             rows: 0,
             currentPage: 1,
-            perPage: 1,
+            perPage: 1000,
         }
     },
     created: async function () {
-        const response = await axios.get('http://localhost:1338/api/single-media?populate=deep,5')
+        const response = await axios.get('https://cms.dealdox.io/api/single-media?populate=deep,5')
         const { data: { attributes } } = response.data
         this.teams = attributes
         this.rows = this.teams?.length;

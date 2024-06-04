@@ -21,7 +21,7 @@
                     </div> -->
                 </div>
             </div>
-            <div class="row justify-content-center" v-if="featuredblogs !== []">
+            <div class="row justify-content-center" v-if="featuredblogs !== null">
                 <div class="col-lg-4 col-md-6" v-for="featuredblog in featuredblogs.slice(
                     (currentPage - 1) * perPage,
                     currentPage * perPage,
