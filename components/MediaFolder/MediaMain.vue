@@ -8,7 +8,7 @@
             <div class="row justify-content-left">
                 <div class="col-lg-12 col-md-6">
                     <div class="section-title">
-                        <h1>Media</h1>
+                        <h1>News</h1>
                     </div>
                 </div>
             </div>
