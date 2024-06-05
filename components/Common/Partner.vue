@@ -1,5 +1,5 @@
 <template>
-  <div class="partner-area pt-70">
+  <div class="partner-area">
     <div class="container">
       <div class="partner-title">
         Industry-Preferred CPQ SaaS Solution at Your Fingertips
@@ -18,7 +18,6 @@
         </carousel>
       </div> -->
 
-
       <div class="features-area">
         <div class="container">
           <div class="row justify-content-center" v-if="partners !== null">
@@ -30,7 +29,6 @@
           </div>
         </div>
       </div>
-
 
     </div>
   </div>
