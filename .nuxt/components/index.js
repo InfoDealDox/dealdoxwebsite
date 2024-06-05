@@ -1,122 +1,122 @@
-export const AboutUsIAQSolutions = () => import('../..\\components\\AboutUs\\IAQSolutions.vue' /* webpackChunkName: "components/about-us-i-a-q-solutions" */).then(c => wrapFunctional(c.default || c))
-export const AboutUsPageHeader = () => import('../..\\components\\AboutUs\\PageHeader.vue' /* webpackChunkName: "components/about-us-page-header" */).then(c => wrapFunctional(c.default || c))
-export const AboutUsStats = () => import('../..\\components\\AboutUs\\Stats.vue' /* webpackChunkName: "components/about-us-stats" */).then(c => wrapFunctional(c.default || c))
-export const AuthenticationForgetPassword = () => import('../..\\components\\Authentication\\ForgetPassword.vue' /* webpackChunkName: "components/authentication-forget-password" */).then(c => wrapFunctional(c.default || c))
-export const AuthenticationSignIn = () => import('../..\\components\\Authentication\\SignIn.vue' /* webpackChunkName: "components/authentication-sign-in" */).then(c => wrapFunctional(c.default || c))
-export const AuthenticationSignUp = () => import('../..\\components\\Authentication\\SignUp.vue' /* webpackChunkName: "components/authentication-sign-up" */).then(c => wrapFunctional(c.default || c))
-export const AutomatedQuotesGenerationAccelerateYourSales = () => import('../..\\components\\AutomatedQuotesGeneration\\AccelerateYourSales.vue' /* webpackChunkName: "components/automated-quotes-generation-accelerate-your-sales" */).then(c => wrapFunctional(c.default || c))
-export const AutomatedQuotesGenerationBanner = () => import('../..\\components\\AutomatedQuotesGeneration\\Banner.vue' /* webpackChunkName: "components/automated-quotes-generation-banner" */).then(c => wrapFunctional(c.default || c))
-export const AutomatedQuotesGenerationExperiencethefuture = () => import('../..\\components\\AutomatedQuotesGeneration\\Experiencethefuture.vue' /* webpackChunkName: "components/automated-quotes-generation-experiencethefuture" */).then(c => wrapFunctional(c.default || c))
-export const AutomatedQuotesGenerationFreeTrial = () => import('../..\\components\\AutomatedQuotesGeneration\\FreeTrial.vue' /* webpackChunkName: "components/automated-quotes-generation-free-trial" */).then(c => wrapFunctional(c.default || c))
-export const AutomatedQuotesGenerationQuotefaq = () => import('../..\\components\\AutomatedQuotesGeneration\\quotefaq.vue' /* webpackChunkName: "components/automated-quotes-generation-quotefaq" */).then(c => wrapFunctional(c.default || c))
-export const AutomatedQuotesGenerationYourBusiness = () => import('../..\\components\\AutomatedQuotesGeneration\\YourBusiness.vue' /* webpackChunkName: "components/automated-quotes-generation-your-business" */).then(c => wrapFunctional(c.default || c))
-export const BlogsBlog = () => import('../..\\components\\blogs\\Blog.vue' /* webpackChunkName: "components/blogs-blog" */).then(c => wrapFunctional(c.default || c))
-export const BlogsBlogDetails = () => import('../..\\components\\blogs\\BlogDetails.vue' /* webpackChunkName: "components/blogs-blog-details" */).then(c => wrapFunctional(c.default || c))
-export const BlogsFeaturedBlogDetails = () => import('../..\\components\\blogs\\FeaturedBlogDetails.vue' /* webpackChunkName: "components/blogs-featured-blog-details" */).then(c => wrapFunctional(c.default || c))
-export const BlogsLatestBlog = () => import('../..\\components\\blogs\\LatestBlog.vue' /* webpackChunkName: "components/blogs-latest-blog" */).then(c => wrapFunctional(c.default || c))
-export const CategoriesDetails = () => import('../..\\components\\categories\\categories-details.vue' /* webpackChunkName: "components/categories-details" */).then(c => wrapFunctional(c.default || c))
-export const CategoriesFeaturedCategoriesDetails = () => import('../..\\components\\categories\\featured-categories-details.vue' /* webpackChunkName: "components/categories-featured-categories-details" */).then(c => wrapFunctional(c.default || c))
-export const CategoriesGlossaryCategoriesDetails = () => import('../..\\components\\categories\\glossary-categories-details.vue' /* webpackChunkName: "components/categories-glossary-categories-details" */).then(c => wrapFunctional(c.default || c))
-export const CategoriesSuccessStoryCategoriesDetails = () => import('../..\\components\\categories\\success-story-categories-details.vue' /* webpackChunkName: "components/categories-success-story-categories-details" */).then(c => wrapFunctional(c.default || c))
-export const ContactUsPageHeader = () => import('../..\\components\\ContactUs\\PageHeader.vue' /* webpackChunkName: "components/contact-us-page-header" */).then(c => wrapFunctional(c.default || c))
-export const CommonAccordion = () => import('../..\\components\\Common\\Accordion.vue' /* webpackChunkName: "components/common-accordion" */).then(c => wrapFunctional(c.default || c))
-export const CommonAccordionItem = () => import('../..\\components\\Common\\AccordionItem.vue' /* webpackChunkName: "components/common-accordion-item" */).then(c => wrapFunctional(c.default || c))
-export const CommonAutomatedQuotes = () => import('../..\\components\\Common\\AutomatedQuotes.vue' /* webpackChunkName: "components/common-automated-quotes" */).then(c => wrapFunctional(c.default || c))
-export const CommonBlog = () => import('../..\\components\\Common\\Blog.vue' /* webpackChunkName: "components/common-blog" */).then(c => wrapFunctional(c.default || c))
-export const CommonBlogSidebar = () => import('../..\\components\\Common\\BlogSidebar.vue' /* webpackChunkName: "components/common-blog-sidebar" */).then(c => wrapFunctional(c.default || c))
-export const CommonComingSoon = () => import('../..\\components\\Common\\ComingSoon.vue' /* webpackChunkName: "components/common-coming-soon" */).then(c => wrapFunctional(c.default || c))
-export const CommonFaq = () => import('../..\\components\\Common\\Faq.vue' /* webpackChunkName: "components/common-faq" */).then(c => wrapFunctional(c.default || c))
-export const CommonFeedback = () => import('../..\\components\\Common\\Feedback.vue' /* webpackChunkName: "components/common-feedback" */).then(c => wrapFunctional(c.default || c))
-export const CommonGetInTouch = () => import('../..\\components\\Common\\GetInTouch.vue' /* webpackChunkName: "components/common-get-in-touch" */).then(c => wrapFunctional(c.default || c))
-export const CommonLocalizedfaq = () => import('../..\\components\\Common\\localizedfaq.vue' /* webpackChunkName: "components/common-localizedfaq" */).then(c => wrapFunctional(c.default || c))
-export const CommonOurTeam = () => import('../..\\components\\Common\\OurTeam.vue' /* webpackChunkName: "components/common-our-team" */).then(c => wrapFunctional(c.default || c))
-export const CommonPageSeo = () => import('../..\\components\\Common\\PageSeo.vue' /* webpackChunkName: "components/common-page-seo" */).then(c => wrapFunctional(c.default || c))
-export const CommonPageTitle = () => import('../..\\components\\Common\\PageTitle.vue' /* webpackChunkName: "components/common-page-title" */).then(c => wrapFunctional(c.default || c))
-export const CommonPartner = () => import('../..\\components\\Common\\Partner.vue' /* webpackChunkName: "components/common-partner" */).then(c => wrapFunctional(c.default || c))
-export const CommonPricing = () => import('../..\\components\\Common\\Pricing.vue' /* webpackChunkName: "components/common-pricing" */).then(c => wrapFunctional(c.default || c))
-export const CommonServicefaq = () => import('../..\\components\\Common\\servicefaq.vue' /* webpackChunkName: "components/common-servicefaq" */).then(c => wrapFunctional(c.default || c))
-export const CookiesCookie = () => import('../..\\components\\Cookies\\Cookie.vue' /* webpackChunkName: "components/cookies-cookie" */).then(c => wrapFunctional(c.default || c))
-export const CPQFreeTrial = () => import('../..\\components\\CPQ\\FreeTrial.vue' /* webpackChunkName: "components/c-p-q-free-trial" */).then(c => wrapFunctional(c.default || c))
-export const CPQMainBannerCPQ = () => import('../..\\components\\CPQ\\MainBannerCPQ.vue' /* webpackChunkName: "components/c-p-q-main-banner-c-p-q" */).then(c => wrapFunctional(c.default || c))
-export const CPQQuickandAccurate = () => import('../..\\components\\CPQ\\QuickandAccurate.vue' /* webpackChunkName: "components/c-p-q-quickand-accurate" */).then(c => wrapFunctional(c.default || c))
-export const CPQServicefaq = () => import('../..\\components\\CPQ\\servicefaq.vue' /* webpackChunkName: "components/c-p-q-servicefaq" */).then(c => wrapFunctional(c.default || c))
-export const CPQTransformYourSales = () => import('../..\\components\\CPQ\\TransformYourSales.vue' /* webpackChunkName: "components/c-p-q-transform-your-sales" */).then(c => wrapFunctional(c.default || c))
-export const CPQWhatisCPQService = () => import('../..\\components\\CPQ\\WhatisCPQService.vue' /* webpackChunkName: "components/c-p-q-whatis-c-p-q-service" */).then(c => wrapFunctional(c.default || c))
-export const EbookDetails = () => import('../..\\components\\EbookFolder\\EbookDetails.vue' /* webpackChunkName: "components/ebook-details" */).then(c => wrapFunctional(c.default || c))
-export const EbookMain = () => import('../..\\components\\EbookFolder\\EbookMain.vue' /* webpackChunkName: "components/ebook-main" */).then(c => wrapFunctional(c.default || c))
-export const CPQIntegrationChallengesAndTrack = () => import('../..\\components\\CPQIntegration\\ChallengesAndTrack.vue' /* webpackChunkName: "components/c-p-q-integration-challenges-and-track" */).then(c => wrapFunctional(c.default || c))
-export const CPQIntegrationFreeTrial = () => import('../..\\components\\CPQIntegration\\FreeTrial.vue' /* webpackChunkName: "components/c-p-q-integration-free-trial" */).then(c => wrapFunctional(c.default || c))
-export const CPQIntegrationFunfacts = () => import('../..\\components\\CPQIntegration\\Funfacts.vue' /* webpackChunkName: "components/c-p-q-integration-funfacts" */).then(c => wrapFunctional(c.default || c))
-export const CPQIntegrationIAQSolutions = () => import('../..\\components\\CPQIntegration\\IAQSolutions.vue' /* webpackChunkName: "components/c-p-q-integration-i-a-q-solutions" */).then(c => wrapFunctional(c.default || c))
-export const CPQIntegrationIntegrationfaq = () => import('../..\\components\\CPQIntegration\\integrationfaq.vue' /* webpackChunkName: "components/c-p-q-integration-integrationfaq" */).then(c => wrapFunctional(c.default || c))
-export const CPQIntegrationPageHeader = () => import('../..\\components\\CPQIntegration\\PageHeader.vue' /* webpackChunkName: "components/c-p-q-integration-page-header" */).then(c => wrapFunctional(c.default || c))
-export const CPQIntegrationSoftwareIntegrations = () => import('../..\\components\\CPQIntegration\\SoftwareIntegrations.vue' /* webpackChunkName: "components/c-p-q-integration-software-integrations" */).then(c => wrapFunctional(c.default || c))
-export const CPQIntegrationStats = () => import('../..\\components\\CPQIntegration\\Stats.vue' /* webpackChunkName: "components/c-p-q-integration-stats" */).then(c => wrapFunctional(c.default || c))
-export const FreshworksHowLocalizedDeal = () => import('../..\\components\\Freshworks\\HowLocalizedDeal.vue' /* webpackChunkName: "components/freshworks-how-localized-deal" */).then(c => wrapFunctional(c.default || c))
-export const FreshworksKeyBenefitsof = () => import('../..\\components\\Freshworks\\KeyBenefitsof.vue' /* webpackChunkName: "components/freshworks-key-benefitsof" */).then(c => wrapFunctional(c.default || c))
-export const FreshworksMainBannerLoacalized = () => import('../..\\components\\Freshworks\\MainBannerLoacalized.vue' /* webpackChunkName: "components/freshworks-main-banner-loacalized" */).then(c => wrapFunctional(c.default || c))
-export const HubSpotHowLocalizedDeal = () => import('../..\\components\\HubSpot\\HowLocalizedDeal.vue' /* webpackChunkName: "components/hub-spot-how-localized-deal" */).then(c => wrapFunctional(c.default || c))
-export const HubSpotKeyBenefitsof = () => import('../..\\components\\HubSpot\\KeyBenefitsof.vue' /* webpackChunkName: "components/hub-spot-key-benefitsof" */).then(c => wrapFunctional(c.default || c))
-export const HubSpotMainBannerLoacalized = () => import('../..\\components\\HubSpot\\MainBannerLoacalized.vue' /* webpackChunkName: "components/hub-spot-main-banner-loacalized" */).then(c => wrapFunctional(c.default || c))
-export const GlossaryDetails = () => import('../..\\components\\GlossaryFolder\\GlossaryDetails.vue' /* webpackChunkName: "components/glossary-details" */).then(c => wrapFunctional(c.default || c))
-export const GlossaryPage = () => import('../..\\components\\GlossaryFolder\\GlossaryPage.vue' /* webpackChunkName: "components/glossary-page" */).then(c => wrapFunctional(c.default || c))
-export const GlossaryFolderPageTitle = () => import('../..\\components\\GlossaryFolder\\PageTitle.vue' /* webpackChunkName: "components/glossary-folder-page-title" */).then(c => wrapFunctional(c.default || c))
-export const IndexPageAdditionalFeature = () => import('../..\\components\\IndexPage\\AdditionalFeature.vue' /* webpackChunkName: "components/index-page-additional-feature" */).then(c => wrapFunctional(c.default || c))
-export const IndexPageAutomatedQuotes = () => import('../..\\components\\IndexPage\\AutomatedQuotes.vue' /* webpackChunkName: "components/index-page-automated-quotes" */).then(c => wrapFunctional(c.default || c))
-export const IndexPageEasyCPQ = () => import('../..\\components\\IndexPage\\EasyCPQ.vue' /* webpackChunkName: "components/index-page-easy-c-p-q" */).then(c => wrapFunctional(c.default || c))
-export const IndexPageEasyIntegration = () => import('../..\\components\\IndexPage\\EasyIntegration.vue' /* webpackChunkName: "components/index-page-easy-integration" */).then(c => wrapFunctional(c.default || c))
-export const IndexPageGetInTouch = () => import('../..\\components\\IndexPage\\GetInTouch.vue' /* webpackChunkName: "components/index-page-get-in-touch" */).then(c => wrapFunctional(c.default || c))
-export const IndexPageImproveSales = () => import('../..\\components\\IndexPage\\ImproveSales.vue' /* webpackChunkName: "components/index-page-improve-sales" */).then(c => wrapFunctional(c.default || c))
-export const IndexPageLightningFast = () => import('../..\\components\\IndexPage\\LightningFast.vue' /* webpackChunkName: "components/index-page-lightning-fast" */).then(c => wrapFunctional(c.default || c))
-export const IndexPageMainBanner = () => import('../..\\components\\IndexPage\\MainBanner.vue' /* webpackChunkName: "components/index-page-main-banner" */).then(c => wrapFunctional(c.default || c))
-export const IndexPageTransformYourSales = () => import('../..\\components\\IndexPage\\TransformYourSales.vue' /* webpackChunkName: "components/index-page-transform-your-sales" */).then(c => wrapFunctional(c.default || c))
-export const IndexPageWithOurSubscrip = () => import('../..\\components\\IndexPage\\WithOurSubscrip.vue' /* webpackChunkName: "components/index-page-with-our-subscrip" */).then(c => wrapFunctional(c.default || c))
-export const LightningFastQuoteApprovalsAchieveSalesExcellence = () => import('../..\\components\\LightningFastQuoteApprovals\\AchieveSalesExcellence.vue' /* webpackChunkName: "components/lightning-fast-quote-approvals-achieve-sales-excellence" */).then(c => wrapFunctional(c.default || c))
-export const LightningFastQuoteApprovalsApprovalsfaq = () => import('../..\\components\\LightningFastQuoteApprovals\\approvalsfaq.vue' /* webpackChunkName: "components/lightning-fast-quote-approvals-approvalsfaq" */).then(c => wrapFunctional(c.default || c))
-export const LightningFastQuoteApprovalsInsights = () => import('../..\\components\\LightningFastQuoteApprovals\\ApprovalsInsights.vue' /* webpackChunkName: "components/lightning-fast-quote-approvals-insights" */).then(c => wrapFunctional(c.default || c))
-export const LightningFastQuoteApprovalsBannerLighteningFast = () => import('../..\\components\\LightningFastQuoteApprovals\\BannerLighteningFast.vue' /* webpackChunkName: "components/lightning-fast-quote-approvals-banner-lightening-fast" */).then(c => wrapFunctional(c.default || c))
-export const LightningFastQuoteApprovalsEffortlessAutomation = () => import('../..\\components\\LightningFastQuoteApprovals\\EffortlessAutomation.vue' /* webpackChunkName: "components/lightning-fast-quote-approvals-effortless-automation" */).then(c => wrapFunctional(c.default || c))
-export const LightningFastQuoteApprovalsFreeTrial = () => import('../..\\components\\LightningFastQuoteApprovals\\FreeTrial.vue' /* webpackChunkName: "components/lightning-fast-quote-approvals-free-trial" */).then(c => wrapFunctional(c.default || c))
-export const LightningFastQuoteApprovalsModesofApprovals = () => import('../..\\components\\LightningFastQuoteApprovals\\ModesofApprovals.vue' /* webpackChunkName: "components/lightning-fast-quote-approvals-modesof-approvals" */).then(c => wrapFunctional(c.default || c))
-export const LightningFastQuoteApprovalsRoutingCapabilitiess = () => import('../..\\components\\LightningFastQuoteApprovals\\RoutingCapabilitiess.vue' /* webpackChunkName: "components/lightning-fast-quote-approvals-routing-capabilitiess" */).then(c => wrapFunctional(c.default || c))
-export const LocalizedDealDocumentsEmpoerGlobal = () => import('../..\\components\\LocalizedDealDocuments\\EmpoerGlobal.vue' /* webpackChunkName: "components/localized-deal-documents-empoer-global" */).then(c => wrapFunctional(c.default || c))
-export const LocalizedDealDocumentsFaq = () => import('../..\\components\\LocalizedDealDocuments\\faq.vue' /* webpackChunkName: "components/localized-deal-documents-faq" */).then(c => wrapFunctional(c.default || c))
-export const LocalizedDealDocumentsFreeTrial = () => import('../..\\components\\LocalizedDealDocuments\\FreeTrial.vue' /* webpackChunkName: "components/localized-deal-documents-free-trial" */).then(c => wrapFunctional(c.default || c))
-export const LocalizedDealDocumentsHowLocalized = () => import('../..\\components\\LocalizedDealDocuments\\HowLocalized.vue' /* webpackChunkName: "components/localized-deal-documents-how-localized" */).then(c => wrapFunctional(c.default || c))
-export const LocalizedDealDocumentsHowLocalizedDeal = () => import('../..\\components\\LocalizedDealDocuments\\HowLocalizedDeal.vue' /* webpackChunkName: "components/localized-deal-documents-how-localized-deal" */).then(c => wrapFunctional(c.default || c))
-export const LocalizedDealDocumentsKeyBenefitsof = () => import('../..\\components\\LocalizedDealDocuments\\KeyBenefitsof.vue' /* webpackChunkName: "components/localized-deal-documents-key-benefitsof" */).then(c => wrapFunctional(c.default || c))
-export const LocalizedDealDocumentsMainBannerLoacalized = () => import('../..\\components\\LocalizedDealDocuments\\MainBannerLoacalized.vue' /* webpackChunkName: "components/localized-deal-documents-main-banner-loacalized" */).then(c => wrapFunctional(c.default || c))
-export const LocalizedDealDocumentsTransformYourSales = () => import('../..\\components\\LocalizedDealDocuments\\TransformYourSales.vue' /* webpackChunkName: "components/localized-deal-documents-transform-your-sales" */).then(c => wrapFunctional(c.default || c))
-export const LoginpageSignUpHeader = () => import('../..\\components\\loginpage\\SignUpHeader.vue' /* webpackChunkName: "components/loginpage-sign-up-header" */).then(c => wrapFunctional(c.default || c))
-export const MediaMain = () => import('../..\\components\\MediaFolder\\MediaMain.vue' /* webpackChunkName: "components/media-main" */).then(c => wrapFunctional(c.default || c))
-export const PrivacyPolicy = () => import('../..\\components\\PrivacyPolicy\\PrivacyPolicy.vue' /* webpackChunkName: "components/privacy-policy" */).then(c => wrapFunctional(c.default || c))
-export const MicrosoftDynamicsHowLocalizedDeal = () => import('../..\\components\\Microsoft-Dynamics\\HowLocalizedDeal.vue' /* webpackChunkName: "components/microsoft-dynamics-how-localized-deal" */).then(c => wrapFunctional(c.default || c))
-export const MicrosoftDynamicsKeyBenefitsof = () => import('../..\\components\\Microsoft-Dynamics\\KeyBenefitsof.vue' /* webpackChunkName: "components/microsoft-dynamics-key-benefitsof" */).then(c => wrapFunctional(c.default || c))
-export const MicrosoftDynamicsMainBannerLoacalized = () => import('../..\\components\\Microsoft-Dynamics\\MainBannerLoacalized.vue' /* webpackChunkName: "components/microsoft-dynamics-main-banner-loacalized" */).then(c => wrapFunctional(c.default || c))
-export const RequestDemoPageHeader = () => import('../..\\components\\RequestDemo\\PageHeader.vue' /* webpackChunkName: "components/request-demo-page-header" */).then(c => wrapFunctional(c.default || c))
-export const RequestDemoTransformDealsWith = () => import('../..\\components\\RequestDemo\\TransformDealsWith.vue' /* webpackChunkName: "components/request-demo-transform-deals-with" */).then(c => wrapFunctional(c.default || c))
-export const SalesforceHowLocalizedDeal = () => import('../..\\components\\Salesforce\\HowLocalizedDeal.vue' /* webpackChunkName: "components/salesforce-how-localized-deal" */).then(c => wrapFunctional(c.default || c))
-export const SalesforceKeyBenefitsof = () => import('../..\\components\\Salesforce\\KeyBenefitsof.vue' /* webpackChunkName: "components/salesforce-key-benefitsof" */).then(c => wrapFunctional(c.default || c))
-export const SalesforceMainBannerLoacalized = () => import('../..\\components\\Salesforce\\MainBannerLoacalized.vue' /* webpackChunkName: "components/salesforce-main-banner-loacalized" */).then(c => wrapFunctional(c.default || c))
-export const SecurityFreeTrial = () => import('../..\\components\\Security\\FreeTrial.vue' /* webpackChunkName: "components/security-free-trial" */).then(c => wrapFunctional(c.default || c))
-export const SecurityMainBannerCPQ = () => import('../..\\components\\Security\\MainBannerCPQ.vue' /* webpackChunkName: "components/security-main-banner-c-p-q" */).then(c => wrapFunctional(c.default || c))
-export const SecurityQuickandAccurate = () => import('../..\\components\\Security\\QuickandAccurate.vue' /* webpackChunkName: "components/security-quickand-accurate" */).then(c => wrapFunctional(c.default || c))
-export const SecurityTransformYourSales = () => import('../..\\components\\Security\\TransformYourSales.vue' /* webpackChunkName: "components/security-transform-your-sales" */).then(c => wrapFunctional(c.default || c))
-export const SecurityWhatisCPQService = () => import('../..\\components\\Security\\WhatisCPQService.vue' /* webpackChunkName: "components/security-whatis-c-p-q-service" */).then(c => wrapFunctional(c.default || c))
-export const SignUpHeader = () => import('../..\\components\\SignUp\\SignUpHeader.vue' /* webpackChunkName: "components/sign-up-header" */).then(c => wrapFunctional(c.default || c))
-export const SubscriptionsMainBannerSubscription = () => import('../..\\components\\Subscriptions\\MainBannerSubscription.vue' /* webpackChunkName: "components/subscriptions-main-banner-subscription" */).then(c => wrapFunctional(c.default || c))
-export const SubscriptionsOnbaordingAssistance = () => import('../..\\components\\Subscriptions\\OnbaordingAssistance.vue' /* webpackChunkName: "components/subscriptions-onbaording-assistance" */).then(c => wrapFunctional(c.default || c))
-export const SubscriptionsPageHeader = () => import('../..\\components\\Subscriptions\\PageHeader.vue' /* webpackChunkName: "components/subscriptions-page-header" */).then(c => wrapFunctional(c.default || c))
-export const SuccessStories = () => import('../..\\components\\success-stories\\SuccessStories.vue' /* webpackChunkName: "components/success-stories" */).then(c => wrapFunctional(c.default || c))
-export const SuccessStoriesDetails = () => import('../..\\components\\success-stories\\SuccessStoriesDetails.vue' /* webpackChunkName: "components/success-stories-details" */).then(c => wrapFunctional(c.default || c))
-export const SuccessStoriesSuccesStoryBanner = () => import('../..\\components\\success-stories\\SuccesStoryBanner.vue' /* webpackChunkName: "components/success-stories-succes-story-banner" */).then(c => wrapFunctional(c.default || c))
-export const SuccessStoriesSuccesStoryBannerPage = () => import('../..\\components\\success-stories\\SuccesStoryBannerPage.vue' /* webpackChunkName: "components/success-stories-succes-story-banner-page" */).then(c => wrapFunctional(c.default || c))
-export const SugarCRMHowLocalizedDeal = () => import('../..\\components\\Sugar-CRM\\HowLocalizedDeal.vue' /* webpackChunkName: "components/sugar-c-r-m-how-localized-deal" */).then(c => wrapFunctional(c.default || c))
-export const SugarCRMKeyBenefitsof = () => import('../..\\components\\Sugar-CRM\\KeyBenefitsof.vue' /* webpackChunkName: "components/sugar-c-r-m-key-benefitsof" */).then(c => wrapFunctional(c.default || c))
-export const SugarCRMMainBannerLoacalized = () => import('../..\\components\\Sugar-CRM\\MainBannerLoacalized.vue' /* webpackChunkName: "components/sugar-c-r-m-main-banner-loacalized" */).then(c => wrapFunctional(c.default || c))
-export const TermsConditions = () => import('../..\\components\\TermsConditions\\TermsConditions.vue' /* webpackChunkName: "components/terms-conditions" */).then(c => wrapFunctional(c.default || c))
-export const ThankYouPage = () => import('../..\\components\\ThankYou\\ThankYouPage.vue' /* webpackChunkName: "components/thank-you-page" */).then(c => wrapFunctional(c.default || c))
-export const ThankYouTrackingImage = () => import('../..\\components\\ThankYou\\TrackingImage.vue' /* webpackChunkName: "components/thank-you-tracking-image" */).then(c => wrapFunctional(c.default || c))
+export { default as BlogsBlog } from '../..\\components\\blogs\\Blog.vue'
+export { default as BlogsBlogDetails } from '../..\\components\\blogs\\BlogDetails.vue'
+export { default as BlogsFeaturedBlogDetails } from '../..\\components\\blogs\\FeaturedBlogDetails.vue'
+export { default as BlogsLatestBlog } from '../..\\components\\blogs\\LatestBlog.vue'
+export { default as AutomatedQuotesGenerationAccelerateYourSales } from '../..\\components\\AutomatedQuotesGeneration\\AccelerateYourSales.vue'
+export { default as AutomatedQuotesGenerationBanner } from '../..\\components\\AutomatedQuotesGeneration\\Banner.vue'
+export { default as AutomatedQuotesGenerationExperiencethefuture } from '../..\\components\\AutomatedQuotesGeneration\\Experiencethefuture.vue'
+export { default as AutomatedQuotesGenerationFreeTrial } from '../..\\components\\AutomatedQuotesGeneration\\FreeTrial.vue'
+export { default as AutomatedQuotesGenerationQuotefaq } from '../..\\components\\AutomatedQuotesGeneration\\quotefaq.vue'
+export { default as AutomatedQuotesGenerationYourBusiness } from '../..\\components\\AutomatedQuotesGeneration\\YourBusiness.vue'
+export { default as CategoriesDetails } from '../..\\components\\categories\\categories-details.vue'
+export { default as CategoriesFeaturedCategoriesDetails } from '../..\\components\\categories\\featured-categories-details.vue'
+export { default as CategoriesGlossaryCategoriesDetails } from '../..\\components\\categories\\glossary-categories-details.vue'
+export { default as CategoriesSuccessStoryCategoriesDetails } from '../..\\components\\categories\\success-story-categories-details.vue'
+export { default as AboutUsIAQSolutions } from '../..\\components\\AboutUs\\IAQSolutions.vue'
+export { default as AboutUsPageHeader } from '../..\\components\\AboutUs\\PageHeader.vue'
+export { default as AboutUsStats } from '../..\\components\\AboutUs\\Stats.vue'
+export { default as CommonAccordion } from '../..\\components\\Common\\Accordion.vue'
+export { default as CommonAccordionItem } from '../..\\components\\Common\\AccordionItem.vue'
+export { default as CommonAutomatedQuotes } from '../..\\components\\Common\\AutomatedQuotes.vue'
+export { default as CommonBlog } from '../..\\components\\Common\\Blog.vue'
+export { default as CommonBlogSidebar } from '../..\\components\\Common\\BlogSidebar.vue'
+export { default as CommonComingSoon } from '../..\\components\\Common\\ComingSoon.vue'
+export { default as CommonFaq } from '../..\\components\\Common\\Faq.vue'
+export { default as CommonFeedback } from '../..\\components\\Common\\Feedback.vue'
+export { default as CommonGetInTouch } from '../..\\components\\Common\\GetInTouch.vue'
+export { default as CommonLocalizedfaq } from '../..\\components\\Common\\localizedfaq.vue'
+export { default as CommonOurTeam } from '../..\\components\\Common\\OurTeam.vue'
+export { default as CommonPageSeo } from '../..\\components\\Common\\PageSeo.vue'
+export { default as CommonPageTitle } from '../..\\components\\Common\\PageTitle.vue'
+export { default as CommonPartner } from '../..\\components\\Common\\Partner.vue'
+export { default as CommonPricing } from '../..\\components\\Common\\Pricing.vue'
+export { default as CommonServicefaq } from '../..\\components\\Common\\servicefaq.vue'
+export { default as ContactUsPageHeader } from '../..\\components\\ContactUs\\PageHeader.vue'
+export { default as AuthenticationForgetPassword } from '../..\\components\\Authentication\\ForgetPassword.vue'
+export { default as AuthenticationSignIn } from '../..\\components\\Authentication\\SignIn.vue'
+export { default as AuthenticationSignUp } from '../..\\components\\Authentication\\SignUp.vue'
+export { default as CPQIntegrationChallengesAndTrack } from '../..\\components\\CPQIntegration\\ChallengesAndTrack.vue'
+export { default as CPQIntegrationFreeTrial } from '../..\\components\\CPQIntegration\\FreeTrial.vue'
+export { default as CPQIntegrationFunfacts } from '../..\\components\\CPQIntegration\\Funfacts.vue'
+export { default as CPQIntegrationIAQSolutions } from '../..\\components\\CPQIntegration\\IAQSolutions.vue'
+export { default as CPQIntegrationIntegrationfaq } from '../..\\components\\CPQIntegration\\integrationfaq.vue'
+export { default as CPQIntegrationPageHeader } from '../..\\components\\CPQIntegration\\PageHeader.vue'
+export { default as CPQIntegrationSoftwareIntegrations } from '../..\\components\\CPQIntegration\\SoftwareIntegrations.vue'
+export { default as CPQIntegrationStats } from '../..\\components\\CPQIntegration\\Stats.vue'
+export { default as CPQFreeTrial } from '../..\\components\\CPQ\\FreeTrial.vue'
+export { default as CPQMainBannerCPQ } from '../..\\components\\CPQ\\MainBannerCPQ.vue'
+export { default as CPQQuickandAccurate } from '../..\\components\\CPQ\\QuickandAccurate.vue'
+export { default as CPQServicefaq } from '../..\\components\\CPQ\\servicefaq.vue'
+export { default as CPQTransformYourSales } from '../..\\components\\CPQ\\TransformYourSales.vue'
+export { default as CPQWhatisCPQService } from '../..\\components\\CPQ\\WhatisCPQService.vue'
+export { default as FreshworksHowLocalizedDeal } from '../..\\components\\Freshworks\\HowLocalizedDeal.vue'
+export { default as FreshworksKeyBenefitsof } from '../..\\components\\Freshworks\\KeyBenefitsof.vue'
+export { default as FreshworksMainBannerLoacalized } from '../..\\components\\Freshworks\\MainBannerLoacalized.vue'
+export { default as HubSpotHowLocalizedDeal } from '../..\\components\\HubSpot\\HowLocalizedDeal.vue'
+export { default as HubSpotKeyBenefitsof } from '../..\\components\\HubSpot\\KeyBenefitsof.vue'
+export { default as HubSpotMainBannerLoacalized } from '../..\\components\\HubSpot\\MainBannerLoacalized.vue'
+export { default as GlossaryDetails } from '../..\\components\\GlossaryFolder\\GlossaryDetails.vue'
+export { default as GlossaryPage } from '../..\\components\\GlossaryFolder\\GlossaryPage.vue'
+export { default as GlossaryFolderPageTitle } from '../..\\components\\GlossaryFolder\\PageTitle.vue'
+export { default as EbookDetails } from '../..\\components\\EbookFolder\\EbookDetails.vue'
+export { default as EbookMain } from '../..\\components\\EbookFolder\\EbookMain.vue'
+export { default as CookiesCookie } from '../..\\components\\Cookies\\Cookie.vue'
+export { default as LightningFastQuoteApprovalsAchieveSalesExcellence } from '../..\\components\\LightningFastQuoteApprovals\\AchieveSalesExcellence.vue'
+export { default as LightningFastQuoteApprovalsApprovalsfaq } from '../..\\components\\LightningFastQuoteApprovals\\approvalsfaq.vue'
+export { default as LightningFastQuoteApprovalsInsights } from '../..\\components\\LightningFastQuoteApprovals\\ApprovalsInsights.vue'
+export { default as LightningFastQuoteApprovalsBannerLighteningFast } from '../..\\components\\LightningFastQuoteApprovals\\BannerLighteningFast.vue'
+export { default as LightningFastQuoteApprovalsEffortlessAutomation } from '../..\\components\\LightningFastQuoteApprovals\\EffortlessAutomation.vue'
+export { default as LightningFastQuoteApprovalsFreeTrial } from '../..\\components\\LightningFastQuoteApprovals\\FreeTrial.vue'
+export { default as LightningFastQuoteApprovalsModesofApprovals } from '../..\\components\\LightningFastQuoteApprovals\\ModesofApprovals.vue'
+export { default as LightningFastQuoteApprovalsRoutingCapabilitiess } from '../..\\components\\LightningFastQuoteApprovals\\RoutingCapabilitiess.vue'
+export { default as IndexPageAdditionalFeature } from '../..\\components\\IndexPage\\AdditionalFeature.vue'
+export { default as IndexPageAutomatedQuotes } from '../..\\components\\IndexPage\\AutomatedQuotes.vue'
+export { default as IndexPageEasyCPQ } from '../..\\components\\IndexPage\\EasyCPQ.vue'
+export { default as IndexPageEasyIntegration } from '../..\\components\\IndexPage\\EasyIntegration.vue'
+export { default as IndexPageGetInTouch } from '../..\\components\\IndexPage\\GetInTouch.vue'
+export { default as IndexPageImproveSales } from '../..\\components\\IndexPage\\ImproveSales.vue'
+export { default as IndexPageLightningFast } from '../..\\components\\IndexPage\\LightningFast.vue'
+export { default as IndexPageMainBanner } from '../..\\components\\IndexPage\\MainBanner.vue'
+export { default as IndexPageTransformYourSales } from '../..\\components\\IndexPage\\TransformYourSales.vue'
+export { default as IndexPageWithOurSubscrip } from '../..\\components\\IndexPage\\WithOurSubscrip.vue'
+export { default as LocalizedDealDocumentsEmpoerGlobal } from '../..\\components\\LocalizedDealDocuments\\EmpoerGlobal.vue'
+export { default as LocalizedDealDocumentsFaq } from '../..\\components\\LocalizedDealDocuments\\faq.vue'
+export { default as LocalizedDealDocumentsFreeTrial } from '../..\\components\\LocalizedDealDocuments\\FreeTrial.vue'
+export { default as LocalizedDealDocumentsHowLocalized } from '../..\\components\\LocalizedDealDocuments\\HowLocalized.vue'
+export { default as LocalizedDealDocumentsHowLocalizedDeal } from '../..\\components\\LocalizedDealDocuments\\HowLocalizedDeal.vue'
+export { default as LocalizedDealDocumentsKeyBenefitsof } from '../..\\components\\LocalizedDealDocuments\\KeyBenefitsof.vue'
+export { default as LocalizedDealDocumentsMainBannerLoacalized } from '../..\\components\\LocalizedDealDocuments\\MainBannerLoacalized.vue'
+export { default as LocalizedDealDocumentsTransformYourSales } from '../..\\components\\LocalizedDealDocuments\\TransformYourSales.vue'
+export { default as MediaMain } from '../..\\components\\MediaFolder\\MediaMain.vue'
+export { default as LoginpageSignUpHeader } from '../..\\components\\loginpage\\SignUpHeader.vue'
+export { default as MicrosoftDynamicsHowLocalizedDeal } from '../..\\components\\Microsoft-Dynamics\\HowLocalizedDeal.vue'
+export { default as MicrosoftDynamicsKeyBenefitsof } from '../..\\components\\Microsoft-Dynamics\\KeyBenefitsof.vue'
+export { default as MicrosoftDynamicsMainBannerLoacalized } from '../..\\components\\Microsoft-Dynamics\\MainBannerLoacalized.vue'
+export { default as RequestDemoPageHeader } from '../..\\components\\RequestDemo\\PageHeader.vue'
+export { default as RequestDemoTransformDealsWith } from '../..\\components\\RequestDemo\\TransformDealsWith.vue'
+export { default as SalesforceHowLocalizedDeal } from '../..\\components\\Salesforce\\HowLocalizedDeal.vue'
+export { default as SalesforceKeyBenefitsof } from '../..\\components\\Salesforce\\KeyBenefitsof.vue'
+export { default as SalesforceMainBannerLoacalized } from '../..\\components\\Salesforce\\MainBannerLoacalized.vue'
+export { default as SecurityFreeTrial } from '../..\\components\\Security\\FreeTrial.vue'
+export { default as SecurityMainBannerCPQ } from '../..\\components\\Security\\MainBannerCPQ.vue'
+export { default as SecurityQuickandAccurate } from '../..\\components\\Security\\QuickandAccurate.vue'
+export { default as SecurityTransformYourSales } from '../..\\components\\Security\\TransformYourSales.vue'
+export { default as SecurityWhatisCPQService } from '../..\\components\\Security\\WhatisCPQService.vue'
+export { default as PrivacyPolicy } from '../..\\components\\PrivacyPolicy\\PrivacyPolicy.vue'
+export { default as SignUpHeader } from '../..\\components\\SignUp\\SignUpHeader.vue'
+export { default as SuccessStories } from '../..\\components\\success-stories\\SuccessStories.vue'
+export { default as SuccessStoriesDetails } from '../..\\components\\success-stories\\SuccessStoriesDetails.vue'
+export { default as SuccessStoriesSuccesStoryBanner } from '../..\\components\\success-stories\\SuccesStoryBanner.vue'
+export { default as SuccessStoriesSuccesStoryBannerPage } from '../..\\components\\success-stories\\SuccesStoryBannerPage.vue'
+export { default as SubscriptionsMainBannerSubscription } from '../..\\components\\Subscriptions\\MainBannerSubscription.vue'
+export { default as SubscriptionsOnbaordingAssistance } from '../..\\components\\Subscriptions\\OnbaordingAssistance.vue'
+export { default as SubscriptionsPageHeader } from '../..\\components\\Subscriptions\\PageHeader.vue'
+export { default as ThankYouPage } from '../..\\components\\ThankYou\\ThankYouPage.vue'
+export { default as ThankYouTrackingImage } from '../..\\components\\ThankYou\\TrackingImage.vue'
+export { default as TermsConditions } from '../..\\components\\TermsConditions\\TermsConditions.vue'
+export { default as SugarCRMHowLocalizedDeal } from '../..\\components\\Sugar-CRM\\HowLocalizedDeal.vue'
+export { default as SugarCRMKeyBenefitsof } from '../..\\components\\Sugar-CRM\\KeyBenefitsof.vue'
+export { default as SugarCRMMainBannerLoacalized } from '../..\\components\\Sugar-CRM\\MainBannerLoacalized.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

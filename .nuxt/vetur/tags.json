@@ -1,21 +1,15 @@
 {
-  "AboutUsIAQSolutions": {
-    "description": "Auto imported from components/AboutUs/IAQSolutions.vue"
+  "BlogsBlog": {
+    "description": "Auto imported from components/blogs/Blog.vue"
   },
-  "AboutUsPageHeader": {
-    "description": "Auto imported from components/AboutUs/PageHeader.vue"
+  "BlogsBlogDetails": {
+    "description": "Auto imported from components/blogs/BlogDetails.vue"
   },
-  "AboutUsStats": {
-    "description": "Auto imported from components/AboutUs/Stats.vue"
+  "BlogsFeaturedBlogDetails": {
+    "description": "Auto imported from components/blogs/FeaturedBlogDetails.vue"
   },
-  "AuthenticationForgetPassword": {
-    "description": "Auto imported from components/Authentication/ForgetPassword.vue"
-  },
-  "AuthenticationSignIn": {
-    "description": "Auto imported from components/Authentication/SignIn.vue"
-  },
-  "AuthenticationSignUp": {
-    "description": "Auto imported from components/Authentication/SignUp.vue"
+  "BlogsLatestBlog": {
+    "description": "Auto imported from components/blogs/LatestBlog.vue"
   },
   "AutomatedQuotesGenerationAccelerateYourSales": {
     "description": "Auto imported from components/AutomatedQuotesGeneration/AccelerateYourSales.vue"
@@ -35,18 +29,6 @@
   "AutomatedQuotesGenerationYourBusiness": {
     "description": "Auto imported from components/AutomatedQuotesGeneration/YourBusiness.vue"
   },
-  "BlogsBlog": {
-    "description": "Auto imported from components/blogs/Blog.vue"
-  },
-  "BlogsBlogDetails": {
-    "description": "Auto imported from components/blogs/BlogDetails.vue"
-  },
-  "BlogsFeaturedBlogDetails": {
-    "description": "Auto imported from components/blogs/FeaturedBlogDetails.vue"
-  },
-  "BlogsLatestBlog": {
-    "description": "Auto imported from components/blogs/LatestBlog.vue"
-  },
   "CategoriesDetails": {
     "description": "Auto imported from components/categories/categories-details.vue"
   },
@@ -59,8 +41,14 @@
   "CategoriesSuccessStoryCategoriesDetails": {
     "description": "Auto imported from components/categories/success-story-categories-details.vue"
   },
-  "ContactUsPageHeader": {
-    "description": "Auto imported from components/ContactUs/PageHeader.vue"
+  "AboutUsIAQSolutions": {
+    "description": "Auto imported from components/AboutUs/IAQSolutions.vue"
+  },
+  "AboutUsPageHeader": {
+    "description": "Auto imported from components/AboutUs/PageHeader.vue"
+  },
+  "AboutUsStats": {
+    "description": "Auto imported from components/AboutUs/Stats.vue"
   },
   "CommonAccordion": {
     "description": "Auto imported from components/Common/Accordion.vue"
@@ -110,32 +98,17 @@
   "CommonServicefaq": {
     "description": "Auto imported from components/Common/servicefaq.vue"
   },
-  "CookiesCookie": {
-    "description": "Auto imported from components/Cookies/Cookie.vue"
+  "ContactUsPageHeader": {
+    "description": "Auto imported from components/ContactUs/PageHeader.vue"
   },
-  "CPQFreeTrial": {
-    "description": "Auto imported from components/CPQ/FreeTrial.vue"
+  "AuthenticationForgetPassword": {
+    "description": "Auto imported from components/Authentication/ForgetPassword.vue"
   },
-  "CPQMainBannerCPQ": {
-    "description": "Auto imported from components/CPQ/MainBannerCPQ.vue"
+  "AuthenticationSignIn": {
+    "description": "Auto imported from components/Authentication/SignIn.vue"
   },
-  "CPQQuickandAccurate": {
-    "description": "Auto imported from components/CPQ/QuickandAccurate.vue"
-  },
-  "CPQServicefaq": {
-    "description": "Auto imported from components/CPQ/servicefaq.vue"
-  },
-  "CPQTransformYourSales": {
-    "description": "Auto imported from components/CPQ/TransformYourSales.vue"
-  },
-  "CPQWhatisCPQService": {
-    "description": "Auto imported from components/CPQ/WhatisCPQService.vue"
-  },
-  "EbookDetails": {
-    "description": "Auto imported from components/EbookFolder/EbookDetails.vue"
-  },
-  "EbookMain": {
-    "description": "Auto imported from components/EbookFolder/EbookMain.vue"
+  "AuthenticationSignUp": {
+    "description": "Auto imported from components/Authentication/SignUp.vue"
   },
   "CPQIntegrationChallengesAndTrack": {
     "description": "Auto imported from components/CPQIntegration/ChallengesAndTrack.vue"
@@ -160,6 +133,24 @@
   },
   "CPQIntegrationStats": {
     "description": "Auto imported from components/CPQIntegration/Stats.vue"
+  },
+  "CPQFreeTrial": {
+    "description": "Auto imported from components/CPQ/FreeTrial.vue"
+  },
+  "CPQMainBannerCPQ": {
+    "description": "Auto imported from components/CPQ/MainBannerCPQ.vue"
+  },
+  "CPQQuickandAccurate": {
+    "description": "Auto imported from components/CPQ/QuickandAccurate.vue"
+  },
+  "CPQServicefaq": {
+    "description": "Auto imported from components/CPQ/servicefaq.vue"
+  },
+  "CPQTransformYourSales": {
+    "description": "Auto imported from components/CPQ/TransformYourSales.vue"
+  },
+  "CPQWhatisCPQService": {
+    "description": "Auto imported from components/CPQ/WhatisCPQService.vue"
   },
   "FreshworksHowLocalizedDeal": {
     "description": "Auto imported from components/Freshworks/HowLocalizedDeal.vue"
@@ -187,6 +178,39 @@
   },
   "GlossaryFolderPageTitle": {
     "description": "Auto imported from components/GlossaryFolder/PageTitle.vue"
+  },
+  "EbookDetails": {
+    "description": "Auto imported from components/EbookFolder/EbookDetails.vue"
+  },
+  "EbookMain": {
+    "description": "Auto imported from components/EbookFolder/EbookMain.vue"
+  },
+  "CookiesCookie": {
+    "description": "Auto imported from components/Cookies/Cookie.vue"
+  },
+  "LightningFastQuoteApprovalsAchieveSalesExcellence": {
+    "description": "Auto imported from components/LightningFastQuoteApprovals/AchieveSalesExcellence.vue"
+  },
+  "LightningFastQuoteApprovalsApprovalsfaq": {
+    "description": "Auto imported from components/LightningFastQuoteApprovals/approvalsfaq.vue"
+  },
+  "LightningFastQuoteApprovalsInsights": {
+    "description": "Auto imported from components/LightningFastQuoteApprovals/ApprovalsInsights.vue"
+  },
+  "LightningFastQuoteApprovalsBannerLighteningFast": {
+    "description": "Auto imported from components/LightningFastQuoteApprovals/BannerLighteningFast.vue"
+  },
+  "LightningFastQuoteApprovalsEffortlessAutomation": {
+    "description": "Auto imported from components/LightningFastQuoteApprovals/EffortlessAutomation.vue"
+  },
+  "LightningFastQuoteApprovalsFreeTrial": {
+    "description": "Auto imported from components/LightningFastQuoteApprovals/FreeTrial.vue"
+  },
+  "LightningFastQuoteApprovalsModesofApprovals": {
+    "description": "Auto imported from components/LightningFastQuoteApprovals/ModesofApprovals.vue"
+  },
+  "LightningFastQuoteApprovalsRoutingCapabilitiess": {
+    "description": "Auto imported from components/LightningFastQuoteApprovals/RoutingCapabilitiess.vue"
   },
   "IndexPageAdditionalFeature": {
     "description": "Auto imported from components/IndexPage/AdditionalFeature.vue"
@@ -218,30 +242,6 @@
   "IndexPageWithOurSubscrip": {
     "description": "Auto imported from components/IndexPage/WithOurSubscrip.vue"
   },
-  "LightningFastQuoteApprovalsAchieveSalesExcellence": {
-    "description": "Auto imported from components/LightningFastQuoteApprovals/AchieveSalesExcellence.vue"
-  },
-  "LightningFastQuoteApprovalsApprovalsfaq": {
-    "description": "Auto imported from components/LightningFastQuoteApprovals/approvalsfaq.vue"
-  },
-  "LightningFastQuoteApprovalsInsights": {
-    "description": "Auto imported from components/LightningFastQuoteApprovals/ApprovalsInsights.vue"
-  },
-  "LightningFastQuoteApprovalsBannerLighteningFast": {
-    "description": "Auto imported from components/LightningFastQuoteApprovals/BannerLighteningFast.vue"
-  },
-  "LightningFastQuoteApprovalsEffortlessAutomation": {
-    "description": "Auto imported from components/LightningFastQuoteApprovals/EffortlessAutomation.vue"
-  },
-  "LightningFastQuoteApprovalsFreeTrial": {
-    "description": "Auto imported from components/LightningFastQuoteApprovals/FreeTrial.vue"
-  },
-  "LightningFastQuoteApprovalsModesofApprovals": {
-    "description": "Auto imported from components/LightningFastQuoteApprovals/ModesofApprovals.vue"
-  },
-  "LightningFastQuoteApprovalsRoutingCapabilitiess": {
-    "description": "Auto imported from components/LightningFastQuoteApprovals/RoutingCapabilitiess.vue"
-  },
   "LocalizedDealDocumentsEmpoerGlobal": {
     "description": "Auto imported from components/LocalizedDealDocuments/EmpoerGlobal.vue"
   },
@@ -266,14 +266,11 @@
   "LocalizedDealDocumentsTransformYourSales": {
     "description": "Auto imported from components/LocalizedDealDocuments/TransformYourSales.vue"
   },
-  "LoginpageSignUpHeader": {
-    "description": "Auto imported from components/loginpage/SignUpHeader.vue"
-  },
   "MediaMain": {
     "description": "Auto imported from components/MediaFolder/MediaMain.vue"
   },
-  "PrivacyPolicy": {
-    "description": "Auto imported from components/PrivacyPolicy/PrivacyPolicy.vue"
+  "LoginpageSignUpHeader": {
+    "description": "Auto imported from components/loginpage/SignUpHeader.vue"
   },
   "MicrosoftDynamicsHowLocalizedDeal": {
     "description": "Auto imported from components/Microsoft-Dynamics/HowLocalizedDeal.vue"
@@ -314,17 +311,11 @@
   "SecurityWhatisCPQService": {
     "description": "Auto imported from components/Security/WhatisCPQService.vue"
   },
+  "PrivacyPolicy": {
+    "description": "Auto imported from components/PrivacyPolicy/PrivacyPolicy.vue"
+  },
   "SignUpHeader": {
     "description": "Auto imported from components/SignUp/SignUpHeader.vue"
-  },
-  "SubscriptionsMainBannerSubscription": {
-    "description": "Auto imported from components/Subscriptions/MainBannerSubscription.vue"
-  },
-  "SubscriptionsOnbaordingAssistance": {
-    "description": "Auto imported from components/Subscriptions/OnbaordingAssistance.vue"
-  },
-  "SubscriptionsPageHeader": {
-    "description": "Auto imported from components/Subscriptions/PageHeader.vue"
   },
   "SuccessStories": {
     "description": "Auto imported from components/success-stories/SuccessStories.vue"
@@ -338,6 +329,24 @@
   "SuccessStoriesSuccesStoryBannerPage": {
     "description": "Auto imported from components/success-stories/SuccesStoryBannerPage.vue"
   },
+  "SubscriptionsMainBannerSubscription": {
+    "description": "Auto imported from components/Subscriptions/MainBannerSubscription.vue"
+  },
+  "SubscriptionsOnbaordingAssistance": {
+    "description": "Auto imported from components/Subscriptions/OnbaordingAssistance.vue"
+  },
+  "SubscriptionsPageHeader": {
+    "description": "Auto imported from components/Subscriptions/PageHeader.vue"
+  },
+  "ThankYouPage": {
+    "description": "Auto imported from components/ThankYou/ThankYouPage.vue"
+  },
+  "ThankYouTrackingImage": {
+    "description": "Auto imported from components/ThankYou/TrackingImage.vue"
+  },
+  "TermsConditions": {
+    "description": "Auto imported from components/TermsConditions/TermsConditions.vue"
+  },
   "SugarCRMHowLocalizedDeal": {
     "description": "Auto imported from components/Sugar-CRM/HowLocalizedDeal.vue"
   },
@@ -346,14 +355,5 @@
   },
   "SugarCRMMainBannerLoacalized": {
     "description": "Auto imported from components/Sugar-CRM/MainBannerLoacalized.vue"
-  },
-  "TermsConditions": {
-    "description": "Auto imported from components/TermsConditions/TermsConditions.vue"
-  },
-  "ThankYouPage": {
-    "description": "Auto imported from components/ThankYou/ThankYouPage.vue"
-  },
-  "ThankYouTrackingImage": {
-    "description": "Auto imported from components/ThankYou/TrackingImage.vue"
   }
 }

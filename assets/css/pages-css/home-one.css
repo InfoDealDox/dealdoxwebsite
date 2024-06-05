@@ -209,7 +209,7 @@ Features Area CSS
 .single-features-box {
   -webkit-transition: var(--transition);
   transition: var(--transition);
-  background-color: #ddeaf9;
+  background-color: #f7f7ff;
   margin-bottom: 25px;
   text-align: center;
   border-radius: 20px;

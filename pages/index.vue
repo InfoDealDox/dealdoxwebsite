@@ -2,6 +2,7 @@
   <div>
   <Navbar class="navbar-style-two"/>
   <MainBanner />
+  <Partner />
   <TransformYourSales />
   <WithOurSubscrip />
   <EasyIntegration />
@@ -20,6 +21,7 @@
 
 import Navbar from '../layouts/Navbar';
 import MainBanner from '../components/IndexPage/MainBanner';
+import Partner from '../components/Common/Partner';
 import TransformYourSales from '../components/IndexPage/TransformYourSales';
 import WithOurSubscrip from '../components/IndexPage/WithOurSubscrip';
 import EasyIntegration from '../components/IndexPage/EasyIntegration';
@@ -39,6 +41,7 @@ export default {
 components: {
     Navbar,
     MainBanner,
+    Partner,
     TransformYourSales,
     WithOurSubscrip,
     EasyIntegration,

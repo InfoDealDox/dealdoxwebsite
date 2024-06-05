@@ -8880,3 +8880,45 @@ ul.accordion.cpq {
   line-height: 1.2rem;
 }
 
+.single-clients-logo {
+  -ms-flex: 0 0 20%;
+  flex: 0 0 20%;
+  max-width: 20%;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 10px;
+}
+
+.clients-logo-list {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -5px;
+  margin-left: -5px;
+  margin-top: -10px;
+}
+.align-items-center {
+  align-items: center !important;
+}
+
+.single-clients-logo a {
+  text-align: center;
+  display: block;
+  background-color: #fff;
+  padding: 30px 20px;
+  transition: .5s;
+}
+a {
+  transition: .5s;
+  color: #080a3c;
+  text-decoration: none;
+  outline: 0 !important;
+}
+a {
+  color: var(--bs-link-color);
+  text-decoration: underline;
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+}
