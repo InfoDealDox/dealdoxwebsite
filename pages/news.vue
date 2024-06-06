@@ -5,7 +5,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-12 col-md-12">
                     <div class="new-app-main-banner-wrap-image">
-                        <img src="../assets/images/banner/ebook.png" alt="image">
+                        <img src="../assets/images/news-header-img.png" alt="image">
                     </div>
                 </div>
             </div>

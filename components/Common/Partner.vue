@@ -2,7 +2,10 @@
   <div class="partner-area">
     <div class="container">
       <div class="partner-title">
-        Industry-Preferred CPQ SaaS Solution at Your Fingertips
+        <div class="tb-30">
+          <NuxtLink to="/success-stories" required class="default-btn"><i class='bx bx-paper-plane'></i>
+            View all customers</NuxtLink>
+        </div>
       </div>
 
       <!-- <div class="partner-slides">

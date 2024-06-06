@@ -29,9 +29,9 @@
                                     {{ team.title }}
                                 </a>
                             </h3>
-                            <ul class="meta">
+                            <!-- <ul class="meta">
                                 <li><i class="ri-time-line"></i> {{ team.date }}</li>
-                            </ul>
+                            </ul> -->
                         </div>
                     </div>
                 </div>
