@@ -43,10 +43,7 @@ const _e2b4eff6 = () => interopDefault(import('..\\pages\\glossary-category-deta
 const _2050939e = () => interopDefault(import('..\\pages\\glossaryy\\_slug\\index.vue' /* webpackChunkName: "pages/glossaryy/_slug/index" */))
 const _4516a514 = () => interopDefault(import('..\\pages\\success-stories-category-details\\_slug\\index.vue' /* webpackChunkName: "pages/success-stories-category-details/_slug/index" */))
 const _4bc70aae = () => interopDefault(import('..\\pages\\success-story\\_slug\\index.vue' /* webpackChunkName: "pages/success-story/_slug/index" */))
-const _72855d0a = () => interopDefault(import('..\\pages\\glossary\\_slug\\account-based-sales.vue' /* webpackChunkName: "pages/glossary/_slug/account-based-sales" */))
 const _6b2dcd9b = () => interopDefault(import('..\\pages\\glossary\\_slug\\accrued-revenue.vue' /* webpackChunkName: "pages/glossary/_slug/accrued-revenue" */))
-const _37313a5a = () => interopDefault(import('..\\pages\\glossary\\_slug\\agile-billing.vue' /* webpackChunkName: "pages/glossary/_slug/agile-billing" */))
-const _7696e469 = () => interopDefault(import('..\\pages\\glossary\\_slug\\software-as-a-service-saa-s.vue' /* webpackChunkName: "pages/glossary/_slug/software-as-a-service-saa-s" */))
 const _598d2a66 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
@@ -217,21 +214,9 @@ export const routerOptions = {
     component: _4bc70aae,
     name: "success-story-slug"
   }, {
-    path: "/glossary/:slug?/account-based-sales",
-    component: _72855d0a,
-    name: "glossary-slug-account-based-sales"
-  }, {
     path: "/glossary/:slug?/accrued-revenue",
     component: _6b2dcd9b,
     name: "glossary-slug-accrued-revenue"
-  }, {
-    path: "/glossary/:slug?/agile-billing",
-    component: _37313a5a,
-    name: "glossary-slug-agile-billing"
-  }, {
-    path: "/glossary/:slug?/software-as-a-service-saa-s",
-    component: _7696e469,
-    name: "glossary-slug-software-as-a-service-saa-s"
   }, {
     path: "/",
     component: _598d2a66,

@@ -16,6 +16,54 @@
         </div>
         <!-- Header Imag End -->
 
+
+        <!--  Mobile Table Data -->
+        <div class="d-block d-md-none" id="faq-question">
+            <div class="faq-accordion">
+                <accordion class="home.glossary">
+                    <accordion-item>
+                        <template v-slot:accordion-trigger>
+                            <button class="accordion-title">
+                                Table of Contents
+                            </button>
+                        </template>
+                        <template v-slot:accordion-content>
+                            <div>
+                                <ul class="mobile">
+                                    <li class="ez-toc-page-1 active"><a class="ez-toc-link ez-toc-heading-1"
+                                            href="#Table-Tab-1">
+                                            Accrued Revenue</a>
+                                    </li>
+                                    <li class="ez-toc-page-1 active"><a class="ez-toc-link ez-toc-heading-2"
+                                            href="#Account-Based-Selling">
+                                            Terminologies</a>
+                                    </li>
+                                    <li class="ez-toc-page-1 active"><a class="ez-toc-link ez-toc-heading-3"
+                                            href="#the-account-based-selling-model">Accrued
+                                            Sales
+                                            and Cash Flow</a></li>
+                                    <li class="ez-toc-page-1 active"><a class="ez-toc-link ez-toc-heading-4"
+                                            href="#implementing-an-account-based-sales-process-absp">
+                                            Comparing Accrued Revenue and Deferred
+                                            Revenue</a>
+                                    </li>
+                                    <li class="ez-toc-page-1 active"><a class="ez-toc-link ez-toc-heading-5"
+                                            href="#criteria-for-account-based-selling">
+                                            Revenue Recognition Automation</a>
+                                    </li>
+                                    <li class="ez-toc-page-1 active" style="margin-bottom: 11px;"><a
+                                            class="ez-toc-link ez-toc-heading-11" href="#faqs">
+                                            Frequently asked questions</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </template>
+                    </accordion-item>
+                </accordion>
+            </div>
+        </div>
+        <!--  Mobile Table Data End -->
+
         <!-- Main Content with Tab -->
         <div class="blog-details-area ptb-75">
             <div class="container">
@@ -32,38 +80,36 @@
 
                                                 <nav>
                                                     <ul class="ez-toc-list ez-toc-list-level-1">
-                                                                    <li class="ez-toc-page-1 active"><a
-                                                                            class="ez-toc-link ez-toc-heading-1"
-                                                                            href="#account-based-sales">
-                                                                            Accrued Revenue</a>
-                                                                        </li>
-                                                                    <li class="ez-toc-page-1 active"><a
-                                                                            class="ez-toc-link ez-toc-heading-1"
-                                                                            href="#Account-Based-Selling">
-                                                                            Terminologies</a>
-                                                                    </li>
-                                                                    <li class="ez-toc-page-1 active"><a
-                                                                            class="ez-toc-link ez-toc-heading-1"
-                                                                            href="#the-account-based-selling-model">Accrued
-                                                                            Sales
-                                                                            and Cash Flow</a></li>
-                                                                    <li class="ez-toc-page-1 active"><a
-                                                                            class="ez-toc-link ez-toc-heading-1"
-                                                                            href="#implementing-an-account-based-sales-process-absp">
-                                                                            Comparing Accrued Revenue and Deferred Revenue</a>
-                                                                    </li>
-                                                                    <li class="ez-toc-page-1 active"><a
-                                                                            class="ez-toc-link ez-toc-heading-1"
-                                                                            href="#criteria-for-account-based-selling">
-                                                                            Revenue Recognition Automation</a>
-                                                                        </li>
-                                                                    <li class="ez-toc-page-1 active"
-                                                                        style="margin-bottom: 11px;"><a
-                                                                            class="ez-toc-link ez-toc-heading-1"
-                                                                            href="#faqs">
-                                                                            Frequently asked questions</a>
-                                                                        </li>
-                                                                </ul>
+                                                        <li class="ez-toc-page-1 active"><a
+                                                                class="ez-toc-link ez-toc-heading-1"
+                                                                href="#Table-Tab-1">
+                                                                Accrued Revenue</a>
+                                                        </li>
+                                                        <li class="ez-toc-page-1 active"><a
+                                                                class="ez-toc-link ez-toc-heading-1"
+                                                                href="#Table-Tab-2">
+                                                                Terminologies</a>
+                                                        </li>
+                                                        <li class="ez-toc-page-1 active"><a
+                                                                class="ez-toc-link ez-toc-heading-1"
+                                                                href="#Table-Tab-3">Accrued
+                                                                Sales and Cash Flow</a>
+                                                        </li>
+                                                        <li class="ez-toc-page-1 active"><a
+                                                                class="ez-toc-link ez-toc-heading-1"
+                                                                href="#Table-Tab-4">
+                                                                Comparing Accrued Revenue and Deferred Revenue</a>
+                                                        </li>
+                                                        <li class="ez-toc-page-1 active"><a
+                                                                class="ez-toc-link ez-toc-heading-1"
+                                                                href="#Table-Tab-5">
+                                                                Revenue Recognition Automation</a>
+                                                        </li>
+                                                        <li class="ez-toc-page-1 active" style="margin-bottom: 11px;"><a
+                                                                class="ez-toc-link ez-toc-heading-1" href="#faqs">
+                                                                Frequently asked questions</a>
+                                                        </li>
+                                                    </ul>
                                                 </nav>
                                             </div>
 
@@ -73,66 +119,12 @@
 
                                 <div class="single-glossary__content-right" data-sticky-container="">
                                     <div class="single-glossary__main-content">
-
-                                        <!--  Mobile Table Data -->
-                                        <div class="d-block d-md-none" id="faq-question">
-                                            <div class="faq-accordion">
-                                                <accordion class="home.glossary">
-                                                    <accordion-item>
-                                                        <template v-slot:accordion-trigger>
-                                                            <button class="accordion-title">
-                                                                Table of Contents
-                                                            </button>
-                                                        </template>
-                                                        <template v-slot:accordion-content>
-                                                            <div>
-                                                                <ul class="mobile">
-                                                                    <li class="ez-toc-page-1 active"><a
-                                                                            class="ez-toc-link ez-toc-heading-1"
-                                                                            href="#account-based-sales">
-                                                                            Accrued Revenue</a>
-                                                                        </li>
-                                                                    <li class="ez-toc-page-1 active"><a
-                                                                            class="ez-toc-link ez-toc-heading-2"
-                                                                            href="#Account-Based-Selling">
-                                                                            Terminologies</a>
-                                                                    </li>
-                                                                    <li class="ez-toc-page-1 active"><a
-                                                                            class="ez-toc-link ez-toc-heading-3"
-                                                                            href="#the-account-based-selling-model">Accrued
-                                                                            Sales
-                                                                            and Cash Flow</a></li>
-                                                                    <li class="ez-toc-page-1 active"><a
-                                                                            class="ez-toc-link ez-toc-heading-4"
-                                                                            href="#implementing-an-account-based-sales-process-absp">
-                                                                            Comparing Accrued Revenue and Deferred Revenue</a>
-                                                                    </li>
-                                                                    <li class="ez-toc-page-1 active"><a
-                                                                            class="ez-toc-link ez-toc-heading-5"
-                                                                            href="#criteria-for-account-based-selling">
-                                                                            Revenue Recognition Automation</a>
-                                                                        </li>
-                                                                    <li class="ez-toc-page-1 active"
-                                                                        style="margin-bottom: 11px;"><a
-                                                                            class="ez-toc-link ez-toc-heading-11"
-                                                                            href="#faqs">
-                                                                            Frequently asked questions</a>
-                                                                        </li>
-                                                                </ul>
-                                                            </div>
-                                                        </template>
-                                                    </accordion-item>
-                                                </accordion>
-                                            </div>
-                                        </div>
-                                        <!--  Mobile Table Data End -->
-
                                         <div
                                             class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-2 wp-block-columns-is-layout-flex">
                                             <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
 
                                                 <h2 class="wp-block-heading"><span class="ez-toc-section"
-                                                        id="account-based-sales"></span>Accrued
+                                                        id="Table-Tab-1"></span>Accrued
                                                     Revenue<span class="ez-toc-section-end"></span></h2>
 
                                                 <p>Accrued revenue refers to income that has been earned but not yet
@@ -149,7 +141,7 @@
                                                 </p>
 
                                                 <h2 class="wp-block-heading"><span class="ez-toc-section"
-                                                        id="Account-Based-Selling"></span>Terminologies<span
+                                                        id="Table-Tab-2"></span>Terminologies<span
                                                         class="ez-toc-section-end"></span></h2>
                                                 <ul>
                                                     <li><strong>Accrued sales</strong> refer to the revenue earned by a
@@ -173,13 +165,13 @@
                                                 <figure class="wp-block-image size-full">
                                                     <picture decoding="async" class="wp-image-9358">
                                                         <img decoding="async" width="1200" height="1124"
-                                                            alt="Accrued Revenue "
+                                                            alt="Accrued Revenue"
                                                             srcset="https://res.cloudinary.com/ds6j6gokv/image/upload/v1688107312/Accruved_Revenue_1_f0fc356fdb.png">
                                                     </picture>
                                                 </figure>
 
                                                 <h2 class="wp-block-heading"><span class="ez-toc-section"
-                                                        id="the-account-based-selling-model"></span>Accrued
+                                                        id="Table-Tab-3"></span>Accrued
                                                     Sales and
                                                     Cash Flow<span class="ez-toc-section-end"></span></h2>
 
@@ -198,12 +190,13 @@
                                                 </p>
 
                                                 <h2 class="wp-block-heading"><span class="ez-toc-section"
-                                                        id="implementing-an-account-based-sales-process-absp"></span>Comparing
+                                                        id="Table-Tab-4"></span>Comparing
                                                     Accrued Revenue and Deferred Revenue<span
-                                                        class="ez-toc-section-end"></span></h2>
+                                                        class="ez-toc-section-end"></span>
+                                                </h2>
 
 
-                                                        <!-- Text Backlink Code -->
+                                                <!-- Text Backlink Code -->
                                                 <!-- <p>Backlink
                                                     <a href="#" target="_blank" rel="noreferrer noopener">
                                                         Text Here
@@ -239,7 +232,7 @@
                                                 </figure>
 
                                                 <h3 class="wp-block-heading"><span class="ez-toc-section"
-                                                        id="criteria-for-account-based-selling"></span>Revenue
+                                                        id="Table-Tab-5"></span>Revenue
                                                     Recognition Automation<span class="ez-toc-section-end"></span></h3>
 
                                                 <p>Revenue recognition automation leverages business software to
