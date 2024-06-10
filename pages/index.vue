@@ -111,7 +111,7 @@ components: {
             "image": "https://www.dealdox.io/_nuxt/img/DDWebsite.3a3e832.png",
             "@id": "",
             "url": "https://www.dealdox.io/",
-            "telephone": "+91 8035376744",
+            "telephone": "08035376744",
             "priceRange": "30 day Free Trial",
             "address": {
               "@type": "PostalAddress",

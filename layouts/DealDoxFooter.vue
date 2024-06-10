@@ -147,7 +147,7 @@
                 <NuxtLink to="/success-stories" class="footer-content">Success Stories</NuxtLink>
               </li>
               <li>
-                <NuxtLink to="/glossary" class="footer-content">Glossary </NuxtLink>
+                <NuxtLink to="/glossaries" class="footer-content">Glossary </NuxtLink>
               </li>
             </ul>
           </div>
@@ -189,7 +189,7 @@
                 </p>
               </li>
               <li>
-                <a href="tel:+91 8035376744"> call us - +91 8035376744</a>
+                <a href="tel:08035376744"> Call us - 08035376744</a>
               </li>
             </ul>
           </div>
