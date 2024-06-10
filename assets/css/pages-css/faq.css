@@ -94,6 +94,11 @@
   padding-left: 0;
 }
 
+.faq-accordion .accordion .accordion__item .accordion__content ul .mobile {
+    padding-left: 18px;
+    margin-top: 20px;
+}
+
 .faq-accordion .accordion .accordion__item .accordion__content .accordion-body {
   padding: 20px 0 0;
 }

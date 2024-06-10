@@ -8116,6 +8116,11 @@ ul.accordion.home {
   padding-left: 40px;
 }
 
+ul.accordion.home.glossary {
+  margin-top: 0%;
+  padding-left: 0px;
+}
+
 .section-title-cpq {
   text-align: center;
   margin-top: -16%;
@@ -8490,11 +8495,11 @@ ul.accordion.cpq {
 
 .single-glossary__content-right ol,.single-glossary__content-right p,.single-glossary__content-right ul {
   font-size: 14px;
-  line-height: 1.75rem
+  line-height: 1.5
 }
 
 .single-glossary__content-right ol,.single-glossary__content-right ul {
-  margin: 44px 0;
+  margin: 0px 0;
   padding-left: 20px
 }
 
@@ -8578,7 +8583,7 @@ ul.accordion.cpq {
 
 .single-glossary__related .cmtt_related_title {
   font-weight: 600;
-  margin-bottom: 66px
+  margin-bottom: 30px
 }
 
 .single-glossary__related .cmtt_related {
@@ -8598,7 +8603,7 @@ ul.accordion.cpq {
 
 @media(max-width: 767.98px) {
   .single-glossary__related .cmtt_related_title {
-      margin-bottom:39px
+      margin-bottom:30px
   }
 
   .single-glossary__related .cmtt_related {

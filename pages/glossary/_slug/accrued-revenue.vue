@@ -29,36 +29,41 @@
                                             <h3 class="toc-block-title">Table of Contents</h3>
                                             <div id="ez-toc-container"
                                                 class="ez-toc-v2_0_51_1 counter-flat ez-toc-counter ez-toc-container-direction">
-                                                <div class="ez-toc-title-container">
-                                                    <span class="ez-toc-title-toggle"></span>
-                                                </div>
+
                                                 <nav>
-                                                    <ul class="ez-toc-list ez-toc-list-level-1 ">
-                                                        <li class="ez-toc-page-1"><a
-                                                                class="ez-toc-link ez-toc-heading-1"
-                                                                href="#account-based-sales"
-                                                                title="What is Account-Based Selling?">Accrued Revenue</a></li>
-                                                        <li class="ez-toc-page-1 active"><a
-                                                                class="ez-toc-link ez-toc-heading-2"
-                                                                href="#Account-Based-Selling"
-                                                                title="Account-Based Selling">Terminologies</a>
-                                                        </li>
-                                                        <li class="ez-toc-page-1"><a
-                                                                class="ez-toc-link ez-toc-heading-3"
-                                                                href="#the-account-based-selling-model"
-                                                                title="The Account-Based Selling Model">Accrued Sales and Cash Flow</a></li>
-                                                        <li class="ez-toc-page-1"><a
-                                                                class="ez-toc-link ez-toc-heading-4"
-                                                                href="#implementing-an-account-based-sales-process-absp"
-                                                                title="Implementing an Account-Based Sales Process (ABSP)">Comparing Accrued Revenue and Deferred Revenue</a></li>
-                                                        <li class="ez-toc-page-1"><a
-                                                                class="ez-toc-link ez-toc-heading-5"
-                                                                href="#criteria-for-account-based-selling"
-                                                                title="Criteria for Account-Based Selling">Revenue Recognition Automation</a></li>
-                                                        <li class="ez-toc-page-1" style="margin-bottom: 11px;"><a
-                                                                class="ez-toc-link ez-toc-heading-11"
-                                                                href="#people-also-ask" title="People Also Ask">Frequently asked questions</a></li>
-                                                    </ul>
+                                                    <ul class="ez-toc-list ez-toc-list-level-1">
+                                                                    <li class="ez-toc-page-1 active"><a
+                                                                            class="ez-toc-link ez-toc-heading-1"
+                                                                            href="#account-based-sales">
+                                                                            Accrued Revenue</a>
+                                                                        </li>
+                                                                    <li class="ez-toc-page-1 active"><a
+                                                                            class="ez-toc-link ez-toc-heading-1"
+                                                                            href="#Account-Based-Selling">
+                                                                            Terminologies</a>
+                                                                    </li>
+                                                                    <li class="ez-toc-page-1 active"><a
+                                                                            class="ez-toc-link ez-toc-heading-1"
+                                                                            href="#the-account-based-selling-model">Accrued
+                                                                            Sales
+                                                                            and Cash Flow</a></li>
+                                                                    <li class="ez-toc-page-1 active"><a
+                                                                            class="ez-toc-link ez-toc-heading-1"
+                                                                            href="#implementing-an-account-based-sales-process-absp">
+                                                                            Comparing Accrued Revenue and Deferred Revenue</a>
+                                                                    </li>
+                                                                    <li class="ez-toc-page-1 active"><a
+                                                                            class="ez-toc-link ez-toc-heading-1"
+                                                                            href="#criteria-for-account-based-selling">
+                                                                            Revenue Recognition Automation</a>
+                                                                        </li>
+                                                                    <li class="ez-toc-page-1 active"
+                                                                        style="margin-bottom: 11px;"><a
+                                                                            class="ez-toc-link ez-toc-heading-1"
+                                                                            href="#faqs">
+                                                                            Frequently asked questions</a>
+                                                                        </li>
+                                                                </ul>
                                                 </nav>
                                             </div>
 
@@ -67,133 +72,68 @@
                                 </div>
 
                                 <div class="single-glossary__content-right" data-sticky-container="">
-                                    <!-- <div class="dropdown dropdown_sticky" data-margin-top="75"
-                                        style="position: fixed; width: 0px; left: 0px; top: 75px;">
-                                        <a class="dropdown-toggle" href="javascript:void(0);" role="button"
-                                            id="tocMenuLink" data-toggle="dropdown" data-bs-toggle="dropdown">
-                                            Table of Contents
-                                            <svg width="15" height="8" viewBox="0 0 15 8" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                    d="M2.49588 0.446779C1.85649 -0.0799723 0.911139 0.0113416 0.384387 0.650735C-0.142365 1.29013 -0.0510505 2.23548 0.588343 2.76223L6.25334 7.42923C6.55058 7.6741 6.91393 7.7854 7.27061 7.77017C7.62729 7.7854 7.99064 7.6741 8.28787 7.42923L13.9529 2.76223C14.5923 2.23548 14.6836 1.29013 14.1568 0.650735C13.6301 0.0113416 12.6847 -0.0799723 12.0453 0.446779L7.27061 4.38035L2.49588 0.446779Z"
-                                                    fill="#716F72"></path>
-                                            </svg>
-                                        </a>
-
-                                        <div class="dropdown-menu active" aria-labelledby="tocMenuLink">
-                                            <span class="show_more" style="display: block;">Show more</span>
-                                            <span class="show_less">Show Less</span>
-                                            <a class="ez-toc-link ez-toc-heading-1"
-                                                href="#what-is-account-based-selling"
-                                                title="What is Account-Based Selling?">What is Account-Based
-                                                Selling?</a><a class="ez-toc-link ez-toc-heading-2" href="#synonyms"
-                                                title="Synonyms">Synonyms</a><a class="ez-toc-link ez-toc-heading-3"
-                                                href="#the-account-based-selling-model"
-                                                title="The Account-Based Selling Model">The Account-Based Selling
-                                                Model</a><a class="ez-toc-link ez-toc-heading-4"
-                                                href="#implementing-an-account-based-sales-process-absp"
-                                                title="Implementing an Account-Based Sales Process (ABSP)">Implementing
-                                                an
-                                                Account-Based Sales Process (ABSP)</a><a
-                                                class="ez-toc-link ez-toc-heading-5"
-                                                href="#criteria-for-account-based-selling"
-                                                title="Criteria for Account-Based Selling">Criteria for Account-Based
-                                                Selling</a><a class="ez-toc-link ez-toc-heading-6"
-                                                href="#implementing-account-based-sales-process"
-                                                title="Implementing Account-Based Sales Process">Implementing
-                                                Account-Based
-                                                Sales Process</a><a class="ez-toc-link ez-toc-heading-7"
-                                                href="#account-based-sales-kpis"
-                                                title="Account-Based Sales KPIs">Account-Based Sales KPIs</a><a
-                                                class="ez-toc-link ez-toc-heading-8"
-                                                href="#structuring-your-sales-team-for-account-based-sales"
-                                                title="Structuring Your Sales Team for Account-Based Sales">Structuring
-                                                Your
-                                                Sales Team for Account-Based Sales</a><a
-                                                class="ez-toc-link ez-toc-heading-9"
-                                                href="#how-to-use-content-in-account-based-selling"
-                                                title="How to Use Content in Account-Based Selling">How to Use Content
-                                                in
-                                                Account-Based Selling</a><a class="ez-toc-link ez-toc-heading-10"
-                                                href="#account-based-selling-platform"
-                                                title="Account-Based Selling Platform">Account-Based Selling
-                                                Platform</a><a class="ez-toc-link ez-toc-heading-11"
-                                                href="#people-also-ask" title="People Also Ask">People Also Ask</a>
-                                        </div>
-
-
-                                    </div> -->
                                     <div class="single-glossary__main-content">
+
+                                        <!--  Mobile Table Data -->
+                                        <div class="d-block d-md-none" id="faq-question">
+                                            <div class="faq-accordion">
+                                                <accordion class="home.glossary">
+                                                    <accordion-item>
+                                                        <template v-slot:accordion-trigger>
+                                                            <button class="accordion-title">
+                                                                Table of Contents
+                                                            </button>
+                                                        </template>
+                                                        <template v-slot:accordion-content>
+                                                            <div>
+                                                                <ul class="mobile">
+                                                                    <li class="ez-toc-page-1 active"><a
+                                                                            class="ez-toc-link ez-toc-heading-1"
+                                                                            href="#account-based-sales">
+                                                                            Accrued Revenue</a>
+                                                                        </li>
+                                                                    <li class="ez-toc-page-1 active"><a
+                                                                            class="ez-toc-link ez-toc-heading-2"
+                                                                            href="#Account-Based-Selling">
+                                                                            Terminologies</a>
+                                                                    </li>
+                                                                    <li class="ez-toc-page-1 active"><a
+                                                                            class="ez-toc-link ez-toc-heading-3"
+                                                                            href="#the-account-based-selling-model">Accrued
+                                                                            Sales
+                                                                            and Cash Flow</a></li>
+                                                                    <li class="ez-toc-page-1 active"><a
+                                                                            class="ez-toc-link ez-toc-heading-4"
+                                                                            href="#implementing-an-account-based-sales-process-absp">
+                                                                            Comparing Accrued Revenue and Deferred Revenue</a>
+                                                                    </li>
+                                                                    <li class="ez-toc-page-1 active"><a
+                                                                            class="ez-toc-link ez-toc-heading-5"
+                                                                            href="#criteria-for-account-based-selling">
+                                                                            Revenue Recognition Automation</a>
+                                                                        </li>
+                                                                    <li class="ez-toc-page-1 active"
+                                                                        style="margin-bottom: 11px;"><a
+                                                                            class="ez-toc-link ez-toc-heading-11"
+                                                                            href="#faqs">
+                                                                            Frequently asked questions</a>
+                                                                        </li>
+                                                                </ul>
+                                                            </div>
+                                                        </template>
+                                                    </accordion-item>
+                                                </accordion>
+                                            </div>
+                                        </div>
+                                        <!--  Mobile Table Data End -->
+
                                         <div
                                             class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-2 wp-block-columns-is-layout-flex">
                                             <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
-                                                <div id="ez-toc-container"
-                                                    class="ez-toc-v2_0_51_1 counter-flat ez-toc-counter ez-toc-container-direction">
-                                                    <div class="ez-toc-title-container">
-                                                        <span class="ez-toc-title-toggle"></span>
-                                                    </div>
-                                                    <nav>
-                                                        <ul class="ez-toc-list ez-toc-list-level-1 ">
-                                                            <li class="ez-toc-page-1"><a
-                                                                    class="ez-toc-link ez-toc-heading-1"
-                                                                    href="#what-is-account-based-selling"
-                                                                    title="What is Account-Based Selling?">What is
-                                                                    Account-Based Selling?</a></li>
-                                                            <li class="ez-toc-page-1"><a
-                                                                    class="ez-toc-link ez-toc-heading-2"
-                                                                    href="#synonyms" title="Synonyms">Synonyms</a></li>
-                                                            <li class="ez-toc-page-1"><a
-                                                                    class="ez-toc-link ez-toc-heading-3"
-                                                                    href="#the-account-based-selling-model"
-                                                                    title="The Account-Based Selling Model">The
-                                                                    Account-Based Selling Model</a></li>
-                                                            <li class="ez-toc-page-1"><a
-                                                                    class="ez-toc-link ez-toc-heading-4"
-                                                                    href="#implementing-an-account-based-sales-process-absp"
-                                                                    title="Implementing an Account-Based Sales Process (ABSP)">Implementing
-                                                                    an Account-Based Sales Process (ABSP)</a></li>
-                                                            <li class="ez-toc-page-1"><a
-                                                                    class="ez-toc-link ez-toc-heading-5"
-                                                                    href="#criteria-for-account-based-selling"
-                                                                    title="Criteria for Account-Based Selling">Criteria
-                                                                    for
-                                                                    Account-Based Selling</a></li>
-                                                            <li class="ez-toc-page-1"><a
-                                                                    class="ez-toc-link ez-toc-heading-6"
-                                                                    href="#implementing-account-based-sales-process"
-                                                                    title="Implementing Account-Based Sales Process">Implementing
-                                                                    Account-Based Sales Process</a></li>
-                                                            <li class="ez-toc-page-1"><a
-                                                                    class="ez-toc-link ez-toc-heading-7"
-                                                                    href="#account-based-sales-kpis"
-                                                                    title="Account-Based Sales KPIs">Account-Based Sales
-                                                                    KPIs</a></li>
-                                                            <li class="ez-toc-page-1"><a
-                                                                    class="ez-toc-link ez-toc-heading-8"
-                                                                    href="#structuring-your-sales-team-for-account-based-sales"
-                                                                    title="Structuring Your Sales Team for Account-Based Sales">Structuring
-                                                                    Your Sales Team for Account-Based Sales</a></li>
-                                                            <li class="ez-toc-page-1"><a
-                                                                    class="ez-toc-link ez-toc-heading-9"
-                                                                    href="#how-to-use-content-in-account-based-selling"
-                                                                    title="How to Use Content in Account-Based Selling">How
-                                                                    to Use Content in Account-Based Selling</a></li>
-                                                            <li class="ez-toc-page-1"><a
-                                                                    class="ez-toc-link ez-toc-heading-10"
-                                                                    href="#account-based-selling-platform"
-                                                                    title="Account-Based Selling Platform">Account-Based
-                                                                    Selling Platform</a></li>
-                                                            <li class="ez-toc-page-1"><a
-                                                                    class="ez-toc-link ez-toc-heading-11"
-                                                                    href="#people-also-ask"
-                                                                    title="People Also Ask">People
-                                                                    Also Ask</a></li>
-                                                        </ul>
-                                                    </nav>
-                                                </div>
+
                                                 <h2 class="wp-block-heading"><span class="ez-toc-section"
-                                                        id="account-based-sales"></span>Accrued Revenue<span
-                                                        class="ez-toc-section-end"></span></h2>
+                                                        id="account-based-sales"></span>Accrued
+                                                    Revenue<span class="ez-toc-section-end"></span></h2>
 
                                                 <p>Accrued revenue refers to income that has been earned but not yet
                                                     received. It is categorized as a current asset on the balance sheet,
@@ -239,7 +179,8 @@
                                                 </figure>
 
                                                 <h2 class="wp-block-heading"><span class="ez-toc-section"
-                                                        id="the-account-based-selling-model"></span>Accrued Sales and
+                                                        id="the-account-based-selling-model"></span>Accrued
+                                                    Sales and
                                                     Cash Flow<span class="ez-toc-section-end"></span></h2>
 
                                                 <p>Accrued revenue does not immediately affect cash flow. It is recorded
@@ -261,11 +202,14 @@
                                                     Accrued Revenue and Deferred Revenue<span
                                                         class="ez-toc-section-end"></span></h2>
 
+
+                                                        <!-- Text Backlink Code -->
                                                 <!-- <p>Backlink
                                                     <a href="#" target="_blank" rel="noreferrer noopener">
                                                         Text Here
                                                     </a>
                                                 </p> -->
+                                                <!-- Text Backlink Code -->
 
                                                 <p>Accrued sales and deferred sales are two vital concepts in financial
                                                     management that play distinct roles. While they share a connection,
@@ -330,14 +274,14 @@
                                     </div>
 
                                     <!--  FAQ's -->
-                                    <div class="single-glossary__related" id="faq-question">
+                                    <div class="single-glossary__related" id="faqs">
                                         <hr class="wp-block-separator">
                                         <div class="cmtt_related_articles_wrapper">
                                             <div class="cmtt_related_title cmtt_related_articles_title">Frequently asked
                                                 questions
                                             </div>
-                                            <div class="faq-accordion pt-150">
-                                                <accordion class="home">
+                                            <div class="faq-accordion">
+                                                <accordion class="home.glossary">
                                                     <accordion-item>
                                                         <template v-slot:accordion-trigger>
                                                             <button class="accordion-title">
@@ -467,7 +411,7 @@ export default {
         }
     },
     created: async function () {
-        const response = await axios.get('https://cms.dealdox.io/api/pages?filters[slug][$eq]=account-based-sales&populate=deep,5')
+        const response = await axios.get('https://cms.dealdox.io/api/pages?filters[slug][$eq]=accrued-revenue&populate=deep,5')
         const pageData = response.data.data?.length > 0 ? response.data.data[0] : {};
         if (pageData?.attributes?.seo?.length > 0) {
             this.seoData = pageData.attributes.seo[0];
