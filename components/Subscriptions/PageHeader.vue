@@ -1,5 +1,5 @@
 <template>
-    <div class="contact-page-header-form-app-download-area pt-70 bg-F7F7FF">
+    <div class="contact-page-header-form-app-download-area pb-80 bg-F7F7FF">
         <div class="container">
             <div class="contact-page-header-form-app-download-inner">
                 <div class="row align-items-center">
