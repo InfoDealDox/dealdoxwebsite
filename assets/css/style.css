@@ -8525,13 +8525,13 @@ ul.accordion.cpq {
   font-size: 1.875rem;
   font-weight: 500;
   line-height: 2.25rem;
-  margin: 44px 0;
+  margin: 15px 0;
   text-align: left
 }
 
 @media(max-width: 767.98px) {
   .single-glossary__content-container {
-      margin-top:36px;
+      margin-top:0px;
       padding-left: 0;
       padding-right: 0
   }
@@ -8555,7 +8555,7 @@ ul.accordion.cpq {
   .single-glossary__content-right h1,.single-glossary__content-right h2 {
       font-size: 1.5rem;
       line-height: 1.875rem;
-      margin: 48px 0 21px
+      margin: 15px 0 21px
   }
 }
 
