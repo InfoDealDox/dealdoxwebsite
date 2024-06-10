@@ -1,5 +1,5 @@
 <template>
-    <div class="features-area pt-500 tb-20 bg-FAFAFA">
+    <div class="features-area pb-80 tb-20 bg-FAFAFA">
         <div class="container">
             <div class="software-integrations-inner">
                 <div class="row align-items-center">

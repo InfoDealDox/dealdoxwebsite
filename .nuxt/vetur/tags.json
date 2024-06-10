@@ -1,22 +1,4 @@
 {
-  "AboutUsIAQSolutions": {
-    "description": "Auto imported from components/AboutUs/IAQSolutions.vue"
-  },
-  "AboutUsPageHeader": {
-    "description": "Auto imported from components/AboutUs/PageHeader.vue"
-  },
-  "AboutUsStats": {
-    "description": "Auto imported from components/AboutUs/Stats.vue"
-  },
-  "AuthenticationForgetPassword": {
-    "description": "Auto imported from components/Authentication/ForgetPassword.vue"
-  },
-  "AuthenticationSignIn": {
-    "description": "Auto imported from components/Authentication/SignIn.vue"
-  },
-  "AuthenticationSignUp": {
-    "description": "Auto imported from components/Authentication/SignUp.vue"
-  },
   "AutomatedQuotesGenerationAccelerateYourSales": {
     "description": "Auto imported from components/AutomatedQuotesGeneration/AccelerateYourSales.vue"
   },
@@ -35,17 +17,23 @@
   "AutomatedQuotesGenerationYourBusiness": {
     "description": "Auto imported from components/AutomatedQuotesGeneration/YourBusiness.vue"
   },
-  "BlogsBlog": {
-    "description": "Auto imported from components/blogs/Blog.vue"
+  "AuthenticationForgetPassword": {
+    "description": "Auto imported from components/Authentication/ForgetPassword.vue"
   },
-  "BlogsBlogDetails": {
-    "description": "Auto imported from components/blogs/BlogDetails.vue"
+  "AuthenticationSignIn": {
+    "description": "Auto imported from components/Authentication/SignIn.vue"
   },
-  "BlogsFeaturedBlogDetails": {
-    "description": "Auto imported from components/blogs/FeaturedBlogDetails.vue"
+  "AuthenticationSignUp": {
+    "description": "Auto imported from components/Authentication/SignUp.vue"
   },
-  "BlogsLatestBlog": {
-    "description": "Auto imported from components/blogs/LatestBlog.vue"
+  "AboutUsIAQSolutions": {
+    "description": "Auto imported from components/AboutUs/IAQSolutions.vue"
+  },
+  "AboutUsPageHeader": {
+    "description": "Auto imported from components/AboutUs/PageHeader.vue"
+  },
+  "AboutUsStats": {
+    "description": "Auto imported from components/AboutUs/Stats.vue"
   },
   "CategoriesDetails": {
     "description": "Auto imported from components/categories/categories-details.vue"
@@ -58,6 +46,18 @@
   },
   "CategoriesSuccessStoryCategoriesDetails": {
     "description": "Auto imported from components/categories/success-story-categories-details.vue"
+  },
+  "BlogsBlog": {
+    "description": "Auto imported from components/blogs/Blog.vue"
+  },
+  "BlogsBlogDetails": {
+    "description": "Auto imported from components/blogs/BlogDetails.vue"
+  },
+  "BlogsFeaturedBlogDetails": {
+    "description": "Auto imported from components/blogs/FeaturedBlogDetails.vue"
+  },
+  "BlogsLatestBlog": {
+    "description": "Auto imported from components/blogs/LatestBlog.vue"
   },
   "CommonAccordion": {
     "description": "Auto imported from components/Common/Accordion.vue"
@@ -107,29 +107,11 @@
   "CommonServicefaq": {
     "description": "Auto imported from components/Common/servicefaq.vue"
   },
-  "ContactUsPageHeader": {
-    "description": "Auto imported from components/ContactUs/PageHeader.vue"
-  },
   "CookiesCookie": {
     "description": "Auto imported from components/Cookies/Cookie.vue"
   },
-  "CPQFreeTrial": {
-    "description": "Auto imported from components/CPQ/FreeTrial.vue"
-  },
-  "CPQMainBannerCPQ": {
-    "description": "Auto imported from components/CPQ/MainBannerCPQ.vue"
-  },
-  "CPQQuickandAccurate": {
-    "description": "Auto imported from components/CPQ/QuickandAccurate.vue"
-  },
-  "CPQServicefaq": {
-    "description": "Auto imported from components/CPQ/servicefaq.vue"
-  },
-  "CPQTransformYourSales": {
-    "description": "Auto imported from components/CPQ/TransformYourSales.vue"
-  },
-  "CPQWhatisCPQService": {
-    "description": "Auto imported from components/CPQ/WhatisCPQService.vue"
+  "ContactUsPageHeader": {
+    "description": "Auto imported from components/ContactUs/PageHeader.vue"
   },
   "CPQIntegrationChallengesAndTrack": {
     "description": "Auto imported from components/CPQIntegration/ChallengesAndTrack.vue"
@@ -161,6 +143,33 @@
   "EbookMain": {
     "description": "Auto imported from components/EbookFolder/EbookMain.vue"
   },
+  "CPQFreeTrial": {
+    "description": "Auto imported from components/CPQ/FreeTrial.vue"
+  },
+  "CPQMainBannerCPQ": {
+    "description": "Auto imported from components/CPQ/MainBannerCPQ.vue"
+  },
+  "CPQQuickandAccurate": {
+    "description": "Auto imported from components/CPQ/QuickandAccurate.vue"
+  },
+  "CPQServicefaq": {
+    "description": "Auto imported from components/CPQ/servicefaq.vue"
+  },
+  "CPQTransformYourSales": {
+    "description": "Auto imported from components/CPQ/TransformYourSales.vue"
+  },
+  "CPQWhatisCPQService": {
+    "description": "Auto imported from components/CPQ/WhatisCPQService.vue"
+  },
+  "FreshworksHowLocalizedDeal": {
+    "description": "Auto imported from components/Freshworks/HowLocalizedDeal.vue"
+  },
+  "FreshworksKeyBenefitsof": {
+    "description": "Auto imported from components/Freshworks/KeyBenefitsof.vue"
+  },
+  "FreshworksMainBannerLoacalized": {
+    "description": "Auto imported from components/Freshworks/MainBannerLoacalized.vue"
+  },
   "GlossaryDetails": {
     "description": "Auto imported from components/GlossaryFolder/GlossaryDetails.vue"
   },
@@ -178,15 +187,6 @@
   },
   "HubSpotMainBannerLoacalized": {
     "description": "Auto imported from components/HubSpot/MainBannerLoacalized.vue"
-  },
-  "FreshworksHowLocalizedDeal": {
-    "description": "Auto imported from components/Freshworks/HowLocalizedDeal.vue"
-  },
-  "FreshworksKeyBenefitsof": {
-    "description": "Auto imported from components/Freshworks/KeyBenefitsof.vue"
-  },
-  "FreshworksMainBannerLoacalized": {
-    "description": "Auto imported from components/Freshworks/MainBannerLoacalized.vue"
   },
   "IndexPageAdditionalFeature": {
     "description": "Auto imported from components/IndexPage/AdditionalFeature.vue"
@@ -269,9 +269,6 @@
   "LoginpageSignUpHeader": {
     "description": "Auto imported from components/loginpage/SignUpHeader.vue"
   },
-  "MediaMain": {
-    "description": "Auto imported from components/MediaFolder/MediaMain.vue"
-  },
   "MicrosoftDynamicsHowLocalizedDeal": {
     "description": "Auto imported from components/Microsoft-Dynamics/HowLocalizedDeal.vue"
   },
@@ -280,6 +277,9 @@
   },
   "MicrosoftDynamicsMainBannerLoacalized": {
     "description": "Auto imported from components/Microsoft-Dynamics/MainBannerLoacalized.vue"
+  },
+  "MediaMain": {
+    "description": "Auto imported from components/MediaFolder/MediaMain.vue"
   },
   "PrivacyPolicy": {
     "description": "Auto imported from components/PrivacyPolicy/PrivacyPolicy.vue"
@@ -326,6 +326,15 @@
   "SubscriptionsPageHeader": {
     "description": "Auto imported from components/Subscriptions/PageHeader.vue"
   },
+  "SugarCRMHowLocalizedDeal": {
+    "description": "Auto imported from components/Sugar-CRM/HowLocalizedDeal.vue"
+  },
+  "SugarCRMKeyBenefitsof": {
+    "description": "Auto imported from components/Sugar-CRM/KeyBenefitsof.vue"
+  },
+  "SugarCRMMainBannerLoacalized": {
+    "description": "Auto imported from components/Sugar-CRM/MainBannerLoacalized.vue"
+  },
   "SuccessStories": {
     "description": "Auto imported from components/success-stories/SuccessStories.vue"
   },
@@ -338,22 +347,13 @@
   "SuccessStoriesSuccesStoryBannerPage": {
     "description": "Auto imported from components/success-stories/SuccesStoryBannerPage.vue"
   },
-  "SugarCRMHowLocalizedDeal": {
-    "description": "Auto imported from components/Sugar-CRM/HowLocalizedDeal.vue"
-  },
-  "SugarCRMKeyBenefitsof": {
-    "description": "Auto imported from components/Sugar-CRM/KeyBenefitsof.vue"
-  },
-  "SugarCRMMainBannerLoacalized": {
-    "description": "Auto imported from components/Sugar-CRM/MainBannerLoacalized.vue"
-  },
-  "TermsConditions": {
-    "description": "Auto imported from components/TermsConditions/TermsConditions.vue"
-  },
   "ThankYouPage": {
     "description": "Auto imported from components/ThankYou/ThankYouPage.vue"
   },
   "ThankYouTrackingImage": {
     "description": "Auto imported from components/ThankYou/TrackingImage.vue"
+  },
+  "TermsConditions": {
+    "description": "Auto imported from components/TermsConditions/TermsConditions.vue"
   }
 }
