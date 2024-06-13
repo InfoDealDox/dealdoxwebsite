@@ -2,340 +2,340 @@
   {
     "name": "App",
     "path": "/App",
-    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\App.js",
+    "component": "D:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\App.js",
     "chunkName": "pages/App",
     "url": "/App",
-    "_name": "_7388d931"
+    "_name": "_65327f50"
   },
   {
     "name": "approval-software",
     "path": "/approval-software",
-    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\approval-software.vue",
+    "component": "D:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\approval-software.vue",
     "chunkName": "pages/approval-software",
     "url": "/approval-software",
-    "_name": "_712ae464"
+    "_name": "_152a05cf"
   },
   {
     "name": "blogs",
     "path": "/blogs",
-    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\blogs.vue",
+    "component": "D:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\blogs.vue",
     "chunkName": "pages/blogs",
     "url": "/blogs",
-    "_name": "_e780af24"
+    "_name": "_197a59ef"
   },
   {
     "name": "coming-soon",
     "path": "/coming-soon",
-    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\coming-soon.vue",
+    "component": "D:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\coming-soon.vue",
     "chunkName": "pages/coming-soon",
     "url": "/coming-soon",
-    "_name": "_5dcadd64"
+    "_name": "_6e80aa25"
   },
   {
     "name": "contact-us",
     "path": "/contact-us",
-    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\contact-us.vue",
+    "component": "D:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\contact-us.vue",
     "chunkName": "pages/contact-us",
     "url": "/contact-us",
-    "_name": "_4ef0f344"
+    "_name": "_65749d7d"
   },
   {
     "name": "cookie-preference",
     "path": "/cookie-preference",
-    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\cookie-preference.vue",
+    "component": "D:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\cookie-preference.vue",
     "chunkName": "pages/cookie-preference",
     "url": "/cookie-preference",
-    "_name": "_008dfa41"
+    "_name": "_4e4d7242"
   },
   {
     "name": "cpq-integrations",
     "path": "/cpq-integrations",
-    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\cpq-integrations.vue",
+    "component": "D:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\cpq-integrations.vue",
     "chunkName": "pages/cpq-integrations",
     "url": "/cpq-integrations",
-    "_name": "_4ecba2db"
+    "_name": "_65a6b28c"
   },
   {
     "name": "demo",
     "path": "/demo",
-    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\demo.vue",
+    "component": "D:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\demo.vue",
     "chunkName": "pages/demo",
     "url": "/demo",
-    "_name": "_be13add4"
+    "_name": "_62627916"
   },
   {
     "name": "ebooks",
     "path": "/ebooks",
-    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\ebooks.vue",
+    "component": "D:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\ebooks.vue",
     "chunkName": "pages/ebooks",
     "url": "/ebooks",
-    "_name": "_a9c7ce50"
+    "_name": "_7590d112"
   },
   {
     "name": "ForgetPassword",
     "path": "/ForgetPassword",
-    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\ForgetPassword.vue",
+    "component": "D:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\ForgetPassword.vue",
     "chunkName": "pages/ForgetPassword",
     "url": "/ForgetPassword",
-    "_name": "_1b029abb"
+    "_name": "_a17deb4c"
   },
   {
     "name": "freshworks-cpq-integration",
     "path": "/freshworks-cpq-integration",
-    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\freshworks-cpq-integration.vue",
+    "component": "D:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\freshworks-cpq-integration.vue",
     "chunkName": "pages/freshworks-cpq-integration",
     "url": "/freshworks-cpq-integration",
-    "_name": "_4b20efe5"
+    "_name": "_6591e904"
   },
   {
     "name": "glossaries",
     "path": "/glossaries",
-    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\glossaries.vue",
+    "component": "D:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\glossaries.vue",
     "chunkName": "pages/glossaries",
     "url": "/glossaries",
-    "_name": "_f26cbca2"
+    "_name": "_13b6b8ce"
   },
   {
     "name": "hubspot-cpq-integration",
     "path": "/hubspot-cpq-integration",
-    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\hubspot-cpq-integration.vue",
+    "component": "D:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\hubspot-cpq-integration.vue",
     "chunkName": "pages/hubspot-cpq-integration",
     "url": "/hubspot-cpq-integration",
-    "_name": "_68376af2"
+    "_name": "_4b631e33"
   },
   {
     "name": "localized-deal-documents",
     "path": "/localized-deal-documents",
-    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\localized-deal-documents.vue",
+    "component": "D:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\localized-deal-documents.vue",
     "chunkName": "pages/localized-deal-documents",
     "url": "/localized-deal-documents",
-    "_name": "_2bf0bbdc"
-  },
-  {
-    "name": "media",
-    "path": "/media",
-    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\media.vue",
-    "chunkName": "pages/media",
-    "url": "/media",
-    "_name": "_5ee09c7e"
+    "_name": "_a3891e8a"
   },
   {
     "name": "microsoft-dynamics-365-cpq-integration",
     "path": "/microsoft-dynamics-365-cpq-integration",
-    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\microsoft-dynamics-365-cpq-integration.vue",
+    "component": "D:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\microsoft-dynamics-365-cpq-integration.vue",
     "chunkName": "pages/microsoft-dynamics-365-cpq-integration",
     "url": "/microsoft-dynamics-365-cpq-integration",
-    "_name": "_0a15d46e"
+    "_name": "_40965868"
+  },
+  {
+    "name": "news",
+    "path": "/news",
+    "component": "D:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\news.vue",
+    "chunkName": "pages/news",
+    "url": "/news",
+    "_name": "_22394f36"
   },
   {
     "name": "our-team",
     "path": "/our-team",
-    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\our-team.vue",
+    "component": "D:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\our-team.vue",
     "chunkName": "pages/our-team",
     "url": "/our-team",
-    "_name": "_6a566471"
+    "_name": "_6b8cb750"
   },
   {
     "name": "privacy-policy",
     "path": "/privacy-policy",
-    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\privacy-policy.vue",
+    "component": "D:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\privacy-policy.vue",
     "chunkName": "pages/privacy-policy",
     "url": "/privacy-policy",
-    "_name": "_470d2e8a"
+    "_name": "_4968c3ae"
   },
   {
     "name": "quoting-software",
     "path": "/quoting-software",
-    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\quoting-software.vue",
+    "component": "D:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\quoting-software.vue",
     "chunkName": "pages/quoting-software",
     "url": "/quoting-software",
-    "_name": "_61e1976e"
+    "_name": "_3f7ac966"
   },
   {
     "name": "salesforce-cpq-integration",
     "path": "/salesforce-cpq-integration",
-    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\salesforce-cpq-integration.vue",
+    "component": "D:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\salesforce-cpq-integration.vue",
     "chunkName": "pages/salesforce-cpq-integration",
     "url": "/salesforce-cpq-integration",
-    "_name": "_7175f6b0"
+    "_name": "_e8322062"
   },
   {
     "name": "security",
     "path": "/security",
-    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\security.vue",
+    "component": "D:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\security.vue",
     "chunkName": "pages/security",
     "url": "/security",
-    "_name": "_7aa1b31a"
+    "_name": "_78350d5c"
   },
   {
     "name": "services-cpq",
     "path": "/services-cpq",
-    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\services-cpq.vue",
+    "component": "D:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\services-cpq.vue",
     "chunkName": "pages/services-cpq",
     "url": "/services-cpq",
-    "_name": "_323f4ee8"
+    "_name": "_38431a47"
   },
   {
     "name": "sign-up-free-trial",
     "path": "/sign-up-free-trial",
-    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\sign-up-free-trial.vue",
+    "component": "D:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\sign-up-free-trial.vue",
     "chunkName": "pages/sign-up-free-trial",
     "url": "/sign-up-free-trial",
-    "_name": "_073bbcca"
+    "_name": "_716b44e9"
   },
   {
     "name": "SignIn",
     "path": "/SignIn",
-    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\SignIn.vue",
+    "component": "D:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\SignIn.vue",
     "chunkName": "pages/SignIn",
     "url": "/SignIn",
-    "_name": "_44d35e56"
+    "_name": "_109c6118"
   },
   {
     "name": "SignUp",
     "path": "/SignUp",
-    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\SignUp.vue",
+    "component": "D:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\SignUp.vue",
     "chunkName": "pages/SignUp",
     "url": "/SignUp",
-    "_name": "_1ba6b16a"
+    "_name": "_0c4825ea"
   },
   {
     "name": "subscriptions",
     "path": "/subscriptions",
-    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\subscriptions.vue",
+    "component": "D:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\subscriptions.vue",
     "chunkName": "pages/subscriptions",
     "url": "/subscriptions",
-    "_name": "_d323c25a"
+    "_name": "_50e3bf54"
   },
   {
     "name": "success-stories",
     "path": "/success-stories",
-    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\success-stories.vue",
+    "component": "D:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\success-stories.vue",
     "chunkName": "pages/success-stories",
     "url": "/success-stories",
-    "_name": "_b707b4b4"
+    "_name": "_cfe8ac32"
   },
   {
     "name": "sugarcrm-cpq-integration",
     "path": "/sugarcrm-cpq-integration",
-    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\sugarcrm-cpq-integration.vue",
+    "component": "D:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\sugarcrm-cpq-integration.vue",
     "chunkName": "pages/sugarcrm-cpq-integration",
     "url": "/sugarcrm-cpq-integration",
-    "_name": "_91b0ab0e"
+    "_name": "_39725f58"
   },
   {
     "name": "terms-of-use",
     "path": "/terms-of-use",
-    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\terms-of-use.vue",
+    "component": "D:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\terms-of-use.vue",
     "chunkName": "pages/terms-of-use",
     "url": "/terms-of-use",
-    "_name": "_55f315ca"
+    "_name": "_5bf6e129"
   },
   {
     "name": "thank-you",
     "path": "/thank-you",
-    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\thank-you.vue",
+    "component": "D:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\thank-you.vue",
     "chunkName": "pages/thank-you",
     "url": "/thank-you",
-    "_name": "_55931619"
+    "_name": "_7b271f1a"
   },
   {
     "name": "blog-slug",
     "path": "/blog/:slug",
-    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\blog\\\\_slug\\\\index.vue",
+    "component": "D:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\blog\\\\_slug\\\\index.vue",
     "chunkName": "pages/blog/_slug/index",
-    "_name": "_6d24d69d"
+    "_name": "_51574288"
   },
   {
     "name": "category-details-slug",
     "path": "/category-details/:slug",
-    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\category-details\\\\_slug\\\\index.vue",
+    "component": "D:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\category-details\\\\_slug\\\\index.vue",
     "chunkName": "pages/category-details/_slug/index",
-    "_name": "_77d7b8ae"
+    "_name": "_de4deb66"
   },
   {
     "name": "ebook-slug",
     "path": "/ebook/:slug",
-    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\ebook\\\\_slug\\\\index.vue",
+    "component": "D:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\ebook\\\\_slug\\\\index.vue",
     "chunkName": "pages/ebook/_slug/index",
-    "_name": "_3c583b1a"
+    "_name": "_84d54398"
   },
   {
     "name": "featured-blog-details-slug",
     "path": "/featured-blog-details/:slug",
-    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\featured-blog-details\\\\_slug\\\\index.vue",
+    "component": "D:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\featured-blog-details\\\\_slug\\\\index.vue",
     "chunkName": "pages/featured-blog-details/_slug/index",
-    "_name": "_dc5eb80a"
+    "_name": "_394c7dbc"
   },
   {
     "name": "featured-category-details-slug",
     "path": "/featured-category-details/:slug",
-    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\featured-category-details\\\\_slug\\\\index.vue",
+    "component": "D:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\featured-category-details\\\\_slug\\\\index.vue",
     "chunkName": "pages/featured-category-details/_slug/index",
-    "_name": "_6ec75457"
+    "_name": "_456334d0"
   },
   {
     "name": "glossary-category-details-slug",
     "path": "/glossary-category-details/:slug",
-    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\glossary-category-details\\\\_slug\\\\index.vue",
+    "component": "D:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\glossary-category-details\\\\_slug\\\\index.vue",
     "chunkName": "pages/glossary-category-details/_slug/index",
-    "_name": "_61a8a867"
+    "_name": "_5fa08cb0"
   },
   {
-    "name": "glossaryy-slug",
-    "path": "/glossaryy/:slug",
-    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\glossaryy\\\\_slug\\\\index.vue",
-    "chunkName": "pages/glossaryy/_slug/index",
-    "_name": "_3714b800"
+    "name": "glossary-slug",
+    "path": "/glossary/:slug",
+    "component": "D:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\glossary\\\\_slug\\\\index.vue",
+    "chunkName": "pages/glossary/_slug/index",
+    "_name": "_4aad4538"
   },
   {
     "name": "success-stories-category-details-slug",
     "path": "/success-stories-category-details/:slug",
-    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\success-stories-category-details\\\\_slug\\\\index.vue",
+    "component": "D:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\success-stories-category-details\\\\_slug\\\\index.vue",
     "chunkName": "pages/success-stories-category-details/_slug/index",
-    "_name": "_fafa9b1c"
+    "_name": "_5242e611"
   },
   {
     "name": "success-story-slug",
     "path": "/success-story/:slug",
-    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\success-story\\\\_slug\\\\index.vue",
+    "component": "D:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\success-story\\\\_slug\\\\index.vue",
     "chunkName": "pages/success-story/_slug/index",
-    "_name": "_613e2e10"
-  },
-  {
-    "name": "glossary-slug-account-based-sales",
-    "path": "/glossary/:slug?/account-based-sales",
-    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\glossary\\\\_slug\\\\account-based-sales.vue",
-    "chunkName": "pages/glossary/_slug/account-based-sales",
-    "_name": "_75badc59"
+    "_name": "_d6274e5e"
   },
   {
     "name": "glossary-slug-accrued-revenue",
     "path": "/glossary/:slug?/accrued-revenue",
-    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\glossary\\\\_slug\\\\accrued-revenue.vue",
+    "component": "D:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\glossary\\\\_slug\\\\accrued-revenue.vue",
     "chunkName": "pages/glossary/_slug/accrued-revenue",
-    "_name": "_ee21110e"
+    "_name": "_66e2dd58"
   },
   {
-    "name": "glossary-slug-agile-billing",
-    "path": "/glossary/:slug?/agile-billing",
-    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\glossary\\\\_slug\\\\agile-billing.vue",
-    "chunkName": "pages/glossary/_slug/agile-billing",
-    "_name": "_50b4279e"
+    "name": "glossary1-slug-accrued-revenue",
+    "path": "/glossary1/:slug?/accrued-revenue",
+    "component": "D:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\glossary1\\\\_slug\\\\accrued-revenue.vue",
+    "chunkName": "pages/glossary1/_slug/accrued-revenue",
+    "_name": "_aa5ef04e"
   },
   {
-    "name": "glossary-slug-software-as-a-service-saa-s",
-    "path": "/glossary/:slug?/software-as-a-service-saa-s",
-    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\glossary\\\\_slug\\\\software-as-a-service-saa-s.vue",
-    "chunkName": "pages/glossary/_slug/software-as-a-service-saa-s",
-    "_name": "_4fc2b147"
+    "name": "glossary1-slug-agile-billing",
+    "path": "/glossary1/:slug?/agile-billing",
+    "component": "D:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\glossary1\\\\_slug\\\\agile-billing.vue",
+    "chunkName": "pages/glossary1/_slug/agile-billing",
+    "_name": "_8560d6de"
+  },
+  {
+    "name": "glossary1-slug-annual-contract-value",
+    "path": "/glossary1/:slug?/annual-contract-value",
+    "component": "D:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\glossary1\\\\_slug\\\\annual-contract-value.vue",
+    "chunkName": "pages/glossary1/_slug/annual-contract-value",
+    "_name": "_6f6ee06a"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\index.vue",
+    "component": "D:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
     "url": "/",
-    "_name": "_20d943af"
+    "_name": "_a3d815a0"
   }
 ]

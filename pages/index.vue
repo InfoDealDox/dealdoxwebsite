@@ -2,6 +2,7 @@
   <div>
   <Navbar class="navbar-style-two"/>
   <MainBanner />
+  <Partner />
   <TransformYourSales />
   <WithOurSubscrip />
   <EasyIntegration />
@@ -10,7 +11,7 @@
   <EasyCPQ />
   <AdditionalFeature />
   <AutomatedQuotes />
-  <GetInTouch />
+  <!-- <GetInTouch /> -->
   <Faq />
   <DealDoxFooter/>
 </div>
@@ -20,6 +21,7 @@
 
 import Navbar from '../layouts/Navbar';
 import MainBanner from '../components/IndexPage/MainBanner';
+import Partner from '../components/Common/Partner';
 import TransformYourSales from '../components/IndexPage/TransformYourSales';
 import WithOurSubscrip from '../components/IndexPage/WithOurSubscrip';
 import EasyIntegration from '../components/IndexPage/EasyIntegration';
@@ -28,7 +30,7 @@ import ImproveSales from '../components/IndexPage/ImproveSales';
 import EasyCPQ from '../components/IndexPage/EasyCPQ';
 import AdditionalFeature from '../components/IndexPage/AdditionalFeature';
 import AutomatedQuotes from '../components/IndexPage/AutomatedQuotes';
-import GetInTouch from '../components/IndexPage/GetInTouch';
+// import GetInTouch from '../components/IndexPage/GetInTouch';
 import Faq from '../components/Common/Faq';
 import DealDoxFooter from '../layouts/DealDoxFooter';
 import axios from 'axios';
@@ -39,6 +41,7 @@ export default {
 components: {
     Navbar,
     MainBanner,
+    Partner,
     TransformYourSales,
     WithOurSubscrip,
     EasyIntegration,
@@ -47,7 +50,7 @@ components: {
     EasyCPQ,
     AdditionalFeature,
     AutomatedQuotes,
-    GetInTouch,
+    // GetInTouch,
     Faq,
     DealDoxFooter,
   },
@@ -108,7 +111,7 @@ components: {
             "image": "https://www.dealdox.io/_nuxt/img/DDWebsite.3a3e832.png",
             "@id": "",
             "url": "https://www.dealdox.io/",
-            "telephone": "+91 8431995645",
+            "telephone": "08035376744",
             "priceRange": "30 day Free Trial",
             "address": {
               "@type": "PostalAddress",

@@ -1,11 +1,11 @@
 <template>
-    <div class="contact-page-header-form-app-download-area pt-70 bg-F7F7FF">
+    <div class="contact-page-header-form-app-download-area pb-80 bg-F7F7FF">
         <div class="container">
             <div class="contact-page-header-form-app-download-inner">
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-12">
                         <div class="software-integrations-inner bg-gradient-color">
-                            <div class="features-content-improve-sales">
+                            <div class="features-content-improve-sales pt-70">
                                 <h4> Start Your Free Onboarding Now!!</h4>
                                 <p>No credit card or software installation is required. </p>
                                 <h6> With Advanced Quoting Solution, Beyond Invoicing you can benefit from: </h6>

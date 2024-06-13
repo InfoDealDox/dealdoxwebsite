@@ -1,5 +1,5 @@
 <template>
-    <div class="key-features-area bg-FAFAFA pt-70">
+    <div class="key-features-area bg-FAFAFA pt-500">
         <div class="container">
             <div class="section-title-pages-full">
                 <div class="new-app-main-banner-wrap-content-full tb-20">
@@ -9,7 +9,7 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
-                    <div class="key-features-card bg-color-two" style="height:300px">
+                    <div class="key-features-card bg-color-two" style="height:360px">
                         <h3>Enhanced Clarity</h3>
                         <p class="text-left"> By providing localized versions of deal documents, businesses can ensure that
                             all
@@ -20,7 +20,7 @@
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
-                    <div class="key-features-card bg-color-two" style="height:300px">
+                    <div class="key-features-card bg-color-two" style="height:360px">
                         <!-- <div class="icon bg2">
                             <i class="ri-stack-line"></i>
                         </div> -->
@@ -33,7 +33,7 @@
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
-                    <div class="key-features-card bg-color-two" style="height:300px">
+                    <div class="key-features-card bg-color-two" style="height:360px">
                         <h3>Improved Efficiency</h3>
                         <p class="text-left">With regionally customed agreements, businesses no longer need to rely on
                             external translation services or spend valuable time manually translating documents. The feature
@@ -45,7 +45,7 @@
 
             <div class="row justify-content-center">
                 <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
-                    <div class="key-features-card bg-color-two" style="height:390px">
+                    <div class="key-features-card bg-color-two" style="height:450px">
                         <h3>Increased Conversion Rates</h3>
                         <p class="text-left">Geographically customized automated quotations can significantly improve
                             conversion rates. When potential customers receive quotes that are specifically tailored to
@@ -56,7 +56,7 @@
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
-                    <div class="key-features-card bg-color-two" style="height:390px">
+                    <div class="key-features-card bg-color-two" style="height:450px">
                         <h3>Customization Options</h3>
                         <p class="text-left">The feature allows businesses to customize the layout and formatting of their
                             deal documents, ensuring consistency and brand identity across languages. Companies can also
@@ -66,7 +66,7 @@
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
-                    <div class="key-features-card bg-color-two" style="height:390px">
+                    <div class="key-features-card bg-color-two" style="height:450px">
                         <h3>Market Expansion Enablement</h3>
                         <p class="text-left">Non-english <a href="https://www.dealdox.io/services-cpq">cpq for services</a>
                             help businesses adapt to local pricing norms,

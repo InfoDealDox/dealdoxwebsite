@@ -16,8 +16,12 @@
         </div>
         <!-- Header Imag End -->
 
-
-        <!--  Mobile Table Data -->
+        <!-- Main Content with Tab -->
+        <div class="blog-details-area ptb-75">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                                <!--  Mobile Table Data -->
         <div class="d-block d-md-none" id="faq-question">
             <div class="faq-accordion">
                 <accordion class="home.glossary">
@@ -34,25 +38,24 @@
                                             href="#Table-Tab-1">
                                             Accrued Revenue</a>
                                     </li>
-                                    <li class="ez-toc-page-1 active"><a class="ez-toc-link ez-toc-heading-2"
-                                            href="#Account-Based-Selling">
+                                    <li class="ez-toc-page-1 active"><a class="ez-toc-link ez-toc-heading-1"
+                                            href="#Table-Tab-2">
                                             Terminologies</a>
                                     </li>
-                                    <li class="ez-toc-page-1 active"><a class="ez-toc-link ez-toc-heading-3"
-                                            href="#the-account-based-selling-model">Accrued
-                                            Sales
-                                            and Cash Flow</a></li>
-                                    <li class="ez-toc-page-1 active"><a class="ez-toc-link ez-toc-heading-4"
-                                            href="#implementing-an-account-based-sales-process-absp">
-                                            Comparing Accrued Revenue and Deferred
-                                            Revenue</a>
+                                    <li class="ez-toc-page-1 active"><a class="ez-toc-link ez-toc-heading-1"
+                                            href="#Table-Tab-3">Accrued
+                                            Sales and Cash Flow</a>
                                     </li>
-                                    <li class="ez-toc-page-1 active"><a class="ez-toc-link ez-toc-heading-5"
-                                            href="#criteria-for-account-based-selling">
+                                    <li class="ez-toc-page-1 active"><a class="ez-toc-link ez-toc-heading-1"
+                                            href="#Table-Tab-4">
+                                            Comparing Accrued Revenue and Deferred Revenue</a>
+                                    </li>
+                                    <li class="ez-toc-page-1 active"><a class="ez-toc-link ez-toc-heading-1"
+                                            href="#Table-Tab-5">
                                             Revenue Recognition Automation</a>
                                     </li>
                                     <li class="ez-toc-page-1 active" style="margin-bottom: 11px;"><a
-                                            class="ez-toc-link ez-toc-heading-11" href="#faqs">
+                                            class="ez-toc-link ez-toc-heading-1" href="#faqs">
                                             Frequently asked questions</a>
                                     </li>
                                 </ul>
@@ -63,12 +66,6 @@
             </div>
         </div>
         <!--  Mobile Table Data End -->
-
-        <!-- Main Content with Tab -->
-        <div class="blog-details-area ptb-75">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12">
                         <div class="container single-glossary__content-container mb-5">
                             <div class="row" data-sticky-container="">
                                 <div class="single-glossary__content-left pr-0">

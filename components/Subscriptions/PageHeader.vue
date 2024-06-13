@@ -1,11 +1,11 @@
 <template>
-    <div class="contact-page-header-form-app-download-area pt-70 bg-F7F7FF">
+    <div class="contact-page-header-form-app-download-area pb-80 bg-F7F7FF">
         <div class="container">
             <div class="contact-page-header-form-app-download-inner">
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-12">
                         <div class="software-integrations-inner bg-gradient-color">
-                            <div class="features-content-improve-sales">
+                            <div class="features-content-improve-sales pt-70">
                                 <!-- <h2>Generate your quotes in <span class="sub-title">2 seconds.</span></h2>
                                 <p>Dealdox speeds up contract consent with AI-powered quotes. Streamline sales, automate</p> -->
                                 <h4> Start Your Free Onboarding Now! </h4>

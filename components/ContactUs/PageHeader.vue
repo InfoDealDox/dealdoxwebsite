@@ -1,11 +1,11 @@
 <template>
-    <div class="contact-page-header-form-app-download-area pt-70 bg-F7F7FF">
+    <div class="contact-page-header-form-app-download-area pb-80 bg-F7F7FF">
         <div class="container">
             <div class="contact-page-header-form-app-download-inner">
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-12">
                         <div class="software-integrations-inner bg-gradient-color">
-                            <div class="features-content-improve-sales">
+                            <div class="features-content-improve-sales pt-70">
                                 <h2>Start Your Free Onboarding Now!</h2>
                                 <h6>No credit card or software installation is required.</h6>
                                 <h5>With <strong> <a href="https://www.dealdox.io"> Advanced Quoting Solution</a>
@@ -61,7 +61,7 @@
                                                     local language,</a> regardless of your country.
                                             </h6>
                                         </li>
-                                        <h5>Question? Talk to an expert: <a href="tel:+91 8431995645">+91 8431995645</a>
+                                        <h5>Question? Talk to an expert: <a href="tel:08035376744">08035376744</a>
                                         </h5>
                                     </ul>
                                 </div>

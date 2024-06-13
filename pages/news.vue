@@ -5,7 +5,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-12 col-md-12">
                     <div class="new-app-main-banner-wrap-image">
-                        <img src="../assets/images/banner/ebook.png" alt="image">
+                        <img src="../assets/images/news-header-img.png" alt="image">
                     </div>
                 </div>
             </div>
@@ -43,7 +43,7 @@ export default {
         }
     },
     created: async function () {
-        const response = await axios.get('https://cms.dealdox.io/api/pages?filters[slug][$eq]=media&populate=deep,5')
+        const response = await axios.get('https://cms.dealdox.io/api/pages?filters[slug][$eq]=news&populate=deep,5')
         const pageData = response.data.data?.length > 0 ? response.data.data[0] : {};
         if (pageData?.attributes?.seo?.length > 0) {
             this.seoData = pageData.attributes.seo[0];

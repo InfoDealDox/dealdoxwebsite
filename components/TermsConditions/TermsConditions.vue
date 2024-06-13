@@ -1,5 +1,5 @@
 <template>
-    <div class="privacy-policy-area ptb-100">
+    <div class="privacy-policy-area pt-70">
         <div class="container">
             <div class="privacy-policy-content">
                 <h6>Terms of Use</h6>

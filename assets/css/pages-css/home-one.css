@@ -209,11 +209,11 @@ Features Area CSS
 .single-features-box {
   -webkit-transition: var(--transition);
   transition: var(--transition);
-  background-color: #ddeaf9;
+  background-color: #f7f7ff;
   margin-bottom: 25px;
   text-align: center;
   border-radius: 20px;
-  padding: 40px 12px 41px 10px;
+  padding: 15px 0px 15px 0px;
 }
 
 .single-features-box .icon {
@@ -336,7 +336,7 @@ Features Area CSS
   padding-left: 0;
   list-style-type: none;
   margin-bottom: 0;
-  margin-top: 25px;
+  /* margin-top: 25px; */
 }
 
 .features-content .features-list li {
@@ -1395,7 +1395,7 @@ Software Integrations Area CSS
 .software-integrations-list {
   margin-left: 15px;
   position: relative;
-  margin-top: 35px;
+  /* margin-top: 35px; */
 }
 
 .software-integrations-list ul {

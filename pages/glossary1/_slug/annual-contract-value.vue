@@ -16,59 +16,57 @@
         </div>
         <!-- Header Imag End -->
 
-
-        <!--  Mobile Table Data -->
-        <div class="d-block d-md-none" id="faq-question">
-            <div class="faq-accordion">
-                <accordion class="home.glossary">
-                    <accordion-item>
-                        <template v-slot:accordion-trigger>
-                            <button class="accordion-title">
-                                Table of Contents
-                            </button>
-                        </template>
-                        <template v-slot:accordion-content>
-                            <div>
-                                <ul class="mobile">
-                                    <li class="ez-toc-page-1 active"><a class="ez-toc-link ez-toc-heading-1"
-                                            href="#Table-Tab-1">
-                                            Accrued Revenue</a>
-                                    </li>
-                                    <li class="ez-toc-page-1 active"><a class="ez-toc-link ez-toc-heading-2"
-                                            href="#Account-Based-Selling">
-                                            Terminologies</a>
-                                    </li>
-                                    <li class="ez-toc-page-1 active"><a class="ez-toc-link ez-toc-heading-3"
-                                            href="#the-account-based-selling-model">Accrued
-                                            Sales
-                                            and Cash Flow</a></li>
-                                    <li class="ez-toc-page-1 active"><a class="ez-toc-link ez-toc-heading-4"
-                                            href="#implementing-an-account-based-sales-process-absp">
-                                            Comparing Accrued Revenue and Deferred
-                                            Revenue</a>
-                                    </li>
-                                    <li class="ez-toc-page-1 active"><a class="ez-toc-link ez-toc-heading-5"
-                                            href="#criteria-for-account-based-selling">
-                                            Revenue Recognition Automation</a>
-                                    </li>
-                                    <li class="ez-toc-page-1 active" style="margin-bottom: 11px;"><a
-                                            class="ez-toc-link ez-toc-heading-11" href="#faqs">
-                                            Frequently asked questions</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </template>
-                    </accordion-item>
-                </accordion>
-            </div>
-        </div>
-        <!--  Mobile Table Data End -->
-
         <!-- Main Content with Tab -->
         <div class="blog-details-area ptb-75">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12">
+                        <!--  Mobile Table Data -->
+                        <div class="d-block d-md-none" id="faq-question">
+                            <div class="faq-accordion">
+                                <accordion class="home.glossary">
+                                    <accordion-item>
+                                        <template v-slot:accordion-trigger>
+                                            <button class="accordion-title">
+                                                Table of Contents
+                                            </button>
+                                        </template>
+                                        <template v-slot:accordion-content>
+                                            <div>
+                                                <ul class="mobile">
+                                                    <li class="ez-toc-page-1 active"><a
+                                                            class="ez-toc-link ez-toc-heading-1" href="#Table-Tab-1">
+                                                            Accrued Revenue</a>
+                                                    </li>
+                                                    <li class="ez-toc-page-1 active"><a
+                                                            class="ez-toc-link ez-toc-heading-1" href="#Table-Tab-2">
+                                                            Terminologies</a>
+                                                    </li>
+                                                    <li class="ez-toc-page-1 active"><a
+                                                            class="ez-toc-link ez-toc-heading-1"
+                                                            href="#Table-Tab-3">Accrued
+                                                            Sales and Cash Flow</a>
+                                                    </li>
+                                                    <li class="ez-toc-page-1 active"><a
+                                                            class="ez-toc-link ez-toc-heading-1" href="#Table-Tab-4">
+                                                            Comparing Accrued Revenue and Deferred Revenue</a>
+                                                    </li>
+                                                    <li class="ez-toc-page-1 active"><a
+                                                            class="ez-toc-link ez-toc-heading-1" href="#Table-Tab-5">
+                                                            Revenue Recognition Automation</a>
+                                                    </li>
+                                                    <li class="ez-toc-page-1 active" style="margin-bottom: 11px;"><a
+                                                            class="ez-toc-link ez-toc-heading-1" href="#faqs">
+                                                            Frequently asked questions</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </template>
+                                    </accordion-item>
+                                </accordion>
+                            </div>
+                        </div>
+                        <!--  Mobile Table Data End -->
                         <div class="container single-glossary__content-container mb-5">
                             <div class="row" data-sticky-container="">
                                 <div class="single-glossary__content-left pr-0">
@@ -77,13 +75,13 @@
                                             <h3 class="toc-block-title">Table of Contents</h3>
                                             <div id="ez-toc-container"
                                                 class="ez-toc-v2_0_51_1 counter-flat ez-toc-counter ez-toc-container-direction">
-
+                                                <!--  Desktop Table Data -->
                                                 <nav>
                                                     <ul class="ez-toc-list ez-toc-list-level-1">
                                                         <li class="ez-toc-page-1 active"><a
                                                                 class="ez-toc-link ez-toc-heading-1"
                                                                 href="#Table-Tab-1">
-                                                                Accrued Revenue</a>
+                                                                Annual Contract Value</a>
                                                         </li>
                                                         <li class="ez-toc-page-1 active"><a
                                                                 class="ez-toc-link ez-toc-heading-1"
@@ -112,32 +110,24 @@
                                                     </ul>
                                                 </nav>
                                             </div>
-
+                                            <!--  Desktop Table Data End -->
                                         </div>
                                     </div>
                                 </div>
 
                                 <div class="single-glossary__content-right" data-sticky-container="">
                                     <div class="single-glossary__main-content">
+                                        <!--  HTML Content Data -->
                                         <div
                                             class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-2 wp-block-columns-is-layout-flex">
                                             <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
-
                                                 <h2 class="wp-block-heading"><span class="ez-toc-section"
-                                                        id="Table-Tab-1"></span>Accrued
-                                                    Revenue<span class="ez-toc-section-end"></span></h2>
-
-                                                <p>Accrued revenue refers to income that has been earned but not yet
-                                                    received. It is categorized as a current asset on the balance sheet,
-                                                    assuming that the company will receive it in the near future,
-                                                    typically within one year. This practice aligns with Generally
-                                                    Accepted Accounting Principles (GAAP) and enables investors to gain
-                                                    a clearer insight into the company's financial well-being.
-                                                    <br>
-                                                    Businesses can guarantee the accuracy of their financial records and
-                                                    provide investors with transparent information regarding the
-                                                    company's performance by appropriately accounting for accrued
-                                                    revenues.
+                                                        id="Table-Tab-1"></span>Annual Contract Value<span class="ez-toc-section-end"></span></h2>
+                                                <p>ACV, or Annual Contract Value, serves as a comprehensive indicator of the total worth of a customer's contract throughout a year. This encompasses both recurring payments and one-time transactions.
+<br>
+SaaS (Software-as-a-Service) companies commonly employ this metric to evaluate the financial well-being of their business. Annual Contract Value provides a transparent view of the annual revenue generated by each customer, facilitating a deeper understanding of their contribution.
+<br>
+Furthermore, ACV allows for meaningful comparisons between various customers or contracts, as it establishes a standardized approach to measuring value.
                                                 </p>
 
                                                 <h2 class="wp-block-heading"><span class="ez-toc-section"
@@ -264,6 +254,7 @@
                                                 </p>
                                             </div>
                                         </div>
+                                        <!--  HTML Content Data end -->
                                     </div>
 
                                     <!--  FAQ's -->
@@ -367,7 +358,6 @@
                                         </div>
                                     </div>
                                     <!--  FAQ's End -->
-
                                 </div>
                             </div>
                         </div>
