@@ -2,296 +2,340 @@
   {
     "name": "App",
     "path": "/App",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\30.05.24\\\\dealdoxwebsite\\\\pages\\\\App.js",
+    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\App.js",
     "chunkName": "pages/App",
-    "url": "/App"
+    "url": "/App",
+    "_name": "_7388d931"
   },
   {
     "name": "approval-software",
     "path": "/approval-software",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\30.05.24\\\\dealdoxwebsite\\\\pages\\\\approval-software.vue",
+    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\approval-software.vue",
     "chunkName": "pages/approval-software",
-    "url": "/approval-software"
+    "url": "/approval-software",
+    "_name": "_712ae464"
   },
   {
     "name": "blogs",
     "path": "/blogs",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\30.05.24\\\\dealdoxwebsite\\\\pages\\\\blogs.vue",
+    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\blogs.vue",
     "chunkName": "pages/blogs",
-    "url": "/blogs"
+    "url": "/blogs",
+    "_name": "_e780af24"
   },
   {
     "name": "coming-soon",
     "path": "/coming-soon",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\30.05.24\\\\dealdoxwebsite\\\\pages\\\\coming-soon.vue",
+    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\coming-soon.vue",
     "chunkName": "pages/coming-soon",
-    "url": "/coming-soon"
+    "url": "/coming-soon",
+    "_name": "_5dcadd64"
   },
   {
     "name": "contact-us",
     "path": "/contact-us",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\30.05.24\\\\dealdoxwebsite\\\\pages\\\\contact-us.vue",
+    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\contact-us.vue",
     "chunkName": "pages/contact-us",
-    "url": "/contact-us"
+    "url": "/contact-us",
+    "_name": "_4ef0f344"
   },
   {
     "name": "cookie-preference",
     "path": "/cookie-preference",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\30.05.24\\\\dealdoxwebsite\\\\pages\\\\cookie-preference.vue",
+    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\cookie-preference.vue",
     "chunkName": "pages/cookie-preference",
-    "url": "/cookie-preference"
+    "url": "/cookie-preference",
+    "_name": "_008dfa41"
   },
   {
     "name": "cpq-integrations",
     "path": "/cpq-integrations",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\30.05.24\\\\dealdoxwebsite\\\\pages\\\\cpq-integrations.vue",
+    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\cpq-integrations.vue",
     "chunkName": "pages/cpq-integrations",
-    "url": "/cpq-integrations"
+    "url": "/cpq-integrations",
+    "_name": "_4ecba2db"
   },
   {
     "name": "demo",
     "path": "/demo",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\30.05.24\\\\dealdoxwebsite\\\\pages\\\\demo.vue",
+    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\demo.vue",
     "chunkName": "pages/demo",
-    "url": "/demo"
+    "url": "/demo",
+    "_name": "_be13add4"
   },
   {
     "name": "ebooks",
     "path": "/ebooks",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\30.05.24\\\\dealdoxwebsite\\\\pages\\\\ebooks.vue",
+    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\ebooks.vue",
     "chunkName": "pages/ebooks",
-    "url": "/ebooks"
+    "url": "/ebooks",
+    "_name": "_a9c7ce50"
   },
   {
     "name": "ForgetPassword",
     "path": "/ForgetPassword",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\30.05.24\\\\dealdoxwebsite\\\\pages\\\\ForgetPassword.vue",
+    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\ForgetPassword.vue",
     "chunkName": "pages/ForgetPassword",
-    "url": "/ForgetPassword"
+    "url": "/ForgetPassword",
+    "_name": "_1b029abb"
   },
   {
     "name": "freshworks-cpq-integration",
     "path": "/freshworks-cpq-integration",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\30.05.24\\\\dealdoxwebsite\\\\pages\\\\freshworks-cpq-integration.vue",
+    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\freshworks-cpq-integration.vue",
     "chunkName": "pages/freshworks-cpq-integration",
-    "url": "/freshworks-cpq-integration"
+    "url": "/freshworks-cpq-integration",
+    "_name": "_4b20efe5"
   },
   {
     "name": "glossaries",
     "path": "/glossaries",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\30.05.24\\\\dealdoxwebsite\\\\pages\\\\glossaries.vue",
+    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\glossaries.vue",
     "chunkName": "pages/glossaries",
-    "url": "/glossaries"
+    "url": "/glossaries",
+    "_name": "_f26cbca2"
   },
   {
     "name": "hubspot-cpq-integration",
     "path": "/hubspot-cpq-integration",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\30.05.24\\\\dealdoxwebsite\\\\pages\\\\hubspot-cpq-integration.vue",
+    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\hubspot-cpq-integration.vue",
     "chunkName": "pages/hubspot-cpq-integration",
-    "url": "/hubspot-cpq-integration"
+    "url": "/hubspot-cpq-integration",
+    "_name": "_68376af2"
   },
   {
     "name": "localized-deal-documents",
     "path": "/localized-deal-documents",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\30.05.24\\\\dealdoxwebsite\\\\pages\\\\localized-deal-documents.vue",
+    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\localized-deal-documents.vue",
     "chunkName": "pages/localized-deal-documents",
-    "url": "/localized-deal-documents"
+    "url": "/localized-deal-documents",
+    "_name": "_2bf0bbdc"
   },
   {
     "name": "media",
     "path": "/media",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\30.05.24\\\\dealdoxwebsite\\\\pages\\\\media.vue",
+    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\media.vue",
     "chunkName": "pages/media",
-    "url": "/media"
+    "url": "/media",
+    "_name": "_5ee09c7e"
   },
   {
     "name": "microsoft-dynamics-365-cpq-integration",
     "path": "/microsoft-dynamics-365-cpq-integration",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\30.05.24\\\\dealdoxwebsite\\\\pages\\\\microsoft-dynamics-365-cpq-integration.vue",
+    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\microsoft-dynamics-365-cpq-integration.vue",
     "chunkName": "pages/microsoft-dynamics-365-cpq-integration",
-    "url": "/microsoft-dynamics-365-cpq-integration"
+    "url": "/microsoft-dynamics-365-cpq-integration",
+    "_name": "_0a15d46e"
   },
   {
     "name": "our-team",
     "path": "/our-team",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\30.05.24\\\\dealdoxwebsite\\\\pages\\\\our-team.vue",
+    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\our-team.vue",
     "chunkName": "pages/our-team",
-    "url": "/our-team"
+    "url": "/our-team",
+    "_name": "_6a566471"
   },
   {
     "name": "privacy-policy",
     "path": "/privacy-policy",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\30.05.24\\\\dealdoxwebsite\\\\pages\\\\privacy-policy.vue",
+    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\privacy-policy.vue",
     "chunkName": "pages/privacy-policy",
-    "url": "/privacy-policy"
+    "url": "/privacy-policy",
+    "_name": "_470d2e8a"
   },
   {
     "name": "quoting-software",
     "path": "/quoting-software",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\30.05.24\\\\dealdoxwebsite\\\\pages\\\\quoting-software.vue",
+    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\quoting-software.vue",
     "chunkName": "pages/quoting-software",
-    "url": "/quoting-software"
+    "url": "/quoting-software",
+    "_name": "_61e1976e"
   },
   {
     "name": "salesforce-cpq-integration",
     "path": "/salesforce-cpq-integration",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\30.05.24\\\\dealdoxwebsite\\\\pages\\\\salesforce-cpq-integration.vue",
+    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\salesforce-cpq-integration.vue",
     "chunkName": "pages/salesforce-cpq-integration",
-    "url": "/salesforce-cpq-integration"
+    "url": "/salesforce-cpq-integration",
+    "_name": "_7175f6b0"
   },
   {
     "name": "security",
     "path": "/security",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\30.05.24\\\\dealdoxwebsite\\\\pages\\\\security.vue",
+    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\security.vue",
     "chunkName": "pages/security",
-    "url": "/security"
+    "url": "/security",
+    "_name": "_7aa1b31a"
   },
   {
     "name": "services-cpq",
     "path": "/services-cpq",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\30.05.24\\\\dealdoxwebsite\\\\pages\\\\services-cpq.vue",
+    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\services-cpq.vue",
     "chunkName": "pages/services-cpq",
-    "url": "/services-cpq"
+    "url": "/services-cpq",
+    "_name": "_323f4ee8"
   },
   {
     "name": "sign-up-free-trial",
     "path": "/sign-up-free-trial",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\30.05.24\\\\dealdoxwebsite\\\\pages\\\\sign-up-free-trial.vue",
+    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\sign-up-free-trial.vue",
     "chunkName": "pages/sign-up-free-trial",
-    "url": "/sign-up-free-trial"
+    "url": "/sign-up-free-trial",
+    "_name": "_073bbcca"
   },
   {
     "name": "SignIn",
     "path": "/SignIn",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\30.05.24\\\\dealdoxwebsite\\\\pages\\\\SignIn.vue",
+    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\SignIn.vue",
     "chunkName": "pages/SignIn",
-    "url": "/SignIn"
+    "url": "/SignIn",
+    "_name": "_44d35e56"
   },
   {
     "name": "SignUp",
     "path": "/SignUp",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\30.05.24\\\\dealdoxwebsite\\\\pages\\\\SignUp.vue",
+    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\SignUp.vue",
     "chunkName": "pages/SignUp",
-    "url": "/SignUp"
+    "url": "/SignUp",
+    "_name": "_1ba6b16a"
   },
   {
     "name": "subscriptions",
     "path": "/subscriptions",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\30.05.24\\\\dealdoxwebsite\\\\pages\\\\subscriptions.vue",
+    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\subscriptions.vue",
     "chunkName": "pages/subscriptions",
-    "url": "/subscriptions"
+    "url": "/subscriptions",
+    "_name": "_d323c25a"
   },
   {
     "name": "success-stories",
     "path": "/success-stories",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\30.05.24\\\\dealdoxwebsite\\\\pages\\\\success-stories.vue",
+    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\success-stories.vue",
     "chunkName": "pages/success-stories",
-    "url": "/success-stories"
+    "url": "/success-stories",
+    "_name": "_b707b4b4"
   },
   {
     "name": "sugarcrm-cpq-integration",
     "path": "/sugarcrm-cpq-integration",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\30.05.24\\\\dealdoxwebsite\\\\pages\\\\sugarcrm-cpq-integration.vue",
+    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\sugarcrm-cpq-integration.vue",
     "chunkName": "pages/sugarcrm-cpq-integration",
-    "url": "/sugarcrm-cpq-integration"
+    "url": "/sugarcrm-cpq-integration",
+    "_name": "_91b0ab0e"
   },
   {
     "name": "terms-of-use",
     "path": "/terms-of-use",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\30.05.24\\\\dealdoxwebsite\\\\pages\\\\terms-of-use.vue",
+    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\terms-of-use.vue",
     "chunkName": "pages/terms-of-use",
-    "url": "/terms-of-use"
+    "url": "/terms-of-use",
+    "_name": "_55f315ca"
   },
   {
     "name": "thank-you",
     "path": "/thank-you",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\30.05.24\\\\dealdoxwebsite\\\\pages\\\\thank-you.vue",
+    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\thank-you.vue",
     "chunkName": "pages/thank-you",
-    "url": "/thank-you"
+    "url": "/thank-you",
+    "_name": "_55931619"
   },
   {
     "name": "blog-slug",
     "path": "/blog/:slug",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\30.05.24\\\\dealdoxwebsite\\\\pages\\\\blog\\\\_slug\\\\index.vue",
-    "chunkName": "pages/blog/_slug/index"
+    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\blog\\\\_slug\\\\index.vue",
+    "chunkName": "pages/blog/_slug/index",
+    "_name": "_6d24d69d"
   },
   {
     "name": "category-details-slug",
     "path": "/category-details/:slug",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\30.05.24\\\\dealdoxwebsite\\\\pages\\\\category-details\\\\_slug\\\\index.vue",
-    "chunkName": "pages/category-details/_slug/index"
+    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\category-details\\\\_slug\\\\index.vue",
+    "chunkName": "pages/category-details/_slug/index",
+    "_name": "_77d7b8ae"
   },
   {
     "name": "ebook-slug",
     "path": "/ebook/:slug",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\30.05.24\\\\dealdoxwebsite\\\\pages\\\\ebook\\\\_slug\\\\index.vue",
-    "chunkName": "pages/ebook/_slug/index"
+    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\ebook\\\\_slug\\\\index.vue",
+    "chunkName": "pages/ebook/_slug/index",
+    "_name": "_3c583b1a"
   },
   {
     "name": "featured-blog-details-slug",
     "path": "/featured-blog-details/:slug",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\30.05.24\\\\dealdoxwebsite\\\\pages\\\\featured-blog-details\\\\_slug\\\\index.vue",
-    "chunkName": "pages/featured-blog-details/_slug/index"
+    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\featured-blog-details\\\\_slug\\\\index.vue",
+    "chunkName": "pages/featured-blog-details/_slug/index",
+    "_name": "_dc5eb80a"
   },
   {
     "name": "featured-category-details-slug",
     "path": "/featured-category-details/:slug",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\30.05.24\\\\dealdoxwebsite\\\\pages\\\\featured-category-details\\\\_slug\\\\index.vue",
-    "chunkName": "pages/featured-category-details/_slug/index"
+    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\featured-category-details\\\\_slug\\\\index.vue",
+    "chunkName": "pages/featured-category-details/_slug/index",
+    "_name": "_6ec75457"
   },
   {
     "name": "glossary-category-details-slug",
     "path": "/glossary-category-details/:slug",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\30.05.24\\\\dealdoxwebsite\\\\pages\\\\glossary-category-details\\\\_slug\\\\index.vue",
-    "chunkName": "pages/glossary-category-details/_slug/index"
+    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\glossary-category-details\\\\_slug\\\\index.vue",
+    "chunkName": "pages/glossary-category-details/_slug/index",
+    "_name": "_61a8a867"
   },
   {
     "name": "glossaryy-slug",
     "path": "/glossaryy/:slug",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\30.05.24\\\\dealdoxwebsite\\\\pages\\\\glossaryy\\\\_slug\\\\index.vue",
-    "chunkName": "pages/glossaryy/_slug/index"
+    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\glossaryy\\\\_slug\\\\index.vue",
+    "chunkName": "pages/glossaryy/_slug/index",
+    "_name": "_3714b800"
   },
   {
     "name": "success-stories-category-details-slug",
     "path": "/success-stories-category-details/:slug",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\30.05.24\\\\dealdoxwebsite\\\\pages\\\\success-stories-category-details\\\\_slug\\\\index.vue",
-    "chunkName": "pages/success-stories-category-details/_slug/index"
+    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\success-stories-category-details\\\\_slug\\\\index.vue",
+    "chunkName": "pages/success-stories-category-details/_slug/index",
+    "_name": "_fafa9b1c"
   },
   {
     "name": "success-story-slug",
     "path": "/success-story/:slug",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\30.05.24\\\\dealdoxwebsite\\\\pages\\\\success-story\\\\_slug\\\\index.vue",
-    "chunkName": "pages/success-story/_slug/index"
+    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\success-story\\\\_slug\\\\index.vue",
+    "chunkName": "pages/success-story/_slug/index",
+    "_name": "_613e2e10"
   },
   {
     "name": "glossary-slug-account-based-sales",
     "path": "/glossary/:slug?/account-based-sales",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\30.05.24\\\\dealdoxwebsite\\\\pages\\\\glossary\\\\_slug\\\\account-based-sales.vue",
-    "chunkName": "pages/glossary/_slug/account-based-sales"
+    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\glossary\\\\_slug\\\\account-based-sales.vue",
+    "chunkName": "pages/glossary/_slug/account-based-sales",
+    "_name": "_75badc59"
   },
   {
     "name": "glossary-slug-accrued-revenue",
     "path": "/glossary/:slug?/accrued-revenue",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\30.05.24\\\\dealdoxwebsite\\\\pages\\\\glossary\\\\_slug\\\\accrued-revenue.vue",
-    "chunkName": "pages/glossary/_slug/accrued-revenue"
+    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\glossary\\\\_slug\\\\accrued-revenue.vue",
+    "chunkName": "pages/glossary/_slug/accrued-revenue",
+    "_name": "_ee21110e"
   },
   {
     "name": "glossary-slug-agile-billing",
     "path": "/glossary/:slug?/agile-billing",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\30.05.24\\\\dealdoxwebsite\\\\pages\\\\glossary\\\\_slug\\\\agile-billing.vue",
-    "chunkName": "pages/glossary/_slug/agile-billing"
+    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\glossary\\\\_slug\\\\agile-billing.vue",
+    "chunkName": "pages/glossary/_slug/agile-billing",
+    "_name": "_50b4279e"
   },
   {
     "name": "glossary-slug-software-as-a-service-saa-s",
     "path": "/glossary/:slug?/software-as-a-service-saa-s",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\30.05.24\\\\dealdoxwebsite\\\\pages\\\\glossary\\\\_slug\\\\software-as-a-service-saa-s.vue",
-    "chunkName": "pages/glossary/_slug/software-as-a-service-saa-s"
+    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\glossary\\\\_slug\\\\software-as-a-service-saa-s.vue",
+    "chunkName": "pages/glossary/_slug/software-as-a-service-saa-s",
+    "_name": "_4fc2b147"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\30.05.24\\\\dealdoxwebsite\\\\pages\\\\index.vue",
+    "component": "C:\\\\dealdox website\\\\dealdoxwebsite\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
-    "url": "/"
+    "url": "/",
+    "_name": "_20d943af"
   }
 ]
