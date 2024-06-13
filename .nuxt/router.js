@@ -45,6 +45,8 @@ const _4516a514 = () => interopDefault(import('..\\pages\\success-stories-catego
 const _4bc70aae = () => interopDefault(import('..\\pages\\success-story\\_slug\\index.vue' /* webpackChunkName: "pages/success-story/_slug/index" */))
 const _6b2dcd9b = () => interopDefault(import('..\\pages\\glossary\\_slug\\accrued-revenue.vue' /* webpackChunkName: "pages/glossary/_slug/accrued-revenue" */))
 const _2fe39ff6 = () => interopDefault(import('..\\pages\\glossary1\\_slug\\accrued-revenue.vue' /* webpackChunkName: "pages/glossary1/_slug/accrued-revenue" */))
+const _41940fee = () => interopDefault(import('..\\pages\\glossary1\\_slug\\agile-billing.vue' /* webpackChunkName: "pages/glossary1/_slug/agile-billing" */))
+const _f28343b0 = () => interopDefault(import('..\\pages\\glossary1\\_slug\\annual-contract-value.vue' /* webpackChunkName: "pages/glossary1/_slug/annual-contract-value" */))
 const _598d2a66 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
@@ -222,6 +224,14 @@ export const routerOptions = {
     path: "/glossary1/:slug?/accrued-revenue",
     component: _2fe39ff6,
     name: "glossary1-slug-accrued-revenue"
+  }, {
+    path: "/glossary1/:slug?/agile-billing",
+    component: _41940fee,
+    name: "glossary1-slug-agile-billing"
+  }, {
+    path: "/glossary1/:slug?/annual-contract-value",
+    component: _f28343b0,
+    name: "glossary1-slug-annual-contract-value"
   }, {
     path: "/",
     component: _598d2a66,

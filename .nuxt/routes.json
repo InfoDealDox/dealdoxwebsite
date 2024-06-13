@@ -317,6 +317,20 @@
     "_name": "_2fe39ff6"
   },
   {
+    "name": "glossary1-slug-agile-billing",
+    "path": "/glossary1/:slug?/agile-billing",
+    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\30.05.24\\\\dealdoxwebsite\\\\pages\\\\glossary1\\\\_slug\\\\agile-billing.vue",
+    "chunkName": "pages/glossary1/_slug/agile-billing",
+    "_name": "_41940fee"
+  },
+  {
+    "name": "glossary1-slug-annual-contract-value",
+    "path": "/glossary1/:slug?/annual-contract-value",
+    "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\30.05.24\\\\dealdoxwebsite\\\\pages\\\\glossary1\\\\_slug\\\\annual-contract-value.vue",
+    "chunkName": "pages/glossary1/_slug/annual-contract-value",
+    "_name": "_f28343b0"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\P B Webvision\\\\Desktop\\\\DealDox Repo Source\\\\New DD Git\\\\30.05.24\\\\dealdoxwebsite\\\\pages\\\\index.vue",
