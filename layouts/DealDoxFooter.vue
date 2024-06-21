@@ -191,6 +191,9 @@
               <li>
                 <a href="tel:08035376744"> Call us - 08035376744</a>
               </li>
+              <p>
+               Address - WeWork Prestige Central, 36, Infantry Road, Bangalore, Karnataka 560001.
+               </p>
             </ul>
           </div>
         </div>
