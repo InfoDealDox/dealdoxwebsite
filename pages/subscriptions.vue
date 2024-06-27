@@ -66,20 +66,5 @@ components: {
         link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io/subscriptions' }
         ],
     },
-     head: {
-        title: 'Subscription Management Software | Dealdox',
-        htmlAttrs: {
-            lang: 'en-us'
-        },
-        meta: [
-            { charset: 'utf-8' },
-            { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-            { hid: 'description', name: 'description', content: 'Effortlessly handle subscription billing and boost subscription revenue with our top subscription management software for subscription businesses.' },
-            { hid: 'keywords', name: 'keywords', content: 'subscription management software, subscription billing, Subscription Revenue, Subscription businesses, subscription software
-' },
-        ],
-        link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io/subscriptions' }
-        ],
-    },
 }
 </script>

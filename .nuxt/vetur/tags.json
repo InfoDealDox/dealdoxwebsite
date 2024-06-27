@@ -1,13 +1,4 @@
 {
-  "AboutUsIAQSolutions": {
-    "description": "Auto imported from components/AboutUs/IAQSolutions.vue"
-  },
-  "AboutUsPageHeader": {
-    "description": "Auto imported from components/AboutUs/PageHeader.vue"
-  },
-  "AboutUsStats": {
-    "description": "Auto imported from components/AboutUs/Stats.vue"
-  },
   "AuthenticationForgetPassword": {
     "description": "Auto imported from components/Authentication/ForgetPassword.vue"
   },
@@ -16,6 +7,18 @@
   },
   "AuthenticationSignUp": {
     "description": "Auto imported from components/Authentication/SignUp.vue"
+  },
+  "BlogsBlog": {
+    "description": "Auto imported from components/blogs/Blog.vue"
+  },
+  "BlogsBlogDetails": {
+    "description": "Auto imported from components/blogs/BlogDetails.vue"
+  },
+  "BlogsFeaturedBlogDetails": {
+    "description": "Auto imported from components/blogs/FeaturedBlogDetails.vue"
+  },
+  "BlogsLatestBlog": {
+    "description": "Auto imported from components/blogs/LatestBlog.vue"
   },
   "AutomatedQuotesGenerationAccelerateYourSales": {
     "description": "Auto imported from components/AutomatedQuotesGeneration/AccelerateYourSales.vue"
@@ -35,17 +38,17 @@
   "AutomatedQuotesGenerationYourBusiness": {
     "description": "Auto imported from components/AutomatedQuotesGeneration/YourBusiness.vue"
   },
-  "BlogsBlog": {
-    "description": "Auto imported from components/blogs/Blog.vue"
+  "AboutUsIAQSolutions": {
+    "description": "Auto imported from components/AboutUs/IAQSolutions.vue"
   },
-  "BlogsBlogDetails": {
-    "description": "Auto imported from components/blogs/BlogDetails.vue"
+  "AboutUsPageHeader": {
+    "description": "Auto imported from components/AboutUs/PageHeader.vue"
   },
-  "BlogsFeaturedBlogDetails": {
-    "description": "Auto imported from components/blogs/FeaturedBlogDetails.vue"
+  "AboutUsStats": {
+    "description": "Auto imported from components/AboutUs/Stats.vue"
   },
-  "BlogsLatestBlog": {
-    "description": "Auto imported from components/blogs/LatestBlog.vue"
+  "ContactUsPageHeader": {
+    "description": "Auto imported from components/ContactUs/PageHeader.vue"
   },
   "CategoriesDetails": {
     "description": "Auto imported from components/categories/categories-details.vue"
@@ -58,6 +61,9 @@
   },
   "CategoriesSuccessStoryCategoriesDetails": {
     "description": "Auto imported from components/categories/success-story-categories-details.vue"
+  },
+  "CookiesCookie": {
+    "description": "Auto imported from components/Cookies/Cookie.vue"
   },
   "CommonAccordion": {
     "description": "Auto imported from components/Common/Accordion.vue"
@@ -106,12 +112,6 @@
   },
   "CommonServicefaq": {
     "description": "Auto imported from components/Common/servicefaq.vue"
-  },
-  "ContactUsPageHeader": {
-    "description": "Auto imported from components/ContactUs/PageHeader.vue"
-  },
-  "CookiesCookie": {
-    "description": "Auto imported from components/Cookies/Cookie.vue"
   },
   "CPQFreeTrial": {
     "description": "Auto imported from components/CPQ/FreeTrial.vue"
@@ -272,15 +272,6 @@
   "MediaMain": {
     "description": "Auto imported from components/MediaFolder/MediaMain.vue"
   },
-  "MicrosoftDynamicsHowLocalizedDeal": {
-    "description": "Auto imported from components/Microsoft-Dynamics/HowLocalizedDeal.vue"
-  },
-  "MicrosoftDynamicsKeyBenefitsof": {
-    "description": "Auto imported from components/Microsoft-Dynamics/KeyBenefitsof.vue"
-  },
-  "MicrosoftDynamicsMainBannerLoacalized": {
-    "description": "Auto imported from components/Microsoft-Dynamics/MainBannerLoacalized.vue"
-  },
   "PrivacyPolicy": {
     "description": "Auto imported from components/PrivacyPolicy/PrivacyPolicy.vue"
   },
@@ -289,6 +280,15 @@
   },
   "RequestDemoTransformDealsWith": {
     "description": "Auto imported from components/RequestDemo/TransformDealsWith.vue"
+  },
+  "MicrosoftDynamicsHowLocalizedDeal": {
+    "description": "Auto imported from components/Microsoft-Dynamics/HowLocalizedDeal.vue"
+  },
+  "MicrosoftDynamicsKeyBenefitsof": {
+    "description": "Auto imported from components/Microsoft-Dynamics/KeyBenefitsof.vue"
+  },
+  "MicrosoftDynamicsMainBannerLoacalized": {
+    "description": "Auto imported from components/Microsoft-Dynamics/MainBannerLoacalized.vue"
   },
   "SalesforceHowLocalizedDeal": {
     "description": "Auto imported from components/Salesforce/HowLocalizedDeal.vue"

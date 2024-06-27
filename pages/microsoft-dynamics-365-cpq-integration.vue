@@ -54,7 +54,7 @@ export default {
         meta: [
             { charset: 'utf-8' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-            { hid: 'description', name: 'description', content: 'Experience smooth CPQ integration with Microsoft Dynamics 365. Enhance sales processes and improve efficiency with DealDox's integration solutions' },
+            { hid: 'description', name: 'description', content: 'Experience smooth CPQ integration with Microsoft Dynamics 365. Enhance sales processes and improve efficiency with DealDos integration solutions' },
             { hid: 'keywords', name: 'keywords', content: 'Microsoft Integration, Dynamics 365 CRM, automated workflows, advanced quotes, deal structures, automate approvals, Generate Lightning-fast Professional Quotes, Microsoft Dynamics 365 for Sales and DealDox, simple-to-implement and simple-to-maintain CPQ, Closing Deals at Lightning Speed through CPQ Automation, simplified pricing with DealDox, digital sales proposal solution' },
         ],
         link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io/microsoft-dynamics-365-cpq-integration' }
