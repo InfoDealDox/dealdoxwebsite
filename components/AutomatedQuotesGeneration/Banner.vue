@@ -16,7 +16,7 @@
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="new-app-main-banner-wrap-image" data-aos="fade-left" data-aos-duration="2000">
-                        <img src="../../assets/images/automated-quotes-generation/automatedqutations.png" alt="image">
+                        <img src="../../assets/images/automated-quotes-generation/automatedqutations.png" alt="'Quote Automation', 'Automated Quotations', 'Quote Automation software', 'Quotation software', 'Automated Quotes Generation', 'Automate contracts and renewals', 'Automated Quoting Solutions', 'intelligent quoting solution', 'Automated Document Generation', 'DealDox Automation Software', 'automate billing process', 'Quick and Accurate Quoting', 'Pricing & Quote Generator', 'Create quotations', 'Maximize Profit Margins', 'create quotes using automation software', 'automates the document creation process', 'Switch between price listings', 'easily generating custom quotes in any desired language', 'automate the process of generating proposals', 'smart and automated agreement of deals', 'automated quotation solution'">
                     </div>
                 </div>
             </div>

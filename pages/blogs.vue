@@ -47,7 +47,7 @@ export default {
    //     const response = await axios.get('https://cms.dealdox.io/api/pages?filters[slug][$eq]=blogs&populate=deep,5')
     //    const pageData = response.data.data?.length > 0 ? response.data.data[0] : {};
    //     if (pageData?.attributes?.seo?.length > 0) {
-            this.seoData = pageData.attributes.seo[0];
+    //        this.seoData = pageData.attributes.seo[0];
     //    }
   //  },
    // head({ $seo }) {
