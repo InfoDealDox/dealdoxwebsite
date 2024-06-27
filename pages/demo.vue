@@ -32,26 +32,26 @@ export default {
         Faq,
         DealDoxFooter,
     },
-    data() {
-        return {
-            seoData: [],
-        }
-    },
-    created: async function () {
-        const response = await axios.get('https://cms.dealdox.io/api/pages?filters[slug][$eq]=demo&populate=deep,5')
-        const pageData = response.data.data?.length > 0 ? response.data.data[0] : {};
-        if (pageData?.attributes?.seo?.length > 0) {
-            this.seoData = pageData.attributes.seo[0];
-        }
-    },
-    head({ $seo }) {
-        return $seo({
-            title: this.seoData.metaTitle ||'',
-            description: this.seoData.metaDescription,
-            keywords: this.seoData.keywords,
+//    data() {
+ //       return {
+ //           seoData: [],
+//        }
+ //   },
+//    created: async function () {
+//        const response = await axios.get('https://cms.dealdox.io/api/pages?filters[slug][$eq]=demo&populate=deep,5')
+//        const pageData = response.data.data?.length > 0 ? response.data.data[0] : {};
+ //       if (pageData?.attributes?.seo?.length > 0) {
+//            this.seoData = pageData.attributes.seo[0];
+//        }
+//    },
+//    head({ $seo }) {
+//        return $seo({
+//            title: this.seoData.metaTitle ||'',
+ //           description: this.seoData.metaDescription,
+//            keywords: this.seoData.keywords,
             // image: this.post.image || '',
-        });
-    },
+ //       });
+ //   },
      head: {
         title: 'Lightening Fast Quote Approvals Digital Quoting Tool | Dealdox',
         htmlAttrs: {

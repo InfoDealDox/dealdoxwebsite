@@ -20,26 +20,26 @@ export default {
         SignUpHeader,
         DealDoxFooter,
     },
-    data() {
-        return {
-            seoData: [],
-        }
-    },
-    created: async function () {
-        const response = await axios.get('https://cms.dealdox.io/api/pages?filters[slug][$eq]=sign-up-free-trial&populate=deep,5')
-        const pageData = response.data.data?.length > 0 ? response.data.data[0] : {};
-        if (pageData?.attributes?.seo?.length > 0) {
-            this.seoData = pageData.attributes.seo[0];
-        }
-    },
-    head({ $seo }) {
-        return $seo({
-            title: this.seoData.metaTitle ||'www.dealdox.io',
-            description: this.seoData.metaDescription,
-            keywords: this.seoData.keywords,
+//    data() {
+ //       return {
+//            seoData: [],
+//        }
+ //   },
+//    created: async function () {
+//        const response = await axios.get('https://cms.dealdox.io/api/pages?filters[slug][$eq]=sign-up-free-trial&populate=deep,5')
+//        const pageData = response.data.data?.length > 0 ? response.data.data[0] : {};
+ //       if (pageData?.attributes?.seo?.length > 0) {
+ //           this.seoData = pageData.attributes.seo[0];
+ //       }
+ //   },
+ //   head({ $seo }) {
+ //       return $seo({
+ //           title: this.seoData.metaTitle ||'www.dealdox.io',
+ //           description: this.seoData.metaDescription,
+  //          keywords: this.seoData.keywords,
             // image: this.post.image || '',
-        });
-    },
+  //      });
+ //   },
      head: {
         title: 'Sign Up for a Free Trial | Streamline Your Quotation.',
         htmlAttrs: {
