@@ -6,12 +6,12 @@ You can directly use them in pages and other components without the need to impo
 
 **Tip:** If a component is conditionally rendered with `v-if` and is big, it is better to use `Lazy` or `lazy-` prefix to lazy load.
 
-- `<AuthenticationForgetPassword>` | `<authentication-forget-password>` (components/Authentication/ForgetPassword.vue)
-- `<AuthenticationSignIn>` | `<authentication-sign-in>` (components/Authentication/SignIn.vue)
-- `<AuthenticationSignUp>` | `<authentication-sign-up>` (components/Authentication/SignUp.vue)
 - `<AboutUsIAQSolutions>` | `<about-us-i-a-q-solutions>` (components/AboutUs/IAQSolutions.vue)
 - `<AboutUsPageHeader>` | `<about-us-page-header>` (components/AboutUs/PageHeader.vue)
 - `<AboutUsStats>` | `<about-us-stats>` (components/AboutUs/Stats.vue)
+- `<AuthenticationForgetPassword>` | `<authentication-forget-password>` (components/Authentication/ForgetPassword.vue)
+- `<AuthenticationSignIn>` | `<authentication-sign-in>` (components/Authentication/SignIn.vue)
+- `<AuthenticationSignUp>` | `<authentication-sign-up>` (components/Authentication/SignUp.vue)
 - `<AutomatedQuotesGenerationAccelerateYourSales>` | `<automated-quotes-generation-accelerate-your-sales>` (components/AutomatedQuotesGeneration/AccelerateYourSales.vue)
 - `<AutomatedQuotesGenerationBanner>` | `<automated-quotes-generation-banner>` (components/AutomatedQuotesGeneration/Banner.vue)
 - `<AutomatedQuotesGenerationExperiencethefuture>` | `<automated-quotes-generation-experiencethefuture>` (components/AutomatedQuotesGeneration/Experiencethefuture.vue)
