@@ -37,25 +37,39 @@ export default {
         AutomatedQuotes,
         DealDoxFooter,
     },
-    data() {
-        return {
-            seoData: [],
-        }
-    },
-    created: async function () {
-        const response = await axios.get('https://cms.dealdox.io/api/pages?filters[slug][$eq]=news&populate=deep,5')
-        const pageData = response.data.data?.length > 0 ? response.data.data[0] : {};
-        if (pageData?.attributes?.seo?.length > 0) {
-            this.seoData = pageData.attributes.seo[0];
-        }
-    },
-    head({ $seo }) {
-        return $seo({
-            title: this.seoData.metaTitle ||'www.dealdox.io',
-            description: this.seoData.metaDescription,
-            keywords: this.seoData.keywords,
+ //   data() {
+ //       return {
+ //           seoData: [],
+//        }
+ //   },
+ //   created: async function () {
+ //       const response = await axios.get('https://cms.dealdox.io/api/pages?filters[slug][$eq]=news&populate=deep,5')
+ //       const pageData = response.data.data?.length > 0 ? response.data.data[0] : {};
+ //       if (pageData?.attributes?.seo?.length > 0) {
+ //           this.seoData = pageData.attributes.seo[0];
+ //       }
+ //   },
+ //   head({ $seo }) {
+ //       return $seo({
+  //          title: this.seoData.metaTitle ||'www.dealdox.io',
+  //          description: this.seoData.metaDescription,
+  //          keywords: this.seoData.keywords,
             // image: this.post.image || '',
-        });
+ //       });
+ //   },
+    head: {
+        title: 'Latest News & Updates | DealDox Quotation Software Insights',
+        htmlAttrs: {
+            lang: 'en-us'
+        },
+        meta: [
+            { charset: 'utf-8' },
+            { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+            { hid: 'description', name: 'description', content: 'Stay informed with the latest news, updates, and insights about DealDox quotation software. Explore new features, industry trends, and expert tips.' },
+            { hid: 'keywords', name: 'keywords', content: 'Blogging Tips, Content Creation, Blog Writing, Blog Posts' },
+        ],
+        link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io/news' }
+        ],
     },
 }
 </script>
