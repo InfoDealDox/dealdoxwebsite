@@ -62,5 +62,19 @@ export default {
             // image: this.post.image || '',
         });
     },
+     head: {
+        title: 'Localized Deal Documents Services | DealDox',
+        htmlAttrs: {
+            lang: 'en-us'
+        },
+        meta: [
+            { charset: 'utf-8' },
+            { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+            { hid: 'description', name: 'description', content: 'Unlock global markets with DealDox's localized deal documents services. Streamline multilingual deal processes for seamless international business' },
+            { hid: 'keywords', name: 'keywords', content: 'Localized Deal Documents, Non-English CPQ for services, Area-specific deal documents, regionally customed agreements, Geographically Customized Quotations, Deal management , Deal documents, DealDox CPQ, Close deals faster, Regional CPQ automated quote generation, localized versions of deal documents, customized automated quotation, How Localized Deal Documents Work, multilingual document creation capability' },
+        ],
+        link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io/localized-deal-documents' }
+        ],
+    },
 }
 </script>

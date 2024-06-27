@@ -59,6 +59,20 @@ export default {
         link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io/sugarcrm-cpq-integration' }
         ],
     },
+     head: {
+        title: 'Sugar CPQ Integration | DealDox',
+        htmlAttrs: {
+            lang: 'en-us'
+        },
+        meta: [
+            { charset: 'utf-8' },
+            { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+            { hid: 'description', name: 'description', content: 'Optimize sales processes with Sugar CPQ integration by DealDox. Boost efficiency and accelerate revenue growth with our advanced integration solutions' },
+            { hid: 'keywords', name: 'keywords', content: 'DealDox and SugarCRM, SugarCRM Integration, CPQ (Configure, Price, Quote), highest-rated CPQ, Automated quoting Software, SaaS Quotation Software, Guided Selling, Digital Sales proposals, Faster deal closures, revenue growth, Deal management, Subscription management, Accelerate Deal Closures with Guided Selling, Guided selling strategy, generate accurate price quotations, guided selling capabilities, personalized quotations in seconds, advanced price structures, automation of time-consuming administrative tasks, automatic discount approval procedures.' },
+        ],
+        link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io/sugarcrm-cpq-integration' }
+        ],
+    },
 }
 </script>
 

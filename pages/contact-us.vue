@@ -48,5 +48,19 @@ export default {
             // image: this.post.image || '',
         });
     },
+     head: {
+        title: 'Contact Us | DealDox',
+        htmlAttrs: {
+            lang: 'en-us'
+        },
+        meta: [
+            { charset: 'utf-8' },
+            { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+            { hid: 'description', name: 'description', content: 'Reach out to the DealDox team for any inquiries or assistance. We are here to provide you with exceptional support and solutions for your sales needs' },
+            { hid: 'keywords', name: 'keywords', content: 'Contact Us, Get in Touch, Guided Selling, quotations, Advanced Quoting Solution, Efficient Sales Processes, Generate Accurate and Comprehensive Quotes, effortlessly generate accurate deal documents.' },
+        ],
+        link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io/contact-us' }
+        ],
+    },
 }
 </script>

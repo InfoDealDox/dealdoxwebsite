@@ -40,5 +40,19 @@ export default {
             // image: this.post.image || '',
         });
     },
+     head: {
+        title: 'Sign Up for a Free Trial | Streamline Your Quotation.',
+        htmlAttrs: {
+            lang: 'en-us'
+        },
+        meta: [
+            { charset: 'utf-8' },
+            { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+            { hid: 'description', name: 'description', content: 'Start your free trial with DealDox today and experience seamless document management. Simplify collaboration, track changes, and enhance productivity' },
+            { hid: 'keywords', name: 'keywords', content: 'Try It Free, Start Your Experience, Risk-Free Trial' },
+        ],
+        link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io/sign-up-free-trial' }
+        ],
+    },
 }
 </script>

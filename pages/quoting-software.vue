@@ -59,15 +59,15 @@ export default {
  //       });
  //   },
     head: {
-        title: 'Automated Quotation Software | Sales Quote Automation',
+        title: 'Automate the process of generating proposals | Dealdox',
         htmlAttrs: {
             lang: 'en-us'
         },
         meta: [
             { charset: 'utf-8' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-            { hid: 'description', name: 'description', content: 'Explore our diverse collection of blogs for valuable insights, tips, and inspiration. Stay informed and entertained with our latest posts.' },
-            { hid: 'keywords', name: 'keywords', content: 'Blogging Tips, Content Creation, Blog Writing, Blog Posts' },
+            { hid: 'description', name: 'description', content: 'Easily generating custom quotes in any desired language with quote automation software. Quick and Accurate DealDox Automation Software for automate billing process &automates the document creation process.' },
+            { hid: 'keywords', name: 'keywords', content: 'Quote Automation, Automated Quotations, Quote Automation software, Quotation software, Automated Quotes Generation, Automate contracts and renewals, Automated Quoting Solutions, intelligent quoting solution, Automated Document Generation, DealDox Automation Software, automate billing process, Quick and Accurate Quoting, Pricing & Quote Generator, create quotations, Maximize Profit Margins, create quotes using, automation software automates the document creation process, Switch between price listings, easily generating custom quotes in any desired language, automate the process of generating proposals, smart and automated agreement of deals, automated quotation solution' },
         ],
         link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io/quoting-software' }
         ],

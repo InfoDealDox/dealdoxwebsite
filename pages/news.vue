@@ -71,5 +71,19 @@ export default {
         link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io/news' }
         ],
     },
+     head: {
+        title: 'Latest News & Updates | DealDox Quotation Software Insights',
+        htmlAttrs: {
+            lang: 'en-us'
+        },
+        meta: [
+            { charset: 'utf-8' },
+            { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+            { hid: 'description', name: 'description', content: 'Stay informed with the latest news, updates, and insights about DealDox quotation software. Explore new features, industry trends, and expert tips.' },
+            { hid: 'keywords', name: 'keywords', content: 'Definitions Specific Domain Alphabetical List Technical Terms' },
+        ],
+        link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io/news' }
+        ],
+    },
 }
 </script>

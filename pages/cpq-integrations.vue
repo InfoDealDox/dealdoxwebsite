@@ -69,8 +69,7 @@ export default {
             { hid: 'description', name: 'description', content: 'Optimize your sales process with CPQ integration for midsize businesses. Easily integrate enterprise CPQ Integration with Salesforce, hubspot, sugarcrm, freshworks, micro dynmaics 365.' },
             { hid: 'keywords', name: 'keywords', content: 'Salesforce CPQ Integration, CPQ Integration for Midsize business, Best CPQ Integrations with HubSpot CRM,hubspot cpq integration,Enterprise CPQ Integration,Microsoft Dynamics 365 CPQ Integration,CPQ Integration work,Easy CPQ Integration,CPQ integration with Salesforce, hubspot, sugarcrm, freshworks, micro dynmaics 365' },
         ],
-        link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io/cpq-integrations
-' }
+        link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io/cpq-integrations' }
         ],
     },
 }

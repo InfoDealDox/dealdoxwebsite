@@ -53,8 +53,8 @@ export default {
         meta: [
             { charset: 'utf-8' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-            { hid: 'description', name: 'description', content: 'Explore our diverse collection of blogs for valuable insights, tips, and inspiration. Stay informed and entertained with our latest posts.' },
-            { hid: 'keywords', name: 'keywords', content: 'Blogging Tips, Content Creation, Blog Writing, Blog Posts' },
+            { hid: 'description', name: 'description', content: 'Achieve seamless Salesforce CPQ integration with DealDox. Streamline sales processes and enhance efficiency with our advanced integration solutions' },
+            { hid: 'keywords', name: 'keywords', content: 'Salesforce CRM, Salesforce, quotations, Deal Cycle, CPQ, Sales activity, CPQ enables quotations easier and faster, modern analytics and reporting, delegate approvals easily' },
         ],
         link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io/salesforce-cpq-integration' }
         ],

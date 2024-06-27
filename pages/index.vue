@@ -243,5 +243,19 @@ export default {
   //   });
 
   // },
+   head: {
+        title: 'Generate Quotations in Less Than a Minute with DealDox',
+        htmlAttrs: {
+            lang: 'en-us'
+        },
+        meta: [
+            { charset: 'utf-8' },
+            { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+            { hid: 'description', name: 'description', content: 'Dealdox offer you effortless Quote Generation: Automated Quoting Solutions. Transform your quote generation process with our automated quoting tool. Discover the best quotation software for seamless quotes and quotations.' },
+            { hid: 'keywords', name: 'keywords', content: 'automated quoting solution, quote generation process, automated quoting tool, Automated Quotes, Automated Quotations, Quotation software, Quoting software' },
+        ],
+        link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io/' }
+        ],
+    },
 }
 </script>

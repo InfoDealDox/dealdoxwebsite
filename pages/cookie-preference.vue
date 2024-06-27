@@ -43,5 +43,19 @@ export default {
             // image: this.post.image || '',
         });
     },
+     head: {
+        title: 'www.dealdox.io',
+        htmlAttrs: {
+            lang: 'en-us'
+        },
+        meta: [
+            { charset: 'utf-8' },
+            { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+            { hid: 'description', name: 'description', content: 'Learn how Dealdox Privacy Policy safeguards your data with comprehensive protection measures and compliance standards.' },
+            { hid: 'keywords', name: 'keywords', content: 'DealDox Privacy Policy DealDox Data Protection DealDox User Privacy DealDox Privacy Terms DealDox Information Security' },
+        ],
+        link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io/cookie-preference' }
+        ],
+    },
 }
 </script>

@@ -76,5 +76,19 @@ export default {
         link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io/success-stories' }
         ],
     },
+     head: {
+        title: 'Unlock Success Stories for Inspiration',
+        htmlAttrs: {
+            lang: 'en-us'
+        },
+        meta: [
+            { charset: 'utf-8' },
+            { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+            { hid: 'description', name: 'description', content: 'Explore real-life success stories for inspiration and motivation. Discover how others achieved their goals.' },
+            { hid: 'keywords', name: 'keywords', content: 'Inspirational Journeys Achieved Goals Client Wins Impactful Results Case Studies' },
+        ],
+        link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io/success-stories' }
+        ],
+    },
 }
 </script>

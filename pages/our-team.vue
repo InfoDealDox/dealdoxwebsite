@@ -55,16 +55,16 @@ export default {
             // image: this.post.image || '',
  //       });
 //    },
-    head: {
-        title: 'Empower Your Team with DealDox Guided Selling',
+     head: {
+        title: 'Meet Our Team at DealDox',
         htmlAttrs: {
             lang: 'en-us'
         },
         meta: [
             { charset: 'utf-8' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-            { hid: 'description', name: 'description', content: 'Explore our diverse collection of blogs for valuable insights, tips, and inspiration. Stay informed and entertained with our latest posts.' },
-            { hid: 'keywords', name: 'keywords', content: 'Blogging Tips, Content Creation, Blog Writing, Blog Posts' },
+            { hid: 'description', name: 'description', content: 'Discover the dedicated team behind DealDox, revolutionizing sales with AI-driven solutions for an enhanced sales process' },
+            { hid: 'keywords', name: 'keywords', content: 'Our Team, Team, About Us, Stellar Line Up of Professionals, Complex approval processes, automation solutions, Streamlined Workflows, CPQ Systems, Integrating CPQ, CPQ Software, CPQ, CPQ (Configure, Price, Quote), CPQ Processes, Sales process automation, state-of-the-art software solutions, creating innovative and scalable software, CPQ automated quotation idea' },
         ],
         link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io/our-team' }
         ],
