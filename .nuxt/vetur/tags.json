@@ -338,6 +338,9 @@
   "SuccessStoriesSuccesStoryBannerPage": {
     "description": "Auto imported from components/success-stories/SuccesStoryBannerPage.vue"
   },
+  "TermsConditions": {
+    "description": "Auto imported from components/TermsConditions/TermsConditions.vue"
+  },
   "SugarCRMHowLocalizedDeal": {
     "description": "Auto imported from components/Sugar-CRM/HowLocalizedDeal.vue"
   },
@@ -346,9 +349,6 @@
   },
   "SugarCRMMainBannerLoacalized": {
     "description": "Auto imported from components/Sugar-CRM/MainBannerLoacalized.vue"
-  },
-  "TermsConditions": {
-    "description": "Auto imported from components/TermsConditions/TermsConditions.vue"
   },
   "ThankYouPage": {
     "description": "Auto imported from components/ThankYou/ThankYouPage.vue"

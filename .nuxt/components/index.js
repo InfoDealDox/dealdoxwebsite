@@ -111,10 +111,10 @@ export const SuccessStories = () => import('../..\\components\\success-stories\\
 export const SuccessStoriesDetails = () => import('../..\\components\\success-stories\\SuccessStoriesDetails.vue' /* webpackChunkName: "components/success-stories-details" */).then(c => wrapFunctional(c.default || c))
 export const SuccessStoriesSuccesStoryBanner = () => import('../..\\components\\success-stories\\SuccesStoryBanner.vue' /* webpackChunkName: "components/success-stories-succes-story-banner" */).then(c => wrapFunctional(c.default || c))
 export const SuccessStoriesSuccesStoryBannerPage = () => import('../..\\components\\success-stories\\SuccesStoryBannerPage.vue' /* webpackChunkName: "components/success-stories-succes-story-banner-page" */).then(c => wrapFunctional(c.default || c))
+export const TermsConditions = () => import('../..\\components\\TermsConditions\\TermsConditions.vue' /* webpackChunkName: "components/terms-conditions" */).then(c => wrapFunctional(c.default || c))
 export const SugarCRMHowLocalizedDeal = () => import('../..\\components\\Sugar-CRM\\HowLocalizedDeal.vue' /* webpackChunkName: "components/sugar-c-r-m-how-localized-deal" */).then(c => wrapFunctional(c.default || c))
 export const SugarCRMKeyBenefitsof = () => import('../..\\components\\Sugar-CRM\\KeyBenefitsof.vue' /* webpackChunkName: "components/sugar-c-r-m-key-benefitsof" */).then(c => wrapFunctional(c.default || c))
 export const SugarCRMMainBannerLoacalized = () => import('../..\\components\\Sugar-CRM\\MainBannerLoacalized.vue' /* webpackChunkName: "components/sugar-c-r-m-main-banner-loacalized" */).then(c => wrapFunctional(c.default || c))
-export const TermsConditions = () => import('../..\\components\\TermsConditions\\TermsConditions.vue' /* webpackChunkName: "components/terms-conditions" */).then(c => wrapFunctional(c.default || c))
 export const ThankYouPage = () => import('../..\\components\\ThankYou\\ThankYouPage.vue' /* webpackChunkName: "components/thank-you-page" */).then(c => wrapFunctional(c.default || c))
 export const ThankYouTrackingImage = () => import('../..\\components\\ThankYou\\TrackingImage.vue' /* webpackChunkName: "components/thank-you-tracking-image" */).then(c => wrapFunctional(c.default || c))
 

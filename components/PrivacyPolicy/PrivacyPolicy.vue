@@ -61,8 +61,8 @@
           about our services.
         </p>
         <p class="text-justify">
-          • Personal Identifiers: Name, email address, mailing address, and
-          phone number.
+          • Personal Identifiers: First name, Last name, Business email address,
+          mailing address, phone number, Company name, number of employees. 
         </p>
         <p class="text-justify">
           • Account Information: When you create an account on our app or
@@ -87,8 +87,11 @@
         </p>
         <p class="text-justify">
           • Location: General geolocation data (unless you provide more precise
-          information). Information we don't collect:
+          information).
         </p>
+
+        <h6>Information we don't collect:</h6>
+
         <p class="text-justify">
           • Financial Information: We never collect credit card or debit card
           numbers or bank account details.
@@ -102,7 +105,7 @@
           to re-identify it.
         </p>
 
-        <h6>Information you provide via our websites</h6>
+        <h6>Information you provide via our websites and Apps</h6>
         <p class="text-justify">
           We also own and operate our websites and apps, which are included in
           the Services. We also collect any additional content that you post to
@@ -142,8 +145,8 @@
         <h6>Shipping Information</h6>
         <p class="text-justify">
           When you sign up for some paid services, we collect data about your
-          payment and billing. For example, during registration, we ask for your
-          name, address (street, city, state, country, ZIP), and contact
+          payment and billing. For example, during Account creation, we ask for
+          your name, address (street, city, state, country, ZIP), and contact
           information for a billing representative. You may also provide payment
           information, such as your credit card details, which we securely
           process through specialized services. 
