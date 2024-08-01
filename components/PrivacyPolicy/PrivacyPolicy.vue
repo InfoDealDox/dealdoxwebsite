@@ -75,6 +75,10 @@
         <p class="text-justify">
           • Professional Information: Employment details you choose to share.
         </p>
+        <p class="text-justify">
+          • We are also collecting country, region, and industry information
+          when users create an account or an opportunity in our app.
+        </p>
 
         <h6>Information we collect automatically:</h6>
         <p class="text-justify">
@@ -134,6 +138,15 @@
           can also give us payment information, like your credit card
           information, which we get from you through secure payment processing
           services
+        </p>
+        <h6>Shipping Information</h6>
+        <p class="text-justify">
+          When you sign up for some paid services, we collect data about your
+          payment and billing. For example, during registration, we ask for your
+          name, address (street, city, state, country, ZIP), and contact
+          information for a billing representative. You may also provide payment
+          information, such as your credit card details, which we securely
+          process through specialized services. 
         </p>
 
         <h6>
@@ -298,7 +311,10 @@
           analytics providers, with data shared with ad networks. We do not
           disclose other sensitive data.
         </p>
-        <p class="text-justify">• We do not share your data with any third-party services beyond what is specified above.</p>
+        <p class="text-justify">
+          • We do not share your data with any third-party services beyond what
+          is specified above.
+        </p>
 
         <h6>How We Protect Your Information</h6>
         <p class="text-justify">
@@ -433,7 +449,9 @@
         <p class="text-justify">DealDox Software Pvt Ltd</p>
 
         <p class="text-justify">
-          <strong>WeWork Presstige Central, 36, Infantary Road, Bangalore – 560001, Karnataka, India 
+          <strong
+            >WeWork Presstige Central, 36, Infantary Road, Bangalore – 560001,
+            Karnataka, India
           </strong>
         </p>
       </div>

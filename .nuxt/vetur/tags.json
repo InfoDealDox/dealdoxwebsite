@@ -17,18 +17,6 @@
   "AuthenticationSignUp": {
     "description": "Auto imported from components/Authentication/SignUp.vue"
   },
-  "BlogsBlog": {
-    "description": "Auto imported from components/blogs/Blog.vue"
-  },
-  "BlogsBlogDetails": {
-    "description": "Auto imported from components/blogs/BlogDetails.vue"
-  },
-  "BlogsFeaturedBlogDetails": {
-    "description": "Auto imported from components/blogs/FeaturedBlogDetails.vue"
-  },
-  "BlogsLatestBlog": {
-    "description": "Auto imported from components/blogs/LatestBlog.vue"
-  },
   "AutomatedQuotesGenerationAccelerateYourSales": {
     "description": "Auto imported from components/AutomatedQuotesGeneration/AccelerateYourSales.vue"
   },
@@ -46,6 +34,30 @@
   },
   "AutomatedQuotesGenerationYourBusiness": {
     "description": "Auto imported from components/AutomatedQuotesGeneration/YourBusiness.vue"
+  },
+  "BlogsBlog": {
+    "description": "Auto imported from components/blogs/Blog.vue"
+  },
+  "BlogsBlogDetails": {
+    "description": "Auto imported from components/blogs/BlogDetails.vue"
+  },
+  "BlogsFeaturedBlogDetails": {
+    "description": "Auto imported from components/blogs/FeaturedBlogDetails.vue"
+  },
+  "BlogsLatestBlog": {
+    "description": "Auto imported from components/blogs/LatestBlog.vue"
+  },
+  "CategoriesDetails": {
+    "description": "Auto imported from components/categories/categories-details.vue"
+  },
+  "CategoriesFeaturedCategoriesDetails": {
+    "description": "Auto imported from components/categories/featured-categories-details.vue"
+  },
+  "CategoriesGlossaryCategoriesDetails": {
+    "description": "Auto imported from components/categories/glossary-categories-details.vue"
+  },
+  "CategoriesSuccessStoryCategoriesDetails": {
+    "description": "Auto imported from components/categories/success-story-categories-details.vue"
   },
   "CommonAccordion": {
     "description": "Auto imported from components/Common/Accordion.vue"
@@ -94,18 +106,6 @@
   },
   "CommonServicefaq": {
     "description": "Auto imported from components/Common/servicefaq.vue"
-  },
-  "CategoriesDetails": {
-    "description": "Auto imported from components/categories/categories-details.vue"
-  },
-  "CategoriesFeaturedCategoriesDetails": {
-    "description": "Auto imported from components/categories/featured-categories-details.vue"
-  },
-  "CategoriesGlossaryCategoriesDetails": {
-    "description": "Auto imported from components/categories/glossary-categories-details.vue"
-  },
-  "CategoriesSuccessStoryCategoriesDetails": {
-    "description": "Auto imported from components/categories/success-story-categories-details.vue"
   },
   "ContactUsPageHeader": {
     "description": "Auto imported from components/ContactUs/PageHeader.vue"
