@@ -66,7 +66,7 @@ export default {
             dd.push({ value: key, data: groupby[key] })
         });
         this.groupby = dd;
-        console.log(this.groupby, 'groupby');
+        // console.log(this.groupby, 'groupby');
     },
 }
 </script>

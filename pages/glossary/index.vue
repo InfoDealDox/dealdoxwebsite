@@ -5,7 +5,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-12 col-md-12">
                     <div class="new-app-main-banner-wrap-image">
-                        <img src="../assets/images/banner/glossary.png" alt="image">
+                        <img src="../../assets/images/banner/glossary.png" alt="image">
                     </div>
                 </div>
             </div>
@@ -21,11 +21,11 @@
 </template>
 
 <script>
-import Navbar from '../layouts/Navbar';
-// import PageTitle from '../components/GlossaryFolder/PageTitle';
-import GlossaryPage from '../components/GlossaryFolder/GlossaryPage'
-import AutomatedQuotes from '../components/Common/AutomatedQuotes';
-import DealDoxFooter from '../layouts/DealDoxFooter'
+import Navbar from '../../layouts/Navbar';
+// import PageTitle from '../../components/GlossaryFolder/PageTitle';
+import GlossaryPage from '../../components/GlossaryFolder/GlossaryPage'
+import AutomatedQuotes from '../../components/Common/AutomatedQuotes';
+import DealDoxFooter from '../../layouts/DealDoxFooter'
 import axios from 'axios';
 
 
@@ -68,7 +68,7 @@ export default {
             { hid: 'description', name: 'description', content: 'Access our extensive glossaries for clear definitions and explanations. Enhance your understanding with our comprehensive resources.' },
             { hid: 'keywords', name: 'keywords', content: 'Definitions Specific Domain Alphabetical List Technical Terms' },
         ],
-        link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io/glossaries' }
+        link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io/glossary' }
         ],
     },
 }

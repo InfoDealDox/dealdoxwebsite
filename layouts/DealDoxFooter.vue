@@ -147,7 +147,7 @@
                 <NuxtLink to="/success-stories" class="footer-content">Success Stories</NuxtLink>
               </li>
               <li>
-                <NuxtLink to="/glossaries" class="footer-content">Glossary </NuxtLink>
+                <NuxtLink to="/glossary" class="footer-content">Glossary </NuxtLink>
               </li>
             </ul>
           </div>

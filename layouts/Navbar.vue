@@ -94,7 +94,7 @@
                                         <NuxtLink to="/success-stories" class="nav-link">Success Stories</NuxtLink>
                                     </li>
                                     <li class="nav-item">
-                                        <NuxtLink to="/glossaries" class="nav-link">Glossary</NuxtLink>
+                                        <NuxtLink to="/glossary" class="nav-link">Glossary</NuxtLink>
                                     </li>
                                     <li class="nav-item">
                                         <NuxtLink to="/news" class="nav-link">News</NuxtLink>
