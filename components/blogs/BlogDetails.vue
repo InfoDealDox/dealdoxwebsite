@@ -11,6 +11,8 @@
                         <div class="article-content">
                             <div class="entry-meta">
                                 <ul>
+                                    <li><i class="ri-file-user-line"></i>{{
+                                        details[0].attributes.blog_author.data.attributes.blog_author }}</li>
                                     <li><i class="ri-calendar-2-line"></i>{{ details[0].attributes.date }}</li>
                                     <!-- <li><i class="ri-message-2-line"></i><NuxtLink to="/blog-grid">(4)
                                             Comments</NuxtLink></li> -->
@@ -267,11 +269,13 @@
                                     <img :src="blog.attributes.image.data.attributes.url" alt="blog">
                                 </NuxtLink>
                                 <div class="info">
-                                    <h4 class="title usmall"><NuxtLink :to="'/blog/' + blog.attributes.slug">
+                                    <h4 class="title usmall">
+                                        <NuxtLink :to="'/blog/' + blog.attributes.slug">
                                             {{ blog.attributes.title }}
-                                        </NuxtLink></h4>
+                                        </NuxtLink>
+                                    </h4>
                                     <span class="date"><i class="ri-calendar-2-fill"></i> {{ blog.attributes.date
-                                    }}</span>
+                                        }}</span>
                                 </div>
                             </article>
                         </div>
