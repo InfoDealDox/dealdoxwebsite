@@ -43,9 +43,9 @@
                         <div class="icon">
                             <img src="../../assets/images/Freshwork/Subscription.png" alt="image">
                         </div>
-                        <h3><a href="https://www.dealdox.io/subscription">Subscription</a></h3>
+                        <h3><a href="https://www.dealdox.io/pricing">Pricing</a></h3>
                         <p>Upselling, Expand and Automated renewals. Pay only for what you use.</p>
-                        <NuxtLink to="/subscriptions" class="default-btn">Know more</NuxtLink>
+                        <NuxtLink to="/pricing" class="default-btn">Know more</NuxtLink>
                     </div>
                 </div>
             </div>

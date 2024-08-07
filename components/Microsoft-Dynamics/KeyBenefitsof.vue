@@ -45,7 +45,7 @@
                         </div>
                         <h3>Subscription</h3>
                         <p>Upselling, Expand and Automated renewals. Pay only for what you use.</p>
-                        <NuxtLink to="/subscriptions" class="default-btn">Know more</NuxtLink>
+                        <NuxtLink to="/pricing" class="default-btn">Know more</NuxtLink>
                     </div>
                 </div>
             </div>

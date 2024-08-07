@@ -63,7 +63,7 @@ components: {
             { hid: 'description', name: 'description', content: 'Effortlessly handle subscription billing and boost subscription revenue with our top subscription management software for subscription businesses.' },
             { hid: 'keywords', name: 'subscription management software, subscription billing, Subscription Revenue, Subscription businesses, subscription software' },
         ],
-        link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io/subscriptions' }
+        link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io/pricing' }
         ],
     },
 }
