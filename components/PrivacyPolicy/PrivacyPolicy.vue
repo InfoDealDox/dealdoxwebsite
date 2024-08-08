@@ -444,16 +444,17 @@
         <h5>Contact Us</h5>
         <p class="text-justify">
           If you have any questions or concerns about our privacy policy, please
-          contact us at <strong> info@dealdox.com</strong> We shall get in touch
-          with you within 30 days.
+          contact us at <a href="mailto:info@dealdox.io">info@dealdox.io</a> </p>
+          
+          <p class="text-justify">We shall get in touch with you within 30 days.
         </p>
 
-        <p class="text-justify">You can also connect us on 08035376744</p>
+        <p class="text-justify">You can also connect us on Call us -<a href="tel:08035376744">  08035376744</a></p>
         <p class="text-justify">DealDox Software Pvt Ltd</p>
 
         <p class="text-justify">
-          <strong
-            >WeWork Presstige Central, 36, Infantary Road, Bangalore – 560001,
+          <strong>
+            WeWork Prestige Central, 36, Infantry Road, Bangalore – 560001,
             Karnataka, India
           </strong>
         </p>
