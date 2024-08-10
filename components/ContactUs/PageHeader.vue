@@ -89,8 +89,8 @@
                                             <div class="col-lg-6 col-md-6 col-sm-6">
                                                 <div class="form-group">
                                                     <p>Last Name</p>
-                                                    <input type="text" maxlength="40" name="last_name" class="form-control"
-                                                        id="last_name" placeholder="">
+                                                    <input type="text" maxlength="40" name="last_name"
+                                                        class="form-control" id="last_name" placeholder="">
                                                 </div>
                                             </div>
 
@@ -113,16 +113,16 @@
                                             <div class="col-lg-6 col-md-6 col-sm-6">
                                                 <div class="form-group">
                                                     <p>Company</p>
-                                                    <input type="text" maxlength="40" name="company" class="form-control"
-                                                        id="company" placeholder="">
+                                                    <input type="text" maxlength="40" name="company"
+                                                        class="form-control" id="company" placeholder="">
                                                 </div>
                                             </div>
 
                                             <div class="col-lg-6 col-md-6 col-sm-6">
                                                 <div class="form-group">
                                                     <p>Country</p>
-                                                    <input type="country" maxlength="40" name="country" class="form-control"
-                                                        id="country" placeholder="">
+                                                    <input type="country" maxlength="40" name="country"
+                                                        class="form-control" id="country" placeholder="">
                                                 </div>
                                             </div>
 
@@ -146,7 +146,8 @@
                                                 </div>
                                             </div>
 
-                                            <p> By registering, you confirm that you agree to the storing and processing of
+                                            <p> By registering, you confirm that you agree to the storing and processing
+                                                of
                                                 your personal data by DealDox as described in the<NuxtLink
                                                     to="/privacy-policy">
                                                     Privacy Statement.</NuxtLink>
@@ -159,10 +160,10 @@
                                             </div>
 
 
-                                         <div style="display: none;">
+                                            <div style="display: none;">
                                                 <label for="lead_source">Lead Source</label>
                                                 <input id="lead_source" maxlength="40" name="lead_source" size="20"
-                                                    type="text" value="Website" /><br />
+                                                    type="text" :value="paramValue ? paramValue : 'Website'"  /><br />
                                             </div>
 
 
@@ -190,6 +191,11 @@
 <script>
 
 export default {
+    computed: {
+        paramValue() {
+            return this.$route.params.source;
+        }
+    },
     data() {
         return {
             formData: {
