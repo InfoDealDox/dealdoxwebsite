@@ -1,0 +1,900 @@
+<template>
+     <div id="subscription-page" class="">
+        <div class="main_container">
+          <div class="row align-items-center sub-container" >
+            <div class="contentdata1">
+              <h2>CPQ Pricing </h2>
+            </div>
+            <div class="contentdata2">
+              <p class="contentHeading">Craft Flawless Proposals with Easy-to-Use CPQ </p>
+              <p class="contentdata_para">
+                Choose the No.1 CPQ that Grows with Your Business
+              </p>
+              <span>
+                <p class="contentHeading2">Solutions for Businesses of All Sizes </p>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="sub-container">
+            <div class="cards-section1">
+              <div class="cs"></div>
+              <div class="value-div">
+                <div class="card_sec">
+                  <div class="main_card_div">
+                    <div class="innersection">
+                      <div class="back_Image">
+                        <div class="sub_back_image">
+                        <label class="free_label">Pay-as-you-go</label>
+                        </div>
+
+                        <div class="content">
+                          <div class="card-content">
+                            <div class="card-info">Perfect for any business size, pay only for created quotes.</div>
+                          </div>
+                        </div>
+                        <div class="usd_usdclass">
+                          <div>
+                              <div class="usd_usdclass1">
+                                <div>
+                                  <span class="dollar_duration">
+                                    $<p class="currency_value"> 0 </p>
+                                  </span>
+                                </div>
+                                <span class="doller_num"> user/ month </span>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="button_div">
+                      <a href="https://www.dealdox.io/demo">
+                        <button class="try_free">Request a Demo</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="value-div" style="">
+                <div class="card_sec">
+                  <div class="main_card_div">
+                    <div class="innersection">
+                      <div class="back_Image">
+                        <div class="sub_back_image">
+                          <!-- {title && ( -->
+                            <span class="highlight_batch zplan3" >
+                              Most Popular
+                            </span>
+                          <!-- )} -->
+                          <!-- {/* <span class="highlight_batch zplan3">Most Popular</span> */} -->
+                          <label class="free_label">Standard</label>
+                        </div>
+                        <div class="content">
+                          <div class="card-content">
+                            <div class="card-info">Tailored for large enterprises with complex pricing and estimation needs.</div>
+                          </div>
+                        </div>
+                        <div class="usd_usdclass">
+                          <div>
+                            <!-- {amt && duration && ( -->
+                              <div class="usd_usdclass1">
+                                <!-- <div> -->
+                                  <span class="dollar_duration">
+                                    $<p class="currency_value"> 49 </p>
+                                  </span>
+                                <!-- </div> -->
+
+                                <span class="doller_num"> user/ month </span>
+                              </div>
+                            <!-- )} -->
+                            <!-- <span class="premium_message">Custom</span> -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="button_div">
+                      <a href="https://www.dealdox.io/contact-us">
+                        <button class="try_free">Buy Now</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="value-div" style="">
+                <div class="card_sec">
+                  <div class="main_card_div">
+                    <div class="innersection">
+                      <div class="back_Image">
+                        <div class="sub_back_image">
+                          <!-- {title && ( -->
+                            <!-- <span class="highlight_batch zplan3" >
+                              Most Popular
+                            </span> -->
+                          <!-- )} -->
+                          <!-- {/* <span class="highlight_batch zplan3">Most Popular</span> */} -->
+                          <label class="free_label">Premium</label>
+                        </div>
+
+                        <div class="content">
+                          <div class="card-content">
+                            <div class="card-info">CRM integration with streamlined quotes and approvals for growing businesses.</div>
+                          </div>
+                        </div>
+                        <div class="usd_usdclass">
+                          <div>
+                            <span class="premium_message">Custom</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="button_div">
+                      <a href="https://www.dealdox.io/contact-us">
+                        <button class="try_free">Let's Connect</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="subscription-table-container">
+        <div class="table-container-sub1">
+          <table class="centered-table1">
+            <thead role="rowgroup">
+              <tr class="table_row1" role="row">
+                <th role="columnheader" scope="col" class="table_header">
+                  <div class="sub_label-container1">
+                    <label class="checkbox_container">
+                      <input
+                        style="height:10px;width:10px"
+                        type="checkbox"
+                        :checked="hideCommonFeatures"
+                        @change="handleHideCommonFeaturesChange()"
+                      />
+                      <span class="hide_expand">Hide Common Features</span>
+                    </label>
+                  </div>
+                  <div class="sub_label-container2">
+                    <label
+                      class="checkbox_container"
+                      :checked="isEnabled"
+                      @change="handleCheckboxChange()"
+                    >
+                      <input
+                      style="height:10px;width:10px"
+                        type="checkbox"
+                      />
+                      <span class="hide_expand" v-if="isEnabled">
+                        <p> Collapse Now</p>
+                      </span>
+                      <span class="hide_expand" v-else="isEnabled">
+                        <p>Expand All</p>
+                      </span>
+                    </label>
+                  </div>
+                </th>
+                  <th
+                  v-for="(data,index) in editions" :key="index"
+                    role="columnheader"
+                    scope="col"
+                    class="table__cell2"
+                  >
+                    <div class="edition_wrapper">
+                      <div class="edition__copy__wrapper">
+                        <p class="edition_name">{{data.name}}</p>
+                        <div
+                          class="price_wrapper default"
+                          :data-currency=data.currency
+                        >
+                          <p class="edition_price">
+                            <span class="price_text__symbol">
+                              {{data.currency_symbol}}
+                            </span>
+                            <span class=""> {{data.price}} </span>
+                            <span> {{data.billing}} </span>
+                            <span>{{data.message}}</span>
+                          </p>
+                        </div>
+
+                        <div class="price_wrapper default">
+                          <span class="edition_billing">
+                            {{data.text}}
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+
+        <div class="sub_container-questions">
+          <div class="compoFeature">
+            <FeaturedData
+              :topText="'Automated Sales Proposal'"
+              :editions={editions}
+              :tableData={tableData3}
+              :initialShow={isEnabled}
+              :onDataSend={handleDataFromChild}
+              :hideCommonFeatures={hideCommonFeatures}
+            />
+            <FeaturedData
+              :topText="'Efficient Collaboration'"
+              :editions={editions}
+              :tableData={tableData4}
+              :initialShow={isEnabled}
+              :onDataSend={handleDataFromChild}
+              :hideCommonFeatures={hideCommonFeatures}
+            />
+            
+            <!-- <FeatureData
+              :topText="'Track & Monitor'"
+              :editions={editions}
+              :tableData={tableData5}
+              :initialShow={isEnabled}
+              :onDataSend={handleDataFromChild}
+              :hideCommonFeatures={hideCommonFeatures}
+            /> -->
+            <!-- <FeatureData
+              :topText="'Track & Monitor'"
+              :editions={editions}
+              :tableData={tableData5}
+              :initialShow={isEnabled}
+              :onDataSend={handleDataFromChild}
+              :hideCommonFeatures={hideCommonFeatures}
+            />
+           
+            <FeatureData
+            :topText="'Integrations & API'"
+            :editions={editions}
+            :tableData={tableData6}
+            :initialShow={isEnabled}
+            :onDataSend={handleDataFromChild}
+            :hideCommonFeatures={hideCommonFeatures}
+            />
+            <FeatureData
+            :topText="'Security & Compliance'"
+            :editions={editions}
+            :tableData={tableData7}
+            :initialShow={isEnabled}
+            :onDataSend={handleDataFromChild}
+            :hideCommonFeatures={hideCommonFeatures}
+            />
+            <FeatureData
+            :topText="'Account & Opportunity Management'"
+            :editions={editions}
+            :tableData={tableData16}
+            :initialShow={isEnabled}
+            :onDataSend={handleDataFromChild}
+            :hideCommonFeatures={hideCommonFeatures}
+            />
+            <FeatureData
+            :topText="'Approval Workflow'"
+            :editions={editions}
+            :tableData={tableData14}
+            :initialShow={isEnabled}
+            :onDataSend={handleDataFromChild}
+            :hideCommonFeatures={hideCommonFeatures}
+            />
+           
+            <FeatureData
+            :topText="'Mobile Apps'"
+            :editions={editions}
+            :tableData={tableData1}
+            :initialShow={isEnabled}
+            :onDataSend={handleDataFromChild}
+            :hideCommonFeatures={hideCommonFeatures}
+            />
+
+            <FeatureData
+            :topText="'General'"
+            :editions={editions}
+            :tableData={tableData15}
+            :initialShow={isEnabled}
+            :onDataSend={handleDataFromChild}
+            :hideCommonFeatures={hideCommonFeatures}
+            />
+            <FeatureData
+            :topText="'Customer Support'"
+            :editions={editions}
+            :tableData={tableData8}
+            :initialShow={isEnabled}
+            :onDataSend={handleDataFromChild}
+            :hideCommonFeatures={hideCommonFeatures}
+            /> -->
+          </div>
+        </div>
+        <!-- <div class="updated_date">
+          <div class="updated_date_format">Last Updated On: <span>{lastUpdatedDate}</span></div>
+        </div> -->
+      </div>
+    </div>
+</template>
+<script>
+import FeaturedData from '../Common/FeaturedData.vue';
+
+export default {
+  components:{
+    FeaturedData
+  },
+  name: "PricingDetails",
+  data() {
+       return {
+        isEnabled: true,
+        hideCommonFeatures:false,
+        showMessage:false,
+        editions : [
+            {
+            name: "PAY-AS-YOU-GO",
+            price: 0,
+            currency: "USD",
+            currency_symbol: "$",
+            billing: "/month/User",
+            // text: "REQUEST A DEMO",
+            },
+
+            {
+            name: "STANDARD",
+            price: 49,
+            currency: "USD",
+            currency_symbol: "$",
+            billing: "/month/User",
+            // text: "TRY FOR FREE",
+            },
+            {
+            name: "PREMIUM",
+
+            message: "Contact Sales",
+            },
+        ],
+        tableData1 : [
+            {
+            heading: "Android - Playstore",
+            cells: ["-", "Included", "Included"],
+            },
+            {
+            heading: "Apple - Appstore",
+            cells: ["-", "Included", "Included"],
+            },
+        ],
+        tableData2 : [
+            {
+            heading: "Generate Quotations",
+            cells: ["UnLimited", "UnLimited", "UnLimited"],
+            },
+            {
+            heading: "Seat Limit",
+            cells: ["UnLimited", "Upto 5", "UnLimited"],
+            },
+        ],
+            tableData3 : [
+                {
+                heading: "Word And PDF",
+                
+                cells: ["Included", "Included", "Included"],
+                },
+                {
+                heading: "Advanced Product Catalog",
+                cells: ["Included", "Included", "Included"],
+                },
+                {
+                heading: "Combination Of Product And Service Catalog",
+                // icon:"Hellooo",
+                // message:"thankyou",
+                cells: ["Included", "Included", "Included"],
+                },
+                {
+                heading: "Product Service And Expense Document",
+                cells: ["-", "-", "Included"],
+                },
+                {
+                heading: "Multi Tiered Documents Generated Per Proposal",
+                cells: ["-", "Included", "Included"],
+                },
+                {
+                heading: "Dynamic Documents",
+                cells: ["Included", "Included", "Included"],
+                },
+                {
+                heading: "Rules Engine",
+                cells: ["UnLimited", "UnLimited", "UnLimited"],
+                },
+                {
+                heading: "Automated Bundling",
+                cells: ["UnLimited", "UnLimited", "UnLimited"],
+                },
+                {
+                heading: "Configured Pricing",
+                cells: ["Included", "Included", "Included"],
+                },
+                {
+                heading: "Pricing Flexibility",
+                cells: ["-", "Included", "Included"],
+                },
+                {
+                heading: "Multi Tier Discounts",
+                cells: ["Included", "Included", "Included"],
+                },
+                {
+                heading: "Rate Card Versioning",
+                cells: ["Included", "Included", "Included"],
+                },
+                {
+                heading: "Global Currency Support",
+                cells: ["Included", "Included", "Included"],
+                },
+                {
+                heading: "Custom Branding",
+                cells: ["Included", "Included", "Included"],
+                },
+                {
+                heading: "Custom Document Templates",
+                cells: ["Included", "Included", "Included"],
+                },
+                {
+                heading: "Data Collection Via Forms",
+                cells: ["UnLimited", "UnLimited", "UnLimited"],
+                },
+                {
+                heading: "Rich Media Content",
+                cells: ["UnLimited", "UnLimited", "UnLimited"],
+                },
+                {
+                heading: "Custom Style",
+                cells: ["UnLimited", "UnLimited", "UnLimited"],
+                },
+                {
+                heading: "Font And Vibrant Document Styling",
+                cells: ["UnLimited", "UnLimited", "UnLimited"],
+                },
+                {
+                heading: "Dynamic Image Updates",
+                cells: ["Included", "Included", "Included"],
+                },
+                {
+                heading: "Data Split By Table",
+                cells: ["Unlimited", "Unlimited", "Unlimited"],
+                },
+                {
+                heading: "Generate Multiple Quote Iterations",
+                cells: ["Included", "Included", "Included"],
+                },
+                {
+                heading: "DealDox Watermark",
+                cells: ["Watermarked", "Unwatermarked", "Unwatermarked"],
+                },
+                {
+                heading: "Customized Content",
+                cells: ["Included", "Included", "Included"],
+                },
+                {
+                heading: "Number Of Pages",
+                cells: ["Unlimited", "Unlimited", "Unlimited"],
+                },
+                {
+                heading: "Document Types",
+                cells: ["Unlimited", "Upto 5", "Unlimited"],
+                },
+                {
+                heading: "Word Document Editing Restricted",
+                cells: ["Locked", "Locked", "UnLocked"],
+                },
+                {
+                heading: "Translingual Document",
+                cells: ["-", "-", "Included"],
+                },
+                {
+                heading: "Saving Created Deal Documents Within The Application",
+                cells: ["Included", "Included", "Included"],
+                },
+                {
+                heading: "Service And Product Line Items",
+                cells: ["UnLimited", "UnLimited", "UnLimited"],
+                },
+                {
+                heading: "Custom Quote Name",
+                cells: ["Included", "Included", "Included"],
+                },
+                {
+                heading: "Password Protection Digital Proposals",
+                cells: ["-", "-", "-"],
+                },
+                {
+                heading: "Conditional Logic Using Formula Fields",
+                cells: ["Included", "Included", "Included"],
+                },
+                {
+                heading: "Admin Enabled Self Service Configuration",
+                cells: ["-", "Included", "Included"],
+                icon:"true",
+                message:"Minimum 10 Licences to be Procured ",
+                },
+                {
+                heading: "Knowledge Articles",
+                cells: ["-", "Included", "Included"],
+                },
+            ],
+            tableData4 : [
+                {
+                heading: "Approval Workflow",
+                cells: ["-", "Included", "Included"],
+                },
+                {
+                heading: "Currency Conversions",
+                cells: ["5", "15", "UnLimited"],
+                },
+                {
+                heading: "Multi Service Templates",
+                cells: ["-", "Included", "Included"],
+                },
+                {
+                heading: "Pricing Table",
+                cells: ["Included", "Included", "Included"],
+                },
+            ],
+            tableData5 : [
+                {
+                heading: "Audit Trial",
+                cells: ["-", "-", "Included"],
+                },
+                {
+                heading: "Reports",
+                cells: ["Included", "Included", "Included"],
+                },
+            ],
+            tableData6 : [
+                {
+                heading: "CRM Integrations",
+                cells: ["-", "Included", "Included"],
+                },
+                {
+                heading: "ERP Integrations",
+                cells: ["-", "Included", "Included"],
+                },
+                {
+                heading: "PSA Integrations",
+                cells: ["-", "-", "Included"],
+                },
+                {
+                heading: "Data Merge With CRM And Quotes",
+                cells: ["-", "Included", "Included"],
+                },
+                {
+                heading: "Whatsapp Business",
+                cells: ["Included", "Included", "Included"],
+                },
+                {
+                heading: "Email",
+                cells: ["Included", "Included", "Included"],
+                },
+                {
+                heading: "Maps",
+                cells: ["-", "Included", "Included"],
+                },
+            ],
+            tableData7 : [
+                {
+                heading: "Two Factor Authentication",
+                cells: ["Included", "Included", "Included"],
+                },
+                {
+                heading: "Roles",
+                cells: ["-", "Included", "Included"],
+                },
+                {
+                heading: "Audit Logs",
+                cells: ["-", "Included", "Included"],
+                },
+                {
+                heading: "Data Encryption",
+                cells: ["Included", "Included", "Included"],
+                },
+                {
+                heading: "Field Level Security",
+                cells: ["Included", "Included", "Included"],
+                },
+                {
+                heading: "Proposal Encryption",
+                cells: ["Included", "Included", "Included"],
+                },
+                {
+                heading: "SOC 1 Type II Compliant",
+                cells: ["Included", "Included", "Included"],
+                },
+                {
+                heading: "SOC 2 Type II Compliant",
+                cells: ["Included", "Included", "Included"],
+                },
+                {
+                heading: "ISO 27001 Compliant",
+                cells: ["Included", "Included", "Included"],
+                },
+                {
+                heading: "GDPR Compliant",
+                cells: ["Included", "Included", "Included"],
+                },
+            ],
+            tableData8 : [
+                {
+                heading: "Web To Case Form",
+                cells: ["Included", "Included", "Included"],
+                },
+                {
+                heading: "Email Support",
+                cells: ["Included", "Included", "Included"],
+                },
+                {
+                heading: "Call Support",
+                cells: ["Included", "Included", "Included"],
+                },
+                {
+                heading: "Priority Call And Email Support",
+                cells: ["-", "Included", "Included"],
+                },
+                {
+                heading: "Dedicated Account Manager",
+                cells: ["-", "Included", "Included"],
+                },
+            ],
+            tableData9 : [
+                {
+                heading: "Sandbox",
+                cells: ["-", "Included", "Included"],
+                },
+                {
+                heading: "Production",
+                cells: ["Included", "Included", "Included"],
+                },
+                {
+                heading: "Super Admin Access",
+                cells: ["-", "Included", "Included"],
+                },
+                {
+                heading: "Account And Opportunity Management",
+                cells: ["-", "-", "-"],
+                },
+                {
+                heading: "Document Library",
+                cells: ["-", "-", "-"],
+                },
+                {
+                heading: "Rules Validation",
+                cells: ["-", "-", "-"],
+                },
+                {
+                heading: "Total Number Of Actions",
+                cells: ["-", "-", "-"],
+                },
+            ],
+            tableData10 : [
+                {
+                heading: "Super Admin Access",
+                cells: ["-", "Included", "Included"],
+                },
+                {
+                heading: "Account And Opportunity Management",
+                cells: ["-", "-", "-"],
+                },
+                {
+                heading: "Document Library",
+                cells: ["-", "-", "-"],
+                },
+                {
+                heading: "Rules Validation",
+                cells: ["-", "-", "-"],
+                },
+                {
+                heading: "Total Number Of Actions",
+                cells: ["-", "-", "-"],
+                },
+            ],
+            tableData11 : [
+                {
+                heading: "Guided Selling Flows Per CRM Org Account",
+                cells: ["10", "50", "100"],
+                },
+                {
+                heading: "Maximum Questions In Guided Selling (Qids)",
+                cells: ["100", "1000", "Unlimited"],
+                },
+                {
+                heading: "CSP To Create/Update Templates",
+                cells: ["-", "Included", "Included"],
+                },
+                {
+                heading: "Self Service Deployment",
+                cells: ["-", "-", "Included"],
+                },
+                {
+                heading: "Reports For Quote Creation",
+                cells: ["-", "-", "Included"],
+                },
+                {
+                heading: "Reports For Delivery",
+                cells: ["-", "-", "Included"],
+                },
+            ],
+
+            tableData12 : [
+                {
+                heading: "Total Number Of Price Rules",
+                cells: ["50", "75", "100"],
+                },
+                {
+                heading: "Module Based Conditions Per Primary Rule",
+                cells: ["10", "15", "20"],
+                },
+                {
+                heading: "Cell Range Limit Per Item In Volume Rules",
+                cells: ["200", "500", "1000"],
+                },
+                {
+                heading: "Record Range Limit Per Item In Volume Pricing Rules",
+                cells: ["200", "500", "1000"],
+                },
+            ],
+
+            tableData13 : [
+                {
+                heading: "Auto Populate Product Skus Based On Configuration Rules",
+                cells: ["50", "100", "1000"],
+                },
+                {
+                heading: "Total Number Of Product Configurations",
+                cells: ["50", "100", "1000"],
+                },
+                {
+                heading: "Module Based Conditions Count Under Primary Rule Criteria",
+                cells: ["10", "50", "100"],
+                },
+                {
+                heading: "Total Number Of Actions Per Rule Across",
+                cells: ["25", "50", "100"],
+                },
+            ],
+
+            tableData14 : [
+                {
+                heading: "Self Approvals",
+                cells: ["-", "Included", "Included"],
+                },
+                {
+                heading: "Sequential Approvals",
+                cells: ["-", "Included", "Included"],
+                },
+                {
+                heading: "Parallel Approvals",
+                cells: ["-", "Included", "Included"],
+                },
+                {
+                heading: "Threshold Based Approvals",
+                cells: ["-", "Included", "Included"],
+                },
+                {
+                heading: "Departmental Approvals",
+                cells: ["-", "-", "Included"],
+                },
+                {
+                heading: "Approval Dashboards",
+                cells: ["-", "Included", "Included"],
+                },
+            ],
+
+            tableData15 : [
+                {
+                heading: "Personal Settings",
+                cells: ["Included", "Included", "Included"],
+                },
+                {
+                heading: "Company Logo And Theme",
+                cells: ["Included", "Included", "Included"],
+                },
+                {
+                heading: "Advanced Filters",
+                cells: ["-", "Included", "Included"],
+                },
+                {
+                heading: "Translations",
+                cells: ["-", "Included", "Included"],
+                },
+                {
+                heading: "Multiple Environments",
+                cells: ["-", "Included", "Included"],
+                },
+            ],
+
+            tableData16 : [
+                {
+                heading: "Account Specific Attributes",
+                cells: ["-", "Included", "Included"],
+                },
+                {
+                heading: "Deal Specific Information",
+                cells: ["-", "Included", "Included"],
+                },
+                {
+                heading: "Quote Specific Details",
+                cells: ["-", "-", "Included"],
+                },
+            ],
+
+            cpqTableData : [
+                            {
+                            header: "Guided Selling",
+                            rows: [
+                                {
+                                heading: "Total Number Of Price Rules",
+                                cells: ["50", "75", "100"],
+                                },
+                                {
+                                heading: "Module Based Conditions Per Primary Rule",
+                                cells: ["10", "15", "20"],
+                                },
+                                {
+                                heading: "Cell Range Limit Per Item In Volume Rules",
+                                cells: ["200", "500", "1000"],
+                                },
+                                {
+                                heading: "Record Range Limit Per Item In Volume Pricing Rules",
+                                cells: ["200", "500", "1000"],
+                                },
+                            ],
+                            },
+                            {
+                            header: "Price Rules",
+                            rows: [
+                                {
+                                heading: "Total Number Of Price Rules",
+                                cells: ["50", "75", "100"],
+                                },
+                                {
+                                heading: "Module Based Conditions Per Primary Rule",
+                                cells: ["10", "15", "20"],
+                                },
+                                {
+                                heading: "Cell Range Limit Per Item In Volume Rules",
+                                cells: ["200", "500", "1000"],
+                                },
+                                {
+                                heading: "Record Range Limit Per Item In Volume Pricing Rules",
+                                cells: ["200", "500", "1000"],
+                                },
+                            ],
+                            },
+                            {
+                            header: "Product Configuration",
+                            rows: [
+                                {
+                                heading: "Total Number Of Price Rules",
+                                cells: ["50", "75", "100"],
+                                },
+                                {
+                                heading: "Module Based Conditions Per Primary Rule",
+                                cells: ["10", "15", "20"],
+                                },
+                                {
+                                heading: "Cell Range Limit Per Item In Volume Rules",
+                                cells: ["200", "500", "1000"],
+                                },
+                                {
+                                heading: "Record Range Limit Per Item In Volume Pricing Rules",
+                                cells: ["200", "500", "1000"],
+                                },
+                            ],
+                            },
+                            ]
+       }
+   },
+  methods : {
+    handleDataFromChild(data){
+    this.setReceivedData = data;
+  },
+   handleCheckboxChange() 
+   {
+    this.setIsEnabled = !isEnabled;
+   },
+  }
+   
+};
+</script>
