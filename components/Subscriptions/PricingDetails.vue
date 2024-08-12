@@ -61,7 +61,7 @@
               <div class="innersection">
                 <div class="back_Image">
                   <span class="highlight_batch zplan3">Most Popular</span>
-                  <label class="free_label">Standard</label>
+                  <label class="free_label">Premium</label>
                 </div>
                 <div class="content">
                   <div class="card-content">
@@ -91,7 +91,7 @@
             <div class="main_card_div">
               <div class="innersection">
                 <div class="back_Image">
-                  <label class="free_label">Premium</label>
+                  <label class="free_label">Enterprise</label>
                 </div>
                 <div class="content">
                   <div class="card-content">
@@ -106,7 +106,7 @@
                 </div>
               </div>
               <div class="button_div">
-                <NuxtLink :to="{ name: 'contact-us', params: { source: 'Premium' } }">
+                <NuxtLink :to="{ name: 'contact-us', params: { source: 'Enterprise' } }">
                   <button class="try_free">Let's Connect</button>
                 </NuxtLink>
               </div>
