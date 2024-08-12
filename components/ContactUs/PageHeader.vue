@@ -163,7 +163,7 @@
                                             <div style="display: none;">
                                                 <label for="lead_source">Lead Source</label>
                                                 <input id="lead_source" maxlength="40" name="lead_source" size="20"
-                                                    type="text" :value="paramValue ? paramValue : 'Website'"  /><br />
+                                                    type="text" :value="paramValue ? paramValue : 'Website'" /><br />
                                             </div>
 
 
@@ -227,19 +227,6 @@ export default {
                 event.preventDefault();
             }
         },
-        submitForm() {
-            const response = grecaptcha.getResponse();
-
-            // Check if reCAPTCHA response is available
-            if (response.length === 0) {
-                alert("Please complete the reCAPTCHA.");
-                return;
-            }
-
-            // If reCAPTCHA response is available, submit the form
-            const form = document.querySelector('form');
-            form.submit();
-        },
         validateForm() {
             this.formErrors = {};
 
@@ -285,7 +272,20 @@ export default {
         submitForm() {
             if (this.validateForm()) {
                 // Submit the form here, e.g., using Axios or fetch API
-                console.log('Form submitted successfully!');
+
+                const response = grecaptcha.getResponse();
+
+                // Check if reCAPTCHA response is available
+                if (response.length === 0) {
+                    alert("Please complete the reCAPTCHA.");
+                    return;
+                }
+
+                // If reCAPTCHA response is available, submit the form
+                const form = document.querySelector('form');
+                form.submit();
+
+
             } else {
                 console.log('Form validation failed!');
             }

@@ -7,7 +7,8 @@
                         <div class="software-integrations-inner bg-gradient-color">
                             <div class="features-content-improve-sales pt-70">
                                 <h2>Sign Up Now and Start Using DealDox CPQ! </h2>
-                                <h6>Tired of tedious Quoting? Boost Your Sales with DealDox CPQ. Sign up now and unleash its
+                                <h6>Tired of tedious Quoting? Boost Your Sales with DealDox CPQ. Sign up now and unleash
+                                    its
                                     power!</h6>
                                 <h5><strong>With DD CPQ platform, you'll experience: </strong>
                                 </h5>
@@ -76,20 +77,21 @@
                         <div class="contact-area">
                             <div class="container">
                                 <div class="contact-form">
-                                    <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8"
+                                    <form id="contact-form"
+                                        action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8"
                                         method="POST">
                                         <input name="oid" type="hidden" value="00D2v000003PByK" />
-                                        <input name="retURL" type="hidden"
-                                            value="https://dealdox.io/thank-you" />
+                                        <input name="retURL" type="hidden" value="https://dealdox.io/thank-you" />
                                         <div class="row">
-                                           <div class="col-lg-6 col-md-6 col-sm-6">
-      <div class="form-group">
-            <p>Full Name</p>
-            <input type="text" maxlength="40" name="last_name" class="form-control" id="last_name" placeholder="" required>      
-        </div>
-    </div>
+                                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                                <div class="form-group">
+                                                    <p>Full Name</p>
+                                                    <input type="text" maxlength="40" name="last_name"
+                                                        class="form-control" id="last_name" placeholder="" required>
+                                                </div>
+                                            </div>
 
-     <div class="col-lg-6 col-md-6 col-sm-6">
+                                            <div class="col-lg-6 col-md-6 col-sm-6">
                                                 <div class="form-group">
                                                     <p> Business Email</p>
                                                     <input type="email" maxlength="40" name="email" required
@@ -99,15 +101,15 @@
 
                                             <div class="col-lg-6 col-md-6 col-sm-6">
                                                 <p>Phone Number</p>
-                                                <input type="text" v-model="phoneNumber" @input="validatePhoneNumber"
-                                                    @keypress="allowOnlyNumbers" :maxlength="maxPhoneNumberLength"
+                                                <input type="text" v-model="formData.phoneNumber" @input="validatePhoneNumber"
+                                                    @keypress="allowOnlyNumbers" :maxlength="formData.maxPhoneNumberLength"
                                                     name="phone" class="form-control" id="phone" maxlength="15"
-                                                    placeholder="" :title="phoneValidationMessage" />
+                                                    placeholder="" :title="formData.phoneValidationMessage" />
                                             </div>
 
-                                           
 
-                                         
+
+
 
                                             <div class="col-lg-6 col-md-6 col-sm-6">
                                                 <div class="form-group">
@@ -117,7 +119,7 @@
                                                 </div>
                                             </div>
 
-                                           
+
 
                                             <div class="col-lg-6 col-md-6 col-sm-6">
                                                 <div class="form-group">
@@ -138,7 +140,8 @@
                                                 </div>
                                             </div>
 
-                                            <p> By registering, you confirm that you agree to the storing and processing of
+                                            <p> By registering, you confirm that you agree to the storing and processing
+                                                of
                                                 your personal data by DealDox as described in the<NuxtLink
                                                     to="/privacy-policy">
                                                     Privacy </NuxtLink> Statement. </p>
@@ -176,48 +179,65 @@
 </template>
 
 <script>
-new Vue({
-    el: '#contact-form',
-    data: {
-        formData: {
-            first_name: '',
-            phone: '',
-            email: '',
-            company: '',
-            country: '',
-            message: '',
-            agree_terms: true,
-            phoneNumber: '',
-            maxPhoneNumberLength: 15,
-            phoneValidationMessage: 'Please enter exactly 15 numeric digits',
-        },
-        errors: {}
-    },
-});
+// new Vue({
+//     el: '#contact-form',
+//     data: {
+//         formData: {
+//             first_name: '',
+//             phone: '',
+//             email: '',
+//             company: '',
+//             country: '',
+//             message: '',
+//             agree_terms: true,
+//             phoneNumber: '',
+//             maxPhoneNumberLength: 15,
+//             phoneValidationMessage: 'Please enter exactly 15 numeric digits',
+//         },
+//         errors: {}
+//     },
+// });
 
-import Vue from 'vue'
+// import Vue from 'vue'
 
 export default {
+    data() {
+        return {
+            formData: {
+                first_name: '',
+                phone: '',
+                email: '',
+                company: '',
+                country: '',
+                message: '',
+                agree_terms: true,
+                phoneNumber: '',
+                maxPhoneNumberLength: 15,
+                phoneValidationMessage: 'Please enter exactly 15 numeric digits',
+            },
+            errors: {}
+        }
+    },
 
     methods: {
 
         validatePhoneNumber() {
-      // Remove any non-numeric characters from the phone number
-      this.phoneNumber = this.phoneNumber.replace(/\D/g, '');
-    },
-    allowOnlyNumbers(event) {
-      // Allow only numeric digits (0-9) in the input field
-      const charCode = event.which ? event.which : event.keyCode;
-      if (charCode > 31 && (charCode < 48 || charCode > 57)) {
-        event.preventDefault();
-      }
-    },
+            // Remove any non-numeric characters from the phone number
+            this.formData.phoneNumber = this.formData.phoneNumber.replace(/\D/g, '');
+        },
+        allowOnlyNumbers(event) {
+            // Allow only numeric digits (0-9) in the input field
+            const charCode = event.which ? event.which : event.keyCode;
+            if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+                event.preventDefault();
+            }
+        },
         validateForm() {
             this.errors = {};
 
-             if (!this.isValidname(this.formData.name)) {
+            if (!this.isValidname(this.formData.name)) {
                 this.errors.name = 'Please enter a valid full name';
-                }
+            }
 
 
             if (!this.formData.phoneNumber) {
