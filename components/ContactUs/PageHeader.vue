@@ -96,10 +96,10 @@
 
                                             <div class="col-lg-6 col-md-6 col-sm-6">
                                                 <p>Phone Number</p>
-                                                <input type="text" v-model="phoneNumber" @input="validatePhoneNumber"
-                                                    @keypress="allowOnlyNumbers" :maxlength="maxPhoneNumberLength"
+                                                <input type="text" v-model="formData.phoneNumber" @input="validatePhoneNumber"
+                                                    @keypress="allowOnlyNumbers" :maxlength="formData.maxPhoneNumberLength"
                                                     name="phone" class="form-control" id="phone" maxlength="15"
-                                                    placeholder="" :title="phoneValidationMessage" />
+                                                    placeholder="" :title="formData.phoneValidationMessage" />
                                             </div>
 
                                             <div class="col-lg-6 col-md-6 col-sm-6">
@@ -218,7 +218,7 @@ export default {
 
         validatePhoneNumber() {
             // Remove any non-numeric characters from the phone number
-            this.phoneNumber = this.phoneNumber.replace(/\D/g, '');
+            this.formData.phoneNumber = this.formData.phoneNumber.replace(/\D/g, '');
         },
         allowOnlyNumbers(event) {
             // Allow only numeric digits (0-9) in the input field
