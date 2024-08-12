@@ -3,12 +3,27 @@
         <div class="container">
             <div class="pagination-area">
                 <div class="nav-links">
-                    <ul v-for="category in categories" :key="category.id">
-                        <!-- <li > -->
+                    <!-- <ul v-for="category in categories" :key="category.id">
+                        <li >
                         <NuxtLink :to="`/glossary-category-details/${category.attributes.slug}`" class="page-numbers">{{
                             category.attributes.name }}</NuxtLink>
-                        <!-- </li> -->
+                        </li>
+                    </ul> -->
+                    <!-- <ul v-if="glossaries !== null && groupby.length > 0">
+                        <li v-for="(alphabet, index) in groupby" :key="alphabet + '_' + index">
+                            <a v-if="alphabet && alphabet.data.length > 0" :href="`${alphabet}_${index}`">
+                                {{ alphabet.value }}
+                            </a>
+                        </li>
+                    </ul> -->
+                    <ul v-for="(alphabet, index) in groupby" :key="alphabet + '_' + index"
+                        v-if="alphabet && alphabet.data.length > 0">
+                        <a :href="`#${alphabet.value}`" class="page-numbers"
+                            @click.prevent="smoothScroll('#' + alphabet.value)">
+                            {{ alphabet.value }}
+                        </a>
                     </ul>
+
                 </div>
             </div>
             <div class="section-title">
@@ -16,8 +31,9 @@
             </div>
             <div class="row justify-content-center" v-if="glossaries !== null">
                 <div class="col-lg-12 col-md-12" v-for="glossary in groupby" :key="glossary.value">
-                    <h3 class="glossary-category ml-5"> {{ glossary.value }} </h3>
-                    <div class="single-blog-post bg-FAFAFA pt-1">
+                    <h3 class="glossary-category ml-5" v-if="glossary.data.length > 0" :id="glossary.value"> {{
+                        glossary.value }} </h3>
+                    <div class="single-blog-post bg-FAFAFA pt-1" v-if="glossary.data.length > 0">
                         <div class="row contents">
                             <div class="col-sm-3" v-for="glossData in glossary.data" :key="glossData.id">
                                 <NuxtLink class="text-decoration-underline"
@@ -66,7 +82,23 @@ export default {
             dd.push({ value: key, data: groupby[key] })
         });
         this.groupby = dd;
-        // console.log(this.groupby, 'groupby');
+        // console.log(this.groupby);
     },
+    methods: {
+        smoothScroll(target) {
+            const element = document.querySelector(target);
+            if (element) {
+                const isMobile = window.innerWidth <= 768;
+                const offset = isMobile ? 63 : 80; // Set your header height
+                const elementPosition = element.getBoundingClientRect().top + window.scrollY; 
+                const offsetPosition = elementPosition - offset;
+
+                window.scrollTo({
+                    top: offsetPosition,
+                    behavior: 'smooth' // Smooth scroll
+                });
+            }
+        }
+    }
 }
 </script>
