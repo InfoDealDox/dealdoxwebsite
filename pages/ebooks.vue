@@ -15,7 +15,7 @@
         <!-- <PageTitle class="page-title-style-two-ebook" pageTitle="Ebook"
             pageDesc="Stay Up-to-Date with Our Latest Insights, Tips, and News" /> -->
         <EbookMain />
-        <AutomatedQuotes />
+        <!-- <AutomatedQuotes /> -->
         <DealDoxFooter />
     </div>
 </template>
@@ -24,7 +24,7 @@
 import Navbar from '../layouts/Navbar';
 // import PageTitle from '../components/Common/PageTitle';
 import EbookMain from '../components/EbookFolder/EbookMain'
-import AutomatedQuotes from '../components/Common/AutomatedQuotes';
+// import AutomatedQuotes from '../components/Common/AutomatedQuotes';
 import DealDoxFooter from '../layouts/DealDoxFooter'
 import axios from 'axios';
 
@@ -34,7 +34,7 @@ export default {
         Navbar,
         // PageTitle,
         EbookMain,
-        AutomatedQuotes,
+        // AutomatedQuotes,
         DealDoxFooter,
     },
  //   data() {
