@@ -14,6 +14,7 @@
                                     <li><i class="ri-file-user-line"></i>{{
                                         details[0].attributes.blog_author.data.attributes.blog_author }}</li>
                                     <li><i class="ri-calendar-2-line"></i>{{ details[0].attributes.date }}</li>
+                                    <li><i class="ri-time-line"></i>{{ details[0].attributes.time_to_read }} {{ details[0].attributes.time_to_read === 1 ? 'min' : 'mins' }} to read</li>
                                     <!-- <li><i class="ri-message-2-line"></i><NuxtLink to="/blog-grid">(4)
                                             Comments</NuxtLink></li> -->
                                 </ul>
