@@ -338,10 +338,13 @@
   cursor: pointer;
 }
 .subscription-layout .topfeature:hover .top,
-.subscription-layout .topfeature:hover .plusminus {
+.subscription-layout .topfeature:hover .plusminus,
+.subscription-layout .header-item:hover .top,
+.subscription-layout .header-item:hover .plusminus {
   color: #715cf3;
 }
-.subscription-layout .topfeature:hover .plusminus {
+.subscription-layout .topfeature:hover .plusminus,
+.subscription-layout .header-item:hover .plusminus {
   color: #fff;
   background-color: #715cf3;
 }

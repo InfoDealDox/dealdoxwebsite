@@ -167,8 +167,6 @@
 
           <FeaturedData :topText="'Track & Monitor'" :editions="editions" :tableData="tableData5"
             :initialShow="isEnabled" :hideCommonFeatures="hideCommonFeatures" />
-          <FeaturedData :topText="'Track & Monitor'" :editions="editions" :tableData="tableData5"
-            :initialShow="isEnabled" :hideCommonFeatures="hideCommonFeatures" />
 
           <FeaturedData :topText="'Integrations & API'" :editions="editions" :tableData="tableData6"
             :initialShow="isEnabled" :hideCommonFeatures="hideCommonFeatures" />
@@ -185,6 +183,9 @@
           <FeaturedData :topText="'General'" :editions="editions" :tableData="tableData15" :initialShow="isEnabled"
             :hideCommonFeatures="hideCommonFeatures" />
           <FeaturedData :topText="'Customer Support'" :editions="editions" :tableData="tableData8"
+            :initialShow="isEnabled" :hideCommonFeatures="hideCommonFeatures" />
+
+          <FeaturedData :topText="'Configure Price Quote'" :editions="editions" :sectiontableData="cpqTableData"
             :initialShow="isEnabled" :hideCommonFeatures="hideCommonFeatures" />
         </div>
       </div>

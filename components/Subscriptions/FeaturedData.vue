@@ -11,19 +11,19 @@
           <span class="top">{{ topTextValue }}</span>
         </div>
 
-        <template v-if="tableShowValue && headersVisibleValue && topTextValue === 'Configure Price Quote'">
+        <template v-if="sectiontableDataValue && headersVisibleValue && topTextValue === 'Configure Price Quote'">
           <div class="headers-container">
             <div v-for="(section, index) in sectiontableDataValue" :key="index">
-              <div class="header-item">
+              <div class="header-item" @click="toggleHeader(section.header)" style="cursor: pointer">
                 <span class="top">{{ section.header }}</span>
-                <button style="background-color: #ececec" class="buttontopfeature" @click="toggleHeader(section.header)">
+                <button style="background-color: #ececec" class="buttontopfeature">
                   <span style="font-weight:bold" class="plusminus">
                     {{ activeHeader === section.header ? "-" : "+" }}
                   </span>
                 </button>
               </div>
               <div class="table-container-sub" v-if="activeHeader === section.header">
-                <GenerateRowTable :tableData="section.rows" />
+                <GenerateRowTable :passTableData="section.rows" />
               </div>
             </div>
           </div>
