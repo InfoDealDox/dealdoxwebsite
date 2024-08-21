@@ -14,6 +14,7 @@
                                     <li><i class="ri-file-user-line"></i>{{
                                         details[0].attributes.blog_author.data.attributes.blog_author }}</li>
                                     <li><i class="ri-calendar-2-line"></i>{{ details[0].attributes.date }}</li>
+                                    <li><i class="ri-time-line"></i>{{ details[0].attributes.time_to_read }} {{ details[0].attributes.time_to_read === 1 ? 'min' : 'mins' }} to read</li>
                                     <!-- <li><i class="ri-message-2-line"></i><NuxtLink to="/blog-grid">(4)
                                             Comments</NuxtLink></li> -->
                                 </ul>
@@ -314,6 +315,43 @@
                         </div> -->
 
                     </aside>
+                </div>
+            </div>
+        </div>
+
+        <div class="blog-author-section"
+            v-if="details[0].attributes.blog_author.data.attributes.blog_author && details[0].attributes.blog_author.data.attributes.biography">
+
+            <div class="container">
+                <h3 class="text-center mb-5" style="color: rgb(15,71,97);">About Author</h3>
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-md-4" v-if="details[0].attributes.blog_author.data.attributes.profile_picture.data">
+                        <img :src="details[0].attributes.blog_author.data.attributes.profile_picture.data.attributes.url"
+                            alt="">
+                    </div>
+                    <div class="col-md-7">
+                        <h5>{{ details[0].attributes.blog_author.data.attributes.blog_author }}</h5>
+                        <p>{{ details[0].attributes.blog_author.data.attributes.biography }}</p>
+                        <ul class="social d-flex w-100">
+                            <li v-if="details[0].attributes.blog_author.data.attributes.facebook"><a
+                                    :href="details[0].attributes.blog_author.data.attributes.facebook" class="facebook"
+                                    target="_blank" rel="noreferrer"><i class="ri-facebook-fill"></i></a>
+                            </li>
+                            <li v-if="details[0].attributes.blog_author.data.attributes.twitter"><a
+                                    :href="details[0].attributes.blog_author.data.attributes.twitter" class="twitter"
+                                    target="_blank" rel="noreferrer"><i class="ri-linkedin-fill"></i></a>
+                            </li>
+                            <li v-if="details[0].attributes.blog_author.data.attributes.linkedin"><a
+                                    :href="details[0].attributes.blog_author.data.attributes.linkedin" class="linkedin"
+                                    target="_blank" rel="noreferrer"><i class="ri-twitter-fill"></i></a>
+                            </li>
+                            <li v-if="details[0].attributes.blog_author.data.attributes.instagram"><a
+                                    :href="details[0].attributes.blog_author.data.attributes.instagram"
+                                    class="instagram" target="_blank" rel="noreferrer"><i
+                                        class="ri-instagram-line"></i></a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>

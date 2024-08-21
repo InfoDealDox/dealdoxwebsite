@@ -40,8 +40,16 @@
                                 </NuxtLink>
                             </h3>
                             <p>{{ blog.attributes.shortDesc }}</p>
-                            <ul class="meta">
-                                <li><i class="ri-time-line"></i> {{ blog.attributes.date }}</li>
+                            <!-- <pre>{{ blog.attributes.blog_categories }}</pre> -->
+
+                            <ul v-if="blog.attributes.blog_categories.data.length > 0" class="meta"
+                                style="display: flex; justify-content: flex-start; flex-wrap: wrap; overflow: hidden; max-width: 100%; align-items: center;">
+                                <!-- <li><i class="ri-time-line"></i> {{ blog.attributes.date }}</li> -->
+                                <li v-for="(category, index) in blog.attributes.blog_categories.data" :key="index"
+                                    class="default-btn"
+                                    style="margin: 5px 10px 5px 0; color: white; padding: 2px 10px; font-size: 12px; font-weight: normal; ">
+                                    {{
+                                        category.attributes.name }}</li>
                                 <!-- <li><i class="ri-time-line"></i> {{ blog.attributes.shortDesc }}</li> -->
                             </ul>
                         </div>
@@ -57,8 +65,8 @@
                             <NuxtLink to="/blog-grid" class="next page-numbers" title="Next Page"><i
                                     class="ri-arrow-right-line"></i></NuxtLink>
                         </div> -->
-                        <b-pagination v-model="currentPage" :total-rows="rows" :per-page="perPage" aria-controls="itemList"
-                            align="center"></b-pagination>
+                        <b-pagination v-model="currentPage" :total-rows="rows" :per-page="perPage"
+                            aria-controls="itemList" align="center"></b-pagination>
                     </div>
                 </div>
             </div>

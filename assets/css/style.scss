@@ -60,6 +60,7 @@ body {
     margin: 0;
     padding: 0;
     color: var(--blackColor);
+    font-family: var(--fontFamily);
 
     font: {
         size: var(--fontSize);
@@ -725,6 +726,9 @@ textarea.form-control {
     .nav-links {
         display: flex;
         align-items: center;
+        width: 100%;
+        height: fit-content;
+        overflow-x: auto;
     }
 
     .page-numbers {

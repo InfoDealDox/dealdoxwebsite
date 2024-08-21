@@ -89,17 +89,17 @@
                                             <div class="col-lg-6 col-md-6 col-sm-6">
                                                 <div class="form-group">
                                                     <p>Last Name</p>
-                                                    <input type="text" maxlength="40" name="last_name" class="form-control"
-                                                        id="last_name" placeholder="">
+                                                    <input type="text" maxlength="40" name="last_name"
+                                                        class="form-control" id="last_name" placeholder="">
                                                 </div>
                                             </div>
 
                                             <div class="col-lg-6 col-md-6 col-sm-6">
                                                 <p>Phone Number</p>
-                                                <input type="text" v-model="phoneNumber" @input="validatePhoneNumber"
-                                                    @keypress="allowOnlyNumbers" :maxlength="maxPhoneNumberLength"
+                                                <input type="text" v-model="formData.phoneNumber" @input="validatePhoneNumber"
+                                                    @keypress="allowOnlyNumbers" :maxlength="formData.maxPhoneNumberLength"
                                                     name="phone" class="form-control" id="phone" maxlength="15"
-                                                    placeholder="" :title="phoneValidationMessage" />
+                                                    placeholder="" :title="formData.phoneValidationMessage" />
                                             </div>
 
                                             <div class="col-lg-6 col-md-6 col-sm-6">
@@ -113,16 +113,16 @@
                                             <div class="col-lg-6 col-md-6 col-sm-6">
                                                 <div class="form-group">
                                                     <p>Company</p>
-                                                    <input type="text" maxlength="40" name="company" class="form-control"
-                                                        id="company" placeholder="">
+                                                    <input type="text" maxlength="40" name="company"
+                                                        class="form-control" id="company" placeholder="">
                                                 </div>
                                             </div>
 
                                             <div class="col-lg-6 col-md-6 col-sm-6">
                                                 <div class="form-group">
                                                     <p>Country</p>
-                                                    <input type="country" maxlength="40" name="country" class="form-control"
-                                                        id="country" placeholder="">
+                                                    <input type="country" maxlength="40" name="country"
+                                                        class="form-control" id="country" placeholder="">
                                                 </div>
                                             </div>
 
@@ -146,7 +146,8 @@
                                                 </div>
                                             </div>
 
-                                            <p> By registering, you confirm that you agree to the storing and processing of
+                                            <p> By registering, you confirm that you agree to the storing and processing
+                                                of
                                                 your personal data by DealDox as described in the<NuxtLink
                                                     to="/privacy-policy">
                                                     Privacy Statement.</NuxtLink>
@@ -159,10 +160,10 @@
                                             </div>
 
 
-                                         <div style="display: none;">
+                                            <div style="display: none;">
                                                 <label for="lead_source">Lead Source</label>
                                                 <input id="lead_source" maxlength="40" name="lead_source" size="20"
-                                                    type="text" value="Website" /><br />
+                                                    type="text" :value="paramValue ? paramValue : 'Website'" /><br />
                                             </div>
 
 
@@ -190,6 +191,11 @@
 <script>
 
 export default {
+    computed: {
+        paramValue() {
+            return this.$route.params.source;
+        }
+    },
     data() {
         return {
             formData: {
@@ -212,7 +218,7 @@ export default {
 
         validatePhoneNumber() {
             // Remove any non-numeric characters from the phone number
-            this.phoneNumber = this.phoneNumber.replace(/\D/g, '');
+            this.formData.phoneNumber = this.formData.phoneNumber.replace(/\D/g, '');
         },
         allowOnlyNumbers(event) {
             // Allow only numeric digits (0-9) in the input field
@@ -220,19 +226,6 @@ export default {
             if (charCode > 31 && (charCode < 48 || charCode > 57)) {
                 event.preventDefault();
             }
-        },
-        submitForm() {
-            const response = grecaptcha.getResponse();
-
-            // Check if reCAPTCHA response is available
-            if (response.length === 0) {
-                alert("Please complete the reCAPTCHA.");
-                return;
-            }
-
-            // If reCAPTCHA response is available, submit the form
-            const form = document.querySelector('form');
-            form.submit();
         },
         validateForm() {
             this.formErrors = {};
@@ -279,7 +272,20 @@ export default {
         submitForm() {
             if (this.validateForm()) {
                 // Submit the form here, e.g., using Axios or fetch API
-                console.log('Form submitted successfully!');
+
+                const response = grecaptcha.getResponse();
+
+                // Check if reCAPTCHA response is available
+                if (response.length === 0) {
+                    alert("Please complete the reCAPTCHA.");
+                    return;
+                }
+
+                // If reCAPTCHA response is available, submit the form
+                const form = document.querySelector('form');
+                form.submit();
+
+
             } else {
                 console.log('Form validation failed!');
             }

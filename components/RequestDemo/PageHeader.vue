@@ -16,7 +16,8 @@
                                             <div class="icon">
                                                 <i class="ri-check-line"></i>
                                             </div>
-                                            <p>Guided selling approach to empower sales reps, leaders, and other teams for
+                                            <p>Guided selling approach to empower sales reps, leaders, and other teams
+                                                for
                                                 efficient sales processes and optimized decision-making.</p>
                                         </li>
 
@@ -24,7 +25,8 @@
                                             <div class="icon">
                                                 <i class="ri-check-line"></i>
                                             </div>
-                                            <p>Generate Accurate and Comprehensive Quotes in Record Time at 10x speed.</p>
+                                            <p>Generate Accurate and Comprehensive Quotes in Record Time at 10x speed.
+                                            </p>
                                         </li>
 
                                         <li>
@@ -46,7 +48,8 @@
                                             <div class="icon">
                                                 <i class="ri-check-line"></i>
                                             </div>
-                                            <p>Get your deal documents in your local language, regardless of your country.
+                                            <p>Get your deal documents in your local language, regardless of your
+                                                country.
                                             </p>
                                         </li>
                                     </ul>
@@ -66,34 +69,34 @@
                         <div class="contact-area pbt-75">
                             <div class="container">
                                 <div class="contact-form">
-                                    <form id="contactForm">
+                                    <form id="contact-form">
                                         <div class="row">
                                             <div class="col-lg-6 col-md-6 col-sm-6">
                                                 <div class="form-group">
                                                     <p>First Name</p>
-                                                    <input type="text" name="name" required class="form-control" id="name"
-                                                        placeholder="">
+                                                    <input type="text" name="name" required class="form-control"
+                                                        id="name" placeholder="">
                                                 </div>
                                             </div>
                                             <div class="col-lg-6 col-md-6 col-sm-6">
                                                 <div class="form-group">
                                                     <p>Last Name</p>
-                                                    <input type="text" name="name" required class="form-control" id="name"
-                                                        placeholder="">
+                                                    <input type="text" name="name" required class="form-control"
+                                                        id="name" placeholder="">
                                                 </div>
                                             </div>
                                             <div class="col-lg-12 col-md-12 col-sm-12">
                                                 <div class="form-group">
                                                     <p>Job Title</p>
-                                                    <input type="text" name="name" required class="form-control" id="name"
-                                                        placeholder="">
+                                                    <input type="text" name="name" required class="form-control"
+                                                        id="name" placeholder="">
                                                 </div>
                                             </div>
                                             <div class="col-lg-12 col-md-12 col-sm-12">
                                                 <div class="form-group">
                                                     <p>Company</p>
-                                                    <input type="text" name="name" class="form-control" required id="name"
-                                                        placeholder="">
+                                                    <input type="text" name="name" class="form-control" required
+                                                        id="name" placeholder="">
                                                 </div>
                                             </div>
                                             <div class="col-lg-12 col-md-12 col-sm-12">
@@ -110,17 +113,18 @@
                                             <div class="col-lg-6 col-md-6 col-sm-6">
                                                 <div class="form-group">
                                                     <p>Country Region</p>
-                                                    <input type="text" name="name" required class="form-control" id="name"
-                                                        placeholder="">
+                                                    <input type="text" name="name" required class="form-control"
+                                                        id="name" placeholder="">
                                                 </div>
                                             </div>
                                             <div class="col-lg-6 col-md-6 col-sm-6">
                                                 <div class="form-group">
                                                     <p>Phone Number</p>
-                                                    <input type="text" v-model="phoneNumber" @input="validatePhoneNumber"
-                                                        @keypress="allowOnlyNumbers" :maxlength="maxPhoneNumberLength"
-                                                        name="phone" required class="form-control" id="phone" maxlength="15"
-                                                        placeholder="" :title="phoneValidationMessage" />
+                                                    <input type="text" v-model="formData.phoneNumber"
+                                                        @input="validatePhoneNumber" @keypress="allowOnlyNumbers"
+                                                        :maxlength="formData.maxPhoneNumberLength" name="phone" required
+                                                        class="form-control" id="phone" maxlength="15" placeholder=""
+                                                        :title="formData.phoneValidationMessage" />
                                                 </div>
                                             </div>
                                             <div class="col-lg-12 col-md-12 col-sm-12">
@@ -140,20 +144,22 @@
                                             </div>
 
                                             <div class="col-lg-12 col-md-12 col-sm-12">
-                                                    <div class="form-group">
-                                                        <input class="form-check-input" type="checkbox" value=""
-                                                            id="flexCheckDefault">
-                                                        <label class="form-check-label" for="flexCheckDefault">
-                                                            I agree to the <NuxtLink to="/terms-of-use"> Terms of
-                                                                Use</NuxtLink>
-                                                        </label>
-                                                    </div>
+                                                <div class="form-group">
+                                                    <input class="form-check-input" type="checkbox" value=""
+                                                        id="flexCheckDefault">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                        I agree to the <NuxtLink to="/terms-of-use"> Terms of
+                                                            Use</NuxtLink>
+                                                    </label>
                                                 </div>
+                                            </div>
 
-                                                <p> By registering, you confirm that you agree to the storing and processing of
+                                            <p> By registering, you confirm that you agree to the storing and processing
+                                                of
                                                 your personal data by DealDox as described in the<NuxtLink
                                                     to="/privacy-policy">
-                                                    Privacy Statement.  </NuxtLink></p>
+                                                    Privacy Statement. </NuxtLink>
+                                            </p>
 
                                             <div class="col-lg-12 col-md-12 col-sm-12">
                                                 <button type="submit" required class="default-btn"><i
@@ -174,95 +180,113 @@
 
 <script>
 
-new Vue({
-    el: '#contact-form',
-    data: {
-      formData: {
-        first_name: '',
-        last_name: '',
-        phone: '',
-        email: '',
-        company: '',
-        country: '',
-        message: '',
-        agree_terms: true,
-        phoneNumber: '',
-      maxPhoneNumberLength: 15,
-      phoneValidationMessage: 'Please enter exactly 15 numeric digits',
-      },
-      errors: {}
-    },
-});
+// new Vue({
+//     el: '#contact-form',
+//     data: {
+//         formData: {
+//             first_name: '',
+//             last_name: '',
+//             phone: '',
+//             email: '',
+//             company: '',
+//             country: '',
+//             message: '',
+//             agree_terms: true,
+//             phoneNumber: '',
+//             maxPhoneNumberLength: 15,
+//             phoneValidationMessage: 'Please enter exactly 15 numeric digits',
+//         },
+//         errors: {}
+//     },
+// });
 
-import Vue from 'vue'
+// import Vue from 'vue'
 
 export default {
+    data() {
+        return {
+            formData: {
+                first_name: '',
+                last_name: '',
+                phone: '',
+                email: '',
+                company: '',
+                country: '',
+                message: '',
+                agree_terms: true,
+                phoneNumber: '',
+                maxPhoneNumberLength: 15,
+                phoneValidationMessage: 'Please enter exactly 15 numeric digits',
+            },
+            errors: {}
+        }
+    },
     methods: {
 
         validatePhoneNumber() {
-      // Remove any non-numeric characters from the phone number
-      this.phoneNumber = this.phoneNumber.replace(/\D/g, '');
-    },
-    allowOnlyNumbers(event) {
-      // Allow only numeric digits (0-9) in the input field
-      const charCode = event.which ? event.which : event.keyCode;
-      if (charCode > 31 && (charCode < 48 || charCode > 57)) {
-        event.preventDefault();
-      }
-    },
-      validateForm() {
-        this.errors = {};
+            // Remove any non-numeric characters from the phone number
+            this.formData.phoneNumber = this.formData.phoneNumber.replace(/\D/g, '');
+        },
+        allowOnlyNumbers(event) {
+            // Allow only numeric digits (0-9) in the input field
+            const charCode = event.which ? event.which : event.keyCode;
+            if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+                event.preventDefault();
+            }
+        },
+        validateForm() {
+            this.errors = {};
 
-        if (!this.formData.first_name) {
-          this.errors.first_name = 'First Name is required.';
-        }
+            if (!this.formData.first_name) {
+                this.errors.first_name = 'First Name is required.';
+            }
 
-        if (!this.formData.last_name) {
-          this.errors.last_name = 'Last Name is required.';
-        }
+            if (!this.formData.last_name) {
+                this.errors.last_name = 'Last Name is required.';
+            }
 
-        if (!this.formData.phoneNumber) {
-          this.errors.phoneNumber = 'Phone is required.';
-        }
+            if (!this.formData.phoneNumber) {
+                this.errors.phoneNumber = 'Phone is required.';
+            }
 
-        if (!this.formData.email) {
-          this.errors.email = 'Email is required.';
-        } else if (!this.isValidEmail(this.formData.email)) {
-          this.errors.email = 'Please enter a valid email address.';
-        }
+            if (!this.formData.email) {
+                this.errors.email = 'Email is required.';
+            } else if (!this.isValidEmail(this.formData.email)) {
+                this.errors.email = 'Please enter a valid email address.';
+            }
 
-        if (!this.formData.company) {
-          this.errors.company = 'Company is required.';
-        }
+            if (!this.formData.company) {
+                this.errors.company = 'Company is required.';
+            }
 
-        if (!this.formData.country) {
-          this.errors.country = 'Country is required.';
-        }
+            if (!this.formData.country) {
+                this.errors.country = 'Country is required.';
+            }
 
-        if (!this.formData.message) {
-          this.errors.message = 'Message is required.';
-        }
+            if (!this.formData.message) {
+                this.errors.message = 'Message is required.';
+            }
 
-        if (!this.formData.agree_terms) {
-          this.errors.agree_terms = 'You must agree to the Terms of Use.';
-        }
+            if (!this.formData.agree_terms) {
+                this.errors.agree_terms = 'You must agree to the Terms of Use.';
+            }
 
-        return Object.keys(this.errors).length === 0;
-      },
-      isValidEmail(email) {
-        // You can implement your own email validation logic here.
-        // For a simple example, let's check if the email contains '@'.
-        return email.includes('@');
-      },
-      onSubmit() {
-        if (this.validateForm()) {
-          // Submit the form
-          // For example, you can use axios or fetch to submit the form data to the server.
-          // You can also redirect to the 'thank-you' page after successful submission.
-        //   alert('Form submitted successfully!');
-          // this.$refs.contactForm.submit(); // Uncomment this line if you want to submit the form using HTML form submission.
+            return Object.keys(this.errors).length === 0;
+        },
+        isValidEmail(email) {
+            // You can implement your own email validation logic here.
+            // For a simple example, let's check if the email contains '@'.
+            return email.includes('@');
+        },
+        onSubmit() {
+            if (this.validateForm()) {
+                // Submit the form
+                // For example, you can use axios or fetch to submit the form data to the server.
+                // You can also redirect to the 'thank-you' page after successful submission.
+                //   alert('Form submitted successfully!');
+                // this.$refs.contactForm.submit(); // Uncomment this line if you want to submit the form using HTML form submission.
+            }
         }
-      }
     },
 
 

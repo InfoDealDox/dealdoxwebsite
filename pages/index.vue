@@ -10,7 +10,7 @@
     <ImproveSales />
     <EasyCPQ />
     <AdditionalFeature />
-    <AutomatedQuotes />
+    <!-- <AutomatedQuotes /> -->
     <!-- <GetInTouch /> -->
     <Faq />
     <DealDoxFooter />
@@ -29,7 +29,7 @@ import LightningFast from '../components/IndexPage/LightningFast';
 import ImproveSales from '../components/IndexPage/ImproveSales';
 import EasyCPQ from '../components/IndexPage/EasyCPQ';
 import AdditionalFeature from '../components/IndexPage/AdditionalFeature';
-import AutomatedQuotes from '../components/IndexPage/AutomatedQuotes';
+// import AutomatedQuotes from '../components/IndexPage/AutomatedQuotes';
 // import GetInTouch from '../components/IndexPage/GetInTouch';
 import Faq from '../components/Common/Faq';
 import DealDoxFooter from '../layouts/DealDoxFooter';
@@ -49,7 +49,7 @@ export default {
     ImproveSales,
     EasyCPQ,
     AdditionalFeature,
-    AutomatedQuotes,
+    // AutomatedQuotes,
     // GetInTouch,
     Faq,
     DealDoxFooter,

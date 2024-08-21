@@ -206,6 +206,11 @@ Features Area CSS
   z-index: 1;
 }
 
+.features-area .slick-slide {
+    height: unset !important;
+    margin-bottom: 25px;
+}
+
 .single-features-box {
   -webkit-transition: var(--transition);
   transition: var(--transition);
@@ -214,6 +219,7 @@ Features Area CSS
   text-align: center;
   border-radius: 20px;
   padding: 15px 0px 15px 0px;
+  margin: 0 20px;
 }
 
 .single-features-box .icon {

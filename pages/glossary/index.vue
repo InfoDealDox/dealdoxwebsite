@@ -15,7 +15,7 @@
         <!-- <PageTitle class="page-title-style-two-glossary" pageTitle="Glossary"
             pageDesc="Stay Up-to-Date with Our Latest Insights, Tips, and News" /> -->
         <GlossaryPage />
-        <AutomatedQuotes />
+        <!-- <AutomatedQuotes /> -->
         <DealDoxFooter />
     </div>
 </template>
@@ -24,7 +24,7 @@
 import Navbar from '../../layouts/Navbar';
 // import PageTitle from '../../components/GlossaryFolder/PageTitle';
 import GlossaryPage from '../../components/GlossaryFolder/GlossaryPage'
-import AutomatedQuotes from '../../components/Common/AutomatedQuotes';
+// import AutomatedQuotes from '../../components/Common/AutomatedQuotes';
 import DealDoxFooter from '../../layouts/DealDoxFooter'
 import axios from 'axios';
 
@@ -34,7 +34,7 @@ export default {
         Navbar,
         // PageTitle,
         GlossaryPage,
-        AutomatedQuotes,
+        // AutomatedQuotes,
         DealDoxFooter,
     },
 //    data() {

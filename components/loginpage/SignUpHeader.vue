@@ -12,11 +12,11 @@
                                 <!-- <h2> Welcome to the entrance Log in to continue </h2> -->
                                 <!-- <h5>Login to your account, it takes less than a minute. Enter your email and password</h5> -->
                                 <div class="contact-form">
-                                    <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8"
+                                    <form id="contact-form"
+                                        action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8"
                                         method="POST">
                                         <input name="oid" type="hidden" value="00D2v000003PByK" />
-                                        <input name="retURL" type="hidden"
-                                            value="https://www.dealdox.io/thank-you" />
+                                        <input name="retURL" type="hidden" value="https://www.dealdox.io/thank-you" />
                                         <div class="row">
                                             <div class="col-lg-12 col-md-12 col-sm-12">
                                                 <div class="form-group">
@@ -42,8 +42,9 @@
                                                         Remember me <NuxtLink to="/terms-of-use"> </NuxtLink>
                                                     </label>
                                                     <label class="form-check-label-one" for="flexCheckDefault">
-                                                        <NuxtLink to="/sign-up-free-trial"> forgot my password?</NuxtLink>
- 
+                                                        <NuxtLink to="/sign-up-free-trial"> forgot my password?
+                                                        </NuxtLink>
+
                                                     </label>
                                                 </div>
                                             </div>
@@ -53,7 +54,8 @@
                                                         class='bx bx-paper-plane'></i>
                                                     Log In </button>
                                             </div>
-                                            <p> Haven’t joined us as a customer yet? <span class="sub-title-faq"> <NuxtLink to="/sign-up-free-trial"> Sign Up</NuxtLink>
+                                            <p> Haven’t joined us as a customer yet? <span class="sub-title-faq">
+                                                    <NuxtLink to="/sign-up-free-trial"> Sign Up</NuxtLink>
                                                 </span> </p>
 
                                         </div>
@@ -65,38 +67,38 @@
                             <div class="col-sm-4">© 2023 DealDox Pvt Ltd</div>
                             <div class="col-sm-4">All rights reserved</div>
                             <div class="col-sm-4">Privacy</div>
-                        </div>                       
+                        </div>
                     </div>
 
                     <div class="col-lg-6 col-md-12  bg-f4f4f6">
                         <div class="contact-area">
                             <div class="container">
                                 <div class="contact-form ">
-                                        <div class="row ">
-                                            <div class="section-title-home">
-                                            </div>
-                                            <div class="app-download-content-one">
-                                                <h4>Generate Quotations 10x Faster with DealDox CPQ!</h4>
-                                                <h6> Close deals faster now</h6>
-                                                <p> Introducing DealDox, your ultimate destination for streamlining
-                                                    sales processes. Emrace our Lighting Platform, delivering
-                                                    unparalleled speed and comprehensive automation for your sales
-                                                    cycle. Say goodbye to lengthy negotiations and welcome a quicker,
-                                                    more efficient way to close deals.</p>
+                                    <div class="row ">
+                                        <div class="section-title-home">
+                                        </div>
+                                        <div class="app-download-content-one">
+                                            <h4>Generate Quotations 10x Faster with DealDox CPQ!</h4>
+                                            <h6> Close deals faster now</h6>
+                                            <p> Introducing DealDox, your ultimate destination for streamlining
+                                                sales processes. Emrace our Lighting Platform, delivering
+                                                unparalleled speed and comprehensive automation for your sales
+                                                cycle. Say goodbye to lengthy negotiations and welcome a quicker,
+                                                more efficient way to close deals.</p>
 
-                                            </div>
-                                            <div class="section-title-home">
-                                            </div>
-                                            <!-- <div class="col-lg-12 col-md-12 col-sm-12">
+                                        </div>
+                                        <div class="section-title-home">
+                                        </div>
+                                        <!-- <div class="col-lg-12 col-md-12 col-sm-12">
                                                 <button type="submit" name="submit" required class="default-btn-two"><i
                                                         class='bx bx-paper-plane'></i>
                                                     Request Demo </button>
                                             </div> -->
-                                            <div class="">
-                                                <img src="../../assets/images/logingroup.png" data-aos="fade-up"
-                                                    alt="about">
-                                            </div>
+                                        <div class="">
+                                            <img src="../../assets/images/logingroup.png" data-aos="fade-up"
+                                                alt="about">
                                         </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -108,29 +110,47 @@
 </template>
 
 <script>
-new Vue({
-    el: '#contact-form',
-    data: {
-        formData: {
-            first_name: '',
-            last_name: '',
-            phone: '',
-            email: '',
-            company: '',
-            country: '',
-            message: '',
-            agree_terms: true,
-            phoneNumber: '',
-            maxPhoneNumberLength: 15,
-            phoneValidationMessage: 'Please enter exactly 15 numeric digits',
-        },
-        errors: {}
-    },
-});
+// new Vue({
+//     el: '#contact-form',
+//     data: {
+//         formData: {
+//             first_name: '',
+//             last_name: '',
+//             phone: '',
+//             email: '',
+//             company: '',
+//             country: '',
+//             message: '',
+//             agree_terms: true,
+//             phoneNumber: '',
+//             maxPhoneNumberLength: 15,
+//             phoneValidationMessage: 'Please enter exactly 15 numeric digits',
+//         },
+//         errors: {}
+//     },
+// });
 
-import Vue from 'vue'
+// import Vue from 'vue'
 
 export default {
+    data() {
+        return {
+            formData: {
+                first_name: '',
+                last_name: '',
+                phone: '',
+                email: '',
+                company: '',
+                country: '',
+                message: '',
+                agree_terms: true,
+                phoneNumber: '',
+                maxPhoneNumberLength: 15,
+                phoneValidationMessage: 'Please enter exactly 15 numeric digits',
+            },
+            errors: {}
+        }
+    },
 
     methods: {
 
