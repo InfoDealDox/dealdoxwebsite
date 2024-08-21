@@ -96,10 +96,11 @@
 
                                             <div class="col-lg-6 col-md-6 col-sm-6">
                                                 <p>Phone Number</p>
-                                                <input type="text" v-model="formData.phoneNumber" @input="validatePhoneNumber"
-                                                    @keypress="allowOnlyNumbers" :maxlength="formData.maxPhoneNumberLength"
-                                                    name="phone" class="form-control" id="phone" maxlength="15"
-                                                    placeholder="" :title="formData.phoneValidationMessage" />
+                                                <input type="text" v-model="formData.phoneNumber"
+                                                    @input="validatePhoneNumber" @keypress="allowOnlyNumbers"
+                                                    :maxlength="formData.maxPhoneNumberLength" name="phone"
+                                                    class="form-control" id="phone" maxlength="15" placeholder=""
+                                                    :title="formData.phoneValidationMessage" />
                                             </div>
 
                                             <div class="col-lg-6 col-md-6 col-sm-6">
@@ -166,9 +167,9 @@
                                                     type="text" :value="paramValue ? paramValue : 'Website'" /><br />
                                             </div>
 
-
-                                            <div class="g-recaptcha"
-                                                data-sitekey="6Lcm03wnAAAAAJ0kn_gkod9i_BiG80TaeGw_xViZ"></div>
+                                            <recaptcha />
+                                            <!-- <div class="g-recaptcha"
+                                                data-sitekey="6Lcm03wnAAAAAJ0kn_gkod9i_BiG80TaeGw_xViZ"></div> -->
 
                                             <div class="col-lg-12 col-md-12 col-sm-12">
                                                 <button type="submit" name="submit" required class="default-btn"><i
@@ -269,22 +270,27 @@ export default {
             return Object.keys(this.formErrors).length === 0;
         },
 
-        submitForm() {
+        async submitForm() {
             if (this.validateForm()) {
                 // Submit the form here, e.g., using Axios or fetch API
 
-                const response = grecaptcha.getResponse();
+                // const response = grecaptcha.getResponse();
+                const token = await this.$recaptcha.getResponse()
+
 
                 // Check if reCAPTCHA response is available
-                if (response.length === 0) {
+                if (token.length === 0) {
                     alert("Please complete the reCAPTCHA.");
                     return;
                 }
 
+
+                console.log('ReCaptcha token:', token)
+
                 // If reCAPTCHA response is available, submit the form
                 const form = document.querySelector('form');
                 form.submit();
-
+                await this.$recaptcha.reset()
 
             } else {
                 console.log('Form validation failed!');

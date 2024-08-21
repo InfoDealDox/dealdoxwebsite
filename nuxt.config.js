@@ -69,9 +69,18 @@ export default {
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
     '@nuxtjs/sitemap',
-    'nuxt-seo'
+    'nuxt-seo',
+    '@nuxtjs/recaptcha',
     // '@nuxtjs/strapi',
   ],
+
+  recaptcha: {
+    mode: 'base',
+    siteKey: '6Lcm03wnAAAAAJ0kn_gkod9i_BiG80TaeGw_xViZ',
+    size: 'normal',
+    version: 'v2',
+  },
+
 
   // site map configuration
   // sitemap: {
