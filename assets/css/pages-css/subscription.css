@@ -15,28 +15,22 @@
   width: 100%;
   font-family: "Noto Sans";
   font-size: 20px;
-  padding: 10px 10px 10px 10px;
-  /* padding-bottom: 10px;
-  display: grid;
-  grid-template-rows: 3fr 5fr; */
+  padding: 81px 10px 10px 10px;
 }
-.subscription-layout .sub-container {
-  width: 100%;
-  /* height: 100%; */
-  display: flex;
-  justify-content: center;
-  align-items: self-start;
-  margin: 20px 0;
-}
+
 .subscription-layout .cards-section1 {
   display: grid;
-  grid-template-columns: 1.25fr 3fr 3fr 3fr;
-  width: 80%;
+  grid-template-columns: 1.25fr 3fr 3fr 3fr 3fr;
+  width: 90%;
   justify-content: end;
+  gap: 13px;
+  margin: auto;
 }
-.subscription-layout .value-div {
+.subscription-layout {
   width: 93%;
-  height: 100%;
+  margin: 0px auto;
+}
+.value-div {
   margin: 0px auto;
   border: 0.1px solid #ccc;
   border-radius: 25px;
@@ -62,7 +56,7 @@
 }
 .subscription-layout .centered-table1 {
   top: 0;
-  width: 80%;
+  width: 90%;
   height: 100%;
 }
 .subscription-layout .centered-table {
@@ -166,10 +160,11 @@
   align-items: center;
   justify-content: center;
   color: #715cf3;
-  font-size: 25px;
+  font-size: 20px;
   font-family: "Noto Sans";
   font-weight: bold;
 }
+
 .subscription-layout .free_label1 {
   display: flex;
   align-items: center;
@@ -187,7 +182,7 @@
 }
 .subscription-layout .sub_row {
   display: grid;
-  grid-template-columns: 1.25fr 3fr 3fr 3fr;
+  grid-template-columns: 1.25fr 3fr 3fr 3fr 3fr;
   border-top: 0.1px solid #ccc;
   border-left: 0.1px solid #ccc;
 }
@@ -207,7 +202,7 @@
 .subscription-layout .try_free:hover {
   transform: scale(1.2);
 }
-.subscription-layout .back_Image {
+.subscription-layout {
   position: relative;
   line-height: 20px;
   color: #0b0b0b;
@@ -272,6 +267,7 @@
   /* Stick the first column */
   background-color: #fff;
   /* Match table background */
+  position: relative;
 }
 .subscription-layout .table__cell1 {
   /* border: 0.1px solid #ccc;
@@ -294,6 +290,7 @@
   z-index: 100;
   display: grid;
   grid-template-rows: 1fr 1fr;
+  background-color: white;
 }
 .subscription-layout .table__cell2 {
   border: 0.1px solid #ccc;
@@ -301,7 +298,6 @@
   text-align: center;
   vertical-align: middle;
   background-color: #f9f9f9;
-  overflow-x: auto;
   font-family: "Noto Sans";
   font-weight: 500;
   font-size: 14px;
@@ -350,17 +346,16 @@
   background-color: #715cf3;
 }
 .subscription-layout p.table_row_heading {
-  /* font-weight: 500;
-	 */
+  /* font-weight: 500; */
   font-family: "Noto Sans";
   display: inline-table;
   text-align: left;
-  /* font-weight: normal;
-	 */
-  font-size: 14px;
+  /* font-weight: normal; */
+  font-size: 13px;
   line-height: 20px;
   font-weight: 600;
 }
+
 .subscription-layout .topfeature {
   /* height: 100%;
 	 */
@@ -387,7 +382,7 @@
 	 */
 }
 .subscription-layout .border_table2 {
-  width: 80%;
+  width: 90%;
   /* max-width: 1200px;
 	 */
   /* border-radius: 10px;
@@ -472,8 +467,10 @@
   top: 82px;
   background-color: white;
   z-index: 3;
+  height: 61px;
 }
-.subscription-layout .card_sec {
+
+.subscription-layout {
   position: relative;
 }
 .subscription-layout .main_card_div {
@@ -825,9 +822,9 @@
 }
 .subscription-layout .table_row1 {
   width: 100%;
-  height: 100%;
+  height: 71px;
   display: grid;
-  grid-template-columns: 1.25fr 3fr 3fr 3fr;
+  grid-template-columns: 1.25fr 3fr 3fr 3fr 3fr;
 }
 .subscription-layout .dropdown-nav-content {
   cursor: pointer;
@@ -869,9 +866,8 @@
   border-radius: 30px;
   border-top-left-radius: 0;
   position: absolute;
-  right: -19px;
-  top: -4px;
-  font-size: 12px;
+  right: -5px;
+  font-size: 9px;
   padding: 10px;
   height: 18px;
   display: flex;
@@ -1124,9 +1120,9 @@
   width: 100%;
 }
 .subscription-layout .hover_message {
-  position: relative;
-  display: inline-block;
+  position: absolute;
   z-index: 2;
+  right: 1px;
 }
 .subscription-layout .hover_message .tooltip_text {
   visibility: hidden;
@@ -1153,4 +1149,50 @@
 .subscription-layout .hover_message:hover .tooltip_text {
   visibility: visible;
   opacity: 1;
+}
+/* updated css */
+
+.value-div {
+  position: relative;
+  height: 320px;
+  display: grid;
+  grid-template-rows: 1fr 2fr 2fr 1fr;
+}
+
+.edition_wrapper:hover {
+  font-weight: 400;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+}
+.subscription-anker-tag {
+  text-decoration: none;
+}
+.subscription-layout .sub-container {
+  width: 100%;
+  display: flex;
+  align-items: self-start;
+  margin: 20px 0;
+}
+@media (min-width: 1024px) {
+  .sub-container {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 900px) {
+  .cs {
+    min-width: 80px;
+  }
+  .value-div {
+    min-width: 200px;
+  }
+  .sub-container {
+    justify-content: flex-start;
+  }
+  .sub-container {
+    overflow: auto;
+  }
+
 }
