@@ -11,27 +11,45 @@
           <span class="top">{{ topTextValue }}</span>
         </div>
 
-        <template v-if="sectiontableDataValue && headersVisibleValue && topTextValue === 'Configure Price Quote'">
+        <template
+          v-if="
+            tableShowValue &&
+            headersVisibleValue &&
+            topTextValue === 'Configure Price Quote'
+          "
+        >
           <div class="headers-container">
             <div v-for="(section, index) in sectiontableDataValue" :key="index">
-              <div class="header-item" @click="toggleHeader(section.header)" style="cursor: pointer">
+              <div class="header-item">
                 <span class="top">{{ section.header }}</span>
-                <button style="background-color: #ececec" class="buttontopfeature">
-                  <span style="font-weight:bold" class="plusminus">
+                <button
+                  style="background-color: #ececec"
+                  class="buttontopfeature"
+                  @click="toggleHeader(section.header)"
+                >
+                  <span style="font-weight: bold" class="plusminus">
                     {{ activeHeader === section.header ? "-" : "+" }}
                   </span>
                 </button>
               </div>
-              <div class="table-container-sub" v-if="activeHeader === section.header">
-                <GenerateRowTable :passTableData="section.rows" />
+              <div
+                class="table-container-sub"
+                v-if="activeHeader === section.header"
+              >
+                <GenerateRowTable :tableData="section.rows" />
               </div>
             </div>
           </div>
         </template>
 
-        <template v-if="tableShowValue && topTextValue !== 'Configure Price Quote'">
+        <template
+          v-if="tableShowValue && topTextValue !== 'Configure Price Quote'"
+        >
           <div class="table-container-sub">
-            <GenerateRowTable :passTableData="filteredTableData" />
+            <GenerateRowTable
+              :passTableData="filteredTableData"
+              :editionsRow="editionsValue"
+            />
           </div>
         </template>
       </div>
@@ -40,12 +58,12 @@
 </template>
 
 <script>
-import GenerateRowTable from './GenerateRowTable.vue';
+import GenerateRowTable from "./GenerateRowTable.vue";
 
 export default {
-  name: 'FeaturedData',
+  name: "FeaturedData",
   components: {
-    GenerateRowTable
+    GenerateRowTable,
   },
   props: {
     topText: String,
@@ -53,7 +71,7 @@ export default {
     tableData: Array,
     initialShow: Boolean,
     hideCommonFeatures: Boolean,
-    sectiontableData: Array
+    sectiontableData: Array,
   },
   data() {
     return {
@@ -69,7 +87,7 @@ export default {
   computed: {
     filteredTableData() {
       return this.filterTableData();
-    }
+    },
   },
   methods: {
     toggleDropTable() {
@@ -87,7 +105,10 @@ export default {
       }
 
       return row1.cells.every((cell, index) => {
-        return this.normalizeCellValue(cell) === this.normalizeCellValue(row2.cells[index]);
+        return (
+          this.normalizeCellValue(cell) ===
+          this.normalizeCellValue(row2.cells[index])
+        );
       });
     },
     filterTableData() {
@@ -103,7 +124,9 @@ export default {
       const filteredData = [];
 
       for (const row of this.tableDataValue) {
-        const normalizedRow = row.cells.map(cell => this.normalizeCellValue(cell)).join('|');
+        const normalizedRow = row.cells
+          .map((cell) => this.normalizeCellValue(cell))
+          .join("|");
 
         if (!uniqueRows.has(normalizedRow)) {
           uniqueRows.add(normalizedRow);
@@ -115,9 +138,9 @@ export default {
     },
     normalizeCellValue(cell) {
       const normalizedValues = {
-        'Included': 'Included',
-        'Not included': 'Not included',
-        '-': '-',
+        Included: "Included",
+        "Not included": "Not included",
+        "-": "-",
       };
       return normalizedValues[cell] || cell; // Return normalized value or original cell
     },
@@ -126,6 +149,6 @@ export default {
     initialShow(newValue) {
       this.tableShowValue = newValue; // Sync initialShow prop with tableShowValue
     },
-  }
+  },
 };
 </script>

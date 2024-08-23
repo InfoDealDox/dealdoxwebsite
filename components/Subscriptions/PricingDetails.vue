@@ -141,198 +141,177 @@
       </div>
 
       <div class="subscription-table-container">
-      <div>
-        <div class="table-container-sub1">
-          <table class="centered-table1">
-            <thead role="rowgroup">
-              <tr class="table_row1" role="row">
-                <th role="columnheader" scope="col" class="table_header">
-                  <!-- <div class="sub_label-container1">
+        <div>
+          <div class="table-container-sub1">
+            <table class="centered-table1">
+              <thead role="rowgroup">
+                <div>
+                  <tr class="table_row1" role="row">
+                    <th role="columnheader" scope="col" class="table_header">
+                      <!-- <div class="sub_label-container1">
                   <label class="checkbox_container">
                     <input style="height:10px;width:10px" type="checkbox" v-model="hideCommonFeatures" />
                     <span class="hide_expand">Hide Common Features</span>
                   </label>
                 </div> -->
-                  <div class="sub_label-container2">
-                    <label
-                      class="checkbox_container"
-                      :checked="isEnabled"
-                      @change="handleCheckboxChange()"
-                    >
-                      <input
-                        style="height: 10px; width: 10px"
-                        type="checkbox"
-                      />
-                      <span class="hide_expand" v-if="isEnabled"
-                        >Collapse Now</span
-                      >
-                      <span class="hide_expand" v-else>Expand All</span>
-                    </label>
-                  </div>
-                </th>
-
-                <th
-                  v-for="(data, index) in editions"
-                  :key="index"
-                  role="columnheader"
-                  scope="col"
-                  class="table__cell2"
-                >
-                  <a
-                    :href="`https://devqa.dealdox.io/?paymentMode=${data.datapass}`"
-                    class="subscription-anker-tag"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <div class="edition_wrapper">
-                      <div class="edition__copy__wrapper">
-                        <div class="edition_name">{{ data.name }}</div>
-                        <div
-                          class="price_wrapper default"
-                          :data-currency="data.currency"
+                      <div class="sub_label-container2">
+                        <label
+                          class="checkbox_container"
+                          :checked="isEnabled"
+                          @change="handleCheckboxChange()"
                         >
-                          <div class="edition_price">
-                            <span class="price_text__symbol">{{
-                              data.currency_symbol
-                            }}</span>
-                            <span v-if="data.price">{{ data.price }}</span>
-                            <span v-if="data.message">{{ data.message }}</span>
-                          </div>
-                        </div>
-                        <div class="price_wrapper default">
-                          <span class="edition_billing">{{ data.text }}</span>
-                        </div>
+                          <input
+                            style="height: 10px; width: 10px"
+                            type="checkbox"
+                          />
+                          <span class="hide_expand" v-if="isEnabled"
+                            >Collapse Now</span
+                          >
+                          <span class="hide_expand" v-else>Expand All</span>
+                        </label>
                       </div>
-                    </div></a
-                  >
-                </th>
-              </tr>
-            </thead>
-          </table>
-        </div>
+                    </th>
 
-        <div class="sub_container-questions" :style="{ marginTop: '10px' }">
-          <div class="compoFeature">
-            <FeaturedData
-              :topText="'Automated Sales Proposal'"
-              :editions="editions"
-              :tableData="tableData3"
-              :initialShow="isEnabled"
-              :hideCommonFeatures="hideCommonFeatures"
-            />
-
-            <FeaturedData
-              :topText="'Efficient Collaboration'"
-              :editions="editions"
-              :tableData="tableData4"
-              :initialShow="isEnabled"
-              :hideCommonFeatures="hideCommonFeatures"
-            />
-
-            <FeaturedData
-              :topText="'Track & Monitor'"
-              :editions="editions"
-              :tableData="tableData5"
-              :initialShow="isEnabled"
-              :hideCommonFeatures="hideCommonFeatures"
-            />
-
-            <FeaturedData
-              :topText="'Integrations & API'"
-              :editions="editions"
-              :tableData="tableData6"
-              :initialShow="isEnabled"
-              :hideCommonFeatures="hideCommonFeatures"
-            />
-            <FeaturedData
-              :topText="'Security & Compliance'"
-              :editions="editions"
-              :tableData="tableData7"
-              :initialShow="isEnabled"
-              :hideCommonFeatures="hideCommonFeatures"
-            />
-            <FeaturedData
-              :topText="'Account & Opportunity Management'"
-              :editions="editions"
-              :tableData="tableData16"
-              :initialShow="isEnabled"
-              :hideCommonFeatures="hideCommonFeatures"
-            />
-            <FeaturedData
-              :topText="'Approval Workflow'"
-              :editions="editions"
-              :tableData="tableData14"
-              :initialShow="isEnabled"
-              :hideCommonFeatures="hideCommonFeatures"
-            />
-
-            <FeaturedData
-              :topText="'Mobile Apps'"
-              :editions="editions"
-              :tableData="tableData1"
-              :initialShow="isEnabled"
-              :hideCommonFeatures="hideCommonFeatures"
-            />
-
-            <FeaturedData
-              :topText="'General'"
-              :editions="editions"
-              :tableData="tableData15"
-              :initialShow="isEnabled"
-              :hideCommonFeatures="hideCommonFeatures"
-            />
-            <FeaturedData
-              :topText="'Customer Support'"
-              :editions="editions"
-              :tableData="tableData8"
-              :initialShow="isEnabled"
-              :hideCommonFeatures="hideCommonFeatures"
-            />
-            <FeaturedData
-              :topText="'AI Personal Assistant'"
-              :editions="editions"
-              :tableData="tableData17"
-              :initialShow="isEnabled"
-              :hideCommonFeatures="hideCommonFeatures"
-            />
+                    <th
+                      v-for="(data, index) in editions"
+                      :key="index"
+                      role="columnheader"
+                      scope="col"
+                      class="table__cell2"
+                    >
+                      <a
+                        :href="`https://devqa.dealdox.io/?paymentMode=${data.datapass}`"
+                        class="subscription-anker-tag"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <div class="edition_wrapper">
+                          <div class="edition__copy__wrapper">
+                            <div class="edition_name">{{ data.name }}</div>
+                            <div
+                              class="price_wrapper default"
+                              :data-currency="data.currency"
+                            >
+                              <div class="edition_price">
+                                <span class="price_text__symbol">{{
+                                  data.currency_symbol
+                                }}</span>
+                                <span v-if="data.price">{{ data.price }}</span>
+                                <span v-if="data.message">{{
+                                  data.message
+                                }}</span>
+                              </div>
+                            </div>
+                            <div class="price_wrapper default">
+                              <span class="edition_billing">{{
+                                data.text
+                              }}</span>
+                            </div>
+                          </div>
+                        </div></a
+                      >
+                    </th>
+                  </tr>
+                </div>
+              </thead>
+            </table>
           </div>
-        </div>
-        <!-- <div class="updated_date">
+
+          <div class="sub_container-questions" :style="{ marginTop: '10px' }">
+            <div class="compoFeature">
+              <FeaturedData
+                :topText="'Automated Sales Proposal'"
+                :editions="editions"
+                :tableData="tableData3"
+                :initialShow="isEnabled"
+                :hideCommonFeatures="hideCommonFeatures"
+              />
+
+              <FeaturedData
+                :topText="'Efficient Collaboration'"
+                :editions="editions"
+                :tableData="tableData4"
+                :initialShow="isEnabled"
+                :hideCommonFeatures="hideCommonFeatures"
+              />
+
+              <FeaturedDataA77
+                :topText="'Track & Monitor'"
+                :editions="editions"
+                :tableData="tableData5"
+                :initialShow="isEnabled"
+                :hideCommonFeatures="hideCommonFeatures"
+              />
+
+              <FeaturedData
+                :topText="'Integrations & API'"
+                :editions="editions"
+                :tableData="tableData6"
+                :initialShow="isEnabled"
+                :hideCommonFeatures="hideCommonFeatures"
+              />
+              <FeaturedData
+                :topText="'Security & Compliance'"
+                :editions="editions"
+                :tableData="tableData7"
+                :initialShow="isEnabled"
+                :hideCommonFeatures="hideCommonFeatures"
+              />
+              <FeaturedData
+                :topText="'Account & Opportunity Management'"
+                :editions="editions"
+                :tableData="tableData16"
+                :initialShow="isEnabled"
+                :hideCommonFeatures="hideCommonFeatures"
+              />
+              <FeaturedData
+                :topText="'Approval Workflow'"
+                :editions="editions"
+                :tableData="tableData14"
+                :initialShow="isEnabled"
+                :hideCommonFeatures="hideCommonFeatures"
+              />
+
+              <FeaturedData
+                :topText="'Mobile Apps'"
+                :editions="editions"
+                :tableData="tableData1"
+                :initialShow="isEnabled"
+                :hideCommonFeatures="hideCommonFeatures"
+              />
+              <FeaturedData
+                :topText="'Configure Price Quote'"
+                :editions="editions"
+                :sectiontableData="cpqTableData"
+                :initialShow="isEnabled"
+                :hideCommonFeatures="hideCommonFeatures"
+              />
+              <FeaturedData
+                :topText="'General'"
+                :editions="editions"
+                :tableData="tableData15"
+                :initialShow="isEnabled"
+                :hideCommonFeatures="hideCommonFeatures"
+              />
+              <FeaturedData
+                :topText="'Customer Support'"
+                :editions="editions"
+                :tableData="tableData8"
+                :initialShow="isEnabled"
+                :hideCommonFeatures="hideCommonFeatures"
+              />
+              <FeaturedData
+                :topText="'AI Personal Assistant'"
+                :editions="editions"
+                :tableData="tableData17"
+                :initialShow="isEnabled"
+                :hideCommonFeatures="hideCommonFeatures"
+              />
+            </div>
+          </div>
+          <!-- <div class="updated_date">
                 <div class="updated_date_format">Last Updated On: <span>{lastUpdatedDate}</span></div>
               </div> -->
-     </div>
-      </div>
-
-      <div class="sub_container-questions" :style="{ marginTop: '10px' }">
-        <div class="compoFeature">
-          <FeaturedData :topText="'Automated Sales Proposal'" :editions="editions" :tableData="tableData3"
-            :initialShow="isEnabled" :hideCommonFeatures="hideCommonFeatures" />
-
-          <FeaturedData :topText="'Efficient Collaboration'" :editions="editions" :tableData="tableData4"
-            :initialShow="isEnabled" :hideCommonFeatures="hideCommonFeatures" />
-
-          <FeaturedData :topText="'Track & Monitor'" :editions="editions" :tableData="tableData5"
-            :initialShow="isEnabled" :hideCommonFeatures="hideCommonFeatures" />
-
-          <FeaturedData :topText="'Integrations & API'" :editions="editions" :tableData="tableData6"
-            :initialShow="isEnabled" :hideCommonFeatures="hideCommonFeatures" />
-          <FeaturedData :topText="'Security & Compliance'" :editions="editions" :tableData="tableData7"
-            :initialShow="isEnabled" :hideCommonFeatures="hideCommonFeatures" />
-          <FeaturedData :topText="'Account & Opportunity Management'" :editions="editions" :tableData="tableData16"
-            :initialShow="isEnabled" :hideCommonFeatures="hideCommonFeatures" />
-          <FeaturedData :topText="'Approval Workflow'" :editions="editions" :tableData="tableData14"
-            :initialShow="isEnabled" :hideCommonFeatures="hideCommonFeatures" />
-
-          <FeaturedData :topText="'Mobile Apps'" :editions="editions" :tableData="tableData1" :initialShow="isEnabled"
-            :hideCommonFeatures="hideCommonFeatures" />
-
-          <FeaturedData :topText="'General'" :editions="editions" :tableData="tableData15" :initialShow="isEnabled"
-            :hideCommonFeatures="hideCommonFeatures" />
-          <FeaturedData :topText="'Customer Support'" :editions="editions" :tableData="tableData8"
-            :initialShow="isEnabled" :hideCommonFeatures="hideCommonFeatures" />
-
-          <FeaturedData :topText="'Configure Price Quote'" :editions="editions" :sectiontableData="cpqTableData"
-            :initialShow="isEnabled" :hideCommonFeatures="hideCommonFeatures" />
         </div>
       </div>
     </div>

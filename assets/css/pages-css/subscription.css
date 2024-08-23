@@ -262,16 +262,16 @@
   letter-spacing: 0.1px;
   font-family: "Noto Sans";
 }
+
 .subscription-layout .table__cell:first-child {
   left: 0;
-  /* Stick the first column */
   background-color: #fff;
-  /* Match table background */
   position: relative;
+  min-width: 150px;
 }
+
 .subscription-layout .table__cell1 {
-  /* border: 0.1px solid #ccc;
-	 */
+  /* border: 0.1px solid #ccc; */
   padding: 10px;
   text-align: center;
   vertical-align: middle;
@@ -282,7 +282,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  min-width: 150px;
 }
+
 .subscription-layout .table_header {
   border: 0.1px solid #ccc;
   vertical-align: middle;
@@ -400,7 +402,7 @@
 }
 .subscription-layout .table-container-sub {
   width: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
   /* overflow-x: auto;
 	 */
   /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -465,13 +467,13 @@
   font-weight: 600;
   font-size: 16px;
 }
-.subscription-layout .table-container-sub1 {
+/* .subscription-layout .table-container-sub1 {
   position: sticky;
   top: 82px;
   background-color: white;
   z-index: 3;
   height: 61px;
-}
+} */
 
 .subscription-layout {
   position: relative;
@@ -1128,7 +1130,7 @@
   right: 1px;
 }
 .subscription-layout .hover_message .tooltip_text {
-  visibility: hidden;
+  /* visibility: hidden; */
   width: 240px;
   height: 60px;
   background-color: #293a4b;
@@ -1182,6 +1184,24 @@
   .sub-container {
     justify-content: center;
   }
+  .subscription-main-content-box {
+    max-width: 1320px;
+    margin: auto;
+  }
+  .subscription-layout .table-container-sub1 {
+  position: sticky;
+  top: 82px;
+  background-color: white;
+  z-index: 3;
+  height: 61px;
+}
+.tbl-bl {
+display: none;
+}
+.tbl-new-row {
+display: none;
+}
+
 }
 
 @media (max-width: 900px) {
@@ -1197,5 +1217,39 @@
   .sub-container {
     overflow: auto;
   }
-
+  .border_table2 {
+    width: 100%;
+  }
+  .table-container-sub1 {
+    display: none;
+  }
+  .subscription-layout .custom-popup-container {
+    width: 88%;
+  }
+  .tbl-bl {
+    border: 0.1px solid #ccc;
+    background-image: linear-gradient(to right, #715cf3, #5c99f3);
+    color: white;
+    font-size: 13px;
+    padding: 12px;
+    min-width: 150px;
+  }
+  .tbl-new-row {
+    display: grid;
+    grid-template-columns: 1.25fr 3fr 3fr 3fr 3fr;
+    border-top: 0.1px solid #ccc;
+    border-left: 0.1px solid #ccc;
+    text-align: center;
+  }
+  
 }
+
+
+
+.rowgroup-div{
+width: 100%;
+}
+
+
+
+
