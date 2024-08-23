@@ -4,19 +4,10 @@
     <div class="container main_container">
       <div class="row align-items-center">
         <div class="contentdata1">
-          <h2>CPQ Pricing</h2>
+          <h2>DealDox CPQ Pricing for All Industries</h2>
+          <span>Boost growth with our economical pricing solutions designed for every industry</span>
         </div>
-        <div class="contentdata2">
-          <p class="contentHeading">
-            Craft Flawless Proposals with Easy-to-Use CPQ
-          </p>
-          <p class="contentdata_para">
-            Choose the No.1 CPQ that Grows with Your Business
-          </p>
-          <span>
-            <p class="contentHeading2">Solutions for Businesses of All Sizes</p>
-          </span>
-        </div>
+      
       </div>
     </div>
     <div class="subscription-main-content-box">
@@ -50,7 +41,7 @@
               </div>
 
               <div class="button_div">
-                <a href="https://www.dealdox.io/demo">
+                <a href="https://devqa.dealdox.io/register?paymentMode=payasyougo">
                   <button class="try_free">Buy Now</button>
                 </a>
               </div>
@@ -76,11 +67,9 @@
               </div>
 
               <div class="button_div">
-                <NuxtLink
-                  :to="{ name: 'contact-us', params: { source: 'Enterprise' } }"
-                >
+               <a href="https://devqa.dealdox.io/register?paymentMode=standard">
                   <button class="try_free">Buy Now</button>
-                </NuxtLink>
+                </a>
               </div>
             </div>
             <div class="value-div">
@@ -106,7 +95,7 @@
               </div>
 
               <div class="button_div">
-                <a href="https://www.dealdox.io/contact-us">
+                  <a href="https://devqa.dealdox.io/register?paymentMode=premium">
                   <button class="try_free">Buy Now</button>
                 </a>
               </div>
@@ -180,10 +169,46 @@
                       class="table__cell2"
                     >
                       <a
+                        v-if="data.name !== 'Enterprise'"
                         :href="`https://devqa.dealdox.io/?paymentMode=${data.datapass}`"
                         class="subscription-anker-tag"
                         target="_blank"
                         rel="noopener noreferrer"
+                      >
+                        <div class="edition_wrapper">
+                          <div class="edition__copy__wrapper">
+                            <div class="edition_name">{{ data.name }}</div>
+                            <div
+                              class="price_wrapper default"
+                              :data-currency="data.currency"
+                            >
+                              <div class="edition_price">
+                                <span class="price_text__symbol">{{
+                                  data.currency_symbol
+                                }}</span>
+                                <span v-if="data.price >= 0">{{
+                                  data.price
+                                }}</span>
+                                <span v-if="data.message">{{
+                                  data.message
+                                }}</span>
+                              </div>
+                            </div>
+                            <div class="price_wrapper default">
+                              <span class="edition_billing">{{
+                                data.text
+                              }}</span>
+                            </div>
+                          </div>
+                        </div></a
+                      >
+                      <NuxtLink
+                        v-if="data.name === 'Enterprise'"
+                        :to="{
+                          name: 'contact-us',
+                          params: { source: 'Enterprise' },
+                        }"
+                        class="nuxtlink-enterise"
                       >
                         <div class="edition_wrapper">
                           <div class="edition__copy__wrapper">
@@ -208,7 +233,7 @@
                               }}</span>
                             </div>
                           </div>
-                        </div></a
+                        </div></NuxtLink
                       >
                     </th>
                   </tr>
@@ -871,19 +896,19 @@ export default {
           rows: [
             {
               heading: "Total Number Of Price Rules",
-              cells: ["50", "75", "100"],
+              cells: ["25", "50", "75", "100"],
             },
             {
               heading: "Module Based Conditions Per Primary Rule",
-              cells: ["10", "15", "20"],
+              cells: ["5", "10", "15", "20"],
             },
             {
               heading: "Cell Range Limit Per Item In Volume Rules",
-              cells: ["200", "500", "1000"],
+              cells: ["100", "200", "500", "1000"],
             },
             {
               heading: "Record Range Limit Per Item In Volume Pricing Rules",
-              cells: ["200", "500", "1000"],
+              cells: ["100", "200", "500", "1000"],
             },
           ],
         },
@@ -892,19 +917,19 @@ export default {
           rows: [
             {
               heading: "Total Number Of Price Rules",
-              cells: ["50", "75", "100"],
+              cells: ["25", "50", "75", "100"],
             },
             {
               heading: "Module Based Conditions Per Primary Rule",
-              cells: ["10", "15", "20"],
+              cells: ["5", "10", "15", "20"],
             },
             {
               heading: "Cell Range Limit Per Item In Volume Rules",
-              cells: ["200", "500", "1000"],
+              cells: ["100", "200", "500", "1000"],
             },
             {
               heading: "Record Range Limit Per Item In Volume Pricing Rules",
-              cells: ["200", "500", "1000"],
+              cells: ["100", "200", "500", "1000"],
             },
           ],
         },
@@ -913,19 +938,19 @@ export default {
           rows: [
             {
               heading: "Total Number Of Price Rules",
-              cells: ["50", "75", "100"],
+              cells: ["25", "50", "75", "100"],
             },
             {
               heading: "Module Based Conditions Per Primary Rule",
-              cells: ["10", "15", "20"],
+              cells: ["5", "10", "15", "20"],
             },
             {
               heading: "Cell Range Limit Per Item In Volume Rules",
-              cells: ["200", "500", "1000"],
+              cells: ["100", "200", "500", "1000"],
             },
             {
               heading: "Record Range Limit Per Item In Volume Pricing Rules",
-              cells: ["200", "500", "1000"],
+              cells: ["100", "200", "500", "1000"],
             },
           ],
         },

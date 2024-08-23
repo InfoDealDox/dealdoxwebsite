@@ -1,9 +1,8 @@
 <template>
   <table class="centered-table">
     <tbody role="rowgroup" class="rowgroup">
-    <div class="rowgroup-div">
       <tr class="tbl-new-row">
-        <td class="tbl-bl"></td>
+        <td class="tbl-bl">Features</td>
         <td
           class="tbl-bl"
           v-for="(editionRow, index) in editionsRow"
@@ -55,9 +54,7 @@
           <span v-else>{{ cell }}</span>
         </td>
       </tr>
-      </div>
     </tbody>
-    
   </table>
 </template>
 
@@ -76,3 +73,4 @@ export default {
   },
 };
 </script>
+has context menu
