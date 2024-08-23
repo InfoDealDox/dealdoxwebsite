@@ -267,7 +267,6 @@
   left: 0;
   background-color: #fff;
   position: relative;
-  min-width: 150px;
 }
 
 .subscription-layout .table__cell1 {
@@ -1189,19 +1188,18 @@
     margin: auto;
   }
   .subscription-layout .table-container-sub1 {
-  position: sticky;
-  top: 82px;
-  background-color: white;
-  z-index: 3;
-  height: 61px;
-}
-.tbl-bl {
-display: none;
-}
-.tbl-new-row {
-display: none;
-}
-
+    position: sticky;
+    top: 82px;
+    background-color: white;
+    z-index: 3;
+    height: 61px;
+  }
+  .tbl-bl {
+    display: none;
+  }
+  .tbl-new-row {
+    display: none;
+  }
 }
 
 @media (max-width: 900px) {
@@ -1241,15 +1239,11 @@ display: none;
     border-left: 0.1px solid #ccc;
     text-align: center;
   }
-  
+  .subscription-layout .table__cell:first-child {
+    min-width: 150px;
+  }
 }
 
-
-
-.rowgroup-div{
-width: 100%;
+.rowgroup-div {
+  width: 100%;
 }
-
-
-
-
