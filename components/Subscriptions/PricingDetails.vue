@@ -302,9 +302,37 @@
               </div> -->
      </div>
       </div>
-      <div class="updated_date">
-        <div class="updated_date_format">
-          Last Updated On: <span>{{ lastUpdatedDate() }}</span>
+
+      <div class="sub_container-questions" :style="{ marginTop: '10px' }">
+        <div class="compoFeature">
+          <FeaturedData :topText="'Automated Sales Proposal'" :editions="editions" :tableData="tableData3"
+            :initialShow="isEnabled" :hideCommonFeatures="hideCommonFeatures" />
+
+          <FeaturedData :topText="'Efficient Collaboration'" :editions="editions" :tableData="tableData4"
+            :initialShow="isEnabled" :hideCommonFeatures="hideCommonFeatures" />
+
+          <FeaturedData :topText="'Track & Monitor'" :editions="editions" :tableData="tableData5"
+            :initialShow="isEnabled" :hideCommonFeatures="hideCommonFeatures" />
+
+          <FeaturedData :topText="'Integrations & API'" :editions="editions" :tableData="tableData6"
+            :initialShow="isEnabled" :hideCommonFeatures="hideCommonFeatures" />
+          <FeaturedData :topText="'Security & Compliance'" :editions="editions" :tableData="tableData7"
+            :initialShow="isEnabled" :hideCommonFeatures="hideCommonFeatures" />
+          <FeaturedData :topText="'Account & Opportunity Management'" :editions="editions" :tableData="tableData16"
+            :initialShow="isEnabled" :hideCommonFeatures="hideCommonFeatures" />
+          <FeaturedData :topText="'Approval Workflow'" :editions="editions" :tableData="tableData14"
+            :initialShow="isEnabled" :hideCommonFeatures="hideCommonFeatures" />
+
+          <FeaturedData :topText="'Mobile Apps'" :editions="editions" :tableData="tableData1" :initialShow="isEnabled"
+            :hideCommonFeatures="hideCommonFeatures" />
+
+          <FeaturedData :topText="'General'" :editions="editions" :tableData="tableData15" :initialShow="isEnabled"
+            :hideCommonFeatures="hideCommonFeatures" />
+          <FeaturedData :topText="'Customer Support'" :editions="editions" :tableData="tableData8"
+            :initialShow="isEnabled" :hideCommonFeatures="hideCommonFeatures" />
+
+          <FeaturedData :topText="'Configure Price Quote'" :editions="editions" :sectiontableData="cpqTableData"
+            :initialShow="isEnabled" :hideCommonFeatures="hideCommonFeatures" />
         </div>
       </div>
     </div>
