@@ -1121,6 +1121,8 @@
   position: absolute;
   z-index: 2;
   right: 1px;
+  background: white;
+  
 }
 .subscription-layout .hover_message .tooltip_text {
   /* visibility: hidden; */
