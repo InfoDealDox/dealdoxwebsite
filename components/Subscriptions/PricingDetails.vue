@@ -170,7 +170,7 @@
                     >
                       <a
                         v-if="data.name !== 'Enterprise'"
-                        :href="`https://devqa.dealdox.io/?paymentMode=${data.datapass}`"
+                        :href="`https://devqa.dealdox.io/register?paymentMode=${data.datapass}`"
                         class="subscription-anker-tag"
                         target="_blank"
                         rel="noopener noreferrer"
