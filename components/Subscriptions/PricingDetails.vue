@@ -5,7 +5,7 @@
       <div class="row align-items-center">
         <div class="contentdata1">
           <h2>DealDox CPQ Pricing for All Industries</h2>
-          <span>Boost growth with our economical pricing solutions designed for every industry</span>
+          <span class="boost-the-growth">Boost growth with our economical pricing solutions designed for every industry</span>
         </div>
       
       </div>
@@ -41,7 +41,7 @@
               </div>
 
               <div class="button_div">
-                <a href="https://devqa.dealdox.io/register?paymentMode=payasyougo">
+                <a href="https://devqa.dealdox.io/register?paymentMode=payAsYouGo">
                   <button class="try_free">Buy Now</button>
                 </a>
               </div>
@@ -365,7 +365,7 @@ export default {
           currency: "INR",
           currency_symbol: "₹",
           billing: "/month/User",
-          datapass: "payasyougo",
+          datapass: "payAsYouGo",
         },
         {
           name: "STANDARD",

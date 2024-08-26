@@ -20,7 +20,7 @@
 
 .subscription-layout .cards-section1 {
   display: grid;
-  grid-template-columns: 1.25fr 3fr 3fr 3fr 3fr;
+  grid-template-columns: 1.4fr 3fr 3fr 3fr 3fr;
   width: 90%;
   justify-content: end;
   gap: 13px;
@@ -127,7 +127,7 @@
   align-items: center;
   color: #715cf3;
   font-weight: 700;
-  font-size: 17px;
+  font-size: 21px;
 }
 .subscription-layout .usd_usdclass {
   display: flex;
@@ -176,7 +176,7 @@
 }
 .subscription-layout .sub_row {
   display: grid;
-  grid-template-columns: 1.25fr 3fr 3fr 3fr 3fr;
+  grid-template-columns: 1.4fr 3fr 3fr 3fr 3fr;
   border-top: 0.1px solid #ccc;
   border-left: 0.1px solid #ccc;
 }
@@ -822,7 +822,7 @@
   width: 100%;
   height: 71px;
   display: grid;
-  grid-template-columns: 1.25fr 3fr 3fr 3fr 3fr;
+  grid-template-columns: 1.4fr 3fr 3fr 3fr 3fr;
 }
 .subscription-layout .dropdown-nav-content {
   cursor: pointer;
@@ -1191,6 +1191,9 @@
   .tbl-bl {
     display: none;
   }
+  .tbl-sticky {
+    display: none;
+  }
   .tbl-new-row {
     display: none;
   }
@@ -1218,9 +1221,13 @@
   .sub-container {
     overflow-x: auto;
     overflow-y: hidden;
+    scrollbar-width: none;
   }
 
   .tbl-bl {
+    display: block;
+  }
+  .tbl-sticky {
     display: block;
   }
   .tbl-new-row {
@@ -1242,7 +1249,17 @@
     color: white;
     font-size: 13px;
     padding: 12px;
-    min-width: 150px;
+    min-width: 130px;
+  }
+  .tbl-sticky{
+    border: 0.1px solid #ccc;
+    background-image: linear-gradient(to right, #715cf3, #5c99f3);
+    color: white;
+    font-size: 13px;
+    padding: 12px;
+    min-width: 100px;
+    position: sticky;
+    left:0px;
   }
   .tbl-new-row {
     display: grid;
@@ -1252,16 +1269,23 @@
     text-align: center;
   }
   .subscription-layout .table__cell:first-child {
-    min-width: 150px;
-  }
+    min-width: 100px;
+    position: sticky;
+    left: 0px;
+}
   .subscription-layout .table-container-sub {
     width: 100%;
     overflow-x: auto;
     overflow-y: hidden;
+    scrollbar-width: none;
   }
   .subscription-layout .table-container-sub1 {
    
     display: none;
+}
+.sticky-column{
+  position: sticky;
+  left: 0px;
 }
 }
 
@@ -1294,4 +1318,8 @@
 
 ::-webkit-scrollbar {
   display: none;
+}
+.boost-the-growth{
+  color:black;
+  font-size: 16px;
 }

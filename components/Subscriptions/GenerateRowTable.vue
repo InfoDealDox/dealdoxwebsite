@@ -2,7 +2,7 @@
   <table class="centered-table">
     <tbody role="rowgroup" class="rowgroup">
       <tr class="tbl-new-row">
-        <td class="tbl-bl">Features</td>
+        <td class="tbl-sticky">Features</td>
         <td
           class="tbl-bl"
           v-for="(editionRow, index) in editionsRow"
