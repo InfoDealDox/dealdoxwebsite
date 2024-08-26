@@ -5786,6 +5786,7 @@ New Demo CSS
 .footer-wrap-area .single-footer-widget .links-list li a {
   color: var(--whiteColor);
   text-decoration: none;
+  text-align: left;
 }
 
 .footer-wrap-area .single-footer-widget .links-list li a:hover {
