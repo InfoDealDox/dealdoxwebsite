@@ -76,7 +76,7 @@ export default {
 
   recaptcha: {
     mode: 'base',
-    siteKey: '6Lcm03wnAAAAAJ0kn_gkod9i_BiG80TaeGw_xViZ',
+    siteKey: '6LcHJzAqAAAAAIAbfw4aVZ3pC3OW1iivdgXHRvtJ',
     size: 'normal',
     version: 'v2',
   },

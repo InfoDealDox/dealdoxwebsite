@@ -73,16 +73,17 @@
                         <div class="contact-area">
                             <div class="container">
                                 <div class="contact-form">
-                                    <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8"
-                                        method="POST">
+                                    <form @submit.prevent="submitForm">
                                         <input name="oid" type="hidden" value="00D2v000003PByK" />
                                         <input name="retURL" type="hidden" value="https://dealdox.io/thank-you" />
                                         <div class="row">
                                             <div class="col-lg-6 col-md-6 col-sm-6">
                                                 <div class="form-group">
                                                     <p>First Name</p>
-                                                    <input type="text" maxlength="40" name="first_name" required
+                                                    <input type="text" maxlength="40" name="first_name"
                                                         class="form-control" id="first_name" placeholder="">
+                                                    <small v-if="formErrors.first_name">{{ formErrors.first_name
+                                                        }}</small>
                                                 </div>
                                             </div>
 
@@ -106,8 +107,8 @@
                                             <div class="col-lg-6 col-md-6 col-sm-6">
                                                 <div class="form-group">
                                                     <p>Email</p>
-                                                    <input type="email" maxlength="40" name="email" required
-                                                        class="form-control" id="email" placeholder="">
+                                                    <input type="email" maxlength="40" name="email" class="form-control"
+                                                        id="email" placeholder="">
                                                 </div>
                                             </div>
 
@@ -138,7 +139,7 @@
 
                                             <div class="col-lg-12 col-md-12 col-sm-12">
                                                 <div class="form-group">
-                                                    <input class="form-check-input" required type="checkbox" value=""
+                                                    <input class="form-check-input" type="checkbox" value=""
                                                         id="flexCheckDefault">
                                                     <label class="form-check-label" for="flexCheckDefault">
                                                         I agree to the <NuxtLink to="/terms-of-use"> Terms of
@@ -271,6 +272,7 @@ export default {
         },
 
         async submitForm() {
+            //  https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8
             if (this.validateForm()) {
                 // Submit the form here, e.g., using Axios or fetch API
 
