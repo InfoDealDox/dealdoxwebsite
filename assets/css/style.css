@@ -8992,3 +8992,17 @@ a {
 .blog-details-area .blog-author-section .social li a {
   text-decoration: none;
 }
+
+
+.success-linear-gradient{
+  background-image: linear-gradient(99.01deg,#5c99f3  20.98%, #715cf3 94.62%);
+}
+.success-heading-left{
+  width:50%;
+  text-align: center;
+}
+
+.success-heading-h1{
+  color: white;
+}
+

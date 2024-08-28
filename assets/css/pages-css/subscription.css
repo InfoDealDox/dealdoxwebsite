@@ -109,8 +109,8 @@
   align-items: center;
   color: #715cf3;
   font-weight: 700;
-  font-size: 16px;
-  gap: 5px;
+  font-size: 37px;
+  gap: 2px;
 }
 .subscription-layout .currency_value {
   display: flex;
@@ -366,6 +366,7 @@
   display: grid;
   grid-template-columns: 9fr 1fr;
   background-color: #ececec;
+  cursor: pointer;
 }
 .subscription-layout .border_table {
   display: flex;
@@ -1068,7 +1069,7 @@
   justify-content: start;
   align-items: center;
 }
-.subscription-layout .animated-button {
+/* .subscription-layout .animated-button {
   margin-top: 20px;
   padding: 10px 20px;
   font-size: 16px;
@@ -1079,11 +1080,11 @@
   cursor: pointer;
   transition: background-color 0.3s ease;
   animation: zoomInOut 1s infinite;
-}
+} */
 .subscription-layout .custom-popup-footer button {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.subscription-layout .animated-button:hover {
+/* .subscription-layout .animated-button:hover {
   background-color: #0056b3;
 }
 @keyframes zoomInOut {
@@ -1096,7 +1097,7 @@
   100% {
     transform: scale(1);
   }
-}
+} */
 .subscription-layout .updated_date {
   width: 100%;
   display: flex;
@@ -1298,29 +1299,12 @@
 }
 
 
-
-::-webkit-scrollbar {
-  width: 6px; 
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: darkgrey;  
-  border-radius: 10px;  
-}
-
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
-}
-
-* {
-  scrollbar-width: thin;
-  scrollbar-color: darkgrey #f1f1f1; 
-}
-
-::-webkit-scrollbar {
-  display: none;
-}
 .boost-the-growth{
   color:black;
   font-size: 16px;
 }
+
+@media (max-width: 767px) {
+  .subscription-layout .dollar_duration {
+    font-size: 13px;
+ }}

@@ -73,7 +73,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="features-item with-border bg-FAFAFA">
                         <div class="about-img">
-                            <img src="../../assets/images/lightning-fast-quote-approvals/swiftautomated.svg"
+                            <img src="../../assets/images/cpq/MaximizeEfficiency.png"
                                 data-aos="fade-up" alt="about">
                         </div>
                     </div>

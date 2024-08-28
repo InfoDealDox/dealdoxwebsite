@@ -1,58 +1,51 @@
 <template>
-    <div class="custom-popup-overlay">
-        <div class="custom-popup-container">
-            <div class="custom-popup-content">
-                <div class="popup_png_content">
-                    <div class="custom-popup-header">
-                        <div class="custom-popup-close" @click="onClose">
-                            <i class="ri-close-fill" />
-                        </div>
-                    </div>
-                    <div class="popup_png_content22">
-                        <img class="image_config" src="~/assets/images/revised-pop-up-message.png" alt="Popup" />
-                    </div>
-
-                    <div class="popup_div">
-                        <div class="popup_para_div">
-                            <p class="popup_para">You might be interested in:</p>
-                        </div>
-
-                        <div class="popup_content_rev">
-                            <div class="popup_content_rev1">
-                                <div class="custom_popup_content_container" style="border-right: 0.1px solid #ccc;">
-                                    <nuxt-link style="font-weight: bold;" to="https://www.dealdox.io/services-cpq">
-                                        Standalone CPQ
-                                    </nuxt-link>
-                                    <p style="font-size: 14px;">Optimize Pricing & Quotes</p>
-                                </div>
-                                <div class="custom_popup_content_container1">
-                                    <nuxt-link style="font-weight: bold;" to="https://www.dealdox.io/cpq-integrations">
-                                        CPQ Integration
-                                    </nuxt-link>
-                                    <p style="font-size: 14px;">Unify Systems with CPQ</p>
-                                </div>
-                            </div>
-                        </div>
+    <div class="custom-popup-overlays">
+        <div class="custom-popup-containersss">
+            <div class="custom-popup-image-div">
+                <div class="popup-icon"  @click="onClose">
+                    <i class="ri-close-fill" />
+                </div>
+                <div class="">
+                    <img class="popup-imagess" src="~/assets/images/revised-pop-up-message.png" alt="Popup" />
+                </div>
+            </div>
+            <div class="custom-content-div">
+                <p class="">You might be interested in:</p>
+                <div class="standard-cpq-integration">
+                    <div class="standard-cpq-content" style="border-right: 0.1px solid #ccc;">
+                        <nuxt-link style="font-weight: bold;" to="https://www.dealdox.io/services-cpq">
+                            Standalone CPQ
+                        </nuxt-link>
+                        <p style="font-size: 14px;text-align: center;">Optimize Pricing & Quotes</p>
                     </div>
 
-                    <div style="padding: 10px 30px 10px;">
-                        <div class="popup_contents">
-                            <p style="font-weight: 600; font-family: 'Noto Sans'; font-size: 18px;">
-                                Spend less time on proposals, earn more.
-                            </p>
-                            <p style="font-family: 'Noto Sans';">
-                                Generate professional proposals 80% faster with DealDox CPQ.
-                            </p>
-                        </div>
-                        <div class="custom-popup-footer">
-                            <button class="animated-button" @click="navigateToPage('Request Callback')">
-                                Request a CallBack
-                            </button>
-                        </div>
+                
+                    <div class="cpq-integration-content">
+                        <nuxt-link style="font-weight: bold;" to="https://www.dealdox.io/cpq-integrations">
+                            CPQ Integration
+                        </nuxt-link>
+                        <p style="font-size: 14px;text-align: center;">Unify Systems with CPQ</p>
                     </div>
+
+                </div>
+                <div class="spend-time-proposal">
+                    <p style="font-weight: 600; text-align: center; font-size: 18px;">
+                        Spend less time on proposals, earn more.
+                    </p>
+                    <p style="text-align: center;padding-bottom: 5px;">
+                        Generate professional proposals 80% faster with DealDox CPQ.
+                    </p>
+                </div>
+                <div class="">
+                    <a href="/contact-us">
+                        <button class="animated-button">
+                            Request a CallBack
+                        </button></a>
                 </div>
             </div>
         </div>
+
+
     </div>
 </template>
 
@@ -62,8 +55,7 @@ export default {
     name: "CustomPopup",
     methods: {
         onClose() {
-            // Logic to close the popup
-            this.$emit('close'); // Emit an event to notify parent component
+                     this.$emit('close'); 
         },
         navigateToPage(paramValue) {
             this.$router.push({ name: 'contact-us', params: { source: paramValue } });
@@ -71,3 +63,8 @@ export default {
     }
 }
 </script>
+
+
+<style scoped>
+@import url(../../assets/css/pages-css/custom-popup.css);
+</style>

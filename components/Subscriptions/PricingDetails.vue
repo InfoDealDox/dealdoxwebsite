@@ -4,8 +4,8 @@
     <div class="container main_container">
       <div class="row align-items-center">
         <div class="contentdata1">
-          <h2>DealDox CPQ Pricing for All Industries</h2>
-          <span class="boost-the-growth">Boost growth with our economical pricing solutions designed for every industry</span>
+          <h2 style="text-align: center;">DealDox CPQ Pricing for All Industries</h2>
+          <span style="text-align: center;" class="boost-the-growth">Boost growth with our economical pricing solutions designed for every industry</span>
         </div>
       
       </div>

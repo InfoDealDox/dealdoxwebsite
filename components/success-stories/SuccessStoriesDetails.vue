@@ -1,10 +1,10 @@
 <template>
     <div class="new-app-main-banner-wrap-area bg-white">
         <div class="container pb-85">
-            <div class="row align-items-center">
-                <div class="col-lg-6 col-md-12">
+            <div class="row align-items-center success-linear-gradient">
+                <div class="col-lg-6 col-md-12 success-heading-left">
                     <div class="new-app-main-banner-wrap-content heading-title">
-                        <h1>{{ details[0].attributes.title }}</h1>
+                        <h1 style="color: white;">{{ details[0].attributes.title }}</h1>
                         <p> {{ details[0].attributes.shortDesc }}</p>
                     </div>
                 </div>

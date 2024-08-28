@@ -339,11 +339,11 @@
                             </li>
                             <li v-if="details[0].attributes.blog_author.data.attributes.twitter"><a
                                     :href="details[0].attributes.blog_author.data.attributes.twitter" class="twitter"
-                                    target="_blank" rel="noreferrer"><i class="ri-linkedin-fill"></i></a>
+                                    target="_blank" rel="noreferrer"><i class="ri-twitter-fill"></i></a>
                             </li>
                             <li v-if="details[0].attributes.blog_author.data.attributes.linkedin"><a
                                     :href="details[0].attributes.blog_author.data.attributes.linkedin" class="linkedin"
-                                    target="_blank" rel="noreferrer"><i class="ri-twitter-fill"></i></a>
+                                    target="_blank" rel="noreferrer"><i class="ri-linkedin-fill"></i></a>
                             </li>
                             <li v-if="details[0].attributes.blog_author.data.attributes.instagram"><a
                                     :href="details[0].attributes.blog_author.data.attributes.instagram"
