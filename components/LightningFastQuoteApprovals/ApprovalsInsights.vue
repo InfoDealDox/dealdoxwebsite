@@ -11,7 +11,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12">
-                    <div class="about-content">
+                    <div class="about-content" style="padding-left: 30px;padding-right: 0px;">
                         <h3>Approvals Insights</h3>
                         <p>DealDox makes it possible to have a delegation dashboard with all quotes accessible from a
                             single, simple insight CPQ

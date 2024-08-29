@@ -4,7 +4,7 @@
             <div class="section-title-pages">
                 <h1>Modes of Approvals</h1>
             </div>
-            <div class="row align-items-center">
+            <div class="row align-items-center" style="gap: 10px;">
 
                 <div class="col-lg-4 col-md-12">
                     <div class="features-item-free-quotes-pb with-border">

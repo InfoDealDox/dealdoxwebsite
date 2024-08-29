@@ -2,7 +2,7 @@
     <div class="custom-popup-overlays">
         <div class="custom-popup-containersss">
             <div class="custom-popup-image-div">
-                <div class="popup-icon"  @click="onClose">
+                <div class="popup-icon" @click="onClose">
                     <i class="ri-close-fill" />
                 </div>
                 <div class="">
@@ -13,17 +13,17 @@
                 <p class="">You might be interested in:</p>
                 <div class="standard-cpq-integration">
                     <div class="standard-cpq-content" style="border-right: 0.1px solid #ccc;">
-                        <nuxt-link style="font-weight: bold;" to="https://www.dealdox.io/services-cpq">
+                        <a style="font-weight: bold;" href="/services-cpq">
                             Standalone CPQ
-                        </nuxt-link>
+                        </a>
                         <p style="font-size: 14px;text-align: center;">Optimize Pricing & Quotes</p>
                     </div>
 
-                
+
                     <div class="cpq-integration-content">
-                        <nuxt-link style="font-weight: bold;" to="https://www.dealdox.io/cpq-integrations">
+                        <a style="font-weight: bold;" href="/cpq-integrations">
                             CPQ Integration
-                        </nuxt-link>
+                        </a>
                         <p style="font-size: 14px;text-align: center;">Unify Systems with CPQ</p>
                     </div>
 
@@ -55,7 +55,7 @@ export default {
     name: "CustomPopup",
     methods: {
         onClose() {
-                     this.$emit('close'); 
+            this.$emit('close');
         },
         navigateToPage(paramValue) {
             this.$router.push({ name: 'contact-us', params: { source: paramValue } });

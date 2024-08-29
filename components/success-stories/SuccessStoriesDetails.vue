@@ -1,19 +1,14 @@
 <template>
     <div class="new-app-main-banner-wrap-area bg-white">
         <div class="container pb-85">
-            <div class="row align-items-center success-linear-gradient">
-                <div class="col-lg-6 col-md-12 success-heading-left">
-                    <div class="new-app-main-banner-wrap-content heading-title">
-                        <h1 style="color: white;">{{ details[0].attributes.title }}</h1>
-                        <p> {{ details[0].attributes.shortDesc }}</p>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-12">
-                    <div class="new-app-main-banner-wrap-image" data-aos="fade-left" data-aos-duration="2000">
-                        <img :src="details[0].attributes.image.data.attributes.url" alt="image">
-                    </div>
+
+
+            <div style="width: 100%;">
+                <div class="new-app-main-banner-wrap-image" data-aos="fade-left" data-aos-duration="2000">
+                    <img :src="details[0].attributes.image.data.attributes.url" alt="image"  class="success-story-image">
                 </div>
             </div>
+
         </div>
         <div class="blog-details-area">
             <div class="container">
