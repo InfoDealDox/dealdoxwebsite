@@ -17,7 +17,7 @@
 
                     <div class="collapse navbar-collapse" :class="{ show: active }">
                         <ul class="navbar-nav">
-                            <li class="nav-item"><a href="/#" class="toggle nav-link">Home</a>
+                            <li class="nav-item"><NuxtLink to="/" class="toggle nav-link">Home</NuxtLink>
                             </li>
 
                             <li class="nav-item"><a href="#" class="dropdown-toggle nav-link">Platform</a>
@@ -71,7 +71,7 @@
                             </li>
 
 
-                            <li class="nav-item"><a href="/pricing" class="toggle nav-link">Pricing</a>
+                            <li class="nav-item"><NuxtLink to="/pricing" class="toggle nav-link">Pricing</NuxtLink>
                             </li>
 
                             <li class="nav-item"><a href="#" class="dropdown-toggle nav-link">Company</a>
@@ -102,7 +102,7 @@
                                 </ul>
                             </li>
 
-                                <li class="nav-item"><a href="/contact-us" class="toggle nav-link">Contact Us</a>
+                                <li class="nav-item"><NuxtLink to="/contact-us" class="toggle nav-link">Contact Us</NuxtLink>
                             </li>
                             
                         </ul>
