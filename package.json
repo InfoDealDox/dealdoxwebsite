@@ -10,6 +10,7 @@
     },
     "dependencies": {
         "@nuxtjs/axios": "^5.13.6",
+        "@nuxtjs/redirect-module": "^0.3.1",
         "@nuxtjs/sitemap": "^2.4.0",
         "@nuxtjs/strapi": "^1.9.1",
         "@vue/cli-plugin-babel": "^5.0.8",

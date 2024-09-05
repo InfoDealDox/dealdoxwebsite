@@ -5,6 +5,7 @@
 </template>
 
 <script>
+
 export default {
     name: 'GoTop',
     data() {
@@ -27,6 +28,11 @@ export default {
                 that.isTop = false
             }
         })
+    },
+    watch: {
+        '$route.path': function (newPath, oldPath) {
+            document.body.removeAttribute('style')
+        }
     }
 }
 </script>
