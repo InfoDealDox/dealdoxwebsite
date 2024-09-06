@@ -5,9 +5,10 @@
       <div class="row align-items-center">
         <div class="contentdata1">
           <h2 style="text-align: center;">DealDox CPQ Pricing for All Industries</h2>
-          <span style="text-align: center;" class="boost-the-growth">Boost growth with our economical pricing solutions designed for every industry</span>
+          <span style="text-align: center;" class="boost-the-growth">Boost growth with our economical pricing solutions
+            designed for every industry</span>
         </div>
-      
+
       </div>
     </div>
     <div class="subscription-main-content-box">
@@ -67,7 +68,7 @@
               </div>
 
               <div class="button_div">
-               <a href="https://devqa.dealdox.io/register?paymentMode=standard">
+                <a href="https://devqa.dealdox.io/register?paymentMode=standard">
                   <button class="try_free">Buy Now</button>
                 </a>
               </div>
@@ -79,8 +80,10 @@
               <div class="content">
                 <div class="card-content">
                   <div class="card-info">
-                    For large enterprises with complex pricing & estimation
-                    needs.
+
+
+
+                    Streamline quotes and workflow approvals with CRM integration for growing businesses.
                   </div>
                 </div>
               </div>
@@ -95,7 +98,7 @@
               </div>
 
               <div class="button_div">
-                  <a href="https://devqa.dealdox.io/register?paymentMode=premium">
+                <a href="https://devqa.dealdox.io/register?paymentMode=premium">
                   <button class="try_free">Buy Now</button>
                 </a>
               </div>
@@ -106,8 +109,8 @@
               <div class="content">
                 <div class="card-content">
                   <div class="card-info">
-                    CRM integration with quotes & workflow approvals for growing
-                    businesses.
+                    For large enterprises with complex pricing & estimation
+                    needs.
                   </div>
                 </div>
               </div>
@@ -118,9 +121,7 @@
               </div>
 
               <div class="button_div">
-                <NuxtLink
-                  :to="{ name: 'contact-us', params: { source: 'Enterprise' } }"
-                >
+                <NuxtLink :to="{ name: 'contact-us', params: { source: 'Enterprise' } }">
                   <button class="try_free">Let's Connect</button>
                 </NuxtLink>
               </div>
@@ -144,44 +145,23 @@
                   </label>
                 </div> -->
                       <div class="sub_label-container2">
-                        <label
-                          class="checkbox_container"
-                          :checked="isEnabled"
-                          @change="handleCheckboxChange()"
-                        >
-                          <input
-                            style="height: 10px; width: 10px"
-                            type="checkbox"
-                          />
-                          <span class="hide_expand" v-if="isEnabled"
-                            >Collapse Now</span
-                          >
+                        <label class="checkbox_container" :checked="isEnabled" @change="handleCheckboxChange()">
+                          <input style="height: 10px; width: 10px" type="checkbox" />
+                          <span class="hide_expand" v-if="isEnabled">Collapse Now</span>
                           <span class="hide_expand" v-else>Expand All</span>
                         </label>
                       </div>
                     </th>
 
-                    <th
-                      v-for="(data, index) in editions"
-                      :key="index"
-                      role="columnheader"
-                      scope="col"
-                      class="table__cell2"
-                    >
-                      <a
-                        v-if="data.name !== 'Enterprise'"
+                    <th v-for="(data, index) in editions" :key="index" role="columnheader" scope="col"
+                      class="table__cell2">
+                      <a v-if="data.name !== 'Enterprise'"
                         :href="`https://devqa.dealdox.io/register?paymentMode=${data.datapass}`"
-                        class="subscription-anker-tag"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
+                        class="subscription-anker-tag" target="_blank" rel="noopener noreferrer">
                         <div class="edition_wrapper">
                           <div class="edition__copy__wrapper">
                             <div class="edition_name">{{ data.name }}</div>
-                            <div
-                              class="price_wrapper default"
-                              :data-currency="data.currency"
-                            >
+                            <div class="price_wrapper default" :data-currency="data.currency">
                               <div class="edition_price">
                                 <span class="price_text__symbol">{{
                                   data.currency_symbol
@@ -200,23 +180,16 @@
                               }}</span>
                             </div>
                           </div>
-                        </div></a
-                      >
-                      <NuxtLink
-                        v-if="data.name === 'Enterprise'"
-                        :to="{
-                          name: 'contact-us',
-                          params: { source: 'Enterprise' },
-                        }"
-                        class="nuxtlink-enterise"
-                      >
+                        </div>
+                      </a>
+                      <NuxtLink v-if="data.name === 'Enterprise'" :to="{
+                        name: 'contact-us',
+                        params: { source: 'Enterprise' },
+                      }" class="nuxtlink-enterise">
                         <div class="edition_wrapper">
                           <div class="edition__copy__wrapper">
                             <div class="edition_name">{{ data.name }}</div>
-                            <div
-                              class="price_wrapper default"
-                              :data-currency="data.currency"
-                            >
+                            <div class="price_wrapper default" :data-currency="data.currency">
                               <div class="edition_price">
                                 <span class="price_text__symbol">{{
                                   data.currency_symbol
@@ -233,8 +206,8 @@
                               }}</span>
                             </div>
                           </div>
-                        </div></NuxtLink
-                      >
+                        </div>
+                      </NuxtLink>
                     </th>
                   </tr>
                 </div>
@@ -244,94 +217,34 @@
 
           <div class="sub_container-questions" :style="{ marginTop: '10px' }">
             <div class="compoFeature">
-              <FeaturedData
-                :topText="'Automated Sales Proposal'"
-                :editions="editions"
-                :tableData="tableData3"
-                :initialShow="isEnabled"
-                :hideCommonFeatures="hideCommonFeatures"
-              />
+              <FeaturedData :topText="'Automated Sales Proposal'" :editions="editions" :tableData="tableData3"
+                :initialShow="isEnabled" :hideCommonFeatures="hideCommonFeatures" />
 
-              <FeaturedData
-                :topText="'Efficient Collaboration'"
-                :editions="editions"
-                :tableData="tableData4"
-                :initialShow="isEnabled"
-                :hideCommonFeatures="hideCommonFeatures"
-              />
+              <FeaturedData :topText="'Efficient Collaboration'" :editions="editions" :tableData="tableData4"
+                :initialShow="isEnabled" :hideCommonFeatures="hideCommonFeatures" />
 
-              <FeaturedDataA77
-                :topText="'Track & Monitor'"
-                :editions="editions"
-                :tableData="tableData5"
-                :initialShow="isEnabled"
-                :hideCommonFeatures="hideCommonFeatures"
-              />
+              <FeaturedDataA77 :topText="'Track & Monitor'" :editions="editions" :tableData="tableData5"
+                :initialShow="isEnabled" :hideCommonFeatures="hideCommonFeatures" />
 
-              <FeaturedData
-                :topText="'Integrations & API'"
-                :editions="editions"
-                :tableData="tableData6"
-                :initialShow="isEnabled"
-                :hideCommonFeatures="hideCommonFeatures"
-              />
-              <FeaturedData
-                :topText="'Security & Compliance'"
-                :editions="editions"
-                :tableData="tableData7"
-                :initialShow="isEnabled"
-                :hideCommonFeatures="hideCommonFeatures"
-              />
-              <FeaturedData
-                :topText="'Account & Opportunity Management'"
-                :editions="editions"
-                :tableData="tableData16"
-                :initialShow="isEnabled"
-                :hideCommonFeatures="hideCommonFeatures"
-              />
-              <FeaturedData
-                :topText="'Approval Workflow'"
-                :editions="editions"
-                :tableData="tableData14"
-                :initialShow="isEnabled"
-                :hideCommonFeatures="hideCommonFeatures"
-              />
+              <FeaturedData :topText="'Integrations & API'" :editions="editions" :tableData="tableData6"
+                :initialShow="isEnabled" :hideCommonFeatures="hideCommonFeatures" />
+              <FeaturedData :topText="'Security & Compliance'" :editions="editions" :tableData="tableData7"
+                :initialShow="isEnabled" :hideCommonFeatures="hideCommonFeatures" />
+              <FeaturedData :topText="'Account & Opportunity Management'" :editions="editions" :tableData="tableData16"
+                :initialShow="isEnabled" :hideCommonFeatures="hideCommonFeatures" />
+              <FeaturedData :topText="'Approval Workflow'" :editions="editions" :tableData="tableData14"
+                :initialShow="isEnabled" :hideCommonFeatures="hideCommonFeatures" />
 
-              <FeaturedData
-                :topText="'Mobile Apps'"
-                :editions="editions"
-                :tableData="tableData1"
-                :initialShow="isEnabled"
-                :hideCommonFeatures="hideCommonFeatures"
-              />
-              <FeaturedData
-                :topText="'Configure Price Quote'"
-                :editions="editions"
-                :sectiontableData="cpqTableData"
-                :initialShow="isEnabled"
-                :hideCommonFeatures="hideCommonFeatures"
-              />
-              <FeaturedData
-                :topText="'General'"
-                :editions="editions"
-                :tableData="tableData15"
-                :initialShow="isEnabled"
-                :hideCommonFeatures="hideCommonFeatures"
-              />
-              <FeaturedData
-                :topText="'Customer Support'"
-                :editions="editions"
-                :tableData="tableData8"
-                :initialShow="isEnabled"
-                :hideCommonFeatures="hideCommonFeatures"
-              />
-              <FeaturedData
-                :topText="'AI Personal Assistant'"
-                :editions="editions"
-                :tableData="tableData17"
-                :initialShow="isEnabled"
-                :hideCommonFeatures="hideCommonFeatures"
-              />
+              <!-- <FeaturedData :topText="'Mobile Apps'" :editions="editions" :tableData="tableData1"
+                :initialShow="isEnabled" :hideCommonFeatures="hideCommonFeatures" /> -->
+              <FeaturedData :topText="'Configure Price Quote'" :editions="editions" :sectiontableData="cpqTableData"
+                :initialShow="isEnabled" :hideCommonFeatures="hideCommonFeatures" />
+              <FeaturedData :topText="'General'" :editions="editions" :tableData="tableData15" :initialShow="isEnabled"
+                :hideCommonFeatures="hideCommonFeatures" />
+              <FeaturedData :topText="'Customer Support'" :editions="editions" :tableData="tableData8"
+                :initialShow="isEnabled" :hideCommonFeatures="hideCommonFeatures" />
+              <!-- <FeaturedData :topText="'AI Personal Assistant'" :editions="editions" :tableData="tableData17"
+                :initialShow="isEnabled" :hideCommonFeatures="hideCommonFeatures" /> -->
             </div>
           </div>
           <!-- <div class="updated_date">
@@ -979,8 +892,8 @@ export default {
     },
     triggerPopup() {
       setTimeout(() => {
-        this.showPopup = true; // Show the popup after a delay
-      }, 25000); // Adjust the delay as needed (3000 ms = 3 seconds)
+        this.showPopup = true;
+      }, 25000);
     },
     handleClose() {
       this.showPopup = false; // Hide the popup when closed
