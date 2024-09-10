@@ -8,7 +8,7 @@
             </div>
         </div>
         <div class="stats-map text-center">
-            <img src="../../assets/images/About-US/Dealdoxteampic.png" alt="cpq">
+            <img src="../../assets/images/About-US/OurNewTeam.png" alt="cpq">
         </div>
     </div>
 </template>
