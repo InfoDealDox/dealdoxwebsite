@@ -1265,7 +1265,7 @@
   }
   .tbl-new-row {
     display: grid;
-    grid-template-columns: 1.25fr 3fr 3fr 3fr 3fr;
+    grid-template-columns: 1.25fr 3fr 3fr 3fr ;
     border-top: 0.1px solid #ccc;
     border-left: 0.1px solid #ccc;
     text-align: center;
