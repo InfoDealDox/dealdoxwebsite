@@ -36,11 +36,10 @@
                         Generate professional proposals 80% faster with DealDox CPQ.
                     </p>
                 </div>
-                <div class="">
-                    <a href="/contact-us">
-                        <button class="animated-button">
-                            Request a CallBack
-                        </button></a>
+                <div class="custom-popup-footer">
+                    <button class="animated-button" @click="navigateToPage('Request Callback')">
+                        Request a CallBack
+                    </button>
                 </div>
             </div>
         </div>
