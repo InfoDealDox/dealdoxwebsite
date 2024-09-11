@@ -42,7 +42,7 @@
               </div>
 
               <div class="button_div">
-                <a href="https://devqa.dealdox.io/register?paymentMode=payAsYouGo">
+                <a href="https://uat.dealdox.io/register?paymentMode=payAsYouGo">
                   <button class="try_free">Buy Now</button>
                 </a>
               </div>
@@ -68,7 +68,7 @@
               </div>
 
               <div class="button_div">
-                <a href="https://devqa.dealdox.io/register?paymentMode=standard">
+                <a href="https://uat.dealdox.io/register?paymentMode=standard">
                   <button class="try_free">Buy Now</button>
                 </a>
               </div>
@@ -96,7 +96,7 @@
               </div>
 
               <div class="button_div">
-                <a href="https://devqa.dealdox.io/register?paymentMode=premium">
+                <a href="https://uat.dealdox.io/register?paymentMode=premium">
                   <button class="try_free">Buy Now</button>
                 </a>
               </div>
@@ -154,7 +154,7 @@
                     <th v-for="(data, index) in editions" :key="index" role="columnheader" scope="col"
                       class="table__cell2">
                       <a v-if="data.name !== 'Enterprise'"
-                        :href="`https://devqa.dealdox.io/register?paymentMode=${data.datapass}`"
+                        :href="`https://uat.dealdox.io/register?paymentMode=${data.datapass}`"
                         class="subscription-anker-tag" target="_blank" rel="noopener noreferrer">
                         <div class="edition_wrapper">
                           <div class="edition__copy__wrapper">
