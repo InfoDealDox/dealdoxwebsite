@@ -44,7 +44,7 @@
                                     </li>
                                 </ul>
                                 <div class="btn-box">
-                                    <NuxtLink to="/sign-up-free-trial" class="default-btn-home">Start My Free Trial</NuxtLink>
+                                    <NuxtLink to="/sign-up-free-trial" class="default-btn-home">Get a Demo</NuxtLink>
                                 </div>
                             </div>
                         </div>

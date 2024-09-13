@@ -10,8 +10,8 @@
                         <h3>By using CPQ software, you can automate the process of generating proposals and eliminate the
                             burden of manual content creation. Experience streamlined efficiency and unlock more time for
                             selling. Get started with free onboarding today!</h3>
-                       <a href="https://uat.dealdox.io/register" target="_blank" class="button-container">
-<button class="default-btn">Start My Free Trial</button></a>
+                       <a href="https://www.dealdox.io/demo" target="_blank" class="button-container">
+<button class="default-btn">Get a Demo</button></a>
 
                     </div>
                 </div>

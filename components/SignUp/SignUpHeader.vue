@@ -147,7 +147,7 @@
                                                     Privacy </NuxtLink> Statement. </p>
 
                                             <div style="display: none;">
-                                                <label for="Sign_Up__c">Start My Free Trial</label>
+                                                <label for="Sign_Up__c">Get a Demo</label>
                                                 <input id="Sign_Up__c" maxlength="40" name="Sign_Up__c" size="20"
                                                     type="text" value="True" /><br />
                                             </div>
@@ -163,7 +163,7 @@
                                             <div class="col-lg-12 col-md-12 col-sm-12">
                                                 <button type="submit" name="submit" required class="default-btn"><i
                                                         class='bx bx-paper-plane'></i>
-                                                    Start My Free Trial </button>
+                                                    Get a Demo </button>
                                             </div>
 
                                         </div>

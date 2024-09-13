@@ -9,8 +9,8 @@
                             workflows, share information effortlessly, and make faster, more informed decisions. Enjoy a
                             centralized hub for policies, customizable workflows, and real-time alerts.</p>
                         <div class="tb-30">
-                          <a href="https://uat.dealdox.io/register" target="_blank">
-<button class="default-btn"> <i class='bx bx-paper-plane'></i>Start My Free Trial</button></a>
+                          <a href="https://www.dealdox.io/demo" target="_blank">
+<button class="default-btn"> <i class='bx bx-paper-plane'></i>Get a Demo</button></a>
                         </div>
                     </div>
                 </div>

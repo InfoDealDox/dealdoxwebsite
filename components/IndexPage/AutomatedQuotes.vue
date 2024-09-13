@@ -50,8 +50,8 @@
                                     </li>
                                 </ul>
                                 <div class="btn-box">
-                                <a href="https://uat.dealdox.io/register" target="_blank" class="button-container">
-<button class="default-btn-home">Start My Free Trial</button></a>
+                                <a href="https://www.dealdox.io/demo" target="_blank" class="button-container">
+<button class="default-btn-home">Get a Demo</button></a>
 
 
                                 </div>
