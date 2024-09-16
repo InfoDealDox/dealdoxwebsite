@@ -21,7 +21,7 @@
                     configurations
                 </p>
                 <NuxtLink :to="{ name: 'contact-us', params: { source: 'Google' } }"><button
-                        class="landing-request-demo">Contact Sales</button></NuxtLink>
+                        class="landing-request-demo" id="contact-request-mobile">Contact Sales</button></NuxtLink>
             </div>
             <div class="landing-image-container " id="landing-image-container">
      
@@ -38,8 +38,8 @@
             <div class="loading-text-container-right">
 
                 <p class="loading-pre-contents-right">
-                    Boost sales with<br />
-                    automated <br />
+                    Boost sales with<br class="breaks-landing"/>
+                    automated <br class="breaks-landing"/>
                     quote templates
 
                 </p>
@@ -119,8 +119,8 @@
             </div>
         </div>
         <div class="cpq-integrate-div">
-            <img src="../../assets/images/cpq-software/integrationImage.png" alt="" class="cpq-integration">
-            <NuxtLink to='/demo'><button class="landing-request-demo" style="top:0px">Request Demo</button></NuxtLink>
+            <img src="../../assets/images/cpq-software/integrationImage.png" alt="" class="cpq-integration" >
+            <NuxtLink to='/demo' id="unique-cpq-integration"><button class="landing-request-demo" style="top:0px">Request Demo</button></NuxtLink>
 
         </div>
     </div>
