@@ -55,9 +55,9 @@
                         <div class="input-submitting-div">
                             <input class="landing-checkbox"  required type="checkbox" value="" id="flexCheckDefault">
                             <label class="loading-privacy-content" for="flexCheckDefault">
-                                By submitting this form,you agree to
+                                By submitting this form,you agree to  DealDox's
                                 <NuxtLink to="/privacy-policy">
-                                    DealDox's privacy policy</NuxtLink>
+                                    privacy policy</NuxtLink>
 
                             </label>
                         </div>
