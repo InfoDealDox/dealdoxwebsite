@@ -53,7 +53,7 @@
 
 
                         <div class="input-submitting-div">
-                            <input class="landing-checkbox" required type="checkbox" value="" id="flexCheckDefault">
+                            <input class="landing-checkbox"  required type="checkbox" value="" id="flexCheckDefault">
                             <label class="loading-privacy-content" for="flexCheckDefault">
                                 By submitting this form,you agree to
                                 <NuxtLink to="/privacy-policy">

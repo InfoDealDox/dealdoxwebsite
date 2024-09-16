@@ -10,8 +10,8 @@
             <NuxtLink to='/demo'><button class="landing-request-demo">Request Demo</button></NuxtLink>
         </div>
 
-        <div class="landing-div3-contents">
-            <div class="loading-text-container">
+        <div class="landing-div3-contents" id="loading-div3-id">
+            <div class="loading-text-container" id="generate-quotesss">
 
                 <p class="loading-pre-contents-left">
                     Generate quotes<br />
@@ -23,11 +23,11 @@
                 <NuxtLink :to="{ name: 'contact-us', params: { source: 'Google' } }"><button
                         class="landing-request-demo">Contact Sales</button></NuxtLink>
             </div>
-            <div class="landing-image-container ">
-                <div>
+            <div class="landing-image-container " id="landing-image-container">
+     
                     <img src="../../assets/images/cpq-software/GenerateQuotes.png" alt="Generate Quotes"
-                        class="landing-image-rights" />
-                </div>
+                        class="landing-image-rights" id="landing-image-rights"/>
+       
             </div>
         </div>
         <div class="landing-div3-contents">
