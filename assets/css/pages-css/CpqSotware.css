@@ -484,7 +484,7 @@
 
 .comparing-landing-page{
   text-align: center;
-  padding: 6px;
+  padding: 10px 0px 30px 0px;
 }
 
 .benifits-landing-page{
@@ -576,6 +576,7 @@
   font-weight: 800;
   line-height: initial;
   padding: 10px;
+  text-align: center;
 }
 
 .landing-key-feature-div{
@@ -878,7 +879,7 @@
   height: 207px;
 }
 .div1-first-content {
-  font-size: 26px;
+  font-size: 20px;
 }
 .landing-key-feature-div {
   gap: 35px;
@@ -899,5 +900,12 @@
 }
 .landing-benifits-headingsss {
   font-size: 21px;
+}
+.review-image {
+  width: 80%;
+}
+
+.landing-new-images {
+  width: 90%;
 }
 }

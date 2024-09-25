@@ -3,7 +3,7 @@
         <div class="div3-header">
             <div class="table-container">
                 <h1 class="comparing-landing-page">Comparing Excel Sheets and CPQ Software</h1>
-                <div style="width: 100%;overflow-y: hidden;overflow-x: auto;">
+                <div style="width: 100%;overflow-y: hidden;overflow-x: auto;scrollbar-width: none;">
                 <table class="comparison-table">
                     <thead>
                         <tr class="landing-heading-row landing-headingss">

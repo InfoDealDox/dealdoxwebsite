@@ -8,7 +8,7 @@
                 <NuxtLink to="/cpq-integrations" class="loading-key-feture-link"><div class="landing-key-features">Integrations</div></NuxtLink>
                 <NuxtLink to="/pricing" class="loading-key-feture-link"><div class="landing-key-features">Dynamic Pricing</div></NuxtLink>
                 <NuxtLink to="/localized-deal-documents" class="loading-key-feture-link"><div class="landing-key-features">Document Generation</div></NuxtLink>
-                <NuxtLink to="" class="loading-key-feture-link"><div class="landing-key-features">Report and Analytics</div></NuxtLink>
+                <NuxtLink to="/services-cpq" class="loading-key-feture-link"><div class="landing-key-features">Report and Analytics</div></NuxtLink>
             </div>
             <span class="quote-faster-win-bigger">Quote faster, Win Bigger</span>
             <LoadingFaq />
