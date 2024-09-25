@@ -1,11 +1,23 @@
 <template>
     <div style="max-width: 1320px;margin: auto;">
-        <div class="dass-pass-content">
-            <img src="../../assets/images/cpq-software/DassPassImage.png" alt="Dass Pass Content"
-                class="dasspass-image" />
-
-            <NuxtLink to='/demo'  ><button class="landing-request-demo" style="top:0px">Request Demo</button></NuxtLink>
+        <div class="div4-header">
+            <span class="quote-landing-content">Key Features of DealDox CPQ Software</span>
+            <div class="landing-key-feature-div">
+                <NuxtLink to="/quoting-software" class="loading-key-feture-link"><div class="landing-key-features">Automated Quotations</div></NuxtLink>
+                <NuxtLink to="/approval-software" class="loading-key-feture-link"><div class="landing-key-features">Approval Workflows</div></NuxtLink>
+                <NuxtLink to="/cpq-integrations" class="loading-key-feture-link"><div class="landing-key-features">Integrations</div></NuxtLink>
+                <NuxtLink to="/pricing" class="loading-key-feture-link"><div class="landing-key-features">Dynamic Pricing</div></NuxtLink>
+                <NuxtLink to="/localized-deal-documents" class="loading-key-feture-link"><div class="landing-key-features">Document Generation</div></NuxtLink>
+                <NuxtLink to="" class="loading-key-feture-link"><div class="landing-key-features">Report and Analytics</div></NuxtLink>
+            </div>
+            <span class="quote-faster-win-bigger">Quote faster, Win Bigger</span>
+            <LoadingFaq />
         </div>
+
+
+
+
+
 
 
         <div class="form-image-landing-container">
@@ -53,9 +65,9 @@
 
 
                         <div class="input-submitting-div">
-                            <input class="landing-checkbox"  required type="checkbox" value="" id="flexCheckDefault">
+                            <input class="landing-checkbox" required type="checkbox" value="" id="flexCheckDefault">
                             <label class="loading-privacy-content" for="flexCheckDefault">
-                                By submitting this form,you agree to  DealDox's
+                                By submitting this form,you agree to DealDox's
                                 <NuxtLink to="/privacy-policy">
                                     privacy policy</NuxtLink>
 
@@ -118,6 +130,11 @@
 </template>
 
 <script>
+import LoadingFaq from './landingfaq.vue'
+
+
+
+
 export default {
     name: "loadingDemoForm",
     computed: {
@@ -220,6 +237,9 @@ export default {
             }
         },
     },
+    components: {
+        LoadingFaq
+    }
 };
 
 
