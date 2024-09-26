@@ -5,8 +5,8 @@
                 <span class="div1-first-content">Upgrade from <br> Spreadsheets to CPQ</span>
                 <span>CPQ Quotation Software offers a streamlined solution to close deals faster and increase
                     revenue.</span>
-                <NuxtLink to='/demo'><button class="default-btn" style="top:0px">Request Demo</button>
-                </NuxtLink>
+                <button class="default-btn" style="top:0px;width:fit-content" @click="sendForm">Request Demo</button>
+                
             </div>
             <div class="div1-images">
                 <img src="../../assets/images/New-Landing-Images/RecordingQuotation.png" class="landing-new-images"
@@ -19,8 +19,8 @@
                     <br>Quotes</span>
                 <span>CPQ Quotation Software offers a streamlined solution to close deals faster and increase
                     revenue.</span>
-                <NuxtLink to='/demo'><button class="default-btn" style="top:0px">Request Demo</button>
-                </NuxtLink>
+                <button class="default-btn" style="top:0px;width:fit-content" @click="sendForm">Request Demo</button>
+             
             </div>
             <div class="div1-images">
                 <img src="../../assets/images/New-Landing-Images/RevisedRegisterPage.png" alt=""
@@ -58,8 +58,8 @@
                     <span class="leaverge-heading-main-content">Advanced CPQ Software recommends complementary products or bundles to enhance the customer's
                         overall experience.</span>
                 </div>
-                <NuxtLink to='/demo'><button class="default-btn" style="top:0px">Request Demo</button>
-                </NuxtLink>
+                <button class="default-btn" style="top:0px;width:fit-content" @click="sendForm">Request Demo</button>
+      
             </div>
 
         </div>
@@ -72,8 +72,28 @@
 
 
 export default {
-    name: 'Header',
+  name: 'Header',
+  props: {
+    demoFormRef: {
+      type: Object,
+      required: true
+    }
+  },
+  methods: {
+    sendForm() {
+      // Scroll to the demoForm component using the passed prop
+      const demoForm = this.demoFormRef;
+  
+      
+      if (demoForm) {
+        demoForm.$el.scrollIntoView({ behavior: 'smooth' });
+      } else {
+        console.log("demoForm is undefined");
+      }
+    }
+  }
 }
+
 
 
 

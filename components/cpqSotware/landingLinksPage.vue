@@ -132,8 +132,8 @@
 
 
             </div>
-            <NuxtLink to='/demo'><button class="default-btn" style="margin: 10px;">Request Demo</button>
-            </NuxtLink>
+            <button class="default-btn" style="margin: 10px;" @click="sendForm">Request Demo</button>
+            
 
         </div>
         <div class="div4-header">
@@ -149,8 +149,8 @@
                         quotation solutions, they have eliminated the
                         need for a dedicated proposal and costing team.
                     </small>
-                    <NuxtLink to='/demo'><button class="default-btn" style="margin: 10px;">Request Demo</button>
-                    </NuxtLink>
+                    <button class="default-btn" style="margin: 10px;" @click="sendForm">Request Demo</button>
+              
                 </div>
 
             </div>
@@ -170,8 +170,8 @@
                         complex products with a single click.
 
                     </small>
-                    <NuxtLink to='/demo'><button class="default-btn" style="margin: 10px;">Request Demo</button>
-                    </NuxtLink>
+                    <button class="default-btn" style="margin: 10px;" @click="sendForm">Request Demo</button>
+            
                 </div>
             </div>
 
@@ -187,7 +187,27 @@
 
 <script>
 export default {
-    name: "landingLinksPage"
+    name: "landingLinksPage",
+    props: {
+    demoFormRef: {
+      type: Object,
+      required: true
+    }
+  },
+  methods: {
+    sendForm() {
+      // Scroll to the demoForm component using the passed prop
+      const demoForm = this.demoFormRef;
+
+      
+      if (demoForm) {
+        demoForm.$el.scrollIntoView({ behavior: 'smooth' });
+      } else {
+        console.log("demoForm is undefined");
+      }
+    }
+  }
+
 }
 
 
