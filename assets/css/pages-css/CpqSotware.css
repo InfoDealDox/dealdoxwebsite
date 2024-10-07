@@ -6,6 +6,7 @@
   width: 100%;
   max-width: 1320px;
   margin: auto;
+  scroll-behavior: smooth;
 }
 .landing-streamline {
   font-size: 39px;
