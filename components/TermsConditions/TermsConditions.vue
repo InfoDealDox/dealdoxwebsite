@@ -211,10 +211,40 @@
                 </p>
 
 
-                <h6>Refund Policy </h6>
-                <p class="text-justify">We are committed to providing you with the best possible service. Please read
-                    this No Refund Policy carefully before subscribing to our services. </p>
+                <h6>Refund Policy</h6>
 
+                <p class="text-justify">All claims must be submitted within two months from the original purchase date.
+                    To initiate a refund request, the customer should contact the application author directly using the
+                    dedicated support button on their order page. </p>
+                <p class="text-justify">The vendor will have 15 days from the date of the claim to address the issue,
+                    provide a solution, or reach an agreement with the customer. If no resolution is reached within this
+                    timeframe, either party may request the intervention of DealDox to determine the appropriate course
+                    of action, including whether a refund is warranted. </p>
+
+
+                <h6>Refund Criteria </h6>
+                <p class="text-justify">A refund will be granted if one of the following conditions is met and the
+                    customer agrees to cease using the application and delete all copies: </p>
+
+                <p class="refund-left">● The issue is a known bug that has not been resolved within the allotted time.
+                </p>
+                <p class="refund-left">● The module is missing a feature explicitly advertised on the app description
+                    page. </p>
+                <p class="refund-left">● The module fails to install correctly on the advertised DealDox version. </p>
+                <p class="refund-left">● The module's license is incorrect. </p>
+                <p class="refund-left">● The purchase was fraudulent or made using a stolen credit card. </p>
+
+                <h6>Refund Exclusions</h6>
+                <p class="text-justify">A refund will not be granted if: </p>
+
+                <p class="refund-left">● The claim is for a new feature that was not advertised in the module
+                    description or communicated to the vendor. </p>
+                <p class="refund-left">● The module had a bug that was successfully fixed following the claim. </p>
+                <p class="refund-left">● The module is functioning correctly but does not meet the customer's specific
+                    requirements. </p>
+                <p class="refund-left">● The customer purchased the wrong version of the application for their database.
+                </p>
+                <p class="text-justify">The process timeline is 90 days for the refund, if approved. </p>
 
                 <h6>Subscription Fees </h6>
                 <p class="text-justify">All subscription fees for DealDox CPQ are non-refundable. By subscribing to our
@@ -231,8 +261,8 @@
                 <h6>Exceptional Circumstances </h6>
                 <p class="text-justify">In rare and exceptional circumstances, we may consider a refund request. Such
                     requests will be evaluated on a case-by-case basis at our sole discretion. To submit a refund
-                    request, please contact our support team at <a
-                        href="mailto:support@dealdox.io." class="refundmail">support@dealdox.io.</a>
+                    request, please contact our support team at <a href="mailto:support@dealdox.io."
+                        class="refundmail">support@dealdox.io.</a>
                 </p>
 
 
@@ -388,14 +418,17 @@ export default {
 </script>
 
 <style>
-.refundmail{
+.refundmail {
     text-decoration: none;
     color: black;
 }
 
-.refundmail:hover{
-   color: #715cf3;
-   font-weight: bold;
+.refundmail:hover {
+    color: #715cf3;
+    font-weight: bold;
 }
 
+.refund-left{
+    padding-left: 7px;
+}
 </style>
