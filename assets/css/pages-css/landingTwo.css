@@ -1,0 +1,389 @@
+.handbook-header {
+  width: 100%;
+  color: white;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.handbook-header-container {
+  background-image: linear-gradient(to bottom right, #1f425d, #171e4a, #3a0a60);
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  margin: -1px;
+}
+.handbook-section {
+  width: 100%;
+  display: flex;
+  padding: 60px 20px;
+  flex-direction: column;
+}
+
+.landing-page-cintainer {
+  width: 100%;
+  max-width: 1320px;
+  margin: auto;
+  scroll-behavior: smooth;
+}
+
+.ebook-left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.ebook-section-left {
+  display: flex;
+}
+
+.ebook-right {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ebook-image1 {
+  border-radius: 10px;
+  height: 450px;
+  width: 100%;
+}
+
+.ebook-inside-content {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  gap: 20px;
+}
+.ebook-essential {
+  font-size: 40px;
+  line-height: 43px;
+  font-weight: 600;
+}
+.download-ebook-button {
+  width: fit-content;
+  background-color: rgb(113, 92, 243);
+  border: 0.1px solid white;
+  color: white;
+  border-radius: 20px;
+  padding: 7px 19px;
+  font-weight: 500;
+  font-size: 16px;
+}
+.ebook-summary {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.ebook-third-section {
+  display: flex;
+  padding: 0px 0px 25px 0px;
+}
+
+.ebook-third-image {
+  width: 50%;
+}
+
+.ebook-section-content {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.founder-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.ebook-section-second-content {
+  width: 50%;
+}
+
+.ebook-second-image {
+  width: 50%;
+}
+
+.ebook-summary-content {
+  width: 50%;
+}
+
+.ebook-summary-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 12px;
+}
+.ebook-second-image {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.ebook-third-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+
+.ebook-second-images {
+  width: 90%;
+  height: 300px;
+}
+
+.ebook-third-images {
+  width: 300px;
+  height: 300px;
+}
+.ebook-why-adapt {
+  font-weight: 700;
+  font-size: 24px;
+}
+.ebook-checkline {
+  width: 20px;
+  height: 20px;
+  background-color: #715cf3;
+  border-radius: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ebook-text-check-content {
+  display: flex;
+  gap: 5px;
+  text-decoration: none;
+  list-style: none;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 16px;
+}
+
+.ebook-lists {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  padding-left: 5px;
+  padding-top: 10px;
+}
+
+.ebook-founder-section-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 60%;
+  justify-content: center;
+}
+
+.ebook-automation-tool {
+  font-size: 24px;
+  font-weight: 700;
+}
+.ebook-review-content {
+  font-weight: 500;
+  letter-spacing: 0.1px;
+  font-size: 16px;
+}
+.sandya-s-hegde {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.ebook-demo-background {
+  background-image: linear-gradient(to bottom right, #1f425d, #171e4a, #3a0a60);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.ebook-demo-heading {
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+
+.ebook-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: auto;
+}
+.ebook-inputs-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.ebook-inputs {
+  background-color: #33385e;
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-size: 15px;
+  padding-left: 4px;
+}
+.ebook-form-container {
+  display: flex;
+  flex-direction: column;
+}
+.ebook-label {
+  color: white;
+}
+
+.ebook-label::after {
+  content: " *";
+  color: red;
+}
+.ebook-privacy {
+  display: flex;
+  align-items: baseline;
+  color: white;
+}
+.ebook-checkbox-button {
+  accent-color: #715cf3;
+  width: 21px;
+}
+.ebook-company-logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin: auto;
+  justify-content: center;
+  padding: 25px;
+}
+.ebook-logoss {
+  width: 150px;
+  height: 100px;
+}
+.happy-customers {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 700;
+  width: 100%;
+  padding: 10px 0px;
+}
+.happy-customers-continer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.ebook-logosss {
+  height: 58px;
+}
+.ebook-winning-deals {
+  font-size: 20px;
+}
+
+.ebook-title {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: bold;
+}
+.ebook-admist {
+  font-size: 19px;
+}
+@media (max-width: 750px) {
+  .handbook-header,
+  .ebook-section-left,
+  .ebook-third-section {
+    flex-direction: column;
+    height: auto;
+  }
+  .ebook-left,
+  .ebook-right,
+  .ebook-section-second-content,
+  .ebook-second-image,
+  .ebook-third-image,
+  .ebook-founder-section-content {
+    width: 100%;
+  }
+  .ebook-right,
+  .ebook-second-image {
+    order: 1;
+  }
+  .ebook-left,
+  .ebook-section-second-content {
+    order: 2;
+    padding-left: 10px;
+  }
+  .download-ebook-button {
+    margin: 10px 0px;
+  }
+  .ebook-third-images {
+    width: auto;
+  }
+  .ebook-automation-tool,
+  .ebook-review-content {
+    text-align: center;
+  }
+  .founder-container {
+    padding-left: 20px;
+    padding-bottom: 10px;
+    width: 100%;
+  }
+  .ebook-inside-content {
+    align-items: center;
+  }
+  .ebook-second-images {
+    width: 100%;
+    height: 284px;
+  }
+  .ebook-founder-content {
+    display: flex;
+    margin-left: auto;
+    padding-right: 10px;
+  }
+
+  .ebook-logoss {
+    width: 139px;
+    height: 58px;
+  }
+  .ebook-form {
+    width: 70%;
+  }
+  .ebook-review-content {
+    font-size: 13px;
+    padding: 0px 5px;
+  }
+
+  .ebook-essential {
+    font-size: 28px;
+    line-height: 35px;
+  }
+  .handbook-header-container {
+    height: auto;
+  }
+  .ebook-image1 {
+    border-radius: 10px;
+    height: 279px;
+    width: 100%;
+  }
+  .ebook-inside-content {
+    width: 92%;
+    gap: 6px;
+    align-items: flex-start;
+  }
+  .ebook-winning-deals {
+    font-size: 14px;
+  }
+  .ebook-admist {
+    font-size: 15px;
+  }
+  .ebook-text-check-content,
+  .ebook-review-content {
+    font-size: 13px;
+  }
+  .handbook-section {
+    padding: 10px 3px;
+  }
+  .download-ebook-button {
+    font-size: 11px;
+  }
+  .ebook-review-content {
+    padding: 10px;
+  }
+}
