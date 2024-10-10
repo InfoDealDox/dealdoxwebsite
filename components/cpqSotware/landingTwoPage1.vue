@@ -1,7 +1,7 @@
 <template>
     <div class="landing-page-cintainer">
         <div class="handbook-header-container">
-            <img src='../../assets/images/footer-logo.svg' alt="logo" width="200px" style="padding: 30px;" />
+            <img src='../../assets/images/New-Landing-Images/White DD Logo.png' alt="logo" width="100px" style="padding: 11px;" />
             <div class="handbook-header">
                 <div class="ebook-left">
                     <div class="ebook-inside-content">
@@ -49,7 +49,7 @@
                 </div>
 
                 <div class="ebook-second-image">
-                    <img src="../../assets/images/New-Landing-Images/SignsToConsiderCpq1.jpg" alt=""
+                    <img src="../../assets/images/New-Landing-Images/SignsToConsiderCpq.webp" alt=""
                         class="ebook-second-images">
                 </div>
             </div>

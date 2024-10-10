@@ -11,13 +11,14 @@
   height: 600px;
   display: flex;
   flex-direction: column;
-  margin: -1px;
+  margin-top: -1px;
 }
 .handbook-section {
   width: 100%;
   display: flex;
-  padding: 60px 20px;
+  padding: 85px 20px;
   flex-direction: column;
+  background: aliceblue;
 }
 
 .landing-page-cintainer {
@@ -79,6 +80,7 @@
 .ebook-third-section {
   display: flex;
   padding: 0px 0px 25px 0px;
+  padding: 76px 0px;
 }
 
 .ebook-third-image {
@@ -98,6 +100,7 @@
 
 .ebook-section-second-content {
   width: 50%;
+  padding: 0px 10px;
 }
 
 .ebook-second-image {
@@ -133,9 +136,10 @@
 }
 
 .ebook-third-images {
-  width: 300px;
-  height: 300px;
+  width: 369px;
+  height: 403px;
 }
+
 .ebook-why-adapt {
   font-weight: 700;
   font-size: 24px;
@@ -177,13 +181,15 @@
 }
 
 .ebook-automation-tool {
-  font-size: 24px;
+  font-size: 30px;
+  line-height: 36px;
   font-weight: 700;
 }
 .ebook-review-content {
   font-weight: 500;
   letter-spacing: 0.1px;
-  font-size: 16px;
+  font-size: 18px;
+  line-height: 30px;
 }
 .sandya-s-hegde {
   font-size: 16px;
@@ -195,6 +201,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+  padding: 20px 0px;
 }
 
 .ebook-demo-heading {
@@ -308,7 +315,7 @@
   .ebook-left,
   .ebook-section-second-content {
     order: 2;
-    padding-left: 10px;
+    padding: 20px 0px 20px 10px;
   }
   .download-ebook-button {
     margin: 10px 0px;
@@ -343,7 +350,7 @@
     height: 58px;
   }
   .ebook-form {
-    width: 70%;
+    width: 82%;
   }
   .ebook-review-content {
     font-size: 13px;
@@ -385,5 +392,22 @@
   }
   .ebook-review-content {
     padding: 10px;
+  }
+  .ebook-third-images {
+    width: auto;
+    height: 321px;
+  }
+  .ebook-third-section {
+    padding: 27px 0px;
+  }
+  .ebook-automation-tool {
+    font-size: 23px;
+    padding: 10px 0px;
+  }
+  .ebook-founder-section-content {
+    gap: 0px;
+  }
+  .ebook-review-content {
+    line-height: inherit;
   }
 }
