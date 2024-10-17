@@ -1,6 +1,6 @@
 <!-- <template>
-  <div v-if="isReady" style="display: flex; flex-direction: column;">
-    <landingTwoPage1  :ebookref="ebookref" />
+  <div  style="display: flex; flex-direction: column;">
+    <landingTwoPage1 :ebookref="ebookref" />
     <ebookDemo ref="ebookref" />
     <DealDoxFooter />
   </div>
@@ -32,9 +32,10 @@ export default {
   }
 };
 </script> -->
+
+
 <template>
-  <div style="display: flex; flex-direction: column;">
-    <!-- Remove v-if for testing rendering -->
+  <div  style="display: flex; flex-direction: column;">
     <landingTwoPage1 :ebookref="ebookref" />
     <ebookDemo ref="ebookref" />
     <DealDoxFooter />
@@ -60,12 +61,10 @@ export default {
     };
   },
   mounted() {
+    // Use $nextTick to ensure ebookref is properly initialized after the DOM update
     this.$nextTick(() => {
       this.ebookref = this.$refs.ebookref;
-      if (this.ebookref) {
-        console.log("ebookref is initialized");
-        this.isReady = true;
-      }
+      this.isReady = true; // Set isReady to true only after ebookref is initialized
     });
   }
 };
