@@ -5,7 +5,8 @@
 
             <div style="width: 100%;">
                 <div class="new-app-main-banner-wrap-image" data-aos="fade-left" data-aos-duration="2000">
-                    <img :src="details[0].attributes.image.data.attributes.url" alt="image"  class="success-story-image">
+                    <img :src="details[0].attributes.image.data.attributes.url" 
+                    :alt="details[0].attributes.image.data.attributes.alternativeText"  class="success-story-image">
                 </div>
             </div>
 

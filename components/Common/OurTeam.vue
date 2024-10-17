@@ -8,7 +8,8 @@
                 <div class="col-lg-4 col-md-4 col-sm-4" v-for="team in teams.singleTeam" :key="team.id">
                     <div class="single-team-member bg-white">
                         <div class="image">
-                            <img :src="team.image.data.attributes.url" alt="teams">
+                            <img :src="team.image.data.attributes.url"
+                                :alt="team.image.data.attributes.alternativeText">
                         </div>
                         <div class="content">
                             <h3>{{ team.title }}</h3>

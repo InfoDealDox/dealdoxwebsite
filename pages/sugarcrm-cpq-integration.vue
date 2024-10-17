@@ -10,9 +10,9 @@
 
 <script>
 import Navbar from '../layouts/Navbar'
-import MainBannerLoacalized from '../components/Sugar-CRM/MainBannerLoacalized'
-import HowLocalizedDeal from '../components/Sugar-CRM/HowLocalizedDeal'
-import KeyBenefitsof from '../components/Sugar-CRM/KeyBenefitsof'
+import MainBannerLoacalized from '../components/Sugar-CRM/MainBannerLoacalized.vue'
+import HowLocalizedDeal from '../components/Sugar-CRM/HowLocalizedDeal.vue'
+import KeyBenefitsof from '../components/Sugar-CRM/KeyBenefitsof.vue'
 import DealDoxFooter from '../layouts/DealDoxFooter'
 import axios from 'axios';
 

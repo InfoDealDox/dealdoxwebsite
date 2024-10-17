@@ -7,7 +7,7 @@
                         of These and More</h3>
                 </div>
                 <div class="stats-map text-center">
-                    <img src="../../assets/images/lightning-fast-quote-approvals/effortless-automation.svg" alt="">
+                    <img src="../../assets/images/lightning-fast-quote-approvals/effortless-automation.svg" alt="Effortless Automation">
                 </div>
             </div>
         </div>

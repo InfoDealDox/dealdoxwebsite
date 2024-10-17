@@ -6,7 +6,7 @@
                     <div class="features-item with-border bg-FAFAFA">
                         <div class="about-img">
                             <img src="../../assets/images/automated-quotes-generation/robotic-process-automation.png"
-                                data-aos="fade-up" alt="about">
+                                data-aos="fade-up" alt="Automation Software">
                         </div>
                     </div>
                 </div>

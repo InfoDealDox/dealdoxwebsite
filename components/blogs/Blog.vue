@@ -27,6 +27,7 @@
                     currentPage * perPage,
                 )" :key="featuredblog.id">
                     <div class="single-blog-post bg-F9F9FD">
+                      
                         <div class="image">
                             <NuxtLink :to="'/featured-blog-details/' + featuredblog.attributes.slug" class="d-block">
                                 <img :src="featuredblog.attributes.image.data.attributes.url" alt="blog">

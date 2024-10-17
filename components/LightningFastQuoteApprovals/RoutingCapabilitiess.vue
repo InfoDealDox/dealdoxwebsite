@@ -6,7 +6,7 @@
                     <div class="features-item with-border bg-FAFAFA">
                         <div class="about-img">
                             <img src="../../assets/images/cpq/RoutingCapabilities.png"
-                                data-aos="fade-up" alt="about">
+                                data-aos="fade-up" alt="Routing Capabilities">
                         </div>
                     </div>
                 </div>

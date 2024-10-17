@@ -238,6 +238,7 @@
 }
 .ebook-label {
   color: white;
+  margin-bottom: 0px;
 }
 
 .ebook-label::after {

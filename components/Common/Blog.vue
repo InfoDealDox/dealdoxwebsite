@@ -10,7 +10,9 @@
                     <div class="single-blog-post bg-white">
                         <div class="image">
                             <NuxtLink :to="'/blog/' + blog.attributes.slug" class="d-block">
-                                <img :src="blog.attributes.image.data.attributes.url" alt="blog">
+                                <img :src="blog.attributes.image.data.attributes.url" 
+                                :alt="blog.attributes.image.data.attributes.alternativeText" 
+                                >
                             </NuxtLink>
                             <!-- <NuxtLink to="/blog-grid" class="tag">{{ blog.attributes.tag }}</NuxtLink> -->
                         </div>

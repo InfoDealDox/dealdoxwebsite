@@ -5,7 +5,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="features-item with-border">
                         <div class="about-img">
-                            <img src="../../assets/images/Freshwork/Drive Sales Success.png" data-aos="fade-up" alt="about">
+                            <img src="../../assets/images/Freshwork/Drive Sales Success.png" data-aos="fade-up" alt="Boost Buisness Growth">
                         </div>
                     </div>
                 </div>
@@ -58,7 +58,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="features-item with-border">
                         <div class="about-img">
-                            <img src="../../assets/images/Freshwork/Improve the Buyer Experience with Real-time Insights.png" data-aos="fade-up" alt="about">
+                            <img src="../../assets/images/Freshwork/Improve the Buyer Experience with Real-time Insights.png" data-aos="fade-up" alt="Improve Experience">
                         </div>
                     </div>
                 </div>
@@ -67,7 +67,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="features-item with-border">
                         <div class="about-img">
-                            <img src="../../assets/images/Freshwork/Streamline Your Sales.png" data-aos="fade-up" alt="about">
+                            <img src="../../assets/images/Freshwork/Streamline Your Sales.png" data-aos="fade-up" alt="Enhance Opertional Capabality">
                         </div>
                     </div>
                 </div>
@@ -142,7 +142,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="features-item with-border">
                         <div class="about-img">
-                            <img src="../../assets/images/Freshwork/Empower Your Sales Success with Actionable Data for Optimal Conversions.png" data-aos="fade-up" alt="about">
+                            <img src="../../assets/images/Freshwork/Empower Your Sales Success with Actionable Data for Optimal Conversions.png" data-aos="fade-up" alt="RealTime Analytics">
                         </div>
                     </div>
                 </div>
@@ -151,7 +151,7 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="features-item with-border">
                             <div class="about-img">
-                                <img src="../../assets/images/Freshwork/Lightning-fast Results with DealDox.png" data-aos="fade-up"
+                                <img src="../../assets/images/Freshwork/Lightning-fast Results with DealDox.png" data-aos="Rapid Results"
                                     alt="about">
                             </div>
                         </div>

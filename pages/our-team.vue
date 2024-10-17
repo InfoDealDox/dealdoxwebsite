@@ -15,8 +15,8 @@
 
 import Navbar from '../layouts/Navbar';
 import IAQSolutions from '../components/AboutUs/IAQSolutions';
-import OurTeam from '../components/Common/OurTeam';
-import Feedback from '../components/Common/Feedback';
+import OurTeam from '../components/Common/OurTeam.vue';
+import Feedback from '../components/Common/Feedback.vue';
 import Blog from '../components/Common/Blog';
 import Stats from '../components/AboutUs/Stats';
 import GetInTouch from '../components/Common/GetInTouch';

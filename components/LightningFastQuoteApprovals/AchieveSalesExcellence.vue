@@ -10,7 +10,7 @@
                     <div class="features-item with-border bg-FAFAFA">
                         <div class="about-img">
                             <img src="../../assets/images/lightning-fast-quote-approvals/swiftautomated.svg"
-                                data-aos="fade-up" alt="about">
+                                data-aos="fade-up" alt="Smart Approval">
                         </div>
                     </div>
                 </div>
@@ -79,7 +79,7 @@
                 <div class="col-lg-6 col-md-12" id="routing-div-style">
                     <div class="features-item with-border bg-FAFAFA">
                         <div class="about-img">
-                            <img src="../../assets/images/cpq/MaximizeEfficiency.png" data-aos="fade-up" alt="about">
+                            <img src="../../assets/images/cpq/MaximizeEfficiency.png" data-aos="fade-up" alt="Digital Quotating Tool">
                         </div>
                     </div>
                 </div>

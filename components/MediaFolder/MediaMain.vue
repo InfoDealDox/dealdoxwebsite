@@ -20,7 +20,8 @@
                     <div class="single-blog-post bg-FFFFFF">
                         <div class="image">
                             <a :href="team.link" target="_blank">
-                                <img :src="team.image.data.attributes.url" alt="Media">
+                                <img :src="team.image.data.attributes.url"
+                                :alt="team.image.data.attributes.alternativeText">
                             </a>
                         </div>
                         <div class="content">

@@ -5,7 +5,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="features-item with-border">
                         <div class="about-img">
-                            <img src="../../assets/images/Salesforce/AccelerateDeals.png" data-aos="fade-up" alt="about">
+                            <img src="../../assets/images/Salesforce/AccelerateDeals.png" data-aos="fade-up" alt="Achive Success Rates">
                         </div>
                     </div>
                 </div>
@@ -63,7 +63,7 @@
                     <div class="features-item with-border">
                         <div class="about-img">
                             <img src="../../assets/images/Salesforce/Drive Operational Excellence.png" data-aos="fade-up"
-                                alt="about">
+                                alt="Drive Excellence">
                         </div>
                     </div>
                 </div>
@@ -73,7 +73,7 @@
                     <div class="features-item with-border">
                         <div class="about-img">
                             <img src="../../assets/images/Salesforce/Deep Dive into Customer Insights.png"
-                                data-aos="fade-up" alt="about">
+                                data-aos="fade-up" alt="Digital Interactions">
                         </div>
                     </div>
                 </div>
@@ -141,7 +141,7 @@
                     <div class="features-item with-border">
                         <div class="about-img">
                             <img src="../../assets/images/Salesforce/Empower Your Business Collaborations and Maximize Deal Success.png"
-                                data-aos="fade-up" alt="about">
+                                data-aos="fade-up" alt="Buisness Collaborations">
                         </div>
                     </div>
                 </div>
@@ -151,7 +151,7 @@
                         <div class="features-item with-border">
                             <div class="about-img">
                                 <img src="../../assets/images/Salesforce/Achieve Results Faster Than Ever.png"
-                                    data-aos="fade-up" alt="about">
+                                    data-aos="fade-up" alt="Achieve Faster Results">
                             </div>
                         </div>
                     </div>

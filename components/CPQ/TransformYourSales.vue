@@ -7,7 +7,7 @@
                             CPQ</span> Solutions</h1>
                 </div>
                 <div class="stats-map text-center">
-                    <img src="../../assets/images/cpq/DDWebsite.png" alt="cpq">
+                    <img src="../../assets/images/cpq/DDWebsite.png" alt="Quotation Information">
                 </div>
             </div>
         </div>

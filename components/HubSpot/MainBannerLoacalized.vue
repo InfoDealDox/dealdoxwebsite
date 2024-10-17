@@ -14,7 +14,7 @@
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="new-app-main-banner-wrap-image" data-aos="fade-left" data-aos-duration="2000">
-                        <img src="../../assets/images/Hubspot/DealDox Hubspot.png" alt="image">
+                        <img src="../../assets/images/Hubspot/DealDox Hubspot.png" alt="Dealdox Hubspot">
                     </div>
                 </div>
             </div>

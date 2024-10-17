@@ -11,7 +11,7 @@
           >
             <img
               src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694696577/cpq-banner_chwd0d.png"
-              alt="image"
+              alt="home banner"
               loading="lazy"
             />
           </div>

@@ -26,7 +26,8 @@
           <VueSlickCarousel v-bind="carouselSettings" v-if="partners !== null">
             <div v-for="slide in partners.partnerSlides" :key="slide.id" style="margin: 0 15px;">
               <div class="single-features-box">
-                <div class="partner-item"><img :src="slide.image.data.attributes.url" alt="image"></div>
+                <div class="partner-item"><img :src="slide.image.data.attributes.url"
+                    :alt="slide.image.data.attributes.alternativeText"></div>
               </div>
             </div>
           </VueSlickCarousel>

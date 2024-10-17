@@ -25,7 +25,8 @@
                                             <div class="tabs">
                                                 <ul class="tabs__header">
                                                     <li class="tabs__header-item">
-                                                        <img :src="customerreview.media.data.attributes.url" alt="image">
+                                                        <img :src="customerreview.media.data.attributes.url" 
+                                                        :alt="customerreview.media.data.attributes.alternativeText" >
                                                     </li>
                                                 </ul>
                                             </div>

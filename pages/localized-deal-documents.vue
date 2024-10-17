@@ -15,13 +15,13 @@
 
 <script>
 import Navbar from '../layouts/Navbar'
-import MainBannerLoacalized from '../components/LocalizedDealDocuments/MainBannerLoacalized'
-import HowLocalizedDeal from '../components/LocalizedDealDocuments/HowLocalizedDeal'
-import KeyBenefitsof from '../components/LocalizedDealDocuments/KeyBenefitsof'
-import HowLocalized from '../components/LocalizedDealDocuments/HowLocalized'
-import EmpoerGlobal from '../components/LocalizedDealDocuments/EmpoerGlobal'
+import MainBannerLoacalized from '../components/LocalizedDealDocuments/MainBannerLoacalized.vue'
+import HowLocalizedDeal from '../components/LocalizedDealDocuments/HowLocalizedDeal.vue'
+import KeyBenefitsof from '../components/LocalizedDealDocuments/KeyBenefitsof.vue'
+import HowLocalized from '../components/LocalizedDealDocuments/HowLocalized.vue'
+import EmpoerGlobal from '../components/LocalizedDealDocuments/EmpoerGlobal.vue'
 
-import TransformDealsWith  from "../components/RequestDemo/TransformDealsWith"
+import TransformDealsWith  from "../components/RequestDemo/TransformDealsWith.vue"
 import faq from '../components/LocalizedDealDocuments/faq'
 import DealDoxFooter from '../layouts/DealDoxFooter'
 import axios from 'axios';

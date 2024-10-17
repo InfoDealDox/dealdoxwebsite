@@ -33,7 +33,7 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="software-integrations-list">
                             <img src="../../assets/images/localizedDealDocuments/Financialdocumentsandforms.png"
-                                alt="border">
+                                alt="Localized Deal Document">
                         </div>
                     </div>
                 </div>

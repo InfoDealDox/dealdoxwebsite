@@ -5,8 +5,11 @@
                 <div class="col-lg-8 col-md-12">
                     <div class="blog-details-desc">
                         <div class="article-image">
+
+
                             <!-- <NuxtLink to="/blog-grid" class="tag">{{ details[0].attributes.tag }}</NuxtLink> -->
-                            <img :src="details[0].attributes.image.data.attributes.url" alt="image">
+                            <img :src="details[0].attributes.image.data.attributes.url"
+                                :alt="details[0].attributes.image.data.attributes.alternativeText">
                         </div>
                         <div class="article-content">
                             <div class="entry-meta">
@@ -14,7 +17,8 @@
                                     <li><i class="ri-file-user-line"></i>{{
                                         details[0].attributes.blog_author.data.attributes.blog_author }}</li>
                                     <li><i class="ri-calendar-2-line"></i>{{ details[0].attributes.date }}</li>
-                                    <li><i class="ri-time-line"></i>{{ details[0].attributes.time_to_read }} {{ details[0].attributes.time_to_read === 1 ? 'min' : 'mins' }} to read</li>
+                                    <li><i class="ri-time-line"></i>{{ details[0].attributes.time_to_read }} {{
+                                        details[0].attributes.time_to_read === 1 ? 'min' : 'mins' }} to read</li>
                                     <!-- <li><i class="ri-message-2-line"></i><NuxtLink to="/blog-grid">(4)
                                             Comments</NuxtLink></li> -->
                                 </ul>
@@ -267,7 +271,9 @@
                             <h3 class="widget-title">Popular Posts</h3>
                             <article class="item" v-for="blog in blogs" :key="blog.id">
                                 <NuxtLink :to="'/blog/' + blog.attributes.slug" class="thumb">
-                                    <img :src="blog.attributes.image.data.attributes.url" alt="blog">
+
+                                    <img :src="blog.attributes.image.data.attributes.url"
+                                        :alt="blog.attributes.image.data.attributes.alternativeText">
                                 </NuxtLink>
                                 <div class="info">
                                     <h4 class="title usmall">
@@ -371,17 +377,21 @@ export default {
             categories: [],
             blogs: [],
         }
+
     },
     created: async function () {
         axios.get('https://cms.dealdox.io/api/blog-categories')
             .then(response => {
                 this.categories = response.data.data;
+
             })
             .catch(error => {
                 console.error(error);
             });
         const response = await axios.get('https://cms.dealdox.io/api/blogs?populate=*')
         this.blogs = response.data.data;
+        console.log("This blog", this.blogs);
+
     },
 }
 </script>

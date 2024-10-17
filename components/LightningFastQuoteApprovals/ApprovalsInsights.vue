@@ -6,7 +6,7 @@
                     <div class="features-item with-border bg-FAFAFA">
                         <div class="about-img">
                             <img src="../../assets/images/lightning-fast-quote-approvals/Filemanagementbyemployee.png"
-                                data-aos="fade-up" alt="about">
+                                data-aos="fade-up" alt="Approval Insights">
                         </div>
                     </div>
                 </div>
@@ -40,7 +40,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="features-item with-border bg-FAFAFA">
                         <div class="about-img">
-                            <img src="../../assets/images/cpq/DocumentAnalytics.png" data-aos="fade-up" alt="about">
+                            <img src="../../assets/images/cpq/DocumentAnalytics.png" data-aos="fade-up" alt="Re-Approve">
                         </div>
                     </div>
                 </div>

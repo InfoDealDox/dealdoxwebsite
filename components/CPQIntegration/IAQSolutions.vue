@@ -9,7 +9,7 @@
                 <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
                     <div class="single-features-item" style="height:160px">
                         <div class="icon">
-                            <img src="../../assets/images/cpq-integration/cpq-integration-banner-icon1.png" alt="image">
+                            <img src="../../assets/images/cpq-integration/cpq-integration-banner-icon1.png" alt="Quote to Delivery Process">
                         </div>
                         <p>The entire quote-to-delivery process is transparent.</p>
                     </div>
@@ -17,7 +17,7 @@
                 <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
                     <div class="single-features-item" style="height:160px">
                         <div class="icon">
-                            <img src="../../assets/images/cpq-integration/cpq-integration-banner-icon2.png" alt="image">
+                            <img src="../../assets/images/cpq-integration/cpq-integration-banner-icon2.png" alt="Reduce Errors">
                         </div>
                         <p>No more mistakes from manual data entering.</p>
                     </div>
@@ -25,7 +25,7 @@
                 <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
                     <div class="single-features-item" style="height:160px">
                         <div class="icon">
-                            <img src="../../assets/images/cpq-integration/predictioncpq.png" alt="image">
+                            <img src="../../assets/images/cpq-integration/predictioncpq.png" alt="Predict Resource Demand">
                         </div>
                         <p>Proper prediction of resource <br> demand.</p>
                     </div>
@@ -33,7 +33,7 @@
                 <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
                     <div class="single-features-item" style="height:160px">
                         <div class="icon">
-                            <img src="../../assets/images/cpq-integration/Automated-Oppertunity.png" alt="image">
+                            <img src="../../assets/images/cpq-integration/Automated-Oppertunity.png" alt="Automated Opportunity">
                         </div>
                         <p>Automated opportunity update with current deal price and data.</p>
                     </div>
@@ -41,7 +41,7 @@
                 <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
                     <div class="single-features-item" style="height:160px">
                         <div class="icon">
-                            <img src="../../assets/images/cpq-integration/synccpq.png" alt="image">
+                            <img src="../../assets/images/cpq-integration/synccpq.png" alt="Sync Up opportunity">
                         </div>
                         <p>Sync up opportunities, jobs, talents, rates, and so on.</p>
                     </div>
@@ -49,7 +49,7 @@
                 <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
                     <div class="single-features-item" style="height:160px">
                         <div class="icon">
-                            <img src="../../assets/images/cpq-integration/income.png" alt="image">
+                            <img src="../../assets/images/cpq-integration/income.png" alt="Revenue Forecasting">
                         </div>
                         <p>Enables easy revenue<br>forecasting.</p>
                     </div>

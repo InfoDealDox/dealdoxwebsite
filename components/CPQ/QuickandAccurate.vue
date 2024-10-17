@@ -5,7 +5,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="features-item with-border">
                         <div class="about-img">
-                            <img src="../../assets/images/cpq/Filemanagementbyemployee.png" data-aos="fade-up" alt="about">
+                            <img src="../../assets/images/cpq/Filemanagementbyemployee.png" data-aos="fade-up" alt="Advance Guided Selling">
                         </div>
                     </div>
                 </div>
@@ -38,7 +38,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="features-item with-border">
                         <div class="about-img">
-                            <img src="../../assets/images/cpq/DocumentAnalytics.png" data-aos="fade-up" alt="about">
+                            <img src="../../assets/images/cpq/DocumentAnalytics.png" data-aos="fade-up" alt="Professional Analytics">
                         </div>
                     </div>
                 </div>
@@ -48,7 +48,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="features-item with-border">
                         <div class="about-img">
-                            <img src="../../assets/images/cpq/Documentwithphone.png" data-aos="fade-up" alt="about">
+                            <img src="../../assets/images/cpq/Documentwithphone.png" data-aos="fade-up" alt="Custom Pricing">
                         </div>
                     </div>
                 </div>
@@ -77,7 +77,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="features-item with-border">
                         <div class="about-img">
-                            <img src="../../assets/images/cpq/Productprice.png" data-aos="fade-up" alt="about">
+                            <img src="../../assets/images/cpq/Productprice.png" data-aos="fade-up" alt="Customize Pricing">
                         </div>
                     </div>
                 </div>
@@ -87,7 +87,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="features-item with-border">
                         <div class="about-img">
-                            <img src="../../assets/images/cpq/Database.png" data-aos="fade-up" alt="about">
+                            <img src="../../assets/images/cpq/Database.png" data-aos="fade-up" alt="Database Service">
                         </div>
                     </div>
                 </div>
@@ -143,7 +143,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="features-item with-border">
                         <div class="about-img">
-                            <img src="../../assets/images/cpq/ReductionDocument.png" data-aos="fade-up" alt="about">
+                            <img src="../../assets/images/cpq/ReductionDocument.png" data-aos="fade-up" alt="Automated Quoting">
                         </div>
                     </div>
                 </div>
@@ -153,7 +153,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="features-item with-border">
                         <div class="about-img">
-                            <img src="../../assets/images/cpq/EnhancedMargins.png" data-aos="fade-up" alt="about">
+                            <img src="../../assets/images/cpq/EnhancedMargins.png" data-aos="fade-up" alt="Enhanced Sales">
                         </div>
                     </div>
                 </div>
@@ -261,7 +261,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="features-item with-border">
                         <div class="about-img">
-                            <img src="../../assets/images/cpq/SwiftImplementation.png" data-aos="fade-up" alt="about">
+                            <img src="../../assets/images/cpq/SwiftImplementation.png" data-aos="fade-up" alt="Swift Implementation">
                         </div>
                     </div>
                 </div>
@@ -271,7 +271,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="features-item with-border">
                         <div class="about-img">
-                            <img src="../../assets/images/cpq/StremlinedQuoting.png" data-aos="fade-up" alt="about">
+                            <img src="../../assets/images/cpq/StremlinedQuoting.png" data-aos="fade-up" alt="Personalized Quotes">
                         </div>
                     </div>
                 </div>

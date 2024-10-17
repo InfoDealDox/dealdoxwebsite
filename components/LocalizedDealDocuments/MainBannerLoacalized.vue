@@ -14,7 +14,7 @@
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="new-app-main-banner-wrap-image" data-aos="fade-left" data-aos-duration="2000">
-                        <img src="../../assets/images/localizedDealDocuments/LocalizedDealDocuments.png" alt="image">
+                        <img src="../../assets/images/localizedDealDocuments/LocalizedDealDocuments.png" alt="Multilingual Communication">
                     </div>
                 </div>
             </div>

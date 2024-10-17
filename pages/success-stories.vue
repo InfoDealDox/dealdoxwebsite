@@ -23,7 +23,7 @@
 import Navbar from '../layouts/Navbar';
 import PageTitle from '../components/Common/PageTitle';
 // import SuccesStoryBanner from '../components/success-stories/SuccesStoryBanner'
-import SuccessStories from '../components/success-stories/SuccessStories'
+import SuccessStories from '../components/success-stories/SuccessStories.vue'
 // import AutomatedQuotes from '../components/Common/AutomatedQuotes';
 // import Blog from '../components/Common/Blog';
 // import GetInTouch from '../components/Common/GetInTouch';

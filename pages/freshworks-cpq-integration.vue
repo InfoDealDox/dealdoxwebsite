@@ -10,9 +10,9 @@
 
 <script>
 import Navbar from '../layouts/Navbar'
-import MainBannerLoacalized from '../components/Freshworks/MainBannerLoacalized'
-import HowLocalizedDeal from '../components/Freshworks/HowLocalizedDeal'
-import KeyBenefitsof from '../components/Freshworks/KeyBenefitsof'
+import MainBannerLoacalized from '../components/Freshworks/MainBannerLoacalized.vue'
+import HowLocalizedDeal from '../components/Freshworks/HowLocalizedDeal.vue'
+import KeyBenefitsof from '../components/Freshworks/KeyBenefitsof.vue'
 import DealDoxFooter from '../layouts/DealDoxFooter'
 import axios from 'axios';
 

@@ -27,7 +27,8 @@
                     <div class="single-blog-post">
                         <div class="image">
                             <NuxtLink :to="'/success-story/' + successstory.attributes.slug" class="d-block">
-                                <img :src="successstory.attributes.image.data.attributes.url" alt="blog">
+                                <img :src="successstory.attributes.image.data.attributes.url" 
+                                :alt="successstory.attributes.image.data.attributes.alternativeText">
                             </NuxtLink>
                         </div>
                         <div class="content">

@@ -10,14 +10,14 @@
                 </div> 
                 <div class="col-lg-6 col-md-12">
                     <div class="new-app-main-banner-wrap-image" data-aos="fade-left" data-aos-duration="2000">
-                        <img src="../../assets/images/cpq/Productprice.png" alt="image">
+                        <img src="../../assets/images/cpq/Productprice.png" alt="Productprice">
                     </div>
                 </div>
             </div>
         </div>
 
         <div class="new-app-main-banner-wrap-shape">
-            <img src="../../assets/images/more-home/banner/shape-5.png" alt="image">
+            <img src="../../assets/images/more-home/banner/shape-5.png" alt="blog-banner">
         </div>
     </div>
 

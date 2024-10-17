@@ -11,7 +11,7 @@
           </span>
         </div>
         <div class="stats-map text-center">
-          <img src="../../assets/images/cpq/DDWebsite.png" alt="cpq" />
+          <img src="../../assets/images/cpq/DDWebsite.png" alt="quotation information" />
         </div>
       </div>
     </div>

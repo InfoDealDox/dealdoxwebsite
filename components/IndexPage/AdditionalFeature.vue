@@ -36,7 +36,7 @@
 
                     <div class="col-lg-6 col-md-12">
                         <div class="software-integrations-list">
-                            <img src="../../assets/images/HomePage/Financialdocumentsandfor.png" alt="border">
+                            <img src="../../assets/images/HomePage/Financialdocumentsandfor.png" alt="software-integrations">
                         </div>
                     </div>
                 </div>

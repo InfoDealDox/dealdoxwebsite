@@ -15,11 +15,11 @@
 <script>
 import Navbar from '../layouts/Navbar'
 import Banner from '../components/AutomatedQuotesGeneration/Banner'
-import AccelerateYourSales from '../components/AutomatedQuotesGeneration/AccelerateYourSales'
-import Experiencethefuture from '../components/AutomatedQuotesGeneration/Experiencethefuture'
-import YourBusiness from '../components/AutomatedQuotesGeneration/YourBusiness'
+import AccelerateYourSales from '../components/AutomatedQuotesGeneration/AccelerateYourSales.vue'
+import Experiencethefuture from '../components/AutomatedQuotesGeneration/Experiencethefuture.vue'
+import YourBusiness from '../components/AutomatedQuotesGeneration/YourBusiness.vue'
 
-import PageHeader from '../components/ContactUs/PageHeader'
+import PageHeader from '../components/ContactUs/PageHeader.vue'
 import quotefaq from '../components/AutomatedQuotesGeneration/quotefaq'
 import DealDoxFooter from '../layouts/DealDoxFooter'
 import axios from 'axios';

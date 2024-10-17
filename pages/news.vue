@@ -5,7 +5,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-12 col-md-12">
                     <div class="new-app-main-banner-wrap-image">
-                        <img src="../assets/images/news-header-img.png" alt="image">
+                        <img src="../assets/images/news-header-img.png" alt="News Page Image">
                     </div>
                 </div>
             </div>
@@ -23,7 +23,7 @@
 <script>
 import Navbar from '../layouts/Navbar';
 // import PageTitle from '../components/Common/PageTitle';
-import MediaMain from '../components/MediaFolder/MediaMain'
+import MediaMain from '../components/MediaFolder/MediaMain.vue'
 // import AutomatedQuotes from '../components/Common/AutomatedQuotes';
 import DealDoxFooter from '../layouts/DealDoxFooter'
 import axios from 'axios';

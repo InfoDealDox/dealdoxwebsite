@@ -10,9 +10,9 @@
 
 <script>
 import Navbar from '../layouts/Navbar'
-import MainBannerLoacalized from '../components/HubSpot/MainBannerLoacalized'
-import HowLocalizedDeal from '../components/HubSpot/HowLocalizedDeal'
-import KeyBenefitsof from '../components/HubSpot/KeyBenefitsof'
+import MainBannerLoacalized from '../components/HubSpot/MainBannerLoacalized.vue'
+import HowLocalizedDeal from '../components/HubSpot/HowLocalizedDeal.vue'
+import KeyBenefitsof from '../components/HubSpot/KeyBenefitsof.vue'
 import DealDoxFooter from '../layouts/DealDoxFooter'
 import axios from 'axios';
 

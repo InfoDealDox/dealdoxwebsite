@@ -10,9 +10,9 @@
 
 <script>
 import Navbar from '../layouts/Navbar'
-import MainBannerLoacalized from '../components/Salesforce/MainBannerLoacalized'
-import HowLocalizedDeal from '../components/Salesforce/HowLocalizedDeal'
-import KeyBenefitsof from '../components/Salesforce/KeyBenefitsof'
+import MainBannerLoacalized from '../components/Salesforce/MainBannerLoacalized.vue'
+import HowLocalizedDeal from '../components/Salesforce/HowLocalizedDeal.vue'
+import KeyBenefitsof from '../components/Salesforce/KeyBenefitsof.vue'
 import DealDoxFooter from '../layouts/DealDoxFooter'
 import axios from 'axios';
 

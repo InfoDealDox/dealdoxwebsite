@@ -16,12 +16,12 @@
 
 <script>
 import Navbar from '../layouts/Navbar'
-import BannerLighteningFast from '../components/LightningFastQuoteApprovals/BannerLighteningFast'
-import AchieveSalesExcellence from '../components/LightningFastQuoteApprovals/AchieveSalesExcellence'
-import EffortlessAutomation from '../components/LightningFastQuoteApprovals/EffortlessAutomation'
-import RoutingCapabilitiess from '../components/LightningFastQuoteApprovals/RoutingCapabilitiess'
-import ModesofApprovals from '../components/LightningFastQuoteApprovals/ModesofApprovals'
-import ApprovalsInsights from '../components/LightningFastQuoteApprovals/ApprovalsInsights'
+import BannerLighteningFast from '../components/LightningFastQuoteApprovals/BannerLighteningFast.vue'
+import AchieveSalesExcellence from '../components/LightningFastQuoteApprovals/AchieveSalesExcellence.vue'
+import EffortlessAutomation from '../components/LightningFastQuoteApprovals/EffortlessAutomation.vue'
+import RoutingCapabilitiess from '../components/LightningFastQuoteApprovals/RoutingCapabilitiess.vue'
+import ModesofApprovals from '../components/LightningFastQuoteApprovals/ModesofApprovals.vue'
+import ApprovalsInsights from '../components/LightningFastQuoteApprovals/ApprovalsInsights.vue'
 
 import TransformDealsWith from "../components/RequestDemo/TransformDealsWith"
 import approvalsfaq from '../components/LightningFastQuoteApprovals/approvalsfaq'

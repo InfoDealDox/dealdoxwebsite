@@ -16,7 +16,7 @@
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="new-app-main-banner-wrap-image" data-aos="fade-left" data-aos-duration="2000">
-                        <img src="../../assets/images/cpq/cpq-banner.png" alt="image">
+                        <img src="../../assets/images/cpq/cpq-banner.png" alt="Best CPQ Software">
                     </div>
                 </div>
             </div>
