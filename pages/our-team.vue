@@ -71,3 +71,8 @@ export default {
     },
 }
 </script>
+
+<style>
+@import url('../assets/css/pages-css/OurTeams.css');
+
+</style>

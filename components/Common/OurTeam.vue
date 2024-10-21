@@ -1,29 +1,29 @@
 <template>
-    <div class="team-area pt-70 bg-FAFAFA">
-        <div class="container">
-            <div class="partner-title">
-                <h1>Meet our Extraordinary Individuals who bring Our Values to Life</h1>
+    <div class="our-team-max-width">
+        <div>
+            <div class="Meet-our-Extraordinary-container">
+                <span class="Meet-our-Extraordinary">Meet our Extraordinary Individuals who bring Our Values to Life</span>
             </div>
-            <div class="row justify-content-center" v-if="teams !== null">
-                <div class="col-lg-4 col-md-4 col-sm-4" v-for="team in teams.singleTeam" :key="team.id">
-                    <div class="single-team-member bg-white">
-                        <div class="image">
+            <div v-if="teams !== null" class="our-teams-container">
+                <div v-for="team in teams.singleTeam" :key="team.id" class="indivisual-team-member">
+           
+                        <div class="our-team-image-container">
                             <img :src="team.image.data.attributes.url"
-                                :alt="team.image.data.attributes.alternativeText">
+                                :alt="team.image.data.attributes.alternativeText" class="our-team-image">
                         </div>
-                        <div class="content">
-                            <h3>{{ team.title }}</h3>
+                        <div class="our-team-image-content-container">
+                            <span class="our-team-title">{{ team.title }}</span>
                             <span>{{ team.designation }}</span>
-                            <p>{{ team.shortDesc }}</p>
+                            <p  class="our-team-designation">{{ team.shortDesc }}</p>
                         </div>
-                        <ul class="social-links bg-white">
-                            <li>
-                                <a :href="team.linkedin" target="_blank">
-                                    <i class="ri-linkedin-fill"></i>
+                        <ul class="our-team-icon-lists">
+                            <li class="our-team-icon-lists-list">
+                                <a :href="team.linkedin" target="_blank" class="our-team-icon-lists-li">
+                                    <i class="ri-linkedin-fill  team-linkdein-icon"></i>
                                 </a>
                             </li>
                         </ul>
-                    </div>
+                 
                 </div>
             </div>
         </div>
@@ -48,3 +48,8 @@ export default {
     },
 }
 </script>
+
+
+<style>
+@import url('../../assets/css/pages-css/OurTeams.css');
+</style>
