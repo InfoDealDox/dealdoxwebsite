@@ -55,8 +55,7 @@
                         <div class="recaptcha-content-rowss">
                             <div class="ebook-captcha-container"><label class="ebookkss-labellsss"
                                     style="font-style: italic;">{{ num1 }} + {{ num2 }} =</label></div>
-                            <!-- <input v-model="userAnswer" type="number" required class="ebook-inputs" placeholder="Your answer" /> -->
-                            <input type="text" required v-model="userAnswer" @input="validatePhoneNumber"
+                                 <input type="text" required v-model="userAnswer" @input="validatePhoneNumber"
                                 @keypress="allowOnlyNumbers" class="captcha-inputs-container" placeholder="Enter your answer"
                                 autocomplete="off" />
                         </div>

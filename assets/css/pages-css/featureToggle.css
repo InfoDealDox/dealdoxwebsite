@@ -1,0 +1,36 @@
+.top-feature-background {
+  background-color: black;
+}
+
+.new-footer-background-div {
+  background-color: black;
+  width: 100%;
+  padding: 10px;
+  margin: auto;
+  border: none;
+  outline: none;
+  color: white;
+}
+.show-text-dropdown {
+  display: flex;
+  font-size: 16px;
+  font-weight: 600;
+  width: 80%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feature-nuxtlink-list {
+  text-decoration: none;
+}
+
+.features-toggle-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 89%;
+  margin-left: auto;
+  color: white;
+}

@@ -27,7 +27,7 @@
                                     <div class="main">
                                         <div class="div1">
                                             <h4 class="navheaders">Top Features</h4>
-                                            <li class="nav-item">
+                                          <li class="nav-item">
                                                 <NuxtLink to="/services-cpq" class="nav-link">CPQ</NuxtLink>
                                             </li>
                                             <li class="nav-item">

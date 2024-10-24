@@ -45,7 +45,7 @@
                                 <div class="contact-form">
                                     <form id="contact-form"
                                         action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8"
-                                        method="POST">
+                                        @submit="onSubmit" ref="form" method="POST">
                                         <input name="oid" type="hidden" value="00D2v000003PByK" />
                                         <input name="retURL" type="hidden" value="https://dealdox.io/thank-you" />
                                         <div class="row">
@@ -53,7 +53,7 @@
                                                 <div class="form-group">
                                                     <p>First Name</p>
                                                     <input type="text" maxlength="40" name="first_name" required
-                                                        class="form-control" id="first_name" placeholder="">
+                                                        class="form-control" id="first_name" placeholder="" v-model="formData.first_name">
                                                 </div>
                                             </div>
 
@@ -61,7 +61,7 @@
                                                 <div class="form-group">
                                                     <p>Last Name</p>
                                                     <input type="text" maxlength="40" name="last_name"
-                                                        class="form-control" id="last_name" placeholder="">
+                                                        class="form-control" id="last_name" placeholder="" v-model="formData.last_name">
                                                 </div>
                                             </div>
 
@@ -85,7 +85,7 @@
                                                 <div class="form-group">
                                                     <p>Email</p>
                                                     <input type="email" maxlength="40" name="email" required
-                                                        class="form-control" id="email" placeholder="">
+                                                        class="form-control" id="email" placeholder="" v-model="formData.email">
                                                 </div>
                                             </div>
 
@@ -101,7 +101,7 @@
                                                 <div class="form-group">
                                                     <p>Company</p>
                                                     <input type="text" maxlength="40" name="company"
-                                                        class="form-control" id="company" placeholder="">
+                                                        class="form-control" id="company" placeholder="" v-model="formData.company">
                                                 </div>
                                             </div>
 
@@ -123,7 +123,7 @@
                                                 <div class="form-group">
                                                     <p>Country</p>
                                                     <input type="country" maxlength="40" name="country"
-                                                        class="form-control" id="country" placeholder="">
+                                                        class="form-control" id="country" placeholder="" v-model="formData.country">
                                                 </div>
                                             </div>
 
@@ -140,10 +140,29 @@
                                                     type="text" value="Website" /><br />
                                             </div>
 
+
+                                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                                <div class="form-group">
+                                                    <p style="margin-bottom: 0px;">Solve the Math Problem</p>
+                                                    <div class="recaptcha-content-rowss">
+                                                        <div class="ebook-captcha-container"><label
+                                                                class="ebookkss-labellsss"
+                                                                style="font-style: italic;">{{ num1 }} + {{ num2 }}
+                                                                =</label></div>
+                                                        <input type="text" required v-model="userAnswer"
+                                                            @input="validatePhoneNumber" @keypress="allowOnlyNumbers"
+                                                            class="captcha-inputs-container form-control"
+                                                            placeholder="Enter your answer" autocomplete="off" />
+                                                    </div>
+                                                    <span v-if="errors.recaptcha" class="error">{{ errors.recaptcha
+                                                        }}</span>
+                                                </div>
+                                            </div>
+
                                             <div class="col-lg-12 col-md-12 col-sm-12">
                                                 <div class="form-group">
                                                     <input class="form-check-input" required type="checkbox" value=""
-                                                        id="flexCheckDefault">
+                                                        id="flexCheckDefault" v-model="formData.agree_terms">
                                                     <label class="form-check-label" for="flexCheckDefault">
                                                         I agree to the <NuxtLink to="/terms-of-use"> Terms of
                                                             Use</NuxtLink>
@@ -214,10 +233,16 @@ export default {
                 maxPhoneNumberLength: 15,
                 phoneValidationMessage: 'Please enter exactly 15 numeric digits',
             },
-            errors: {}
+            errors: {},
+            num1: this.generateRandomNumber(),
+            num2: this.generateRandomNumber(),
+            userAnswer: ''
         }
     },
     methods: {
+        generateRandomNumber() {
+            return Math.floor(Math.random() * 10); // Random number between 0 and 9
+        },
         validatePhoneNumber() {
             // Remove any non-numeric characters from the phone number
             this.formData.phoneNumber = this.formData.phoneNumber.replace(/\D/g, '');
@@ -258,17 +283,22 @@ export default {
                 this.errors.country = 'Country is required.';
             }
 
-            if (!this.formData.message) {
-                this.errors.message = 'Message is required.';
-            }
+            // if (!this.formData.message) {
+            //     this.errors.message = 'Message is required.';
+            // }
 
-            if (!this.formData.Employees__c) {
-                this.errors.Employees__c = 'Message is required.';
-            }
+            // if (!this.formData.Employees__c) {
+            //     this.errors.Employees__c = 'Message is required.';
+            // }
 
             if (!this.formData.agree_terms) {
                 this.errors.agree_terms = 'You must agree to the Terms of Use.';
             }
+            if (!this.userAnswer || parseInt(this.userAnswer) !== this.num1 + this.num2) {
+                this.errors.recaptcha = "You entered the wrong captcha value.";
+            }
+
+            console.log("demo", this.errors);
 
             return Object.keys(this.errors).length === 0;
         },
@@ -277,13 +307,11 @@ export default {
             // For a simple example, let's check if the email contains '@'.
             return email.includes('@');
         },
-        onSubmit() {
+        onSubmit(event) {
             if (this.validateForm()) {
-                // Submit the form
-                // For example, you can use axios or fetch to submit the form data to the server.
-                // You can also redirect to the 'thank-you' page after successful submission.
-                //   alert('Form submitted successfully!');
-                // this.$refs.contactForm.submit(); // Uncomment this line if you want to submit the form using HTML form submission.
+
+            } else {
+                event.preventDefault();
             }
         }
     },

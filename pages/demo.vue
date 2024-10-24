@@ -13,7 +13,7 @@
 <script>
 
 import Navbar from '../layouts/Navbar';
-import PageHeader from '../components/ContactUs/PageHeader'
+import PageHeader from '../components/ContactUs/PageHeader.vue'
 import TransformDealsWith from '../components/RequestDemo/TransformDealsWith'
 // import Partner from '../components/Common/Partner'
 import Blog from '../components/Common/Blog'

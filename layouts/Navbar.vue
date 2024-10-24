@@ -1,5 +1,10 @@
 <template>
-    <div :class="['navbar-area', { 'is-sticky': isSticky }]">
+
+
+    <div :class="['navbar-area', { 'is-sticky': isSticky }]" id="navbar-two-containers-div">
+        <div class="navbar-new-banner">
+            <span class="navbar-new-banner-content">🚀✨We've just secured the Seed funding to supercharge our growth | <NuxtLink to="/news" class="new-navbar-banner-readbanner">Read more</NuxtLink></span>
+        </div>
         <div class="jexa-nav">
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -123,15 +128,10 @@
                             <button class="default-btn">Login</button></a>
 
                     </div>
-
-
-
-
-
-
                 </nav>
             </div>
         </div>
+
     </div>
 </template>
 
