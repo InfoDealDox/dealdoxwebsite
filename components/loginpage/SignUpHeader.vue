@@ -64,7 +64,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-sm-4">© 2023 DealDox Pvt Ltd</div>
+                            <div class="col-sm-4">© 2024 DealDox Software Pvt Ltd</div>
                             <div class="col-sm-4">All rights reserved</div>
                             <div class="col-sm-4">Privacy</div>
                         </div>

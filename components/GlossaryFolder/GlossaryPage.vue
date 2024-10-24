@@ -2,7 +2,7 @@
     <div class="blog-area pt-70">
         <div class="container">
             <div class="pagination-area">
-                <div class="nav-links">
+                <div class="nav-links" style="justify-content: center;">
                     <!-- <ul v-for="category in categories" :key="category.id">
                         <li >
                         <NuxtLink :to="`/glossary-category-details/${category.attributes.slug}`" class="page-numbers">{{

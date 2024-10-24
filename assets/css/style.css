@@ -432,6 +432,10 @@ p:last-child {
   font-size: 14px;
 }
 
+.our-team-section-title{
+  padding-top:60px;
+}
+
 .footer-content {
   font-size: 15px;
 }
@@ -9031,4 +9035,6 @@ a {
   .success-story-image {
     height: 200px;
   }
+  
+
 }

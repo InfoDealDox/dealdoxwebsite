@@ -74,7 +74,7 @@
                             <div class="container">
                                 <div class="contact-form">
                                     <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8"
-                                        method="POST">
+                                        method="POST" @submit="submitForm" ref="form">
                                         <input name="oid" type="hidden" value="00D2v000003PByK" />
                                         <input name="retURL" type="hidden" value="https://dealdox.io/thank-you" />
                                         <div class="row">
@@ -82,7 +82,7 @@
                                                 <div class="form-group">
                                                     <p>First Name</p>
                                                     <input type="text" maxlength="40" name="first_name" required
-                                                        class="form-control" id="first_name" placeholder="">
+                                                        class="form-control" id="first_name" placeholder="" v-model="formData.first_name">
                                                 </div>
                                             </div>
 
@@ -90,23 +90,24 @@
                                                 <div class="form-group">
                                                     <p>Last Name</p>
                                                     <input type="text" maxlength="40" name="last_name"
-                                                        class="form-control" id="last_name" placeholder="">
+                                                        class="form-control" id="last_name" placeholder="" v-model="formData.last_name">
                                                 </div>
                                             </div>
 
                                             <div class="col-lg-6 col-md-6 col-sm-6">
                                                 <p>Phone Number</p>
-                                                <input type="text" v-model="formData.phoneNumber" @input="validatePhoneNumber"
-                                                    @keypress="allowOnlyNumbers" :maxlength="formData.maxPhoneNumberLength"
-                                                    name="phone" class="form-control" id="phone" maxlength="15"
-                                                    placeholder="" :title="formData.phoneValidationMessage" />
+                                                <input type="text" v-model="formData.phoneNumber"
+                                                    @input="validatePhoneNumber" @keypress="allowOnlyNumbers"
+                                                    :maxlength="formData.maxPhoneNumberLength" name="phone"
+                                                    class="form-control" id="phone" maxlength="15" placeholder=""
+                                                    :title="formData.phoneValidationMessage" />
                                             </div>
 
                                             <div class="col-lg-6 col-md-6 col-sm-6">
                                                 <div class="form-group">
                                                     <p>Email</p>
                                                     <input type="email" maxlength="40" name="email" required
-                                                        class="form-control" id="email" placeholder="">
+                                                        class="form-control" id="email" placeholder="" v-model="formData.email">
                                                 </div>
                                             </div>
 
@@ -114,7 +115,7 @@
                                                 <div class="form-group">
                                                     <p>Company</p>
                                                     <input type="text" maxlength="40" name="company"
-                                                        class="form-control" id="company" placeholder="">
+                                                        class="form-control" id="company" placeholder="" v-model="formData.company">
                                                 </div>
                                             </div>
 
@@ -122,7 +123,7 @@
                                                 <div class="form-group">
                                                     <p>Country</p>
                                                     <input type="country" maxlength="40" name="country"
-                                                        class="form-control" id="country" placeholder="">
+                                                        class="form-control" id="country" placeholder="" v-model="formData.country">
                                                 </div>
                                             </div>
 
@@ -131,20 +132,40 @@
                                                     <p>Leave your message</p>
                                                     <textarea name="00N2v00000XQu8f" id="00N2v00000XQu8f"
                                                         class="form-control" cols="30" rows="6"
-                                                        placeholder=""></textarea>
+                                                        placeholder="" v-model="formData.message"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                                <div class="form-group">
+                                                    <p style="margin-bottom: 0px;">Solve the Math Problem</p>
+                                                    <div class="recaptcha-content-rowss">
+                                                        <div class="ebook-captcha-container"><label
+                                                                class="ebookkss-labellsss"
+                                                                style="font-style: italic;">{{ num1 }} + {{ num2 }}
+                                                                =</label></div>
+                                                        <input type="text" required v-model="userAnswer"
+                                                            @input="validatePhoneNumber" @keypress="allowOnlyNumbers"
+                                                            class="captcha-inputs-container form-control"
+                                                            placeholder="Enter your answer" autocomplete="off" />
+                                                    </div>
+                                                    <span v-if="formErrors.recaptcha"
+                                                        class="error">{{ formErrors.recaptcha }}</span>
                                                 </div>
                                             </div>
 
                                             <div class="col-lg-12 col-md-12 col-sm-12">
                                                 <div class="form-group">
                                                     <input class="form-check-input" required type="checkbox" value=""
-                                                        id="flexCheckDefault">
+                                                        id="flexCheckDefault" v-model="formData.agree">
                                                     <label class="form-check-label" for="flexCheckDefault">
                                                         I agree to the <NuxtLink to="/terms-of-use"> Terms of
                                                             Use</NuxtLink>
                                                     </label>
                                                 </div>
                                             </div>
+
+
+                                            
 
                                             <p> By registering, you confirm that you agree to the storing and processing
                                                 of
@@ -212,10 +233,15 @@ export default {
                 phoneValidationMessage: 'Please enter exactly 15 numeric digits',
             },
             formErrors: {},
+            num1: this.generateRandomNumber(),
+            num2: this.generateRandomNumber(),
+            userAnswer: ''
         };
     },
     methods: {
-
+        generateRandomNumber() {
+            return Math.floor(Math.random() * 10); // Random number between 0 and 9
+        },
         validatePhoneNumber() {
             // Remove any non-numeric characters from the phone number
             this.formData.phoneNumber = this.formData.phoneNumber.replace(/\D/g, '');
@@ -230,7 +256,7 @@ export default {
         validateForm() {
             this.formErrors = {};
 
-            const nameRegex = /^[a-zA-Z]+$/;
+            const nameRegex = /^[a-zA-Z ]+$/;
             const phoneRegex = /^\+?\d{1,4}?\s?\d{6,}$/;
             const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
@@ -265,31 +291,94 @@ export default {
             if (!this.formData.agree) {
                 this.formErrors.agree = 'You must agree to the Terms of Use and Privacy Policy.';
             }
+            if (!this.userAnswer || parseInt(this.userAnswer) !== this.num1 + this.num2) {
+                this.formErrors.recaptcha = "You entered the wrong captcha value.";
+            }
+console.log("formErrors",this.formErrors)
+
 
             return Object.keys(this.formErrors).length === 0;
         },
 
-        submitForm() {
+        submitForm(event) {
             if (this.validateForm()) {
-                // Submit the form here, e.g., using Axios or fetch API
-
-                const response = grecaptcha.getResponse();
-
-                // Check if reCAPTCHA response is available
-                if (response.length === 0) {
-                    alert("Please complete the reCAPTCHA.");
-                    return;
-                }
-
-                // If reCAPTCHA response is available, submit the form
-                const form = document.querySelector('form');
-                form.submit();
-
-
             } else {
-                console.log('Form validation failed!');
+                event.preventDefault();
             }
         },
     },
 };
 </script>
+
+
+
+
+<style>
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+.captcha-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ebook-captcha-container {
+    width: 25%;
+    background-color: white;
+    /* margin: 10px auto; */
+    border-radius: 3px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    border: 0.1px solid #eeeeee;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  
+
+
+}
+
+.ebookkss-labellsss {
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.captcha-inputs-container {
+    background-color: white;
+    width: 75%;
+    padding: 27px 5px;
+
+    border: 0.1px solid #eeeeee;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    outline-color: #715CF3;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+
+}
+
+.recaptcha-content-rowss {
+    display: flex;
+}
+.captcha-inputs-container::placeholder{
+    color: #ccc;
+    font-style: italic;
+}
+
+@media (max-width: 750px) {
+    .captcha-inputs-container {
+        width: 60%;
+    }
+
+    .ebook-captcha-container {
+        width: 40%;
+    }
+}
+</style>

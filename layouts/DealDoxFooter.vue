@@ -216,7 +216,7 @@
           </div>
           <div class="col-lg-4 col-sm-3">
             <p class="text-center">
-              Copyright @2024 DealDox Pvt Ltd. <br />
+              Copyright @2024 DealDox Software Pvt Ltd. <br />
               All Rights Reserved.
             </p>
           </div>

@@ -1,13 +1,13 @@
 <template>
     <div class="features-area pt-500 bg-white">
         <div class="container">
-            <div class="section-title-about">
+            <div class="section-title-about our-team-section-title" >
                 <h1>Our Values</h1>
                 <p>At our core, we have a team of skilled developers and architects who excel in crafting state-of-the-art
                     software solutions. With their expertise, we specialize in creating innovative and scalable software
                     that addresses the distinct requirements of every business. </p>
             </div>
-            <div class="row justify-content-center pt-60">
+            <div class="row justify-content-center" style="padding-top: 34px;">
                 <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
                     <div class="single-features-item" style="height:290px">
                         <div class="icon">
