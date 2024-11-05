@@ -9,7 +9,7 @@
     <LightningFast />
     <ImproveSales />
     <EasyCPQ />
-    <AdditionalFeature />
+    <!-- <AdditionalFeature /> -->
     <!-- <AutomatedQuotes /> -->
     <!-- <GetInTouch /> -->
     <Faq />
@@ -28,7 +28,7 @@ import EasyIntegration from '../components/IndexPage/EasyIntegration';
 import LightningFast from '../components/IndexPage/LightningFast';
 import ImproveSales from '../components/IndexPage/ImproveSales';
 import EasyCPQ from '../components/IndexPage/EasyCPQ';
-import AdditionalFeature from '../components/IndexPage/AdditionalFeature';
+// import AdditionalFeature from '../components/IndexPage/AdditionalFeature';
 // import AutomatedQuotes from '../components/IndexPage/AutomatedQuotes';
 // import GetInTouch from '../components/IndexPage/GetInTouch';
 import Faq from '../components/Common/Faq';
@@ -48,7 +48,7 @@ export default {
     LightningFast,
     ImproveSales,
     EasyCPQ,
-    AdditionalFeature,
+    // AdditionalFeature,
     // AutomatedQuotes,
     // GetInTouch,
     Faq,

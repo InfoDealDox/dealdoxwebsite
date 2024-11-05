@@ -1,0 +1,147 @@
+.alternatives-table {
+  width: 80%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  font-size: 1rem;
+  text-align: left;
+}
+
+.alternatives-thead .alternatives-cols {
+  color: #333;
+  padding: 12px 15px;
+  font-weight: bold;
+}
+
+.alternatives-table .alternatives-data-cols,
+.alternatives-table .alternatives-cols {
+  border-bottom: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+.alternatives-data-cols {
+  text-align: center;
+  padding: 15px;
+}
+
+.alter-head-row > :first-child {
+  text-align: left;
+  padding: 15px;
+}
+
+.alternatives-cols {
+  text-align: center;
+}
+.alter-head-row > * {
+  min-width: 200px;
+}
+
+/* Icon styling for check and cross */
+.bi-check-circle-fill {
+  color: #28a745; /* Green color for check */
+  font-size: 1.2rem;
+}
+
+.bi-x-circle-fill {
+  color: #dc3545; /* Red color for cross */
+  font-size: 1.2rem;
+}
+
+.compare-feature-heading {
+  font-size: 24px;
+  font-weight: 600;
+  color: #262a37;
+  padding: 5px;
+}
+.odoo-container {
+  margin-top: 100px;
+}
+.compare-plans-headers {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.alternatives-table {
+  max-width: 1320px;
+}
+.comparision-pages-header-contentss {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px 20px;
+  width: 80%;
+  margin: auto;
+}
+.comparision-pages-header-contentss-1 {
+  font-weight: 600;
+  font-size: 24px;
+  color: #272727;
+}
+.comparision-pages-header-contentss-2 {
+  padding: 20px 0px;
+  color:#000;
+}
+.comparision-pages-header-contentss-3 {
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+}
+
+.compare-plans-headers {
+  background-image: linear-gradient(99.01deg, #715cf3 20.98%, #5c99f3 94.62%);
+
+  padding: 10px;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .alter-head-row > * {
+    min-width: 102px;
+  }
+  .compare-feature-heading {
+    font-size: 14px;
+    font-weight: 600;
+    color: #262a37;
+  }
+  .alter-head-row > :first-child {
+    text-align: left;
+    padding: 15px;
+    font-size: 12px;
+  }
+  .alternatives-table .alternatives-data-cols,
+  .alternatives-table .alternatives-cols {
+    border-bottom: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+    font-size: 12px;
+  }
+  .odoo-container {
+    margin-top: 80px;
+  }
+  .alternatives-data-cols-first-column {
+    min-width: 150px;
+    position: sticky;
+    left: 0px;
+    background-color: white;
+  }
+  .comparision-pages-header-contentss {
+    width: 95%;
+
+}
+.comparision-pages-header-contentss-1 {
+
+  font-size: 13px;
+}
+.comparision-pages-header-contentss-3 {
+  font-size: 10px;
+}
+.alternatives-data-cols-first-column{
+  padding: 12px 5px;
+  text-align: left;
+}
+
+}
