@@ -7,7 +7,7 @@
 
             <div class="table-alternative-containersss">
                 <Tablealternative :comparisionDatas="comparisionData" company1="DealHub" company2="DealDox"
-                    companyName1="DealHub" companyName2="Dealdox" />
+                    companyName1="DealHub" companyName2="DealDox" />
             </div>
         </div>
 
