@@ -43,7 +43,7 @@
                   <NuxtLink to="/" class="footer-content">Salesforce Optimization</NuxtLink>
                 </li>
                 <li>
-                  <NuxtLink to="/" class="footer-content">Mobile App</NuxtLink>
+                  <NuxtLink to="/mobileapp" class="footer-content">Mobile App</NuxtLink>
                 </li>
                 <li>
                   <NuxtLink to="/pricing" class="footer-content">Pricing</NuxtLink>
@@ -352,7 +352,7 @@ export default {
 
         { text: 'Document Generation', link: '/' },
         { text: 'Salesforce Optimization', link: '/' },
-        { text: 'Mobile App', link: '/' },
+        { text: 'Mobile App', link: '/mobileapp' },
         { text: 'Pricing', link: '/pricing' },
         { text: 'Security', link: '/' },
         { text: 'HIPAA', link: '/' }
