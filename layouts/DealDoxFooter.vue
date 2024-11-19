@@ -62,7 +62,7 @@
               <h3>Solutions</h3>
               <ul class="links-list">
                 <li>
-                  <NuxtLink to="/" class="footer-content">Sales
+                  <NuxtLink to="/sales" class="footer-content">Sales
                   </NuxtLink>
                 </li>
                 <li>
@@ -358,7 +358,7 @@ export default {
         { text: 'HIPAA', link: '/' }
       ],
       featuresSet2: [
-        { text: 'Sales', link: '/' },
+        { text: 'Sales', link: '/sales' },
         { text: 'Operation', link: '/' },
         { text: 'Salesforce', link: '/salesforce-cpq-integration' },
         { text: 'Microsoft Dynamics', link: '/microsoft-dynamics-365-cpq-integration' },
