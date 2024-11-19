@@ -2,6 +2,46 @@ export default {
     server: {
             host: '0.0.0.0'
     },
+
+
+    modules: ['@nuxtjs/feed'],
+
+  feed: [
+    {
+      // The RSS feed path
+      path: '/feed.xml',
+      // RSS feed type
+      type: 'rss2',
+      // Define feed generation logic
+      async create(feed) {
+        feed.options = {
+          title: 'DealDox',
+          link: 'https://dealdox.io/feed.xml',
+          description: 'Effortlessly streamline your Quote Generation process with DealDox',
+        };
+
+        // Fetch posts from Strapi API
+        const posts = await fetch('https://cms.dealdox.io/api/blogs?populate=*')
+          .then((res) => res.json())
+          .then((data) => data.data);
+
+        // Add posts to the feed
+        posts.forEach((post) => {
+          feed.addItem({
+            title: post.attributes.title,
+            id: `https://www.dealdox.io/blog/${post.attributes.slug}`,
+            link: `https://yourwebsite.com/posts/${post.attributes.slug}`,
+            description: post.attributes.longDesc,
+            content: post.attributes.seo.metaDescription,
+            date: new Date(post.attributes.publishedAt),
+          });
+        });
+      },
+      cacheTime: 1000 * 60 * 15, // Cache duration in milliseconds
+    },
+  ],
+
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'DealDox',
@@ -17,8 +57,17 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
+      {
+        rel: 'alternate',
+        type: 'application/rss+xml',
+        href: '/feed.xml',
+        title: 'RSS Feed',
+      },
     ]
   },
+  
+
+
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
