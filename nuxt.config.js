@@ -14,29 +14,34 @@ export default {
       type: 'rss2',
       // Define feed generation logic
       async create(feed) {
-        feed.options = {
-          title: 'DealDox',
-          link: 'https://dealdox.io/feed.xml',
-          description: 'Effortlessly streamline your Quote Generation process with DealDox',
-        };
-
-        // Fetch posts from Strapi API
-        const posts = await fetch('https://cms.dealdox.io/api/blogs?populate=*')
-          .then((res) => res.json())
-          .then((data) => data.data);
-
-        // Add posts to the feed
-        posts.forEach((post) => {
-          feed.addItem({
-            title: post.attributes.title,
-            id: `https://www.dealdox.io/blog/${post.attributes.slug}`,
-            link: `https://yourwebsite.com/posts/${post.attributes.slug}`,
-            description: post.attributes.longDesc,
-            content: post.attributes.seo.metaDescription,
-            date: new Date(post.attributes.publishedAt),
+        try {
+          feed.options = {
+            title: 'DealDox',
+            link: 'https://dealdox.io/feed.xml',
+            description: 'Effortlessly streamline your Quote Generation process with DealDox',
+          };
+      
+          const response = await fetch('https://cms.dealdox.io/api/blogs?populate=*');
+          if (!response.ok) throw new Error('Failed to fetch posts');
+      
+          const { data: posts } = await response.json();
+          console.log('Fetched posts:', posts);
+      
+          posts.forEach((post) => {
+            feed.addItem({
+              title: post.attributes.title,
+              id: `https://www.dealdox.io/blog/${post.attributes.slug}`,
+              link: `https://www.dealdox.io/blog/${post.attributes.slug}`,
+              description: post.attributes.longDesc,
+              content: post.attributes.seo.metaDescription,
+              date: new Date(post.attributes.publishedAt),
+            });
           });
-        });
+        } catch (error) {
+          console.error('Error creating RSS feed:', error);
+        }
       },
+      
       cacheTime: 1000 * 60 * 15, // Cache duration in milliseconds
     },
   ],

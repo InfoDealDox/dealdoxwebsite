@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>DealDox</title>
+    <link>https://dealdox.io/feed.xml</link>
+    <description>Effortlessly streamline your Quote Generation process with DealDox</description>
+    <item>
+      <title>Sample Blog Title</title>
+      <link>https://www.dealdox.io/blog/cpq-for-mid-sized-businesses</link>
+      <description>Sample blog description</description>
+      <pubDate>Mon, 20 Nov 2024 12:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
