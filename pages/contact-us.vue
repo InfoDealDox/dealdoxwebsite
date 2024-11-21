@@ -11,9 +11,9 @@
 <script>
 
 import Navbar from '../layouts/Navbar';
-import PageHeader from '../components/ContactUs/PageHeader'
+import PageHeader from '../components/ContactUs/PageHeader.vue'
 
-import Blog from '../components/Common/Blog'
+import Blog from '../components/Common/Blog.vue'
 // import Faq from '../components/Common/Faq';
 import DealDoxFooter from '../layouts/DealDoxFooter';
 import axios from 'axios';

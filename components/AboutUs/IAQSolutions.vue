@@ -11,7 +11,7 @@
                 <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
                     <div class="single-features-item" style="height:290px">
                         <div class="icon">
-                            <img src="../../assets/images/cpq-integration/cpq-integration-banner-icon1.png" alt="image">
+                            <img src="../../assets/images/cpq-integration/cpq-integration-banner-icon1.png" alt="CPQ Systems">
                         </div>
                         <h5>Trust</h5>
                         <p>Trust is paramount for our team. We prioritize it by fostering honest communication, maintaining
@@ -21,7 +21,7 @@
                 <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
                     <div class="single-features-item" style="height:290px">
                         <div class="icon">
-                            <img src="../../assets/images/cpq-integration/cpq-integration-banner-icon2.png" alt="image">
+                            <img src="../../assets/images/cpq-integration/cpq-integration-banner-icon2.png" alt="CPQ Systems">
                         </div>
                         <h5>Collaboration</h5>
                         <p>Open communication and collaboration are the pillars of our team's success. We empower team
@@ -32,7 +32,7 @@
                 <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
                     <div class="single-features-item" style="height:290px">
                         <div class="icon">
-                            <img src="../../assets/images/About-US/predictiona.png" alt="image">
+                            <img src="../../assets/images/About-US/predictiona.png" alt="CPQ Systems">
                         </div>
                         <h5>Accountability </h5>
                         <p>By taking ownership of our work and holding ourselves and others accountable for our actions, we
@@ -42,7 +42,7 @@
                 <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
                     <div class="single-features-item" style="height:290px">
                         <div class="icon">
-                            <img src="../../assets/images/cpq-integration/Automated-Oppertunity.png" alt="image">
+                            <img src="../../assets/images/cpq-integration/Automated-Oppertunity.png" alt="CPQ Systems">
                         </div>
                         <h5>Adaptability </h5>
                         <p>We embrace change and vulnerability with an adaptable mentality, enabling us to change our course
@@ -53,7 +53,7 @@
                 <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
                     <div class="single-features-item" style="height:290px">
                         <div class="icon">
-                            <img src="../../assets/images/About-US/synca.png" alt="image">
+                            <img src="../../assets/images/About-US/synca.png" alt="CPQ Systems">
                         </div>
                         <h5>Innovation</h5>
                         <p>The motivation of originality and creativity in problem-solving and decision-making is at the
@@ -64,7 +64,7 @@
                 <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
                     <div class="single-features-item" style="height:290px">
                         <div class="icon">
-                            <img src="../../assets/images/About-US/income.png" alt="image">
+                            <img src="../../assets/images/About-US/income.png" alt="Complex approval processes">
                         </div>
                         <h5>Excellence </h5>
                         <p>Excellence is our relentless pursuit. We set and maintain high standards, driving each team

@@ -35,16 +35,16 @@
                 <li>
                   <NuxtLink to="/cpq-integrations" class="footer-content">Integrations</NuxtLink>
                 </li>
-
+                <li>
+                  <NuxtLink to="/mobileapp" class="footer-content">Mobile App</NuxtLink>
+                </li>
                 <li>
                   <NuxtLink to="/" class="footer-content">Document Generation</NuxtLink>
                 </li>
                 <li>
                   <NuxtLink to="/" class="footer-content">Salesforce Optimization</NuxtLink>
                 </li>
-                <li>
-                  <NuxtLink to="/mobileapp" class="footer-content">Mobile App</NuxtLink>
-                </li>
+
                 <li>
                   <NuxtLink to="/pricing" class="footer-content">Pricing</NuxtLink>
                 </li>
@@ -110,7 +110,7 @@
                   <NuxtLink to="/news" class="footer-content">News</NuxtLink>
                 </li>
                 <li>
-                  <NuxtLink to="/" class="footer-content">Why DealDox</NuxtLink>
+                  <NuxtLink to="/WhyDealDox" class="footer-content">Why DealDox</NuxtLink>
                 </li>
               </ul>
             </div>
@@ -126,10 +126,10 @@
                   <NuxtLink to="/contact-us" class="footer-content">Contact Us</NuxtLink>
                 </li>
                 <li>
-                  <NuxtLink to="/sign-up-free-trial" class="footer-content">Become a Partner</NuxtLink>
+                  <NuxtLink to="/partners" class="footer-content">Become a Partner</NuxtLink>
                 </li>
                 <li>
-                  <NuxtLink to="/contact us" class="footer-content">Support</NuxtLink>
+                  <NuxtLink to="/" class="footer-content">Support</NuxtLink>
                 </li>
               </ul>
 
@@ -141,23 +141,21 @@
               <h3>Compare to</h3>
               <ul class="links-list">
                 <li>
-                  <NuxtLink to="/alternatives/odoo" class="footer-content">Odoo</NuxtLink>
-                </li>
-                <li>
                   <NuxtLink to="/alternatives/salesforce" class="footer-content">Salesforce CPQ</NuxtLink>
-                </li>
-                <li>
-                  <NuxtLink to="/alternatives/vyapaar" class="footer-content">Vyapaar</NuxtLink>
-                </li>
-                <li>
-                  <NuxtLink to="/alternatives/biziverse" class="footer-content">BiziVerse</NuxtLink>
-                </li>
-                <li>
-                  <NuxtLink to="/alternatives/oracle" class="footer-content">Oracle CPQ</NuxtLink>
                 </li>
                 <li>
                   <NuxtLink to="/alternatives/sap" class="footer-content">SAP CPQ</NuxtLink>
                 </li>
+
+                <li>
+                  <NuxtLink to="/alternatives/oracle" class="footer-content">Oracle CPQ</NuxtLink>
+                </li>
+                <!-- <li>
+                  <NuxtLink to="/alternatives/odoo" class="footer-content">Odoo</NuxtLink>
+                </li> -->
+
+
+
                 <li>
                   <NuxtLink to="/alternatives/zoho" class="footer-content">Zoho CPQ</NuxtLink>
                 </li>
@@ -170,6 +168,12 @@
                 <li>
                   <NuxtLink to="/alternatives/connectwise" class="footer-content">ConnectWise Sell</NuxtLink>
                 </li>
+                <!-- <li>
+                  <NuxtLink to="/alternatives/vyapaar" class="footer-content">Vyapaar</NuxtLink>
+                </li>
+                <li>
+                  <NuxtLink to="/alternatives/biziverse" class="footer-content">BiziVerse</NuxtLink>
+                </li> -->
               </ul>
             </div>
           </div>
@@ -215,7 +219,7 @@
               </div>
               <div style="color: white;">
 
-                <small style="padding:5px 0px 10px 0px;font-weight: 500;">compliance</small>
+                <small style="padding:5px 0px 10px 0px;font-weight: 500;">Compliance</small>
                 <div class="compliance-icon-container">
                   <img src="../assets/images/AutomobileAds1.png" alt="" class="compliance-icons-images">
                   <img src="../assets/images/AutomobileAds2.png" alt="" class="compliance-icons-images">
@@ -349,10 +353,9 @@ export default {
         { text: 'CPQ', link: '/quoting-software' },
         { text: 'Workflow Approvals', link: '/approval-software' },
         { text: 'Integrations', link: '/' },
-
+        { text: 'Mobile App', link: '/mobileapp' },
         { text: 'Document Generation', link: '/' },
         { text: 'Salesforce Optimization', link: '/' },
-        { text: 'Mobile App', link: '/mobileapp' },
         { text: 'Pricing', link: '/pricing' },
         { text: 'Security', link: '/' },
         { text: 'HIPAA', link: '/' }
@@ -372,26 +375,31 @@ export default {
         { text: 'Success Stories', link: '/success-stories' },
         { text: 'Glossary', link: '/glossary' },
         { text: 'News', link: '/news' },
-        { text: 'Why DealDox', link: '/' }
+        { text: 'Why DealDox', link: '/WhyDealDox' }
       ],
       featuresSet4: [
         { text: 'Our Team', link: '/our-team' },
         { text: 'Contact Us', link: '/contact-us' },
-        { text: 'Become a Partner', link: '/' },
+        { text: 'Become a Partner', link: '/partners' },
         { text: 'Support', link: '/contact us' },
 
       ],
       featuresSet5: [
-        { text: 'Odoo', link: '/alternatives/odoo' },
+        // { text: 'Odoo', link: '/alternatives/odoo' },
         { text: 'Salesforce CPQ', link: '/alternatives/salesforce' },
-        { text: 'Vyapaar', link: '/alternatives/vyapaar' },
-        { text: 'BiziVerse', link: '/alternatives/biziverse' },
-        { text: 'Oracle CPQ', link: '/alternatives/oracle' },
         { text: 'SAP CPQ', link: '/alternatives/sap' },
+        { text: 'Oracle CPQ', link: '/alternatives/oracle' },
         { text: 'Zoho CPQ', link: '/alternatives/zoho' },
         { text: 'HubSpot CPQ', link: '/alternatives/hubspot' },
         { text: 'DealHub', link: '/alternatives/dealhub' },
         { text: 'ConnectWise Sell', link: '/alternatives/connectwise' },
+        // { text: 'Vyapaar', link: '/alternatives/vyapaar' },
+        // { text: 'BiziVerse', link: '/alternatives/biziverse' },
+
+
+
+
+
       ]
     };
   }

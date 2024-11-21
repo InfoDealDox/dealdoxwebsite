@@ -14,7 +14,7 @@
 
 import Navbar from '../layouts/Navbar';
 import PageHeader from '../components/ContactUs/PageHeader'
-import TransformDealsWith from '../components/RequestDemo/TransformDealsWith'
+import TransformDealsWith from '../components/RequestDemo/TransformDealsWith.vue'
 // import Partner from '../components/Common/Partner'
 import Blog from '../components/Common/Blog'
 import Faq from '../components/Common/Faq';

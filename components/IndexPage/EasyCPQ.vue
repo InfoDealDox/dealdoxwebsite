@@ -37,7 +37,7 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="software-integrations-list">
                             <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694696802/easy-integration_ndti2t.png"
-                                alt="border">
+                                alt="automated quoting solution">
                         </div>
                     </div>
                 </div>

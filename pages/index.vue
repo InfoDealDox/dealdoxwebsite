@@ -20,14 +20,14 @@
 <script>
 
 import Navbar from '../layouts/Navbar';
-import MainBanner from '../components/IndexPage/MainBanner';
-import Partner from '../components/Common/Partner';
-import TransformYourSales from '../components/IndexPage/TransformYourSales';
-import WithOurSubscrip from '../components/IndexPage/WithOurSubscrip';
-import EasyIntegration from '../components/IndexPage/EasyIntegration';
-import LightningFast from '../components/IndexPage/LightningFast';
-import ImproveSales from '../components/IndexPage/ImproveSales';
-import EasyCPQ from '../components/IndexPage/EasyCPQ';
+import MainBanner from '../components/IndexPage/MainBanner.vue';
+import Partner from '../components/Common/Partner.vue';
+import TransformYourSales from '../components/IndexPage/TransformYourSales.vue';
+import WithOurSubscrip from '../components/IndexPage/WithOurSubscrip.vue';
+import EasyIntegration from '../components/IndexPage/EasyIntegration.vue';
+import LightningFast from '../components/IndexPage/LightningFast.vue';
+import ImproveSales from '../components/IndexPage/ImproveSales.vue';
+import EasyCPQ from '../components/IndexPage/EasyCPQ.vue';
 // import AdditionalFeature from '../components/IndexPage/AdditionalFeature';
 // import AutomatedQuotes from '../components/IndexPage/AutomatedQuotes';
 // import GetInTouch from '../components/IndexPage/GetInTouch';

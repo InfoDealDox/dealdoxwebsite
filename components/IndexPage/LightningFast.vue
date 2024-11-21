@@ -49,7 +49,7 @@
             <div class="software-integrations-list">
               <img
                 src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694696753/lfqa-banner_jscbk9.png"
-                alt="software-integrations"
+                alt="automated quoting solution"
               />
             </div>
           </div>

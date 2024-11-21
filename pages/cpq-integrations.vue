@@ -13,13 +13,16 @@
 </template>
 
 <script>
+
+
+
 import Navbar from '../layouts/Navbar'
-import PageHeader from '../components/CPQIntegration/PageHeader'
-import IAQSolutions from '../components/CPQIntegration/IAQSolutions'
-import Funfacts from '../components/CPQIntegration/Funfacts'
+import PageHeader from '../components/CPQIntegration/PageHeader.vue'
+import IAQSolutions from '../components/CPQIntegration/IAQSolutions.vue'
+import Funfacts from '../components/CPQIntegration/Funfacts.vue'
 import Stats from '../components/CPQIntegration/Stats'
 
-import TransformDealsWith  from "../components/RequestDemo/TransformDealsWith"
+import TransformDealsWith  from "../components/RequestDemo/TransformDealsWith.vue"
 import integrationfaq from '../components/CPQIntegration/integrationfaq'
 import DealDoxFooter from '../layouts/DealDoxFooter'
 import axios from 'axios';

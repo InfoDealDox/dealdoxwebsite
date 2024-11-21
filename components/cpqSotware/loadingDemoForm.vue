@@ -1,6 +1,6 @@
 <template>
     <div style="max-width: 1320px;margin: auto;">
-               <div class="form-image-landing-container">
+        <div class="form-image-landing-container">
             <div class="loadingForms">
                 <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST"
                     class="formloadingform">
@@ -217,25 +217,7 @@ export default {
             }
         },
     },
- 
+
 };
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </script>
-
-<style></style>

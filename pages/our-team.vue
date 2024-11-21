@@ -4,7 +4,7 @@
         <!-- <Stats /> -->
         <IAQSolutions />
         <OurTeam />
-        <Feedback />
+        <!-- <Feedback /> -->
         <Blog />
         <GetInTouch />
         <DealDoxFooter />
@@ -14,12 +14,12 @@
 <script>
 
 import Navbar from '../layouts/Navbar';
-import IAQSolutions from '../components/AboutUs/IAQSolutions';
+import IAQSolutions from '../components/AboutUs/IAQSolutions.vue';
 import OurTeam from '../components/Common/OurTeam.vue';
-import Feedback from '../components/Common/Feedback.vue';
-import Blog from '../components/Common/Blog';
+// import Feedback from '../components/Common/Feedback.vue';
+import Blog from '../components/Common/Blog.vue';
 // import Stats from '../components/AboutUs/Stats';
-import GetInTouch from '../components/Common/GetInTouch';
+import GetInTouch from '../components/Common/GetInTouch.vue';
 import DealDoxFooter from '../layouts/DealDoxFooter';
 import axios from 'axios';
 
@@ -29,7 +29,7 @@ export default {
         Navbar,
         IAQSolutions,
         OurTeam,
-        Feedback,
+        // Feedback,
         Blog,
         // Stats,
         GetInTouch,

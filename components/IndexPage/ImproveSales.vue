@@ -36,7 +36,7 @@
 
                     <div class="col-lg-6 col-md-12">
                         <div class="software-integrations-list">
-                            <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694696577/cpq-banner_chwd0d.png" alt="software-integrations">
+                            <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694696577/cpq-banner_chwd0d.png" alt="automated quoting solution">
                         </div>
                     </div>
                 </div>

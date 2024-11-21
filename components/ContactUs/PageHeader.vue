@@ -82,7 +82,8 @@
                                                 <div class="form-group">
                                                     <p>First Name</p>
                                                     <input type="text" maxlength="40" name="first_name" required
-                                                        class="form-control" id="first_name" placeholder="" v-model="formData.first_name">
+                                                        class="form-control" id="first_name" placeholder=""
+                                                        v-model="formData.first_name">
                                                 </div>
                                             </div>
 
@@ -90,7 +91,8 @@
                                                 <div class="form-group">
                                                     <p>Last Name</p>
                                                     <input type="text" maxlength="40" name="last_name"
-                                                        class="form-control" id="last_name" placeholder="" v-model="formData.last_name">
+                                                        class="form-control" id="last_name" placeholder=""
+                                                        v-model="formData.last_name">
                                                 </div>
                                             </div>
 
@@ -107,7 +109,8 @@
                                                 <div class="form-group">
                                                     <p>Email</p>
                                                     <input type="email" maxlength="40" name="email" required
-                                                        class="form-control" id="email" placeholder="" v-model="formData.email">
+                                                        class="form-control" id="email" placeholder=""
+                                                        v-model="formData.email">
                                                 </div>
                                             </div>
 
@@ -115,7 +118,8 @@
                                                 <div class="form-group">
                                                     <p>Company</p>
                                                     <input type="text" maxlength="40" name="company"
-                                                        class="form-control" id="company" placeholder="" v-model="formData.company">
+                                                        class="form-control" id="company" placeholder=""
+                                                        v-model="formData.company">
                                                 </div>
                                             </div>
 
@@ -123,16 +127,21 @@
                                                 <div class="form-group">
                                                     <p>Country</p>
                                                     <input type="country" maxlength="40" name="country"
-                                                        class="form-control" id="country" placeholder="" v-model="formData.country">
+                                                        class="form-control" id="country" placeholder=""
+                                                        v-model="formData.country">
                                                 </div>
                                             </div>
+
+                                            <!-- Honeypot Field -->
+                                            <input type="text" v-model="formData.honeypot" class="honeypot"
+                                                autocomplete="off" />
 
                                             <div class="col-lg-12 col-md-12 col-sm-12">
                                                 <div class="form-group">
                                                     <p>Leave your message</p>
                                                     <textarea name="00N2v00000XQu8f" id="00N2v00000XQu8f"
-                                                        class="form-control" cols="30" rows="6"
-                                                        placeholder="" v-model="formData.message"></textarea>
+                                                        class="form-control" cols="30" rows="6" placeholder=""
+                                                        v-model="formData.message"></textarea>
                                                 </div>
                                             </div>
                                             <div class="col-lg-12 col-md-12 col-sm-12">
@@ -148,8 +157,8 @@
                                                             class="captcha-inputs-container form-control"
                                                             placeholder="Enter your answer" autocomplete="off" />
                                                     </div>
-                                                    <span v-if="formErrors.recaptcha"
-                                                        class="error">{{ formErrors.recaptcha }}</span>
+                                                    <span v-if="formErrors.recaptcha" class="error">{{
+                                                        formErrors.recaptcha }}</span>
                                                 </div>
                                             </div>
 
@@ -165,7 +174,7 @@
                                             </div>
 
 
-                                            
+
 
                                             <p> By registering, you confirm that you agree to the storing and processing
                                                 of
@@ -231,6 +240,7 @@ export default {
                 phoneNumber: '',
                 maxPhoneNumberLength: 15,
                 phoneValidationMessage: 'Please enter exactly 15 numeric digits',
+                honeypot: ''
             },
             formErrors: {},
             num1: this.generateRandomNumber(),
@@ -294,13 +304,17 @@ export default {
             if (!this.userAnswer || parseInt(this.userAnswer) !== this.num1 + this.num2) {
                 this.formErrors.recaptcha = "You entered the wrong captcha value.";
             }
-console.log("formErrors",this.formErrors)
+            console.log("formErrors", this.formErrors)
 
 
             return Object.keys(this.formErrors).length === 0;
         },
 
         submitForm(event) {
+            if (this.formData.honeypot) {
+                console.warn("Spam detected!"); // Log spam activity
+                return; // Block the submission
+            }
             if (this.validateForm()) {
             } else {
                 event.preventDefault();
@@ -314,6 +328,10 @@ console.log("formErrors",this.formErrors)
 
 
 <style>
+.honeypot {
+    display: none;
+}
+
 .error {
     color: red;
     font-size: 12px;
@@ -336,7 +354,7 @@ console.log("formErrors",this.formErrors)
     border: 0.1px solid #eeeeee;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-  
+
 
 
 }
@@ -367,7 +385,8 @@ console.log("formErrors",this.formErrors)
 .recaptcha-content-rowss {
     display: flex;
 }
-.captcha-inputs-container::placeholder{
+
+.captcha-inputs-container::placeholder {
     color: #ccc;
     font-style: italic;
 }

@@ -89,7 +89,9 @@ export default {
         }
     },
     created: async function () {
-        const response = await axios.get('https://cms.dealdox.io/api/blogs?populate=*')
+        const response = await axios.get('https://cms.dealdox.io/api/blogs?populate=*&sort=date:desc');
+        console.log("latest blogs",response);
+        
         this.blogs = response.data.data;
         this.rows = this.blogs?.length;
     },

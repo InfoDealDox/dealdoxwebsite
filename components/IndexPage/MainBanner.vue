@@ -11,7 +11,7 @@
           >
             <img
               src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694696577/cpq-banner_chwd0d.png"
-              alt="home banner"
+              alt="automated quoting tool"
               loading="lazy"
             />
           </div>
