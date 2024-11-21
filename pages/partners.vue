@@ -51,7 +51,7 @@
                         <div class="partner-loaingDemoForm">
 
                             <div class="partner-label-input-div">
-                                <label class="loading-label">Full Name</label>
+                                <label class="loading-label" style="color: black;">Full Name</label>
                                 <input type="text" maxlength="40" name="last_name" required
                                     class="partner-laoding-input-field" id="last_name" placeholder="">
                             </div>
@@ -60,7 +60,7 @@
 
 
                             <div class="partner-label-input-div">
-                                <label class="loading-label">Phone Number</label>
+                                <label class="loading-label" style="color: black;">Phone Number</label>
                                 <input type="text" v-model="formData.phoneNumber" @input="validatePhoneNumber"
                                     @keypress="allowOnlyNumbers" :maxlength="formData.maxPhoneNumberLength" name="phone"
                                     class="partner-laoding-input-field" id="phone" maxlength="15" placeholder=""
@@ -69,7 +69,7 @@
 
                             <div class="partner-label-input-div">
 
-                                <label class="loading-label">Email</label>
+                                <label class="loading-label" style="color: black;">Email</label>
                                 <input type="email" maxlength="40" name="email" required
                                     class="partner-laoding-input-field" id="email" placeholder="">
 
@@ -77,7 +77,7 @@
 
                             <div class="partner-label-input-div">
 
-                                <label class="loading-label">Company</label>
+                                <label class="loading-label" style="color: black;">Company</label>
                                 <input type="text" maxlength="40" name="company" class="partner-laoding-input-field"
                                     id="company" placeholder="">
 
