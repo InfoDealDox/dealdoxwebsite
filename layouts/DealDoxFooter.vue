@@ -301,7 +301,7 @@
       <div
         style="color: white;display: flex;flex-direction: column;justify-content: center;align-items: center;gap:5px;border-bottom: 0.1px solid white;padding-bottom: 10px;">
 
-        <small style="padding:5px 0px 10px 0px;font-weight: 500; ">compliance</small>
+        <small style="padding:5px 0px 10px 0px;font-weight: 500; ">Compliance</small>
         <div class="compliance-icon-container">
           <img src="../assets/images/AutomobileAds1.png" alt="" class="compliance-icons-images">
           <img src="../assets/images/AutomobileAds2.png" alt="" class="compliance-icons-images">
