@@ -47,7 +47,7 @@
                                         action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8"
                                         @submit="onSubmit" ref="form" method="POST">
                                         <input name="oid" type="hidden" value="00D2v000003PByK" />
-                                        <input name="retURL" type="hidden" value="https://dealdox.io/thank-you" />
+                                        <input name="retURL" type="hidden" value="https://dealdox.io/thanks" />
                                         <div class="row">
                                             <div class="col-lg-6 col-md-6 col-sm-6">
                                                 <div class="form-group">
