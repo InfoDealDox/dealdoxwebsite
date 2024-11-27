@@ -14,7 +14,7 @@
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="new-app-main-banner-wrap-image" data-aos="fade-left" data-aos-duration="2000">
-                        <img src="../../assets/images/MicrosoftDynamic/DealDox and Microsoft Dynamic CRM.png" alt="DealDox CPQ with Microsoft Dynamics">
+                        <img src="../../assets/images/MicrosoftDynamic/DealDox and Microsoft Dynamic CRM.png" alt="Microsoft Integration">
                     </div>
                 </div>
             </div>

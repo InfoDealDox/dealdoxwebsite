@@ -6,7 +6,7 @@
                     <div class="features-item with-border">
                         <div class="about-img">
                             <img src="../../assets/images/MicrosoftDynamic/Close Deals Faster with DealDox.png"
-                                data-aos="fade-up" alt="Close Deals Faster">
+                                data-aos="fade-up" alt="Dynamics 365 CRM">
                         </div>
                     </div>
                 </div>
@@ -39,7 +39,7 @@
                     <div class="features-item with-border">
                         <div class="about-img">
                             <img src="../../assets/images/MicrosoftDynamic/Generate Lightning-fast Professional Quotes.png"
-                                data-aos="fade-up" alt="Accurate Quotes">
+                                data-aos="fade-up" alt="Generate Lightning-fast Professional Quotes">
                         </div>
                     </div>
                 </div>
@@ -49,7 +49,7 @@
                     <div class="features-item with-border">
                         <div class="about-img">
                             <img src="../../assets/images/MicrosoftDynamic/Utilize the Power of a User-Friendly CPQ Solution.png"
-                                data-aos="fade-up" alt="User Friendly Solutions">
+                                data-aos="fade-up" alt="automated workflows">
                         </div>
                     </div>
                 </div>
@@ -85,7 +85,7 @@
                     <div class="features-item with-border">
                         <div class="about-img">
                             <img src="../../assets/images/MicrosoftDynamic/Close Deals Faster with DealDox.png"
-                                data-aos="fade-up" alt="Cpq Automations">
+                                data-aos="fade-up" alt="automated workflows">
                         </div>
                     </div>
                 </div>
@@ -95,7 +95,7 @@
                         <div class="features-item with-border">
                             <div class="about-img">
                                 <img src="../../assets/images/MicrosoftDynamic/Deliver Timely Experiences with Precision.png"
-                                    data-aos="fade-up" alt="Simplified Pricing">
+                                    data-aos="fade-up" alt="Dynamics 365 CRM">
                             </div>
                         </div>
                     </div>

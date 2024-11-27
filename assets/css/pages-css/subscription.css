@@ -19,7 +19,7 @@
 
 .subscription-layout .cards-section1 {
   display: grid;
-  grid-template-columns: 1.4fr 3fr 3fr 3fr;
+  grid-template-columns: 1.4fr 3fr 3fr 3fr 3fr;
   width: 90%;
   justify-content: end;
   gap: 13px;
@@ -175,7 +175,7 @@
 }
 .subscription-layout .sub_row {
   display: grid;
-  grid-template-columns: 1.4fr 3fr 3fr 3fr;
+  grid-template-columns: 1.4fr 3fr 3fr 3fr 3fr;
   border-top: 0.1px solid #ccc;
   border-left: 0.1px solid #ccc;
 }
@@ -822,7 +822,7 @@
   width: 100%;
   height: 71px;
   display: grid;
-  grid-template-columns: 1.4fr 3fr 3fr 3fr 
+  grid-template-columns: 1.4fr 3fr 3fr 3fr 3fr 
 }
 .subscription-layout .dropdown-nav-content {
   cursor: pointer;

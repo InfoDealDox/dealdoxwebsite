@@ -12,12 +12,12 @@
                         Generate Quotations Anytime, Anywhere. </small>
 
                     <div class="mobileapp-main-top-images-container">
-                        <div @click="navigateToAppStore">
+                        <div @click="navigateToAppStore" style="cursor: pointer;">
                             <img src="../assets/images/AppStore.png" alt="" class="mobile-app-images-todownload">
                         </div>
-                        <!-- <div @click="navigateToPlayStore"> -->
-                        <img src="../assets/images/PlayStore.png" alt="" class="mobile-app-images-todownload">
-                        <!-- </div> -->
+                        <div @click="navigateToPlayStore" style="cursor: pointer;">
+                        <img src="../assets/images/Playstore_QR.png" alt="" class="mobile-app-images-todownload">
+                        </div>
                     </div>
                 </div>
 
@@ -89,7 +89,7 @@ export default {
             window.open('https://apps.apple.com/in/app/dealdox/id6737757798', '_blank');
         },
         navigateToPlayStore() {
-            window.open('https://apps.apple.com/in/app/dealdox/id6737757798', '_blank');
+            window.open('https://play.google.com/store/apps/details?id=com.dealdox.io.dealdox', '_blank');
         },
     },
 }

@@ -10,7 +10,7 @@
                 <div class="col-xl-3 col-lg-6 col-sm-6 col-md-6">
                     <div class="single-features-item">
                         <div class="icon">
-                            <img src="../../assets/images/Hubspot/Swift Quote.png" alt="Swift Quote">
+                            <img src="../../assets/images/Hubspot/Swift Quote.png" alt="Swift Deal Creation">
                         </div>
                         <h3><a href="https://www.dealdox.io/quoting-software">Swift Quotes </a> </h3>
                         <p>Generate quotations and any deal documents in a few seconds.</p>
@@ -20,7 +20,7 @@
                 <div class="col-xl-3 col-lg-6 col-sm-6 col-md-6">
                     <div class="single-features-item">
                         <div class="icon">
-                            <img src="../../assets/images/Hubspot/Quick Approvals.png" alt="Quick Approvals">
+                            <img src="../../assets/images/Hubspot/Quick Approvals.png" alt="sales tool to generate quick quotes accurately">
                         </div>
                         <h3><a href="https://www.dealdox.io/approval-software">Quick Approvals </a></h3>
                         <p>Complex approvals are made easy with DealDox - it simplifies the sales process.
@@ -31,7 +31,7 @@
                 <div class="col-xl-3 col-lg-6 col-sm-6 col-md-6">
                     <div class="single-features-item">
                         <div class="icon">
-                            <img src="../../assets/images/Hubspot/Configure Price Quote.png" alt="Configure Price Quote">
+                            <img src="../../assets/images/Hubspot/Configure Price Quote.png" alt="Automated Quotation software">
                             </div>                        
                             <h3>Configure Price Quote (CPQ)</h3>
                         <p>Easy configurations and error-free quotes in minutes.</p>
@@ -41,7 +41,7 @@
                 <div class="col-xl-3 col-lg-6 col-sm-6 col-md-6">
                     <div class="single-features-item">
                         <div class="icon">
-                            <img src="../../assets/images/Hubspot/Subscription.png" alt="Subscription">
+                            <img src="../../assets/images/Hubspot/Subscription.png" alt="Subscription management">
                         </div>
                         <h3><a href="https://www.dealdox.io/subscription">Subscription</a> </h3>
                         <p>Upselling, Expand and Automated renewals. Pay only for what you use.</p>

@@ -22,6 +22,7 @@
       </div> -->
 
       <div class="features-area">
+        <h1 style="text-align: center;font-size: 24px;padding: 20px 0px;">Trusted By</h1>
         <div class="container">
           <VueSlickCarousel v-bind="carouselSettings" v-if="partners !== null">
             <div v-for="slide in partners.partnerSlides" :key="slide.id" style="margin: 0 15px;">

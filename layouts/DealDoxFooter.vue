@@ -126,7 +126,7 @@
                   <NuxtLink to="/contact-us" class="footer-content">Contact Us</NuxtLink>
                 </li>
                 <li>
-                  <NuxtLink to="/partners" class="footer-content">Become a Partner</NuxtLink>
+                  <NuxtLink to="/become-partner" class="footer-content">Become a Partner</NuxtLink>
                 </li>
                 <li>
                   <NuxtLink to="/" class="footer-content">Support</NuxtLink>
@@ -179,14 +179,16 @@
           </div>
           <div class="col-lg-2 col-md-6 col-sm-6">
             <div class="single-footer-widget single-footer-with-compliance">
-              <div>
-                <NuxtLink to="/" class="logo">
-                  <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694695209/footer-logo_ytczcz.svg"
-                    alt="logo" />
-                </NuxtLink>
-                <p class="footer-contents">
-                  <b>CPQ FOR ALL</b>
-                </p>
+              <div class="cpq-for-all-container">
+                <div class="cpq-for-all-sub-container">
+                  <NuxtLink to="/" class="logo">
+                    <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694695209/footer-logo_ytczcz.svg"
+                      alt="logo" />
+                  </NuxtLink>
+                  <p class="footer-contents">
+                    <b>CPQ FOR ALL</b>
+                  </p>
+                </div>
                 <ul class="social-links">
                   <li>
                     <a href="https://www.facebook.com/DealDox.DD/" target="_blank">
@@ -217,13 +219,37 @@
                   </li>
                 </ul>
               </div>
-              <div style="color: white;">
 
-                <small style="padding:5px 0px 10px 0px;font-weight: 500;">Compliance</small>
+
+              <div class="Duns-image-entire-container" style="display:flex; flex-direction:column;gap: 10px;">
+                <div class="Duns-image-container">
+                  <div style="width: 50%;height: 100%; cursor: pointer;" @click="openStartupIndia">
+                    <img src="../assets/images/startupIndia.png" alt="" style="border-radius: 10px;height: 100%;">
+                  </div>
+                  <div class="" style="width: 50%;height: 100%;cursor: pointer;" @click="dunsLinkOpen">
+                    <img src="../assets/images/DunImage.png" style="border-radius: 10px;" alt=""
+                      class="compliance-icons-images">
+
+                  </div>
+                </div>
+                  <div @click="newCertificate" style="cursor: pointer;">
+                    <img src="../assets/images/IAFwithScanner.png" alt=""  class="imfimage" style="border-radius: 10px;">
+                  </div>
+               
+
+              </div>
+
+              <div class="compliance-container-icons">
+
+                <small style="padding:5px 9px 10px 0px;font-weight: 700;">Compliance</small>
                 <div class="compliance-icon-container">
-                  <img src="../assets/images/AutomobileAds1.png" alt="" class="compliance-icons-images">
-                  <img src="../assets/images/AutomobileAds2.png" alt="" class="compliance-icons-images">
-                  <img src="../assets/images/AutomobileAds3.png" alt="" class="compliance-icons-images">
+                  <div class="compliance-image-containerss"><img src="../assets/images/AutomobileAds1.png" alt=""
+                      class="compliance-icons-images"></div>
+                  <div class="compliance-image-containerss"><img src="../assets/images/newGdpr.png" alt=""
+                      class="compliance-icons-images"></div>
+
+
+
                 </div>
               </div>
             </div>
@@ -267,45 +293,76 @@
         <FeatureToggle :features="featuresSet5" showText="Compare to" />
 
       </div>
+      <div class='social-links-containerrs'>
+        <div class="social-links-sub-containerrs">
+          <span class="Contact-Social-heading">Contact / Social</span>
+          <div><small>Stay up to date with the latest news and events</small></div>
+        </div>
+        <ul class="mobile-social-links">
+          <li>
+            <a href="https://www.facebook.com/dealdox.io" target="_blank">
+              <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694695209/facebook_m5vbrm.svg"
+                class="social-link-image" alt="logo" /></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/dealdox.io/" target="_blank">
+              <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694695209/instagram_ha9zry.svg"
+                class="social-link-image" alt="logo" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/company/dealdox" target="_blank">
+              <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694695210/linkedin_dlsana.svg"
+                class="social-link-image" alt="logo" /></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FDealdox_io" target="_blank">
+              <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1695711842/twitter-logo_tlcmv6.svg"
+                class="social-link-image" alt="logo" /></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/channel/UCUyG5sKBn2yVwLG0PbbE8IA" target="_blank">
+              <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694695209/youtube_jjx6li.svg"
+                class="social-link-image" alt="logo" />
+            </a>
+          </li>
+        </ul>
+      </div>
 
-      <ul class="social-links">
-        <li>
-          <a href="https://www.facebook.com/dealdox.io" target="_blank">
-            <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694695209/facebook_m5vbrm.svg"
-              class="social-link-image" alt="logo" /></a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/dealdox.io/" target="_blank">
-            <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694695209/instagram_ha9zry.svg"
-              class="social-link-image" alt="logo" />
-          </a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/company/dealdox" target="_blank">
-            <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694695210/linkedin_dlsana.svg"
-              class="social-link-image" alt="logo" /></a>
-        </li>
-        <li>
-          <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FDealdox_io" target="_blank">
-            <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1695711842/twitter-logo_tlcmv6.svg"
-              class="social-link-image" alt="logo" /></a>
-        </li>
-        <li>
-          <a href="https://www.youtube.com/channel/UCUyG5sKBn2yVwLG0PbbE8IA" target="_blank">
-            <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694695209/youtube_jjx6li.svg"
-              class="social-link-image" alt="logo" />
-          </a>
-        </li>
-      </ul>
 
-      <div
-        style="color: white;display: flex;flex-direction: column;justify-content: center;align-items: center;gap:5px;border-bottom: 0.1px solid white;padding-bottom: 10px;">
+      <div class="mobile-Duns-image-container">
+        <div class="social-links-sub-containerrs">
+          <span class="Contact-Social-heading">Officially Registered</span>
+        </div>
+        <div style="display: flex;gap: 10px;width: 60%;flex-direction: column">
+          <div style="width:100%;cursor: pointer;display: flex;gap: 10px" @click="openStartupIndia">
+            <div style="width: 50%;">
+              <img src="../assets/images/startupIndia.png" alt="" style="border-radius: 10px;height: 100%;">
+            </div>
+            <div class="compliance-image-containerss" @click="dunsLinkOpen" style="cursor: pointer;">
 
-        <small style="padding:5px 0px 10px 0px;font-weight: 500; ">Compliance</small>
+              <img src="../assets/images/DunImage.png" style="border-radius: 10px;height: 100%" alt=""
+                class="compliance-icons-images">
+
+            </div>
+          </div>
+          <div @click="newCertificate" style="cursor: pointer;">
+                    <img src="../assets/images/IAFwithScannerNew.png" alt=""  class="imfimage" style="border-radius: 10px;height: 81px">
+                  </div>
+        </div>
+      </div>
+
+
+      <div class="mobile-compliance-container-icons">
+
+        <div class="social-links-sub-containerrs">
+          <span class="Contact-Social-heading">Compliance</span>
+
+        </div>
         <div class="compliance-icon-container">
-          <img src="../assets/images/AutomobileAds1.png" alt="" class="compliance-icons-images">
-          <img src="../assets/images/AutomobileAds2.png" alt="" class="compliance-icons-images">
-          <img src="../assets/images/AutomobileAds3.png" alt="" class="compliance-icons-images">
+          <img src="../assets/images/AutomobileAds1.png" alt="" class="compliance-icons-images-1">
+          <img src="../assets/images/newGdpr.png" alt="" class="compliance-icons-images-2" style="height: 52px;">
+
         </div>
       </div>
       <div class="">
@@ -316,16 +373,9 @@
           </NuxtLink>
         </div>
         <div class="copyrights-datas">
-          <div>
-            <p class="copyrights-links-data">
-              <NuxtLink to="/security">Security</NuxtLink> |
-              <NuxtLink to="/terms-of-use">Terms of Use</NuxtLink> |
-              <NuxtLink to="/privacy-policy">Privacy Policy</NuxtLink> |
-              <NuxtLink to="/cookie-preference">Cookie Preference</NuxtLink>
-            </p>
-          </div>
 
-          <div class="">
+
+          <div style="padding-bottom:20px">
             <p class="dd-coprights-message">
               Copyright @2024 DealDox Pvt Ltd.
               All Rights Reserved.
@@ -347,6 +397,18 @@ export default {
   components: {
     FeatureToggle
   },
+  methods: {
+    openStartupIndia() {
+      window.open('https://drive.google.com/file/d/1OsXqsu5lhK_BhyzCqSnD65alAHqFzsvu/view?usp=sharing');
+    },
+    dunsLinkOpen() {
+      window.open('https://profiles.dunsregistered.com/IndiaBasicProfile.aspx?PaArea=email&SealkeyQ=E744913183449');
+    },
+    newCertificate(){
+      window.open("https://drive.google.com/file/d/1Y6NcDwkuPnwakJfcQw1HIQn4Q0KMyRFy/view?usp=drive_link")
+    }
+  },
+
   data() {
     return {
       featuresSet1: [
@@ -380,7 +442,7 @@ export default {
       featuresSet4: [
         { text: 'Our Team', link: '/our-team' },
         { text: 'Contact Us', link: '/contact-us' },
-        { text: 'Become a Partner', link: '/partners' },
+        { text: 'Become a Partner', link: '/become-partner' },
         { text: 'Support', link: '/contact us' },
 
       ],
@@ -402,12 +464,24 @@ export default {
 
       ]
     };
+
   }
+
 };
 </script>
 
 
 <style>
+.compliance-image-containerss {
+  width: 50%;
+  height: 50px;
+}
+
+.compliance-icons-images {
+  height: 100%;
+  width: 100%;
+}
+
 .feature-data {
   display: none;
 }
@@ -423,7 +497,29 @@ export default {
   gap: 10px;
   justify-content: center;
   align-items: center;
-  padding: 10px
+  padding: 10px;
+
+}
+
+.mobile-social-links {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  gap: 13px;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 10px 0px 0px;
+
+}
+
+.social-links-containerrs {
+  width: 90%;
+  margin: 20px auto;
+  border-top: 0.1px solid #d2d7ed;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  color: white;
 }
 
 .social-link-image {
@@ -435,7 +531,12 @@ export default {
   justify-content: center;
   align-items: center;
   padding: 10px;
+  width: 90%;
+  margin: 20px auto 0px auto;
+  border-top: 0.1px solid #d2d7ed;
+  padding-top: 20px;
 }
+
 
 .copyrights-datas {
   display: flex;
@@ -461,18 +562,101 @@ export default {
 
 .compliance-icon-container {
   display: flex;
-  gap: 3px;
+  gap: 10px;
 }
 
-.compliance-icons-images {
-  width: 60px;
+.compliance-icons-images-1 {
+  width: 70px;
+  height: 50px;
+}
+
+.compliance-icons-images-2 {
+  width: 92px;
+  height: 50px;
 }
 
 .single-footer-with-compliance {
   display: flex;
   flex-direction: column;
-  gap: 60px;
+  gap: 35px;
 }
+
+
+.compliance-container-icons {
+  color: white;
+  display: flex;
+  gap: 5px;
+  padding-bottom: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile-compliance-container-icons {
+  width: 90%;
+  margin: 20px auto;
+  color: white;
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+}
+
+.compliance-heading-content {
+  padding: 5px 0px 10px 0px;
+  font-weight: 800;
+  text-align: center
+}
+
+.cpq-for-all-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.cpq-for-all-sub-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 22px;
+}
+
+.Duns-image-container {
+  display: flex;
+  gap: 10px;
+  height: 60px;
+
+}
+
+.mobile-Duns-image-container {
+  width: 90%;
+  margin: 20px auto;
+  display: flex;
+  gap: 9px;
+  color: white;
+  flex-direction: column;
+}
+
+.Contact-Social-heading {
+  font-size: 18px;
+  color: white;
+  font-weight: 600;
+}
+
+.social-links-sub-containerrs {
+  padding: 10px 0px;
+}
+
+.imfimage{
+  width: 100%;
+  height: 100%;
+}
+
 
 @media (max-width: 994px) {
   .feature-data {
@@ -483,244 +667,20 @@ export default {
   .large-feature {
     display: none;
   }
+
+  .Duns-image-container {
+    width: 70%;
+    margin: 10px auto;
+  }
+
+  .compliance-heading-content {
+    padding: 10px 0px 10px 0px;
+    font-size: 15px;
+  }
+
+  .compliance-icons-images-2 {
+    width: 70px;
+    height: 50px;
+  }
 }
 </style>
-
-
-
-
-<!-- <template>
-  <div class="footer-wrap-area pt-100">
-    <div class="container">
-      <div class="row pt-500">
-        <div class="col-lg-9 col-md-6 col-sm-6">
-          <div class="single-footer-widget">
-            <h3>
-              Ready to transform your sales strategy and crush the competition?
-            </h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-6">
-          <div class="single-footer-widget">
-            <div>
-              <NuxtLink to="/demo" required class="default-btn"
-                ><i class="bx bx-paper-plane"></i> Request a Demo</NuxtLink
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-2 col-md-6 col-sm-6">
-          <div class="single-footer-widget">
-            <NuxtLink to="/" class="logo">
-              <img
-                src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694695209/footer-logo_ytczcz.svg"
-                alt="logo"
-              />
-            </NuxtLink>
-            <p class="footer-contents">
-              The all-in-one solution that streamlines quoting, closes deals
-              faster, and boosts sales efficiency.
-            </p>
-            <ul class="social-links">
-              <li>
-                <a href="https://www.facebook.com/dealdox.io" target="_blank">
-                  <img
-                    src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694695209/facebook_m5vbrm.svg"
-                    alt="logo"
-                /></a>
-              </li>
-              <li>
-                <a href="https://www.instagram.com/dealdox.io/" target="_blank">
-                  <img
-                    src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694695209/instagram_ha9zry.svg"
-                    alt="logo"
-                  />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.linkedin.com/company/dealdox"
-                  target="_blank"
-                >
-                  <img
-                    src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694695210/linkedin_dlsana.svg"
-                    alt="logo"
-                /></a>
-              </li>
-              <li>
-                <a
-                  href="https://twitter.com/i/flow/login?redirect_after_login=%2FDealdox_io"
-                  target="_blank"
-                >
-                  <img
-                    src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1695711842/twitter-logo_tlcmv6.svg"
-                    alt="logo"
-                /></a>
-              </li>
-              <li>
-                <a
-                  href="https://www.youtube.com/channel/UCUyG5sKBn2yVwLG0PbbE8IA"
-                  target="_blank"
-                >
-                  <img
-                    src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694695209/youtube_jjx6li.svg"
-                    alt="logo"
-                  />
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-2 col-md-6 col-sm-6">
-          <div class="single-footer-widget">
-            <h3>Features</h3>
-            <ul class="links-list">
-              <li>
-                <NuxtLink to="/quoting-software" class="footer-content">Automated Quotations</NuxtLink>
-              </li>
-              <li>
-                <NuxtLink to="/approval-software" class="footer-content">Quick Approvals</NuxtLink>
-              </li>
-              <li>
-                <NuxtLink to="/services-cpq" class="footer-content">CPQ</NuxtLink>
-              </li>
-              <li>
-                <NuxtLink to="/cpq-integrations" class="footer-content">Integration</NuxtLink>
-              </li>
-              <li>
-                <NuxtLink to="/localized-deal-documents" class="footer-content"
-                  >Localized Deal Documents</NuxtLink
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-2 col-md-3 col-sm-6">
-          <div class="single-footer-widget">
-            <h3>Integrations</h3>
-            <ul class="links-list">
-              <li>
-                <NuxtLink to="/salesforce-cpq-integration"
-                 class="footer-content" >Salesforce
-                </NuxtLink>
-              </li>
-              <li>
-                <NuxtLink to="/microsoft-dynamics-365-cpq-integration"
-                  class="footer-content">Microsoft Dynamics
-                </NuxtLink>
-              </li>
-              <li>
-                <NuxtLink to="/freshworks-cpq-integration"
-                 class="footer-content" >Freshworks
-                </NuxtLink>
-              </li>
-
-              <li>
-                <NuxtLink to="/hubspot-cpq-integration" class="footer-content">HubSpot </NuxtLink>
-              </li>
-              <li>
-                <NuxtLink to="/sugarcrm-cpq-integration" class="footer-content">SugarCRM</NuxtLink>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-2 col-md-3 col-sm-6">
-          <div class="single-footer-widget">
-            <h3>Resources</h3>
-            <ul class="links-list">
-              <li>
-                <NuxtLink to="/blogs" class="footer-content">Blogs</NuxtLink>
-              </li>
-              <li>
-                <NuxtLink to="/success-stories" class="footer-content">Success Stories</NuxtLink>
-              </li>
-              <li>
-                <NuxtLink to="/glossary" class="footer-content">Glossary </NuxtLink>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-2 col-md-6 col-sm-6">
-          <div class="single-footer-widget">
-            <h3>Company</h3>
-            <ul class="links-list">
-              <li>
-                <NuxtLink to="/our-team" class="footer-content">Our Team</NuxtLink>
-              </li>
-              <li>
-                <NuxtLink to="/contact-us" class="footer-content">Get in Touch</NuxtLink>
-              </li>
-              <li>
-                <NuxtLink to="/sign-up-free-trial" class="footer-content">Sign Up</NuxtLink>
-              </li>
-            </ul>
-
-          </div>
-        </div>
-        <div class="col-lg-2 col-md-3 col-sm-6">
-          <div class="single-footer-widget">
-            <h3>Get in Touch</h3>
-            <ul class="links-list">
-              <li>
-            
-              </li>
-              <li>
-                <p>
-                  Mail us - <a href="mailto:info@dealdox.io">info@dealdox.io</a>
-                </p>
-              </li>
-              <li>
-                <a href="tel:08035376744"> Call us - 08035376744</a>
-              </li>
-              <p>
-               Address - WeWork Prestige Central, 36, Infantry Road, Bangalore, Karnataka 560001.
-               </p>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <div class="copyright-area">
-        <div class="row">
-          <div class="col-lg-4 col-sm-3">
-            <p>
-              <NuxtLink to="/security">Security</NuxtLink> |
-              <NuxtLink to="/terms-of-use">Terms of Use</NuxtLink> |
-              <NuxtLink to="/privacy-policy">Privacy Policy</NuxtLink> |
-              <NuxtLink to="/cookie-preference">Cookie Preference</NuxtLink>
-            </p>
-          </div>
-          <div class="col-lg-4 col-sm-12">
-            <NuxtLink to="/" class="logo">
-              <img src="../assets/images/footer-logo.svg" alt="logo" />
-            </NuxtLink>
-          </div>
-          <div class="col-lg-4 col-sm-3">
-            <p class="text-center">
-              Copyright @2024 DealDox Software Pvt Ltd. <br />
-              All Rights Reserved.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</template>
-
-<script>
-export default {
-  name: "DealDoxFooter",
-};
-</script>
-
-
-            <p>Best solution for your it startup business, consecteturadipiscing elit.</p>
-                        <form class="newsletter-form" data-toggle="validator">
-                            <input type="text" class="input-newsletter" placeholder="Your Email" name="EMAIL">
-                            <button type="submit">
-                                <i class="ri-send-plane-2-line"></i>
-                            </button>
-                        </form> -->

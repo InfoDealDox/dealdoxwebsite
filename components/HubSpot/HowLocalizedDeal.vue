@@ -6,7 +6,7 @@
                     <div class="features-item with-border">
                         <div class="about-img">
                             <img src="../../assets/images/Hubspot/Simplify Deal Closing with Guided Selling and DealDox.png"
-                                data-aos="fade-up" alt="Dealdox Guided Selling">
+                                data-aos="fade-up" alt="Automated Quote Generation tool">
                         </div>
                     </div>
                 </div>
@@ -38,7 +38,7 @@
                     <div class="features-item with-border">
                         <div class="about-img">
                             <img src="../../assets/images/Hubspot/Quick and Professional Quote Generation with DealDox.png"
-                                data-aos="fade-up" alt="Professional Quote">
+                                data-aos="fade-up" alt="quickly generate accurate quotes">
                         </div>
                     </div>
                 </div>
@@ -48,7 +48,7 @@
                     <div class="features-item with-border">
                         <div class="about-img">
                             <img src="../../assets/images/Hubspot/Streamline Sales Processes for Swift Deal Closures.png"
-                                data-aos="fade-up" alt="Swift Deal Closure">
+                                data-aos="fade-up" alt="Swift Deal Creation">
                         </div>
                     </div>
                 </div>
@@ -87,7 +87,7 @@
                     <div class="features-item with-border">
                         <div class="about-img">
                             <img src="../../assets/images/Hubspot/Empower Your Sales Success with Actionable Data for Optimal Conversions.png"
-                                data-aos="fade-up" alt="Native Integration">
+                                data-aos="fade-up" alt=" CPQ solutions empower sales representatives">
                         </div>
                     </div>
                 </div>
@@ -97,7 +97,7 @@
                         <div class="features-item with-border">
                             <div class="about-img">
                                 <img src="../../assets/images/Hubspot/Simplify CPQ Implementation and Maintenance Efforts.png"
-                                    data-aos="fade-up" alt="Quote Free Cpq solution">
+                                    data-aos="fade-up" alt="Simplify CPQ implementation">
                             </div>
                         </div>
                     </div>

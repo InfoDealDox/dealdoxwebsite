@@ -6,24 +6,81 @@
             <div class="sales-sub-container">
 
                 <div class="sales-left-container">
-                    <span class="sales-left-heading">Streamline Your Sales Cycle, Maximize Your Revenue. </span>
+                    <span class="sales-left-heading">For Sales Teams</span>
+                    <span>CPQ (Configure, Price, Quote) systems significantly enhance the efficiency and effectiveness
+                        of sales teams in several ways: </span>
                     <ul class="sales-list-content">
-                        <li>Ensure controlled access to data and content. </li>
-                        <li>Quickly generate accurate quotes, reducing sales cycle time. </li>
-                        <li>Experience smooth integration with your chosen CRM and additional back-office systems,
-                            ensuring
-                            you
-                            can retrieve the necessary data exactly when you require it with DealDox . </li>
+                        <li class="sales-lists"><i class="bi bi-hexagon-fill sales-list-icons"></i>Faster sales cycles
+                            from lead generation to closing deals.</li>
+
+                        <li class="sales-lists"><i class="bi bi-hexagon-fill sales-list-icons"></i>Pre-configured
+                            solutions reduce the complexity of sales. </li>
+
+                        <li class="sales-lists"><i class="bi bi-hexagon-fill sales-list-icons"></i>Shortened
+                            decision-making time for prospects. </li>
+
+                        <li class="sales-lists"><i class="bi bi-hexagon-fill sales-list-icons"></i>Greater opportunities
+                            for cross-selling and upselling. </li>
+
+                        <li class="sales-lists"><i class="bi bi-hexagon-fill sales-list-icons"></i>Enhance ability to
+                            adapt to market fluctuations and competitive pricing. </li>
+
+                        <li class="sales-lists"><i class="bi bi-hexagon-fill sales-list-icons"></i><span>Increased time
+                                for
+                                sales activities by reducing time spent on proposal creation.</span> </li>
 
 
 
                     </ul>
+
                 </div>
 
                 <div class="sales-right-container">
 
-                    <img src="../assets/images/SaleHeaderImage.webp" alt="DealDox Sales" class="dealdox-sales" />
+                    <img src="../assets/images/WebsiteForSales.png" alt="DealDox Sales" class="dealdox-sales" />
                 </div>
+
+
+            </div>
+            <div class="sales-sub-container">
+
+                <div class="sales-right-container mobile-marketing-container">
+
+                    <img src="../assets/images/SaleMarketingImage.webp" alt="DealDox Sales" class="dealdox-sales" />
+                </div>
+
+                <div class="sales-left-container">
+                    <span class="sales-left-heading">For Marketing Teams</span>
+                    <span>CPQ (Configure, Price, Quote) systems empower marketing teams to enhance sales efforts with
+                        precise marketing materials and value-driven sales tools. The primary advantages of CPQ
+                        solutions for marketing include: </span>
+                    <ul class="sales-list-content">
+                        <li class="sales-lists"><i class="bi bi-hexagon-fill sales-list-icons"></i>Generating branded
+                            proposal documents and contracts. </li>
+
+                        <li class="sales-lists"><i class="bi bi-hexagon-fill sales-list-icons"></i>Creating
+                            customer-facing product catalogs. </li>
+
+                        <li class="sales-lists"><i class="bi bi-hexagon-fill sales-list-icons"></i>Providing sales
+                            resources that boost win rates. </li>
+
+                        <li class="sales-lists"><i class="bi bi-hexagon-fill sales-list-icons"></i>Offering value-based
+                            sales tools such as value propositions, white papers, ROI/TOC calculators, and benefit
+                            estimators. </li>
+
+                        <li class="sales-lists"><i class="bi bi-hexagon-fill sales-list-icons"></i>Ensuring all
+                            marketing materials feature accurate, up-to-date pricing and product configuration details.
+                        </li>
+
+
+
+
+
+                    </ul>
+
+                </div>
+
+
 
 
             </div>
@@ -61,6 +118,10 @@ export default {
     max-width: 1320px;
     margin-top: 110px;
     padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
 }
 
 
@@ -77,6 +138,9 @@ export default {
 
 .sales-left-container {
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
 }
 
 .sales-right-container {
@@ -94,6 +158,7 @@ export default {
     display: flex;
     flex-direction: column;
     gap: 3px;
+    list-style: none;
 
 }
 
@@ -111,6 +176,18 @@ export default {
     text-align: center
 }
 
+
+.sales-list-icons {
+    color: #715cf3;
+    font-size: 11px;
+    padding: 5px 10px 0px 0px;
+    position: relative;
+    bottom: 1px;
+}
+
+.sales-lists {
+    font-size: 15px;
+}
 
 @media (max-width: 768px) {
     .sales-sub-container {
@@ -133,6 +210,9 @@ export default {
 
     .why-sales-container {
         margin-top: 83px;
+    }
+    .mobile-marketing-container{
+        order: 2;
     }
 }
 </style>
