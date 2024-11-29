@@ -47,8 +47,8 @@
                                                     Approvals</NuxtLink>
                                             </li>
                                             <li class="nav-item">
-                                                <NuxtLink to="/localized-deal-documents" class="nav-link">
-                                                    Multilingual Documents
+                                                <NuxtLink to="/mobileapp" class="nav-link">
+                                                    Mobile App
                                                 </NuxtLink>
                                             </li>
                                         </div>

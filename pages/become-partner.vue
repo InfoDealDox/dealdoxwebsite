@@ -424,10 +424,13 @@ export default {
     gap: 5px;
 }
  
+
 .partner-customer-images {
-    width: 100%;
-    height: 100%
+    width: 73%;
+    height: 100%;
+    margin: auto;
 }
+
 .partner-customer-content-customize{
     padding-left: 40px;
 }

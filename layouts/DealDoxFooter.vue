@@ -233,7 +233,7 @@
                   </div>
                 </div>
                   <div @click="newCertificate" style="cursor: pointer;">
-                    <img src="../assets/images/IAFwithScanner.png" alt=""  class="imfimage" style="border-radius: 10px;">
+                    <img src="../assets/images/WhiteIAFandScanner.png" alt=""  class="imfimage" style="border-radius: 10px;">
                   </div>
                
 
