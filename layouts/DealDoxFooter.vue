@@ -49,7 +49,7 @@
                   <NuxtLink to="/pricing" class="footer-content">Pricing</NuxtLink>
                 </li>
                 <li>
-                  <NuxtLink to="/" class="footer-content">Security</NuxtLink>
+                  <NuxtLink to="/security" class="footer-content">Security</NuxtLink>
                 </li>
                 <li>
                   <NuxtLink to="/" class="footer-content">HIPAA</NuxtLink>
@@ -70,7 +70,7 @@
                   </NuxtLink>
                 </li>
                 <li>
-                  <NuxtLink to="/" class="footer-content">Salesforce
+                  <NuxtLink to="/salesforce-cpq-integration" class="footer-content">Salesforce
                   </NuxtLink>
                 </li>
 
@@ -110,7 +110,7 @@
                   <NuxtLink to="/news" class="footer-content">News</NuxtLink>
                 </li>
                 <li>
-                  <NuxtLink to="/WhyDealDox" class="footer-content">Why DealDox</NuxtLink>
+                  <NuxtLink to="/why-dealdox" class="footer-content">Why DealDox</NuxtLink>
                 </li>
               </ul>
             </div>
@@ -183,7 +183,7 @@
                 <div class="cpq-for-all-sub-container">
                   <NuxtLink to="/" class="logo">
                     <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694695209/footer-logo_ytczcz.svg"
-                      alt="logo" />
+                      alt="DealDox Icon" />
                   </NuxtLink>
                   <p class="footer-contents">
                     <b>CPQ FOR ALL</b>
@@ -193,28 +193,28 @@
                   <li>
                     <a href="https://www.facebook.com/DealDox.DD/" target="_blank">
                       <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694695209/facebook_m5vbrm.svg"
-                        alt="logo" /></a>
+                        alt="DealDox Facebook logo" /></a>
                   </li>
                   <li>
                     <a href="https://www.instagram.com/dealdox.io/" target="_blank">
                       <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694695209/instagram_ha9zry.svg"
-                        alt="logo" />
+                        alt="DealDox Instagram logo" />
                     </a>
                   </li>
                   <li>
                     <a href="https://www.linkedin.com/company/dealdox" target="_blank">
                       <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694695210/linkedin_dlsana.svg"
-                        alt="logo" /></a>
+                        alt="DealDox linkedin logo" /></a>
                   </li>
                   <li>
                     <a href="https://twitter.com/Dealdox_io" target="_blank">
                       <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1695711842/twitter-logo_tlcmv6.svg"
-                        alt="logo" /></a>
+                        alt="DealDox twitter logo" /></a>
                   </li>
                   <li>
                     <a href="www.youtube.com/@DealDox" target="_blank">
                       <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694695209/youtube_jjx6li.svg"
-                        alt="logo" />
+                        alt="DealDox Youtube logo" />
                     </a>
                   </li>
                 </ul>
@@ -224,18 +224,20 @@
               <div class="Duns-image-entire-container" style="display:flex; flex-direction:column;gap: 10px;">
                 <div class="Duns-image-container">
                   <div style="width: 50%;height: 100%; cursor: pointer;" @click="openStartupIndia">
-                    <img src="../assets/images/startupIndia.png" alt="" style="border-radius: 10px;height: 100%;">
+                    <img src="../assets/images/startupIndia.png" alt="startupIndia logo"
+                      style="border-radius: 10px;height: 100%;">
                   </div>
                   <div class="" style="width: 50%;height: 100%;cursor: pointer;" @click="dunsLinkOpen">
-                    <img src="../assets/images/DunImage.png" style="border-radius: 10px;" alt=""
+                    <img src="../assets/images/DunImage.png" style="border-radius: 10px;" alt="Duns & bradshreet logo"
                       class="compliance-icons-images">
 
                   </div>
                 </div>
-                  <div @click="newCertificate" style="cursor: pointer;">
-                    <img src="../assets/images/WhiteIAFandScanner.png" alt=""  class="imfimage" style="border-radius: 10px;">
-                  </div>
-               
+                <div @click="newCertificate" style="cursor: pointer;">
+                  <img src="../assets/images/WhiteIAFandScanner.png" alt="IAF logo" class="imfimage"
+                    style="border-radius: 10px;">
+                </div>
+
 
               </div>
 
@@ -243,9 +245,9 @@
 
                 <small style="padding:5px 9px 10px 0px;font-weight: 700;">Compliance</small>
                 <div class="compliance-icon-container">
-                  <div class="compliance-image-containerss"><img src="../assets/images/AutomobileAds1.png" alt=""
+                  <div class="compliance-image-containerss"><img src="../assets/images/AutomobileAds1.png" alt="ISO icon"
                       class="compliance-icons-images"></div>
-                  <div class="compliance-image-containerss"><img src="../assets/images/newGdpr.png" alt=""
+                  <div class="compliance-image-containerss"><img src="../assets/images/newGdpr.png" alt="GDPR Logo"
                       class="compliance-icons-images"></div>
 
 
@@ -270,7 +272,7 @@
             </div>
             <div class="col-lg-4 col-sm-12">
               <NuxtLink to="/" class="logo">
-                <img src="../assets/images/footer-logo.svg" alt="logo" />
+                <img src="../assets/images/footer-logo.svg" alt="DealDox-logo" />
               </NuxtLink>
             </div>
             <div class="col-lg-4 col-sm-3">
@@ -302,28 +304,28 @@
           <li>
             <a href="https://www.facebook.com/dealdox.io" target="_blank">
               <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694695209/facebook_m5vbrm.svg"
-                class="social-link-image" alt="logo" /></a>
+                class="social-link-image" alt="DealDox Facebook logo" /></a>
           </li>
           <li>
             <a href="https://www.instagram.com/dealdox.io/" target="_blank">
               <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694695209/instagram_ha9zry.svg"
-                class="social-link-image" alt="logo" />
+                class="social-link-image" alt="DealDox Instagram logo" />
             </a>
           </li>
           <li>
             <a href="https://www.linkedin.com/company/dealdox" target="_blank">
               <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694695210/linkedin_dlsana.svg"
-                class="social-link-image" alt="logo" /></a>
+                class="social-link-image" alt="DealDox linkedin logo" /></a>
           </li>
           <li>
             <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FDealdox_io" target="_blank">
               <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1695711842/twitter-logo_tlcmv6.svg"
-                class="social-link-image" alt="logo" /></a>
+                class="social-link-image" alt="DealDox twitter logo" /></a>
           </li>
           <li>
             <a href="https://www.youtube.com/channel/UCUyG5sKBn2yVwLG0PbbE8IA" target="_blank">
               <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694695209/youtube_jjx6li.svg"
-                class="social-link-image" alt="logo" />
+                class="social-link-image" alt="DealDox Youtube logo" />
             </a>
           </li>
         </ul>
@@ -337,18 +339,19 @@
         <div style="display: flex;gap: 10px;width: 60%;flex-direction: column">
           <div style="width:100%;cursor: pointer;display: flex;gap: 10px" @click="openStartupIndia">
             <div style="width: 50%;">
-              <img src="../assets/images/startupIndia.png" alt="" style="border-radius: 10px;height: 100%;">
+              <img src="../assets/images/startupIndia.png" alt="startupIndia Logo" style="border-radius: 10px;height: 100%;">
             </div>
             <div class="compliance-image-containerss" @click="dunsLinkOpen" style="cursor: pointer;">
 
-              <img src="../assets/images/DunImage.png" style="border-radius: 10px;height: 100%" alt=""
+              <img src="../assets/images/DunImage.png" style="border-radius: 10px;height: 100%" alt="Duns & bradshreet logo"
                 class="compliance-icons-images">
 
             </div>
           </div>
           <div @click="newCertificate" style="cursor: pointer;">
-                    <img src="../assets/images/IAFwithScannerNew.png" alt=""  class="imfimage" style="border-radius: 10px;height: 81px">
-                  </div>
+            <img src="../assets/images/IAFwithScannerNew.png" alt="" class="IMF logo"
+              style="border-radius: 10px;height: 81px">
+          </div>
         </div>
       </div>
 
@@ -360,8 +363,8 @@
 
         </div>
         <div class="compliance-icon-container">
-          <img src="../assets/images/AutomobileAds1.png" alt="" class="compliance-icons-images-1">
-          <img src="../assets/images/newGdpr.png" alt="" class="compliance-icons-images-2" style="height: 52px;">
+          <img src="../assets/images/AutomobileAds1.png" alt="ISO Logo" class="compliance-icons-images-1">
+          <img src="../assets/images/newGdpr.png" alt="GDPR Logo" class="compliance-icons-images-2" style="height: 52px;">
 
         </div>
       </div>
@@ -369,7 +372,7 @@
 
         <div class="dealdox-footer-icon">
           <NuxtLink to="/" class="logo">
-            <img src="../assets/images/footer-logo.svg" alt="logo" />
+            <img src="../assets/images/footer-logo.svg" alt="DealDox Logo" />
           </NuxtLink>
         </div>
         <div class="copyrights-datas">
@@ -404,7 +407,7 @@ export default {
     dunsLinkOpen() {
       window.open('https://profiles.dunsregistered.com/IndiaBasicProfile.aspx?PaArea=email&SealkeyQ=E744913183449');
     },
-    newCertificate(){
+    newCertificate() {
       window.open("https://drive.google.com/file/d/1Y6NcDwkuPnwakJfcQw1HIQn4Q0KMyRFy/view?usp=drive_link")
     }
   },
@@ -419,7 +422,7 @@ export default {
         { text: 'Document Generation', link: '/' },
         { text: 'Salesforce Optimization', link: '/' },
         { text: 'Pricing', link: '/pricing' },
-        { text: 'Security', link: '/' },
+        { text: 'Security', link: '/security' },
         { text: 'HIPAA', link: '/' }
       ],
       featuresSet2: [
@@ -437,7 +440,7 @@ export default {
         { text: 'Success Stories', link: '/success-stories' },
         { text: 'Glossary', link: '/glossary' },
         { text: 'News', link: '/news' },
-        { text: 'Why DealDox', link: '/WhyDealDox' }
+        { text: 'Why DealDox', link: '/why-dealdox' }
       ],
       featuresSet4: [
         { text: 'Our Team', link: '/our-team' },
@@ -652,7 +655,7 @@ export default {
   padding: 10px 0px;
 }
 
-.imfimage{
+.imfimage {
   width: 100%;
   height: 100%;
 }
@@ -682,5 +685,10 @@ export default {
     width: 70px;
     height: 50px;
   }
+}
+
+.footer-content:hover {
+  color: white;
+  font-weight: 400;
 }
 </style>

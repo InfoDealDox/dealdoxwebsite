@@ -15,10 +15,10 @@
 
 <script>
 import Navbar from '../layouts/Navbar'
-import MainBannerCPQ from '../components/CPQ/MainBannerCPQ'
-import TransformYourSales from '../components/CPQ/TransformYourSales'
-import QuickandAccurate from '../components/CPQ/QuickandAccurate'
-import WhatisCPQService from '../components/CPQ/WhatisCPQService'
+import MainBannerCPQ from '../components/CPQ/MainBannerCPQ.vue'
+import TransformYourSales from '../components/CPQ/TransformYourSales.vue'
+import QuickandAccurate from '../components/CPQ/QuickandAccurate.vue'
+import WhatisCPQService from '../components/CPQ/WhatisCPQService.vue'
 
 import TransformDealsWith  from "../components/RequestDemo/TransformDealsWith"
 import servicefaq from '../components/CPQ/servicefaq'

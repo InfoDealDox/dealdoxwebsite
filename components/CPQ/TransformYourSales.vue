@@ -3,8 +3,9 @@
         <div class="container">
             <div class="section-title-pages-full">
                 <div class="new-app-main-banner-wrap-content-full">
-                    <h1>Transform Your Sales Process with Our <span class="sub-title">Quoting and Order Management
-                            CPQ</span> Solutions</h1>
+                    <span class="removed-h1">Transform Your Sales Process with Our <span class="sub-title">Quoting and
+                            Order Management
+                            CPQ</span> Solutions</span>
                 </div>
                 <div class="stats-map text-center">
                     <img src="../../assets/images/cpq/DDWebsite.png" alt="Quotation Information">
@@ -20,3 +21,15 @@ export default {
     name: 'TransformYourSales',
 }
 </script>
+
+<style>
+.removed-h1 {
+    font-size: 2.5rem;
+}
+
+@media (max-width:750px) {
+    .removed-h1 {
+        font-size: 23px;
+    }
+}
+</style>

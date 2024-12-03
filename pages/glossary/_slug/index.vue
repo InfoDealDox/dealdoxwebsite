@@ -1,23 +1,26 @@
 <template>
     <div>
-        <Navbar class="navbar-style-two" />
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-12 col-md-12">
-                    <div class="new-app-main-banner-wrap-image">
-                        <img src="../../../assets/images/banner/glossary.png" alt="image">
+    
+        <div>
+            <Navbar class="navbar-style-two" />
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-12 col-md-12">
+                        <div class="new-app-main-banner-wrap-image">
+                            <img src="../../../assets/images/banner/glossary.png" alt="image">
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- <PageTitle class="page-title-style-two-glossary" pageTitle=""
+            <!-- <PageTitle class="page-title-style-two-glossary" pageTitle=""
             pageDesc="" /> -->
-        <!-- <PageTitle v-if="details !== null" :pageTitle="details[0].attributes.title" pageDesc="News and Insights" /> -->
-        <div v-if="details !== null">
-            <GlossaryDetails v-bind:detailsContent="details" />
+            <!-- <PageTitle v-if="details !== null" :pageTitle="details[0].attributes.title" pageDesc="News and Insights" /> -->
+            <div v-if="details !== null">
+                <GlossaryDetails v-bind:detailsContent="details" />
+            </div>
+            <DealDoxFooter />
         </div>
-        <DealDoxFooter />
-    </div>
+        </div>
 </template>
 
 <script>
@@ -52,7 +55,7 @@ export default {
     },
     head({ $seo }) {
         return $seo({
-            title: this.seoData?.metaTitle ||'www.dealdox.io',
+            title: this.seoData?.metaTitle || 'www.dealdox.io',
             description: this.seoData?.metaDescription,
             keywords: this.seoData?.keywords,
         });

@@ -1,238 +1,12 @@
-<!-- <template>
-  <div>
-    <div class="new-bannner-ui-design-container pt-50">
-      <div class="Not-AFFORDABLE-cpq">
-        <div><small class="new-banner-first-content">Not just faster</small></div>
-        <div><small class="new-banner-second-content">AFFORDABLE</small></div>
-        <div><small class="new-banner-cpqforAll-content">CPQ FOR ALL</small></div>
-      </div>
-      <div class="new-banner-third-content-div"><small class="new-banner-third-content">Sell more with less effort using
-          an easy-to-use guided selling solution to create proposals, estimations, contracts, and approval
-          workflows.</small>
-      </div>
-      <button class="transition-new-banner">
-        <NuxtLink to="/demo" style="text-decoration: none;" class="transition-new-banner-link">Request Demo<div
-            class="new-bi-chevron-right"><i class="bi bi-chevron-right"></i></div>
-        </NuxtLink>
-      </button>
-
-      <footer class="banner-logo-footer">
-
-        <div class="banner-logo-container"><img src="../../assets/images/BannerAssets/G2.png"
-            class="banner-logo-images-first customize-banner" alt="G2-Company"></div>
-        <div class="banner-logo-container"><img src="../../assets/images/BannerAssets/Capterra.png"
-            class="banner-logo-images customize-banner" alt="Capterra-Company"></div>
-        <div class="banner-logo-container"><img src="../../assets/images/BannerAssets/Gartner.png"
-            class="banner-logo-images customize-banner" alt="Gartner-Company"></div>
-        <div class="banner-logo-container"><img src="../../assets/images/BannerAssets/Software Advice.png"
-            class="banner-logo-images " alt="Software Advice-Company" style="border-right: none;"></div>
-
-
-
-      </footer>
-
-    </div>
-    <div class="new-app-main-banner-wrap-area bg-white pt-0">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6 col-md-12">
-            <div class="new-app-main-banner-wrap-image" data-aos="fade-left" data-aos-duration="2000">
-              <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694696577/cpq-banner_chwd0d.png"
-                alt="home banner" loading="lazy" />
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-12">
-            <div class="new-app-main-banner-wrap-content">
-              <h1>
-                Effortlessly streamline your
-                <span style="color: rgb(113, 92, 243)">Quote Generation</span>
-                process with DealDox
-              </h1>
-              <p>
-                Are you still stuck with outdated spreadsheet calculations,
-                spending precious time manually shifting estimates from Excel to
-                Word, and then converting them to PDFs? Say goodbye to these
-                tedious tasks and welcome effortless quoting with DealDox also
-                called DD CPQ.
-              </p>
-              <div class="tb-30">
-                <a href="https://www.dealdox.io/demo" target="_blank">
-                  <button class="default-btn">
-                    <i class="bx bx-paper-plane"></i>Get a Demo
-                  </button></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</template>
-
-<script>
-export default {
-  name: "HomeBanner",
-
-  data() {
-    return {
-      videoSrc: "https://www.w3schools.com/html/mov_bbb.mp4", 
-    };
-  }
-
-};
-</script>
-
-
-<style>
-.new-bannner-ui-design-container {
- 
-  background-color: #715cf3;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  justify-content: center;
-  align-items: center;
-  padding: 125px 30px 20px 30px;
-  color: white;
-}
-
-.new-banner-first-content {
-  font-size: 50px;
-  font-weight: 400;
-
-}
-
-
-
-.new-banner-second-content {
-  position: relative;
-  font-size: 10vw;
-  color: transparent;
-  -webkit-text-stroke: 3px #8675f4;
-  text-transform: uppercase;
-
-}
-
-.new-banner-second-content::before {
-  content: "AFFORDABLE";
-  position: absolute;
-  color: white;
-
-  border-right: 1px solid whitesmoke;
-  width: 0;
-  height: 100%;
-  overflow: hidden;
-  animation: animate 6s linear infinite;
-  -webkit-text-stroke: 3px white;
-
-}
-
-
-
-
-@keyframes animate {
-
-  0%,
-  10%,
-  100% {
-    width: 0%;
-  }
-
-  70%,
-  100% {
-    width: 100%;
-  }
-}
-
-.new-banner-third-content-div {
-  width: 46%;
-  margin: auto;
-  text-align: center;
-}
-
-.new-banner-third-content {
-  text-align: center;
-
-}
-
-.transition-new-banner {
-  background: linear-gradient(99.01deg, #715cf3 20.98%, #5c99f3 94.62%);
-  border: none;
-  color: white;
-  padding: 10px 51px 10px 20px;
-  text-decoration: none;
-  border-radius: 23px;
-  position: relative;
-}
-
-.transition-new-banner:hover {
-  color: white;
-}
-
-.transition-new-banner-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-}
-
-.transition-new-banner-link:hover {
-  color: white;
-}
-
-.new-bi-chevron-right {
-  background-color: #3881ee;
-  border-radius: 50px;
-  position: absolute;
-  right: 4px;
-  padding: 10px;
-}
-
-.banner-logo-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 20px 0px;
-
-}
-
-
-.banner-logo-container {
-  height: 34px;
-  display: flex;
-}
-
-.banner-logo-images {}
-
-.banner-logo-images-first {
-  width: 75px;
-}
-
-.new-banner-cpqforAll-content {
-  font-size: 22px;
-}
-
-.customize-banner {
-  border-right: 0.1px solid #acacac;
-  padding: 0px 10px;
-}
-
-.Not-AFFORDABLE-cpq{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-</style> -->
 <template>
   <div>
     <div class="new-bannner-ui-design-container pt-50">
       <div class="Not-AFFORDABLE-cpq">
         <div><small class="new-banner-first-content">Not just faster</small></div>
-        <!-- <div><small class="new-banner-second-content">AFFORDABLE</small></div>-->
+
 
         <div class="image-container">
-          <img src="../../assets/images/AfooradableBanner.webp" alt="Zooming Image" class="zoom-image">
+          <img src="../../assets/images/affordableTestNew.webp" alt="DealDox Affordable" class="zoom-image">
         </div>
         <div><small class="new-banner-cpqforAll-content">CPQ FOR ALL</small></div>
       </div>
@@ -249,55 +23,20 @@ export default {
         </button>
       </div>
 
-
       <footer class="banner-logo-footer">
         <div class="banner-logo-container"><img src="../../assets/images/BannerAssets/G2.png"
             class="banner-logo-images-first customize-banner" alt="G2-Company"></div>
         <div class="banner-logo-container"><img src="../../assets/images/capterrawhitelogo.jpg"
-            class="banner-logo-images customize-banner" alt="Capterra-Company"></div>
+            class="banner-logo-images  customize-banner-capterra" alt="Capterra-Company"></div>
         <div class="banner-logo-container"><img src="../../assets/images/Gartnerwhitelogo.png"
-            class="banner-logo-images customize-banner" alt="Gartner-Company"></div>
-        <div class="banner-logo-container"><img src="../../assets/images/BannerAssets/Software Advice.png"
-            class="banner-logo-images " alt="Software Advice-Company" style="border-right: none;padding-left: 10px;">
+            class="banner-logo-images  customize-banner-gartner" alt="Gartner-Company"></div>
+        <div class="banner-logo-container"><img src="../../assets/images/software_advice_webp.webp"
+            class="banner-logo-images " alt="Software Advice Company" style="border-right: none;padding:1px 10px;">
         </div>
       </footer>
     </div>
 
-    <!-- <div class="new-app-main-banner-wrap-area bg-white pt-0">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6 col-md-12">
-            <div class="new-app-main-banner-wrap-image" data-aos="fade-left" data-aos-duration="2000">
-              <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694696577/cpq-banner_chwd0d.png"
-                alt="home banner" loading="lazy" />
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-12">
-            <div class="new-app-main-banner-wrap-content">
-              <h1>
-                Effortlessly streamline your
-                <span style="color: rgb(113, 92, 243)">Quote Generation</span>
-                process with DealDox
-              </h1>
-              <p>
-                Are you still stuck with outdated spreadsheet calculations,
-                spending precious time manually shifting estimates from Excel to
-                Word, and then converting them to PDFs? Say goodbye to these
-                tedious tasks and welcome effortless quoting with DealDox also
-                called DD CPQ.
-              </p>
-              <div class="tb-30">
-                <a href="https://www.dealdox.io/demo" target="_blank">
-                  <button class="default-btn">
-                    <i class="bx bx-paper-plane"></i>Get a Demo
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
+
 
   </div>
 </template>
@@ -308,7 +47,7 @@ export default {
 
   data() {
     return {
-      videoSrc: "https://www.w3schools.com/html/mov_bbb.mp4", // Example video source
+      videoSrc: "https://www.w3schools.com/html/mov_bbb.mp4",
     };
   },
 };
@@ -330,41 +69,12 @@ export default {
 }
 
 .new-banner-first-content {
-  font-size: 39px;
+  font-size: 36px;
   font-weight: 200;
-
-}
-
-/* .new-banner-second-content {
-  position: relative;
-  font-size: 7vw;
-  color: transparent;
-  -webkit-text-stroke: 3px #8675f4;
-  text-transform: uppercase;
-  opacity: 0;
-  animation: fadeInContent 2s ease-in-out forwards 1s;
   font-family: Montserrat;
-  font-weight: 500;
+
 }
 
-.new-banner-second-content::before {
-  content: "AFFORDABLE";
-  position: absolute;
-  color: white;
-  -webkit-text-stroke: 3px white;
-  clip-path: inset(0 100% 0 0);
-  animation: clipReveal 6s ease-in-out forwards;
-} */
-
-/* @keyframes clipReveal {
-  0% {
-    clip-path: inset(0 100% 0 0);
-  }
-
-  100% {
-    clip-path: inset(0 0 0 0);
-  }
-} */
 
 .new-banner-third-content-div {
   width: 46%;
@@ -375,6 +85,13 @@ export default {
 
 .new-banner-third-content {
   text-align: center;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
 }
 
 .transition-new-banner {
@@ -394,7 +111,8 @@ export default {
   color: white;
   transform: scale(1.05);
   transition-delay: 0.1s;
-  /* Adds slight delay for smoother hover effect */
+
+
 }
 
 .transition-new-banner-link {
@@ -403,6 +121,14 @@ export default {
   align-items: center;
   gap: 30px;
   transition: all 0.3s ease;
+  position: relative;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.transition-new-banner-link:hover {
+  color: white;
+
 }
 
 .transition-new-banner-link i {
@@ -411,32 +137,37 @@ export default {
 }
 
 .transition-new-banner::before {
+  width: 24px;
+  height: 80px;
   content: "";
+  display: block;
+  background: #fff;
   position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background-image: url(../../assets/images/SparkleForBannner.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  transition: all 0.5s ease;
-  animation: light-pass 1s linear infinite;
-  overflow: hidden;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  -webkit-animation-name: purpleButtonSlide;
+  animation-name: run;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  z-index: 1;
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+  opacity: .3;
+  transform: translateZ(0) scale(1);
 }
 
-@keyframes light-pass {
+@keyframes run {
   0% {
-    left: 0;
-  }
-
-  70% {
-    left: 50%;
+    left: -10%;
   }
 
   100% {
-    left: 100%;
+    left: 95%;
   }
 }
 
@@ -444,7 +175,7 @@ export default {
   background-color: #3881ee;
   border-radius: 55px;
   position: absolute;
-  right: 9px;
+  right: -41%;
   justify-content: center;
   display: flex;
   padding: 4%;
@@ -455,7 +186,7 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px 0px;
+  margin: 6px 0px;
 }
 
 .banner-logo-container {
@@ -474,6 +205,17 @@ export default {
 
 .new-banner-cpqforAll-content {
   font-size: 22px;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 32px;
+  position: relative;
 
 }
 
@@ -487,30 +229,12 @@ export default {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  gap: 10px;
 }
 
-/* @keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeInContent {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-} */
 
 
-/* Container to hold the image */
+
 .image-container {
   overflow: hidden;
   display: flex;
@@ -518,31 +242,38 @@ export default {
   align-items: center;
 }
 
-/* Image with animation */
+
 .zoom-image {
-  width: 77%;
+  width: 95%;
   height: 117px;
   animation: zoomIn 5s ease-out forwards;
   transform: translateZ(0) scale(1);
 }
 
-/* Keyframe animation to zoom the image */
+
 @keyframes zoomIn {
   0% {
-    transform: scale(0.50)
+    transform: scale(0.50);
+    opacity: 0;
+  }
+
+  30% {
+    opacity: 0;
+
   }
 
   100% {
     transform: scale(1);
-    /* End state, back to original size */
+    opacity: 1;
+
   }
 
 }
 
 @media (max-width: 750px) {
   .zoom-image {
-    width: 100%;
-    height: 60px;
+    width: 90%;
+    height: 41px;
     animation: zoomIn 5s ease-out forwards;
   }
 
@@ -553,13 +284,75 @@ export default {
   }
 
   .new-banner-first-content {
-    font-size: 29px;
+    font-size: 25px;
     font-weight: 200;
   }
 
   .banner-logo-container {
     height: 14px;
     display: flex;
+  }
+
+  .new-banner-third-content {
+    font-size: 15px;
+  }
+
+  .transition-new-banner-link {
+
+    font-size: 13px;
+  }
+
+  .banner-logo-container {
+    height: 18px;
+
+
+  }
+
+  .customize-banner-gartner {
+
+    padding: 4px 10px;
+  }
+
+  .customize-banner-capterra {
+
+    padding: 2px 10px;
+  }
+
+  .new-bi-chevron-right {
+    right: -48%;
+  }
+}
+
+.customize-banner-capterra {
+  border-right: 0.1px solid #acacac;
+  padding: 3px 10px;
+}
+
+.customize-banner-gartner {
+  border-right: 0.1px solid #acacac;
+  padding: 4px 10px;
+}
+
+
+
+@media screen and (max-width: 1535px) and (min-width: 1430px) {
+
+  .zoom-image {
+    width: 90%;
+    height: 137px;
+  }
+
+  .new-banner-first-content {
+    font-size: 50px;
+  }
+
+  .banner-logo-footer {
+
+    margin: 53px 0px 26px 0px;
+  }
+
+  .Not-AFFORDABLE-cpq {
+    gap: 20px;
   }
 }
 </style>

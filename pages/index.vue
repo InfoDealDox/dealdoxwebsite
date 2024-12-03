@@ -32,7 +32,7 @@ import EasyCPQ from '../components/IndexPage/EasyCPQ.vue';
 // import AutomatedQuotes from '../components/IndexPage/AutomatedQuotes';
 // import GetInTouch from '../components/IndexPage/GetInTouch';
 import Faq from '../components/Common/Faq.vue';
-import DealDoxFooter from '../layouts/DealDoxFooter';
+import DealDoxFooter from '../layouts/DealDoxFooter.vue';
 import axios from 'axios';
 
 

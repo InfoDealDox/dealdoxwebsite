@@ -8,10 +8,10 @@
         <div class="jexa-nav">
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <NuxtLink class="navbar-brand" to="/">
+                    <a class="navbar-brand" href="https://www.dealdox.io/">
                         <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694695208/logo_m8wwsx.svg"
                             alt="Dealdox_Logo">
-                    </NuxtLink>
+                    </a>
 
                     <div class="navbar-toggler" @click="active = !active" :aria-pressed="active ? 'true' : 'false'"
                         v-bind:class="{ 'active': button_active_state }"
