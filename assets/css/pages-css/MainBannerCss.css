@@ -1,0 +1,281 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+.new-bannner-ui-design-container {
+  background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(0, 0, 0, 0.4) 70%
+    ),
+    linear-gradient(to bottom, #7200ca, #3b0065);
+  background-blend-mode: overlay;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  padding: 125px 30px 20px 30px;
+  color: white;
+}
+
+.new-banner-first-content {
+  font-size: 36px;
+  font-weight: 200;
+  font-family: Montserrat;
+}
+
+.new-banner-third-content-div {
+  width: 46%;
+  margin: auto;
+  text-align: center;
+}
+
+.new-banner-third-content {
+  text-align: center;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.transition-new-banner {
+  margin: 20px 0;
+  background: linear-gradient(90deg, #715cf3 20.98%, #5c99f3 94.62%);
+  border: none;
+  color: white;
+  padding: 10px 51px 10px 20px;
+  text-decoration: none;
+  border-radius: 23px;
+  position: relative;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  overflow: hidden;
+}
+
+.transition-new-banner:hover {
+  color: white;
+  transform: scale(1.05);
+  transition-delay: 0.1s;
+}
+
+.transition-new-banner-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  transition: all 0.3s ease;
+  position: relative;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.transition-new-banner-link:hover {
+  color: white;
+}
+
+.transition-new-banner-link i {
+  font-size: 18px;
+}
+
+.transition-new-banner::before {
+  width: 24px;
+  height: 80px;
+  content: "";
+  display: block;
+  background: #fff;
+  position: absolute;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  -webkit-animation-name: purpleButtonSlide;
+  animation-name: run;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  z-index: 1;
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+  opacity: 0.3;
+  transform: translateZ(0) scale(1);
+}
+
+@keyframes run {
+  0% {
+    left: -10%;
+  }
+
+  100% {
+    left: 95%;
+  }
+}
+
+.new-bi-chevron-right {
+  background-color: #3881ee;
+  border-radius: 55px;
+  position: absolute;
+  right: -41%;
+  justify-content: center;
+  display: flex;
+  padding: 4%;
+  align-items: center;
+}
+
+.banner-logo-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 6px 0px;
+}
+
+.banner-logo-container {
+  height: 23px;
+  display: flex;
+}
+
+.banner-logo-images {
+  transition: transform 0.3s ease-in-out;
+}
+
+.banner-logo-container:hover .banner-logo-images {
+  transform: scale(1.1);
+}
+
+.new-banner-cpqforAll-content {
+  font-size: 22px;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 32px;
+  position: relative;
+}
+
+.customize-banner {
+  border-right: 0.1px solid #acacac;
+  padding: 0px 10px;
+}
+
+.Not-AFFORDABLE-cpq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.image-container {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.zoom-image {
+  width: 95%;
+  height: 117px;
+  animation: zoomIn 5s ease-out forwards;
+  transform: translateZ(0) scale(1);
+}
+
+@keyframes zoomIn {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+
+  30% {
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 750px) {
+  .zoom-image {
+    width: 90%;
+    height: 41px;
+    animation: zoomIn 5s ease-out forwards;
+  }
+
+  .new-banner-third-content-div {
+    width: 96%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .new-banner-first-content {
+    font-size: 25px;
+    font-weight: 200;
+  }
+
+  .banner-logo-container {
+    height: 14px;
+    display: flex;
+  }
+
+  .new-banner-third-content {
+    font-size: 15px;
+  }
+
+  .transition-new-banner-link {
+    font-size: 13px;
+  }
+
+  .banner-logo-container {
+    height: 18px;
+  }
+
+  .customize-banner-gartner {
+    padding: 4px 10px;
+  }
+
+  .customize-banner-capterra {
+    padding: 2px 10px;
+  }
+
+  .new-bi-chevron-right {
+    right: -48%;
+  }
+}
+
+.customize-banner-capterra {
+  border-right: 0.1px solid #acacac;
+  padding: 3px 10px;
+}
+
+.customize-banner-gartner {
+  border-right: 0.1px solid #acacac;
+  padding: 4px 10px;
+}
+
+@media screen and (max-width: 1535px) and (min-width: 1430px) {
+  .zoom-image {
+    width: 90%;
+    height: 137px;
+  }
+
+  .new-banner-first-content {
+    font-size: 50px;
+  }
+
+  .banner-logo-footer {
+    margin: 53px 0px 26px 0px;
+  }
+
+  .Not-AFFORDABLE-cpq {
+    gap: 20px;
+  }
+}
