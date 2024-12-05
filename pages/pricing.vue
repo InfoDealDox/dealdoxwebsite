@@ -1,10 +1,10 @@
 <template>
     <div>
         <Navbar class="navbar-style-two" />
-         <MainBannerSubscription />
+        <MainBannerSubscription />
         <!-- <OnbaordingAssistance /> -->
         <!-- <Pricing /> -->
-        <!-- <PricingDetails />  -->
+        <PricingDetails />
         <!-- <AutomatedQuotes /> -->
         <!-- <GetInTouch /> -->
         <DealDoxFooter />
@@ -19,7 +19,7 @@ import MainBannerSubscription from '../components/Subscriptions/MainBannerSubscr
 // import Pricing from '../components/Common/Pricing';
 // import AutomatedQuotes from '../components/Common/AutomatedQuotes';
 // import GetInTouch from '../components/Common/GetInTouch';
-// import PricingDetails from '../components/Subscriptions/PricingDetails';
+import PricingDetails from '../components/Subscriptions/PricingDetails';
 import DealDoxFooter from '../layouts/DealDoxFooter';
 // import SubscriptionLayout from '../layouts/Subscription.vue'
 // import axios from 'axios';
@@ -32,7 +32,7 @@ export default {
         MainBannerSubscription,
         // OnbaordingAssistance,
         // Pricing,
-        // PricingDetails,
+        PricingDetails,
         // GetInTouch,
         DealDoxFooter,
     },

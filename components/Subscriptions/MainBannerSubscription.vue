@@ -1,6 +1,6 @@
 <template>
-    <div class="new-app-main-banner-wrap-area bg-white">
-        <div class="container pt-500">
+    <div class="new-app-main-banner-wrap-area bg-white" style="">
+        <div class="container pt-500" style="max-width: 1024px;">
             <div class="row align-items-center" id="subscription-header">
                 <div class="col-lg-6 col-md-12">
                     <div class="new-app-main-banner-wrap-content pt-100 ">
@@ -8,9 +8,9 @@
                         <p>Unleash the full potential of collaborative deals with our subscription plan. Streamline
                             workflows, share information effortlessly, and make faster, more informed decisions. Enjoy a
                             centralized hub for policies, customizable workflows, and real-time alerts.</p>
-                        <div class="tb-30">
-                          <a href="https://www.dealdox.io/demo" target="_blank">
-<button class="default-btn"> <i class='bx bx-paper-plane'></i>Get a Demo</button></a>
+                        <div class="tb-30 customize-mobile">
+                            <a href="https://www.dealdox.io/demo" target="_blank">
+                                <button class="default-btn"> <i class='bx bx-paper-plane'></i>Get a Demo</button></a>
                         </div>
                     </div>
                 </div>
@@ -33,3 +33,17 @@ export default {
     name: 'MainBannercpq'
 }
 </script>
+
+<style>
+@media (max-width: 750px) {
+    .new-app-main-banner-wrap-content {
+        margin-top: -158px;
+    }
+
+    .customize-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+</style>

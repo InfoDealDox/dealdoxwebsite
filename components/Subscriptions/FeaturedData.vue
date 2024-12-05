@@ -11,6 +11,7 @@
           <span class="top">{{ topTextValue }}</span>
         </div>
 
+        <!-- Render headers and rows for Configure Price Quote -->
         <template v-if="
           sectiontableDataValue &&
           headersVisibleValue &&
@@ -22,17 +23,18 @@
                 <span class="top">{{ section.header }}</span>
                 <button style="background-color: #ececec" class="buttontopfeature">
                   <span style="font-weight: bold" class="plusminus">
-                    {{ activeHeader === section.header ? "-" : "+" }}
+                    {{ activeHeaders.includes(section.header) ? "-" : "+" }}
                   </span>
                 </button>
               </div>
-              <div class="table-container-sub" v-if="activeHeader === section.header">
+              <div class="table-container-sub" v-if="activeHeaders.includes(section.header)">
                 <GenerateRowTable :passTableData="section.rows" />
               </div>
             </div>
           </div>
         </template>
 
+        <!-- Render filtered table data for non Configure Price Quote cases -->
         <template v-if="tableShowValue && topTextValue !== 'Configure Price Quote'">
           <div class="table-container-sub">
             <GenerateRowTable :passTableData="filteredTableData" :editionsRow="editionsValue" />
@@ -67,7 +69,7 @@ export default {
       tableShowValue: this.initialShow,
       headersVisibleValue: this.initialShow,
       sectiontableDataValue: this.sectiontableData,
-      activeHeader: null,
+      activeHeaders: this.initialShow ? this.initializeAllHeaders() : [], // Initialize headers as active if initialShow is true
     };
   },
   computed: {
@@ -78,32 +80,32 @@ export default {
   methods: {
     toggleDropTable() {
       this.tableShowValue = !this.tableShowValue;
-      if (this.topTextValue === "Configure Price Quote") {
-        this.headersVisibleValue = this.tableShowValue;
+
+      if (this.tableShowValue && this.topTextValue === "Configure Price Quote") {
+        this.headersVisibleValue = true;
+        this.activeHeaders = this.initializeAllHeaders(); // Open all headers
+      } else {
+        this.headersVisibleValue = false;
+        this.activeHeaders = []; // Close all headers
       }
     },
     toggleHeader(header) {
-      this.activeHeader = this.activeHeader === header ? null : header; // Toggle active header
-    },
-    areRowsIdentical(row1, row2) {
-      if (row1.cells.length !== row2.cells.length) {
-        return false; // Different number of cells
+      if (this.activeHeaders.includes(header)) {
+        this.activeHeaders = this.activeHeaders.filter((h) => h !== header);
+      } else {
+        this.activeHeaders.push(header);
       }
-
-      return row1.cells.every((cell, index) => {
-        return (
-          this.normalizeCellValue(cell) ===
-          this.normalizeCellValue(row2.cells[index])
-        );
-      });
+    },
+    initializeAllHeaders() {
+      return this.sectiontableDataValue ? this.sectiontableDataValue.map((section) => section.header) : [];
     },
     filterTableData() {
       if (this.topTextValue === "Configure Price Quote") {
-        return []; // Return empty if top text is "Configure Price Quote"
+        return [];
       }
 
       if (!this.hideCommonFeatures) {
-        return this.tableDataValue; // Return full data if common features are not hidden
+        return this.tableDataValue;
       }
 
       const uniqueRows = new Set();
@@ -120,7 +122,7 @@ export default {
         }
       }
 
-      return filteredData; // Return filtered data
+      return filteredData;
     },
     normalizeCellValue(cell) {
       const normalizedValues = {
@@ -128,13 +130,21 @@ export default {
         "Not included": "Not included",
         "-": "-",
       };
-      return normalizedValues[cell] || cell; // Return normalized value or original cell
+      return normalizedValues[cell] || cell;
     },
   },
   watch: {
     initialShow(newValue) {
-      this.tableShowValue = newValue; // Sync initialShow prop with tableShowValue
+      this.tableShowValue = newValue;
+      this.headersVisibleValue = newValue;
+      this.activeHeaders = newValue && this.topTextValue === "Configure Price Quote" 
+        ? this.initializeAllHeaders()
+        : [];
     },
   },
 };
 </script>
+
+<style>
+/* Add your styles here */
+</style>

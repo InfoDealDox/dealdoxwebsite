@@ -10,17 +10,20 @@
         >
           {{ editionRow.name }}<br />{{ editionRow.price }}
         </td> -->
-        <!-- <td class="tbl-bl">PAY-AS-YOU-GO <br />₹0</td> -->
-        <td class="tbl-bl">STANDARD<br />₹799</td>
-        <td class="tbl-bl">PREMIUM<br />₹1399</td>
-        <td class="tbl-bl">ENTERPRISE<br />Custom Pricing</td>
+        <td class="tbl-bl">Pay-As-You-Go<br />Contact Sales</td>
+        <td class="tbl-bl">Standard<br />Contact Sales</td>
+        <td class="tbl-bl">Premium<br />Contact Sales</td>
+        <td class="tbl-bl">Enterprise<br />Contact Sales</td>
       </tr>
 
       <tr v-for="(row, rowIndex) in passTableData" :key="rowIndex" role="row" class="sub_row">
         <th role="rowheader" scope="row" class="table__cell sticky-column">
           <div class="table_column_header">
             <div class="table_column_header_icon">
-              <p class="table_row_heading">{{ row.heading }}</p>
+              <p class="table_row_heading"
+                :style="{ fontSize: row.heading === 'Two Factor Authentication' ? '12px' : '13px' }">
+                {{ row.heading }}
+              </p>
               <p class="hover_message" v-if="row.icon">
                 <i class="ri-error-warning-line"></i>
                 <span v-if="row.message" class="tooltip_text">{{

@@ -4,9 +4,9 @@
     <div class="container main_container">
       <div class="row align-items-center">
         <div class="contentdata1">
-          <h2 style="text-align: center;">DealDox CPQ Pricing for All Industries</h2>
-          <span style="text-align: center;" class="boost-the-growth">Boost growth with our economical pricing solutions
-            designed for every industry</span>
+          <h2 style="text-align: center;">Compare All DealDox Features</h2>
+          <!-- <span style="text-align: center;" class="boost-the-growth">Boost growth with our economical pricing solutions
+            designed for every industry</span> -->
         </div>
 
       </div>
@@ -14,9 +14,9 @@
     <div class="subscription-main-content-box">
       <div class="sub-container">
         <div>
-          <div class="cards-section1">
+          <!-- <div class="cards-section1">
             <div class="cs"></div>
-            <!-- <div class="value-div">
+            <div class="value-div">
               <div class="sub_back_image">
                 <label class="free_label">Pay-as-you-go</label>
               </div>
@@ -46,7 +46,7 @@
                   <button class="try_free">Buy Now</button>
                 </a>
               </div>
-            </div> -->
+            </div>
             <div class="value-div">
               <label class="free_label">Standard</label>
 
@@ -150,7 +150,7 @@
                 </NuxtLink>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
 
@@ -179,8 +179,8 @@
 
                     <th v-for="(data, index) in editions" :key="index" role="columnheader" scope="col"
                       class="table__cell2">
-                      <a v-if="data.name !== 'Enterprise'"
-                        :href="`https://web.dealdox.io/register?paymentMode=${data.datapass}`"
+                      <!-- <a v-if="data.name !== 'Enterprise'"
+                        :href="``"
                         class="subscription-anker-tag" target="_blank" rel="noopener noreferrer">
                         <div class="edition_wrapper">
                           <div class="edition__copy__wrapper">
@@ -205,8 +205,8 @@
                             </div>
                           </div>
                         </div>
-                      </a>
-                      <NuxtLink v-if="data.name === 'Enterprise'" :to="{
+                      </a> -->
+                      <NuxtLink :to="{
                         name: 'contact-us',
                         params: { source: 'Enterprise' },
                       }" class="nuxtlink-enterise">
@@ -259,8 +259,8 @@
               <FeaturedData :topText="'Approval Workflow'" :editions="editions" :tableData="tableData14"
                 :initialShow="isEnabled" :hideCommonFeatures="hideCommonFeatures" />
 
-              <!-- <FeaturedData :topText="'Mobile Apps'" :editions="editions" :tableData="tableData1"
-                :initialShow="isEnabled" :hideCommonFeatures="hideCommonFeatures" /> -->
+              <FeaturedData :topText="'Mobile Apps'" :editions="editions" :tableData="tableData1"
+                :initialShow="isEnabled" :hideCommonFeatures="hideCommonFeatures" />
               <FeaturedData :topText="'Configure Price Quote'" :editions="editions" :sectiontableData="cpqTableData"
                 :initialShow="isEnabled" :hideCommonFeatures="hideCommonFeatures" />
               <FeaturedData :topText="'General'" :editions="editions" :tableData="tableData15" :initialShow="isEnabled"
@@ -310,27 +310,30 @@ export default {
         //   datapass: "payAsYouGo",
         // },
         {
-          name: "STANDARD",
-          price: 799,
-          currency: "INR",
-          currency_symbol: "₹",
-          billing: "/month/User",
+          name: "Pay-As-You-Go",
+          // price: 799,
+          // currency: "INR",
+          // currency_symbol: "₹",
+          // billing: "/month/User",
+          message: "Contact Sales",
           datapass: "standard",
         },
         {
-          name: "STANDARD",
-          price: 799,
-          currency: "INR",
-          currency_symbol: "₹",
-          billing: "/month/User",
+          name: "Standard",
+          // price: 799,
+          // currency: "INR",
+          // currency_symbol: "₹",
+          // billing: "/month/User",
+          message: "Contact Sales",
           datapass: "standard",
         },
         {
           name: "Premium",
-          price: 1399,
-          currency: "INR",
-          currency_symbol: "₹",
-          billing: "/month/User",
+          // price: 1399,
+          // currency: "INR",
+          // currency_symbol: "₹",
+          // billing: "/month/User",
+          message: "Contact Sales",
           datapass: "premium",
         },
         {
@@ -369,7 +372,7 @@ export default {
         {
           heading: "Word & PDF",
           // cells: ["Included", "Included", "Included", "Included"],
-          cells: ["Included", "Included", "Included"],
+          cells: ["Included", "Included", "Included", "Included"],
 
         },
         {
@@ -558,7 +561,7 @@ export default {
         },
         {
           heading: "Currency Conversions",
-          cells: ["5", "10" , "15", "Unlimited"],
+          cells: ["5", "10", "15", "Unlimited"],
           // cells: ["5", "15", "Unlimited"],
         },
         {
@@ -799,63 +802,63 @@ export default {
       tableData11: [
         {
           heading: "Guided Selling Flows Per CRM Org Account",
-          cells: ["10", "50", "100"],
+          cells: ["10", "50", "100", "150"],
         },
         {
           heading: "Maximum Questions In Guided Selling (Qids)",
-          cells: ["100", "1000", "Unlimited"],
+          cells: ["100", "1000", "Unlimited", "Unlimited"],
         },
         {
           heading: "CSP To Create/Update Templates",
-          cells: ["-", "Included", "Included"],
+          cells: ["-", "Included", "Included", "Included"],
         },
         {
           heading: "Self Service Deployment",
-          cells: ["-", "-", "Included"],
+          cells: ["-", "-", "Included", "Included"],
         },
         {
           heading: "Reports For Quote Creation",
-          cells: ["-", "-", "Included"],
+          cells: ["-", "-", "Included", "Included"],
         },
         {
           heading: "Reports For Delivery",
-          cells: ["-", "-", "Included"],
+          cells: ["-", "-", "Included", "Included"],
         },
       ],
       tableData12: [
         {
           heading: "Total Number Of Price Rules",
-          cells: ["50", "75", "100"],
+          cells: ["50", "75", "100", "150"],
         },
         {
           heading: "Module Based Conditions Per Primary Rule",
-          cells: ["10", "15", "20"],
+          cells: ["10", "15", "20", "25"],
         },
         {
           heading: "Cell Range Limit Per Item In Volume Rules",
-          cells: ["200", "500", "1000"],
+          cells: ["200", "500", "1000", "1500"],
         },
         {
           heading: "Record Range Limit Per Item In Volume Pricing Rules",
-          cells: ["200", "500", "1000"],
+          cells: ["200", "500", "1000", "1200"],
         },
       ],
       tableData13: [
         {
           heading: "Auto Populate Product Skus Based On Configuration Rules",
-          cells: ["50", "100", "1000"],
+          cells: ["50", "100", "1000", "1500"],
         },
         {
           heading: "Total Number Of Product Configurations",
-          cells: ["50", "100", "1000"],
+          cells: ["50", "100", "1000", "1200"],
         },
         {
           heading: "Module Based Conditions Count Under Primary Rule Criteria",
-          cells: ["10", "50", "100"],
+          cells: ["10", "50", "100", "200"],
         },
         {
           heading: "Total Number Of Actions Per Rule Across",
-          cells: ["25", "50", "100"],
+          cells: ["25", "50", "100", "200"],
         },
       ],
       tableData14: [
@@ -882,12 +885,12 @@ export default {
         {
           heading: "Departmental Approvals",
           // cells: ["-", "-", "-", "Included"],
-          cells: ["-", "-", "Included"],
+          cells: ["-", "-", "Included", "Included"],
         },
         {
           heading: "Approval Dashboards",
           // cells: ["-", "-", "-", "Included"],
-          cells: ["-", "-", "Included"],
+          cells: ["-", "-", "Included", "Included"],
         },
       ],
       tableData15: [
@@ -940,19 +943,19 @@ export default {
           rows: [
             {
               heading: "Total Number Of Price Rules",
-              cells: [ "50", "75", "100"],
+              cells: ["50", "75", "100", "150"],
             },
             {
               heading: "Module Based Conditions Per Primary Rule",
-              cells: [ "10", "15", "20"],
+              cells: ["10", "15", "20", "30"],
             },
             {
               heading: "Cell Range Limit Per Item In Volume Rules",
-              cells: [ "200", "500", "1000"],
+              cells: ["200", "500", "1000", "1200"],
             },
             {
               heading: "Record Range Limit Per Item In Volume Pricing Rules",
-              cells: [ "200", "500", "1000"],
+              cells: ["200", "500", "1000", "1200"],
             },
           ],
         },
@@ -961,19 +964,19 @@ export default {
           rows: [
             {
               heading: "Total Number Of Price Rules",
-              cells: ["50", "75", "100"],
+              cells: ["50", "75", "100", "150"],
             },
             {
               heading: "Module Based Conditions Per Primary Rule",
-              cells: [ "10", "15", "20"],
+              cells: ["10", "15", "20", "30"],
             },
             {
               heading: "Cell Range Limit Per Item In Volume Rules",
-              cells: [ "200", "500", "1000"],
+              cells: ["200", "500", "1000", "1200"],
             },
             {
               heading: "Record Range Limit Per Item In Volume Pricing Rules",
-              cells: [ "200", "500", "1000"],
+              cells: ["200", "500", "1000", "1500"],
             },
           ],
         },
@@ -982,19 +985,19 @@ export default {
           rows: [
             {
               heading: "Total Number Of Price Rules",
-              cells: [ "50", "75", "100"],
+              cells: ["50", "75", "100", "150"],
             },
             {
               heading: "Module Based Conditions Per Primary Rule",
-              cells: ["10", "15", "20"],
+              cells: ["10", "15", "20", "30"],
             },
             {
               heading: "Cell Range Limit Per Item In Volume Rules",
-              cells: [ "200", "500", "1000"],
+              cells: ["200", "500", "1000", "1200"],
             },
             {
               heading: "Record Range Limit Per Item In Volume Pricing Rules",
-              cells: [ "200", "500", "1000"],
+              cells: ["200", "500", "1000", "1500"],
             },
           ],
         },

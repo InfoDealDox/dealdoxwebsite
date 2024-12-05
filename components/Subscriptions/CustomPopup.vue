@@ -3,7 +3,7 @@
         <div class="custom-popup-containersss">
             <div class="custom-popup-image-div">
                 <div class="popup-icon" @click="onClose">
-                    <i class="ri-close-fill" />
+                    <i class="ri-close-fill" style="cursor: pointer;"/>
                 </div>
                 <div class="">
                     <img class="popup-imagess" src="~/assets/images/revised-pop-up-message.png" alt="Popup" />
@@ -32,7 +32,7 @@
                     <p style="font-weight: 600; text-align: center; font-size: 18px;">
                         Spend less time on proposals, earn more.
                     </p>
-                    <p style="text-align: center;padding-bottom: 5px;">
+                    <p style="text-align: center;padding: 5px;">
                         Generate professional proposals 80% faster with DealDox CPQ.
                     </p>
                 </div>
@@ -66,4 +66,17 @@ export default {
 
 <style scoped>
 @import url(../../assets/css/pages-css/custom-popup.css);
+
+@media (max-width: 750px) {
+    .popup-imagess {
+        height: 77%;
+    }
+}
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    .popup-imagess {
+        height: 100%;
+    }
+}
 </style>
