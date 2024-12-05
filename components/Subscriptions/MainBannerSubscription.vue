@@ -1,7 +1,7 @@
 <template>
     <div class="new-app-main-banner-wrap-area bg-white" style="">
         <div class="container pt-500" style="max-width: 1024px;">
-            <div class="row align-items-center" id="subscription-header">
+            <div class="row align-items-center" id="subscription-headers">
                 <div class="col-lg-6 col-md-12">
                     <div class="new-app-main-banner-wrap-content pt-100 ">
                         <h1>Simplify the Quote-to-Cash process with <span class="sub-title">DealDox</span></h1>
@@ -45,5 +45,14 @@ export default {
         justify-content: center;
         align-items: center;
     }
+}
+
+#subscription-headers{
+    margin-top: 37px;
+}
+@media (min-width: 1400px) {
+#subscription-headers{
+    margin-top: 98px;
+}
 }
 </style>
