@@ -1,5 +1,6 @@
 <template>
   <div class="border_table">
+  
     <div class="border_table2">
       <div>
         <div class="topfeature" @click="toggleDropTable">

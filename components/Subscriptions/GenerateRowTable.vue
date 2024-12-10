@@ -10,10 +10,11 @@
         >
           {{ editionRow.name }}<br />{{ editionRow.price }}
         </td> -->
-        <!-- <td class="tbl-bl">PAY-AS-YOU-GO <br />₹0</td> -->
-        <td class="tbl-bl">STANDARD<br />₹799</td>
-        <td class="tbl-bl">PREMIUM<br />₹1399</td>
-        <td class="tbl-bl">ENTERPRISE<br />Custom Pricing</td>
+        <td class="tbl-bl">PAY-AS-YOU-GO </td>
+
+        <td class="tbl-bl">STANDARD</td>
+        <td class="tbl-bl">PREMIUM</td>
+        <td class="tbl-bl">ENTERPRISE</td>
       </tr>
 
       <tr v-for="(row, rowIndex) in passTableData" :key="rowIndex" role="row" class="sub_row">
