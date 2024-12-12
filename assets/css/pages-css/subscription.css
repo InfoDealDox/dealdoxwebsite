@@ -13,19 +13,21 @@
   width: 100%;
   /* font-family: "Noto Sans"; */
   font-size: 20px;
-  /* padding: 81px 10px 10px 10px; */
+  padding: 81px 10px 10px 10px;
 }
 
 .subscription-layout .cards-section1 {
   display: grid;
-  grid-template-columns: 1.4fr 3fr 3fr 3fr 3fr;
+  grid-template-columns: 3fr 3fr 3fr 3fr;
   width: 90%;
-  justify-content: end;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
   gap: 13px;
   margin: auto;
 }
 .subscription-layout {
-  width: 93%;
+  width: 96%;
   margin: 0px auto;
 }
 .value-div {
@@ -182,8 +184,8 @@
   padding: 8px;
   border: none;
   background-image: linear-gradient(to right, #715cf3, #5c99f3);
-  border-radius: 41px;
-  font-size: 15px;
+  border-radius: 7px;
+  font-size: 13px;
   width: 100%;
   /* font-family: "Noto Sans"; */
   cursor: pointer;
@@ -192,7 +194,7 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .subscription-layout .try_free:hover {
-  transform: scale(1.2);
+  transform: scale(0.9);
 }
 .subscription-layout {
   position: relative;
@@ -233,7 +235,7 @@
   width: 20px;
 }
 .subscription-layout .button_div {
-  padding: 15px 30px;
+  padding: 15px 8px;
 }
 .subscription-layout .h2Content {
   display: flex;
@@ -282,7 +284,7 @@
   width: 100%;
   z-index: 100;
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  /* grid-template-rows: 1fr 1fr; */
   background-color: white;
 }
 .subscription-layout .table__cell2 {
@@ -302,7 +304,6 @@
   height: 100%;
   width: 100%;
   display: grid;
-  grid-template-rows: 1fr 1fr;
 }
 .subscription-layout .iconinfo:hover path {
   fill: #032d60;
@@ -432,7 +433,7 @@
   font-weight: 400;
 }
 .subscription-layout .sub_label-container2 {
-  border-bottom: 1px solid #ccc;
+  /* border-bottom: 1px solid #ccc; */
   display: flex;
   align-items: center;
   /* height: 50%;
@@ -493,14 +494,22 @@
   height: 23px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-@media (max-width: 768px) {
-  .subscription-layout .cards-section1 {
-    flex-wrap: wrap;
-  }
-  .subscription-layout .value-div1 {
-    display: none;
-  }
+
+.features-header-cpq-compare-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0px 0px 0px;
 }
+
+.features-header-cpq-compare {
+  text-align: center;
+  font-weight: 500;
+  font-size: 35px;
+  padding-bottom: 45px;
+}
+
 .subscription-layout .main_headerdiv {
   /* border: 2px solid rgb(66, 2, 63);
 	 */
@@ -847,7 +856,7 @@
 	 */
 }
 .subscription-layout .card-info {
-  font-size: 15px;
+  font-size: 14px;
   /* font-family: "Noto Sans"; */
 }
 .subscription-layout .custom-swal-confirm {
@@ -1173,37 +1182,171 @@
   align-items: self-start;
   margin: 20px 0;
 }
-@media (min-width: 1024px) {
-  .sub-container {
-    justify-content: center;
+.features-header-cpq-compare {
+}
+
+.rowgroup-div {
+  width: 100%;
+}
+.nuxtlink-enterise {
+  text-decoration: none;
+}
+
+.boost-the-growth {
+  color: black;
+  font-size: 16px;
+}
+
+@media (max-width: 767px) {
+  .subscription-layout .dollar_duration {
+    font-size: 13px;
   }
-  .subscription-main-content-box {
-    max-width: 1320px;
-    margin: auto;
+}
+
+.pricing-card-body {
+  border: 0.1px solid #ccc;
+  border-radius: 11px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: grid;
+  grid-template-rows: 0.5fr 1.5fr 1.3fr 4fr 1fr;
+  height: 450px;
+  width: 100%;
+}
+
+.pricing-plan-label {
+  color: #715cf3;
+  line-height: 16px;
+  font-weight: 700;
+}
+.plan-text-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pricing-card-content {
+  font-size: 13px;
+  padding: 3px 0px;
+  color: rgba(0, 0, 0, 0.65);
+  text-align: center;
+}
+
+.cards-cash-amount {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-direction: column;
+  /* border-bottom: 0.1px solid rgb(234 234 234); */
+  gap: 1px;
+  height: 100%;
+}
+.cards-cashs {
+  display: flex;
+  font-size: 43px;
+  font-weight: 500;
+  align-items: baseline;
+  gap: 3px;
+}
+.perquoteDiv {
+  display: flex;
+  /* height: 60%; */
+  align-items: end;
+  font-size: 13px;
+}
+.cards-list-item {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  justify-content: center;
+  /* border-bottom: 0.1px solid rgb(234 234 234); */
+}
+.card-list-item-content-li {
+  display: grid;
+  grid-template-columns: 20px auto;
+}
+.card-list-item-content {
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 12px;
+}
+.custom-pricing-cardss-pric {
+  font-size: 24px;
+}
+
+.card-key-feature-lists {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  border-bottom: 0.1px solid rgb(234 234 234);
+  padding-left: 12px;
+}
+.card-key-feature-lists-h1 {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.checkmarks-pricing {
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+.tax-container {
+  font-size: 13px;
+  text-align: center;
+  position: relative;
+  bottom: 16px;
+}
+.tax-container-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 767px) {
+  .subscription-layout p.table_row_heading{
+    font-size:13px !important;
   }
-  .subscription-layout .table-container-sub1 {
-    position: sticky;
-    top: 82px;
-    background-color: white;
-    z-index: 3;
-    height: 61px;
+}
+
+@media (max-width: 520px) {
+  .features-header-cpq-compare {
+    font-size: 33px;
+    line-height: 41px;
+    padding-bottom: 20px;
   }
-  .tbl-bl {
-    display: none;
-  }
-  .tbl-sticky {
-    display: none;
-  }
-  .tbl-new-row {
-    display: none;
-  }
-  .subscription-layout .table-container-sub1 {
-    margin: auto;
+
+  .subscription-layout {
     width: 100%;
-    border-radius: 5px;
-    display: flex;
+  }
+
+  .cards-section1 {
+    display: flex !important;
+    flex-direction: column;
     justify-content: center;
-    height: 59px;
+    align-items: center;
+  }
+
+  .pricing-card-body {
+    height: 450px !important;
+    width: 280px !important;
+  }
+}
+@media (max-width: 768px) {
+  /* .subscription-layout .cards-section1 {
+    flex-wrap: wrap;
+  } */
+  .subscription-layout .value-div1 {
+    display: none;
+  }
+}
+@media (max-width: 750px) {
+  .pricing-card-body {
+    height: 450px;
+    width: 241px;
   }
 }
 
@@ -1212,7 +1355,7 @@
     min-width: 80px;
   }
   .value-div {
-    min-width: 200px;
+    min-width: 223px;
   }
   .sub-container {
     justify-content: flex-start;
@@ -1287,20 +1430,36 @@
   }
 }
 
-.rowgroup-div {
-  width: 100%;
-}
-.nuxtlink-enterise {
-  text-decoration: none;
-}
-
-.boost-the-growth {
-  color: black;
-  font-size: 16px;
-}
-
-@media (max-width: 767px) {
-  .subscription-layout .dollar_duration {
-    font-size: 13px;
+@media (min-width: 1024px) {
+  .sub-container {
+    justify-content: center;
+  }
+  .subscription-main-content-box {
+    max-width: 1440px;
+    margin: auto;
+  }
+  .subscription-layout .table-container-sub1 {
+    position: sticky;
+    top: 82px;
+    background-color: white;
+    z-index: 3;
+    height: 61px;
+  }
+  .tbl-bl {
+    display: none;
+  }
+  .tbl-sticky {
+    display: none;
+  }
+  .tbl-new-row {
+    display: none;
+  }
+  .subscription-layout .table-container-sub1 {
+    margin: auto;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    height: 59px;
   }
 }

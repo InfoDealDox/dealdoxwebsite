@@ -1,0 +1,479 @@
+.pricing-header-main-container {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.pricing-header-container {
+  position: relative; /* Ensure the container is positioned for pseudo-element layering */
+
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 56px 10px;
+  width: 100%;
+  z-index: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.pricing-header-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../../images/PricingAssests/PricingBg.png") no-repeat center
+    center;
+  background-size: cover;
+  opacity: 0.9; /* Adjust the opacity of the background */
+  z-index: -1; /* Ensure it stays behind the content */
+}
+
+.pricing-flexing-software-container {
+  text-align: center;
+  letter-spacing: -1px;
+  color: #000;
+  font-size: 54px;
+  font-weight: 600;
+}
+
+.pricing-tags-lists {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: self-start;
+  flex-wrap: wrap;
+}
+.pricing-tags-li {
+  list-style: none;
+  text-decoration: none;
+  display: grid;
+  grid-template-columns: 22px auto;
+  grid-column-gap: 5px;
+  width: 100%;
+  /* max-width: 400px; */
+  text-align: left;
+  width: fit-content;
+}
+
+.pricing-tags-li-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.pricing-tags-li-container-span {
+  color: #000;
+  font-weight: 500;
+  font-size: 16px;
+}
+.pricing-fill-logos {
+  color: #715cf3;
+  font-size: 1.2rem;
+  position: relative;
+  top: 3px;
+}
+
+.pricing-page-button-container {
+  position: absolute;
+  bottom: -40px;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+
+.pricing-page-button-sub-container {
+  border-radius: 54px;
+  /* padding: 12px 10px; */
+  display: flex;
+  background-color: white;
+  position: relative;
+  gap: 0px;
+  box-shadow: 0 10px 15px -6px rgb(119 119 119 / 40%);
+  width: 156px;
+  height: 40px;
+}
+
+.pricing-monthly,
+.pricing-yearly {
+  border: 0;
+  background: transparent;
+  z-index: 10;
+  padding: 0px 5px;
+  width: 50%;
+  font-size: 13px;
+  text-align: center;
+}
+
+.pricing-absolut-button {
+  left: 53%;
+  top: 0;
+  background: #715cf3;
+  width: 44%;
+  position: absolute;
+  height: 77%;
+  border-radius: 54px;
+  transition: 0.5s;
+  transform: translateY(11%);
+  /* left: 3px; */
+}
+.pricing-yearly {
+  color: white;
+}
+
+.saveupto80 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  /* left: 14%; */
+  color: #715cf3;
+  font-size: 14px;
+  font-weight: 600;
+  bottom: -56px;
+  right: auto;
+  padding-left: 39px;
+  transform: translate(50%, -50%);
+  align-items: flex-end;
+}
+.saveupto80text {
+  position: relative;
+  top: 1px;
+}
+.peicing-Arrow {
+  margin-right: 3px;
+  width: 37px;
+}
+
+.pricing-tags-lists-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Pricing FAQ's */
+.app-download-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1330px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  padding: 40px 0px;
+  gap: 30px;
+}
+.accordion-toggle-icon {
+  font-weight: bold;
+  margin-right: 10px;
+}
+.pricing-answer-question-body {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  transition: all 0.5s linear;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
+  margin: 0 auto 10px;
+  padding: 20px 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  width: 100%;
+}
+
+.accordion-title {
+  background: #f1f1f1;
+  border: none;
+  padding: 10px;
+  text-align: left;
+  width: 100%;
+}
+
+.accordion-body {
+  padding: 10px;
+}
+
+.pricing-accordion-body {
+  padding: 0px 10px;
+  font-size: 13px;
+}
+
+.pricing-accordion-title {
+  border: none;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 3px;
+}
+
+#dash-circle-pricing {
+  color: #715cf3;
+  font-size: 20px;
+  cursor: pointer;
+}
+.pricing-accordion-header {
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.pricing-accordion-body-p {
+  font-size: 16px;
+}
+
+.pricing-faq-accordion {
+  width: 75%;
+}
+
+.pricing-write-us {
+  color: #715cf3;
+}
+.privacy-pricing-body-img {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+/* 
+@media (max-width: 750px) {
+  .pricing-header-main-container {
+    margin-top: 80px;
+  }
+
+  .pricing-flexing-software-container {
+    font-size: 37px;
+  }
+
+  .pricing-header-container {
+    padding: 22px 10px;
+  }
+
+  .pricing-tags-li {
+    min-width: 150px;
+  }
+
+  .pricing-tags-lists {
+    flex-wrap: wrap;
+  }
+
+}
+
+
+@media (max-width: 460px) {
+  .pricing-tags-li {
+    width: 165px;
+}
+
+} */
+
+.pricing-faq-freq-question {
+  font-size: 23px;
+  text-align: center;
+}
+
+.privacy-pricing-body {
+  display: flex;
+  margin: 50px 20px;
+  gap: 5px;
+  /* height: 400px; */
+  width: 75%;
+  height: 400px;
+}
+
+.pricing-buy-now-button {
+  padding: 6px 35px;
+  cursor: pointer;
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+  transition: all ease 0.32s;
+  border: 0;
+  margin: 10px 0;
+  text-transform: uppercase;
+  z-index: 1;
+  background: #f0483e;
+  border-radius: 4px;
+}
+.your-privacy-three-buynow-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 21px;
+  padding: 48px 0px;
+  width: 50%;
+  margin-top: 0px;
+}
+.DealDox-Security {
+  padding: 0;
+  position: relative;
+  /* left: 80px; */
+  width: 440px;
+  height: 425px;
+}
+.Your-privacy-is-our-priority {
+  font-size: 45px;
+  line-height: 53px;
+  font-weight: 500;
+}
+.privacypriorityulu {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  list-style: none;
+  padding-left: 0px;
+  margin-left: 0px;
+  gap: 10px;
+}
+
+.privacypriorityul {
+  display: grid;
+  grid-template-columns: 22px auto;
+  gap: 6px;
+}
+
+.privacypriorityulspan {
+  font-size: 19px;
+  color: #000;
+}
+
+.bi-pricing-circle {
+  color: #715cf3;
+  margin-top: 1px;
+  font-size: 24px;
+}
+.pricingSecurityNuyNow {
+  text-decoration: none;
+}
+
+.pricingSecurityNuyNow:hover {
+  color: white;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .pricing-flexing-software-container {
+    font-size: 38px;
+  }
+  .pricing-header-container {
+    padding: 30px 10px;
+  }
+
+  .pricing-header-main-container {
+    margin-top: 80px;
+  }
+
+  .pricing-tags-li {
+    width: 46%;
+  }
+  .privacy-pricing-body {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .privacy-pricing-body-img,
+  .your-privacy-three-buynow-btn {
+    width: 100%;
+    align-items: center;
+  }
+  .Your-privacy-is-our-priority {
+    font-size: 33px;
+    line-height: 42px;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .privacy-pricing-body {
+    width: 91%;
+  }
+  .privacypriorityulspan {
+    font-size: 16px;
+  }
+  .your-privacy-three-buynow-btn {
+    padding: 3px 0px;
+  }
+}
+
+@media (max-width: 520px) {
+  .pricing-tags-li {
+    width: 100%;
+  }
+
+  .pricing-faq-accordion {
+    width: 97%;
+  }
+
+  button.pricing-accordion-title {
+    font-size: 14px;
+  }
+
+  p.pricing-accordion-body-p {
+    font-size: 12px !important;
+    line-height: 17px;
+  }
+  .pricing-Excel-functions-body {
+    margin: 9px 0px;
+  }
+  .pricing-Excel-functions-header {
+    font-size: 27px !important;
+  }
+  .pricing-flexing-software-container {
+    font-size: 29px !important;
+  }
+  .saveupto80 {
+    font-size: 10px;
+    padding-left: 35px;
+  }
+}
+
+@media (min-width: 520px) and (max-width: 1024px) {
+  .subscription-layout .cards-section1 {
+    display: flex !important;
+    flex-wrap: wrap;
+  }
+
+  .pricing-card-body {
+    width: 250px !important;
+  }
+  .subscription-layout {
+    width: 100%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .pricing-header-container {
+    padding: 30px 10px;
+  }
+
+  .pricing-tags-li {
+    width: 38%;
+  }
+
+  .pricing-flexing-software-container {
+    font-size: 41px;
+  }
+  .pricing-header-main-container {
+    margin-top: 82px;
+  }
+  .pricing-card-body {
+    width: 300px !important;
+  }
+  .subscription-layout {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+}
+
+@media (min-width: 1441px) {
+}
