@@ -93,7 +93,7 @@
                 </div>
                 <div class="card-key-feature-lists">
                   <div id="key-features-hidden">
-                    <span class="card-key-feature-lists-h1">Key features: </span>
+                    <span class="card-key-feature-lists-h1">Key features : </span>
                     <ul class="cards-list-item">
                       <li class="card-list-item-content-li"><i class="bi bi-check2 checkmarks-pricing"></i><span
                           class="card-list-item-content">Unlimited users</span></li>
@@ -295,7 +295,7 @@
                     name: 'contact-us',
                     params: { source: 'Enterprise' },
                   }">
-                    <button class="try_free">Connect to sales </button>
+                    <button class="try_free">Connect to Sales </button>
                   </NuxtLink>
                 </div>
               </div>
@@ -321,7 +321,7 @@
                         <div class="sub_label-container2">
                           <label class="checkbox_container" :checked="isEnabled" @change="handleCheckboxChange()"
                             style="cursor:'pointer'">
-                            <input style="height: 10px; width: 10px;cursor: pointer" type="checkbox"/>
+                            <input style="height: 10px; width: 10px;cursor: pointer" type="checkbox" />
                             <span class="hide_expand" v-if="isEnabled" style="cursor: pointer;">Collapse Now</span>
                             <span class="hide_expand" style="cursor: pointer" v-else>Expand All</span>
                           </label>
@@ -469,7 +469,7 @@
 import axios from "axios";
 import CustomPopup from "./CustomPopup.vue";
 import FeaturedData from "./FeaturedData.vue";
-
+import  CONSTANTS  from "../Common/currencyList";
 
 
 export default {
@@ -485,7 +485,7 @@ export default {
       hideCommonFeatures: false,
       showMessage: false,
       currentCountryCode: "INR",
-      currentCurrencyamount: 1,
+      currentCurrencyAmount: 1,
       payAsYouGoAmount: 9,
       standardAmount: 499,
       premiumAmount: 799,
@@ -493,7 +493,6 @@ export default {
       monthlypremiumAmount: 1259,
       monthly: false,
       currency_symbol: "₹",
-
       editions: [
 
         {
@@ -536,19 +535,19 @@ export default {
         {
           heading: "Apple - Appstore",
           cells: ["-", "-", "Included", "Included"],
-          // cells: ["-", "Included", "Included"],
+
         },
       ],
       tableData2: [
         {
           heading: "Generate Quotations",
           cells: ["Unlimited", "Unlimited", "Unlimited"],
-          // cells: ["Unlimited", "Unlimited"],
+
         },
         {
           heading: "Seat Limit",
           cells: ["Unlimited", "Upto 5", "Unlimited"],
-          // cells: ["Upto 5", "Unlimited"],
+
         },
       ],
       tableData3: [
@@ -622,7 +621,7 @@ export default {
         {
           heading: "Global Currency Support",
           cells: ["-", "-", "Included", "Included"],
-          // cells: ["-", "Included", "Included"],
+
         },
         {
           heading: "Custom Branding",
@@ -770,12 +769,12 @@ export default {
         {
           heading: "Audit Trial",
           cells: ["-", "-", "-", "Included"],
-          // cells: ["-", "-", "Included"],
+        
         },
         {
           heading: "Reports",
           cells: ["Included", "Included", "Included", "Included"],
-          // cells: ["Included", "Included", "Included"],
+
         },
       ],
       tableData6: [
@@ -920,37 +919,37 @@ export default {
         {
           heading: "Quotation Assistance",
           cells: ["-", "-", "Included", "Included"],
-          // cells: ["-", "Included", "Included"],
+     
         },
         {
           heading: "Smart Pricing Suggestions",
           cells: ["-", "-", "Included", "Included"],
-          // cells: ["-", "Included", "Included"],
+
         },
         {
           heading: "Automated Email Drafting",
           cells: ["-", "-", "Included", "Included"],
-          // cells: ["-", "Included", "Included"],
+      
         },
         {
           heading: "Real-Time Query Handling",
           cells: ["-", "-", "-", "Included"],
-          // cells: ["-", "-", "Included"],
+    
         },
         {
           heading: "Scenario Simulation",
           cells: ["-", "-", "-", "Included"],
-          // cells: ["-", "-", "Included"],
+   
         },
         {
           heading: "Task Automation",
           cells: ["-", "-", "-", "Included"],
-          // cells: ["-", "-", "Included"],
+        
         },
         {
           heading: "Predictive Sales Analysis",
           cells: ["-", "-", "-", "Included"],
-          // cells: ["-", "-", "Included"],
+  
         },
       ],
       tableData9: [
@@ -1346,7 +1345,6 @@ export default {
       ],
 
 
-
     };
   },
   async mounted() {
@@ -1354,7 +1352,6 @@ export default {
     try {
       await this.getCurrencyCode();
       await this.getExchangeAmount();
-
       this.converAmount();
     } catch (error) {
       console.error("Error during initialization:", error);
@@ -1362,65 +1359,37 @@ export default {
     this.triggerPopup();
   },
   watch: {
-    showPopup(newValue) {
-      // Set body overflow based on popup visibility
-      if (newValue) {
-        document.body.style.overflow = "hidden"; // Hide overflow when popup is visible
-      } else {
-        document.body.style.overflow = ""; // Reset overflow when popup is hidden
+    async currentCountryCode(newCode, oldCode) {
+      if (newCode) {
+        console.log(`Country code changed from ${oldCode} to ${newCode}`);
+
+       
+        const rawSymbol = CONSTANTS.currencyList.find(
+          (x) => x.code === newCode
+        );
+        const parser = new DOMParser();
+        this.currency_symbol = parser
+          ? parser.parseFromString(rawSymbol.symbol, "text/html").body
+            .textContent
+          : this.currency_symbol;
+
+        console.log("Currency symbol:", this.currency_symbol);
+
+        // Fetch the exchange amount and update amounts
+        await this.getExchangeAmount();
+        this.converAmount();
       }
     },
   },
   methods: {
-    handleHideCommonFeaturesChange() {
-      this.hideCommonFeatures = !this.hideCommonFeatures;
-    },
-    handleCheckboxChange() {
-      this.isEnabled = !this.isEnabled;
-    },
-    triggerPopup() {
-      setTimeout(() => {
-        this.showPopup = true;
-      }, 3 * 60 * 1000);
-      setTimeout(() => {
-        this.showPopup = true;
-      }, 540000);
-      setTimeout(() => {
-        this.showPopup = true;
-      }, 1260000);
-    },
-    handleClose() {
-      this.showPopup = false;
-    },
-    navigateToPage(paramValue) {
-      this.$router.push({ name: "contact-us", params: { source: paramValue } });
-    },
-    lastUpdatedDate() {
-      const date = new Date("2024-08-01");
-      const formattedDate = date.toLocaleDateString(undefined, {
-        year: "numeric",
-        month: "long",
-        day: "numeric",
-      });
-      return formattedDate;
-    },
     async getCurrencyCode() {
       try {
-        this.currentCountryCode = geoplugin_currencyCode();
-        const rawSymbol = geoplugin_currencySymbol();
-
-        // Decode the currency symbol if necessary
-        const parser = new DOMParser();
-        this.currency_symbol = parser.parseFromString(rawSymbol, "text/html").body.textContent;
-
+        const response = await axios.get(`https://ipapi.co/currency/`);
+        this.currentCountryCode = response.data;
         console.log("Detected country code:", this.currentCountryCode);
-        console.log("Currency symbol:", this.currency_symbol);
       } catch (error) {
-        console.error("Failed to fetch currency code or symbol:", error);
-
-        // Set default fallbacks
+        console.error("Failed to fetch currency code:", error);
         this.currentCountryCode = "INR";
-        this.currency_symbol = "₹"; // Default to Indian Rupee
       }
     },
 
@@ -1436,38 +1405,60 @@ export default {
         console.error("Failed to fetch exchange amount:", error);
       }
     },
+
+    calculateAmount(baseAmount, multiplier = 1) {
+      return parseFloat(Math.ceil(baseAmount * this.currentCurrencyAmount * multiplier));
+    },
+
     converAmount() {
       try {
-        if (this.currentCountryCode.toUpperCase() == 'INR') {
-          console.log("inr currency");
-
-          this.payAsYouGoAmount = parseFloat(Math.ceil((9 * this.currentCurrencyAmount)));
-          this.standardAmount = parseFloat(Math.ceil((499 * this.currentCurrencyAmount)));
-          this.premiumAmount = parseFloat(Math.ceil((799 * this.currentCurrencyAmount)));
-          this.monthlystandardAmount = parseFloat(Math.ceil((719 * this.currentCurrencyAmount)));
-          this.monthlypremiumAmount = parseFloat(Math.ceil((1259 * this.currentCurrencyAmount)));
-        } else {
-
-
-
-
-          this.payAsYouGoAmount = parseFloat(Math.ceil((9 * this.currentCurrencyAmount * 3)));
-          this.standardAmount = parseFloat(Math.ceil(((499 * 3) * this.currentCurrencyAmount)));
-          this.premiumAmount = parseFloat(Math.ceil((799 * this.currentCurrencyAmount * 3)));
-          this.monthlystandardAmount = parseFloat(Math.ceil((719 * this.currentCurrencyAmount * 3)));
-          this.monthlypremiumAmount = parseFloat(Math.ceil((1259 * this.currentCurrencyAmount * 3)));
-        }
+        const multiplier = this.currentCountryCode.toUpperCase() === "INR" ? 1 : 3;
+        this.payAsYouGoAmount = this.calculateAmount(9, multiplier);
+        this.standardAmount = this.calculateAmount(499, multiplier);
+        this.premiumAmount = this.calculateAmount(799, multiplier);
+        this.monthlystandardAmount = this.calculateAmount(719, multiplier);
+        this.monthlypremiumAmount = this.calculateAmount(1259, multiplier);
       } catch (error) {
-        // Fallback to default values in case of error
         console.error("Error in converAmount:", error);
         this.payAsYouGoAmount = 9;
         this.standardAmount = 9.55;
         this.premiumAmount = 19.55;
       }
-
-
     },
 
+    triggerPopup() {
+      const popupIntervals = [3 * 60 * 1000, 540000, 1260000]; 
+      popupIntervals.forEach((interval) => {
+        setTimeout(() => {
+          this.showPopup = true;
+        }, interval);
+      });
+    },
+
+    handleClose() {
+      this.showPopup = false;
+    },
+
+    navigateToPage(paramValue) {
+      this.$router.push({ name: "contact-us", params: { source: paramValue } });
+    },
+
+    lastUpdatedDate() {
+      const date = new Date("2024-08-01");
+      return date.toLocaleDateString(undefined, {
+        year: "numeric",
+        month: "long",
+        day: "numeric",
+      });
+    },
+
+    handleHideCommonFeaturesChange() {
+      this.hideCommonFeatures = !this.hideCommonFeatures;
+    },
+
+    handleCheckboxChange() {
+      this.isEnabled = !this.isEnabled;
+    },
 
     leftClick() {
       const toggleButton = this.$refs.toggleButton;
@@ -1477,10 +1468,11 @@ export default {
         toggleButton.style.left = "2px";
         button1.style.color = "white";
         button2.style.color = "black";
-        toggleButton.style.width = "47.5%"
+        toggleButton.style.width = "47.5%";
         this.monthly = true;
       }
     },
+
     rightClick() {
       const toggleButton = this.$refs.toggleButton;
       const button1 = this.$refs.button1;
@@ -1493,9 +1485,10 @@ export default {
         this.monthly = false;
       }
     },
+
     displayFeatures() {
-      const payAsYouGoFeatures = document.getElementById('key-features-hidden');
-      const pricingCardBody = document.getElementsByClassName('pricing-card-body');
+      const payAsYouGoFeatures = document.getElementById("key-features-hidden");
+      const pricingCardBody = document.getElementsByClassName("pricing-card-body");
 
       if (payAsYouGoFeatures) {
         payAsYouGoFeatures.style.display = "block";
@@ -1505,14 +1498,16 @@ export default {
 
       if (pricingCardBody.length > 0) {
         for (let i = 0; i < pricingCardBody.length; i++) {
-          pricingCardBody[i].style.height = '450px';
+          pricingCardBody[i].style.height = "450px";
         }
       } else {
         console.error('Elements with class "pricing-card-body" not found.');
       }
-    }, hideFeatures() {
-      const payAsYouGoFeatures = document.getElementById('key-features-hidden');
-      const pricingCardBody = document.getElementsByClassName('pricing-card-body');
+    },
+
+    hideFeatures() {
+      const payAsYouGoFeatures = document.getElementById("key-features-hidden");
+      const pricingCardBody = document.getElementsByClassName("pricing-card-body");
 
       if (payAsYouGoFeatures) {
         payAsYouGoFeatures.style.display = "none";
@@ -1522,14 +1517,12 @@ export default {
 
       if (pricingCardBody.length > 0) {
         for (let i = 0; i < pricingCardBody.length; i++) {
-          pricingCardBody[i].style.height = '250px';
+          pricingCardBody[i].style.height = "250px";
         }
       } else {
         console.error('Elements with class "pricing-card-body" not found.');
       }
-    }
-
-
+    },
   },
 };
 </script>

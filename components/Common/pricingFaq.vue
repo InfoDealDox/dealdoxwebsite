@@ -31,7 +31,8 @@
                     <div class="pricing-accordion-body" v-show="activeIndex === index">
                         <p class="pricing-accordion-body-p">
                             {{ faq.answer }}
-                            <NuxtLink v-if="faq.link" :to="faq.link.url" class="pricing-write-us" style="text-decoration: none;">{{ faq.link.text }}
+                            <NuxtLink v-if="faq.link" :to="faq.link.url" class="pricing-write-us"
+                                style="text-decoration: none;">{{ faq.link.text }}
                             </NuxtLink>
                         </p>
                     </div>
@@ -72,10 +73,8 @@ export default {
                 },
                 {
                     question: "What payment methods do you accept? ",
-                    answer: `We accept the following payment methods Debit and Credit Cards (Rupay, Mastercard, RuPay), EMI (Instacred), Wallets (Airtel Money, Freecharge, Jio Money, Ola Money, and Mobikwik), and UPI. For more details, please contact us at `,
+                    answer: `We accept the following payment methods Debit and Credit Cards (Mastercard, RuPay, Visa), EMI (Instacred), Wallets (Airtel Money, Freecharge, Jio Money, Ola Money, and Mobikwik), and UPI. For more details, please contact us at`,
                     link: { url: "/demo", text: " support@dealdox.io." },
-
-
 
                 },
                 {
@@ -103,7 +102,7 @@ export default {
                     answer: "There is no free trial version, but you can opt for the pay-as-you-go option. And, the Enterprise plan comes with a 30-day free trial period. "
                 },
                 {
-                    question: "More Question?  ",
+                    question: "More Questions?  ",
                     answer: `You can email us at `,
                     link: { url: "/demo", text: " support@dealdox.io." },
                 },

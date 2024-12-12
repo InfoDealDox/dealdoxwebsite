@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat&family=Roboto:wght@100;300;400;500;700;900&display=swap");
 
 .new-bannner-ui-design-container {
   background: radial-gradient(
@@ -20,7 +20,7 @@
 .new-banner-first-content {
   font-size: 36px;
   font-weight: 200;
-font-family: "Montserrat", serif;
+  font-family: var(--monsterFamily) !important;
 }
 
 .new-banner-third-content-div {
@@ -33,7 +33,7 @@ font-family: "Montserrat", serif;
   text-align: center;
   color: #fff;
   text-align: center;
-  font-family: "Roboto", serif;
+  font-family: var(--robotaFamily);
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -147,7 +147,7 @@ font-family: "Montserrat", serif;
 .new-banner-cpqforAll-content {
   font-size: 22px;
   text-align: center;
-font-family: "Montserrat", serif;
+  font-family: var(--monsterFamily) !important;
   font-size: 22px;
   font-style: normal;
   font-weight: 600;
@@ -192,7 +192,7 @@ font-family: "Montserrat", serif;
     opacity: 0;
   }
 
-  30% {
+  5% {
     opacity: 0;
   }
 

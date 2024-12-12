@@ -52,7 +52,7 @@ export default {
   //      });
  //   },
      head: {
-        title: 'www.dealox.io',
+        title: 'www.dealdox.io',
         htmlAttrs: {
             lang: 'en-us'
         },

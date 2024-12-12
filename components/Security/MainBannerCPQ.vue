@@ -6,7 +6,7 @@
                     <div class="new-app-main-banner-wrap-content">
                         <h1> <span class="sub-title">Data and Privacy <a href="https://www.dealdox.io/privacy-policy"></a> Protection</span>
                         </h1>
-                        <p>Our Commitment to Your <a href="https://www.dealdox.io/security">security</a> and Trust 
+                        <p>Our Commitment to Your <a href="https://www.dealdox.io/security">Security</a> and Trust 
                         </p>
                     </div>
                 </div>

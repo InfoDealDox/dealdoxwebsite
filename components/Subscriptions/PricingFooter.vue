@@ -107,7 +107,7 @@ export default {
     font-size: 37px;
     font-weight: 500;
     text-align: center;
-    font-family: Roboto, Ubuntu, Cantarell, 'Open Sans';
+    font-family: var(--robotaFamily) !important;
 }
 
 .pricing-Excel-functions-body {
