@@ -1398,6 +1398,8 @@ export default {
         const response = await axios.get(
           `https://v6.exchangerate-api.com/v6/c388446c26da9cbd5b015329/latest/INR`
         );
+        console.log("Resposne",response);
+        
         this.currentCurrencyAmount =
           response.data.conversion_rates[this.currentCountryCode];
         console.log("Currency amount:", this.currentCurrencyAmount);
