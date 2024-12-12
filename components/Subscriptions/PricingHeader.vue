@@ -87,4 +87,6 @@ export default {
 
 <style>
 
+@import url('../../assets/css/pages-css/PricingHeaderFooter.css');
+
 </style>

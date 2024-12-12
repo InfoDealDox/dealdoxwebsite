@@ -35,7 +35,19 @@
   opacity: 0.9; /* Adjust the opacity of the background */
   z-index: -1; /* Ensure it stays behind the content */
 }
-
+.new-banner-cpqforAll-content {
+  font-size: 22px;
+  text-align: center;
+  font-family: "Montserrat", serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 32px;
+  position: relative;
+}
 .pricing-flexing-software-container {
   text-align: center;
   letter-spacing: -1px;
@@ -446,6 +458,13 @@
   }
   .subscription-layout {
     width: 100%;
+  }
+  .pricing-faq-accordion {
+    width: 93%;
+  }
+  .pricing-accordion-header {
+    font-size: 17px;
+    font-weight: 500;
   }
 }
 

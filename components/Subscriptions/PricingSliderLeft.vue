@@ -140,6 +140,7 @@ img.slide-span-texts {
     border-radius: 10px;
     width: 100%;
     height: 100%;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
 }
 
 @keyframes scroll {

@@ -1334,6 +1334,11 @@
     height: 450px !important;
     width: 280px !important;
   }
+
+  .border_table2 {
+    width: 100% !important;
+
+}
 }
 @media (max-width: 768px) {
   /* .subscription-layout .cards-section1 {
