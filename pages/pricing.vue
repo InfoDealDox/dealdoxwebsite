@@ -2,13 +2,13 @@
     <div>
         <Navbar class="navbar-style-two" />
         <!-- <PricingHeader /> -->
-        <MainBannerSubscription />
+        <!-- <MainBannerSubscription /> -->
         <!-- <OnbaordingAssistance /> -->
         <!-- <Pricing /> -->
-        <!-- <PricingDetails /> -->
+        <PricingDetails />
         <!-- <AutomatedQuotes /> -->
         <!-- <GetInTouch /> -->
-      <!-- <PricingFooter/> -->
+      <PricingFooter/>
         <DealDoxFooter />
     </div>
 </template>
@@ -16,33 +16,35 @@
 <script>
 
 import Navbar from '../layouts/Navbar';
-// import PricingHeader from '../components/Subscriptions/PricingHeader.vue'
 
-import MainBannerSubscription from '../components/Subscriptions/MainBannerSubscription.vue';
+import PricingDetails from '../components/Subscriptions/PricingDetails.vue';
+import PricingFooter from '../components/Subscriptions/PricingFooter.vue';
+import DealDoxFooter from '../layouts/DealDoxFooter';
+
+//import MainBannerSubscription from '../components/Subscriptions/MainBannerSubscription.vue';
 // import OnbaordingAssistance from '../components/Subscriptions/OnbaordingAssistance';
 // import Pricing from '../components/Common/Pricing';
 // import AutomatedQuotes from '../components/Common/AutomatedQuotes';
 // import GetInTouch from '../components/Common/GetInTouch';
-// import PricingDetails from '../components/Subscriptions/PricingDetails.vue';
-// import PricingFooter from '../components/Subscriptions/PricingFooter.vue';
-import DealDoxFooter from '../layouts/DealDoxFooter';
 // import SubscriptionLayout from '../layouts/Subscription.vue'
 // import axios from 'axios';
-
+// import PricingHeader from '../components/Subscriptions/PricingHeader.vue'
 
 export default {
     components: {
         Navbar,
         // PricingHeader,
+        PricingFooter,
+        DealDoxFooter,
         // AutomatedQuotes,
-        MainBannerSubscription,
+        // MainBannerSubscription,
         // OnbaordingAssistance,
         // Pricing,
-        // PricingDetails,
+        PricingDetails,
     
-        // PricingFooter,
+       
         // GetInTouch,
-        DealDoxFooter,
+     
     },
     //   data() {
     //       return {

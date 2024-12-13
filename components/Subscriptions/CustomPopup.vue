@@ -3,7 +3,7 @@
         <div class="custom-popup-containersss">
             <div class="custom-popup-image-div">
                 <div class="popup-icon" @click="onClose">
-                    <i class="ri-close-fill" />
+                    <i class="ri-close-fill" ></i>
                 </div>
                
                     <img class="popup-imagess" src="~/assets/images/revised-pop-up-message.png" alt="Popup" />
@@ -44,8 +44,7 @@
                 </div> -->
               
             </div>
-        </div>
-
+        
 
     </div>
 </template>

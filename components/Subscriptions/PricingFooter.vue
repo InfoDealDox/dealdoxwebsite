@@ -12,7 +12,7 @@
                         </button>
 
                     </div>
-                    <PricingSliderLeft />
+                    <!-- <PricingSliderLeft /> -->
                     <PricingRightScroll />
 
                 </div>
@@ -28,7 +28,7 @@
 
 
 <script>
-import PricingSliderLeft from './PricingSliderLeft.vue'
+// import PricingSliderLeft from './PricingSliderLeft.vue'
 import PricingRightScroll from './PricingRightScroll.vue';
 import pricingFaq from '../Common/pricingFaq.vue';
 import PricingClients from '../../components/Subscriptions/PricingClients.vue'
@@ -36,7 +36,7 @@ import pricingSecurity from '../../components/Subscriptions/pricingSecurity.vue'
 
 export default {
     components: {
-        PricingSliderLeft,
+        // PricingSliderLeft,
         PricingRightScroll,
         PricingClients,
         pricingFaq,
