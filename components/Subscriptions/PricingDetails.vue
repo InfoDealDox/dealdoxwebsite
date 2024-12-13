@@ -115,15 +115,15 @@
 
 
                 <div class="button_div">
-                  <!-- <a href="https://web.dealdox.io/register?paymentMode=payAsYouGo">
+                  <a href="https://web.dealdox.io/register?paymentMode=payAsYouGo">
                     <button class="try_free">Access DealDox CPQ</button>
-                  </a> -->
-                  <NuxtLink :to="{
+                  </a>
+                  <!-- <NuxtLink :to="{
                     name: 'contact-us',
                     params: { source: 'Enterprise' },
                   }">
                     <button class="try_free">Access DealDox CPQ </button>
-                  </NuxtLink>
+                  </NuxtLink> -->
 
                 </div>
               </div>
@@ -176,17 +176,17 @@
 
 
                 <div class="button_div">
-                  <!-- <a href="https://web.dealdox.io/register?paymentMode=standard">
+                  <a href="https://web.dealdox.io/register?paymentMode=standard">
                     <button class="try_free">Access DealDox CPQ</button>
                   </a>
-               -->
+              
 
-                  <NuxtLink :to="{
+                  <!-- <NuxtLink :to="{
                     name: 'contact-us',
                     params: { source: 'Enterprise' },
                   }">
                     <button class="try_free">Access DealDox CPQ </button>
-                  </NuxtLink>
+                  </NuxtLink> -->
                 </div>
               </div>
               <div class="pricing-card-body" style="background: linear-gradient(to bottom, #e9d7ff, #ffffff);">
@@ -236,12 +236,9 @@
 
 
                 <div class="button_div">
-                  <NuxtLink :to="{
-                    name: 'contact-us',
-                    params: { source: 'Enterprise' },
-                  }">
+                  <a href="https://web.dealdox.io/register?paymentMode=premium">
                     <button class="try_free">Access DealDox CPQ</button>
-                  </NuxtLink>
+                  </a>
                 </div>
               </div>
               <div class="pricing-card-body">
@@ -329,15 +326,15 @@
                       </th>
 
                       <th role="columnheader" scope="col" class="table__cell2">
-                        <!-- <a :href="`https://web.dealdox.io/register?paymentMode=standard`" class="subscription-anker-tag"
+                        <a :href="`https://web.dealdox.io/register?paymentMode=payAsYouGo`" class="subscription-anker-tag"
                           target="_blank" rel="noopener noreferrer">
                           <div class="edition_wrapper">
                             <div class="edition__copy__wrapper">
                               <div class="edition_name">Pay-As-You-Go</div>
                             </div>
                           </div>
-                        </a> -->
-                        <NuxtLink :to="{
+                        </a>
+                        <!-- <NuxtLink :to="{
                           name: 'contact-us',
                           params: { source: 'Enterprise' },
                         }" class="nuxtlink-enterise">
@@ -347,11 +344,11 @@
 
                             </div>
                           </div>
-                        </NuxtLink>
+                        </NuxtLink> -->
 
                       </th>
                       <th role="columnheader" scope="col" class="table__cell2">
-                        <!-- <a :href="`https://web.dealdox.io/register?paymentMode=standard`" class="subscription-anker-tag"
+                        <a :href="`https://web.dealdox.io/register?paymentMode=standard`" class="subscription-anker-tag"
                           target="_blank" rel="noopener noreferrer">
                           <div class="edition_wrapper">
                             <div class="edition__copy__wrapper">
@@ -360,9 +357,9 @@
 
                             </div>
                           </div>
-                        </a> -->
+                        </a>
 
-                        <NuxtLink :to="{
+                        <!-- <NuxtLink :to="{
                           name: 'contact-us',
                           params: { source: 'Enterprise' },
                         }" class="nuxtlink-enterise">
@@ -372,11 +369,11 @@
 
                             </div>
                           </div>
-                        </NuxtLink>
+                        </NuxtLink> -->
 
                       </th>
                       <th role="columnheader" scope="col" class="table__cell2">
-                        <!-- <a :href="`https://web.dealdox.io/register?paymentMode=standard`" class="subscription-anker-tag"
+                        <a :href="`https://web.dealdox.io/register?paymentMode=premium`" class="subscription-anker-tag"
                           target="_blank" rel="noopener noreferrer">
                           <div class="edition_wrapper">
                             <div class="edition__copy__wrapper">
@@ -384,8 +381,8 @@
 
                             </div>
                           </div>
-                        </a> -->
-                        <NuxtLink :to="{
+                        </a>
+                        <!-- <NuxtLink :to="{
                           name: 'contact-us',
                           params: { source: 'Enterprise' },
                         }" class="nuxtlink-enterise">
@@ -395,7 +392,7 @@
 
                             </div>
                           </div>
-                        </NuxtLink>
+                        </NuxtLink> -->
 
                       </th>
                       <th role="columnheader" scope="col" class="table__cell2">
@@ -489,8 +486,8 @@ export default {
       payAsYouGoAmount: 9,
       standardAmount: 499,
       premiumAmount: 799,
-      monthlystandardAmount: 719,
-      monthlypremiumAmount: 1259,
+      monthlystandardAmount: 899,
+      monthlypremiumAmount: 1439,
       monthly: false,
       currency_symbol: "₹",
       editions: [
@@ -1418,8 +1415,8 @@ export default {
         this.payAsYouGoAmount = this.calculateAmount(9, multiplier);
         this.standardAmount = this.calculateAmount(499, multiplier);
         this.premiumAmount = this.calculateAmount(799, multiplier);
-        this.monthlystandardAmount = this.calculateAmount(719, multiplier);
-        this.monthlypremiumAmount = this.calculateAmount(1259, multiplier);
+        this.monthlystandardAmount = this.calculateAmount(899, multiplier);
+        this.monthlypremiumAmount = this.calculateAmount(1439, multiplier);
       } catch (error) {
         console.error("Error in converAmount:", error);
         this.payAsYouGoAmount = 9;

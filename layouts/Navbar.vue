@@ -3,7 +3,8 @@
 
     <div :class="['navbar-area', { 'is-sticky': isSticky }]" id="navbar-two-containers-div">
         <div class="navbar-new-banner">
-            <span class="navbar-new-banner-content">✨DealDox is now available as a Mobile App📱 | <NuxtLink to="/mobileapp" class="new-navbar-banner-readbanner">Download now</NuxtLink></span>
+            <span class="new-banner-entire-body">✨<span class="navbar-new-banner-content">Proposal automation, approval workflows, and CRM integrations—all at an affordable price.<NuxtLink to="/pricing" class="new-navbar-banner-readbanner">
+                Explore now!</NuxtLink></span>🎉💼</span>
         </div>
         <div class="jexa-nav">
             <div class="container">
@@ -159,3 +160,99 @@ export default {
     },
 }
 </script>
+
+<style>
+.navbar-new-banner {
+    background: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(255, 255, 255, 0.6);
+    position:relative;
+    overflow: hidden;
+
+
+}
+
+.navbar-new-banner-content {
+    color: white;
+    background-clip: text;
+    font-weight: 500;
+    font-family: system-ui;
+    font-size: 15px;
+    letter-spacing: 0.6px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.dealdox-banner-logo {
+    letter-spacing: 1px;
+}
+
+.new-banner-entire-body{
+    position: relative;
+    overflow: hidden;
+}
+
+.new-banner-entire-body::before {
+  width: 200px;
+  height: 80px;
+  content: "";
+  display: block;
+  background: black;
+  position: absolute;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  -webkit-animation-name: purpleButtonSlide;
+  animation-name: run;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  z-index: 1;
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+  opacity: 0.3;
+  transform: translateZ(0) scale(1);
+  z-index: 10;
+}
+
+@keyframes run {
+  0% {
+    left: -10%;
+  }
+
+  100% {
+    left: 95%;
+  }
+}
+
+
+
+@media (max-width:1024px){
+    .navbar-new-banner-content {
+        font-size: 14px !important;
+        
+    }
+
+    .new-banner-entire-body{
+    font-size: 14px;
+    text-align: center;
+}
+}
+
+@media (max-width:520px) {
+    .navbar-new-banner-content {
+        font-size: 9px !important;
+    }
+    .new-banner-entire-body{
+    font-size: 10px;
+    text-align: center;
+}
+}
+</style>
