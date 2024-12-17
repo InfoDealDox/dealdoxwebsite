@@ -50,17 +50,18 @@
 export default {
     data() {
         return {
-            activeIndex: null, // Track which FAQ is currently active
+            activeIndex: 0, // Track which FAQ is currently active
             faqs: [
+                {
+                    question: "Is DealDox a registered company? ",
+                    answer: `Yes, DealDox Software Private Limited is a registered company & the CIN is U62090KA2024PTC192045. You can verify this with the Indian Ministry of Corporate Affairs. We are registered with Startup India and DUN & Bradstreet.`
+                },
                 {
                     question: "Can I get a demo of DealDox CPQ? ",
                     answer: `Yes, we would be happy to demonstrate DealDox CPQ with personalized proof of concept in a 60-minute virtual meeting. To schedule your personalized session, you can email us at `,
                     link: { url: "/demo", text: "support@dealdox.io." },
                 },
-                {
-                    question: "Is DealDox a registered company? ",
-                    answer: `Yes, DealDox Software Private Limited is a registered company & the CIN is U62090KA2024PTC192045. You can verify this with the Indian Ministry of Corporate Affairs. We are registered with Startup India and DUN & Bradstreet.`
-                },
+
                 {
                     question: "Will you be able to offer all the services listed in the subscription? ",
                     answer: `Yes, you will receive all the services listed in the subscription. Our dynamic R&D team and expert CPQ consultants are dedicated to meeting your needs and providing custom solutions. `

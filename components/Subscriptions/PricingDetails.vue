@@ -82,7 +82,7 @@
                 <div class="cards-cash-amount">
 
                   <span class="cards-cashs">
-                    <small style="font-size: 22px;">{{ currency_symbol }}</small>
+                    <small style="font-size: 22px; color: #5d5d66;"><small style="font-size: 22px;" v-if='currency_symbol_code!=="INR"'>{{currency_symbol_code}}</small>{{ currency_symbol }}</small>
                     <span>{{ payAsYouGoAmount }}</span>
 
                   </span>
@@ -142,7 +142,7 @@
                 <div class="cards-cash-amount">
 
                   <span class="cards-cashs">
-                    <small style="font-size: 22px;">{{ currency_symbol }}</small>
+                    <small style="font-size: 22px; color: #5d5d66;"><small style="font-size: 22px;" v-if='currency_symbol_code!=="INR"'>{{currency_symbol_code}}</small>{{ currency_symbol }}</small>
                     <span v-if="monthly">{{ monthlystandardAmount }}</span>
                     <span v-else>{{ standardAmount }}</span>
 
@@ -204,7 +204,7 @@
                 <div class="cards-cash-amount">
 
                   <span class="cards-cashs">
-                    <small style="font-size: 22px;">{{ currency_symbol }}</small>
+                    <small style="font-size: 22px; color: #5d5d66;"><small style="font-size: 22px;" v-if='currency_symbol_code!=="INR"'>{{currency_symbol_code}}</small>{{ currency_symbol }}</small>
                     <span v-if="monthly">{{ monthlypremiumAmount }}</span>
                     <span v-else>{{ premiumAmount }}</span>
                   </span>
@@ -490,6 +490,7 @@ export default {
       monthlypremiumAmount: 1439,
       monthly: false,
       currency_symbol: "₹",
+      currency_symbol_code:"INR",
       editions: [
 
         {
@@ -1369,7 +1370,8 @@ export default {
           ? parser.parseFromString(rawSymbol.symbol, "text/html").body
             .textContent
           : this.currency_symbol;
-
+      
+this.currency_symbol_code= rawSymbol.code;
         console.log("Currency symbol:", this.currency_symbol);
 
         // Fetch the exchange amount and update amounts

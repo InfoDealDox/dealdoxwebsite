@@ -224,8 +224,7 @@
               <div class="Duns-image-entire-container" style="display:flex; flex-direction:column;gap: 10px;">
                 <div class="Duns-image-container">
                   <div style="width: 50%;height: 100%; cursor: pointer;" @click="openStartupIndia">
-                    <img src="../assets/images/startupIndia.png" alt="startupIndia logo"
-                      style="border-radius: 10px;height: 100%;">
+                    <img src="../assets/images/startupIndia.png" alt="startupIndia logo" style="width: 50%;height: 59px;cursor: pointer;">
                   </div>
                   <div class="" style="width: 50%;height: 100%;cursor: pointer;" @click="dunsLinkOpen">
                     <img src="../assets/images/DunImage.png" style="border-radius: 10px;" alt="Duns & bradshreet logo"
@@ -245,8 +244,8 @@
 
                 <small style="padding:5px 9px 10px 0px;font-weight: 700;">Compliance</small>
                 <div class="compliance-icon-container">
-                  <div class="compliance-image-containerss"><img src="../assets/images/AutomobileAds1.png" alt="ISO icon"
-                      class="compliance-icons-images"></div>
+                  <div class="compliance-image-containerss"><img src="../assets/images/AutomobileAds1.png"
+                      alt="ISO icon" class="compliance-icons-images"></div>
                   <div class="compliance-image-containerss"><img src="../assets/images/newGdpr.png" alt="GDPR Logo"
                       class="compliance-icons-images"></div>
 
@@ -339,12 +338,13 @@
         <div style="display: flex;gap: 10px;width: 60%;flex-direction: column">
           <div style="width:100%;cursor: pointer;display: flex;gap: 10px" @click="openStartupIndia">
             <div style="width: 50%;">
-              <img src="../assets/images/startupIndia.png" alt="startupIndia Logo" style="border-radius: 10px;height: 100%;">
+              <img src="../assets/images/startupIndia.png" alt="startupIndia Logo"
+                style="border-radius: 10px;height: 100%;">
             </div>
             <div class="compliance-image-containerss" @click="dunsLinkOpen" style="cursor: pointer;">
 
-              <img src="../assets/images/DunImage.png" style="border-radius: 10px;height: 100%" alt="Duns & bradshreet logo"
-                class="compliance-icons-images">
+              <img src="../assets/images/DunImage.png" style="border-radius: 10px;height: 100%"
+                alt="Duns & bradshreet logo" class="compliance-icons-images">
 
             </div>
           </div>
@@ -364,7 +364,8 @@
         </div>
         <div class="compliance-icon-container">
           <img src="../assets/images/AutomobileAds1.png" alt="ISO Logo" class="compliance-icons-images-1">
-          <img src="../assets/images/newGdpr.png" alt="GDPR Logo" class="compliance-icons-images-2" style="height: 52px;">
+          <img src="../assets/images/newGdpr.png" alt="GDPR Logo" class="compliance-icons-images-2"
+            style="height: 52px;">
 
         </div>
       </div>
