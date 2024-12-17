@@ -224,10 +224,10 @@
               <div class="Duns-image-entire-container" style="display:flex; flex-direction:column;gap: 10px;">
                 <div class="Duns-image-container">
                   <div style="width: 50%;height: 100%; cursor: pointer;" @click="openStartupIndia">
-                    <img src="../assets/images/startupIndia.png" alt="startupIndia logo" style="width: 50%;height: 59px;cursor: pointer;">
+                    <img src="../assets/images/startupIndia.png" alt="startupIndia logo" style="width: 100%;height: 59px;cursor: pointer;border-radius: 10px;">
                   </div>
                   <div class="" style="width: 50%;height: 100%;cursor: pointer;" @click="dunsLinkOpen">
-                    <img src="../assets/images/DunImage.png" style="border-radius: 10px;" alt="Duns & bradshreet logo"
+                    <img src="../assets/images/DunImage.png" style="border-radius: 10px;height: 59px;" alt="Duns & bradshreet logo"
                       class="compliance-icons-images">
 
                   </div>
@@ -339,11 +339,11 @@
           <div style="width:100%;cursor: pointer;display: flex;gap: 10px" @click="openStartupIndia">
             <div style="width: 50%;">
               <img src="../assets/images/startupIndia.png" alt="startupIndia Logo"
-                style="border-radius: 10px;height: 100%;">
+                style="border-radius: 10px;height: 60px;">
             </div>
             <div class="compliance-image-containerss" @click="dunsLinkOpen" style="cursor: pointer;">
 
-              <img src="../assets/images/DunImage.png" style="border-radius: 10px;height: 100%"
+              <img src="../assets/images/DunImage.png" style="border-radius: 10px;height: 60px"
                 alt="Duns & bradshreet logo" class="compliance-icons-images">
 
             </div>
