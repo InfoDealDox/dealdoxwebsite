@@ -8,7 +8,7 @@
         <PricingDetails />
         <!-- <AutomatedQuotes /> -->
         <!-- <GetInTouch /> -->
-      <PricingFooter/>
+        <PricingFooter />
         <DealDoxFooter />
     </div>
 </template>
@@ -41,10 +41,10 @@ export default {
         // OnbaordingAssistance,
         // Pricing,
         PricingDetails,
-    
-       
+
+
         // GetInTouch,
-     
+
     },
     //   data() {
     //       return {
@@ -67,15 +67,15 @@ export default {
     //       });
     //   },
     head: {
-        title: 'Subscription Management Software | Dealdox',
+        title: 'DealDox CPQ Pricing | Affordable Solutions with Advanced Sales Configurator',
         htmlAttrs: {
             lang: 'en-us'
         },
         meta: [
             { charset: 'utf-8' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-            { hid: 'description', name: 'description', content: 'Effortlessly handle subscription billing and boost subscription revenue with our top subscription management software for subscription businesses.' },
-            { hid: 'keywords', name: 'subscription management software, subscription billing, Subscription Revenue, Subscription businesses, subscription software' },
+            { hid: 'description', name: 'description', content: 'Explore DealDox CPQ Pricing: Find the best plans to suit your business and leverage advanced features, including sales configurator functionalities.' },
+            { hid: 'keywords', name: 'CPQ software pricing, configure price quote pricing, CPQ for sales teams, CPQ pricing strategy, enterprise CPQ pricing, CPQ pricing system, how much does CPQ software cost, pricing model for CPQ tools, affordable CPQ software for small businesses, CPQ pricing for SaaS companies, CPQ pricing structure for enterprises, CPQ pricing automation for sales teams' },
         ],
         link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io/pricing' }
         ],

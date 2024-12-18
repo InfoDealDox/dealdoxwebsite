@@ -212,7 +212,7 @@
                         alt="DealDox twitter logo" /></a>
                   </li>
                   <li>
-                    <a href="www.youtube.com/@DealDox" target="_blank">
+                    <a href="https://www.youtube.com/channel/UCUyG5sKBn2yVwLG0PbbE8IA" target="_blank">
                       <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694695209/youtube_jjx6li.svg"
                         alt="DealDox Youtube logo" />
                     </a>
