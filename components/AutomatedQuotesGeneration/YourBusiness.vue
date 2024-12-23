@@ -10,8 +10,8 @@
                             wide range of services to meet all their requirements.</p>
                         <p>Automate contract and renewal processes, reducing time-consuming manual processes and saving
                             money and resources.</p>
-                        <p>Automate your sales process with pricing and quote generator software</a>, assuring quick and
-                            accurate quotes </a>. Bring on efficient and effective operations and eliminate errors and delays.
+                        <p>Automate your sales process with pricing and <NuxtLink to='/approval-software'>quote generator software</NuxtLink>, assuring quick and
+                            accurate quotes . Bring on efficient and effective operations and eliminate errors and delays.
                         </p>
                         <p>Effortlessly adapt to global pricing requirements with DealDox CPQ: Switch between price listings
                             based on country of delivery and contract currency. For example - If your price listing is in

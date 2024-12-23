@@ -3,7 +3,7 @@
     <div class="container">
       <div class="privacy-policy-content">
         <h6>
-          <a href="https://www.dealdox.io/privacy-policy">Privacy Policy</a> for
+          <NuxtLink to="/privacy-policy">Privacy Policy</NuxtLink> for
           IT Consulting and Solutions Organization
         </h6>
         <p class="text-justify">
@@ -256,7 +256,7 @@
           testimonials.
         </p>
 
-        <h6>Security and Safety</h6>
+        <h6><NuxtLink to='/security'>Security and Safety</NuxtLink></h6>
         <p class="text-justify">
           We verify your accounts and activity, detect, prevent, and respond to
           potential or actual security incidents, and monitor and protect

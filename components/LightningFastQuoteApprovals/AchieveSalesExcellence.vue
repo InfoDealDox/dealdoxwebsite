@@ -6,7 +6,7 @@
             </div>
 
             <div class="row align-items-center">
-                <div class="col-lg-6 col-md-12" >
+                <div class="col-lg-6 col-md-12">
                     <div class="features-item with-border bg-FAFAFA">
                         <div class="about-img">
                             <img src="../../assets/images/lightning-fast-quote-approvals/swiftautomated.svg"
@@ -16,7 +16,9 @@
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content" style="padding-left: 30px;padding-right: 0px;">
-                        <h3>Boost Sales with Smart Approval in CPQ for Quick Deal Closures!</h3>
+                        <h3>DealDox <NuxtLink to='/pricing'>CPQ Software Pricing </NuxtLink>is highly affordable. With advanced approvals, DealDox CPQ
+                            streamlines the transaction endorsement process, significantly reducing the time needed to
+                            finalize agreements.</h3>
                         <p>CPQ advanced approvals enable sales excellence by simplifying the transaction endorsement
                             process
                             and considerably shortening the time it takes to close agreements. With quick CPQ quote
@@ -64,7 +66,7 @@
 
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-12" >
+                <div class="col-lg-6 col-md-12">
                     <div class="about-content">
                         <h3>Maximize Efficiency and Precision with Digital Quoting Tool</h3>
                         <p>Swift and Automated Approvals Seamlessly navigate through the smart and automated agreement
@@ -79,7 +81,8 @@
                 <div class="col-lg-6 col-md-12" id="routing-div-style">
                     <div class="features-item with-border bg-FAFAFA">
                         <div class="about-img">
-                            <img src="../../assets/images/cpq/MaximizeEfficiency.png" data-aos="fade-up" alt="Digital Quotating Tool">
+                            <img src="../../assets/images/cpq/MaximizeEfficiency.png" data-aos="fade-up"
+                                alt="Digital Quotating Tool">
                         </div>
                     </div>
                 </div>

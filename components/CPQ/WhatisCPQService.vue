@@ -6,11 +6,11 @@
             </div>
             <div class="section-title title-with-bg-text">
                 <h2>What is CPQ for Services?</h2>
-                <p>Initially, configure, price, quote (CPQ) software applications supported only the automation of
-                    product configuration, lacking value for services. This gap led to the emergence of Services CPQ
-                    software,
-                    addressing the need for service pricing and quotes. Today, the best CPQ tools cater to both products
-                    and services.
+                <p>CPQ Services is a powerful sales tool designed to generate quick and accurate quotes. DealDox serves
+                    a wide range of businesses, from startups to large enterprises. As an <NuxtLink to='/pricing'>affordable CPQ software for
+                    small businesses</NuxtLink>, Services CPQ automates the presales process of configuring service pricing. With
+                    CPQ software solutions, you can generate precise quotes, SOWs, and proposals in minutes! These tools
+                    enable automation and simplify the quote-to-cash process.
                 </p>
 
                 <p> CPQ Services is a sales tool to generate quick quotes accurately. It caters to businesses of all
@@ -19,8 +19,8 @@
                     process of
                     configuring the pricing of services. With CPQ software solutions, you can generate quick and
                     accurate
-                    quotes, SOW and proposals in minutes! CPQ tools enable automation and simplify the <a
-                        href="https://www.dealdox.io/glossary/quote-to-cash-solution">quote-to-cash </a>process.
+                    quotes, SOW and proposals in minutes! CPQ tools enable automation and simplify the <NuxtLink
+                        to="/glossary/quote-to-cash-solution">quote-to-cash </NuxtLink>process.
                 </p>
             </div>
 
@@ -60,8 +60,8 @@
                             <i class="ri-leaf-line"></i>
                         </div> -->
                         <h3>Finance</h3>
-                        <p class="text-left">Boost <a
-                                href="https://www.dealdox.io/glossary/accelerate-revenue-growth">revenue growth</a>
+                        <p class="text-left">Boost <NuxtLink to="/glossary/accelerate-revenue-growth">revenue growth
+                            </NuxtLink>
                             with enhanced discount Governance, streamlined Quote
                             Version control, and advanced approval workflows.</p>
                     </div>

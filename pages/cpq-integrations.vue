@@ -5,8 +5,8 @@
         <Stats />
         <Funfacts />
         <IAQSolutions />
-      
-          <TransformDealsWith/>
+
+        <TransformDealsWith />
         <integrationfaq />
         <DealDoxFooter />
     </div>
@@ -22,7 +22,7 @@ import IAQSolutions from '../components/CPQIntegration/IAQSolutions.vue'
 import Funfacts from '../components/CPQIntegration/Funfacts.vue'
 import Stats from '../components/CPQIntegration/Stats'
 
-import TransformDealsWith  from "../components/RequestDemo/TransformDealsWith.vue"
+import TransformDealsWith from "../components/RequestDemo/TransformDealsWith.vue"
 import integrationfaq from '../components/CPQIntegration/integrationfaq'
 import DealDoxFooter from '../layouts/DealDoxFooter'
 import axios from 'axios';
@@ -35,32 +35,32 @@ export default {
         IAQSolutions,
         Funfacts,
         Stats,
-        
-    
+
+
         TransformDealsWith,
         DealDoxFooter,
         integrationfaq,
     },
- //   data() {
- //       return {
- //           seoData: [],
- //       }
- //   },
-   // created: async function () {
-  //      const response = await axios.get('https://cms.dealdox.io/api/pages?filters[slug][$eq]=cpq-integrations&populate=deep,5')
-  //      const pageData = response.data.data?.length > 0 ? response.data.data[0] : {};
-  //      if (pageData?.attributes?.seo?.length > 0) {
-   //         this.seoData = pageData.attributes.seo[0];
- //       }
- //   },
-//    head({ $seo }) {
-  //      return $seo({
-  //          title: this.seoData.metaTitle ||'CPQ Integration | CPQ CRM & ERP Integration | DealDox',
-   //         description: this.seoData.metaDescription,
- //           keywords: this.seoData.keywords,
-            // image: this.post.image || '',
- //       });
- //  },
+    //   data() {
+    //       return {
+    //           seoData: [],
+    //       }
+    //   },
+    // created: async function () {
+    //      const response = await axios.get('https://cms.dealdox.io/api/pages?filters[slug][$eq]=cpq-integrations&populate=deep,5')
+    //      const pageData = response.data.data?.length > 0 ? response.data.data[0] : {};
+    //      if (pageData?.attributes?.seo?.length > 0) {
+    //         this.seoData = pageData.attributes.seo[0];
+    //       }
+    //   },
+    //    head({ $seo }) {
+    //      return $seo({
+    //          title: this.seoData.metaTitle ||'CPQ Integration | CPQ CRM & ERP Integration | DealDox',
+    //         description: this.seoData.metaDescription,
+    //           keywords: this.seoData.keywords,
+    // image: this.post.image || '',
+    //       });
+    //  },
     head: {
         title: 'Best CPQ Integrations with HubSpot CRM | Dealdox',
         htmlAttrs: {

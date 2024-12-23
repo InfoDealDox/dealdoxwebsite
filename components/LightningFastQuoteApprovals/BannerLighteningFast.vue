@@ -6,7 +6,7 @@
                     <div class="new-app-main-banner-wrap-content">
                         <h1>Lightening Fast <span style="color: #715CF3"><br>Quote Approvals</span></h1>
                         <p>Unleash the Power of CPQ Quick Approval Process for Rapid Sales, Delighted Customers, and Maximum
-                            Revenue </p>
+                            Revenue. </p>
                         <div class="tb-30">
                        <a href="https://www.dealdox.io/demo" target="_blank">
 <button class="default-btn"> <i class='bx bx-paper-plane'></i>Get a Demo</button></a>

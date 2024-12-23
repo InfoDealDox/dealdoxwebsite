@@ -15,7 +15,7 @@
                         <h3>Routing Capabilities</h3>
                         <p>Whether you require single or multi levels of authorization or need to determine the specific
                             order for notifying authorities, DealDox makes it easy. Our quote-to-cash platform empowers easy
-                            to deal with all your statement approval concerns. With an efficient CPQ approval workflow, you
+                            to deal with all your statement approval concerns. With an efficient <NuxtLink to='/glossary/configure-price-quote'>CPQ</NuxtLink> approval workflow, you
                             can
                             notify every approver responsible for reviewing and approving, ensuring a smooth process that
                             aligns with your specified routing rules.

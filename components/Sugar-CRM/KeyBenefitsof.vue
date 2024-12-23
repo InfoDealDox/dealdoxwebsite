@@ -12,7 +12,7 @@
                         <div class="icon">
                             <img src="../../assets/images/Hubspot/Swift Quote.png" alt="Swift Deal Creation">
                         </div>
-                        <h3><a href="https://www.dealdox.io/quoting-software">Swift Quotes </a> </h3>
+                        <h3><NuxtLink to="/quoting-software">Swift Quotes </NuxtLink> </h3>
                         <p>Generate quotations and any deal documents in a few seconds.</p>
                         <NuxtLink to="/quoting-software" class="default-btn">Know more</NuxtLink>
                     </div>
@@ -22,7 +22,7 @@
                         <div class="icon">
                             <img src="../../assets/images/Hubspot/Quick Approvals.png" alt="Quick Approvals">
                         </div>
-                        <h3><a href="https://www.dealdox.io/approval-software">Quick Approvals</a></h3>
+                        <h3><NuxtLink to="/approval-software">Quick Approvals</NuxtLink></h3>
                         <p>Complex approvals are made easy with DealDox - it simplifies the sales process.
                         </p>
                         <NuxtLink to="/approval-software" class="default-btn">Know more</NuxtLink>

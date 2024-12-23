@@ -12,7 +12,7 @@
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p class="with-top-border">Effortlessly integrate services CPQ with CRM and ERP</p>
+                                    <p class="with-top-border">Effortlessly integrate <NuxtLink to="/services-cpq">services CPQ </NuxtLink>with CRM and ERP</p>
                                 </li>
                                 <li>
                                     <div class="icon">

@@ -20,7 +20,7 @@
                                 </template>
                                 <template v-slot:accordion-content>
                                     <div class="accordion-body">
-                                        <p>DealDox CPQ's multilingual capabilities enable users to create deal documents in various languages, facilitating effective communication and negotiation in international markets. 
+                                        <p><NuxtLink to='/'>DealDox</NuxtLink> CPQ's multilingual capabilities enable users to create deal documents in various languages, facilitating effective communication and negotiation in international markets. 
 
    
                                         </p>

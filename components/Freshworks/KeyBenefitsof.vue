@@ -12,7 +12,7 @@
                         <div class="icon">
                             <img src="../../assets/images/Freshwork/Swift Quote.png" alt="Swift Deal Creation">
                         </div>
-                        <h3><a href="https://www.dealdox.io/quoting-software">Swift Quotes </a> </h3>
+                        <h3><NuxtLink to="/quoting-software">Swift Quotes </NuxtLink> </h3>
                         <p>Generate quotations and any deal documents in a few seconds.</p>
                         <NuxtLink to="/quoting-software" class="default-btn">Know more</NuxtLink>
                     </div>
@@ -22,7 +22,7 @@
                         <div class="icon">
                             <img src="../../assets/images/Freshwork/Quick Approvals.png" alt="Quote Automation software">
                         </div>
-                        <h3><a href="https://www.dealdox.io/approval-software">Quick Approvals</a></h3>
+                        <h3><NuxtLink to="/approval-software">Quick Approvals</NuxtLink></h3>
                         <p>Complex approvals are made easy with DealDox - it simplifies the sales process.
                         </p>
                         <NuxtLink to="/approval-software" class="default-btn">Know more</NuxtLink>
@@ -33,7 +33,7 @@
                         <div class="icon">
                             <img src="../../assets/images/Freshwork/Configure Price Quote.png" alt="CPQ Software">
                             </div>                        
-                            <h3>Configure Price Quote (CPQ)</h3>
+                            <h3><NuxtLink to='/services-cpq'>Configure Price Quote (CPQ)</NuxtLink></h3>
                         <p>Easy configurations and error-free quotes in minutes.</p>
                         <NuxtLink to="/services-cpq" class="default-btn">Know more</NuxtLink>
                     </div>

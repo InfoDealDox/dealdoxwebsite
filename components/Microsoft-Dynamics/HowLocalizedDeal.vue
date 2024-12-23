@@ -14,8 +14,8 @@
                     <div class="about-content">
                         <h3>Close Deals Faster with DealDox</h3>
                         <p><strong>Microsoft Dynamics 365 for Sales and DealDox</strong> work together to help sales teams
-                            sell quicker and more efficiently. <strong> Dynamics 365 CRM
-                            </strong> allows sales teams to create <strong> advanced quotes
+                            sell quicker and more efficiently. <strong><NuxtLink to="/microsoft-dynamics-365-cpq-integration">Dynamics 365 CRM</NuxtLink> 
+                            </strong> allows sales teams to create <strong><NuxtLink to="/quoting-software"> advanced quotes</NuxtLink>
                             </strong>, expedite contract
                             discussions with <strong>automated workflows</strong> and approvals, and sign off huge
                             agreements.</p>
@@ -55,7 +55,7 @@
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content">
-                        <h3>Utilize the Power of a User-Friendly CPQ Solution</h3>
+                        <h3>Utilize the Power of a User-Friendly <NuxtLink to='/services-cpq'>CPQ</NuxtLink> Solution</h3>
                         <p>Don't allow complicated price regulations to burden you. DealDox is here to make the procedure
                             easier with our <strong>simple-to-implement and simple-to-maintain CPQ</strong> solution. Our
                             platform is built to support a variety of deal structures, such as subscription pricing, use

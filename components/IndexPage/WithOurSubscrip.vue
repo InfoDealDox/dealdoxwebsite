@@ -2,8 +2,8 @@
     <div class="features-area pb-75 bg-white">
         <div class="container">
             <div class="new-app-main-banner-wrap-content-full tb-20">
-                <h5>With our <strong>subscription-based quoting solution</strong>, you can easily streamline deal</h5>
-                <h5>management.You have the power to generate a wide range of documents, including:</h5>
+                <h5>With our <strong>economical <NuxtLink to='/pricing'>CPQ pricing system,</NuxtLink></strong> streamline deal management </h5>
+                <h5>by generating a wide range of documents, including:</h5>
             </div>
 
             <div class="software-integrations-inner-home bg-gradient-color">

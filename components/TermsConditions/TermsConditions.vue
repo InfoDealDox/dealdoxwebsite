@@ -145,7 +145,7 @@
                     information
                     you Share, except as specified in DealDox's Privacy Policy.</p>
 
-                <h5>Security, Access, and Compliance </h5>
+                <h5><NuxtLink to='/security'>Security</NuxtLink>, Access, and Compliance </h5>
 
                 <h6>Site Access and Usage </h6>
                 <p class="text-justify">You agree not to engage in any activities that could damage, disable,

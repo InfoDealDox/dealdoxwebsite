@@ -14,7 +14,7 @@
                     <div class="about-content" style="padding-left: 30px;padding-right: 0px;">
                         <h3>Approvals Insights</h3>
                         <p>DealDox makes it possible to have a delegation dashboard with all quotes accessible from a
-                            single, simple insight CPQ
+                            single, simple insight <NuxtLink to='/glossary/configure-price-quote'>CPQ</NuxtLink>
                             instant quote approval process includes examining quote details
                             approval,
                             commenting on the quotation, and advising changes. DealDox automatically synchronizes data with
@@ -28,7 +28,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content">
                         <h3>Reapprove with Ease </h3>
-                        <p>DealDox provides a flexible and streamlined approach CPQ approval process. Even after
+                        <p>DealDox provides a flexible and streamlined approach <NuxtLink to='/approval-software'>CPQ approval process</NuxtLink>. Even after
                             approval,
                             if
                             any modifications are require, they can be made easily can be re-approved without any delay.

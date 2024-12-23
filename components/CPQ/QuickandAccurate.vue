@@ -11,7 +11,7 @@
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content">
-                        <h2> <a href="https://www.dealdox.io/quoting-software">Quick and Accurate Quoting</a></h2>
+                        <h2><NuxtLink to="/quoting-software">Quick and Accurate Quoting</NuxtLink></h2>
                         <p>
                         DealDox excels as the best CPQ software with advanced guided selling. It provides real-time insights, facilitating precise quoting for businesses of all sizes,
                          from small to large, enhancing sales engagement. 
@@ -116,7 +116,7 @@
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p>Automated Quoting Software
+                                    <p><NuxtLink to="/quoting-software">Automated Quoting Software</NuxtLink>
                                         streamlines quoting, configuration, pricing, and proposal
                                         generation, eliminating manual processes.</p>
                                 </li>

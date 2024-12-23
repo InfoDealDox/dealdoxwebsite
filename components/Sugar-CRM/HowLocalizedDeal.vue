@@ -74,9 +74,9 @@
                     <div class="about-content-right">
                         <h3>Cut Costs and Simplify Your Sales Stack with DealDox Integration</h3>
                         <p>SugarCRM users can streamline their workflow using DealDox’s unified Hub by consolidating various
-                            stages of the deal process. This comprehensive package combines <strong>CPQ (Configure, Price,
-                                Quote)</strong>,
-                            Deal Management, and Subscription Management, without additional fees for advanced features.</p>
+                            stages of the deal process. This comprehensive package combines <strong><NuxLink to='/services-cpq'>CPQ (Configure, Price,
+                                Quote)</NuxLink></strong>,
+                            Deal Management, and <NuxtLink to='/subscription'>Subscription Management</NuxtLink>, without additional fees for advanced features.</p>
                     </div>
                 </div>
 
