@@ -129,6 +129,7 @@
   justify-content: center;
   align-items: center;
   margin: 6px 0px;
+  width: 100%;
 }
 
 .banner-logo-container {
@@ -184,6 +185,23 @@
   height: 117px;
   animation: zoomIn 5s ease-out forwards;
   transform: translateZ(0) scale(1);
+}
+.recognized-dealdox {
+  position: absolute;
+  right: 44px;
+  bottom: 80px;
+}
+
+.recognized-image {
+  height: 214px;
+  padding: 13px;
+}
+
+.banner-footer-logo-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
 @keyframes zoomIn {
@@ -260,6 +278,18 @@
   padding: 4px 10px;
 }
 
+.mobile-app-banner-logos {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  display: flex;
+  gap: 10px;
+}
+
+.mainbanner-playstorelogos {
+  height: 150px;
+}
+
 @media screen and (max-width: 1535px) and (min-width: 1430px) {
   .zoom-image {
     width: 90%;
@@ -271,7 +301,7 @@
   }
 
   .banner-logo-footer {
-    margin: 53px 0px 26px 0px;
+    margin: 53px 0px 0px 0px;
   }
 
   .Not-AFFORDABLE-cpq {

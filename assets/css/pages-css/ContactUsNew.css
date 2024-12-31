@@ -1,0 +1,172 @@
+.contact-us-body-bg {
+  background-image: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(0, 0, 0, 0.4) 70%
+    ),
+    linear-gradient(to bottom, #7200ca, #3b0065);
+  display: flex;
+  max-width: 1440px;
+  width: 100%;
+  margin-top: 70px;
+  justify-content: center;
+  align-content: center;
+  gap: 10px;
+  padding: 50px 70px;
+}
+
+.left-contact-us-body {
+  width: 50%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 30px;
+  padding-top: 50px;
+  gap: 10px;
+}
+
+.contact-us-heading {
+  font-family: var(--monsterFamily) !important;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 4rem;
+  color: #fff;
+  text-shadow: 2px 4px 10px rgba(0, 0, 0, 0.15);
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 7rem;
+}
+
+.contact-us-address-keyword {
+  font-size: 20px;
+  font-family: var(--monsterFamily) !important;
+  font-weight: 600;
+}
+
+.contact-us-logo-body {
+  gap: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 30px;
+  padding-left: 5px;
+}
+.contact-us-logo-image {
+  height: 18px;
+}
+.queries-support {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--robotaFamily);
+  padding-left: 5px;
+  gap: 7px;
+}
+
+.get-price-contact-us {
+  width: fit-content;
+  border: none;
+  border-radius: 20px;
+  margin: 12px 0px;
+  padding: 8px 22px;
+  font-size: 14px;
+  color: #3b0065;
+  font-weight: 600;
+}
+
+.form-field-body {
+  background: white;
+  border: 0.1px solid #ccc;
+  margin: 20px;
+  padding: 0px;
+  border-radius: 20px;
+  width: 50%;
+}
+
+.form-field-body-header {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 16px;
+  padding-left: 35px;
+  background-color: #f2f2f2;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.need-help-keyword {
+  color: #250c36;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 27px;
+  font-family: var(--monsterFamily) !important;
+  letter-spacing: 1px;
+  opacity: 0.8;
+}
+.we-re-assist-you {
+  color: rgba(37, 12, 54, 0.8);
+  font-weight: 300;
+  font-family: var(--monsterFamily) !important;
+  font-size: 23px;
+  opacity: 0.7;
+}
+#capterra-contact-us {
+  padding: 2px;
+}
+
+#gartner-contact-us {
+  padding: 3px;
+}
+
+@media (max-width: 1024px) {
+  .left-contact-us-body {
+    align-items: center;
+  }
+
+  .contact-us-address-body,
+  .queries-support {
+    align-items: center;
+  }
+}
+
+@media (max-width: 1024px) {
+  .form-field-body {
+    padding: 0px;
+    width: 89%;
+  }
+  .contact-us-heading {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+  .contact-us-body-bg {
+    padding: 0px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .left-contact-us-body {
+    width: 100%;
+  }
+  .form-field-body-header {
+    gap: 0px;
+  }
+  .need-help-keyword {
+    font-size: 18px;
+  }
+
+  .we-re-assist-you {
+    font-size: 19px;
+  }
+}
+@media (max-width: 520px) {
+  .left-contact-us-body {
+    align-items: flex-start;
+  }
+  .contact-us-address-body,
+  .queries-support {
+    align-items: flex-start;
+  }
+  .contact-us-logo-image-softwareAdvice {
+    height: 16px;
+  }
+}

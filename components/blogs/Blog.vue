@@ -27,7 +27,7 @@
                     currentPage * perPage,
                 )" :key="featuredblog.id">
                     <div class="single-blog-post bg-F9F9FD">
-                      
+
                         <div class="image">
                             <NuxtLink :to="'/featured-blog-details/' + featuredblog.attributes.slug" class="d-block">
                                 <img :src="featuredblog.attributes.image.data.attributes.url" alt="blog">
@@ -57,8 +57,8 @@
                             <NuxtLink to="/blog-grid" class="next page-numbers" title="Next Page"><i
                                     class="ri-arrow-right-line"></i></NuxtLink>
                         </div> -->
-                        <b-pagination v-model="currentPage" :total-rows="rows" :per-page="perPage" aria-controls="itemList"
-                            align="center"></b-pagination>
+                        <b-pagination v-model="currentPage" :total-rows="rows" :per-page="perPage"
+                            aria-controls="itemList" align="center"></b-pagination>
                     </div>
                 </div>
             </div>

@@ -2,10 +2,10 @@
 
 
     <div :class="['navbar-area', { 'is-sticky': isSticky }]" id="navbar-two-containers-div">
-        <div class="navbar-new-banner">
+        <!-- <div class="navbar-new-banner">
             <span class="new-banner-entire-body">✨<span class="navbar-new-banner-content">Proposal automation, approval workflows, and CRM integrations—all at an affordable price.<NuxtLink to="/pricing" class="new-navbar-banner-readbanner">
                 Explore now!</NuxtLink></span>🎉💼</span>
-        </div>
+        </div> -->
         <div class="jexa-nav">
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">

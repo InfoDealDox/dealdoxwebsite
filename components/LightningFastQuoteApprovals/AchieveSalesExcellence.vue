@@ -16,13 +16,11 @@
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content" style="padding-left: 30px;padding-right: 0px;">
-                        <h3>DealDox <NuxtLink to='/pricing'>CPQ Software Pricing </NuxtLink>is highly affordable. With advanced approvals, DealDox CPQ
+                        <h3>Boost Sales with Smart Approval in CPQ for Quick Deal Closures!</h3>
+                        <p>DealDox <NuxtLink to='/pricing'>CPQ Software Pricing </NuxtLink>is highly affordable. With
+                            advanced approvals, DealDox CPQ
                             streamlines the transaction endorsement process, significantly reducing the time needed to
-                            finalize agreements.</h3>
-                        <p>CPQ advanced approvals enable sales excellence by simplifying the transaction endorsement
-                            process
-                            and considerably shortening the time it takes to close agreements. With quick CPQ quote
-                            approvals - </p>
+                            finalize agreements. </p>
                         <p>
                         <div class="features-content">
                             <ul class="features-list">

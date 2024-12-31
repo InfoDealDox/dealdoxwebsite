@@ -35,7 +35,7 @@
                 <button class="carousel-controlsss" style="right: -12px;
     transform: translateY(-19%);" @click="prevSlide">❯</button>
                 <button class="carousel-controlsss" style="left: -12px;
-    transform: translateY(-19%);" click="nextSlide">❮</button>
+    transform: translateY(-19%);" @click="nextSlide">❮</button>
 
             </div>
 
@@ -106,7 +106,7 @@ export default {
     methods: {
         prevSlide() {
             this.currentIndex =
-                this.currentIndex === 0
+                this.currentIndex === 0 
                     ? this.clientsInfos.length - 1
                     : this.currentIndex - 1;
         },

@@ -2,8 +2,8 @@
     <div class="custom-popup-overlays">
         <div class="custom-popup-containersss">
             <div class="custom-popup-image-div">
-                <div class="popup-icon" @click="onClose">
-                    <i class="ri-close-fill" ></i>
+                <div class="popup-icon" @click="onClose" style="cursor: pointer;">
+                    <i class="ri-close-fill" style="cursor: pointer;"></i>
                 </div>
                
                     <img class="popup-imagess" src="~/assets/images/revised-pop-up-message.png" alt="Popup" />

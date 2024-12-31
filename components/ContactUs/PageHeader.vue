@@ -1,226 +1,169 @@
 <template>
-    <div class="contact-page-header-form-app-download-area pb-80 bg-F7F7FF">
-        <div class="container">
-            <div class="contact-page-header-form-app-download-inner">
-                <div class="row align-items-center">
-                    <div class="col-lg-6 col-md-12">
-                        <div class="software-integrations-inner bg-gradient-color">
-                            <div class="features-content-improve-sales pt-70">
-                                <h2>Start Your Free Onboarding Now!</h2>
-                                <h6>No credit card or software installation is required.</h6>
-                                <h5>With <strong> <a href="https://www.dealdox.io"> Advanced Quoting Solution</a>
-                                        , Beyond Invoicing</strong> you can benefit from:
-                                </h5>
-                                <div class="features-content">
-                                    <ul class="features-list">
-                                        <li>
-                                            <div class="icon">
-                                                <i class="ri-check-line"></i>
-                                            </div>
-                                            <h6 class="with-top-border-subscription"> <a
-                                                    href="https://www.dealdox.io/glossary/guided-selling-solutions">Guided
-                                                    selling approach</a>
-                                                to empower
-                                                sales reps, leaders, and other teams
-                                                for efficient sales processes and optimized decision-making.</h6>
-                                        </li>
+    <div class="contact-us-body-bg">
 
-                                        <li>
-                                            <div class="icon">
-                                                <i class="ri-check-line"></i>
-                                            </div>
-                                            <h6 class="with-top-border-subscription">Generate Accurate and Comprehensive
-                                                Quotes in Record Time at 10x speed.</h6>
-                                        </li>
 
-                                        <li>
-                                            <div class="icon">
-                                                <i class="ri-check-line"></i>
-                                            </div>
-                                            <h6 class="with-top-border-subscription">Effortlessly generate accurate deal
-                                                documents like quotations, proposals,
-                                                SOWs, orders, and more.</h6>
-                                        </li>
 
-                                        <li>
-                                            <div class="icon">
-                                                <i class="ri-check-line"></i>
-                                            </div>
-                                            <h6 class="with-top-border-subscription">Streamline single or <a
-                                                    href="https://www.dealdox.io/approval-software">multi-level
-                                                    approvals</a>
-                                                faster.</h6>
-                                        </li>
+        <div class="left-contact-us-body">
+            <span class="contact-us-heading">Contact Us</span>
+            <div class="queries-support">
+                <small><b>Call:</b> +91-9741429514</small>
 
-                                        <li>
-                                            <div class="icon">
-                                                <i class="ri-check-line"></i>
-                                            </div>
-                                            <h6 class="with-top-border-subscription">Get your <a
-                                                    href="https://www.dealdox.io/">deal documents in your
-                                                    local language,</a> regardless of your country.
-                                            </h6>
-                                        </li>
-                                        <h5>Question? Talk to an expert: <a href="tel:08035376744">08035376744</a>
-                                        </h5>
-                                    </ul>
+                <small><b>General queries:</b> info@dealdox.io </small>
+
+                <small><b>Support:</b> support@dealdox.io </small>
+            </div>
+            <div class="contact-us-address-body">
+
+                <span class="contact-us-address-keyword">Address</span>
+
+                <small> HD-253 WeWork Prestige </small>
+                <small> Central, 36, Infantry Road</small>
+                <small> Bangalore- 560001</small>
+                <small>Karnataka </small>
+            </div>
+
+            <NuxtLink to='/pricing'><button class="get-price-contact-us">Get Pricing</button></NuxtLink>
+
+            <div class="contact-us-logo-body">
+                <img src="../../assets/images/BannerAssets/G2.png" class="contact-us-logo-image" alt="G2-Company">
+                <img src="../../assets/images/capterrawhitelogo.jpg" class="contact-us-logo-image"
+                    alt="Capterra-Company" id="capterra-contact-us">
+
+                <img src="../../assets/images/Gartnerwhitelogo.png" id="gartner-contact-us"
+                    class="contact-us-logo-image" alt="Gartner-Company">
+                <img src="../../assets/images/software_advice_webp.webp" class="contact-us-logo-image-softwareAdvice"
+                    alt="Software Advice Company" style="">
+
+            </div>
+
+        </div>
+
+        <div class="form-field-body" style="color: white;">
+            <div class="form-field-body-header" style="color: black;">
+                <span class="need-help-keyword">Need help?</span>
+                <small class="we-re-assist-you">We're here to assist you…</small>
+            </div>
+            <div class="contact-area" style="padding: 20px;">
+                <div class="container">
+                    <div class="contact-form">
+                        <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8"
+                            method="POST" @submit="submitForm" ref="form">
+                            <input name="oid" type="hidden" value="00D2v000003PByK" />
+                            <input name="retURL" type="hidden" value="https://dealdox.io/thank-you" />
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <div class="form-group" id="form-group-id">
+                                        <!-- <p>First Name</p> -->
+                                        <input type="text" maxlength="40" name="first_name" required
+                                            class="form-control" id="first_name" placeholder="First Name"
+                                            v-model="formData.first_name">
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="col-lg-6 col-md-12">
-                        <div class="contact-area">
-                            <div class="container">
-                                <div class="contact-form">
-                                    <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8"
-                                        method="POST" @submit="submitForm" ref="form">
-                                        <input name="oid" type="hidden" value="00D2v000003PByK" />
-                                        <input name="retURL" type="hidden" value="https://dealdox.io/thank-you" />
-                                        <div class="row">
-                                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                                <div class="form-group">
-                                                    <p>First Name</p>
-                                                    <input type="text" maxlength="40" name="first_name" required
-                                                        class="form-control" id="first_name" placeholder=""
-                                                        v-model="formData.first_name">
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                                <div class="form-group">
-                                                    <p>Last Name</p>
-                                                    <input type="text" maxlength="40" name="last_name"
-                                                        class="form-control" id="last_name" placeholder=""
-                                                        v-model="formData.last_name">
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                                <p>Phone Number</p>
-                                                <input type="text" v-model="formData.phoneNumber"
-                                                    @input="validatePhoneNumber" @keypress="allowOnlyNumbers"
-                                                    :maxlength="formData.maxPhoneNumberLength" name="phone"
-                                                    class="form-control" id="phone" maxlength="15" placeholder=""
-                                                    :title="formData.phoneValidationMessage" />
-                                            </div>
-
-                                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                                <div class="form-group">
-                                                    <p>Email</p>
-                                                    <input type="email" maxlength="40" name="email" required
-                                                        class="form-control" id="email" placeholder=""
-                                                        v-model="formData.email">
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                                <div class="form-group">
-                                                    <p>Company</p>
-                                                    <input type="text" maxlength="40" name="company"
-                                                        class="form-control" id="company" placeholder=""
-                                                        v-model="formData.company">
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                                <div class="form-group">
-                                                    <p>Country</p>
-                                                    <input type="country" maxlength="40" name="country"
-                                                        class="form-control" id="country" placeholder=""
-                                                        v-model="formData.country">
-                                                </div>
-                                            </div>
-
-                                            <!-- Honeypot Field -->
-                                            <input type="text" v-model="formData.honeypot" class="honeypot"
-                                                autocomplete="off" />
-
-                                            <div class="col-lg-12 col-md-12 col-sm-12">
-                                                <div class="form-group">
-                                                    <p>Leave your message</p>
-                                                    <textarea name="00N2v00000XQu8f" id="00N2v00000XQu8f"
-                                                        class="form-control" cols="30" rows="6" placeholder=""
-                                                        v-model="formData.message"></textarea>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-12 col-md-12 col-sm-12">
-                                                <div class="form-group">
-                                                    <p style="margin-bottom: 0px;">Solve the Math Problem</p>
-                                                    <div class="recaptcha-content-rowss">
-                                                        <div class="ebook-captcha-container"><label
-                                                                class="ebookkss-labellsss"
-                                                                style="font-style: italic;">{{ num1 }} + {{ num2 }}
-                                                                =</label></div>
-                                                        <input type="text" required v-model="userAnswer"
-                                                            @input="validatePhoneNumber" @keypress="allowOnlyNumbers"
-                                                            class="captcha-inputs-container form-control"
-                                                            placeholder="Enter your answer" autocomplete="off" />
-                                                    </div>
-                                                    <span v-if="formErrors.recaptcha" class="error">{{
-                                                        formErrors.recaptcha }}</span>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-12 col-md-12 col-sm-12">
-                                                <div class="form-group">
-                                                    <input class="form-check-input" required type="checkbox" value=""
-                                                        id="flexCheckDefault" v-model="formData.agree">
-                                                    <label class="form-check-label" for="flexCheckDefault">
-                                                        I agree to the <NuxtLink to="/terms-of-use"> Terms of
-                                                            Use</NuxtLink>
-                                                    </label>
-                                                </div>
-                                            </div>
-
-
-
-
-                                            <p> By registering, you confirm that you agree to the storing and processing
-                                                of
-                                                your personal data by DealDox as described in the<NuxtLink
-                                                    to="/privacy-policy">
-                                                    Privacy Statement.</NuxtLink>
-                                            </p>
-
-                                            <div style="display: none;">
-                                                <label for="Contact_us__c">Contact</label>
-                                                <input id="Contact_us__c" maxlength="40" name="Contact_us__c" size="20"
-                                                    type="text" value="True" /><br />
-                                            </div>
-
-
-                                            <div style="display: none;">
-                                                <label for="lead_source">Lead Source</label>
-                                                <input id="lead_source" maxlength="40" name="lead_source" size="20"
-                                                    type="text" :value="paramValue ? paramValue : 'Website'" /><br />
-                                            </div>
-
-
-                                            <div class="g-recaptcha"
-                                                data-sitekey="6Lcm03wnAAAAAJ0kn_gkod9i_BiG80TaeGw_xViZ"></div>
-
-                                            <div class="col-lg-12 col-md-12 col-sm-12">
-                                                <button type="submit" name="submit" required class="default-btn"><i
-                                                        class='bx bx-paper-plane'></i>
-                                                    Submit </button>
-                                            </div>
-
-                                        </div>
-                                    </form>
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <div class="form-group" id="form-group-id">
+                                        <!-- <p>Last Name</p> -->
+                                        <input type="text" maxlength="40" name="last_name" class="form-control"
+                                            id="last_name" placeholder="Last Name" v-model="formData.last_name">
+                                    </div>
                                 </div>
+
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <div class="form-group" id="form-group-id">
+                                        <input type="text" v-model="formData.phoneNumber" @input="validatePhoneNumber"
+                                            @keypress="allowOnlyNumbers" :maxlength="formData.maxPhoneNumberLength"
+                                            name="phone" class="form-control phone-numner-contact-us-border" id="phone"
+                                            maxlength="15" placeholder="Phone Number"
+                                            :title="formData.phoneValidationMessage" />
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <div class="form-group" id="form-group-id">
+                                        <!-- <p>Email</p> -->
+                                        <input type="email" maxlength="40" name="email" required class="form-control"
+                                            id="email" placeholder="Email" v-model="formData.email">
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <div class="form-group" id="form-group-id">
+                                        <!-- <p>Company</p> -->
+                                        <input type="text" maxlength="40" name="company" class="form-control"
+                                            id="company" placeholder="Company" v-model="formData.company">
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <div class="form-group" id="form-group-id">
+                                        <!-- <p>Country</p> -->
+                                        <input type="country" maxlength="40" name="country" class="form-control"
+                                            id="country" placeholder="Country" v-model="formData.country">
+                                    </div>
+                                </div>
+
+                                <!-- Honeypot Field -->
+                                <input type="text" v-model="formData.honeypot" class="honeypot" autocomplete="off" />
+
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <div class="form-group" id="form-group-id">
+                                        <!-- <p></p> -->
+                                        <textarea name="00N2v00000XQu8f" id="00N2v00000XQu8f" class="form-control"
+                                            cols="30" rows="6" placeholder="Leave your message"
+                                            v-model="formData.message" style="height: 75px;"></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <div class="form-group" id="form-group-id">
+                                        <input class="form-check-input" required type="checkbox" value=""
+                                            id="flexCheckDefault" v-model="formData.agree">
+                                        <label class="form-check-label" for="flexCheckDefault"
+                                            style="color: black;margin-bottom: -3px;font-size: 14px;">
+                                            I agree to the <NuxtLink to="/terms-of-use"> Terms of
+                                                Use</NuxtLink>
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div style="display: none;">
+                                    <label for="Contact_us__c">Contact</label>
+                                    <input id="Contact_us__c" maxlength="40" name="Contact_us__c" size="20" type="text"
+                                        value="True" /><br />
+                                </div>
+
+
+                                <div style="display: none;">
+                                    <label for="lead_source">Lead Source</label>
+                                    <input id="lead_source" maxlength="40" name="lead_source" size="20" type="text"
+                                        :value="paramValue ? paramValue : 'Website'" /><br />
+                                </div>
+
+
+                                <div class="g-recaptcha" data-sitekey="6Lcm03wnAAAAAJ0kn_gkod9i_BiG80TaeGw_xViZ"></div>
+
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <button type="submit" name="submit" required class="default-btn"><i
+                                            class='bx bx-paper-plane'></i>
+                                        Submit </button>
+                                </div>
+
                             </div>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
+
+
+
     </div>
 </template>
 
 <script>
 
 export default {
+
     computed: {
         paramValue() {
             return this.$route.params.source;
@@ -328,6 +271,15 @@ export default {
 
 
 <style>
+@import url(../../assets/css/pages-css/ContactUsNew.css);
+
+.contact-us-address-body {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
 .honeypot {
     display: none;
 }
@@ -390,6 +342,24 @@ export default {
     color: #ccc;
     font-style: italic;
 }
+
+.phone-numner-contact-us-border {
+    border: 1px solid #eeeeee !important;
+}
+
+.contact-us-logo-image-softwareAdvice {
+    height: 21px;
+}
+
+.form-control::placeholder {
+    color: #848484 !important;
+    font-size: 15px;
+}
+
+#form-group-id {
+    margin-bottom: 25px !important;
+}
+
 
 @media (max-width: 750px) {
     .captcha-inputs-container {

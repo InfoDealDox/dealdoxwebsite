@@ -48,9 +48,10 @@
 }
 
 .subscription-layout .centered-table1 {
-  top: 0;
+  top: 30px;
   width: 90%;
   height: 100%;
+  position: relative;
 }
 .subscription-layout .centered-table {
   width: 100%;
@@ -1307,8 +1308,8 @@
 }
 
 @media only screen and (max-width: 767px) {
-  .subscription-layout p.table_row_heading{
-    font-size:13px !important;
+  .subscription-layout p.table_row_heading {
+    font-size: 13px !important;
   }
 }
 
@@ -1337,8 +1338,7 @@
 
   .border_table2 {
     width: 100% !important;
-
-}
+  }
 }
 @media (max-width: 768px) {
   /* .subscription-layout .cards-section1 {
@@ -1445,7 +1445,7 @@
   }
   .subscription-layout .table-container-sub1 {
     position: sticky;
-    top: 82px;
+    top: 50px;
     background-color: white;
     z-index: 3;
     height: 61px;

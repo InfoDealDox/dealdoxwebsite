@@ -113,7 +113,7 @@ export default {
             "image": "https://www.dealdox.io/_nuxt/img/DDWebsite.3a3e832.png",
             "@id": "",
             "url": "https://www.dealdox.io/",
-            "telephone": "08035376744",
+            "telephone": "91-9741429514",
             "priceRange": "30 day Free Trial",
             "address": {
               "@type": "PostalAddress",
