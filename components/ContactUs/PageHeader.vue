@@ -55,7 +55,7 @@
                                     <div class="form-group" id="form-group-id">
                                         <!-- <p>First Name</p> -->
                                         <input type="text" maxlength="40" name="first_name" required
-                                            class="form-control" id="first_name" placeholder="First Name"
+                                            class="form-control" id="first_name" placeholder="First Name*"
                                             v-model="formData.first_name">
                                     </div>
                                 </div>
@@ -64,7 +64,7 @@
                                     <div class="form-group" id="form-group-id">
                                         <!-- <p>Last Name</p> -->
                                         <input type="text" maxlength="40" name="last_name" class="form-control"
-                                            id="last_name" placeholder="Last Name" v-model="formData.last_name">
+                                            id="last_name" placeholder="Last Name*" v-model="formData.last_name">
                                     </div>
                                 </div>
 
@@ -82,7 +82,7 @@
                                     <div class="form-group" id="form-group-id">
                                         <!-- <p>Email</p> -->
                                         <input type="email" maxlength="40" name="email" required class="form-control"
-                                            id="email" placeholder="Email" v-model="formData.email">
+                                            id="email" placeholder="Email*" v-model="formData.email">
                                     </div>
                                 </div>
 
@@ -90,7 +90,7 @@
                                     <div class="form-group" id="form-group-id">
                                         <!-- <p>Company</p> -->
                                         <input type="text" maxlength="40" name="company" class="form-control"
-                                            id="company" placeholder="Company" v-model="formData.company">
+                                            id="company" placeholder="Company*" v-model="formData.company">
                                     </div>
                                 </div>
 
@@ -119,7 +119,7 @@
                                         <input class="form-check-input" required type="checkbox" value=""
                                             id="flexCheckDefault" v-model="formData.agree">
                                         <label class="form-check-label" for="flexCheckDefault"
-                                            style="color: black;margin-bottom: -3px;font-size: 14px;">
+                                            style="color: black;margin-top: 2px;font-size: 14px;">
                                             I agree to the <NuxtLink to="/terms-of-use"> Terms of
                                                 Use</NuxtLink>
                                         </label>
@@ -142,7 +142,7 @@
 
                                 <div class="g-recaptcha" data-sitekey="6Lcm03wnAAAAAJ0kn_gkod9i_BiG80TaeGw_xViZ"></div>
 
-                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                <div class="col-lg-12 col-md-12 col-sm-12" style="width: 100%;justify-content: center;">
                                     <button type="submit" name="submit" required class="default-btn"><i
                                             class='bx bx-paper-plane'></i>
                                         Submit </button>

@@ -6,6 +6,7 @@
     ),
     linear-gradient(to bottom, #7200ca, #3b0065);
   display: flex;
+  margin: auto;
   max-width: 1440px;
   width: 100%;
   margin-top: 70px;
@@ -151,11 +152,20 @@
     gap: 0px;
   }
   .need-help-keyword {
-    font-size: 18px;
+    font-size: 17px;
   }
 
   .we-re-assist-you {
     font-size: 19px;
+  }
+
+  .queries-support small,
+  .contact-us-address-body small {
+    font-size: 18px;
+  }
+
+  .contact-us-address-keyword {
+    font-size: 25px;
   }
 }
 @media (max-width: 520px) {
@@ -168,5 +178,9 @@
   }
   .contact-us-logo-image-softwareAdvice {
     height: 16px;
+  }
+  .queries-support small,
+  .contact-us-address-body small {
+    font-size: 15px;
   }
 }
