@@ -224,11 +224,12 @@
               <div class="Duns-image-entire-container" style="display:flex; flex-direction:column;gap: 10px;">
                 <div class="Duns-image-container">
                   <div style="width: 50%;height: 100%; cursor: pointer;" @click="openStartupIndia">
-                    <img src="../assets/images/startupIndia.png" alt="startupIndia logo" style="width: 100%;height: 59px;cursor: pointer;border-radius: 10px;">
+                    <img src="../assets/images/startupIndia.png" alt="startupIndia logo"
+                      style="width: 100%;height: 59px;cursor: pointer;border-radius: 10px;">
                   </div>
                   <div class="" style="width: 50%;height: 100%;cursor: pointer;" @click="dunsLinkOpen">
-                    <img src="../assets/images/DunImage.png" style="border-radius: 10px;height: 59px;" alt="Duns & bradshreet logo"
-                      class="compliance-icons-images">
+                    <img src="../assets/images/DunImage.png" style="border-radius: 10px;height: 59px;"
+                      alt="Duns & bradshreet logo" class="compliance-icons-images">
 
                   </div>
                 </div>
@@ -276,7 +277,7 @@
             </div>
             <div class="col-lg-4 col-sm-3">
               <p class="text-center">
-                Copyright @2024 DealDox Software Pvt Ltd. <br />
+                Copyright @{{ this.getCurrentYear }} DealDox Software Pvt Ltd. <br />
                 All Rights Reserved.
               </p>
             </div>
@@ -381,7 +382,7 @@
 
           <div style="padding-bottom:20px">
             <p class="dd-coprights-message">
-              Copyright @2024 DealDox Pvt Ltd.
+              Copyright @{{ this.getCurrentYear }} DealDox Pvt Ltd.
               All Rights Reserved.
             </p>
           </div>
@@ -401,6 +402,7 @@ export default {
   components: {
     FeatureToggle
   },
+
   methods: {
     openStartupIndia() {
       window.open('https://drive.google.com/file/d/1OsXqsu5lhK_BhyzCqSnD65alAHqFzsvu/view?usp=sharing');
@@ -410,11 +412,16 @@ export default {
     },
     newCertificate() {
       window.open("https://drive.google.com/file/d/1Y6NcDwkuPnwakJfcQw1HIQn4Q0KMyRFy/view?usp=drive_link")
-    }
+    },
+
+
   },
+
 
   data() {
     return {
+      getCurrentYear: new Date().getFullYear(),
+
       featuresSet1: [
         { text: 'CPQ', link: '/quoting-software' },
         { text: 'Workflow Approvals', link: '/approval-software' },
@@ -466,9 +473,9 @@ export default {
 
 
 
-      ]
-    };
+      ],
 
+    };
   }
 
 };

@@ -120,8 +120,7 @@
                                             id="flexCheckDefault" v-model="formData.agree">
                                         <label class="form-check-label" for="flexCheckDefault"
                                             style="color: black;margin-top: 2px;font-size: 14px;">
-                                            I agree to the <NuxtLink to="/terms-of-use"> Terms of
-                                                Use</NuxtLink>
+                                            By proceeding, I agree to the <NuxtLink to="/terms-of-use">Terms of Use.</NuxtLink>
                                         </label>
                                     </div>
                                 </div>
