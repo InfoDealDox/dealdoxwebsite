@@ -3,7 +3,7 @@
         <Navbar class="navbar-style-two" />
         <div class="partners-app-container">
             <div class="partner-first-content">
-                <img src="../assets/images/BecomePartnerNew.webp" alt="" class="partner-imagess">
+                <img src="../assets/images/BecomePartnerNew.webp" alt="Become a Partner Background" class="partner-imagess">
                 <div class="partners-sub-content">
                     <span class="partner-heading">Become a DealDox Partner </span>
                     <small class="partner-heading-content">Partner with DealDox for Success </small>
@@ -33,7 +33,7 @@
                 </div>
  
                 <div class="partner-customer-image">
-                    <img src="../assets/images/Partners1.webp" alt="" class="partner-customer-images" />
+                    <img src="../assets/images/Partners1.webp" alt="Customer Confidence" class="partner-customer-images" />
                 </div>
  
  
@@ -41,7 +41,7 @@
  
             <div class="partner-customer-confidence">
                 <div class="partner-customer-image">
-                    <img src="../assets/images/Partners2.webp" alt="" class="partner-customer-images">
+                    <img src="../assets/images/Partners2.webp" alt="Build on your CRM and ERP systems" class="partner-customer-images">
                 </div>
  
                 <div class="partner-customer-content">

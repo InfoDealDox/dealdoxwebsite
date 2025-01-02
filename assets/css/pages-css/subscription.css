@@ -48,7 +48,7 @@
 }
 
 .subscription-layout .centered-table1 {
-  top: 30px;
+  top: 0px;
   width: 90%;
   height: 100%;
   position: relative;
@@ -1183,8 +1183,6 @@
   align-items: self-start;
   margin: 20px 0;
 }
-.features-header-cpq-compare {
-}
 
 .rowgroup-div {
   width: 100%;
@@ -1445,7 +1443,7 @@
   }
   .subscription-layout .table-container-sub1 {
     position: sticky;
-    top: 50px;
+    top: 77px;
     background-color: white;
     z-index: 3;
     height: 61px;

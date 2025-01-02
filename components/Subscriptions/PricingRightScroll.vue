@@ -4,64 +4,64 @@
 
             <div class="slide-tracker-1">
                 <div class="slide">
-                    <!-- <span class="slide-span-text">Manufacturing</span> -->
-                    <img src="../../assets/images/PricingAssests/8.png" class="slide-span-texts" alt="">
+                
+                    <img src="../../assets/images/PricingAssests/8.png" class="slide-span-texts" alt="Maket positioning">
                 </div>
                 <div class="slide">
-                    <!-- <span class="slide-span-text">Technology</span> -->
-                    <img src="../../assets/images/PricingAssests/9.png" class="slide-span-texts" alt="">
+              
+                    <img src="../../assets/images/PricingAssests/9.png" class="slide-span-texts" alt="Maket positioning">
                 </div>
                 <div class="slide">
-                    <!-- <span class="slide-span-text">Telecommunications</span> -->
-                    <img src="../../assets/images/PricingAssests/10.png" class="slide-span-texts" alt="">
-                </div>
-                <div class="slide">
-                    <!-- <span class="slide-span-text">Healthcare</span> -->
-                    <img src="../../assets/images/PricingAssests/11.png" class="slide-span-texts" alt="">
-                </div>
-                <div class="slide">
-                    <!-- <span class="slide-span-text">Financial Services</span> -->
-                    <img src="../../assets/images/PricingAssests/12.png" class="slide-span-texts" alt="">
-                </div>
-                <div class="slide">
-                    <!-- <span class="slide-span-text">Automotive</span> -->
-                    <img src="../../assets/images/PricingAssests/13.png" class="slide-span-texts" alt="">
-                </div>
-                <div class="slide">
-                    <!-- <span class="slide-span-text">Manufacturing</span> -->
-                    <img src="../../assets/images/PricingAssests/14.png" class="slide-span-texts" alt="">
-                </div>
-                <div class="slide">
-                    <!-- <span class="slide-span-text">Technology</span> -->
-                    <img src="../../assets/images/PricingAssests/15.png" class="slide-span-texts" alt="">
-                </div>
-                <div class="slide">
-                    <!-- <span class="slide-span-text">Telecommunications</span> -->
-                    <img src="../../assets/images/PricingAssests/8.png" class="slide-span-texts" alt="">
+                   
+                    <img src="../../assets/images/PricingAssests/10.png" class="slide-span-texts" alt="Maket positioning">
                 </div>
                 <div class="slide">
                     <!-- <span class="slide-span-text">Healthcare</span> -->
-                    <img src="../../assets/images/PricingAssests/9.png" class="slide-span-texts" alt="">
+                    <img src="../../assets/images/PricingAssests/11.png" class="slide-span-texts" alt="Maket positioning">
                 </div>
                 <div class="slide">
                     <!-- <span class="slide-span-text">Financial Services</span> -->
-                    <img src="../../assets/images/PricingAssests/10.png" class="slide-span-texts" alt="">
+                    <img src="../../assets/images/PricingAssests/12.png" class="slide-span-texts" alt="Maket positioning">
                 </div>
                 <div class="slide">
                     <!-- <span class="slide-span-text">Automotive</span> -->
-                    <img src="../../assets/images/PricingAssests/11.png" class="slide-span-texts" alt="">
+                    <img src="../../assets/images/PricingAssests/13.png" class="slide-span-texts" alt="Maket positioning">
+                </div>
+                <div class="slide">
+                    <!-- <span class="slide-span-text">Manufacturing</span> -->
+                    <img src="../../assets/images/PricingAssests/14.png" class="slide-span-texts" alt="Maket positioning">
+                </div>
+                <div class="slide">
+                    <!-- <span class="slide-span-text">Technology</span> -->
+                    <img src="../../assets/images/PricingAssests/15.png" class="slide-span-texts" alt="Maket positioning">
+                </div>
+                <div class="slide">
+                    <!-- <span class="slide-span-text">Telecommunications</span> -->
+                    <img src="../../assets/images/PricingAssests/8.png" class="slide-span-texts" alt="Maket positioning">
+                </div>
+                <div class="slide">
+                    <!-- <span class="slide-span-text">Healthcare</span> -->
+                    <img src="../../assets/images/PricingAssests/9.png" class="slide-span-texts" alt="Maket positioning">
+                </div>
+                <div class="slide">
+                    <!-- <span class="slide-span-text">Financial Services</span> -->
+                    <img src="../../assets/images/PricingAssests/10.png" class="slide-span-texts" alt="Maket positioning">
                 </div>
                 <div class="slide">
                     <!-- <span class="slide-span-text">Automotive</span> -->
-                    <img src="../../assets/images/PricingAssests/12.png" class="slide-span-texts" alt="">
+                    <img src="../../assets/images/PricingAssests/11.png" class="slide-span-texts" alt="Maket positioning">
                 </div>
                 <div class="slide">
                     <!-- <span class="slide-span-text">Automotive</span> -->
-                    <img src="../../assets/images/PricingAssests/13.png" class="slide-span-texts" alt="">
+                    <img src="../../assets/images/PricingAssests/12.png" class="slide-span-texts" alt="Maket positioning">
                 </div>
                 <div class="slide">
                     <!-- <span class="slide-span-text">Automotive</span> -->
-                    <img src="../../assets/images/PricingAssests/14.png" class="slide-span-texts" alt="">
+                    <img src="../../assets/images/PricingAssests/13.png" class="slide-span-texts" alt="Maket positioning">
+                </div>
+                <div class="slide">
+                    <!-- <span class="slide-span-text">Automotive</span> -->
+                    <img src="../../assets/images/PricingAssests/14.png" class="slide-span-texts" alt="Maket positioning">
                 </div>
 
             </div>

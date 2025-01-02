@@ -3,7 +3,7 @@
         <Navbar class="navbar-style-two" />
 
         <div class="odoo-container">
-            <img src="../../assets/images/ComparisionBannerForAlls.jpg" alt="">
+            <img src="../../assets/images/ComparisionBannerForAlls.jpg" alt="DD Comparision Banner">
             <div class="table-alternative-containersss">
                 <Tablealternative :comparisionDatas="comparisionData" company1="ConnectWise" company2="DealDox"
                     companyName1="ConnectWise_Sell" companyName2="DealDox" />

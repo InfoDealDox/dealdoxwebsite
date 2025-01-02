@@ -13,10 +13,10 @@
 
                     <div class="mobileapp-main-top-images-container">
                         <div @click="navigateToAppStore" style="cursor: pointer;">
-                            <img src="../assets/images/AppStore.png" alt="" class="mobile-app-images-todownload">
+                            <img src="../assets/images/AppStore.png" alt="DealDox App Store" class="mobile-app-images-todownload">
                         </div>
                         <div @click="navigateToPlayStore" style="cursor: pointer;">
-                        <img src="../assets/images/Playstore_QR.png" alt="" class="mobile-app-images-todownload">
+                        <img src="../assets/images/Playstore_QR.png" alt="DealDox Play Store" class="mobile-app-images-todownload">
                         </div>
                     </div>
                 </div>

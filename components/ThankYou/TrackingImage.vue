@@ -1,6 +1,6 @@
 <template>
     <div>
-      <img :src="imageSrc" />
+      <img :src="imageSrc" alt="capterra_tracker" />
     </div>
   </template>
   

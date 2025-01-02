@@ -58,7 +58,7 @@ export default {
             this.$emit('close');
         },
         navigateToPage(paramValue) {
-            this.$router.push({ name: 'contact-us', params: { source: paramValue } });
+            this.$router.push({ name: 'contact', params: { source: paramValue } });
         }
     }
 }

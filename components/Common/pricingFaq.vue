@@ -6,7 +6,7 @@
             <p style="text-align: center;">
                 Can’t find your query listed?
                 <span class="">
-                    <NuxtLink to="/contact-us" class="pricing-write-us">Write us</NuxtLink> your query
+                    <NuxtLink to="/contact" class="pricing-write-us">Write us</NuxtLink> your query
                 </span>
             </p>
         </div>

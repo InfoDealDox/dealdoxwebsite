@@ -123,7 +123,7 @@
                   <NuxtLink to="/our-team" class="footer-content">Our Team</NuxtLink>
                 </li>
                 <li>
-                  <NuxtLink to="/contact-us" class="footer-content">Contact Us</NuxtLink>
+                  <NuxtLink to="/contact" class="footer-content">Contact Us</NuxtLink>
                 </li>
                 <li>
                   <NuxtLink to="/become-partner" class="footer-content">Become a Partner</NuxtLink>
@@ -350,7 +350,7 @@
             </div>
           </div>
           <div @click="newCertificate" style="cursor: pointer;">
-            <img src="../assets/images/IAFwithScannerNew.png" alt="" class="IMF logo"
+            <img src="../assets/images/IAFwithScannerNew.png" alt="IMF logo" class="IMF logo"
               style="border-radius: 10px;height: 81px">
           </div>
         </div>
@@ -452,7 +452,7 @@ export default {
       ],
       featuresSet4: [
         { text: 'Our Team', link: '/our-team' },
-        { text: 'Contact Us', link: '/contact-us' },
+        { text: 'Contact Us', link: '/contact' },
         { text: 'Become a Partner', link: '/become-partner' },
         { text: 'Support', link: '/contact us' },
 

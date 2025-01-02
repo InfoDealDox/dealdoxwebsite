@@ -4,7 +4,7 @@
             <div class="features-content-improve-sales">
                 <div class="section-title">
                     <h2>Frequently asked questions</h2>
-                    <p>Can’t find your query listed? <span class="sub-title-faq"><NuxtLink to="/contact-us">
+                    <p>Can’t find your query listed? <span class="sub-title-faq"><NuxtLink to="/contact">
                             Write us</NuxtLink></span> your query</p>
                 </div>
             </div>

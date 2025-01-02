@@ -49,7 +49,7 @@ export default {
 //        });
  //   },
      head: {
-        title: 'Contact Us | DealDox',
+        title: 'Contact | DealDox',
         htmlAttrs: {
             lang: 'en-us'
         },
@@ -59,7 +59,7 @@ export default {
             { hid: 'description', name: 'description', content: 'Reach out to the DealDox team for any inquiries or assistance. We are here to provide you with exceptional support and solutions for your sales needs' },
             { hid: 'keywords', name: 'keywords', content: 'Contact Us, Get in Touch, Guided Selling, quotations, Advanced Quoting Solution, Efficient Sales Processes, Generate Accurate and Comprehensive Quotes, effortlessly generate accurate deal documents.' },
         ],
-        link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io/contact-us' }
+        link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io/contact' }
         ],
     },
 }

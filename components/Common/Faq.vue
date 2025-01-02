@@ -5,7 +5,7 @@
                 <div class="section-title-home pt-175" id="Home-frequently-faq">
                     <span class="removed-h1">Frequently asked questions</span>
                     <p>Can’t find your query listed? <span class="sub-title-faq">
-                            <NuxtLink to="/contact-us">
+                            <NuxtLink to="/contact">
                                 Write us</NuxtLink>
                         </span> your query</p>
                 </div>

@@ -18,7 +18,7 @@
         </div>
 
         <div class="new-app-main-banner-wrap-shape">
-            <img src="../../assets/images/more-home/banner/shape-5.png" alt="image">
+            <img src="../../assets/images/more-home/banner/shape-5.png" alt="best cpq software">
         </div>
     </div>
 </template>

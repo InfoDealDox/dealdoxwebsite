@@ -19,7 +19,7 @@
 
 
                     <div class="clients-second-row-image">
-                        <img :src="clientsInfo.featureImage" alt="" class="client-image-size-resolution">
+                        <img :src="clientsInfo.featureImage" :alt="clientsInfo.alt" class="client-image-size-resolution">
                         <span class="dealdox-daspass-tag">{{ clientsInfo.footerDesscription1 }}</span>
                         <span class="dealdox-daspass-tag"> {{ clientsInfo.footerDesscription2 }}</span>
                     </div>
@@ -61,13 +61,12 @@ export default {
                     headerDescription1: "is preparing",
                     headerDescription2: "for success with DealDox CPQ",
                     description: "DealDox CPQ helped to grow our business, & reduced the timeline to create proposals & costing sheets. We can now create quotes anytime, anywhere, on any device. We’ve eliminated the need for back-office team to prepare proposal and costing sheets.",
-                    footerDesscription1: "DEALDOX CPQ FEATURE USED:",
-                    footerDesscription2: 'AUTOMATED QUOTATIONS',
                     owner: "Rajesh Sharma",
                     designation: "CEO",
                     companyRole: "Daspass - Heating Element Manufacturers",
                     imageSrc: require("../../assets/images/PricingAssests/DasspassClientName.webp"),
                     featureImage: require("../../assets/images/PricingAssests/EightyFive.webp"),
+                    alt:"Daspass Client Review",
 
                 },
                 {
@@ -75,13 +74,12 @@ export default {
                     headerDescription1: "DealDox Bridges the",
                     headerDescription2: "Gap between CRM and ERP",
                     description: "Despite using Lead Squared (CRM) and SAP HANA (ERP), we were still generating quotations manually, which was time-consuming and inefficient. DealDox CPQ filled this gap perfectly by automating our quoting and proposal generation process. This saved our valuable time and reduced errors.",
-                    footerDesscription1: "DEALDOX CPQ FEATURE USED:",
-                    footerDesscription2: 'AUTOMATED ALERTS',
                     owner: "Utkarsh Bansal",
                     designation: "FOUNDER",
                     companyRole: "Utkarsh India - Manufacturer and exporter of Steel Structures, Steel ERW Pipes and Polymer products",
                     imageSrc: require("../../assets/images/PricingAssests/UtkarshIndiaClient.webp"),
                     featureImage: require("../../assets/images/PricingAssests/thirthy.webp"),
+                    alt:"Utkarsh Client Review",
 
                 },
                 {
@@ -89,13 +87,12 @@ export default {
                     headerDescription1: "Streamlining Quoting ",
                     headerDescription2: "Processes with DealDox CPQ",
                     description: "We used to spend days creating quotations for Modular Wet Kitchens, but now we generate automated quotes and cost estimations quickly. The solution also helps us cross-sell and upsell our products effectively. DealDox CPQ has streamlined our quoting processes.",
-                    footerDesscription1: "",
-                    footerDesscription2: '',
                     owner: "Siva Prakash Alluri",
                     designation: "FOUNDER",
                     companyRole: "Elemmentz - Limitless Living - Interior and Modular Designer Brand",
                     imageSrc: require("../../assets/images/PricingAssests/ElemmentzLimitlessClient.webp"),
                     featureImage: require("../../assets/images/PricingAssests/tenXFaster.webp"),
+                    alt:"Elemmentz Client Review",
 
                 }
 

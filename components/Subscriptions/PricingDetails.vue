@@ -289,7 +289,7 @@
                   </a> -->
 
                   <NuxtLink :to="{
-                    name: 'contact-us',
+                    name: 'contact',
                     params: { source: 'Enterprise' },
                   }">
                     <button class="try_free">Connect to Sales </button>
@@ -398,7 +398,7 @@
                       <th role="columnheader" scope="col" class="table__cell2">
 
                         <NuxtLink :to="{
-                          name: 'contact-us',
+                          name: 'contact',
                           params: { source: 'Enterprise' },
                         }" class="nuxtlink-enterise">
                           <div class="edition_wrapper">
@@ -418,7 +418,7 @@
             <div class="sub_container-questions" :style="{ marginTop: '10px' }">
               <div class="compoFeature">
                 <FeaturedData :topText="'Automated Sales Proposal'" :editions="editions" :tableData="tableData3"
-                  :initialShow="isEnabled" :hideCommonFeatures="hideCommonFeatures" />
+                  :initialShow="true" :hideCommonFeatures="hideCommonFeatures" />
 
                 <FeaturedData :topText="'Efficient Collaboration'" :editions="editions" :tableData="tableData4"
                   :initialShow="isEnabled" :hideCommonFeatures="hideCommonFeatures" />

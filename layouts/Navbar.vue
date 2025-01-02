@@ -93,7 +93,7 @@
                                         <NuxtLink to="/our-team" class="nav-link">Our Team</NuxtLink>
                                     </li>
                                     <li class="nav-item">
-                                        <NuxtLink to="/contact-us" class="nav-link">Get In Touch</NuxtLink>
+                                        <NuxtLink to="/contact" class="nav-link">Get In Touch</NuxtLink>
                                     </li>
                                 </ul>
                             </li>
@@ -116,7 +116,7 @@
                             </li>
 
                             <li class="nav-item">
-                                <NuxtLink to="/contact-us" class="toggle nav-link">Contact Us</NuxtLink>
+                                <NuxtLink to="/contact" class="toggle nav-link">Contact Us</NuxtLink>
                             </li>
 
                         </ul>
