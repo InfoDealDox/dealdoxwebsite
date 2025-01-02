@@ -19,7 +19,7 @@ import Navbar from '../layouts/Navbar';
 
 import PricingDetails from '../components/Subscriptions/PricingDetails.vue';
 import PricingFooter from '../components/Subscriptions/PricingFooter.vue';
-import DealDoxFooter from '../layouts/DealDoxFooter';
+import DealDoxFooter from '../layouts/DealDoxFooter.vue';
 
 //import MainBannerSubscription from '../components/Subscriptions/MainBannerSubscription.vue';
 // import OnbaordingAssistance from '../components/Subscriptions/OnbaordingAssistance';

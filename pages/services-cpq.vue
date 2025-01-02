@@ -20,9 +20,9 @@ import TransformYourSales from '../components/CPQ/TransformYourSales.vue'
 import QuickandAccurate from '../components/CPQ/QuickandAccurate.vue'
 import WhatisCPQService from '../components/CPQ/WhatisCPQService.vue'
 
-import TransformDealsWith  from "../components/RequestDemo/TransformDealsWith"
-import servicefaq from '../components/CPQ/servicefaq'
-import DealDoxFooter from '../layouts/DealDoxFooter'
+import TransformDealsWith  from "../components/RequestDemo/TransformDealsWith.vue"
+import servicefaq from '../components/CPQ/servicefaq.vue'
+import DealDoxFooter from '../layouts/DealDoxFooter.vue'
 import axios from 'axios';
 
 export default {

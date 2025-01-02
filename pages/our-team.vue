@@ -20,7 +20,7 @@ import OurTeam from '../components/Common/OurTeam.vue';
 import Blog from '../components/Common/Blog.vue';
 // import Stats from '../components/AboutUs/Stats';
 import GetInTouch from '../components/Common/GetInTouch.vue';
-import DealDoxFooter from '../layouts/DealDoxFooter';
+import DealDoxFooter from '../layouts/DealDoxFooter.vue';
 import axios from 'axios';
 
 

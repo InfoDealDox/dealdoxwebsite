@@ -14,14 +14,14 @@
 
 <script>
 import Navbar from '../layouts/Navbar'
-import Banner from '../components/AutomatedQuotesGeneration/Banner'
+import Banner from '../components/AutomatedQuotesGeneration/Banner.vue'
 import AccelerateYourSales from '../components/AutomatedQuotesGeneration/AccelerateYourSales.vue'
 import Experiencethefuture from '../components/AutomatedQuotesGeneration/Experiencethefuture.vue'
 import YourBusiness from '../components/AutomatedQuotesGeneration/YourBusiness.vue'
 
 import PageHeader from '../components/ContactUs/PageHeader.vue'
-import quotefaq from '../components/AutomatedQuotesGeneration/quotefaq'
-import DealDoxFooter from '../layouts/DealDoxFooter'
+import quotefaq from '../components/AutomatedQuotesGeneration/quotefaq.vue'
+import DealDoxFooter from '../layouts/DealDoxFooter.vue'
 import axios from 'axios';
 
 

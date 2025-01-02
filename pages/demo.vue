@@ -13,12 +13,12 @@
 <script>
 
 import Navbar from '../layouts/Navbar';
-import PageHeader from '../components/ContactUs/PageHeader'
+import PageHeader from '../components/ContactUs/PageHeader.vue'
 import TransformDealsWith from '../components/RequestDemo/TransformDealsWith.vue'
 // import Partner from '../components/Common/Partner'
-import Blog from '../components/Common/Blog'
-import Faq from '../components/Common/Faq';
-import DealDoxFooter from '../layouts/DealDoxFooter';
+import Blog from '../components/Common/Blog.vue'
+import Faq from '../components/Common/Faq.vue';
+import DealDoxFooter from '../layouts/DealDoxFooter.vue';
 import axios from 'axios';
 
 

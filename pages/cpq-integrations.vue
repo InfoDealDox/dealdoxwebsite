@@ -20,11 +20,11 @@ import Navbar from '../layouts/Navbar'
 import PageHeader from '../components/CPQIntegration/PageHeader.vue'
 import IAQSolutions from '../components/CPQIntegration/IAQSolutions.vue'
 import Funfacts from '../components/CPQIntegration/Funfacts.vue'
-import Stats from '../components/CPQIntegration/Stats'
+import Stats from '../components/CPQIntegration/Stats.vue'
 
 import TransformDealsWith from "../components/RequestDemo/TransformDealsWith.vue"
-import integrationfaq from '../components/CPQIntegration/integrationfaq'
-import DealDoxFooter from '../layouts/DealDoxFooter'
+import integrationfaq from '../components/CPQIntegration/integrationfaq.vue'
+import DealDoxFooter from '../layouts/DealDoxFooter.vue'
 import axios from 'axios';
 
 export default {

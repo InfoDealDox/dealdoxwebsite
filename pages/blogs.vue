@@ -23,9 +23,9 @@
 import Navbar from '../layouts/Navbar';
 // import PageTitle from '../components/Common/PageTitle';
 // import Blog from '../components/blogs/Blog'
-import LatestBlog from '../components/blogs/LatestBlog'
+import LatestBlog from '../components/blogs/LatestBlog.vue'
 // import AutomatedQuotes from '../components/Common/AutomatedQuotes';
-import DealDoxFooter from '../layouts/DealDoxFooter'
+import DealDoxFooter from '../layouts/DealDoxFooter.vue'
 import axios from 'axios';
 
 

@@ -12,12 +12,12 @@
 
 <script>
 import Navbar from '../layouts/Navbar'
-import MainBannerCPQ from '../components/Security/MainBannerCPQ'
-import TransformYourSales from '../components/Security/TransformYourSales'
-import QuickandAccurate from '../components/Security/QuickandAccurate'
-import WhatisCPQService from '../components/Security/WhatisCPQService'
-import FreeTrial from '../components/Security/FreeTrial'
-import DealDoxFooter from '../layouts/DealDoxFooter'
+import MainBannerCPQ from '../components/Security/MainBannerCPQ.vue'
+import TransformYourSales from '../components/Security/TransformYourSales.vue'
+import QuickandAccurate from '../components/Security/QuickandAccurate.vue'
+import WhatisCPQService from '../components/Security/WhatisCPQService.vue'
+import FreeTrial from '../components/Security/FreeTrial.vue'
+import DealDoxFooter from '../layouts/DealDoxFooter.vue'
 import axios from 'axios';
 
 export default {

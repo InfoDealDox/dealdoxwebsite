@@ -23,9 +23,9 @@ import RoutingCapabilitiess from '../components/LightningFastQuoteApprovals/Rout
 import ModesofApprovals from '../components/LightningFastQuoteApprovals/ModesofApprovals.vue'
 import ApprovalsInsights from '../components/LightningFastQuoteApprovals/ApprovalsInsights.vue'
 
-import TransformDealsWith from "../components/RequestDemo/TransformDealsWith"
-import approvalsfaq from '../components/LightningFastQuoteApprovals/approvalsfaq'
-import DealDoxFooter from '../layouts/DealDoxFooter'
+import TransformDealsWith from "../components/RequestDemo/TransformDealsWith.vue"
+import approvalsfaq from '../components/LightningFastQuoteApprovals/approvalsfaq.vue'
+import DealDoxFooter from '../layouts/DealDoxFooter.vue'
 import axios from 'axios';
 
 

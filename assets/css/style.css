@@ -9037,3 +9037,14 @@ a {
     height: 200px;
   }
 }
+
+
+.removed-h1 {
+  font-size: 2.5rem;
+}
+
+@media (max-width:750px) {
+  .removed-h1 {
+      font-size: 23px;
+  }
+}

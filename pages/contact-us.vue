@@ -15,7 +15,7 @@ import PageHeader from '../components/ContactUs/PageHeader.vue'
 
 import Blog from '../components/Common/Blog.vue'
 // import Faq from '../components/Common/Faq';
-import DealDoxFooter from '../layouts/DealDoxFooter';
+import DealDoxFooter from '../layouts/DealDoxFooter.vue';
 import axios from 'axios';
 
 

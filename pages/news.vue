@@ -25,7 +25,7 @@ import Navbar from '../layouts/Navbar';
 // import PageTitle from '../components/Common/PageTitle';
 import MediaMain from '../components/MediaFolder/MediaMain.vue'
 // import AutomatedQuotes from '../components/Common/AutomatedQuotes';
-import DealDoxFooter from '../layouts/DealDoxFooter'
+import DealDoxFooter from '../layouts/DealDoxFooter.vue'
 import axios from 'axios';
 
 

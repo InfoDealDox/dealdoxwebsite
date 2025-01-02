@@ -13,7 +13,7 @@ import Navbar from '../layouts/Navbar'
 import MainBannerLoacalized from '../components/Microsoft-Dynamics/MainBannerLoacalized.vue'
 import HowLocalizedDeal from '../components/Microsoft-Dynamics/HowLocalizedDeal.vue'
 import KeyBenefitsof from '../components/Microsoft-Dynamics/KeyBenefitsof.vue'
-import DealDoxFooter from '../layouts/DealDoxFooter'
+import DealDoxFooter from '../layouts/DealDoxFooter.vue'
 import axios from 'axios';
 
 

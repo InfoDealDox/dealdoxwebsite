@@ -13,7 +13,7 @@ import Navbar from '../layouts/Navbar'
 import MainBannerLoacalized from '../components/Sugar-CRM/MainBannerLoacalized.vue'
 import HowLocalizedDeal from '../components/Sugar-CRM/HowLocalizedDeal.vue'
 import KeyBenefitsof from '../components/Sugar-CRM/KeyBenefitsof.vue'
-import DealDoxFooter from '../layouts/DealDoxFooter'
+import DealDoxFooter from '../layouts/DealDoxFooter.vue'
 import axios from 'axios';
 
 export default {

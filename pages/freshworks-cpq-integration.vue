@@ -13,7 +13,7 @@ import Navbar from '../layouts/Navbar'
 import MainBannerLoacalized from '../components/Freshworks/MainBannerLoacalized.vue'
 import HowLocalizedDeal from '../components/Freshworks/HowLocalizedDeal.vue'
 import KeyBenefitsof from '../components/Freshworks/KeyBenefitsof.vue'
-import DealDoxFooter from '../layouts/DealDoxFooter'
+import DealDoxFooter from '../layouts/DealDoxFooter.vue'
 import axios from 'axios';
 
 export default {

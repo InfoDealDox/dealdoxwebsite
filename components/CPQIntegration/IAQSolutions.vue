@@ -2,7 +2,7 @@
     <div class="features-area pt-500 bg-white">
         <div class="container">
             <div class="section-title">
-                <h1>Leveraging DealDox Integration for Success</h1>
+                <span class="removed-h1">Leveraging DealDox Integration for Success</span>
             </div>
             <br>
             <div class="row justify-content-center">
