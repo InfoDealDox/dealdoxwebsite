@@ -243,9 +243,9 @@ export default {
             if (!this.formData.agree) {
                 this.formErrors.agree = 'You must agree to the Terms of Use and Privacy Policy.';
             }
-            if (!this.userAnswer || parseInt(this.userAnswer) !== this.num1 + this.num2) {
-                this.formErrors.recaptcha = "You entered the wrong captcha value.";
-            }
+            // if (!this.userAnswer || parseInt(this.userAnswer) !== this.num1 + this.num2) {
+            //     this.formErrors.recaptcha = "You entered the wrong captcha value.";
+            // }
             console.log("formErrors", this.formErrors)
 
 
