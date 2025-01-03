@@ -89,7 +89,7 @@
                                 <div class="col-lg-6 col-md-6 col-sm-6">
                                     <div class="form-group" id="form-group-id">
                                         <!-- <p>Company</p> -->
-                                        <input type="text" maxlength="40" name="company" class="form-control"
+                                        <input type="text" maxlength="40" name="company" class="form-control" required
                                             id="company" placeholder="Company*" v-model="formData.company">
                                     </div>
                                 </div>
@@ -220,9 +220,9 @@ export default {
                 this.formErrors.last_name = 'Last Name must contain only letters.';
             }
 
-            if (!phoneRegex.test(this.formData.phoneNumber)) {
-                this.formErrors.phoneNumber = 'Please enter a valid phone number.';
-            }
+            // if (!phoneRegex.test(this.formData.phoneNumber)) {
+            //     this.formErrors.phoneNumber = 'Please enter a valid phone number.';
+            // }
 
             if (!emailRegex.test(this.formData.email)) {
                 this.formErrors.email = 'Please enter a valid email address.';
@@ -232,13 +232,13 @@ export default {
                 this.formErrors.company = 'Company Name must contain only letters.';
             }
 
-            if (!nameRegex.test(this.formData.country)) {
-                this.formErrors.country = 'Country must contain only letters.';
-            }
+            // if (!nameRegex.test(this.formData.country)) {
+            //     this.formErrors.country = 'Country must contain only letters.';
+            // }
 
-            if (this.formData.message.trim() === '') {
-                this.formErrors.message = 'Please leave your message.';
-            }
+            // if (this.formData.message.trim() === '') {
+            //     this.formErrors.message = 'Please leave your message.';
+            // }
 
             if (!this.formData.agree) {
                 this.formErrors.agree = 'You must agree to the Terms of Use and Privacy Policy.';
