@@ -6,7 +6,9 @@
                 <div class="cpq-mobile-app-body-left-1">
                     <h1 class="cpq-mobile-app-body-left-text-1">All-in-one <br>
                         Process <br> Costing App</h1>
-                    <NuxtLink to=""><button class="mobile-landing-button">Get DealDox</button></NuxtLink>
+                        <button class="mobile-landing-button" @click="scrollToForm">
+                        Get DealDox
+                    </button>
                 </div>
 
                 <div class="cpq-mobile-app-body-right-1">
@@ -25,7 +27,7 @@
 
         <div class="landing-bg">
             <div class="cpq-mobile-app-body-left-2">
-                <h2 class="about-the-app">About the  <br> app</h2>
+                <h2 class="about-the-app">About the <br> app</h2>
                 <span class="dealDox-is-a-mobile-app">DealDox is a mobile app enables you to use guided selling
                     templates, simplifies the calculation of
                     costs and estimations, allows quick creation of quotes and proposals, generates any deal documents
@@ -78,7 +80,7 @@
             </div>
 
         </div>
-        <div class="mobile-app-form-page">
+        <div class="mobile-app-form-page" id="mobile-app-form-page">
             <div class="form-landing-left">
 
                 <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST"
@@ -110,8 +112,8 @@
                         <div class="landing-label-input">
                             <label class="mobile-app-label">Phone Number</label>
                             <input type="text" v-model="formData.phoneNumber" @input="validatePhoneNumber"
-                                @keypress="allowOnlyNumbers" :maxlength="formData.maxPhoneNumberLength" name="phone" required
-                                class="mobile-app-inputs" id="phone" maxlength="15" placeholder=""
+                                @keypress="allowOnlyNumbers" :maxlength="formData.maxPhoneNumberLength" name="phone"
+                                required class="mobile-app-inputs" id="phone" maxlength="15" placeholder=""
                                 :title="formData.phoneValidationMessage" />
                         </div>
                         <div class="privacy-contents">
@@ -233,6 +235,17 @@ export default {
             }
 
             return Object.keys(this.formErrors).length === 0;
+        },
+        scrollToForm() {
+            // Select the target element by its class name
+            const targetElement = document.querySelector('.mobile-app-form-page');
+            if (targetElement) {
+                // Scroll to the target element
+                targetElement.scrollIntoView({
+                    behavior: 'smooth', // Enables smooth scrolling
+                    block: 'start',    // Aligns to the top of the viewport
+                });
+            }
         },
 
         submitForm() {
