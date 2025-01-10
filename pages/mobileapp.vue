@@ -6,7 +6,7 @@
 
             <div class="mobileapp-main-top-container">
                 <div class="mobileapp-main-top-left">
-                    <span class="DealDox-CPQ-Mobile">DealDox CPQ Mobile</span>
+                    <h1 class="DealDox-CPQ-Mobile">DealDox CPQ Mobile App</h1>
 
                     <small class="On-the-Go-Efficiency">Effortlessly
                         Generate Quotations Anytime, Anywhere. </small>
@@ -29,7 +29,7 @@
             </div>
             <div class="mobileapp-left-container">
                 <div class="mobileapp-left-content">
-                    <span class="mobileapp-heading">Quote Generation</span>
+                    <h2 class="mobileapp-heading">Quote Generation</h2>
                     <small>Users can quickly create, edit, and send quotes directly from their mobile
                         devices, streamlining the sales process.</small>
                 </div>
@@ -45,7 +45,7 @@
                         class="mobile-app-image">
                 </div>
                 <div class="mobileapp-left-content">
-                    <span class="mobileapp-heading">Real-Time Data Access</span>
+                    <h2 class="mobileapp-heading">Real-Time Data Access</h2>
                     <small>Access to real-time pricing, product information, and customer data ensures that users have
                         the latest information when creating quotes. </small>
                 </div>
@@ -54,7 +54,7 @@
             <div class="mobileapp-left-container">
 
                 <div class="mobileapp-left-content">
-                    <span class="mobileapp-heading">Document Management</span>
+                    <h2 class="mobileapp-heading">Document Management</h2>
                     <small>Users can easily upload, store, and manage important documents, making it simple to access
                         contracts and agreements.</small>
                 </div>

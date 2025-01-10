@@ -2,7 +2,7 @@
     <div class="our-team-max-width">
         <div>
             <div class="Meet-our-Extraordinary-container">
-                <span class="Meet-our-Extraordinary">Meet our Extraordinary Individuals who bring Our Values to Life</span>
+                <h2 class="Meet-our-Extraordinary">Meet our Extraordinary Individuals who bring Our Values to Life</h2>
             </div>
             <div v-if="teams !== null" class="our-teams-container">
                 <div v-for="team in teams.singleTeam" :key="team.id" class="indivisual-team-member">

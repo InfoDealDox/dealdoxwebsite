@@ -383,6 +383,7 @@ export default {
         axios.get('https://cms.dealdox.io/api/blog-categories')
             .then(response => {
                 this.categories = response.data.data;
+                console.log("this.categories", this.categories);
 
             })
             .catch(error => {
@@ -391,6 +392,10 @@ export default {
         const response = await axios.get('https://cms.dealdox.io/api/blogs?populate=*')
         this.blogs = response.data.data;
         console.log("This blog", this.blogs);
+
+        console.log("this.categories", this.categories);
+        console.log("details", this.details);
+
 
     },
 }

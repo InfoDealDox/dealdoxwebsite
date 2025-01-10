@@ -5,13 +5,13 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="features-item with-border">
                         <div class="about-img">
-                            <img src="../../assets/images/cpq/Filemanagementbyemployee.png" data-aos="fade-up" alt="Global Reach">
+                            <img src="../../assets/images/cpq/Quick and Accurate Quoting.png" data-aos="fade-up" alt="Global Reach">
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content">
-                        <h3>Breaking Barriers, Connecting Deals:</h3>
+                        <h2>Breaking Barriers, Connecting Deals:</h2>
                         <p>Businesses are crossing international boundaries and interacting with partners, clients, and
                             consumers who come from a variety of language origins. It is essential to get through language
                             barriers and guarantee clarity in all business contacts in order to promote successful
@@ -35,7 +35,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content-right">
-                        <h3>Regional CPQ automated quote <br> generation </h3>
+                        <h2>Regional CPQ automated quote <br> generation </h2>
                         <p>is an advanced solution designed to support multilingual communication in a global business
                             environment. This feature enables businesses to create and share deal documents, such as
                             quotations, contracts, proposals, agreements, SOW and more, in a variety of languages. By

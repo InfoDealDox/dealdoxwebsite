@@ -17,7 +17,7 @@
         </div>
 
         <div class="new-app-main-banner-wrap-shape">
-            <img src="../../assets/images/more-home/banner/shape-5.png" alt="blog-banner">
+            <img src="../../assets/images/more-home/banner/CPQ solutions.png" alt="blog-banner">
         </div>
     </div>
 
@@ -48,7 +48,7 @@
         </div>
 
         <div class="new-app-main-banner-wrap-shape">
-            <img src="../../assets/images/more-home/banner/shape-5.png" alt="best cpq software">
+            <img src="../../assets/images/more-home/banner/CPQ solutions.png" alt="cpq-solutions">
         </div>
     </div> -->
 </template>

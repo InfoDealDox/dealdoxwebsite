@@ -12,7 +12,7 @@
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content">
-                        <h3>Close Deals Faster with DealDox</h3>
+                        <h2>Close Deals Faster with DealDox</h2>
                         <p><strong>Microsoft Dynamics 365 for Sales and DealDox</strong> work together to help sales teams
                             sell quicker and more efficiently. <strong><NuxtLink to="/microsoft-dynamics-365-cpq-integration">Dynamics 365 CRM</NuxtLink> 
                             </strong> allows sales teams to create <strong><NuxtLink to="/quoting-software"> advanced quotes</NuxtLink>
@@ -26,7 +26,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content-right">
-                        <h3>Generate Lightning-fast Professional Quotes</h3>
+                        <h2>Generate Lightning-fast Professional Quotes</h2>
                         <p>DealDox equips your sales team with the tools to <strong>configure tailored quotes in
                                 minutes</strong>. Get rid of manual searches and heavy reliance on desk staff. With our
                             advanced platform, your team can effortlessly answer pre-built questions, generating a
@@ -55,7 +55,7 @@
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content">
-                        <h3>Utilize the Power of a User-Friendly <NuxtLink to='/services-cpq'>CPQ</NuxtLink> Solution</h3>
+                        <h2>Utilize the Power of a User-Friendly <NuxtLink to='/services-cpq'>CPQ</NuxtLink> Solution</h2>
                         <p>Don't allow complicated price regulations to burden you. DealDox is here to make the procedure
                             easier with our <strong>simple-to-implement and simple-to-maintain CPQ</strong> solution. Our
                             platform is built to support a variety of deal structures, such as subscription pricing, use
@@ -70,7 +70,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content-right">
-                        <h3>Closing Deals at Lightning Speed through CPQ Automation</h3>
+                        <h2>Closing Deals at Lightning Speed through CPQ Automation</h2>
                         <p>In today's digital workplace, seamless cross-team collaboration is essential. At DealDox, we
                             understand that internal conversations and processes surrounding discounting or other aspects
                             should never impede your ability to send a quote. That's why our advanced platform enables you
@@ -101,7 +101,7 @@
                     </div>
                     <div class="col-lg-6 col-md-12">
                         <div class="about-content">
-                            <h3>Deliver Timely Experiences with Precision</h3>
+                            <h2>Deliver Timely Experiences with Precision</h2>
                             <p>Get rid of outdated paper or PDF proposals and enter a world of <strong>simplified pricing
                                     with DealDox</strong>. Our next-generation <strong>digital sales proposal
                                     solution</strong> revolutionizes the seller and customer experience. Stay up to date

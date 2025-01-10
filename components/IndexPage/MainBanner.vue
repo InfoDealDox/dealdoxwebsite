@@ -6,7 +6,7 @@
 
 
         <div class="image-container">
-          <img src="../../assets/images/affordableTestNew.webp" alt="DealDox Affordable" class="zoom-image">
+          <img src="../../assets/images/CPQ .webp" alt="DealDox Affordable" class="zoom-image">
         </div>
         <div><small class="new-banner-cpqforAll-content">CPQ FOR ALL</small></div>
       </div>

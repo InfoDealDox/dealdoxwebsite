@@ -14,7 +14,7 @@
 <script>
 import Navbar from '../../../layouts/Navbar';
 import PageTitle from '../../../components/Common/PageTitle';
-import FeaturedBlogDetails from '../../../components/blogs/FeaturedBlogDetails'
+import FeaturedBlogDetails from '../../../components/blogs/FeaturedBlogDetails.vue'
 import DealDoxFooter from '../../../layouts/DealDoxFooter'
 import axios from 'axios';
 

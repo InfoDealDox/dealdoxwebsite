@@ -130,9 +130,9 @@ About Area CSS
   margin-bottom: 15px;
 }
 /* css Changed */
-.about-content h3{
+.about-content h3,.about-content h2{
 
-  font-size:30px;
+  font-size:30px !important;
   margin-right: 100px;
 }
 
@@ -575,7 +575,7 @@ Free Trial Area CSS
     text-align: left;
   }
  /* CSS Changed */
-  .about-content h3 {
+  .about-content h3,.about-content h2,.about-content-right h2 {
     font-size: 21px;
     text-align: left;
     margin-bottom: 12px;

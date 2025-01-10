@@ -21,7 +21,7 @@
         </div>
 
         <div class="new-app-main-banner-wrap-shape">
-            <img src="../../assets/images/more-home/banner/shape-5.png" alt="Integrating CPQ">
+            <img src="../../assets/images/more-home/banner/CPQ solutions.png" alt="Integrating CPQ">
         </div>
     </div>
 </template>

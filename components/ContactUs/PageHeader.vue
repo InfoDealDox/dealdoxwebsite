@@ -4,7 +4,7 @@
 
 
         <div class="left-contact-us-body">
-            <span class="contact-us-heading">Contact Us</span>
+            <h1 class="contact-us-heading">Contact Us</h1>
             <div class="queries-support">
                 <small><b>Call:</b> +91-9741429514</small>
 
@@ -14,7 +14,7 @@
             </div>
             <div class="contact-us-address-body">
 
-                <span class="contact-us-address-keyword">Address</span>
+                <h2 class="contact-us-address-keyword">Address</h2>
 
                 <small> HD-253 WeWork Prestige </small>
                 <small> Central, 36, Infantry Road</small>

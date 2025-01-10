@@ -3,9 +3,9 @@
             <div class="pricing-footer-scroll-bars">
                 <div class="pricing-Excel-functions-body">
                     <div class="pricing-Excel-functions">
-                        <span class="pricing-Excel-functions-header">1,000+ functionalities for both product- and
+                        <h2 class="pricing-Excel-functions-header">1,000+ functionalities for both product- and
                             service-based industries
-                        </span>
+                        </h2>
 
                         <button class="pricing-buy-now-button" @click="scroollTopPricing">
                             BUY NOW

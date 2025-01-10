@@ -6,7 +6,7 @@
                 class="DealDox-Security">
         </div>
         <div class="your-privacy-three-buynow-btn">
-            <span class="Your-privacy-is-our-priority">Your privacy is our priority</span>
+            <h2 class="Your-privacy-is-our-priority">Your privacy is our priority</h2>
 
             <ul class="privacypriorityulu">
                 <li class="privacypriorityul"><i class="bi bi-check2-circle bi-pricing-circle"></i><span

@@ -1,8 +1,8 @@
 <template>
     <div class="top-feature-background">
         <button @click="toggleFeatures" class="new-footer-background-div">
-            <span class="show-text-dropdown" style="font-weight: 600;">
-                {{ showText }}
+            <span class="show-text-dropdown">
+                <b> {{ showText }}</b>
                 <i :class="featuresVisible ? 'bi bi-chevron-down' : 'bi bi-chevron-right'"></i>
             </span>
         </button>

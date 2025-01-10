@@ -42,7 +42,7 @@ Default CSS
 =================================================*/
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat&family=Roboto:wght@100;200;300;400;500;700;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital@0;1&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:wght@100;300;400;500;700;900&family=Source+Code+Pro:wght@200..900&display=swap');
 :root {
   --fontSize: 17px;
   --transition: 0.5s;
@@ -481,7 +481,7 @@ p:last-child {
 }
 
 /* css changed */
-.section-title h3 {
+.section-title h3,.section-title h2 {
   margin-right: 43px;
 
   margin-left: 117px;
@@ -2325,7 +2325,7 @@ New Demo CSS
   color: #8e8e8e;
 }
 
-.new-app-main-banner-wrap-content-full h5 {
+.new-app-main-banner-wrap-content-full h5,.new-app-main-banner-wrap-content-full h2,.new-app-main-banner-wrap-content-full h2 .linksss{
   padding: 0px 0px 0px 0;
   font-weight: 600;
   font-size: 24px;
@@ -5776,7 +5776,7 @@ New Demo CSS
 }
 
 .footer-wrap-area .single-footer-widget p {
-  color: var(--whiteColor);
+  color: black;
 }
 
 .footer-wrap-area .single-footer-widget h3 {
@@ -5792,7 +5792,7 @@ New Demo CSS
 }
 
 .footer-wrap-area .single-footer-widget .links-list li a {
-  color: var(--whiteColor);
+  color: black;
   text-decoration: none;
   text-align: left;
 }
@@ -5814,11 +5814,11 @@ New Demo CSS
 }
 
 .footer-wrap-area .copyright-area {
-  border-top: 1px solid #e4e5ea14;
+  border-top: 1px solid rgb(0 0 0 / 8%);
 }
 
 .footer-wrap-area .copyright-area p {
-  color: var(--whiteColor);
+  color: black;
 }
 
 .footer-wrap-area .copyright-area p strong {
@@ -5826,7 +5826,7 @@ New Demo CSS
 }
 
 .footer-wrap-area .copyright-area p a {
-  color: var(--white);
+  color: black;
   font-weight: 400;
 }
 
@@ -6176,10 +6176,10 @@ Preloader CSS
     color: #000000;
   }
 
-  .new-app-main-banner-wrap-content-full h5 {
+  .new-app-main-banner-wrap-content-full h5,.new-app-main-banner-wrap-content-full h2,.new-app-main-banner-wrap-content-full h2 .linksss {
     padding: 0px 0px 0px 0;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 15px !important;
     line-height: 100%;
     color: #8e8e8e;
   }
@@ -6699,7 +6699,7 @@ Preloader CSS
     margin-right: 1px;
   }
 
-  .section-title h3 {
+  .section-title h3,.section-title h2 {
     text-align: center !important;
     font-size: 20px;
     margin-right: -3px;
@@ -6712,8 +6712,9 @@ Preloader CSS
     margin-left: 2px;
   }
 
-  .new-app-main-banner-wrap-content-full h3 {
-    font-size: 20;
+  .new-app-main-banner-wrap-content-full h3,.new-app-main-banner-wrap-content-full h2 {
+    font-size: 20px !important;
+    color: black;
   }
 
   .new-app-main-banner-wrap-content .sub-title {

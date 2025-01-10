@@ -8,7 +8,7 @@
                             CPQ</span> Solutions</span>
                 </div>
                 <div class="stats-map text-center">
-                    <img src="../../assets/images/cpq/DDWebsite.png" alt="Quotation Information">
+                    <img src="../../assets/images/cpq/the best CPQ Solution.png" alt="the best CPQ Solution">
                 </div>
             </div>
         </div>

@@ -2,7 +2,7 @@
     <div class="new-free-trial-area bg-white pt-70">
         <div class="container">
             <div class="section-title-pages">
-                <h1 class="removed-h1">Modes of Approvals</h1>
+                <h2 class="removed-h1">Modes of Approvals</h2>
             </div>
             <div class="row align-items-center" >
 

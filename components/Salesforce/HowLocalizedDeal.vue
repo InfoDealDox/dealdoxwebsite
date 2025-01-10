@@ -11,7 +11,7 @@
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content">
-                        <h3>Accelerate Deals, Delight Buyers, and Achieve Outstanding Success Rates</h3>
+                        <h2>Accelerate Deals, Delight Buyers, and Achieve Outstanding Success Rates</h2>
                         <p>Salesforce customers can speed up their transactions by controlling their complete deal cycle
                             within their CRM. With real-time insights on your prospect's engagements and degree of interest,
                             DealDox's reliable CPQ enables quotations
@@ -23,7 +23,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content-right">
-                        <h3>Drive Operational Excellence</h3>
+                        <h2>Drive Operational Excellence</h2>
                         <p>DealDox is designed to help every Salesforce user’s sales activity to be simplified and
                             productive. It enables step-by-step guidance through the deal flow within Salesforce.</p>
                         <div class="features-content">
@@ -79,7 +79,7 @@
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content">
-                        <h3>Deep Dive into Customer Insights</h3>
+                        <h2>Deep Dive into Customer Insights</h2>
                         <p>DealDox's modern analytics and reporting feature provides unparalleled visibility into every
                             digital interaction along the buyer's journey. You get detailed insights that empower you to
                             build consensus and accelerate your deal stages.</p>
@@ -93,7 +93,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content-right">
-                        <h3>Empower Your Business Collaborations and Maximize Deal Success</h3>
+                        <h2>Empower Your Business Collaborations and Maximize Deal Success</h2>
                         <p>Line of Business teams must cooperate on all deals, which slows the supply of proposal bids and
                             increases the long administrative activities. DealDox offers an interactive sales platform
                             enabling the necessary data at your ease. It ensures a speedy decision-making process that is
@@ -157,7 +157,7 @@
                     </div>
                     <div class="col-lg-6 col-md-12">
                         <div class="about-content">
-                            <h3>Achieve Results Faster Than Ever</h3>
+                            <h2>Achieve Results Faster Than Ever</h2>
                             <p>DealDox eliminates the need for programming, which prevents expensive initiatives. Just
                                 configure the capabilities you want, then get to work.</p>
                             <p>There is no technical difficulty in the implementation since it is synchronized with standard

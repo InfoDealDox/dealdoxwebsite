@@ -1,15 +1,10 @@
-.top-feature-background {
-  background-color: black;
-}
-
 .new-footer-background-div {
-  background-color: black;
   width: 100%;
   padding: 10px;
   margin: auto;
   border: none;
   outline: none;
-  color: white;
+  background-color: transparent;
 }
 .show-text-dropdown {
   display: flex;
@@ -19,12 +14,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: 19px;
 }
 
 .features-container {
   width: 89%;
   margin-left: auto;
-  color: white;
   display: flex;
   flex-direction: column;
   gap: 6px;
@@ -34,4 +29,5 @@
   text-decoration: none;
   padding-left: 4px;
   padding: 3px;
+  font-size: 14px;
 }

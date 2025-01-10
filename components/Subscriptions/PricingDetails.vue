@@ -3,9 +3,9 @@
     <div class="pricing-header-main-container">
       <div class="pricing-header-container">
         <div class="pricing-flexing-software-container">
-          <span class="pricing-flexing-software" style="color: white;">Customizable&nbsp;software, <span
+          <h1 class="pricing-flexing-software" style="color: white;">Customizable&nbsp;software, <span
               style="white-space: nowrap;">Cost-effective price</span>
-          </span> </br>
+          </h1> </br>
           <small class="new-banner-cpqforAll-content" style="color: white;">CPQ FOR ALL</small>
         </div>
         <div class="pricing-tags-lists-body">
@@ -306,8 +306,8 @@
 
         <div class="subscription-table-container">
           <div class="features-header-cpq-compare-body">
-            <span class="features-header-cpq-compare" style="line-height:normal">Compare all features of DealDox CPQ
-              Pricing</span>
+            <h2 class="features-header-cpq-compare" style="line-height:normal">Compare all features of DealDox CPQ
+              Pricing</h2>
             <div class="table-container-sub1">
 
               <table class="centered-table1">

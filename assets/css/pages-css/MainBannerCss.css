@@ -307,4 +307,31 @@
   .Not-AFFORDABLE-cpq {
     gap: 20px;
   }
+  .landing-label-input{
+    width: 100%;
+  }
+  .mobile-app-label,.mobile-app-inputs{
+    width: 50%;
+  }
+  .mobile-app-landing-body{
+    width: 96%;
+  }
+
+  
+}
+
+@media (max-width:1024px){
+  .cpq-mobile-app-body-left-text-1 {
+    font-size: 55px !important;
+  }
+  .about-the-app {
+    font-size: 46px;
+}
+.dealDox-is-a-mobile-app {
+  font-size: 18px;
+}
+.mobile-app-form-page {
+  height: 600px;
+}
+
 }

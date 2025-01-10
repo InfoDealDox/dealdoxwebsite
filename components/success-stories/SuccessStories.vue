@@ -2,11 +2,11 @@
     <div class="blog-area pt-70 bg-FAFAFA">
         <div class="container">
             <div class="row justify-content-left">
-                <div class="col-lg-4 col-md-6">
-                    <div class="section-title">
-                        <h2>Success Stories</h2>
+        
+                    <div style="width: 100%;">
+                        <h1 style="text-align: center;">CPQ Success Stories</h1>
                     </div>
-                </div>
+              
                 <div class="col-lg-8 col-md-6">
                     <div class="widget-area" id="secondary">
                         <!-- <div class="widget widget_search">

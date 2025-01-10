@@ -1,30 +1,33 @@
 <template>
   <div>
-    <div class="footer-wrap-area pt-100 large-feature">
+    <div class="ready-to-transform-ribbon">
+      <div class="">
+
+        <h3 class="ribbon-content-footer">
+          Simplify Your Cost Estimation Process
+        </h3>
+
+      </div>
+
+
+      <div class="ribbon-content-demo-button">
+        <NuxtLink to="/demo" required style="text-decoration: none;" class="request-demo-footer"><span>Request a
+            Demo</span>
+          <div class="bi-bi-right-chevron"><i class="bi bi-chevron-right" style="font-size: 18px;"></i></div>
+        </NuxtLink>
+      </div>
+
+    </div>
+
+    <div class="footer-wrap-area pt-90 large-feature" style="padding-top: 120px;background: #dad8e936;">
       <div class="container">
-        <div class="row pt-500">
-          <div class="col-lg-9 col-md-6 col-sm-6">
-            <div class="single-footer-widget">
-              <h3>
-                Ready to transform your sales strategy and crush the competition?
-              </h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-6">
-            <div class="single-footer-widget">
-              <div>
-                <NuxtLink to="/demo" required class="default-btn"><i class="bx bx-paper-plane"></i> Request a Demo
-                </NuxtLink>
-              </div>
-            </div>
-          </div>
-        </div>
+
 
         <div class="row">
 
           <div class="col-lg-2 col-md-6 col-sm-6">
             <div class="single-footer-widget">
-              <h3>Product</h3>
+              <h3 style="color: black;">Product</h3>
               <ul class="links-list">
                 <li>
                   <NuxtLink to="/services-cpq" class="footer-content">CPQ</NuxtLink>
@@ -59,7 +62,7 @@
           </div>
           <div class="col-lg-2 col-md-3 col-sm-6">
             <div class="single-footer-widget">
-              <h3>Solutions</h3>
+              <h3 style="color: black;">Solutions</h3>
               <ul class="links-list">
                 <li>
                   <NuxtLink to="/sales" class="footer-content">Sales
@@ -95,7 +98,7 @@
           </div>
           <div class="col-lg-2 col-md-3 col-sm-6">
             <div class="single-footer-widget">
-              <h3>Resources</h3>
+              <h3 style="color: black;">Resources</h3>
               <ul class="links-list">
                 <li>
                   <NuxtLink to="/blogs" class="footer-content">Blogs</NuxtLink>
@@ -117,7 +120,7 @@
           </div>
           <div class="col-lg-2 col-md-6 col-sm-6">
             <div class="single-footer-widget">
-              <h3>Company</h3>
+              <h3 style="color: black;">Company</h3>
               <ul class="links-list">
                 <li>
                   <NuxtLink to="/our-team" class="footer-content">Our Team</NuxtLink>
@@ -138,7 +141,7 @@
           </div>
           <div class="col-lg-2 col-md-3 col-sm-6">
             <div class="single-footer-widget">
-              <h3>Compare to</h3>
+              <h3 style="color: black;">Compare to</h3>
               <ul class="links-list">
                 <li>
                   <NuxtLink to="/alternatives/salesforce" class="footer-content">Salesforce CPQ</NuxtLink>
@@ -182,12 +185,12 @@
               <div class="cpq-for-all-container">
                 <div class="cpq-for-all-sub-container">
                   <NuxtLink to="/" class="logo">
-                    <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694695209/footer-logo_ytczcz.svg"
+                    <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694695208/logo_m8wwsx.svg"
                       alt="DealDox Icon" />
                   </NuxtLink>
-                  <p class="footer-contents">
+                  <span class="footer-contents">
                     <b>CPQ FOR ALL</b>
-                  </p>
+                  </span>
                 </div>
                 <ul class="social-links">
                   <li>
@@ -223,9 +226,9 @@
 
               <div class="Duns-image-entire-container" style="display:flex; flex-direction:column;gap: 10px;">
                 <div class="Duns-image-container">
-                  <div style="width: 50%;height: 100%; cursor: pointer;" @click="openStartupIndia">
+                  <div style="height: 100%; cursor: pointer;" @click="openStartupIndia">
                     <img src="../assets/images/startupIndia.png" alt="startupIndia logo"
-                      style="width: 100%;height: 59px;cursor: pointer;border-radius: 10px;">
+                      style="height: 59px;cursor: pointer;border-radius: 10px;">
                   </div>
                   <div class="" style="width: 50%;height: 100%;cursor: pointer;" @click="dunsLinkOpen">
                     <img src="../assets/images/DunImage.png" style="border-radius: 10px;height: 59px;"
@@ -234,7 +237,7 @@
                   </div>
                 </div>
                 <div @click="newCertificate" style="cursor: pointer;height:60px">
-                  <img src="../assets/images/WhiteIAFandScanner.png" alt="IAF logo" class="imfimage"
+                  <img src="../assets/images/black_IAF.png" alt="IAF logo" class="imfimage"
                     style="border-radius: 10px;">
                 </div>
 
@@ -261,25 +264,35 @@
         </div>
 
         <div class="copyright-area">
-          <div class="row">
+          <div class="row" style="align-items: flex-end;">
             <div class="col-lg-4 col-sm-3">
-              <p>
-                <NuxtLink to="/security">Security</NuxtLink> |
-                <NuxtLink to="/terms-of-use">Terms of Use</NuxtLink> |
-                <NuxtLink to="/privacy-policy">Privacy Policy</NuxtLink> |
-                <NuxtLink to="/cookie-preference">Cookie Preference</NuxtLink>
-              </p>
+              <small class="security-terms-privacy-policy">
+                <NuxtLink to="/security">Security</NuxtLink>
+                <NuxtLink to="/terms-of-use">Terms</NuxtLink>
+                <NuxtLink to="/privacy-policy">Privacy</NuxtLink>
+                <NuxtLink to="/cookie-preference">Cookie</NuxtLink>
+              </small>
             </div>
             <div class="col-lg-4 col-sm-12">
               <NuxtLink to="/" class="logo">
-                <img src="../assets/images/footer-logo.svg" alt="DealDox-logo" />
+                <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694695208/logo_m8wwsx.svg"
+                  alt="DealDox-logo" />
               </NuxtLink>
+              <div class="">
+
+
+
+                <small>WeWork Prestige</small>
+                <small> Central, 36, Infantry Road</small>
+                <small> Bangalore- 560001,</small>
+                <small>Karnataka, India</small>
+              </div>
             </div>
-            <div class="col-lg-4 col-sm-3">
-              <p class="text-center">
-                Copyright @{{ this.getCurrentYear }} DealDox Software Pvt Ltd. <br />
-                All Rights Reserved.
-              </p>
+            <div class="col-lg-4 col-sm-3" style="line-height: 25px;display: flex;flex-direction: column;justify-content: center;">
+              <small class="text-center">
+                Copyright @{{ this.getCurrentYear }} DealDox Software Pvt Ltd. </small>
+              <small>All Rights Reserved.
+              </small>
             </div>
           </div>
         </div>
@@ -374,17 +387,27 @@
 
         <div class="dealdox-footer-icon">
           <NuxtLink to="/" class="logo">
-            <img src="../assets/images/footer-logo.svg" alt="DealDox Logo" />
+            <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694695208/logo_m8wwsx.svg"
+              alt="DealDox Logo" />
           </NuxtLink>
+        </div>
+        <div style="text-align: center;display: flex;flex-direction: column;">
+
+
+
+          <small>WeWork Prestige Central, 36, Infantry Road</small>
+    
+          <small> Bangalore- 560001,Karnataka, India</small>
+      
         </div>
         <div class="copyrights-datas">
 
 
-          <div style="padding-bottom:20px">
-            <p class="dd-coprights-message">
-              Copyright @{{ this.getCurrentYear }} DealDox Pvt Ltd.
-              All Rights Reserved.
-            </p>
+          <div style="padding-bottom:8px">
+            <small class="dd-coprights-message">
+              Copyright @{{ this.getCurrentYear }} DealDox Software Pvt Ltd.</small>
+            <small>All Rights Reserved.
+            </small>
           </div>
         </div>
       </div>
@@ -490,11 +513,11 @@ export default {
 
 .compliance-icons-images {
   height: 100%;
-  width: 100%;
 }
 
 .feature-data {
   display: none;
+
 }
 
 .large-feature {
@@ -530,7 +553,7 @@ export default {
   display: flex;
   flex-direction: column;
   gap: 9px;
-  color: white;
+  color: black;
 }
 
 .social-link-image {
@@ -554,19 +577,19 @@ export default {
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  color: white;
+  color: black;
   align-items: center;
 }
 
 .copyrights-links-data {
-  color: white;
+  color: black;
   text-decoration: none;
   list-style: none;
   text-align: center;
 }
 
 .dd-coprights-message {
-  color: white;
+  color: black;
   text-align: center;
   padding: 20px 0px 0px 0px;
 }
@@ -594,7 +617,7 @@ export default {
 
 
 .compliance-container-icons {
-  color: white;
+  color: black;
   display: flex;
   gap: 5px;
   padding-bottom: 10px;
@@ -606,7 +629,7 @@ export default {
 .mobile-compliance-container-icons {
   width: 90%;
   margin: 20px auto;
-  color: white;
+  color: black;
   display: flex;
   gap: 5px;
   flex-direction: column;
@@ -649,13 +672,13 @@ export default {
   margin: 20px auto;
   display: flex;
   gap: 9px;
-  color: white;
+  color: black;
   flex-direction: column;
 }
 
 .Contact-Social-heading {
   font-size: 18px;
-  color: white;
+  color: black;
   font-weight: 600;
 }
 
@@ -668,11 +691,93 @@ export default {
   height: 100%;
 }
 
+.ready-to-transform-ribbon {
+  position: relative;
+  top: 50px;
+  height: 100px;
+  color: black;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, rgba(0, 0, 0, 0.4) 70%), linear-gradient(to bottom, #7200ca, #3b0065);
+  z-index: 10;
+  width: 78%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  row-gap: normal;
+  border-radius: 14px;
+  padding: 0px 30px;
+  max-width: 1280px;
+}
+
+.ribbon-content-footer {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0;
+  color: #ffffff;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+
+
+.ribbon-content-demo-button {
+  background: linear-gradient(99.01deg, #715cf3 20.98%, #5c99f3 94.62%);
+  text-decoration: none;
+  padding: 10px 17px;
+  font-size: 15px;
+  border-radius: 60px;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.ribbon-content-demo-button::before {
+  width: 24px;
+  height: 80px;
+  content: "";
+  display: block;
+  background: #fff;
+  position: absolute;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  -webkit-animation-name: purpleButtonSlide;
+  animation-name: run;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  z-index: 1;
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+  opacity: 0.3;
+  transform: translateZ(0) scale(1);
+}
+
+@keyframes run {
+  0% {
+    left: -10%;
+  }
+
+  100% {
+    left: 95%;
+  }
+}
+
+.ribbon-content-demo-button:hover {
+  color: white;
+}
 
 @media (max-width: 994px) {
   .feature-data {
     display: block;
-    background-color: black;
+    background: #dad8e936;
+    ;
   }
 
   .large-feature {
@@ -696,7 +801,64 @@ export default {
 }
 
 .footer-content:hover {
-  color: white;
+  color: black !important;
   font-weight: 400;
+}
+
+.request-demo-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.bi-bi-right-chevron {
+  background-color: #3881ee;
+  padding: 4px;
+  border-radius: 20px;
+}
+
+
+
+
+@media (max-width:520px) {}
+
+@media (max-width:1024px) {
+  .ribbon-content-footer {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .ready-to-transform-ribbon {
+    top: 79px;
+    height: 150px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 15px;
+  }
+
+  .feature-data {
+
+    padding-top: 81px;
+  }
+}
+
+
+.copyright-area {
+  padding-bottom: 4px !important;
+}
+
+.security-terms-privacy-policy {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  margin-bottom: 29px;
+  gap: 20px;
+}
+
+.security-terms-privacy-policy a {
+  text-decoration: none !important;
 }
 </style>

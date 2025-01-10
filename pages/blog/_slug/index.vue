@@ -44,9 +44,11 @@ export default {
 
     created: async function () {
         const { slug } = this.$route.params
-        const reaponse = await axios.get(`https://cms.dealdox.io/api/blogs?filters[slug][$eq]=${slug}&populate[image][populate][0]=image&populate[blog_author][populate][0]=profile_picture`, { params: { slug } })
+        const reaponse = await axios.get(`https://cms.dealdox.io/api/blogs?filters[slug][$eq]=${slug}&populate[image][populate][0]=image&populate[blog_author][populate][0]=profile_picture&populate[seo]=*`, { params: { slug } })
         //    const reaponse = await axios.get(`http://localhost:1338/api/blogs?filters[slug][$eq]=${slug}&populate[image][populate][0]=image&populate[blog_author][populate][0]=profile_picture`, { params: { slug } })
         this.details = reaponse.data.data;
+        console.log("Actual Response", reaponse.data.data);
+
         const pageData = this.details.length > 0 ? this.details[0] : {};
         if (pageData?.attributes?.seo) {
             this.seoData = pageData.attributes.seo;
@@ -54,10 +56,11 @@ export default {
         }
         // console.log("this.details....", this.details);
     },
+    
     head({ $seo }) {
 
         return $seo({
-            title: this.seoData?.metaTitle ||'www.dealdox.io',
+            title: this.seoData?.metaTitle || 'www.dealdox.io',
             description: this.seoData?.metaDescription,
             keywords: this.seoData?.keywords,
             // image: this.post.image || '',
