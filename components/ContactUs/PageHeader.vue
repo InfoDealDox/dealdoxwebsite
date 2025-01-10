@@ -16,10 +16,11 @@
 
                 <h2 class="contact-us-address-keyword">Address</h2>
 
-                <small> HD-253 WeWork Prestige </small>
-                <small> Central, 36, Infantry Road</small>
-                <small> Bangalore- 560001</small>
-                <small>Karnataka </small>
+                <small> HD-253, WeWork Prestige Central,</small>
+                <small> 36, Infantry Road,</small>
+                <small>Bangalore - 560001,</small>
+                <small>Karnataka, India. </small>
+
             </div>
 
             <NuxtLink to='/pricing'><button class="get-price-contact-us">Get Pricing</button></NuxtLink>
@@ -120,7 +121,8 @@
                                             id="flexCheckDefault" v-model="formData.agree">
                                         <label class="form-check-label" for="flexCheckDefault"
                                             style="color: black;margin-top: 2px;font-size: 14px;">
-                                            By proceeding, I agree to the <NuxtLink to="/terms-of-use">Terms of Use.</NuxtLink>
+                                            By proceeding, I agree to the <NuxtLink to="/terms-of-use">Terms of Use.
+                                            </NuxtLink>
                                         </label>
                                     </div>
                                 </div>
