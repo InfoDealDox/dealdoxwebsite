@@ -50,10 +50,19 @@
 }
 .pricing-flexing-software-container {
   text-align: center;
-  letter-spacing: -1px;
-  color: #000;
-  font-size: 54px;
-  font-weight: 600;
+  letter-spacing: -1px !important;
+  color: #000 !important;
+  font-size: 54px !important;
+  font-weight: 600 !important;
+}
+
+@media (min-width: 1200px) {
+  .pricing-flexing-software-container {
+    letter-spacing: -1px !important;
+    color: #000 !important;
+    font-size: 54px !important;
+    font-weight: 600 !important;
+  }
 }
 
 .pricing-tags-lists {

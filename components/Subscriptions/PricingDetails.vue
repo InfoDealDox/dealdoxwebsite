@@ -5,7 +5,7 @@
         <div class="pricing-flexing-software-container">
           <h1 class="pricing-flexing-software" style="color: white;">Customizable&nbsp;software, <span
               style="white-space: nowrap;">Cost-effective price</span>
-          </h1> </br>
+          </h1> 
           <small class="new-banner-cpqforAll-content" style="color: white;">CPQ FOR ALL</small>
         </div>
         <div class="pricing-tags-lists-body">
