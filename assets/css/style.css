@@ -41,8 +41,8 @@ This files table contents are outlined below>>>>>
 Default CSS
 =================================================*/
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat&family=Roboto:wght@100;200;300;400;500;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital@0;1&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:wght@100;300;400;500;700;900&family=Source+Code+Pro:wght@200..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat&family=Roboto:wght@100;200;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital@0;1&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:wght@100;300;400;500;700;900&family=Source+Code+Pro:wght@200..900&display=swap");
 :root {
   --fontSize: 17px;
   --transition: 0.5s;
@@ -53,8 +53,8 @@ Default CSS
   --gradientColor: linear-gradient(99.01deg, #715cf3 20.98%, #5c99f3 94.62%);
   --paragraphColor: #191717;
   --fontFamily: "Inter", sans-serif;
-  --monsterFamily:"Montserrat", ;
-  --robotaFamily:"Roboto", ;
+  --monsterFamily: "Montserrat";
+  --robotaFamily: "Roboto";
 }
 
 body {
@@ -481,7 +481,8 @@ p:last-child {
 }
 
 /* css changed */
-.section-title h3,.section-title h2 {
+.section-title h3,
+.section-title h2 {
   margin-right: 43px;
 
   margin-left: 117px;
@@ -2325,7 +2326,9 @@ New Demo CSS
   color: #8e8e8e;
 }
 
-.new-app-main-banner-wrap-content-full h5,.new-app-main-banner-wrap-content-full h2,.new-app-main-banner-wrap-content-full h2 .linksss{
+.new-app-main-banner-wrap-content-full h5,
+.new-app-main-banner-wrap-content-full h2,
+.new-app-main-banner-wrap-content-full h2 .linksss {
   padding: 0px 0px 0px 0;
   font-weight: 600;
   font-size: 24px;
@@ -6176,7 +6179,9 @@ Preloader CSS
     color: #000000;
   }
 
-  .new-app-main-banner-wrap-content-full h5,.new-app-main-banner-wrap-content-full h2,.new-app-main-banner-wrap-content-full h2 .linksss {
+  .new-app-main-banner-wrap-content-full h5,
+  .new-app-main-banner-wrap-content-full h2,
+  .new-app-main-banner-wrap-content-full h2 .linksss {
     padding: 0px 0px 0px 0;
     font-weight: 600;
     font-size: 15px !important;
@@ -6680,8 +6685,9 @@ Preloader CSS
   }
 
   .new-app-main-banner-wrap-area {
-    padding-top: 110px;
-    padding-bottom: 50px;
+    padding-top: 80px;
+    /* changed here 50px */
+    padding-bottom: 0px;
   }
 
   .new-app-main-banner-wrap-content {
@@ -6699,7 +6705,8 @@ Preloader CSS
     margin-right: 1px;
   }
 
-  .section-title h3,.section-title h2 {
+  .section-title h3,
+  .section-title h2 {
     text-align: center !important;
     font-size: 20px;
     margin-right: -3px;
@@ -6712,7 +6719,8 @@ Preloader CSS
     margin-left: 2px;
   }
 
-  .new-app-main-banner-wrap-content-full h3,.new-app-main-banner-wrap-content-full h2 {
+  .new-app-main-banner-wrap-content-full h3,
+  .new-app-main-banner-wrap-content-full h2 {
     font-size: 20px !important;
     color: black;
   }
@@ -7993,9 +8001,7 @@ Preloader CSS
     left: 0;
   }
 
-  .new-app-main-banner-wrap-area {
-    padding-bottom: 80px;
-  }
+
 
   .new-app-main-banner-wrap-content {
     margin-top: 0;
@@ -9039,13 +9045,18 @@ a {
   }
 }
 
-
 .removed-h1 {
   font-size: 2.5rem;
 }
 
-@media (max-width:750px) {
+@media (max-width: 750px) {
   .removed-h1 {
-      font-size: 23px;
+    font-size: 23px;
+  }
+  .order-1-mobile {
+    order: 1;
+  }
+  .order-2-mobile {
+    order: 2;
   }
 }

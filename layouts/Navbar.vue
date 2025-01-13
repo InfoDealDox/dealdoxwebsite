@@ -88,7 +88,7 @@
                             </li>
 
                             <li class="nav-item"><a href="#" class="dropdown-toggle nav-link">Company</a>
-                                <ul class="dropdown-menu">
+                                <ul class="dropdown-menu" style="z-index: 10;">
                                     <li class="nav-item">
                                         <NuxtLink to="/our-team" class="nav-link">Our Team</NuxtLink>
                                     </li>
@@ -99,7 +99,7 @@
                             </li>
 
                             <li class="nav-item"><a href="#" class="dropdown-toggle nav-link">Resources</a>
-                                <ul class="dropdown-menu">
+                                <ul class="dropdown-menu" style="z-index: 10;">
                                     <li class="nav-item">
                                         <NuxtLink to="/blogs" class="nav-link">Blogs</NuxtLink>
                                     </li>

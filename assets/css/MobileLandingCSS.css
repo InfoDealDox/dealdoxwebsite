@@ -453,4 +453,8 @@
   .form-landing-right {
     display: none;
   }
+
+  .mobile-app-landing-body {
+    width: 100%;
+  }
 }

@@ -66,8 +66,8 @@
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content">
-                        <h3>Maximize Efficiency and Precision with Digital Quoting Tool</h3>
-                        <p>Swift and Automated Approvals Seamlessly navigate through the smart and automated agreement
+                        <h3 class="mobile-version-heading">Maximize Efficiency and Precision with Digital Quoting Tool</h3>
+                        <p class="mobile-version-content">Swift and Automated Approvals Seamlessly navigate through the smart and automated agreement
                             of
                             deals, eliminating complexities and streamlining your operations. With swift CPQ pricing
                             approvals, the sales process becomes effortless, allowing you to focus on what matters most

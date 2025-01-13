@@ -1,8 +1,8 @@
 <template>
-    <div class="features-area pb-80 tb-20 bg-FAFAFA">
+    <div class="features-area pb-80 tb-20 bg-FAFAFA customize-padding-top">
         <div class="container">
             <div class="software-integrations-inner">
-                <div class="row align-items-center">
+                <div class="row align-items-center mobile-version-gap-div">
                     <div class="col-lg-6 col-md-12">
                         <div class="features-content">
                             <ul class="features-list">
@@ -53,7 +53,8 @@
                                                 <div class="form-group">
                                                     <p>First Name</p>
                                                     <input type="text" maxlength="40" name="first_name" required
-                                                        class="form-control" id="first_name" placeholder="" v-model="formData.first_name">
+                                                        class="form-control" id="first_name" placeholder=""
+                                                        v-model="formData.first_name">
                                                 </div>
                                             </div>
 
@@ -61,7 +62,8 @@
                                                 <div class="form-group">
                                                     <p>Last Name</p>
                                                     <input type="text" maxlength="40" name="last_name"
-                                                        class="form-control" id="last_name" placeholder="" v-model="formData.last_name">
+                                                        class="form-control" id="last_name" placeholder=""
+                                                        v-model="formData.last_name">
                                                 </div>
                                             </div>
 
@@ -85,7 +87,8 @@
                                                 <div class="form-group">
                                                     <p>Email</p>
                                                     <input type="email" maxlength="40" name="email" required
-                                                        class="form-control" id="email" placeholder="" v-model="formData.email">
+                                                        class="form-control" id="email" placeholder=""
+                                                        v-model="formData.email">
                                                 </div>
                                             </div>
 
@@ -101,7 +104,8 @@
                                                 <div class="form-group">
                                                     <p>Company</p>
                                                     <input type="text" maxlength="40" name="company"
-                                                        class="form-control" id="company" placeholder="" v-model="formData.company">
+                                                        class="form-control" id="company" placeholder=""
+                                                        v-model="formData.company">
                                                 </div>
                                             </div>
 
@@ -123,7 +127,8 @@
                                                 <div class="form-group">
                                                     <p>Country</p>
                                                     <input type="country" maxlength="40" name="country"
-                                                        class="form-control" id="country" placeholder="" v-model="formData.country">
+                                                        class="form-control" id="country" placeholder=""
+                                                        v-model="formData.country">
                                                 </div>
                                             </div>
 
@@ -141,7 +146,7 @@
                                             </div>
 
 
-                                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                            <!-- <div class="col-lg-12 col-md-12 col-sm-12">
                                                 <div class="form-group">
                                                     <p style="margin-bottom: 0px;">Solve the Math Problem</p>
                                                     <div class="recaptcha-content-rowss">
@@ -157,25 +162,20 @@
                                                     <span v-if="errors.recaptcha" class="error">{{ errors.recaptcha
                                                         }}</span>
                                                 </div>
-                                            </div>
+                                            </div> -->
 
                                             <div class="col-lg-12 col-md-12 col-sm-12">
                                                 <div class="form-group">
                                                     <input class="form-check-input" required type="checkbox" value=""
                                                         id="flexCheckDefault" v-model="formData.agree_terms">
                                                     <label class="form-check-label" for="flexCheckDefault">
-                                                        I agree to the <NuxtLink to="/terms-of-use"> Terms of
-                                                            Use</NuxtLink>
+                                                        By proceeding, I agree to the <NuxtLink to="/terms-of-use">
+                                                            Terms of Use.</NuxtLink>
                                                     </label>
                                                 </div>
                                             </div>
 
-                                            <p> By registering, you confirm that you agree to the storing and processing
-                                                of
-                                                your personal data by DealDox as described in the<NuxtLink
-                                                    to="/privacy-policy">
-                                                    Privacy Statement.</NuxtLink>
-                                            </p>
+
 
                                             <div class="col-lg-12 col-md-12 col-sm-12">
                                                 <button type="submit" name="submit" required class="default-btn"><i
@@ -294,9 +294,9 @@ export default {
             if (!this.formData.agree_terms) {
                 this.errors.agree_terms = 'You must agree to the Terms of Use.';
             }
-            if (!this.userAnswer || parseInt(this.userAnswer) !== this.num1 + this.num2) {
-                this.errors.recaptcha = "You entered the wrong captcha value.";
-            }
+            // if (!this.userAnswer || parseInt(this.userAnswer) !== this.num1 + this.num2) {
+            //     this.errors.recaptcha = "You entered the wrong captcha value.";
+            // }
 
             console.log("demo", this.errors);
 
@@ -318,3 +318,18 @@ export default {
     name: 'EasyIntegration',
 }
 </script>
+
+
+<style>
+@media (max-width:750px) {
+    .customize-padding-top {
+        padding-top: 0px !important;
+    }
+
+
+
+    .mobile-version-gap-div {
+        gap: 25px;
+    }
+}
+</style>

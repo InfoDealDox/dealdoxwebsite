@@ -109,6 +109,13 @@
 
                         </div>
 
+                        <div style="display: none;">
+                                    <label for="Contact_us__c">Contact</label>
+                                    <input id="Contact_us__c" maxlength="40" name="Contact_us__c" size="20" type="text"
+                                        value="True" /><br />
+                                </div>
+
+
                         <div class="landing-label-input">
                             <label class="mobile-app-label">Phone Number</label>
                             <input type="text" v-model="formData.phoneNumber" @input="validatePhoneNumber"

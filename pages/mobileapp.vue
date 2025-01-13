@@ -102,7 +102,7 @@ export default {
     margin: auto;
     max-width: 1320px;
     width: 100%;
-    margin-top: 110px;
+    margin-top: 80px;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -247,7 +247,7 @@ export default {
     }
 
     .mobileapp-dealdox-container {
-        margin-top: 80px;
+        margin-top: 44px;
     }
 
     .mobileapp-main-top-left {
