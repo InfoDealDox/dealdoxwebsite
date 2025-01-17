@@ -3,11 +3,11 @@
         <div class="container">
             <div class="section-title-pages-full">
                 <div class="new-app-main-banner-wrap-content-full">
-                    <h2><span class="sub-title-effortless">"Effortless Automation"</span> DealDox let's you Preprogram All
-                        of These and More</h2>
+                    <h2>Preprogram Everything with DealDox Sales Automation Solution</h2>
                 </div>
                 <div class="stats-map text-center">
-                    <img src="../../assets/images/lightning-fast-quote-approvals/effortless-automation.svg" alt="Effortless Automation">
+                    <img src="../../assets/images/lightning-fast-quote-approvals/effortless-automation.svg"
+                        alt="Effortless Automation">
                 </div>
             </div>
         </div>

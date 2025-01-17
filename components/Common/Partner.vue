@@ -1,107 +1,134 @@
 <template>
   <div class="partner-area">
     <div class="container mb-5">
-      <!-- <div class="partner-title">
-        <div class="tb-30">
-          <NuxtLink to="/success-stories" required class="default-btn"><i class='bx bx-paper-plane'></i>
-            View all customers</NuxtLink>
-        </div>
-      </div> -->
-
-      <!-- <div class="partner-slides">
-        <carousel :autoplay="true" :loop="true" :paginationEnabled="false"
-          :perPageCustom="[[0, 3], [576, 3], [768, 3], [1200, 7]]" v-if="partners !== null">
-          <slide v-for="slide in partners.partnerSlides" :key="slide.id">
-            <div class="single-partner-item">
-              <a>
-                <img :src="slide.image.data.attributes.url" alt="image">
-              </a>
-            </div>
-          </slide>
-        </carousel>
-      </div> -->
-
       <div class="features-area">
-        <h1 style="text-align: center;font-size: 24px;padding: 20px 0px;">Brands That Trust Us*</h1>
+        <h2 style="text-align: center; font-size: 24px; padding: 20px 0;">Brands That Trust Us*</h2>
         <div class="container">
-          <VueSlickCarousel v-bind="carouselSettings" v-if="partners !== null">
-            <div v-for="slide in partners.partnerSlides" :key="slide.id" style="margin: 0 15px;">
-              <div class="single-features-box">
-                <div class="partner-item"><img :src="slide.image.data.attributes.url"
-                    :alt="slide.image.data.attributes.alternativeText"></div>
+          <div class="slide-tracker-container">
+            <div class="slider-2">
+              <div class="slide-tracker-1">
+                <div v-for="slide in partners" :key="slide.id" class="slide">
+                  <img :src="slide.image.data.attributes.url"
+                    :alt="slide.image.data.attributes.alternativeText || 'Partner Image'" class="slide-span-texts">
+                </div>
+              </div>
+              <div class="slide-tracker-1">
+                <div v-for="slide in partners" :key="slide.id" class="slide">
+                  <img :src="slide.image.data.attributes.url"
+                    :alt="slide.image.data.attributes.alternativeText || 'Partner Image'" class="slide-span-texts">
+                </div>
               </div>
             </div>
-          </VueSlickCarousel>
-          <!-- <div class="row justify-content-center" v-if="partners !== null">
-            <div class="col-xl-2 col-lg-2 col-sm-6 col-md-6" v-for="slide in partners.partnerSlides" :key="slide.id">
-              <div class="single-features-box">
-                <div class="partner-item"><img :src="slide.image.data.attributes.url" alt="image"></div>
-              </div>
-            </div>
-          </div> -->
+          </div>
         </div>
       </div>
-
     </div>
   </div>
 </template>
 
 <script>
-import VueSlickCarousel from 'vue-slick-carousel'
-import 'vue-slick-carousel/dist/vue-slick-carousel.css'
-// optional style for arrows & dots
-import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
-import axios from 'axios'
+import axios from 'axios';
 
 export default {
   name: 'Partner',
-  components: { VueSlickCarousel },
-  data: () => ({
-    settings: {
-      itemsToShow: 1,
-      snapAlign: 'center',
-    },
-    partners: null,
-    carouselSettings: {
-      "dots": true,
-      "infinite": true,
-      "speed": 500,
-      "slidesToShow": 6,
-      "slidesToScroll": 2,
-      "initialSlide": 0,
-      "autoplay": true,
-      "responsive": [
-        {
-          "breakpoint": 1024,
-          "settings": {
-            "slidesToShow": 3,
-            "slidesToScroll": 3,
-            "infinite": true,
-            "dots": true
-          }
-        },
-        {
-          "breakpoint": 600,
-          "settings": {
-            "slidesToShow": 2,
-            "slidesToScroll": 2,
-            "initialSlide": 2
-          }
-        },
-        {
-          "breakpoint": 480,
-          "settings": {
-            "slidesToShow": 1,
-            "slidesToScroll": 1
-          }
-        }
-      ]
-    }
-  }),
-  created: async function () {
-    const response = await axios.get('https://cms.dealdox.io/api/partner?populate=partnerSlides.image')
-    const { data: { attributes } } = response.data
-    this.partners = attributes
+  data() {
+    return {
+      partners: [],
+    };
   },
-}
+  async created() {
+    try {
+      const response = await axios.get('https://cms.dealdox.io/api/partner?populate=partnerSlides.image');
+      this.partners = response.data.data.attributes.partnerSlides;
+
+
+
+
+    } catch (error) {
+      console.error('Error fetching partner data:', error);
+    }
+  }
+};
 </script>
+
+
+<style>
+.slide-tracker-container {
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+
+  max-width: 1440px;
+
+}
+
+.slider-2 {
+  height: 95px;
+  margin: auto;
+  position: relative;
+  width: 80%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.slider-2::after,
+.slider-2::before {
+  background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+  content: '';
+  height: 100%;
+  position: relative;
+  width: 15%;
+  z-index: 2;
+}
+
+.slide {
+  height: 100px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  perspective: 100px;
+}
+
+.slider-2::before {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+
+.slider-2::after {
+  left: 0;
+  top: 0;
+}
+
+.slide-tracker {
+  display: flex;
+  width: calc(260px*18);
+  animation: scroll 40s linear infinite;
+}
+
+.slide-tracker-1 {
+  display: flex;
+  width: calc(260px*18);
+  animation: scrolls 40s linear infinite;
+}
+
+img.slide-span-texts {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
+}
+
+@keyframes scrolls {
+
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-260px *9));
+    }
+}
+</style>

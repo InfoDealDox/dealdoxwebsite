@@ -1,5 +1,5 @@
 <template>
-  <div class="stats-area-pages bg-white pt-100">
+  <div class="stats-area-pages bg-white ">
     <div class="container">
       <div class="section-title-pages-full">
         <div class="new-h2-tag-div">
@@ -49,7 +49,7 @@ export default {
 
 @media (min-width: 1200px) {
   .new-h2-tags {
-        font-size: 1.5rem;
-    }
+    font-size: 1.5rem;
+  }
 }
 </style>

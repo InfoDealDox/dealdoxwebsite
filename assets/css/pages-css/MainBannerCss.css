@@ -188,11 +188,16 @@
 }
 .recognized-dealdox {
   position: absolute;
-  right: 44px;
-  bottom: 80px;
+  right: 66px;
+  bottom: 56px;
 }
 
 .recognized-image {
+  height: 224px;
+  padding: 13px;
+}
+
+.recognized-left-image {
   height: 214px;
   padding: 13px;
 }
@@ -201,7 +206,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
 }
 
 @keyframes zoomIn {
@@ -275,19 +279,20 @@
 
 .customize-banner-gartner {
   border-right: 0.1px solid #acacac;
-  padding: 4px 10px;
+  padding: 5px 10px;
 }
 
 .mobile-app-banner-logos {
   position: absolute;
-  left: 0px;
-  bottom: 0px;
+  left: 66px;
+  bottom: 56px;
   display: flex;
   gap: 10px;
 }
 
 .mainbanner-playstorelogos {
-  height: 150px;
+  height: 46px;
+  border-radius: 4px;
 }
 
 @media screen and (max-width: 1535px) and (min-width: 1430px) {
@@ -307,31 +312,47 @@
   .Not-AFFORDABLE-cpq {
     gap: 20px;
   }
-  .landing-label-input{
+  .landing-label-input {
     width: 100%;
   }
-  .mobile-app-label,.mobile-app-inputs{
+  .mobile-app-label,
+  .mobile-app-inputs {
     width: 50%;
   }
-  .mobile-app-landing-body{
+  .mobile-app-landing-body {
     width: 96%;
   }
-
-  
 }
 
-@media (max-width:1024px){
+@media (max-width: 1024px) {
   .cpq-mobile-app-body-left-text-1 {
     font-size: 55px !important;
   }
   .about-the-app {
     font-size: 46px;
-}
-.dealDox-is-a-mobile-app {
-  font-size: 18px;
-}
-.mobile-app-form-page {
-  height: 600px;
+  }
+  .dealDox-is-a-mobile-app {
+    font-size: 18px;
+  }
+  .mobile-app-form-page {
+    height: 600px;
+  }
 }
 
+@media (max-width: 1024px) {
+  .mobile-app-banner-logos {
+    left: 0px;
+    bottom: 56px;
+  }
+
+  .recognized-left-image,
+  .recognized-image {
+    height: 180px;
+    padding: 13px;
+  }
+
+  .recognized-dealdox {
+    right: 0px;
+    bottom: 56px;
+  }
 }

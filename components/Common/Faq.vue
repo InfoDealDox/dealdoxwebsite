@@ -4,7 +4,7 @@
             <div class="row align-items-center">
                 <div class="section-title-home pt-175" id="Home-frequently-faq">
                     <span class="removed-h1">Frequently asked questions</span>
-                    <p>Can’t find your query listed? <span class="sub-title-faq">
+                    <p style="text-align: center;">Can’t find your query listed? <span class="sub-title-faq">
                             <NuxtLink to="/contact">
                                 Write us</NuxtLink>
                         </span> your query</p>
@@ -98,8 +98,8 @@
 </template>
 
 <script>
-import Accordion from "../Common/Accordion";
-import AccordionItem from "../Common/AccordionItem";
+import Accordion from "../Common/Accordion.vue";
+import AccordionItem from "../Common/AccordionItem.vue";
 
 export default {
     name: 'Faq',
@@ -109,3 +109,12 @@ export default {
     },
 }
 </script>
+
+<style>
+@media (max-width:750px) {
+    .accordion-title {
+        padding: 0 13px 10px 0px !important;
+    }
+
+}
+</style>

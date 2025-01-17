@@ -4,60 +4,60 @@
 
             <div class="slide-tracker">
                 <div class="slide">
-                    <!-- <span class="slide-span-text">Manufacturing</span> -->
+                  
                     <img src="../../assets/images/PricingAssests/1.png" class="slide-span-texts" alt="">
                 </div>
                 <div class="slide">
-                    <!-- <span class="slide-span-text">Technology</span> -->
+                    
                     <img src="../../assets/images/PricingAssests/2.png" class="slide-span-texts" alt="">
                 </div>
                 <div class="slide">
-                    <!-- <span class="slide-span-text">Telecommunications</span> -->
+                   
                     <img src="../../assets/images/PricingAssests/3.png" class="slide-span-texts" alt="">
                 </div>
                 <div class="slide">
-                    <!-- <span class="slide-span-text">Healthcare</span> -->
+                   
                     <img src="../../assets/images/PricingAssests/4.png" class="slide-span-texts" alt="">
                 </div>
                 <div class="slide">
-                    <!-- <span class="slide-span-text">Financial Services</span> -->
+                   
                     <img src="../../assets/images/PricingAssests/5.png" class="slide-span-texts" alt="">
                 </div>
 
                 <div class="slide">
-                    <!-- <span class="slide-span-text">Technology</span> -->
+                    
                     <img src="../../assets/images/PricingAssests/6.png" class="slide-span-texts" alt="">
                 </div>
                 <div class="slide">
-                    <!-- <span class="slide-span-text">Telecommunications</span> -->
+                   
                     <img src="../../assets/images/PricingAssests/7.png" class="slide-span-texts" alt="">
                 </div>
                 <div class="slide">
-                    <!-- <span class="slide-span-text">Healthcare</span> -->
+                   
                     <img src="../../assets/images/PricingAssests/1.png" class="slide-span-texts" alt="">
                 </div>
                 <div class="slide">
-                    <!-- <span class="slide-span-text">Financial Services</span> -->
+                   
                     <img src="../../assets/images/PricingAssests/2.png" class="slide-span-texts" alt="">
                 </div>
                 <div class="slide">
-                    <!-- <span class="slide-span-text">Automotive</span> -->
+                
                     <img src="../../assets/images/PricingAssests/3.png" class="slide-span-texts" alt="">
                 </div>
                 <div class="slide">
-                    <!-- <span class="slide-span-text">Automotive</span> -->
+                
                     <img src="../../assets/images/PricingAssests/4.png" class="slide-span-texts" alt="">
                 </div>
                 <div class="slide">
-                    <!-- <span class="slide-span-text">Automotive</span> -->
+                
                     <img src="../../assets/images/PricingAssests/5.png" class="slide-span-texts" alt="">
                 </div>
                 <div class="slide">
-                    <!-- <span class="slide-span-text">Automotive</span> -->
+                
                     <img src="../../assets/images/PricingAssests/6.png" class="slide-span-texts" alt="">
                 </div>
                 <div class="slide">
-                    <!-- <span class="slide-span-text">Automotive</span> -->
+                
                     <img src="../../assets/images/PricingAssests/7.png" class="slide-span-texts" alt="">
                 </div>
 

@@ -64,7 +64,7 @@
                         <div style="display: none;">
                             <label for="lead_source">Lead Source</label>
                             <input id="lead_source" maxlength="40" name="lead_source" size="20" type="text"
-                                :value="paramValue ? paramValue : 'Google'" /><br />
+                                :value="paramValue ? paramValue : 'Leading CPQ Software'" /><br />
                         </div>
 
 

@@ -1,5 +1,5 @@
 <template>
-    <ul class="accordion">
+    <ul class="accordion" id="accordion-customize">
         <slot></slot>
     </ul>
 </template>
@@ -21,3 +21,9 @@ export default {
     }
 }
 </script>
+
+<style>
+#accordion-customize {
+    padding-left: 0px;
+}
+</style>

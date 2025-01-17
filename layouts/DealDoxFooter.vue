@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="remove-margin-top-space">
     <div class="ready-to-transform-ribbon">
       <div class="">
 
@@ -39,7 +39,7 @@
                   <NuxtLink to="/cpq-integrations" class="footer-content">Integrations</NuxtLink>
                 </li>
                 <li>
-                  <NuxtLink to="/mobileapp" class="footer-content">Mobile App</NuxtLink>
+                  <NuxtLink to="/mobile-app" class="footer-content">Mobile App</NuxtLink>
                 </li>
                 <li>
                   <NuxtLink to="/" class="footer-content">Document Generation</NuxtLink>
@@ -144,7 +144,7 @@
               <h3 style="color: black;">Compare to</h3>
               <ul class="links-list">
                 <li>
-                  <NuxtLink to="/alternatives/salesforce" class="footer-content">Salesforce CPQ</NuxtLink>
+                  <NuxtLink to="/alternative-to-salesforce-cpq" class="footer-content">Salesforce CPQ</NuxtLink>
                 </li>
                 <li>
                   <NuxtLink to="/alternatives/sap" class="footer-content">SAP CPQ</NuxtLink>
@@ -184,10 +184,10 @@
             <div class="single-footer-widget single-footer-with-compliance">
               <div class="cpq-for-all-container">
                 <div class="cpq-for-all-sub-container">
-                  <NuxtLink to="/" class="logo">
+                  <a href="/" class="logo">
                     <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694695208/logo_m8wwsx.svg"
                       alt="DealDox Icon" />
-                  </NuxtLink>
+                  </a>
                   <span class="footer-contents">
                     <b>CPQ FOR ALL</b>
                   </span>
@@ -274,10 +274,10 @@
               </small>
             </div>
             <div class="col-lg-4 col-sm-12">
-              <NuxtLink to="/" class="logo">
+              <a href="/" class="logo">
                 <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694695208/logo_m8wwsx.svg"
                   alt="DealDox-logo" />
-              </NuxtLink>
+              </a>
               <div class="">
 
 
@@ -288,7 +288,8 @@
                 <small>Karnataka, India</small>
               </div>
             </div>
-            <div class="col-lg-4 col-sm-3" style="line-height: 25px;display: flex;flex-direction: column;justify-content: center;">
+            <div class="col-lg-4 col-sm-3"
+              style="line-height: 25px;display: flex;flex-direction: column;justify-content: center;">
               <small class="text-center">
                 Copyright @{{ this.getCurrentYear }} DealDox Software Pvt Ltd. </small>
               <small>All Rights Reserved.
@@ -386,19 +387,19 @@
       <div class="">
 
         <div class="dealdox-footer-icon">
-          <NuxtLink to="/" class="logo">
+          <a href="/" class="logo">
             <img src="https://res.cloudinary.com/ds6j6gokv/image/upload/v1694695208/logo_m8wwsx.svg"
               alt="DealDox Logo" />
-          </NuxtLink>
+          </a>
         </div>
         <div style="text-align: center;display: flex;flex-direction: column;">
 
 
 
           <small>WeWork Prestige Central, 36, Infantry Road</small>
-    
+
           <small> Bangalore- 560001,Karnataka, India</small>
-      
+
         </div>
         <div class="copyrights-datas">
 
@@ -449,7 +450,7 @@ export default {
         { text: 'CPQ', link: '/quoting-software' },
         { text: 'Workflow Approvals', link: '/approval-software' },
         { text: 'Integrations', link: '/' },
-        { text: 'Mobile App', link: '/mobileapp' },
+        { text: 'Mobile App', link: '/mobile-app' },
         { text: 'Document Generation', link: '/' },
         { text: 'Salesforce Optimization', link: '/' },
         { text: 'Pricing', link: '/pricing' },
@@ -482,7 +483,7 @@ export default {
       ],
       featuresSet5: [
         // { text: 'Odoo', link: '/alternatives/odoo' },
-        { text: 'Salesforce CPQ', link: '/alternatives/salesforce' },
+        { text: 'Salesforce CPQ', link: '/alternative-to-salesforce-cpq' },
         { text: 'SAP CPQ', link: '/alternatives/sap' },
         { text: 'Oracle CPQ', link: '/alternatives/oracle' },
         { text: 'Zoho CPQ', link: '/alternatives/zoho' },
@@ -709,6 +710,10 @@ export default {
   max-width: 1280px;
 }
 
+.remove-margin-top-space {
+  margin-top: -40px;
+}
+
 .ribbon-content-footer {
   color: #fff;
   font-family: Montserrat;
@@ -837,6 +842,10 @@ export default {
     justify-content: space-around;
     gap: 10px;
     padding: 15px;
+  }
+
+  .remove-margin-top-space {
+    margin-top: -75px;
   }
 
   .feature-data {

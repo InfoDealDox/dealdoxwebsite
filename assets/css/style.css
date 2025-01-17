@@ -139,7 +139,7 @@ p:last-child {
 }
 
 .pt-500 {
-  padding-top: 50px;
+  padding-top: 40px;
 }
 
 .ptb-100 {
@@ -5899,8 +5899,14 @@ New Demo CSS
   opacity: 50%;
 }
 
+@media (max-width: 750px) {
+  #Home-frequently-faq {
+    margin-bottom: 68px;
+  }
+}
+
 #Home-frequently-faq {
-  margin-bottom: 175px;
+  margin-bottom: 150px;
 }
 
 /*================================================
@@ -6180,8 +6186,7 @@ Preloader CSS
   }
 
   .new-app-main-banner-wrap-content-full h5,
-  .new-app-main-banner-wrap-content-full h2,
-  .new-app-main-banner-wrap-content-full h2 .linksss {
+  .new-app-main-banner-wrap-content-full h2 {
     padding: 0px 0px 0px 0;
     font-weight: 600;
     font-size: 15px !important;
@@ -6720,7 +6725,8 @@ Preloader CSS
   }
 
   .new-app-main-banner-wrap-content-full h3,
-  .new-app-main-banner-wrap-content-full h2 {
+  .new-app-main-banner-wrap-content-full h2,
+  .new-app-main-banner-wrap-content-full h2 strong .linksss {
     font-size: 20px !important;
     color: black;
   }
@@ -8000,8 +8006,6 @@ Preloader CSS
   .new-free-trial-inner-box .new-free-trial-shape {
     left: 0;
   }
-
-
 
   .new-app-main-banner-wrap-content {
     margin-top: 0;

@@ -48,7 +48,7 @@
                                                     Approvals</NuxtLink>
                                             </li>
                                             <li class="nav-item">
-                                                <NuxtLink to="/mobileapp" class="nav-link">
+                                                <NuxtLink to="/mobile-app" class="nav-link">
                                                     Mobile App
                                                 </NuxtLink>
                                             </li>

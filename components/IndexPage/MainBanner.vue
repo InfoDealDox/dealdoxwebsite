@@ -8,7 +8,9 @@
         <div class="image-container">
           <img src="../../assets/images/CPQ .webp" alt="DealDox Affordable" class="zoom-image">
         </div>
-        <div><small class="new-banner-cpqforAll-content">CPQ FOR ALL</small></div>
+        <div>
+          <h1 class="new-banner-cpqforAll-content" style="padding-bottom: 0px;margin-bottom: 0px;">CPQ FOR ALL</h1>
+        </div>
       </div>
       <div class="new-banner-third-content-div">
         <small class="new-banner-third-content">Sell more with less effort using
@@ -21,6 +23,16 @@
               class="new-bi-chevron-right"><i class="bi bi-chevron-right"></i></div>
           </NuxtLink>
         </button>
+      </div>
+      <div class="mobile-app-banner-logos">
+        <img src="../../assets/images/Startup_left.webp" alt="" class="recognized-left-image">
+
+      </div>
+
+      <div class="recognized-dealdox">
+
+        <img src="../../assets/images/MainBannerStartupLogo.png" alt="" class="recognized-image">
+
       </div>
 
       <footer class="banner-logo-footer">
@@ -39,20 +51,7 @@
 
       </footer>
 
-      <!-- <div class="mobile-app-banner-logos">
-        <div @click="navigateToAppStore" style="cursor: pointer;">
-          <img src="../../assets/images/Home_Play_Store.webp" alt="" class="mainbanner-playstorelogos">
-        </div>
-        <div @click="navigateToPlayStore" style="cursor: pointer;">
-          <img src="../../assets/images/Home_App_Store.webp" alt="" class="mainbanner-playstorelogos">
-        </div>
-      </div>
 
-      <div class="recognized-dealdox">
-
-        <img src="../../assets/images/MainBannerStartupLogo.png" alt="" class="recognized-image">
-
-      </div> -->
     </div>
 
 
@@ -83,4 +82,24 @@ export default {
 
 <style>
 @import "../../assets/css/pages-css/MainBannerCss.css";
+
+@media (max-width:750px) {
+  .mobile-app-banner-logos {
+    display: none;
+
+  }
+
+  .recognized-dealdox {
+    position: relative;
+    right: 0px;
+    bottom: 0px;
+  }
+
+  .recognized-image {
+
+    padding: 0px;
+  }
+
+
+}
 </style>

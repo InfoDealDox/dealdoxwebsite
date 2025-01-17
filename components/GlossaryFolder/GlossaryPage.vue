@@ -4,7 +4,13 @@
 
         <div class="container">
             <div class="pagination-area">
-                <div class="nav-links" style="justify-content: center;">
+                <div class="dealdox-encyclopedia">
+                    <h1>DealDox Encyclopedia</h1>
+                    <span class="dealdox-encyclopedia-content">We have compiled a comprehensive list of over 100 terms
+                        and definitions that can be highly
+                        valuable for sales, revenue, billing, and operations teams. </span>
+                </div>
+                <div class="nav-links" style="justify-content: center;padding-bottom: 20px;">
                     <!-- <ul v-for="category in categories" :key="category.id">
                     <li >
                     <NuxtLink :to="`/glossary-category-details/${category.attributes.slug}`" class="page-numbers">{{
@@ -18,6 +24,10 @@
                         </a>
                     </li>
                 </ul> -->
+
+
+
+
                     <ul v-for="(alphabet, index) in groupby" :key="alphabet + '_' + index"
                         v-if="alphabet && alphabet.data.length > 0">
                         <a :href="`#${alphabet.value}`" class="page-numbers"
@@ -28,9 +38,7 @@
 
                 </div>
             </div>
-            <div class="section-title">
 
-            </div>
             <div class="row justify-content-center" v-if="glossaries !== null">
                 <div class="col-lg-12 col-md-12" v-for="glossary in groupby" :key="glossary.value">
                     <h3 class="glossary-category ml-5" v-if="glossary.data.length > 0" :id="glossary.value"> {{
@@ -107,3 +115,25 @@ export default {
     }
 }
 </script>
+
+<style>
+.dealdox-encyclopedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 3px 30px 3px;
+}
+
+.dealdox-encyclopedia-content {
+    text-align: center;
+    width: 70%;
+
+}
+
+@media (max-width:750px) {
+    .dealdox-encyclopedia-content {
+        width: 100%;
+    }
+}
+</style>

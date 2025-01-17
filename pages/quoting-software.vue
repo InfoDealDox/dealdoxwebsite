@@ -5,9 +5,7 @@
         <AccelerateYourSales />
         <Experiencethefuture />
         <YourBusiness />
-       
-     <PageHeader />
-        <quotefaq/>
+        <quotefaq />
         <DealDoxFooter />
     </div>
 </template>
@@ -19,7 +17,7 @@ import AccelerateYourSales from '../components/AutomatedQuotesGeneration/Acceler
 import Experiencethefuture from '../components/AutomatedQuotesGeneration/Experiencethefuture.vue'
 import YourBusiness from '../components/AutomatedQuotesGeneration/YourBusiness.vue'
 
-import PageHeader from '../components/ContactUs/PageHeader.vue'
+
 import quotefaq from '../components/AutomatedQuotesGeneration/quotefaq.vue'
 import DealDoxFooter from '../layouts/DealDoxFooter.vue'
 import axios from 'axios';
@@ -33,31 +31,31 @@ export default {
         AccelerateYourSales,
         Experiencethefuture,
         YourBusiness,
-        
-         PageHeader,
+
+
         quotefaq,
         DealDoxFooter,
     },
-//    data() {
-//        return {
- //           seoData: [],
-//        }
- //   },
- //   created: async function () {
- //       const response = await axios.get('https://cms.dealdox.io/api/pages?filters[slug][$eq]=quoting-software&populate=deep,5')
- //       const pageData = response.data.data?.length > 0 ? response.data.data[0] : {};
- //       if (pageData?.attributes?.seo?.length > 0) {
- //           this.seoData = pageData.attributes.seo[0];
- //       }
- //   },
-   // head({ $seo }) {
- //       return $seo({
- //           title: this.seoData.metaTitle ||'Automated Quotation Software | Sales Quote Automation',
-  //          description: this.seoData.metaDescription,
- //           keywords: this.seoData.keywords,
-            // image: this.post.image || '',
- //       });
- //   },
+    //    data() {
+    //        return {
+    //           seoData: [],
+    //        }
+    //   },
+    //   created: async function () {
+    //       const response = await axios.get('https://cms.dealdox.io/api/pages?filters[slug][$eq]=quoting-software&populate=deep,5')
+    //       const pageData = response.data.data?.length > 0 ? response.data.data[0] : {};
+    //       if (pageData?.attributes?.seo?.length > 0) {
+    //           this.seoData = pageData.attributes.seo[0];
+    //       }
+    //   },
+    // head({ $seo }) {
+    //       return $seo({
+    //           title: this.seoData.metaTitle ||'Automated Quotation Software | Sales Quote Automation',
+    //          description: this.seoData.metaDescription,
+    //           keywords: this.seoData.keywords,
+    // image: this.post.image || '',
+    //       });
+    //   },
     head: {
         title: 'Automate the process of generating proposals | Dealdox',
         htmlAttrs: {
@@ -74,4 +72,3 @@ export default {
     },
 }
 </script>
-

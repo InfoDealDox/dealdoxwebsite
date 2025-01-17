@@ -16,11 +16,11 @@
                     <img src="../../assets/images/PricingAssests/10.png" class="slide-span-texts" alt="Maket positioning">
                 </div>
                 <div class="slide">
-                    <!-- <span class="slide-span-text">Healthcare</span> -->
+               
                     <img src="../../assets/images/PricingAssests/11.png" class="slide-span-texts" alt="Maket positioning">
                 </div>
                 <div class="slide">
-                    <!-- <span class="slide-span-text">Financial Services</span> -->
+                
                     <img src="../../assets/images/PricingAssests/12.png" class="slide-span-texts" alt="Maket positioning">
                 </div>
                 <div class="slide">
