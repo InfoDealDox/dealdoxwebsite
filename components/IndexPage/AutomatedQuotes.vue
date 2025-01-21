@@ -50,8 +50,8 @@
                                     </li>
                                 </ul>
                                 <div class="btn-box">
-                                <a href="https://www.dealdox.io/demo" target="_blank" class="button-container">
-<button class="default-btn-home">Get a Demo</button></a>
+                                <NuxtLink to="/pricing" target="_blank" class="button-container">
+<button class="default-btn-home">View Pricing & Features</button></NuxtLink>
 
 
                                 </div>

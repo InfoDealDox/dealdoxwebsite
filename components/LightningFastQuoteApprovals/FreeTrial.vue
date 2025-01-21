@@ -14,8 +14,8 @@
                             Experience the Power of Quick Approvals. Get started with a free onboarding
                             today! Sign up now!
                         </h3>
-                    <a href="https://www.dealdox.io/demo" target="_blank" class="button-container">
-<button class="default-btn">Get a Demo</button></a>
+                    <NuxtLink to="/pricing" target="_blank" class="button-container">
+<button class="default-btn">View Pricing & Features</button></NuxtLink>
 
                     </div>
                 </div>

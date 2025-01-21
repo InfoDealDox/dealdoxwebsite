@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-12 col-md-12">
-                    <div class="new-app-main-banner-wrap-image">
+                    <div class="new-app-main-banner-wrap-image" id="new-app-main-banner-wrap-image">
                         <img src="../assets/images/news-header-img.png" alt="News Page Image">
                     </div>
                 </div>
@@ -37,26 +37,26 @@ export default {
         // AutomatedQuotes,
         DealDoxFooter,
     },
- //   data() {
- //       return {
- //           seoData: [],
-//        }
- //   },
- //   created: async function () {
- //       const response = await axios.get('https://cms.dealdox.io/api/pages?filters[slug][$eq]=news&populate=deep,5')
- //       const pageData = response.data.data?.length > 0 ? response.data.data[0] : {};
- //       if (pageData?.attributes?.seo?.length > 0) {
- //           this.seoData = pageData.attributes.seo[0];
- //       }
- //   },
- //   head({ $seo }) {
- //       return $seo({
-  //          title: this.seoData.metaTitle ||'www.dealdox.io',
-  //          description: this.seoData.metaDescription,
-  //          keywords: this.seoData.keywords,
-            // image: this.post.image || '',
- //       });
- //   },
+    //   data() {
+    //       return {
+    //           seoData: [],
+    //        }
+    //   },
+    //   created: async function () {
+    //       const response = await axios.get('https://cms.dealdox.io/api/pages?filters[slug][$eq]=news&populate=deep,5')
+    //       const pageData = response.data.data?.length > 0 ? response.data.data[0] : {};
+    //       if (pageData?.attributes?.seo?.length > 0) {
+    //           this.seoData = pageData.attributes.seo[0];
+    //       }
+    //   },
+    //   head({ $seo }) {
+    //       return $seo({
+    //          title: this.seoData.metaTitle ||'www.dealdox.io',
+    //          description: this.seoData.metaDescription,
+    //          keywords: this.seoData.keywords,
+    // image: this.post.image || '',
+    //       });
+    //   },
     head: {
         title: 'Latest News & Updates | DealDox Quotation Software Insights',
         htmlAttrs: {
@@ -71,7 +71,7 @@ export default {
         link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io/news' }
         ],
     },
-     head: {
+    head: {
         title: 'Latest News & Updates | DealDox Quotation Software Insights',
         htmlAttrs: {
             lang: 'en-us'
@@ -87,3 +87,12 @@ export default {
     },
 }
 </script>
+
+
+<style>
+@media (max-width:750px) {
+    #new-app-main-banner-wrap-image {
+        margin-top: 46px !important;
+    }
+}
+</style>

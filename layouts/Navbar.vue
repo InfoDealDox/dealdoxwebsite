@@ -24,9 +24,7 @@
 
                     <div class="collapse navbar-collapse" :class="{ show: active }">
                         <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <NuxtLink to="/" class="toggle nav-link">Home</NuxtLink>
-                            </li>
+                          
 
                             <li class="nav-item"><a href="#" class="dropdown-toggle nav-link">Platform</a>
                                 <ul class="dropdown-menu1">

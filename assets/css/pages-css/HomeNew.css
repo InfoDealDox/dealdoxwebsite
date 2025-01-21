@@ -11,13 +11,13 @@
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  padding: 6px 16px;
+  padding: 17px 16px;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   gap: 10px;
-  color: #250c36;
-  font-family: Montserrat;
+  color: #0a0a0a;
+  /* font-family: Montserrat; */
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -26,6 +26,7 @@
   text-align: center;
   animation: leftanimate 5s forwards;
   animation-timeline: view();
+  font-size: 36px;
 }
 
 .solution-line-container {
@@ -46,7 +47,7 @@
   list-style: none;
   padding: 5px;
   color: #2a282c;
-  font-family: Roboto;
+  /* font-family: Roboto; */
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
@@ -68,7 +69,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 
 .new-home-left {
@@ -191,13 +191,15 @@
   }
   .new-home-card {
     margin: 7px;
+    font-size: 21px;
   }
   .customize-new-home-container {
     width: 95%;
     border-radius: 28px;
     padding: 15px 10px;
   }
-  .new-home-left-image{
+  .new-home-left-image {
     height: auto;
+    right: 0px;
   }
 }

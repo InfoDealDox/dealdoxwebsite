@@ -20,7 +20,7 @@
                         </p>
                         <h5>Going Global: The Benefits of Multilingual Automated Quotation CPQ Software for Your Business
                         </h5>
-                        <p>Regional CPQ <NuxtLink to='/quoting-software'>automated quote generation</NuxtLink>
+                        <p>Regional CPQ <NuxtLink to='/quoting-software'>Automated Quote Generation</NuxtLink>
                             is an advanced solution designed to support multilingual communication in a global business
                             environment. This feature enables businesses to create and share deal documents, such as
                             quotations, contracts, proposals, agreements, SOW and more, in a variety of languages. By

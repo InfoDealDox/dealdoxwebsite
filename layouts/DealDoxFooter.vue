@@ -447,9 +447,9 @@ export default {
       getCurrentYear: new Date().getFullYear(),
 
       featuresSet1: [
-        { text: 'CPQ', link: '/quoting-software' },
+        { text: 'CPQ', link: '/services-cpq' },
         { text: 'Workflow Approvals', link: '/approval-software' },
-        { text: 'Integrations', link: '/' },
+        { text: 'Integrations', link: '/cpq-integrations' },
         { text: 'Mobile App', link: '/mobile-app' },
         { text: 'Document Generation', link: '/' },
         { text: 'Salesforce Optimization', link: '/' },

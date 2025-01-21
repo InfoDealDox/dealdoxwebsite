@@ -12,8 +12,8 @@
                             ensuring accurate and consistent quotes. It also enables seamless collaboration between sales
                             teams, partners, and customers, leading to faster sales cycles and improved customer
                             satisfaction. <br>Supercharge Your Sales Process and Get started free onboarding today!</h3>
-                       <a href="https://www.dealdox.io/demo" target="_blank" class="button-container">
-<button class="default-btn">Get a Demo</button></a>
+                       <NuxtLink to="/pricing" target="_blank" class="button-container">
+<button class="default-btn">View Pricing & Features</button></NuxtLink>
 
                     </div>
                 </div>

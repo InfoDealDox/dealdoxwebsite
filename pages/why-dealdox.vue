@@ -12,7 +12,7 @@
                     satisfaction.
                 </small>
                 <button class="whyDealdoxDemo">
-                    <NuxtLink to="/demo" style="text-decoration: none;">Book a Demo</NuxtLink>
+                    <NuxtLink to="/pricing" style="text-decoration: none;">View Pricing & Features</NuxtLink>
                 </button>
             </div>
             <div class="why-Dealdox-subheading2">

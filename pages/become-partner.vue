@@ -8,7 +8,7 @@
                     <span class="partner-heading">Become a DealDox Partner </span>
                     <small class="partner-heading-content">Partner with DealDox for Success </small>
                     <button class="partner-whyDealdoxDemo">
-                        <NuxtLink to="/demo" style="text-decoration: none;">Book a Demo</NuxtLink>
+                        <NuxtLink to="/pricing" style="text-decoration: none;">View Pricing & Features</NuxtLink>
                     </button>
                 </div>
             </div>

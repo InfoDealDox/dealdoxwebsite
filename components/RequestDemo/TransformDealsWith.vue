@@ -7,7 +7,7 @@
                         <div class="features-content">
                             <ul class="features-list">
                                 <h2>Transform Deals with <br><span class="sub-title">DealDox</span> in Action!</h2>
-                                <p>A centralized platform for automated quote generation, <a
+                                <p>A centralized platform for Automated Quote Generation, <a
                                         href="https://www.dealdox.io/services-cpq">Accurate Pricing,</a> Product
                                     Bundling
                                     and Upselling, Margin Optimization, Cost Visibility, Efficient Pricing Strategy,

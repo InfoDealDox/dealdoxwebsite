@@ -7,8 +7,8 @@
                         <h1>Simple <span style="color: #715CF3">CPQ integration</span> for businesses</h1>
                         <p>Streamline sales operations, enhance accuracy, and deliver a seamless customer experience. </p>
                         <div class="tb-30">
-                        <a href="https://www.dealdox.io/demo" target="_blank">
-<button class="default-btn"> <i class='bx bx-paper-plane'></i>Get a Demo</button></a>
+                        <NuxtLink to="/pricing" target="_blank">
+<button class="default-btn"> <i class='bx bx-paper-plane'></i>View Pricing & Features</button></NuxtLink>
                         </div>
                     </div>
                 </div>

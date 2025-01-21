@@ -1,32 +1,32 @@
 <template>
     <!-- <div> -->
-        <!-- <div style="margin-top: 150px;">
+    <!-- <div style="margin-top: 150px;">
             <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit tempora eaque voluptatem nostrum
                 molestias maxime voluptates sit nam. Facere iste veniam inventore alias aliquam non soluta obcaecati a
                 illum. Ut?</h1>
                 </div> -->
-            <div>
-                <div>
-                    <Navbar class="navbar-style-two" />
-                    <div class="container">
-                        <div class="row align-items-center">
-                            <div class="col-lg-12 col-md-12">
-                                <div class="new-app-main-banner-wrap-image">
-                                    <img src="../../assets/images/banner/glossary.png" alt="image">
-                                </div>
-                            </div>
+    <div>
+        <div>
+            <Navbar class="navbar-style-two" />
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-12 col-md-12">
+                        <div class="new-app-main-banner-wrap-image" id="new-app-main-banner-wrap-image">
+                            <img src="../../assets/images/banner/glossary.png" alt="image">
                         </div>
                     </div>
-                    <!-- <PageTitle class="page-title-style-two-glossary" pageTitle=""
-            pageDesc="" /> -->
-                    <!-- <PageTitle class="page-title-style-two-glossary" pageTitle="Glossary"
-            pageDesc="Stay Up-to-Date with Our Latest Insights, Tips, and News" /> -->
-                    <GlossaryPage />
-                    <!-- <AutomatedQuotes /> -->
-                    <DealDoxFooter />
                 </div>
             </div>
-            <!-- </div> -->
+            <!-- <PageTitle class="page-title-style-two-glossary" pageTitle=""
+            pageDesc="" /> -->
+            <!-- <PageTitle class="page-title-style-two-glossary" pageTitle="Glossary"
+            pageDesc="Stay Up-to-Date with Our Latest Insights, Tips, and News" /> -->
+            <GlossaryPage />
+            <!-- <AutomatedQuotes /> -->
+            <DealDoxFooter />
+        </div>
+    </div>
+    <!-- </div> -->
 </template>
 
 <script>
@@ -82,3 +82,12 @@ export default {
     },
 }
 </script>
+
+
+<style>
+@media (max-width:750px) {
+    #new-app-main-banner-wrap-image {
+        margin-top: 46px !important;
+    }
+}
+</style>

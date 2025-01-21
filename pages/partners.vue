@@ -10,7 +10,7 @@
                         additional time or resources to
                         succeed. </small>
                     <button class="partner-whyDealdoxDemo">
-                        <NuxtLink to="/demo" style="text-decoration: none;">Book a Demo</NuxtLink>
+                        <NuxtLink to="/pricing" style="text-decoration: none;">View Pricing & Features</NuxtLink>
                     </button>
                 </div>
             </div>
