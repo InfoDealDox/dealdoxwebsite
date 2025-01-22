@@ -40,7 +40,8 @@
 .comparision-h1-tag {
   color: white;
   animation: animateText 3s ease-in-out;
-  font-family: Montserrat;
+  /* font-family: var(--monsterFamily); */
+  font-family: var(--monsterFamily);
 }
 .comparision-h1-content {
   text-align: center;
@@ -132,12 +133,12 @@
   animation-range: entry 70% cover 50%;
 }
 
-#customize-entry{
-  animation:none;
+#customize-entry {
+  animation: none;
 }
 
 .compare-h2-tags-css {
-  font-family: Montserrat;
+  font-family: var(--monsterFamily);
   margin-bottom: 20px;
 }
 
@@ -169,4 +170,10 @@
   color: white;
   padding: 10px;
   text-align: center;
+}
+
+@media (max-width: 750px) {
+  .comparisionAllTop {
+    margin-top: 50px;
+  }
 }

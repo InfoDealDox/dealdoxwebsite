@@ -1,11 +1,6 @@
 <template>
+<div :class="['navbar-area', { 'is-sticky': isSticky }]" id="navbar-two-containers-div">
 
-
-    <div :class="['navbar-area', { 'is-sticky': isSticky }]" id="navbar-two-containers-div">
-        <!-- <div class="navbar-new-banner">
-            <span class="new-banner-entire-body">✨<span class="navbar-new-banner-content">Proposal automation, approval workflows, and CRM integrations—all at an affordable price.<NuxtLink to="/pricing" class="new-navbar-banner-readbanner">
-                Explore now!</NuxtLink></span>🎉💼</span>
-        </div> -->
         <div class="jexa-nav">
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -24,7 +19,7 @@
 
                     <div class="collapse navbar-collapse" :class="{ show: active }">
                         <ul class="navbar-nav">
-                          
+
 
                             <li class="nav-item"><a href="#" class="dropdown-toggle nav-link">Platform</a>
                                 <ul class="dropdown-menu1">
@@ -165,7 +160,7 @@ export default {
     padding: 10px 20px;
     font-size: 16px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(255, 255, 255, 0.6);
-    position:relative;
+    position: relative;
     overflow: hidden;
 
 
@@ -189,68 +184,69 @@ export default {
     letter-spacing: 1px;
 }
 
-.new-banner-entire-body{
+.new-banner-entire-body {
     position: relative;
     overflow: hidden;
 }
 
 .new-banner-entire-body::before {
-  width: 200px;
-  height: 80px;
-  content: "";
-  display: block;
-  background: black;
-  position: absolute;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-  -webkit-animation-duration: 3s;
-  animation-duration: 3s;
-  -webkit-animation-delay: 2s;
-  animation-delay: 2s;
-  -webkit-animation-name: purpleButtonSlide;
-  animation-name: run;
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-  z-index: 1;
-  -webkit-filter: blur(10px);
-  filter: blur(10px);
-  opacity: 0.3;
-  transform: translateZ(0) scale(1);
-  z-index: 10;
+    width: 200px;
+    height: 80px;
+    content: "";
+    display: block;
+    background: black;
+    position: absolute;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-name: purpleButtonSlide;
+    animation-name: run;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    z-index: 1;
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
+    opacity: 0.3;
+    transform: translateZ(0) scale(1);
+    z-index: 10;
 }
 
 @keyframes run {
-  0% {
-    left: -10%;
-  }
-
-  100% {
-    left: 95%;
-  }
-}
-
-
-
-@media (max-width:1024px){
-    .navbar-new-banner-content {
-        font-size: 14px !important;
-        
+    0% {
+        left: -10%;
     }
 
-    .new-banner-entire-body{
-    font-size: 14px;
-    text-align: center;
+    100% {
+        left: 95%;
+    }
 }
+
+
+
+@media (max-width:1024px) {
+    .navbar-new-banner-content {
+        font-size: 14px !important;
+
+    }
+
+    .new-banner-entire-body {
+        font-size: 14px;
+        text-align: center;
+    }
 }
 
 @media (max-width:520px) {
     .navbar-new-banner-content {
         font-size: 9px !important;
     }
-    .new-banner-entire-body{
-    font-size: 10px;
-    text-align: center;
-}
+
+    .new-banner-entire-body {
+        font-size: 10px;
+        text-align: center;
+    }
 }
 </style>

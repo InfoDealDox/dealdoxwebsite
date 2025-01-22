@@ -4,8 +4,7 @@
       <h2 class="new-home-card">Problems We Fix at Economical CPQ Pricing Plans </h2>
       <div class="new-home-design-body">
         <div class="new-home-left">
-          <img src="../../assets/images/PainsSolveLeft.webp" alt="the_best_CPQ_solution"
-            class="new-home-left-image" />
+          <img src="../../assets/images/PainsSolveLeft.webp" alt="the_best_CPQ_solution" class="new-home-left-image" />
         </div>
         <div class="new-home-design-right">
 
@@ -43,4 +42,11 @@ export default {
 
 <style>
 @import url(../../assets/css/pages-css/HomeNew.css);
+
+
+@media (max-width:750px) {
+  .solution-line-content span {
+    font-size: 15px;
+  }
+}
 </style>
