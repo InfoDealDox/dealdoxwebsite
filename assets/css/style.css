@@ -54,7 +54,7 @@ Default CSS
   --gradientColor: linear-gradient(99.01deg, #715cf3 20.98%, #5c99f3 94.62%);
   --paragraphColor: #191717;
   --fontFamily: "Inter", sans-serif;
-  --monsterFamily: "Montserrat";
+  --monsterFamily: "Montserrat",;
   --robotaFamily: "Roboto";
 }
 

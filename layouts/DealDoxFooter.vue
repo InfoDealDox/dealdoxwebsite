@@ -147,11 +147,11 @@
                   <NuxtLink to="/alternative-to-salesforce-cpq" class="footer-content">Salesforce CPQ</NuxtLink>
                 </li>
                 <li>
-                  <NuxtLink to="/alternatives/sap" class="footer-content">SAP CPQ</NuxtLink>
+                  <NuxtLink to="/alternative-to-sap-cpq" class="footer-content">SAP CPQ</NuxtLink>
                 </li>
 
                 <li>
-                  <NuxtLink to="/alternatives/oracle" class="footer-content">Oracle CPQ</NuxtLink>
+                  <NuxtLink to="/alternative-to-oracle-cpq" class="footer-content">Oracle CPQ</NuxtLink>
                 </li>
                 <!-- <li>
                   <NuxtLink to="/alternatives/odoo" class="footer-content">Odoo</NuxtLink>
@@ -160,17 +160,17 @@
 
 
                 <li>
-                  <NuxtLink to="/alternatives/zoho" class="footer-content">Zoho CPQ</NuxtLink>
+                  <NuxtLink to="/alternative-to-zoho-cpq" class="footer-content">Zoho CPQ</NuxtLink>
                 </li>
                 <li>
-                  <NuxtLink to="/alternatives/hubspot" class="footer-content">HubSpot CPQ</NuxtLink>
+                  <NuxtLink to="/alternative-to-hubspot-cpq" class="footer-content">HubSpot CPQ</NuxtLink>
                 </li>
                 <li>
-                  <NuxtLink to="/alternatives/dealhub" class="footer-content">DealHub</NuxtLink>
+                  <NuxtLink to="/alternate-to-dealhub-cpq" class="footer-content">DealHub</NuxtLink>
                 </li>
-                <li>
+                <!-- <li>
                   <NuxtLink to="/alternatives/connectwise" class="footer-content">ConnectWise Sell</NuxtLink>
-                </li>
+                </li> -->
                 <!-- <li>
                   <NuxtLink to="/alternatives/vyapaar" class="footer-content">Vyapaar</NuxtLink>
                 </li>
@@ -484,12 +484,12 @@ export default {
       featuresSet5: [
         // { text: 'Odoo', link: '/alternatives/odoo' },
         { text: 'Salesforce CPQ', link: '/alternative-to-salesforce-cpq' },
-        { text: 'SAP CPQ', link: '/alternatives/sap' },
-        { text: 'Oracle CPQ', link: '/alternatives/oracle' },
-        { text: 'Zoho CPQ', link: '/alternatives/zoho' },
-        { text: 'HubSpot CPQ', link: '/alternatives/hubspot' },
-        { text: 'DealHub', link: '/alternatives/dealhub' },
-        { text: 'ConnectWise Sell', link: '/alternatives/connectwise' },
+        { text: 'SAP CPQ', link: '/alternative-to-sap-cpq' },
+        { text: 'Oracle CPQ', link: '/alternative-to-oracle-cpq' },
+        { text: 'Zoho CPQ', link: '/alternative-to-zoho-cpq ' },
+        { text: 'HubSpot CPQ', link: '/alternative-to-hubspot-cpq' },
+        { text: 'DealHub', link: '/alternate-to-dealhub-cpq' },
+        // { text: 'ConnectWise Sell', link: '/alternatives/connectwise' },
         // { text: 'Vyapaar', link: '/alternatives/vyapaar' },
         // { text: 'BiziVerse', link: '/alternatives/biziverse' },
 

@@ -41,7 +41,7 @@
   color: white;
   animation: animateText 3s ease-in-out;
   /* font-family: var(--monsterFamily); */
-  font-family: var(--monsterFamily);
+ font-family: 'Montserrat', sans-serif;
 }
 .comparision-h1-content {
   text-align: center;
@@ -120,7 +120,7 @@
   font-size: 15px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
   text-align: center;
 }
 
@@ -138,7 +138,7 @@
 }
 
 .compare-h2-tags-css {
-  font-family: var(--monsterFamily);
+ font-family: 'Montserrat', sans-serif;
   margin-bottom: 20px;
 }
 
