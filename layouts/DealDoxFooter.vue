@@ -486,7 +486,7 @@ export default {
         { text: 'Salesforce CPQ', link: '/alternative-to-salesforce-cpq' },
         { text: 'SAP CPQ', link: '/alternative-to-sap-cpq' },
         { text: 'Oracle CPQ', link: '/alternative-to-oracle-cpq' },
-        { text: 'Zoho CPQ', link: '/alternative-to-zoho-cpq ' },
+        { text: 'Zoho CPQ', link: '/alternative-to-zoho-cpq' },
         { text: 'HubSpot CPQ', link: '/alternative-to-hubspot-cpq' },
         { text: 'DealHub', link: '/alternate-to-dealhub-cpq' },
         // { text: 'ConnectWise Sell', link: '/alternatives/connectwise' },

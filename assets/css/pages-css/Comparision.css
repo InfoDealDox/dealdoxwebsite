@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap");
+
 .comparisionAllTop {
   margin-top: 80px;
   max-width: 1440px;
@@ -40,8 +42,8 @@
 .comparision-h1-tag {
   color: white;
   animation: animateText 3s ease-in-out;
-  /* font-family: var(--monsterFamily); */
- font-family: 'Montserrat', sans-serif;
+
+  font-family: "Montserrat", serif !important;
 }
 .comparision-h1-content {
   text-align: center;
@@ -138,7 +140,7 @@
 }
 
 .compare-h2-tags-css {
- font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", serif !important;
   margin-bottom: 20px;
 }
 
@@ -175,5 +177,16 @@
 @media (max-width: 750px) {
   .comparisionAllTop {
     margin-top: 50px;
+  }
+  .compareData-h2-container,
+  .compareData-h3-container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 540px) {
+  .compareData-h2-container,
+  .compareData-h3-container {
+    width: 95%;
   }
 }
