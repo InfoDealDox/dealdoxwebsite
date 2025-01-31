@@ -1,0 +1,168 @@
+.whyDealdox-image {
+  border-radius: 10px;
+  width: 54%;
+}
+
+.why-dealdox-body {
+  max-width: 1320px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  margin: auto;
+  margin-top: 110px;
+}
+
+.why-dealdox-container {
+  display: flex;
+  height: 300px;
+  gap: 10px;
+  width: 85%;
+  margin: auto;
+}
+
+.why-right-content,
+.why-left-content {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: space-around;
+}
+.why-DD-right,
+.why-DD-left {
+    height: 100%;
+    margin: auto
+}
+
+.when-heading-with-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.why-dealdox-h1 {
+  font-size: 32px;
+  font-family: "MONTSERRAT";
+  font-weight: 600;
+}
+
+.why-dd-demo-btn{
+    z-index: 1;
+    border: none;
+    position: relative;
+    padding: 8px 27px;
+    border-radius: 30px;
+    display: inline-block;
+    color: var(--whiteColor);
+    -webkit-transition: var(--transition);
+    transition: var(--transition);
+    -webkit-box-shadow: 0px 12px 35px rgba(244, 235, 238, 0.25);
+    box-shadow: 0px 12px 35px rgba(244, 236, 239, 0.25);
+    font-size: var(--fontSize);
+    font-weight: 600;
+    background-image: linear-gradient(99.01deg, #715cf3 20.98%, #5c99f3 94.62%);
+    width: fit-content;
+}
+
+.why-dd-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 9px;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+}
+.why-dd-header-body{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+
+}
+
+
+.What-is-DealDox,.What-is-DealDox-h1{
+
+    font-family: "MONTSERRAT";
+    font-weight: 600;
+
+}
+
+.What-is-DealDox{
+  font-size: 40px;
+}
+
+.What-is-DealDox-h1{
+  font-size: 44px;
+}
+
+
+.What-is-DealDox-content{
+    text-align: center;
+}
+
+.why-dd-header-image{
+    height: 400px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+@media (max-width:800px){
+  .why-dealdox-container{
+    flex-direction: column;
+    height: auto;
+    gap:30px;
+
+  }
+  .why-left-content,.why-right-content{
+    width: 100%;
+    gap: 8px;
+    align-items: center;
+  }
+  .why-dealdox-h1{
+    text-align: center;
+    font-size: 23px;
+  }
+  .why-right-content small,.why-left-content small,.What-is-DealDox,.What-is-DealDox-h1{
+    text-align: center;
+  }
+  .why-dealdox-body {
+    gap: 50px;
+    margin-top: 70px;
+  }
+  .why-dd-header{
+    width: 90%;
+  }
+  .What-is-DealDox {
+    font-size: 25px;
+  }
+
+  .What-is-DealDox-h1{
+    font-size: 30px;
+  }
+  .why-dd-header-image {
+  padding: 24px;
+  height: auto;
+  margin: 0;
+  }
+  .why-dd-header-body {
+    gap: 7px;
+  }
+
+  .why-DD-right,.why-DD-left{
+    order: 2;
+  }
+.why-dd-demo-btn{
+  font-size: 12px;
+  margin-top: 5px;
+}
+}
+
+@media (min-width:800px) and (max-width:1024px){
+  .why-DD-right,.why-DD-left{
+    height: 300px;
+  }
+  .why-dealdox-container{
+    height: 350px;
+  }
+}

@@ -1,0 +1,305 @@
+.why-sales-optimization-container {
+  max-width: 1440px;
+  margin: auto;
+  margin-top: 110px;
+}
+
+.sales-optimize-image {
+  display: flex;
+  gap: 50px;
+  width: 95%;
+  margin: auto;
+  height: 500px;
+}
+
+.sales-optimize-content-left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  justify-content: space-evenly;
+}
+
+.sales-optimize-image-right {
+  width: 49%;
+  padding: 4%;
+}
+
+.salesforce-optimization-heading {
+  display: inline-block;
+  background: var(--gradientColor);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1.1;
+  font-weight: 700;
+}
+
+.salesforce-optimization-heading-content {
+  font-size: 50px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  line-height: 70px;
+}
+.salesforce-optimization-lowercontent {
+  font-size: 1.25rem;
+  line-height: 150%;
+}
+
+.sales-optimize-demo-btn {
+  z-index: 1;
+  border: none;
+  position: relative;
+  padding: 8px 27px;
+  border-radius: 30px;
+  display: inline-block;
+  color: var(--whiteColor);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  -webkit-box-shadow: 0px 12px 35px rgba(244, 235, 238, 0.25);
+  box-shadow: 0px 12px 35px rgba(244, 236, 239, 0.25);
+  font-size: var(--fontSize);
+  font-weight: 600;
+  background-image: linear-gradient(99.01deg, #715cf3 20.98%, #5c99f3 94.62%);
+  width: fit-content;
+}
+
+/* cards */
+.sales-table-body {
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../images/sales-optimize/salesforceoptimizationBg.webp);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.so-main-sub-conatainer {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  gap: 30px;
+  padding: 60px 3px;
+}
+
+.so-left-sub-container,
+.so-right-sub-container {
+  width: 50%;
+}
+
+.so-card {
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  /* border: 0.1px solid #ccc; */
+  border-radius: 10px;
+  box-shadow: 0px -1px 0px 0px white;
+  background: #ffffff;
+}
+
+.sales-optimize-card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+.so-left-sub-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.so-right-sub-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.so-left-first-part-h1 {
+  font-size: 38px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  line-height: 50px;
+  color: white;
+}
+
+.so-card-image-top-header {
+  height: 300px;
+}
+
+/* .so-card-header-image img{
+  height: 100%;
+} */
+
+.so-bottom-container {
+  height: calc (100% - 300px);
+  color: #334155;
+  font-size: 16px;
+}
+
+.so-card-content-heading {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 25px;
+}
+
+/* SalesForm  */
+
+.so-form-body {
+  display: flex;
+  min-height: 250px;
+  padding: 40px 5%;
+  margin: auto;
+  gap: 20px;
+  color: white;
+  background-image: url(../../images/sales-optimize/salesforceoptimizationBg.webp);
+}
+
+.looking-request,
+.so-form-subject {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.looking-to-optimize {
+  font-size: 46px;
+  font-family: "Montserrat";
+  line-height: 58px;
+  font-weight: 600;
+}
+
+.looking-request {
+  gap: 20px;
+}
+.so-form-subject {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.request-a-personalized {
+  font-size: 18px;
+}
+
+.pr-vacy-so {
+  font-size: 12px;
+}
+
+.so-company-email {
+  position: relative;
+}
+
+.so-company-email::before {
+  content: "*";
+  color: red;
+  position: absolute;
+  left: -9px;
+  top: -2px;
+}
+
+.so-default-btn {
+  z-index: 1;
+  border: none;
+  position: relative;
+  padding: 8px 27px;
+  border-radius: 30px;
+  display: inline-block;
+  color: #3b0065;
+  transition: var(--transition);
+  -webkit-box-shadow: 0px 12px 35px rgba(244, 235, 238, 0.25);
+  box-shadow: 0px 12px 35px rgba(244, 236, 239, 0.25);
+  font-size: var(--fontSize);
+  font-weight: 600;
+}
+
+.so-email-container-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.so-email-container-body input {
+  border-radius: 3px;
+  border: none;
+  padding: 6px;
+  width: 90%;
+}
+
+.so-gap-container {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+@media (max-width: 750px) {
+  .sales-optimize-image {
+    flex-direction: column;
+    height: auto;
+    gap: 5px;
+  }
+
+  .why-sales-optimization-container {
+    margin-top: 50px;
+  }
+
+  .sales-optimize-content-left {
+    width: 100%;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .salesforce-optimization-heading-content {
+    font-size: 36px;
+    line-height: normal;
+    text-align: center;
+  }
+  .salesforce-optimization-lowercontent {
+    text-align: center;
+    font-size: 15px;
+  }
+  .sales-optimize-image-right {
+    width: auto;
+    padding: 4%;
+  }
+
+  .sales-optimize-demo-btn {
+    padding: 8px 18px;
+    font-size: 12px;
+  }
+  .no-break-rquired {
+    display: none;
+  }
+
+  .so-main-sub-conatainer {
+    flex-direction: column;
+  }
+
+  .so-right-sub-container,
+  .so-left-sub-container,
+  .so-form-subject,
+  .looking-request {
+    width: 100%;
+  }
+
+  .so-form-body {
+    flex-direction: column;
+  }
+  .so-email-container-body input {
+    padding: 12px;
+  }
+
+  .so-gap-container {
+   gap:18px;
+  }
+
+  .so-left-sub-container{
+    gap: 30px;
+  }
+  .so-left-first-part-h1{
+    text-align: center;
+  }
+}

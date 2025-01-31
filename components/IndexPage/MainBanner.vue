@@ -13,9 +13,8 @@
         </div>
       </div>
       <div class="new-banner-third-content-div">
-        <small class="new-banner-third-content">Sell more with less effort using
-          an easy-to-use guided selling solution to create proposals, estimations, contracts, and approval
-          workflows.</small>
+        <small class="new-banner-third-content">An easy-to-use guided selling approach to creating proposals,
+          estimations, contracts, and approval workflows.</small>
       </div>
       <div class="banner-new-button">
         <button class="transition-new-banner">
@@ -31,7 +30,7 @@
 
       <div class="recognized-dealdox">
 
-        <img src="../../assets/images/MainBannerStartupLogo.png" alt="" class="recognized-image">
+        <img src="../../assets/images/MainBannerStartupLogo.png" alt="CPQ Software Startup" class="recognized-image">
 
       </div>
 

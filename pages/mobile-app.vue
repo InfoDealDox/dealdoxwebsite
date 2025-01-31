@@ -77,7 +77,7 @@ import Navbar from '../layouts/Navbar';
 import DealDoxFooter from '../layouts/DealDoxFooter';
 
 export default {
-    name: "WhyDealDox",
+    name: "MobileApp",
 
     components: {
         Navbar,
@@ -136,8 +136,9 @@ export default {
 }
 
 .mobileapp-heading {
-    font-weight: 600;
+    font-weight: 500;
     padding: 6px 0px;
+    font-family: 'Montserrat';
 }
 
 .mobile-app-image {
@@ -221,11 +222,13 @@ export default {
 
 .DealDox-CPQ-Mobile {
     font-size: 37px;
-    font-weight: 700;
+    font-weight: 600;
+    font-family: 'Montserrat';
 }
 
 .On-the-Go-Efficiency {
     font-size: 22px;
+    font-family: "Roboto", serif;
 }
 
 

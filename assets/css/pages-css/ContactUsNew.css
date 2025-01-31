@@ -28,7 +28,7 @@
 }
 
 .contact-us-heading {
-  font-family: var(--monsterFamily) !important;
+  font-family: "Montserrat", serif !important;
   font-size: 40px;
   font-weight: 600;
   line-height: 4rem;
@@ -42,7 +42,7 @@
 
 .contact-us-address-keyword {
   font-size: 20px;
-  font-family: var(--monsterFamily) !important;
+  font-family: "Montserrat", serif !important;
   font-weight: 600;
   color: white;
 }
@@ -61,7 +61,7 @@
 .queries-support {
   display: flex;
   flex-direction: column;
-  font-family: var(--robotaFamily);
+  font-family: "Roboto", serif;
   padding-left: 5px;
   gap: 7px;
 }
@@ -102,14 +102,14 @@
   font-weight: 500;
   font-size: 21px;
   line-height: 27px;
-  font-family: var(--monsterFamily) !important;
+  font-family: "Montserrat", serif !important;
   letter-spacing: 1px;
   opacity: 0.8;
 }
 .we-re-assist-you {
   color: rgba(37, 12, 54, 0.8);
   font-weight: 300;
-  font-family: var(--monsterFamily) !important;
+  font-family: "Montserrat", serif !important;
   font-size: 23px;
   opacity: 0.7;
 }

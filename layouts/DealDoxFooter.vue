@@ -166,7 +166,7 @@
                   <NuxtLink to="/alternative-to-hubspot-cpq" class="footer-content">HubSpot CPQ</NuxtLink>
                 </li>
                 <li>
-                  <NuxtLink to="/alternate-to-dealhub-cpq" class="footer-content">DealHub</NuxtLink>
+                  <NuxtLink to="/alternate-to-dealhub-cpq" class="footer-content">DealHub CPQ</NuxtLink>
                 </li>
                 <!-- <li>
                   <NuxtLink to="/alternatives/connectwise" class="footer-content">ConnectWise Sell</NuxtLink>
@@ -488,7 +488,7 @@ export default {
         { text: 'Oracle CPQ', link: '/alternative-to-oracle-cpq' },
         { text: 'Zoho CPQ', link: '/alternative-to-zoho-cpq' },
         { text: 'HubSpot CPQ', link: '/alternative-to-hubspot-cpq' },
-        { text: 'DealHub', link: '/alternate-to-dealhub-cpq' },
+        { text: 'DealHub CPQ', link: '/alternate-to-dealhub-cpq' },
         // { text: 'ConnectWise Sell', link: '/alternatives/connectwise' },
         // { text: 'Vyapaar', link: '/alternatives/vyapaar' },
         // { text: 'BiziVerse', link: '/alternatives/biziverse' },

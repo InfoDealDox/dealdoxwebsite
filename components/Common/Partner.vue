@@ -2,7 +2,7 @@
   <div class="partner-area">
     <div class="container mb-5">
       <div class="features-area">
-        <h2 style="text-align: center; font-size: 24px; padding: 20px 0;">Brands That Trust Us*</h2>
+        <h2 style="text-align: center; font-size: 24px; padding: 20px 0;">Brands That Trust Us</h2>
         <div class="container">
           <div class="slide-tracker-container">
             <div class="slider-2">
@@ -124,7 +124,7 @@ img.slide-span-texts {
 @keyframes scrolls {
 
     0% {
-        transform: translateX(0);
+        transform: translateX(0px);
     }
 
     100% {

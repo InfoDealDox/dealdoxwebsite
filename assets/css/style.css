@@ -5900,14 +5900,15 @@ New Demo CSS
   opacity: 50%;
 }
 
-@media (max-width: 750px) {
-  #Home-frequently-faq {
-    margin-bottom: 68px;
-  }
-}
-
 #Home-frequently-faq {
   margin-bottom: 150px;
+}
+
+
+@media (max-width: 750px) {
+  #Home-frequently-faq {
+    margin-bottom: 90px !important;
+  }
 }
 
 /*================================================

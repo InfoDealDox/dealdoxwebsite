@@ -106,8 +106,7 @@ export default {
     letter-spacing: -1.2px;
     font-size: 37px;
     font-weight: 500;
-    text-align: center;
-    font-family: var(--robotaFamily) !important;
+    font-family: "Roboto", serif;
 }
 
 .pricing-Excel-functions-body {
