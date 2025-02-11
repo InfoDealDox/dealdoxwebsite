@@ -45,7 +45,7 @@
                   <NuxtLink to="/" class="footer-content">Document Generation</NuxtLink>
                 </li>
                 <li>
-                  <NuxtLink to="/" class="footer-content">Salesforce Optimization</NuxtLink>
+                  <NuxtLink to="/salesforce-optimization" class="footer-content">Salesforce Optimization</NuxtLink>
                 </li>
 
                 <li>
@@ -452,7 +452,7 @@ export default {
         { text: 'Integrations', link: '/cpq-integrations' },
         { text: 'Mobile App', link: '/mobile-app' },
         { text: 'Document Generation', link: '/' },
-        { text: 'Salesforce Optimization', link: '/' },
+        { text: 'Salesforce Optimization', link: '/salesforce-optimization' },
         { text: 'Pricing', link: '/pricing' },
         { text: 'Security', link: '/security' },
         { text: 'HIPAA', link: '/' }
@@ -819,8 +819,13 @@ export default {
 
 .bi-bi-right-chevron {
   background-color: #3881ee;
-  padding: 4px;
   border-radius: 20px;
+  width: 32px;
+  height: 32px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 

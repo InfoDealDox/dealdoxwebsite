@@ -6,7 +6,7 @@
                     Supercharge your sales team with DealDox’s Salesforce Automation
                 </div>
                 <div class="so-card">
-                    <img src="../../assets/images/sales-optimize/card1.webp" alt="" class="so-card-image-top-header">
+                    <img src="../../assets/images/sales-optimize/Salesforce1.png" alt="" class="so-card-image-top-header">
                     <div class="sales-optimize-card-content">
                         <div class="so-card-header-image">
                             <img src="" alt="" class="">
@@ -14,7 +14,7 @@
                         </div>
                         <div class="so-bottom-container"><span class="so-card-content-second-sub-heading">
                             Enhance your Salesforce experience with our DealDox solution. Effortlessly handle data,
-                            generate insightful reports, and simplify the quoting process.
+                            generate insightful reports, and simplify the <NuxtLink to='/quoting-software'>quoting process.</NuxtLink>
                         </span>
                         <ul class="so-card-content-ul">
                             <li class="so-card-content-li">Enhance Salesforce adoption with workflows compatible with
@@ -32,14 +32,14 @@
             </div>
             <div class="so-right-sub-container">
                 <div class="so-card">
-                    <img src="../../assets/images/sales-optimize/card2.webp" alt="" class="so-card-image-top-header">
+                    <img src="../../assets/images/sales-optimize/Workflow automation.png" alt="" class="so-card-image-top-header">
                     <div class="sales-optimize-card-content">
                         <div class="so-card-header-image">
                             <img src="" alt="" class="">
                             <h2 class="so-card-content-heading">DealDox Workflow Automation </h2>
                         </div>
                         <div class="so-bottom-container"><span class="so-card-content-second-sub-heading">
-                            Easily automate complex workflows with DealDox. Design no-code processes, gain actionable
+                            Easily <NuxtLink to="/quoting-software">automate complex workflows</NuxtLink> with DealDox. Design no-code processes, gain actionable
                             insights, and maintain compliance.
                         </span>
                         <ul class="so-card-content-ul">
@@ -54,7 +54,7 @@
                     </div>
                 </div>
                 <div class="so-card">
-                    <img src="../../assets/images/sales-optimize/Salesforce1.png" alt="" class="so-card-image-top-header">
+                    <img src="../../assets/images/sales-optimize/card2.webp" alt="" class="so-card-image-top-header">
                     <div class="sales-optimize-card-content">
                         <div class="so-card-header-image">
                             <img src="" alt="" class="">

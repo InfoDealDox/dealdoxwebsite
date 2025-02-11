@@ -7,7 +7,7 @@
       rgba(0, 0, 0, 0.4) 70%
     ),
     linear-gradient(to bottom, #7200ca, #3b0065);
-    margin: auto;
+  margin: auto;
   background-blend-mode: overlay;
   display: flex;
   flex-direction: column;
@@ -18,7 +18,6 @@
   color: white;
   max-width: 1440px;
   position: relative;
-  
 }
 
 .new-banner-first-content {
@@ -119,13 +118,15 @@
 
 .new-bi-chevron-right {
   background-color: #3881ee;
-  border-radius: 55px;
+  border-radius: 84px;
   position: absolute;
   right: -41%;
   justify-content: center;
   display: flex;
-  padding: 4%;
+  padding: 2%;
   align-items: center;
+  width: 34px;
+  height: 34px;
 }
 
 .banner-logo-footer {

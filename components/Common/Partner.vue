@@ -1,30 +1,24 @@
 <template>
-  <div class="partner-area">
-    <div class="container mb-5">
-      <div class="features-area">
-        <h2 style="text-align: center; font-size: 24px; padding: 20px 0;">Brands That Trust Us</h2>
-        <div class="container">
-          <div class="slide-tracker-container">
-            <div class="slider-2">
-              <div class="slide-tracker-1">
-                <div v-for="slide in partners" :key="slide.id" class="slide">
-                  <img :src="slide.image.data.attributes.url"
-                    :alt="slide.image.data.attributes.alternativeText || 'Partner Image'" class="slide-span-texts">
-                </div>
-              </div>
-              <div class="slide-tracker-1">
-                <div v-for="slide in partners" :key="slide.id" class="slide">
-                  <img :src="slide.image.data.attributes.url"
-                    :alt="slide.image.data.attributes.alternativeText || 'Partner Image'" class="slide-span-texts">
-                </div>
-              </div>
-            </div>
+  <div style="margin: 20px 0px">
+    <h2 style="text-align: center; font-size: 24px; padding:0px">Brands That Trust Us</h2>
+    <div class="slide-tracker-container">
+      <div class="slider-2">
+
+        <div class="slide-tracker-1">
+          <div v-for="partner in partners" class="slide">
+            <img :src="partner.image.data.attributes.url" :alt="partner.image.data.attributes.url.alternativeText"
+              class="slide-span-texts">
+          </div>
+          <div v-for="partner in partners" class="slide">
+            <img :src="partner.image.data.attributes.url" :alt="partner.image.data.attributes.url.alternativeText"
+              class="slide-span-texts">
           </div>
         </div>
       </div>
     </div>
   </div>
 </template>
+
 
 <script>
 import axios from 'axios';
@@ -40,17 +34,16 @@ export default {
     try {
       const response = await axios.get('https://cms.dealdox.io/api/partner?populate=partnerSlides.image');
       this.partners = response.data.data.attributes.partnerSlides;
-
-
-
-
     } catch (error) {
       console.error('Error fetching partner data:', error);
     }
   }
 };
-</script>
 
+
+
+
+</script>
 
 <style>
 .slide-tracker-container {
@@ -63,7 +56,7 @@ export default {
 }
 
 .slider-2 {
-  height: 95px;
+  height: 110px;
   margin: auto;
   position: relative;
   width: 80%;
@@ -122,13 +115,13 @@ img.slide-span-texts {
 }
 
 @keyframes scrolls {
+  0% {
 
-    0% {
-        transform: translateX(0px);
-    }
+    transform: translateX(calc(-260px *9));
+  }
 
-    100% {
-        transform: translateX(calc(-260px *9));
-    }
+  100% {
+    transform: translateX(0);
+  }
 }
 </style>

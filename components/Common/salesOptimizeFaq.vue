@@ -15,18 +15,21 @@
                         <accordion class="home">
                             <accordion-item>
                                 <template v-slot:accordion-trigger>
-                                    <button class="accordion-title">
-                                        How do DealDox and Salesforce work together? </button>
+                                    <h3><button class="accordion-title">
+                                            How do DealDox and Salesforce work together? </button></h3>
                                 </template>
                                 <template v-slot:accordion-content>
                                     <div class="accordion-body">
-                                        <p>Dealdox CPQ's integration with Salesforce enhances your CRM capabilities
+                                        <p>DealDox CPQ's <NuxtLink to='/salesforce-cpq-integration'>integration with
+                                                Salesforce</NuxtLink> enhances your CRM capabilities
                                             through seamless workflow automation.
                                         </p>
-                                        <span>Using Dealdox CPQ with Salesforce helps you: </span>
+                                        <span>Using DealDox CPQ with Salesforce helps you: </span>
                                         <ul>
 
-                                            <li> Streamline workflows to minimize manual tasks and improve efficiency.
+                                            <li>
+                                                <NuxtLink to='/quoting-software'>Streamline workflows</NuxtLink> to
+                                                minimize manual tasks and improve efficiency.
                                             </li>
                                             <li> Save time with automated business processes in Salesforce. </li>
                                             <li>Save time with automated business processes in Salesforce. </li>
@@ -40,19 +43,20 @@
                             </accordion-item>
                             <accordion-item>
                                 <template v-slot:accordion-trigger>
-                                    <button class="accordion-title">
-                                        Who could benefit from Dealdox CPQ for Salesforce?
-                                    </button>
+                                    <h3><button class="accordion-title">
+                                            Who could benefit from DealDox CPQ for Salesforce?
+                                        </button></h3>
                                 </template>
                                 <template v-slot:accordion-content>
                                     <div class="accordion-body">
-                                        <p>Dealdox CPQ's integration with Salesforce enhances your CRM capabilities
+                                        <p>DealDox CPQ's integration with Salesforce enhances your CRM capabilities
                                             through seamless workflow automation.
                                         </p>
 
                                         <ul>
 
-                                            <li><b>Sales:</b> Automate quote generation, simplify approvals, and
+                                            <li><b>Sales:</b> Automate quote generation, <NuxtLink
+                                                    to='/quoting-software'>simplify approvals,</NuxtLink> and
                                                 accelerate deal closures with precise pricing.</li>
                                             <li><b>Operations: </b>Optimize Salesforce workflows for smoother, more
                                                 efficient internal processes.</li>
@@ -64,20 +68,20 @@
                                         </ul>
 
                                         <span>Any team using Salesforce can maximize their process efficiency with
-                                            Dealdox CPQ. </span>
+                                            DealDox CPQ. </span>
 
                                     </div>
                                 </template>
                             </accordion-item>
                             <accordion-item>
                                 <template v-slot:accordion-trigger>
-                                    <button class="accordion-title">
-                                        How can Dealdox CPQ for Salesforce accelerate the revenue cycle?
-                                    </button>
+                                    <h3><button class="accordion-title">
+                                            How can DealDox CPQ for Salesforce accelerate the revenue cycle?
+                                        </button></h3>
                                 </template>
                                 <template v-slot:accordion-content>
                                     <div class="accordion-body">
-                                        <p>Dealdox CPQ for Salesforce accelerates the revenue cycle by:
+                                        <p>DealDox CPQ for Salesforce accelerates the revenue cycle by:
                                         </p>
 
                                         <ul>
@@ -102,21 +106,21 @@
                             </accordion-item>
                             <accordion-item>
                                 <template v-slot:accordion-trigger>
-                                    <button class="accordion-title">
-                                        Does Dealdox optimize other customer relationship management (CRM) software
-                                        besides Salesforce?
-                                    </button>
+                                    <h3><button class="accordion-title">
+                                            Does DealDox optimize other customer relationship management (CRM) software
+                                            besides Salesforce?
+                                        </button></h3>
                                 </template>
                                 <template v-slot:accordion-content>
                                     <div class="accordion-body">
-                                        <p>Dealdox primarily focuses on optimizing Salesforce, but our solutions are
+                                        <p>DealDox primarily focuses on optimizing Salesforce, but our solutions are
                                             designed to integrate seamlessly with various CRM platforms, providing
                                             enhanced efficiency and automation to meet your business needs.
                                         </p>
                                     </div>
                                 </template>
                             </accordion-item>
-                           
+
 
 
 

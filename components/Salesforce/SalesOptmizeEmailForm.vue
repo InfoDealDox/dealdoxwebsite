@@ -2,8 +2,8 @@
     <div class="so-form-body">
         <div class="looking-request">
             <span class="looking-to-optimize">Ready to take your Salesforce CRM to new heights? </span>
-            <small class="request-a-personalized"> Looking to optimize your Salesforce processes? Request a personalized
-                demo and discover how Dealdox CPQ can drive your business success. </small>
+            <small class="request-a-personalized"> Request a personalized
+                demo and discover how DealDox CPQ can drive your business success. </small>
         </div>
         <div class="so-form-subject">
             <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" class=@>
@@ -24,17 +24,18 @@
                         <input id="lead_source" maxlength="40" name="lead_source" size="20" type="text"
                             :value="paramValue ? paramValue : 'Salesforce Optimization'" /><br />
                     </div>
-                    <span class="pr-vacy-so">This site is protected by reCAPTCHA, and Google’s Privacy Policy and Terms of Service apply.
-                    </span>
+                    <!-- <span class="pr-vacy-so">This site is protected by reCAPTCHA, and Google’s Privacy Policy and Terms
+                        of Service apply.
+                    </span> -->
                     <div class="" style="padding-left: 0px;margin-left: 0px;">
                         <button type="submit" name="submit" required class="so-default-btn"><i
                                 class='bx bx-paper-plane'></i>
                             Submit </button>
                     </div>
                     <span class="pr-vacy-so">
-                       
+
                         By submitting this form you confirm that you agree to the storing and processing of your
-                        personal data by Conga as described in our Privacy Notice.</span>
+                        personal data by DealDox.</span>
                 </div>
             </form>
         </div>

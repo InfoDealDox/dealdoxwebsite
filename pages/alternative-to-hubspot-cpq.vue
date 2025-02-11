@@ -33,12 +33,6 @@
 
             </div>
             <div class="compareData-h3-container">
-                <h2 class="compare-h2-tags-css">{{ compareData.h2_fivth_tag }}</h2>
-                <FirstTable headerOne="DealDox CPQ" headerTwo="HubSpot CPQ" :firstColumn="pricingPlans"
-                    :secondColumn="salesforcePricingPlans" />
-
-            </div>
-            <div class="compareData-h3-container">
                 <h2 class="compare-h2-tags-css">{{ compareData.h2_sixth_tag }}</h2>
                 <div v-html="compareData.h2_sixth_content"></div>
             </div>
@@ -74,21 +68,7 @@ export default {
                 "Primarily integrates within the HubSpot ecosystem ",
                 "More fixed pricing, which may become expensive as your business grows.  ",
             ],
-            pricingPlans: [
-
-                "Pay-as-you-go: $1 per quote",
-                "Standard Plan: ₹499/user/month, billed annually",
-                "Premium Plan: ₹799/user/ month, billed annually",
-                "Enterprise Plan: Custom Pricing, Contact sales"
-            ],
-            salesforcePricingPlans: [
-                "Marketing Hub Starter: US$15/mo/seat",
-                "Starter Customer Platform: US$15/mo/seat",
-                "Marketing Hub Professional: US$800/mo",
-                "Marketing Hub Enterprise: US$3,600/mo"
-
-            ]
-
+        
         };
 
     },
@@ -112,18 +92,20 @@ export default {
             }
         },
     },
+
+    
     head: {
-        title: 'DealDox CPQ Pricing | Affordable Solutions with Advanced Sales Configurator',
+        title: 'DealDox CPQ vs HubSpot CPQ: Best Alternative for Customizable Quoting Solutions|DealDox.',
         htmlAttrs: {
             lang: 'en-us'
         },
         meta: [
             { charset: 'utf-8' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-            { hid: 'description', name: 'description', content: 'Explore DealDox CPQ Pricing: Find the best plans to suit your business and leverage advanced features, including sales configurator functionalities.' },
-            { hid: 'Keywords', name: 'Salesforce CPQ, alternative to salesforce cpq, competitors of Salesforce CPQ, the best alternative to salesforce cpq, best customizable quoting and configuration solution, other alternatives to salesforce cpq, CPQ alternatives, Salesforce CPQ alternative, CPQ in salesforce, Quote-to-cash solutions in salesforce, CPQ Pricing Comparison, DealDox CPQ vs Salesforce CPQ ' },
+            { hid: 'description', name: 'description', content: 'Looking for a HubSpot CPQ alternative? DealDox CPQ offers advanced customization, better pricing, and seamless quote-to-cash solutions that outperform HubSpot CPQ. Discover the top CPQ choice for your business.' },
+            { hid: 'keywords', name: 'keywords', content: 'Hubspot CPQ, alternative to hubspot cpq, competitors of hubspot CPQ, the best alternative to hubspot cpq, best customizable quoting and configuration solution, other alternatives to hubspot cpq, CPQ alternatives, Hubspot CPQ alternative, CPQ in Hubspot, Quote-to-cash solutions in Hubspot, CPQ Pricing Comparison, DealDox CPQ vs HubSpot CPQ' },
         ],
-        link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io/alternative-to-sap-cpq' }
+        link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io/alternative-to-hubspot-cpq' }
         ],
     },
 };

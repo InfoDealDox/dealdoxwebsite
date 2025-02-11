@@ -32,12 +32,7 @@
                     :secondColumn="Zoho_CPQ" />
 
             </div>
-            <div class="compareData-h3-container">
-                <h2 class="compare-h2-tags-css">{{ compareData.h2_fivth_tag }}</h2>
-                <FirstTable headerOne="DealDox CPQ" headerTwo="Zoho CPQ " :firstColumn="pricingPlans"
-                    :secondColumn="ZohoPricingPlans" />
 
-            </div>
             <div class="compareData-h3-container">
                 <h2 class="compare-h2-tags-css">{{ compareData.h2_sixth_tag }}</h2>
                 <div v-html="compareData.h2_sixth_content"></div>
@@ -74,20 +69,7 @@ export default {
                 "Best integrates within the Zoho ecosystem but may require additional customization for integration with external systems.",
                 "Has a more fixed pricing model, typically more affordable for smaller businesses but can become expensive as your needs grow."
             ],
-            pricingPlans: [
 
-                "Pay-as-you-go: $1 per quote",
-                "Standard Plan: ₹499/user/month, billed annually",
-                "Premium Plan: ₹799/user/ month, billed annually",
-                "Enterprise Plan: Custom Pricing, Contact sales"
-            ],
-            ZohoPricingPlans: [
-                "Standard₹800/user/month billed annually ",
-                "Professional₹1,400/user/month billed annually ",
-                "Enterprise₹2,400/user/month billed annually ",
-                "Ultimate₹2,600/user/month billed annually ",
-
-            ]
 
         };
 
@@ -113,18 +95,17 @@ export default {
         },
     },
     head: {
-        title: 'DealDox CPQ Pricing | Affordable Solutions with Advanced Sales Configurator',
+        title: 'DealDox CPQ vs Zoho CPQ: Best Alternative for Customizable Quoting Solutions|DealDox',
         htmlAttrs: {
             lang: 'en-us'
         },
         meta: [
             { charset: 'utf-8' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-            { hid: 'description', name: 'description', content: 'Explore DealDox CPQ Pricing: Find the best plans to suit your business and leverage advanced features, including sales configurator functionalities.' },
-            {
-                hid: 'Keywords', name: 'zoho CPQ,Scalability,Pricing,User- friendly,Multi - language,CRM integration,Flexible ,Deployment,Global businesses ' }
+            { hid: 'description', name: 'description', content: 'Looking for a Zoho CPQ alternative? Dealdox CPQ offers better customization, flexible pricing, and seamless quote-to-cash solutions, making it the top choice over Zoho CPQ for your business.' },
+            { hid: 'keywords', name: 'keywords', content: 'Zoho CPQ, alternative to zoho cpq, competitors of zoho CPQ, the best alternative to zoho cpq, best customizable quoting and configuration solution, other alternatives to zoho cpq, CPQ alternatives, Zoho CPQ alternative, CPQ in Zoho, Quote-to-cash solutions in Zoho, CPQ Pricing Comparison, DealDox CPQ vs Zoho CPQ ' },
         ],
-        link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io/alternative-to-sap-cpq' }
+        link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io/alternative-to-zoho-cpq' }
         ],
     },
 };

@@ -32,12 +32,7 @@
                     :secondColumn="salesforces" />
 
             </div>
-            <div class="compareData-h3-container">
-                <h2 class="compare-h2-tags-css">{{ compareData.h2_fivth_tag }}</h2>
-                <FirstTable headerOne="DealDox CPQ" headerTwo="SAP CPQ" :firstColumn="pricingPlans"
-                    :secondColumn="salesforcePricingPlans" />
-
-            </div>
+    
             <div class="compareData-h3-container">
                 <h2 class="compare-h2-tags-css">{{ compareData.h2_sixth_tag }}</h2>
                 <div v-html="compareData.h2_sixth_content"></div>
@@ -74,18 +69,7 @@ export default {
                 "Can handle high volumes of quotes and sales transactions, suitable for large-scale businesses.",
                 "Highly customizable but requires expertise in the SAP ecosystem, making setup and maintenance more complex."
             ],
-            pricingPlans: [
-
-                "Pay-as-you-go: $1 per quote",
-                "Standard Plan: ₹499/user/month, billed annually",
-                "Premium Plan: ₹799/user/ month, billed annually",
-                "Enterprise Plan: Custom Pricing, Contact sales"
-            ],
-            salesforcePricingPlans: [
-                "Standard: $67 per user per month.",
-                "Professional is $106 per user per month."
-
-            ]
+      
 
         };
 
@@ -111,15 +95,15 @@ export default {
         },
     },
     head: {
-        title: 'DealDox CPQ Pricing | Affordable Solutions with Advanced Sales Configurator',
+        title: 'DealDox CPQ vs SAP CPQ: Best Alternative for Customizable Quoting Solutions|DealDox',
         htmlAttrs: {
             lang: 'en-us'
         },
         meta: [
             { charset: 'utf-8' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-            { hid: 'description', name: 'description', content: 'Explore DealDox CPQ Pricing: Find the best plans to suit your business and leverage advanced features, including sales configurator functionalities.' },
-            { hid: 'Keywords', name: 'Salesforce CPQ, alternative to salesforce cpq, competitors of Salesforce CPQ, the best alternative to salesforce cpq, best customizable quoting and configuration solution, other alternatives to salesforce cpq, CPQ alternatives, Salesforce CPQ alternative, CPQ in salesforce, Quote-to-cash solutions in salesforce, CPQ Pricing Comparison, DealDox CPQ vs Salesforce CPQ ' },
+            { hid: 'description', name: 'description', content: 'Discover DealDox CPQ as the leading alternative to SAP CPQ. With advanced customization, flexible pricing, and efficient quote-to-cash solutions, DealDox outperforms SAP CPQ for your business needs.' },
+            { hid: 'keywords', name: 'keywords', content: 'SAP CPQ, alternative to sap cpq, competitors of sap CPQ, the best alternative to SAP cpq, best customizable quoting and configuration solution, other alternatives to SAP cpq, CPQ alternatives, SAP CPQ alternative, CPQ in SAP, Quote-to-cash solutions in SAP, CPQ Pricing Comparison, DealDox CPQ vs SAP CPQ ' },
         ],
         link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io/alternative-to-sap-cpq' }
         ],

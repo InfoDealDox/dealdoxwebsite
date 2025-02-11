@@ -33,12 +33,6 @@
 
             </div>
             <div class="compareData-h3-container">
-                <h2 class="compare-h2-tags-css">{{ compareData.h2_fivth_tag }}</h2>
-                <FirstTable headerOne="DealDox CPQ" headerTwo=" Oracle CPQ " :firstColumn="pricingPlans"
-                    :secondColumn="salesforcePricingPlans" />
-
-            </div>
-            <div class="compareData-h3-container">
                 <h2 class="compare-h2-tags-css">{{ compareData.h2_sixth_tag }}</h2>
                 <div v-html="compareData.h2_sixth_content"></div>
             </div>
@@ -74,17 +68,7 @@ export default {
                 "Longer implementation time due to its complexity.",
                 "Higher pricing, making it more expensive for smaller businesses.",
             ],
-            pricingPlans: [
 
-                "Pay-as-you-go: $1 per quote",
-                "Standard Plan: ₹499/user/month, billed annually",
-                "Premium Plan: ₹799/user/ month, billed annually",
-                "Enterprise Plan: Custom Pricing, Contact sales"
-            ],
-            salesforcePricingPlans: [
-                "The price for Oracle CPQ is $240 per user per month. "
-
-            ]
 
         };
 
@@ -110,15 +94,15 @@ export default {
         },
     },
     head: {
-        title: 'DealDox CPQ Pricing | Affordable Solutions with Advanced Sales Configurator',
+        title: 'DealDox CPQ vs Oracle CPQ: Best Alternative for Customizable Quoting Solutions|DealDox',
         htmlAttrs: {
             lang: 'en-us'
         },
         meta: [
             { charset: 'utf-8' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-            { hid: 'description', name: 'description', content: 'Explore DealDox CPQ Pricing: Find the best plans to suit your business and leverage advanced features, including sales configurator functionalities.' },
-            { hid: 'Keywords', name: 'Salesforce CPQ, alternative to salesforce cpq, competitors of Salesforce CPQ, the best alternative to salesforce cpq, best customizable quoting and configuration solution, other alternatives to salesforce cpq, CPQ alternatives, Salesforce CPQ alternative, CPQ in salesforce, Quote-to-cash solutions in salesforce, CPQ Pricing Comparison, DealDox CPQ vs Salesforce CPQ ' },
+            { hid: 'description', name: 'description', content: 'Looking for an Oracle CPQ alternative? DealDox CPQ offers superior customization, flexible pricing, and efficient quote-to-cash solutions, making it the top choice over Oracle CPQ for your business needs.' },
+            { hid: 'keywords', name: 'keywords', content: 'Oracle CPQ, alternative to oracle cpq, competitors of oracle CPQ, the best alternative to oracle cpq, best customizable quoting and configuration solution, other alternatives to oracle cpq, CPQ alternatives, Oracle CPQ alternative, CPQ in Oracle, Quote-to-cash solutions in Oracle, CPQ Pricing Comparison, DealDox CPQ vs Oracle CPQ' },
         ],
         link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io/alternative-to-oracle-cpq' }
         ],
