@@ -48,6 +48,18 @@
 
 <script>
 export default {
-    name: 'ForgetPassword'
+    name: 'ForgetPassword',
+    head() {
+    return {
+      meta: [
+        {
+          hid: 'robots',
+          name: 'robots',
+          content: 'noindex, nofollow'
+        }
+      ]
+    };
+  }
+
 }
 </script>

@@ -53,7 +53,7 @@ export default {
  //       });
  //   },
      head: {
-        title: 'Lightening Fast Quote Approvals Digital Quoting Tool | Dealdox',
+        title: 'See How DealDox CPQ Can Help Your Business: Request a Demo',
         htmlAttrs: {
             lang: 'en-us'
         },
@@ -61,7 +61,7 @@ export default {
             { charset: 'utf-8' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' },
             { hid: 'description', name: 'description', content: 'Learn how Dealdox Privacy Policy safeguards your data with comprehensive protection measures and compliance standards.' },
-            { hid: 'keywords', name: 'keywords', content: 'DealDox Privacy Policy DealDox Data Protection DealDox User Privacy DealDox Privacy Terms DealDox Information Security' },
+            { hid: 'keywords', name: 'keywords', content: 'See DealDox CPQ in action! Request a personalized demo today and discover how DealDox CPQ software can streamline your sales process and improve quoting efficiency.' },
         ],
         link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io/demo' }
         ],

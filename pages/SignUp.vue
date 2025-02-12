@@ -11,6 +11,18 @@ export default {
     name: 'SignUpPage',
     components: {
         SignUp,
-    }
+    },
+    head() {
+    return {
+      meta: [
+        {
+          hid: 'robots',
+          name: 'robots',
+          content: 'noindex, nofollow'
+        }
+      ]
+    };
+  }
+
 }
 </script>

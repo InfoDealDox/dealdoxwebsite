@@ -2,7 +2,7 @@
     <div class="page-title-area">
         <div class="container">
             <div class="page-title-content">
-                <h2>{{ pageTitle }}</h2>
+                <h1>{{ pageTitle }}</h1>
                 <!-- <p>Stay Up-to-Date with Our Latest Insights, Tips, and News</p> -->
                 <!-- <ul>
                     <li>

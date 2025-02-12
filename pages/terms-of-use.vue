@@ -10,7 +10,7 @@
 <script>
 
 import Navbar from '../layouts/Navbar';
-import PageTitle from '../components/Common/PageTitle';
+import PageTitle from '../components/Common/PageTitle.vue';
 import PrivacyPolicy from '../components/TermsConditions/TermsConditions';
 import DealDoxFooter from '../layouts/DealDoxFooter';
 import axios from 'axios';

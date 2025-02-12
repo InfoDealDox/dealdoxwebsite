@@ -2,7 +2,7 @@
     <div class="privacy-policy-area pt-70">
         <div class="container">
             <div class="privacy-policy-content">
-                <h6>Terms of Use</h6>
+                <h1>Terms of Use</h1>
                 <p class="text-justify">Welcome to the DealDox website (referred to as the "Site"). By accessing the
                     Site, you
                     gain access to

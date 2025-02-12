@@ -10,7 +10,7 @@
 <script>
 
 import Navbar from '../layouts/Navbar';
-import PageTitle from '../components/Common/PageTitle';
+import PageTitle from '../components/Common/PageTitle.vue';
 import Cookie from '../components/Cookies/Cookie';
 import DealDoxFooter from '../layouts/DealDoxFooter';
 import axios from 'axios';
@@ -44,7 +44,7 @@ export default {
  //       });
  //   },
      head: {
-        title: 'www.dealdox.io',
+        title: ' Manage Your Cookie Preferences | DealDox CPQ',
         htmlAttrs: {
             lang: 'en-us'
         },
@@ -52,7 +52,7 @@ export default {
             { charset: 'utf-8' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' },
             { hid: 'description', name: 'description', content: 'Learn how Dealdox Privacy Policy safeguards your data with comprehensive protection measures and compliance standards.' },
-            { hid: 'keywords', name: 'keywords', content: 'DealDox Privacy Policy DealDox Data Protection DealDox User Privacy DealDox Privacy Terms DealDox Information Security' },
+            { hid: 'keywords', name: 'keywords', content: 'Manage your cookie preferences for DealDox CPQ. Control the data we collect and how we use it to personalize your experience.' },
         ],
         link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io/cookie-preference' }
         ],

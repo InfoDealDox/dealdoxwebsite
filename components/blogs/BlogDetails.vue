@@ -9,7 +9,7 @@
 
                             <!-- <NuxtLink to="/blog-grid" class="tag">{{ details[0].attributes.tag }}</NuxtLink> -->
                             <img :src="details[0].attributes.image.data.attributes.url"
-                                :alt="details[0].attributes.image.data.attributes.alternativeText">
+                                alt="hello Data">
                         </div>
                         <div class="article-content">
                             <div class="entry-meta">
@@ -391,7 +391,7 @@ export default {
             });
         const response = await axios.get('https://cms.dealdox.io/api/blogs?populate=*')
         this.blogs = response.data.data;
-        console.log("This blog", this.blogs);
+        
 
         console.log("this.categories", this.categories);
         console.log("details", this.details);
