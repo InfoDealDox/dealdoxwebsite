@@ -483,11 +483,11 @@ export default {
       showMessage: false,
       currentCountryCode: "INR",
       currentCurrencyAmount: 1,
-      payAsYouGoAmount: 9,
-      standardAmount: 499,
-      premiumAmount: 799,
-      monthlystandardAmount: 899,
-      monthlypremiumAmount: 1439,
+      payAsYouGoAmount: 99,
+      standardAmount: 4999,
+      premiumAmount: 7999,
+      monthlystandardAmount: 8999,
+      monthlypremiumAmount: 14399,
       monthly: false,
       currency_symbol: "₹",
       currency_symbol_code:"INR",
@@ -1414,14 +1414,14 @@ this.currency_symbol_code= rawSymbol.code;
     converAmount() {
       try {
         const multiplier = this.currentCountryCode.toUpperCase() === "INR" ? 1 : 3;
-        this.payAsYouGoAmount = this.calculateAmount(9, multiplier);
-        this.standardAmount = this.calculateAmount(499, multiplier);
-        this.premiumAmount = this.calculateAmount(799, multiplier);
-        this.monthlystandardAmount = this.calculateAmount(899, multiplier);
-        this.monthlypremiumAmount = this.calculateAmount(1439, multiplier);
+        this.payAsYouGoAmount = this.calculateAmount(99, multiplier);
+        this.standardAmount = this.calculateAmount(4999, multiplier);
+        this.premiumAmount = this.calculateAmount(7999, multiplier);
+        this.monthlystandardAmount = this.calculateAmount(8999, multiplier);
+        this.monthlypremiumAmount = this.calculateAmount(14399, multiplier);
       } catch (error) {
         console.error("Error in converAmount:", error);
-        this.payAsYouGoAmount = 9;
+        this.payAsYouGoAmount = 99;
         this.standardAmount = 9.55;
         this.premiumAmount = 19.55;
       }
