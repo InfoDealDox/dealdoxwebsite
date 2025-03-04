@@ -13,11 +13,11 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content">
                         <h2>Close Deals Faster with DealDox</h2>
-                        <p><strong>Microsoft Dynamics 365 for Sales and DealDox</strong> work together to help sales teams
-                            sell quicker and more efficiently. <strong><NuxtLink to="/microsoft-dynamics-365-cpq-integration">Dynamics 365 CRM</NuxtLink> 
-                            </strong> allows sales teams to create <strong><NuxtLink to="/quoting-software"> advanced quotes</NuxtLink>
-                            </strong>, expedite contract
-                            discussions with <strong>automated workflows</strong> and approvals, and sign off huge
+                        <p>Microsoft Dynamics 365 for Sales and DealDox work together to help sales teams
+                            sell quicker and more efficiently. <NuxtLink to="/microsoft-dynamics-365-cpq-integration">Dynamics 365 CRM</NuxtLink> 
+                            allows sales teams to create <NuxtLink to="/quoting-software"> advanced quotes</NuxtLink>
+                            , expedite contract
+                            discussions with automated workflows and approvals, and sign off huge
                             agreements.</p>
                     </div>
                 </div>
@@ -27,8 +27,8 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content-right">
                         <h2>Generate Lightning-fast Professional Quotes</h2>
-                        <p>DealDox equips your sales team with the tools to <strong>configure tailored quotes in
-                                minutes</strong>. Get rid of manual searches and heavy reliance on desk staff. With our
+                        <p>DealDox equips your sales team with the tools to configure tailored quotes in
+                                minutes. Get rid of manual searches and heavy reliance on desk staff. With our
                             advanced platform, your team can effortlessly answer pre-built questions, generating a
                             comprehensive digital sales manifesto with accurate pricing, favorable terms, and a seamless
                             signing process.</p>
@@ -57,7 +57,7 @@
                     <div class="about-content">
                         <h2>Utilize the Power of a User-Friendly <NuxtLink to='/services-cpq'>CPQ</NuxtLink> Solution</h2>
                         <p>Don't allow complicated price regulations to burden you. DealDox is here to make the procedure
-                            easier with our <strong>simple-to-implement and simple-to-maintain CPQ</strong> solution. Our
+                            easier with our simple-to-implement and simple-to-maintain CPQ solution. Our
                             platform is built to support a variety of deal structures, such as subscription pricing, use
                             pricing, multi-year ramp offers, co-terming, cross-selling, and renewals.</p>
                         <p>Your operations staff may easily change the pricing, processes, and other features with DealDox's
@@ -102,9 +102,9 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="about-content">
                             <h2>Deliver Timely Experiences with Precision</h2>
-                            <p>Get rid of outdated paper or PDF proposals and enter a world of <strong>simplified pricing
-                                    with DealDox</strong>. Our next-generation <strong>digital sales proposal
-                                    solution</strong> revolutionizes the seller and customer experience. Stay up to date
+                            <p>Get rid of outdated paper or PDF proposals and enter a world of simplified pricing
+                                    with DealDox. Our next-generation digital sales proposal
+                                    solution revolutionizes the seller and customer experience. Stay up to date
                                 with pricing and terms, enjoy hyper-personalized content, and leverage advanced automation
                                 capabilities that empower your sales teams to effortlessly execute deals.</p>
                             <p>With DealDox, collaboration becomes effortless as every internal team member and buyer can

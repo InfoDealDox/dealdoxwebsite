@@ -1,5 +1,6 @@
 <template>
-    <div class="page-title-area">
+    <div class="cookie-mobile-ui">
+        <img src="../../assets/images/cookie_policy_new.png" alt="" style="margin: auto;">
         <div class="container">
             <div class="page-title-content">
                 <h1>{{ pageTitle }}</h1>
@@ -32,3 +33,16 @@ export default {
     props: ['pageTitle']
 }
 </script>
+
+<style>
+@media (max-width:550px) {
+    .cookie-mobile-ui {
+        margin-top: 35px !important;
+    }
+}
+
+.cookie-mobile-ui {
+    margin: auto;
+    max-width: 1440px;
+}
+</style>

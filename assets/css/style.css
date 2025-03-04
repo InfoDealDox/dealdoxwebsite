@@ -855,11 +855,12 @@ textarea.form-control {
   /* z-index: 1; */
   position: relative;
   background: linear-gradient(50.48deg, #ed2775 -2.06%, #ff7448 93.55%);
-  background-image: url(../../assets/images/more-home/banner/Cookie-Preference.png);
+  background-image: url(../../assets/images/cookie_policy_new.png);
   padding-bottom: 150px;
   padding-top: 150px;
   margin-top: 80px;
   background-size: cover;
+  background-position: center;
 }
 
 .page-title-area.page-title-style-privacy {

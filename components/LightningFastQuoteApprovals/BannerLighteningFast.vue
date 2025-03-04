@@ -9,8 +9,9 @@
                             Maximum
                             Revenue. </p>
                         <div class="tb-30" id="center-button">
-                            <NuxtLink to="/pricing" target="_blank">
-                                <button class="default-btn"> <i class='bx bx-paper-plane'></i>View Pricing & Features</button></NuxtLink>
+                            <NuxtLink to="/demo" target="_blank" class="button-container">
+                            <button class="default-btn">Get a Demo</button>
+                        </NuxtLink>
                         </div>
                     </div>
                 </div>

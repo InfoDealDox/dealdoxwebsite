@@ -5,7 +5,7 @@
         <div class="pricing-flexing-software-container">
           <h1 class="pricing-flexing-software" style="color: white;">Customizable&nbsp;software, <span
               style="white-space: nowrap;">Cost-effective price</span>
-          </h1> 
+          </h1>
           <small class="new-banner-cpqforAll-content" style="color: white;">CPQ FOR ALL</small>
         </div>
         <div class="pricing-tags-lists-body">
@@ -82,7 +82,9 @@
                 <div class="cards-cash-amount">
 
                   <span class="cards-cashs">
-                    <small style="font-size: 22px; color: #5d5d66;"><small style="font-size: 22px;" v-if='currency_symbol_code!=="INR"'>{{currency_symbol_code}}</small>{{ currency_symbol }}</small>
+                    <small style="font-size: 22px; color: #5d5d66;"><small style="font-size: 22px;"
+                        v-if='currency_symbol_code !== "INR"'>{{ currency_symbol_code }}</small>{{ currency_symbol
+                      }}</small>
                     <span>{{ payAsYouGoAmount }}</span>
 
                   </span>
@@ -142,7 +144,9 @@
                 <div class="cards-cash-amount">
 
                   <span class="cards-cashs">
-                    <small style="font-size: 22px; color: #5d5d66;"><small style="font-size: 22px;" v-if='currency_symbol_code!=="INR"'>{{currency_symbol_code}}</small>{{ currency_symbol }}</small>
+                    <small style="font-size: 22px; color: #5d5d66;"><small style="font-size: 22px;"
+                        v-if='currency_symbol_code !== "INR"'>{{ currency_symbol_code }}</small>{{ currency_symbol
+                      }}</small>
                     <span v-if="monthly">{{ monthlystandardAmount }}</span>
                     <span v-else>{{ standardAmount }}</span>
 
@@ -179,7 +183,7 @@
                   <a href="https://web.dealdox.io/register?paymentMode=standard">
                     <button class="try_free">Access DealDox CPQ</button>
                   </a>
-              
+
 
                   <!-- <NuxtLink :to="{
                     name: 'contact-us',
@@ -204,7 +208,9 @@
                 <div class="cards-cash-amount">
 
                   <span class="cards-cashs">
-                    <small style="font-size: 22px; color: #5d5d66;"><small style="font-size: 22px;" v-if='currency_symbol_code!=="INR"'>{{currency_symbol_code}}</small>{{ currency_symbol }}</small>
+                    <small style="font-size: 22px; color: #5d5d66;"><small style="font-size: 22px;"
+                        v-if='currency_symbol_code !== "INR"'>{{ currency_symbol_code }}</small>{{ currency_symbol
+                      }}</small>
                     <span v-if="monthly">{{ monthlypremiumAmount }}</span>
                     <span v-else>{{ premiumAmount }}</span>
                   </span>
@@ -306,7 +312,7 @@
 
         <div class="subscription-table-container">
           <div class="features-header-cpq-compare-body">
-            <h2 class="features-header-cpq-compare" style="line-height:normal">Compare all features of DealDox CPQ
+            <h2 class="features-header-cpq-compare" style="line-height:normal">Compare All features of DealDox CPQ
               Pricing</h2>
             <div class="table-container-sub1">
 
@@ -326,8 +332,8 @@
                       </th>
 
                       <th role="columnheader" scope="col" class="table__cell2">
-                        <a :href="`https://web.dealdox.io/register?paymentMode=payAsYouGo`" class="subscription-anker-tag"
-                          target="_blank" rel="noopener noreferrer">
+                        <a :href="`https://web.dealdox.io/register?paymentMode=payAsYouGo`"
+                          class="subscription-anker-tag" target="_blank" rel="noopener noreferrer">
                           <div class="edition_wrapper">
                             <div class="edition__copy__wrapper">
                               <div class="edition_name">Pay-As-You-Go</div>
@@ -466,7 +472,7 @@
 import axios from "axios";
 import CustomPopup from "./CustomPopup.vue";
 import FeaturedData from "./FeaturedData.vue";
-import  CONSTANTS  from "../Common/currencyList";
+import CONSTANTS from "../Common/currencyList";
 
 
 export default {
@@ -490,7 +496,7 @@ export default {
       monthlypremiumAmount: 14399,
       monthly: false,
       currency_symbol: "₹",
-      currency_symbol_code:"INR",
+      currency_symbol_code: "INR",
       editions: [
 
         {
@@ -767,7 +773,7 @@ export default {
         {
           heading: "Audit Trial",
           cells: ["-", "-", "-", "Included"],
-        
+
         },
         {
           heading: "Reports",
@@ -917,7 +923,7 @@ export default {
         {
           heading: "Quotation Assistance",
           cells: ["-", "-", "Included", "Included"],
-     
+
         },
         {
           heading: "Smart Pricing Suggestions",
@@ -927,27 +933,27 @@ export default {
         {
           heading: "Automated Email Drafting",
           cells: ["-", "-", "Included", "Included"],
-      
+
         },
         {
           heading: "Real-Time Query Handling",
           cells: ["-", "-", "-", "Included"],
-    
+
         },
         {
           heading: "Scenario Simulation",
           cells: ["-", "-", "-", "Included"],
-   
+
         },
         {
           heading: "Task Automation",
           cells: ["-", "-", "-", "Included"],
-        
+
         },
         {
           heading: "Predictive Sales Analysis",
           cells: ["-", "-", "-", "Included"],
-  
+
         },
       ],
       tableData9: [
@@ -1361,7 +1367,7 @@ export default {
       if (newCode) {
         console.log(`Country code changed from ${oldCode} to ${newCode}`);
 
-       
+
         const rawSymbol = CONSTANTS.currencyList.find(
           (x) => x.code === newCode
         );
@@ -1370,8 +1376,8 @@ export default {
           ? parser.parseFromString(rawSymbol.symbol, "text/html").body
             .textContent
           : this.currency_symbol;
-      
-this.currency_symbol_code= rawSymbol.code;
+
+        this.currency_symbol_code = rawSymbol.code;
         console.log("Currency symbol:", this.currency_symbol);
 
         // Fetch the exchange amount and update amounts
@@ -1397,8 +1403,8 @@ this.currency_symbol_code= rawSymbol.code;
         const response = await axios.get(
           `https://v6.exchangerate-api.com/v6/c388446c26da9cbd5b015329/latest/INR`
         );
-        console.log("Resposne",response);
-        
+        console.log("Resposne", response);
+
         this.currentCurrencyAmount =
           response.data.conversion_rates[this.currentCountryCode];
         console.log("Currency amount:", this.currentCurrencyAmount);
@@ -1428,7 +1434,7 @@ this.currency_symbol_code= rawSymbol.code;
     },
 
     triggerPopup() {
-      const popupIntervals = [3 * 60 * 1000, 540000, 1260000]; 
+      const popupIntervals = [3 * 60 * 1000, 540000, 1260000];
       popupIntervals.forEach((interval) => {
         setTimeout(() => {
           this.showPopup = true;

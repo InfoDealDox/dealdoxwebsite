@@ -11,7 +11,7 @@
 
 import Navbar from '../layouts/Navbar';
 import PageTitle from '../components/Common/PageTitle.vue';
-import Cookie from '../components/Cookies/Cookie';
+import Cookie from '../components/Cookies/Cookie.vue';
 import DealDoxFooter from '../layouts/DealDoxFooter';
 import axios from 'axios';
 

@@ -13,8 +13,8 @@
                     <div class="about-content">
                         <h3>Drive Sales Success, Enhance Buyer Experience, and Boost Your Business Growth</h3>
                         <p>With the ability to manage your entire deal flow seamlessly within Freshworks CRM, you can
-                            supercharge your deals and achieve remarkable results. Experience the <strong>ease and speed of
-                                quoting</strong> with DealDox's <strong>advanced CPQ tool</strong>, providing you with
+                            supercharge your deals and achieve remarkable results. Experience the ease and speed of
+                                quoting with DealDox's advanced CPQ tool, providing you with
                             real-time insights into your prospect's engagements and level of interest.</p>
                     </div>
                 </div>
@@ -46,7 +46,7 @@
                                     <div class="icon">
                                         <i class="ri-check-line"></i>
                                     </div>
-                                    <p>Experience the <strong>power of DealDox's CPQ capabilities</strong>, making quoting
+                                    <p>Experience the power of DealDox's CPQ capabilities, making quoting
                                         faster, easier, and more accurate, resulting in an absolute buying journey for your
                                         prospects.</p>
                                 </li>

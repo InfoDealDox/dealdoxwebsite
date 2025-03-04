@@ -22,7 +22,7 @@
                         href="https://www.dealdox.io/terms-of-use ">Terms of Use </a>
                     and the at <a href="https://dealdox.io/privacy-policy ">Privacy Policy</a>.</p>
 
-                <h6>Terms and Conditions for Specific Content and Site Areas </h6>
+                <h2>Terms and Conditions for Specific Content and Site Areas </h2>
                 <p class="text-justify">Certain sections of the Site or specific Content offered through the Site may be
                     subject to additional
                     regulations, guidelines, license agreements, user agreements, or other terms and conditions that

@@ -426,9 +426,9 @@ export default {
                 </ul>
               </li>
 
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <NuxtLink to="/contact" class="nav-link">Contact Us</NuxtLink>
-              </li>
+              </li> -->
             </ul>
           </div>
 

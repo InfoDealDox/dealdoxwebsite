@@ -7,8 +7,9 @@
                         <h1>DealDox and <br><span class="sub-title">Freshworks</span></h1>
                         <p>Maximize Your CRM Potential with DealDox CPQ </p>
                         <div class="tb-30">
-                         <NuxtLink to="/pricing" target="_blank">
-<button class="default-btn"> <i class='bx bx-paper-plane'></i>View Pricing & Features</button></NuxtLink>
+                            <NuxtLink to="/demo" target="_blank" class="button-container">
+                            <button class="default-btn">Get a Demo</button>
+                        </NuxtLink>
                         </div>
                     </div>
                 </div>

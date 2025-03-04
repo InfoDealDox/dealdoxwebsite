@@ -5,10 +5,12 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="new-app-main-banner-wrap-content">
                         <h1>DealDox and <br><span class="sub-title">Hubspot</span></h1>
-                        <p>Boost Your Sales with a Native HubSpot Integration and a Powerful, User-Friendly CPQ Solution</p>
+                        <p>Boost Your Sales with a Native HubSpot Integration and a Powerful, User-Friendly CPQ Solution
+                        </p>
                         <div class="tb-30">
-                           <NuxtLink to="/pricing" target="_blank">
-<button class="default-btn"> <i class='bx bx-paper-plane'></i>View Pricing & Features</button></NuxtLink>
+                            <NuxtLink to="/demo" target="_blank" class="button-container">
+                            <button class="default-btn">Get a Demo</button>
+                        </NuxtLink>
                         </div>
                     </div>
                 </div>

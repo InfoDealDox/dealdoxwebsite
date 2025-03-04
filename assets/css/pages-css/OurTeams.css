@@ -21,7 +21,7 @@
 
 .indivisual-team-member {
   width: 300px;
-  height: 350px;
+  height: 440px;
   border: thin solid #e7e9ed;
   border-radius: 10px;
   display: grid;
@@ -94,8 +94,7 @@
   font-weight: 600;
   width: 100%;
   font-size: 24px;
-  padding:0px 10px 35px 10px;
-  
+  padding: 0px 10px 35px 10px;
 }
 
 .indivisual-team-member:hover {
@@ -111,6 +110,6 @@
 @media (max-width: 750px) {
   .indivisual-team-member {
     width: 300px;
-    height: 312px;
+    height: 360px;
   }
 }

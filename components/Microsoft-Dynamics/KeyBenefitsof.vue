@@ -3,7 +3,7 @@
         <div class="container">
             <div class="section-title-pages-full">
                 <div class="new-app-main-banner-wrap-content-full tb-20">
-                    <h3>Expand Your <span class="sub-title-effortless">CRM Horizons</span> with DealDox</h3>
+                   <h2>Expand Your <span class="sub-title-effortless">CRM Horizons</span> with DealDox</h2>
                 </div>
             </div>
             <div class="row justify-content-center pt-500">

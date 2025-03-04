@@ -10,32 +10,17 @@
                         and definitions that can be highly
                         valuable for sales, revenue, billing, and operations teams. </span>
                 </div>
-                <div class="nav-links" style="justify-content: center;padding-bottom: 20px;">
-                    <!-- <ul v-for="category in categories" :key="category.id">
-                    <li >
-                    <NuxtLink :to="`/glossary-category-details/${category.attributes.slug}`" class="page-numbers">{{
-                        category.attributes.name }}</NuxtLink>
-                    </li>
-                </ul> -->
-                    <!-- <ul v-if="glossaries !== null && groupby.length > 0">
-                    <li v-for="(alphabet, index) in groupby" :key="alphabet + '_' + index">
-                        <a v-if="alphabet && alphabet.data.length > 0" :href="`${alphabet}_${index}`">
-                            {{ alphabet.value }}
-                        </a>
-                    </li>
-                </ul> -->
+                <div>
+                    <div class="nav-links nav-links-encyclopedia" style="padding-bottom: 20px;">
+                        <ul v-for="(alphabet, index) in groupby" :key="alphabet + '_' + index"
+                            v-if="alphabet && alphabet.data.length > 0">
+                            <a :href="`#${alphabet.value}`" class="page-numbers"
+                                @click.prevent="smoothScroll('#' + alphabet.value)">
+                                {{ alphabet.value }}
+                            </a>
+                        </ul>
 
-
-
-
-                    <ul v-for="(alphabet, index) in groupby" :key="alphabet + '_' + index"
-                        v-if="alphabet && alphabet.data.length > 0">
-                        <a :href="`#${alphabet.value}`" class="page-numbers"
-                            @click.prevent="smoothScroll('#' + alphabet.value)">
-                            {{ alphabet.value }}
-                        </a>
-                    </ul>
-
+                    </div>
                 </div>
             </div>
 
@@ -134,6 +119,12 @@ export default {
 @media (max-width:750px) {
     .dealdox-encyclopedia-content {
         width: 100%;
+    }
+}
+
+@media (min-width:993px) {
+    .nav-links-encyclopedia {
+        justify-content: center;
     }
 }
 </style>

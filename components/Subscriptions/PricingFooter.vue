@@ -107,6 +107,8 @@ export default {
     font-size: 37px;
     font-weight: 500;
     font-family: "Roboto", serif;
+    text-align: center;
+    padding: 5px;
 }
 
 .pricing-Excel-functions-body {

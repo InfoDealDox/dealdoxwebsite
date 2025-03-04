@@ -5,7 +5,8 @@
             <div class="why-dd-header-body">
                 <div class="why-dd-header">
                     <h1 class="What-is-DealDox-h1">What is DealDox? </h1>
-                    <small class="What-is-DealDox-content">DealDox is a <NuxtLink to='/quoting-software'>sales automation platform</NuxtLink> designed to streamline
+                    <small class="What-is-DealDox-content">DealDox is a <NuxtLink to='/quoting-software'>sales
+                            automation platform</NuxtLink> designed to streamline
                         sales processes and
                         accelerate growth for businesses. It offers a Configure, Price, Quote (CPQ) solution that
                         automates and speeds up the estimation process, making it easier for the sales rep to focus
@@ -13,10 +14,12 @@
                     <NuxtLink to="/demo"><button class="why-dd-demo-btn">Get a Demo</button></NuxtLink>
                 </div>
 
-                <img src="../assets/images/whyDealdoxHeader.webp" alt="" class="why-dd-header-image">
+                <img src="../assets/images/whyDealdoxHeader.webp" alt="sales automation platform"
+                    class="why-dd-header-image">
                 <div class="why-dd-header">
                     <h2 class="What-is-DealDox">What does DealDox do? </h2>
-                    <small class="What-is-DealDox-content">By automating <NuxtLink to='/services-cpq'>product configuration</NuxtLink>, pricing calculations,
+                    <small class="What-is-DealDox-content">By automating <NuxtLink to='/services-cpq'>product
+                            configuration</NuxtLink>, pricing calculations,
                         estimations, and document generation (such as proposals, quotes, and costing sheets), DealDox
                         streamlines the presales process and offers approval workflow capabilities. </small>
 
@@ -41,17 +44,19 @@
 
                     <!-- <button class="why-dd-demo-btn">Get a Demo</button> -->
                 </div>
-                <img src="../assets/images/WhyDDAssests/Product Configuration.png" alt="" class="why-DD-left">
+                <img src="../assets/images/WhyDDAssests/Product Configuration.png" alt="Product Configuration"
+                    class="why-DD-left">
             </div>
 
             <div class="why-dealdox-container">
 
-                <img src="../assets/images/WhyDDAssests/Pricing Engine.png" alt="" class="why-DD-right">
+                <img src="../assets/images/WhyDDAssests/Pricing Engine.png" alt="price quote software" class="why-DD-right">
                 <div class="why-right-content">
 
                     <span class="why-dealdox-h1">Pricing Engine</span>
                     <small>The pricing engine automatically prices the chosen configuration based on rules set to
-                        maintain profitability. <NuxtLink to='/pricing'>Pricing</NuxtLink> is typically based on combinations of customer category, product
+                        maintain profitability. <NuxtLink to='/pricing'>Pricing</NuxtLink> is typically based on
+                        combinations of customer category, product
                         classification, sales channel, deal size, and volume. DealDox considers both product inventories
                         and channel and market needs, ensuring full support for your sales channels and geo-market
                         reach. </small>
@@ -70,16 +75,20 @@
 
                     <!-- <button class="why-dd-demo-btn">Get a Demo</button> -->
                 </div>
-                <img src="../assets/images/WhyDDAssests/Quoting System.png" alt="" class="why-DD-left">
+                <img src="../assets/images/WhyDDAssests/Quoting System.png" alt="quote to cash software"
+                    class="why-DD-left">
             </div>
 
             <div class="why-dealdox-container">
 
-                <img src="../assets/images/WhyDDAssests/Proposal Management .png" alt="" class="why-DD-right">
+                <img src="../assets/images/WhyDDAssests/Proposal Management .png" alt="proposal management software"
+                    class="why-DD-right">
                 <div class="why-right-content">
 
                     <span class="why-dealdox-h1">Proposal Management</span>
-                    <small><NuxtLink to='/quoting-software'>Proposal management systems</NuxtLink> manage proposal creation and delivery. With a solid proposal
+                    <small>
+                        <NuxtLink to='/quoting-software'>Proposal management systems</NuxtLink> manage proposal creation
+                        and delivery. With a solid proposal
                         system, DD CPQ provides pre-built templates for fast proposal creation with customizable
                         branding. It helps manage the proposal lifecycle via workflow authorization and approval
                         systems.
@@ -95,7 +104,9 @@
                 <div class="why-right-content">
 
                     <span class="why-dealdox-h1">Business Rules and Constraints </span>
-                    <small><NuxtLink to='/services-cpq'>CPQ configuration</NuxtLink> and pricing engines are powered by business rules. In the past, the
+                    <small>
+                        <NuxtLink to='/services-cpq'>CPQ configuration</NuxtLink> and pricing engines are powered by
+                        business rules. In the past, the
                         complexity of these rules determined how powerful CPQ systems were. Now, DD CPQ is designed to
                         make using business rules easier, especially compared to older ERP systems. One way to simplify
                         things is to use simple limits or restrictions instead of complicated business rules.
@@ -109,7 +120,7 @@
             </div>
             <div class="why-dealdox-container">
 
-                <img src="../assets/images/WhyDDAssests/Dynamic Images.png" alt="" class="why-DD-right">
+                <img src="../assets/images/WhyDDAssests/Dynamic Images.png" alt="dynamic images" class="why-DD-right">
                 <div class="why-left-content">
 
                     <span class="why-dealdox-h1">Dynamic Images</span>
@@ -128,7 +139,8 @@
                 <div class="why-right-content">
 
                     <span class="why-dealdox-h1">CRM & ERP Integration </span>
-                    <small>DealDox integrates seamlessly with leading <NuxtLink to='/salesforce-cpq-integration'>CRM systems</NuxtLink> like Salesforce, HubSpot, and Zoho
+                    <small>DealDox integrates seamlessly with leading <NuxtLink to='/salesforce-cpq-integration'>CRM
+                            systems</NuxtLink> like Salesforce, HubSpot, and Zoho
                         CRM. Also, connects effortlessly with top ERP systems such as Microsoft Dynamics 365, SAP
                         S/4HANA, and Oracle NetSuite. This integration ensures that all data is up-to-date and enhances
                         overall sales efficiency.
@@ -138,7 +150,8 @@
                     <!-- <button class="why-dd-demo-btn">Get a Demo</button> -->
                 </div>
 
-                <img src="../assets/images/WhyDDAssests/CRMERP Integration.png" alt="" class="why-DD-left">
+                <img src="../assets/images/WhyDDAssests/CRMERP Integration.png" alt="Integration with Salesforce"
+                    class="why-DD-left">
             </div>
 
 

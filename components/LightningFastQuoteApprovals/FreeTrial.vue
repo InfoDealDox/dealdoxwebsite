@@ -14,8 +14,9 @@
                             Experience the Power of Quick Approvals. Get started with a free onboarding
                             today! Sign up now!
                         </h3>
-                    <NuxtLink to="/pricing" target="_blank" class="button-container">
-<button class="default-btn">View Pricing & Features</button></NuxtLink>
+                        <NuxtLink to="/demo" target="_blank" class="button-container">
+                            <button class="default-btn">Get a Demo</button>
+                        </NuxtLink>
 
                     </div>
                 </div>

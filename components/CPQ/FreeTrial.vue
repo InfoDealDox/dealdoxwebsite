@@ -11,8 +11,8 @@
                             Automated Quote Generation tool speeds up sales cycles,
                             and boosts win rates with precise pricing and timely quotes.
                         </h3>
-                        <NuxtLink to="/pricing" target="_blank" class="button-container">
-                            <button class="default-btn">View Pricing & Features</button>
+                        <NuxtLink to="/demo" target="_blank" class="button-container">
+                            <button class="default-btn">Get a Demo</button>
                         </NuxtLink>
 
                     </div>

@@ -107,7 +107,21 @@ export default {
     components: {
         Navbar,
         DealDoxFooter
-    }
+    },
+    head: {
+        title: 'Boost Sales & Marketing Efficiency with DealDox CPQ',
+        htmlAttrs: {
+            lang: 'en-us'
+        },
+        meta: [
+            { charset: 'utf-8' },
+            { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+            { hid: 'description', name: 'description', content: 'Enhance sales and marketing performance with DealDox CPQ. Automate pricing, streamline proposal creation, and generate branded materials to drive conversions and revenue growth.' },
+            { hid: 'keywords', name: 'keywords', content: 'CPQ for sales teams, CPQ for marketing teams, sales automation, pricing automation, proposal generation, sales workflow optimization, cross-selling, upselling, branded proposal documents, product catalogs, sales enablement, marketing automation, ROI calculators, value-based selling, competitive pricing strategy' },
+        ],
+        link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io/sales' }
+        ],
+    },
 }
 
 
@@ -211,7 +225,8 @@ export default {
     .why-sales-container {
         margin-top: 83px;
     }
-    .mobile-marketing-container{
+
+    .mobile-marketing-container {
         order: 2;
     }
 }

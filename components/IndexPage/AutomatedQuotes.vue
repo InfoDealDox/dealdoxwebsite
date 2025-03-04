@@ -50,8 +50,9 @@
                                     </li>
                                 </ul>
                                 <div class="btn-box">
-                                <NuxtLink to="/pricing" target="_blank" class="button-container">
-<button class="default-btn-home">View Pricing & Features</button></NuxtLink>
+                                    <NuxtLink to="/demo" target="_blank" class="button-container">
+                            <button class="default-btn">Get a Demo</button>
+                        </NuxtLink>
 
 
                                 </div>
