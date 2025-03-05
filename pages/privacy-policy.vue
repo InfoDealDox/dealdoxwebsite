@@ -44,14 +44,14 @@ export default {
  //       });
 //    },
     head: {
-        title: 'DealDox CPQ Privacy Policy | Data Protection ',
+        title: 'DealDox CPQ Privacy Policy | Data Protection',
         htmlAttrs: {
             lang: 'en-us'
         },
         meta: [
             { charset: 'utf-8' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-            { hid: 'description', name: 'description', content: 'Learn how Dealdox Privacy Policy safeguards your data with comprehensive protection measures and compliance standards.' },
+            { hid: 'description', name: 'description', content: 'Your privacy matters. Review the DealDox CPQ privacy policy to understand our commitment to protecting your personal information and data security.' },
             { hid: 'keywords', name: 'keywords', content: 'Your privacy matters. Review the DealDox CPQ privacy policy to understand our commitment to protecting your personal information and data security.' },
         ],
         link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io/privacy-policy' }

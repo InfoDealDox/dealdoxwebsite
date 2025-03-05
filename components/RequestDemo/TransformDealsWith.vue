@@ -323,7 +323,7 @@ export default {
 <style>
 @media (max-width:750px) {
     .customize-padding-top {
-        padding-top: 0px !important;
+        padding-top: 28px !important;
     }
 
 

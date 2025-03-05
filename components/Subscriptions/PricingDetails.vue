@@ -117,7 +117,7 @@
 
 
                 <div class="button_div">
-                  <a href="https://web.dealdox.io/register?paymentMode=payAsYouGo">
+                  <a href="https://web.dealdox.io/register?paymentMode=payAsYouGo" rel="nofollow">
                     <button class="try_free">Access DealDox CPQ</button>
                   </a>
                   <!-- <NuxtLink :to="{
@@ -180,7 +180,7 @@
 
 
                 <div class="button_div">
-                  <a href="https://web.dealdox.io/register?paymentMode=standard">
+                  <a href="https://web.dealdox.io/register?paymentMode=standard" rel="nofollow">
                     <button class="try_free">Access DealDox CPQ</button>
                   </a>
 
@@ -242,7 +242,7 @@
 
 
                 <div class="button_div">
-                  <a href="https://web.dealdox.io/register?paymentMode=premium">
+                  <a href="https://web.dealdox.io/register?paymentMode=premium" rel="nofollow">
                     <button class="try_free">Access DealDox CPQ</button>
                   </a>
                 </div>
@@ -333,7 +333,7 @@
 
                       <th role="columnheader" scope="col" class="table__cell2">
                         <a :href="`https://web.dealdox.io/register?paymentMode=payAsYouGo`"
-                          class="subscription-anker-tag" target="_blank" rel="noopener noreferrer">
+                          class="subscription-anker-tag" target="_blank" rel="noopener noreferrer nofollow">
                           <div class="edition_wrapper">
                             <div class="edition__copy__wrapper">
                               <div class="edition_name">Pay-As-You-Go</div>
@@ -355,7 +355,7 @@
                       </th>
                       <th role="columnheader" scope="col" class="table__cell2">
                         <a :href="`https://web.dealdox.io/register?paymentMode=standard`" class="subscription-anker-tag"
-                          target="_blank" rel="noopener noreferrer">
+                          target="_blank" rel="noopener noreferrer nofollow">
                           <div class="edition_wrapper">
                             <div class="edition__copy__wrapper">
                               <div class="edition_name">Standard</div>
@@ -380,7 +380,7 @@
                       </th>
                       <th role="columnheader" scope="col" class="table__cell2">
                         <a :href="`https://web.dealdox.io/register?paymentMode=premium`" class="subscription-anker-tag"
-                          target="_blank" rel="noopener noreferrer">
+                          target="_blank" rel="noopener noreferrer nofollow">
                           <div class="edition_wrapper">
                             <div class="edition__copy__wrapper">
                               <div class="edition_name">Premium</div>

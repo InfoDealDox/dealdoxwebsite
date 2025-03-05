@@ -11,6 +11,21 @@ export default {
     name: 'SignInPage',
     components: {
         SignIn,
+    },
+
+
+    head() {
+        return {
+            meta: [
+                {
+                    hid: 'robots',
+                    name: 'robots',
+                    content: 'noindex, nofollow'
+                }
+            ]
+        };
     }
+
+
 }
 </script>

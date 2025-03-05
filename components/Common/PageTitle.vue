@@ -3,7 +3,7 @@
         <img src="../../assets/images/cookie_policy_new.png" alt="" style="margin: auto;">
         <div class="container">
             <div class="page-title-content">
-                <h1>{{ pageTitle }}</h1>
+                <span>{{ pageTitle }}</span>
                 <!-- <p>Stay Up-to-Date with Our Latest Insights, Tips, and News</p> -->
                 <!-- <ul>
                     <li>

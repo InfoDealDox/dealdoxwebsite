@@ -331,10 +331,11 @@ export default {
                     </div>
                   </div> -->
 
-                <ul v-show="dropdowns.platform" class="dropdown-menu" id="dropdown-menu-width-newnavbar" style="z-index: 10;">
+                <ul v-show="dropdowns.platform" class="dropdown-menu" id="dropdown-menu-width-newnavbar"
+                  style="z-index: 10;">
                   <div id="platform-mobile-responsive">
                     <div>
-                      <h4 class="navheaders">Top Features</h4>
+                      <span class="navheaders">Top Features</span>
                       <li class="nav-item">
                         <NuxtLink to="/services-cpq" class="nav-link">CPQ</NuxtLink>
                       </li>
@@ -356,7 +357,7 @@ export default {
                       </li>
                     </div>
                     <div>
-                      <h4 class="navheaders">Top Integrations</h4>
+                      <span class="navheaders">Top Integrations</span>
                       <li class="nav-item">
                         <NuxtLink to="/salesforce-cpq-integration" class="nav-link">Salesforce
                           CRM</NuxtLink>
@@ -436,7 +437,7 @@ export default {
             <a href="https://www.dealdox.io/demo" target="_blank" class="button-container">
               <button class="default-btn">Get a Demo</button>
             </a>
-            <a href="https://web.dealdox.io/" target="_blank" class="button-container">
+            <a href="https://web.dealdox.io/" target="_blank" rel="nofollow" class="button-container">
               <button class="default-btn">Login</button>
             </a>
           </div>

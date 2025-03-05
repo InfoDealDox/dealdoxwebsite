@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: 
+Disallow: https://www.dealdox.io/success-story/seamless-integration-of-custom-gadgets
 Allow: /
 Sitemap: https://www.dealdox.io/sitemap.xml

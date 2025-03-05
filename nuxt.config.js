@@ -1,10 +1,13 @@
 import axios from "axios";
+// import redirect from "./middleware/redirect";
 
 export default {
   server: {
     host: "0.0.0.0",
   },
-
+  serverMiddleware: [
+    { path: '/', handler: './middleware/redirect' }
+  ],
   modules: ["@nuxtjs/feed"],
 
   feed: [

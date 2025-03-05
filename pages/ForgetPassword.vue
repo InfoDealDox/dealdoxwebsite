@@ -11,6 +11,17 @@ export default {
     name: 'ForgetPasswordPage',
     components: {
         ForgetPassword,
+    },
+    head() {
+        return {
+            meta: [
+                {
+                    hid: 'robots',
+                    name: 'robots',
+                    content: 'noindex, nofollow'
+                }
+            ]
+        };
     }
 }
 </script>

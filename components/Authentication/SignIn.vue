@@ -91,6 +91,17 @@
 
 <script>
 export default {
-    name: 'SignIn'
+    name: 'SignIn',
+    head() {
+        return {
+            meta: [
+                {
+                    hid: 'robots',
+                    name: 'robots',
+                    content: 'noindex, nofollow'
+                }
+            ]
+        };
+    }
 }
 </script>
