@@ -238,7 +238,7 @@
 .single-footer-widget .social-links li a {
   width: 30px;
   height: 30px;
-  background: var(--blackColor);
+  /* background: var(--blackColor); */
   /* border: 1px solid #ced4da; */
   color: var(--paragraphColor);
   position: relative;
