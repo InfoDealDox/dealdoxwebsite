@@ -4,7 +4,8 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-12 col-md-12">
-                    <div class="new-app-main-banner-wrap-image" id="new-app-main-banner-wrap-image">
+                    <div class="new-app-main-banner-wrap-image margin-top-for-indivisual-blogs"
+                        id="new-app-main-banner-wrap-image">
                         <img src="../assets/images/more-home/banner/blogsheader.png" alt="image">
                     </div>
                 </div>
@@ -77,9 +78,11 @@ export default {
 
 
 <style>
-@media (max-width:750px){
-#new-app-main-banner-wrap-image {
-    margin-top: 46px !important;
-}
+@media only screen and (max-width: 767px) {
+
+    #new-app-main-banner-wrap-image,
+    .margin-top-for-indivisual-blogs {
+        margin-top: 46px !important;
+    }
 }
 </style>

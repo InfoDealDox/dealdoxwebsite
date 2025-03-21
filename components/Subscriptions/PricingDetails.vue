@@ -1360,7 +1360,7 @@ export default {
     } catch (error) {
       console.error("Error during initialization:", error);
     }
-    this.triggerPopup();
+    // this.triggerPopup();
   },
   watch: {
     async currentCountryCode(newCode, oldCode) {
@@ -1433,14 +1433,14 @@ export default {
       }
     },
 
-    triggerPopup() {
-      const popupIntervals = [3 * 60 * 1000, 540000, 1260000];
-      popupIntervals.forEach((interval) => {
-        setTimeout(() => {
-          this.showPopup = true;
-        }, interval);
-      });
-    },
+    // triggerPopup() {
+    //   const popupIntervals = [3 * 60 * 1000, 540000, 1260000];
+    //   popupIntervals.forEach((interval) => {
+    //     setTimeout(() => {
+    //       this.showPopup = true;
+    //     }, interval);
+    //   });
+    // },
 
     handleClose() {
       this.showPopup = false;

@@ -180,6 +180,7 @@
   grid-template-columns: 1.4fr 3fr 3fr 3fr 3fr;
   border-top: 0.1px solid #ccc;
   border-left: 0.1px solid #ccc;
+  min-height: 50px;
 }
 .subscription-layout .try_free {
   padding: 8px;

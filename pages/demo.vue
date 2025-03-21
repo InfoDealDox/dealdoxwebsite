@@ -60,7 +60,7 @@ export default {
         meta: [
             { charset: 'utf-8' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-            { hid: 'description', name: 'description', content: 'Learn how Dealdox Privacy Policy safeguards your data with comprehensive protection measures and compliance standards.' },
+            { hid: 'description', name: 'description', content: 'See DealDox CPQ in action! Request a personalized demo today and discover how DealDox CPQ software can streamline your sales process and improve quoting efficiency.' },
             { hid: 'keywords', name: 'keywords', content: 'See DealDox CPQ in action! Request a personalized demo today and discover how DealDox CPQ software can streamline your sales process and improve quoting efficiency.' },
         ],
         link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io/demo' }

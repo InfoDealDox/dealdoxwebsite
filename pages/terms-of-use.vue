@@ -44,7 +44,7 @@ export default {
    //     });
   //  },
      head: {
-        title: 'www.dealdox.io',
+        title: 'DealDox Terms of Use | Legal Agreement & Privacy Policy',
         htmlAttrs: {
             lang: 'en-us'
         },
