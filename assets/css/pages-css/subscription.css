@@ -1378,6 +1378,7 @@
   }
   .tbl-new-row {
     display: block;
+    min-height: 50px;
   }
 
   .border_table2 {
