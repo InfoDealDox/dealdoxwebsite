@@ -17,6 +17,8 @@ export default function (req, res, next) {
       "/blog/cpq-business-case",
     "/blog/an-overview-of-creating-an-effective-cpq-business-case":
       "/blog/cpq-business-case",
+      "/subscription":"/pricing",
+
   };
 
   const redirectTo = redirects[req.url];

@@ -22,7 +22,7 @@ export default {
     DealDoxFooter,
   },
   head: {
-    title: 'Thank You for Choosing Us | DealDox',
+    title: 'Thank You for Connecting with DealDox | We’ll Reach Out Soon',
         htmlAttrs: {
             lang: 'en-us'
         },
@@ -31,7 +31,7 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'capterra-tracker' },
       { innerHTML: '<img src="https://ct.capterra.com/capterra_tracker.gif?vid=2303870&vkey=41e06c8a66e8d4b929a001ad446feb0d" alt="Capterra Tracker">' }, 
-      { hid: 'description', name: 'description', content: 'Thank you for choosing DealDox. We help you streamline your deal process. Access your documents and manage your deal efficiently from your dashboard.' },
+      { hid: 'description', name: 'description', content: ' We appreciate your interest in DealDox! Our team will contact you shortly to assist with your needs. Stay tuned for our response.' },
 
         ],
         link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io/thank-you' }

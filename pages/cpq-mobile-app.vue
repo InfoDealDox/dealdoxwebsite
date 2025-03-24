@@ -6,7 +6,7 @@
                 <div class="cpq-mobile-app-body-left-1">
                     <h1 class="cpq-mobile-app-body-left-text-1">All-in-one <br>
                         Process <br> Costing App</h1>
-                        <button class="mobile-landing-button" @click="scrollToForm">
+                    <button class="mobile-landing-button" @click="scrollToForm">
                         Get DealDox
                     </button>
                 </div>
@@ -110,10 +110,10 @@
                         </div>
 
                         <div style="display: none;">
-                                    <label for="Contact_us__c">Contact</label>
-                                    <input id="Contact_us__c" maxlength="40" name="Contact_us__c" size="20" type="text"
-                                        value="True" /><br />
-                                </div>
+                            <label for="Contact_us__c">Contact</label>
+                            <input id="Contact_us__c" maxlength="40" name="Contact_us__c" size="20" type="text"
+                                value="True" /><br />
+                        </div>
 
 
                         <div class="landing-label-input">
@@ -269,6 +269,17 @@ export default {
             }
         },
     },
+    head() {
+        return {
+            meta: [
+                {
+                    hid: 'robots',
+                    name: 'robots',
+                    content: 'noindex, nofollow'
+                }
+            ]
+        };
+    }
 }
 
 </script>

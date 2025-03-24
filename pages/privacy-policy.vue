@@ -11,7 +11,7 @@
 
 import Navbar from '../layouts/Navbar';
 import PageTitle from '../components/Common/PageTitle';
-import PrivacyPolicy from '../components/PrivacyPolicy/PrivacyPolicy';
+import PrivacyPolicy from '../components/PrivacyPolicy/PrivacyPolicy.vue';
 import DealDoxFooter from '../layouts/DealDoxFooter';
 import axios from 'axios';
 

@@ -2,11 +2,13 @@
     <div>
 
         <Navbar class="navbar-style-two" />
+
         <div class="why-sales-container">
+            <h1 style="text-align: center;">Boost Sales & Marketing Efficiency with CPQ</h1>
             <div class="sales-sub-container">
 
                 <div class="sales-left-container">
-                    <span class="sales-left-heading">For Sales Teams</span>
+                    <h2 class="sales-left-heading">For Sales Teams</h2>
                     <span>CPQ (Configure, Price, Quote) systems significantly enhance the efficiency and effectiveness
                         of sales teams in several ways: </span>
                     <ul class="sales-list-content">
@@ -50,7 +52,7 @@
                 </div>
 
                 <div class="sales-left-container">
-                    <span class="sales-left-heading">For Marketing Teams</span>
+                    <h2 class="sales-left-heading">For Marketing Teams</h2>
                     <span>CPQ (Configure, Price, Quote) systems empower marketing teams to enhance sales efforts with
                         precise marketing materials and value-driven sales tools. The primary advantages of CPQ
                         solutions for marketing include: </span>

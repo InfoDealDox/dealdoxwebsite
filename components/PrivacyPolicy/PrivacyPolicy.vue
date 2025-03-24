@@ -2,10 +2,10 @@
   <div class="privacy-policy-area pt-70">
     <div class="container">
       <div class="privacy-policy-content">
-        <h6>
-          <NuxtLink to="/privacy-policy">Privacy Policy</NuxtLink> for
+        <h1>
+          Privacy Policy for
           IT Consulting and Solutions Organization
-        </h6>
+        </h1>
         <p class="text-justify">
           At our DealDox Software Pvt Ltd organization, we are committed to
           protecting the privacy and
@@ -256,7 +256,9 @@
           testimonials.
         </p>
 
-        <h6><NuxtLink to='/security'>Security and Safety</NuxtLink></h6>
+        <h6>
+          <NuxtLink to='/security'>Security and Safety</NuxtLink>
+        </h6>
         <p class="text-justify">
           We verify your accounts and activity, detect, prevent, and respond to
           potential or actual security incidents, and monitor and protect
@@ -445,11 +447,11 @@
         <p class="text-justify">
           If you have any questions or concerns about our privacy policy, please
           contact us at <a href="mailto:info@dealdox.io">info@dealdox.io</a> </p>
-          
-          <p class="text-justify">We shall get in touch with you within 30 days.
+
+        <p class="text-justify">We shall get in touch with you within 30 days.
         </p>
 
-        <p class="text-justify">You can also connect us on Call us -<a href="tel:91-9741429514">  91-9741429514</a></p>
+        <p class="text-justify">You can also connect us on Call us -<a href="tel:91-9741429514"> 91-9741429514</a></p>
         <p class="text-justify">DealDox Software Pvt Ltd</p>
 
         <p class="text-justify">
