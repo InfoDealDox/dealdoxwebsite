@@ -4,7 +4,7 @@
             <div class="row justify-content-left">
                 <div class="col-lg-4 col-md-6">
                     <div class="section-title">
-                        <h2>Latest Blogs</h2>
+                        <h1 style="text-align: center;width: 100%;">Latest Blogs</h1>
                     </div>
                 </div>
                 <!-- <div class="col-lg-8 col-md-6">
@@ -34,11 +34,11 @@
                             <!-- <NuxtLink to="/blog-grid" class="tag">{{ blog.attributes.tag }}</NuxtLink> -->
                         </div>
                         <div class="content">
-                            <h3>
+                            <h2 class="blog-series-title-header">
                                 <NuxtLink :to="'/blog/' + blog.attributes.slug">
                                     {{ blog.attributes.title }}
                                 </NuxtLink>
-                            </h3>
+                            </h2>
                             <p>{{ blog.attributes.shortDesc }}</p>
                             <!-- <pre>{{ blog.attributes.blog_categories }}</pre> -->
 
@@ -97,3 +97,9 @@ export default {
     },
 }
 </script>
+
+<style>
+.blog-series-title-header {
+    font-size: 18px;
+}
+</style>

@@ -10,7 +10,6 @@
         >
           {{ editionRow.name }}<br />{{ editionRow.price }}
         </td> -->
-        <td class="tbl-bl">PAY-AS-YOU-GO </td>
 
         <td class="tbl-bl">STANDARD</td>
         <td class="tbl-bl">PREMIUM</td>
@@ -21,7 +20,7 @@
         <th role="rowheader" scope="row" class="table__cell sticky-column">
           <div class="table_column_header">
             <div class="table_column_header_icon">
-              <p class="table_row_heading" >{{ row.heading }}</p>
+              <p class="table_row_heading">{{ row.heading }}</p>
               <p class="hover_message" v-if="row.icon">
                 <i class="ri-error-warning-line"></i>
                 <span v-if="row.message" class="tooltip_text">{{

@@ -67,7 +67,7 @@
           <div style="width:100%">
             <div class="cards-section1">
 
-              <div class="pricing-card-body">
+              <!-- <div class="pricing-card-body">
                 <div class="plan-text-body">
                   <small class="pricing-plan-label">Pay-As-You-Go</small>
 
@@ -84,7 +84,7 @@
                   <span class="cards-cashs">
                     <small style="font-size: 22px; color: #5d5d66;"><small style="font-size: 22px;"
                         v-if='currency_symbol_code !== "INR"'>{{ currency_symbol_code }}</small>{{ currency_symbol
-                      }}</small>
+                        }}</small>
                     <span>{{ payAsYouGoAmount }}</span>
 
                   </span>
@@ -120,15 +120,10 @@
                   <a href="https://web.dealdox.io/register?paymentMode=payAsYouGo" rel="nofollow">
                     <button class="try_free">Access DealDox CPQ</button>
                   </a>
-                  <!-- <NuxtLink :to="{
-                    name: 'contact-us',
-                    params: { source: 'Enterprise' },
-                  }">
-                    <button class="try_free">Access DealDox CPQ </button>
-                  </NuxtLink> -->
+         
 
                 </div>
-              </div>
+              </div> -->
               <div class="pricing-card-body">
                 <div class="plan-text-body">
                   <small class="pricing-plan-label">Standard</small>
@@ -146,9 +141,9 @@
                   <span class="cards-cashs">
                     <small style="font-size: 22px; color: #5d5d66;"><small style="font-size: 22px;"
                         v-if='currency_symbol_code !== "INR"'>{{ currency_symbol_code }}</small>{{ currency_symbol
-                      }}</small>
-                    <span v-if="monthly">{{ monthlystandardAmount }}</span>
-                    <span v-else>{{ standardAmount }}</span>
+                        }}</small>
+                    <span v-if="monthly">{{ monthlystandardAmount.toLocaleString() }}</span>
+                    <span v-else>{{ standardAmount.toLocaleString() }}</span>
 
                   </span>
                   <div class="perquoteDiv">
@@ -158,7 +153,7 @@
 
                 </div>
                 <div class="card-key-feature-lists">
-                  <span class="card-key-feature-lists-h1">Everything in Pay-as-you-go+ </span>
+                  <span class="card-key-feature-lists-h1">Key features : </span>
                   <ul class="cards-list-item">
                     <li class="card-list-item-content-li"><i class="bi bi-check2 checkmarks-pricing"></i><span
                         class="card-list-item-content">Minimum 3 users </span></li>
@@ -210,9 +205,9 @@
                   <span class="cards-cashs">
                     <small style="font-size: 22px; color: #5d5d66;"><small style="font-size: 22px;"
                         v-if='currency_symbol_code !== "INR"'>{{ currency_symbol_code }}</small>{{ currency_symbol
-                      }}</small>
-                    <span v-if="monthly">{{ monthlypremiumAmount }}</span>
-                    <span v-else>{{ premiumAmount }}</span>
+                        }}</small>
+                    <span v-if="monthly">{{ monthlypremiumAmount.toLocaleString() }}</span>
+                    <span v-else>{{ premiumAmount.toLocaleString() }}</span>
                   </span>
                   <div class="perquoteDiv">
                     <span v-if="monthly">/user/month billed monthly</span><span v-else>
@@ -331,7 +326,7 @@
                         </div>
                       </th>
 
-                      <th role="columnheader" scope="col" class="table__cell2">
+                      <!-- <th role="columnheader" scope="col" class="table__cell2">
                         <a :href="`https://web.dealdox.io/register?paymentMode=payAsYouGo`"
                           class="subscription-anker-tag" target="_blank" rel="noopener noreferrer nofollow">
                           <div class="edition_wrapper">
@@ -340,19 +335,9 @@
                             </div>
                           </div>
                         </a>
-                        <!-- <NuxtLink :to="{
-                          name: 'contact-us',
-                          params: { source: 'Enterprise' },
-                        }" class="nuxtlink-enterise">
-                          <div class="edition_wrapper">
-                            <div class="edition__copy__wrapper">
-                              <div class="edition_name">Pay-As-You-Go</div>
+                 
 
-                            </div>
-                          </div>
-                        </NuxtLink> -->
-
-                      </th>
+                      </th> -->
                       <th role="columnheader" scope="col" class="table__cell2">
                         <a :href="`https://web.dealdox.io/register?paymentMode=standard`" class="subscription-anker-tag"
                           target="_blank" rel="noopener noreferrer nofollow">
@@ -475,6 +460,7 @@ import FeaturedData from "./FeaturedData.vue";
 import CONSTANTS from "../Common/currencyList";
 
 
+
 export default {
   components: {
     CustomPopup,
@@ -499,14 +485,14 @@ export default {
       currency_symbol_code: "INR",
       editions: [
 
-        {
-          name: "Pay-As-You-Go",
-          price: 1,
-          currency: "INR",
-          currency_symbol: "₹",
-          billing: "/month/User",
-          datapass: "standard",
-        },
+        // {
+        //   name: "Pay-As-You-Go",
+        //   price: 1,
+        //   currency: "INR",
+        //   currency_symbol: "₹",
+        //   billing: "/month/User",
+        //   datapass: "standard",
+        // },
         {
           name: "STANDARD",
           price: this.standardAmount,
@@ -532,13 +518,13 @@ export default {
       tableData1: [
         {
           heading: "Android - Playstore",
-          cells: ["-", "-", "Included", "Included"],
+          cells: [ "-", "Included", "Included"],
 
 
         },
         {
           heading: "Apple - Appstore",
-          cells: ["-", "-", "Included", "Included"],
+          cells: [ "-", "Included", "Included"],
 
         },
       ],
@@ -557,119 +543,119 @@ export default {
       tableData3: [
         {
           heading: "Word & PDF Export",
-          cells: ["Included", "Included", "Included", "Included"],
+          cells: ["Included", "Included", "Included"],
 
         },
         {
           heading: "Dynamic Document Generation",
-          cells: ["Included", "Included", "Included", "Included"],
+          cells: ["Included", "Included", "Included"],
 
         },
         {
           heading: "Advanced Product Catalog",
-          cells: ["Included", "Included", "Included", "Included"],
+          cells: ["Included", "Included", "Included"],
 
         },
         {
           heading: "Combination of Product & Service Catalog",
-          cells: ["Included", "Included", "Included", "Included"],
+          cells: ["Included", "Included", "Included"],
 
         },
         {
           heading: "Product, Service, and Expense Document",
-          cells: ["Included", "Included", "Included", "Included"],
+          cells: ["Included", "Included", "Included"],
         },
         {
           heading: "Conditional logic with formula fields",
-          cells: ["-", "Included", "Included", "Included"],
+          cells: [ "Included", "Included", "Included"],
 
         },
         {
           heading: "Multi-tiered Documents generated from each proposal",
-          cells: ["-", "Included", "Included", "Included"],
+          cells: [ "Included", "Included", "Included"],
 
         },
         {
           heading: "Dynamic Documents",
-          cells: ["Unlimited", "Limited", "Unlimited", "Unlimited"],
+          cells: [ "Limited", "Unlimited", "Unlimited"],
 
         },
         {
           heading: "Rules Engine",
-          cells: ["Limited", "Limited", "Unlimited", "Unlimited"],
+          cells: ["Limited", "Unlimited", "Unlimited"],
 
         },
         {
           heading: "Automated Bundling",
-          cells: ["Limited", "Limited", "Unlimited", "Unlimited"],
+          cells: ["Limited", "Unlimited", "Unlimited"],
         },
         {
           heading: "Configured Pricing",
-          cells: ["Included", "Included", "Included", "Included"],
+          cells: ["Included", "Included", "Included"],
         },
         {
           heading: "Pricing Flexibility",
-          cells: ["-", "-", "Included", "Included"],
+          cells: [ "-", "Included", "Included"],
 
         },
         {
           heading: "Multi Tier Discounts",
-          cells: ["-", "-", "Included", "Included"],
+          cells: [ "-", "Included", "Included"],
 
         },
         {
           heading: "Rate Card Versioning",
-          cells: ["-", "-", "Included", "Included"],
+          cells: [ "-", "Included", "Included"],
 
         },
         {
           heading: "Global Currency Support",
-          cells: ["-", "-", "Included", "Included"],
+          cells: [ "-", "Included", "Included"],
 
         },
         {
           heading: "Custom Branding",
-          cells: ["Included", "Included", "Included", "Included"],
+          cells: ["Included", "Included", "Included"],
 
         },
         {
           heading: "Custom Document Templates",
-          cells: ["Included", "Included", "Included", "Included"],
+          cells: ["Included", "Included", "Included"],
 
         },
         {
           heading: "Data Collection via Forms",
-          cells: ["Limited", "Limited", "Unlimited", "Unlimited"],
+          cells: ["Limited", "Unlimited", "Unlimited"],
 
         },
         {
           heading: "Rich Media Content",
-          cells: ["Limited", "Limited", "Unlimited", "Unlimited"],
+          cells: ["Limited", "Unlimited", "Unlimited"],
 
         },
         {
           heading: "Custom Style",
-          cells: ["Limited", "Limited", "Unlimited", "Unlimited"],
+          cells: ["Limited", "Unlimited", "Unlimited"],
 
         },
         {
           heading: "Font & Vibrant Document Styling",
-          cells: ["Limited", "Limited", "Unlimited", "Unlimited"],
+          cells: ["Limited", "Unlimited", "Unlimited"],
 
         },
         {
           heading: "Dynamic Image Updates",
-          cells: ["Included", "Included", "Included", "Included"],
+          cells: ["Included", "Included", "Included"],
 
         },
         {
           heading: "Data Split By Table",
-          cells: ["Limited", "Limited", "Unlimited", "Unlimited"],
+          cells: ["Limited", "Unlimited", "Unlimited"],
 
         },
         {
           heading: "Generate Multiple Quote Iterations",
-          cells: ["Included", "Included", "Included", "Included"],
+          cells: ["Included", "Included", "Included"],
 
         },
         {
@@ -677,289 +663,288 @@ export default {
           cells: [
             "Watermarked",
             "Watermarked",
-            "Watermarked",
             "Unwatermarked",
           ],
         },
         {
           heading: "Customized Content",
-          cells: ["Included", "Included", "Included", "Included"],
+          cells: ["Included", "Included", "Included"],
 
         },
         {
           heading: "Number of Pages per Document",
-          cells: ["Limited", "Limited", "Unlimited", "Unlimited"],
+          cells: ["Limited", "Unlimited", "Unlimited"],
 
         },
         {
           heading: "Document Types",
-          cells: ["1", "Upto 3", "Upto 5", "Unlimited"],
+          cells: [ "Upto 3", "Upto 5", "Unlimited"],
 
         },
         {
           heading: "DealDox Generated Word Document Editing Restricted",
-          cells: ["Locked", "Locked", "Locked", "UnLocked"],
+          cells: ["Locked", "Locked", "UnLocked"],
 
         },
         {
           heading: "Translingual Document",
-          cells: ["-", "-", "Included", "Included"],
+          cells: [ "-", "Included", "Included"],
 
         },
         {
           heading: "Saving created DealDocuments within the application",
-          cells: ["Included", "Included", "Included", "Included"],
+          cells: ["Included", "Included", "Included"],
         },
         {
           heading: "Service & Product Line Items",
-          cells: ["Limited", "Limited", "Unlimited", "Unlimited"],
+          cells: ["Limited", "Unlimited", "Unlimited"],
 
         },
         {
           heading: "Custom Quote Name",
-          cells: ["Included", "Included", "Included", "Included"],
+          cells: ["Included", "Included", "Included"],
 
         },
         {
           heading: "Password Protection Digital Proposals",
-          cells: ["Included", "Included", "Included", "Included"],
+          cells: ["Included", "Included", "Included"],
 
         },
 
         {
           heading: "In App Document Stored",
-          cells: ["Included", "Included", "Included", "Included"],
+          cells: ["Included", "Included", "Included"],
 
 
         },
         {
           heading: "Admin-Enabled Self-Service Configuration",
-          cells: ["-", "-", "Included", "Included"],
+          cells: [ "-", "Included", "Included"],
           icon: "true",
           message: "Minimum 10 Licences to be Procured ",
         },
         {
           heading: "Knowledge Articles",
-          cells: ["-", "-", "-", "Included"],
+          cells: [ "-", "-", "Included"],
 
         },
       ],
       tableData4: [
         {
           heading: "Approval Workflow",
-          cells: ["-", "-", "Included", "Included"],
+          cells: [ "-", "Included", "Included"],
 
         },
         {
           heading: "Data Import from Excel",
-          cells: ["-", "-", "Included", "Included"],
+          cells: [ "-", "Included", "Included"],
         },
         {
           heading: "Currency Conversions",
-          cells: ["-", "-", "10", "Unlimited"],
+          cells: [ "-", "10", "Unlimited"],
         },
         {
           heading: "Multi Service Templates",
-          cells: ["-", "-", "Included", "Included"],
+          cells: [ "-", "Included", "Included"],
 
         },
         {
           heading: "Pricing Table",
-          cells: ["Included", "Included", "Included", "Included"],
+          cells: ["Included", "Included", "Included"],
 
         },
       ],
       tableData5: [
         {
           heading: "Audit Trial",
-          cells: ["-", "-", "-", "Included"],
+          cells: [ "-", "-", "Included"],
 
         },
         {
           heading: "Reports",
-          cells: ["Included", "Included", "Included", "Included"],
+          cells: ["Included", "Included", "Included"],
 
         },
       ],
       tableData6: [
         {
           heading: "CRM",
-          cells: ["-", "-", "Included", "Included"],
+          cells: [ "-", "Included", "Included"],
 
         },
         {
           heading: "ERP ",
-          cells: ["-", "-", "-", "Included"],
+          cells: [ "-", "-", "Included"],
         },
         {
           heading: "PSA",
-          cells: ["-", "-", "-", "Included"],
+          cells: [ "-", "-", "Included"],
         },
         {
           heading: "Custom Application",
-          cells: ["-", "-", "-", "Included"],
+          cells: [ "-", "-", "Included"],
         },
         {
           heading: "Data merge with CRM and quotes",
-          cells: ["-", "-", "-", "Included"],
+          cells: [ "-", "-", "Included"],
         },
         {
           heading: "WhatsApp Business",
-          cells: ["-", "-", "-", "Included"],
+          cells: [ "-", "-", "Included"],
 
         },
         {
           heading: "Google Maps",
-          cells: ["-", "-", "Included", "Included"],
+          cells: [ "-", "Included", "Included"],
 
         },
         {
           heading: "Email",
-          cells: ["-", "-", "-", "Included"],
+          cells: [ "-", "-", "Included"],
 
         },
       ],
       tableData7: [
         {
           heading: "Two-Factor Authentication",
-          cells: ["Included", "Included", "Included", "Included"],
+          cells: ["Included", "Included", "Included"],
 
         },
         {
           heading: "Profiles",
-          cells: ["Included", "Included", "Included", "Included"],
+          cells: ["Included", "Included", "Included"],
 
         },
         {
           heading: "Roles",
-          cells: ["Included", "Included", "Included", "Included"],
+          cells: ["Included", "Included", "Included"],
 
         },
         {
           heading: "Reporting Hierarchy",
-          cells: ["-", "Included", "Included", "Included"],
+          cells: [ "Included", "Included", "Included"],
 
         },
         {
           heading: "Audit Logs",
-          cells: ["-", "-", "Included", "Included"],
+          cells: [ "-", "Included", "Included"],
 
         },
         {
           heading: "Data Security & Encryption",
-          cells: ["Included", "Included", "Included", "Included"],
+          cells: ["Included", "Included", "Included"],
 
         },
         {
           heading: "Field Level Security",
-          cells: ["Included", "Included", "Included", "Included"],
+          cells: ["Included", "Included", "Included"],
 
         },
         {
           heading: "Proposal Encryption",
-          cells: ["Included", "Included", "Included", "Included"],
+          cells: ["Included", "Included", "Included"],
 
         },
         {
           heading: "Allowed IPs",
-          cells: ["-", "Included", "Included", "Included"],
+          cells: [ "Included", "Included", "Included"],
 
         },
         {
           heading: "SOC 2 Type II Compliant",
-          cells: ["Included", "Included", "Included", "Included"],
+          cells: ["Included", "Included", "Included"],
 
         },
 
         {
           heading: "ISO 27001 Compliant",
-          cells: ["Included", "Included", "Included", "Included"],
+          cells: ["Included", "Included", "Included"],
 
         },
         {
           heading: "GDPR Compliance Settings",
-          cells: ["Included", "Included", "Included", "Included"],
+          cells: ["Included", "Included", "Included"],
 
         },
         {
           heading: "HIPAA Compliance Settings",
-          cells: ["Included", "Included", "Included", "Included"],
+          cells: ["Included", "Included", "Included"],
 
         },
       ],
       tableData8: [
         {
           heading: "Web To Case Form",
-          cells: ["Included", "Included", "Included", "Included"],
+          cells: ["Included", "Included", "Included"],
 
         },
         {
           heading: "Email Support",
-          cells: ["Included", "Included", "Included", "Included"],
+          cells: ["Included", "Included", "Included"],
 
         },
         {
           heading: "Call Support",
-          cells: ["-", "-", "-", "Included"],
+          cells: [ "-", "-", "Included"],
 
         },
         {
           heading: "Priority Call & Email Support",
-          cells: ["-", "-", "-", "Included"],
+          cells: [ "-", "-", "Included"],
 
         },
         {
           heading: "Dedicated Account Manager",
-          cells: ["-", "-", "-", "Included"],
+          cells: [ "-", "-", "Included"],
 
         },
       ],
       tableData17: [
         {
           heading: "Real Time Analysis & Insights",
-          cells: ["-", "-", "Included", "Included"],
+          cells: [ "-", "Included", "Included"],
 
         },
         {
           heading: "Quotation Assistance",
-          cells: ["-", "-", "Included", "Included"],
+          cells: [ "-", "Included", "Included"],
 
         },
         {
           heading: "Smart Pricing Suggestions",
-          cells: ["-", "-", "Included", "Included"],
+          cells: [ "-", "Included", "Included"],
 
         },
         {
           heading: "Automated Email Drafting",
-          cells: ["-", "-", "Included", "Included"],
+          cells: [ "-", "Included", "Included"],
 
         },
         {
           heading: "Real-Time Query Handling",
-          cells: ["-", "-", "-", "Included"],
+          cells: [ "-", "-", "Included"],
 
         },
         {
           heading: "Scenario Simulation",
-          cells: ["-", "-", "-", "Included"],
+          cells: [ "-", "-", "Included"],
 
         },
         {
           heading: "Task Automation",
-          cells: ["-", "-", "-", "Included"],
+          cells: [ "-", "-", "Included"],
 
         },
         {
           heading: "Predictive Sales Analysis",
-          cells: ["-", "-", "-", "Included"],
+          cells: [ "-", "-", "Included"],
 
         },
       ],
       tableData9: [
         {
           heading: "Sandbox",
-          cells: ["-", "Included", "Included"],
+          cells: [ "Included", "Included"],
 
         },
         {
@@ -969,45 +954,45 @@ export default {
         },
         {
           heading: "Super Admin Access",
-          cells: ["-", "Included", "Included"],
+          cells: [ "Included", "Included"],
         },
         {
           heading: "Account & Opportunity Management",
-          cells: ["-", "-", "-"],
+          cells: [ "-", "-"],
         },
         {
           heading: "Document Library",
-          cells: ["-", "-", "-"],
+          cells: [ "-", "-"],
         },
         {
           heading: "Rules Validation",
-          cells: ["-", "-", "-"],
+          cells: [ "-", "-"],
         },
         {
           heading: "Total Number Of Actions",
-          cells: ["-", "-", "-"],
+          cells: [ "-", "-"],
         },
       ],
       tableData10: [
         {
           heading: "Super Admin Access",
-          cells: ["-", "Included", "Included"],
+          cells: [ "Included", "Included"],
         },
         {
           heading: "Account & Opportunity Management",
-          cells: ["-", "-", "-"],
+          cells: [ "-", "-"],
         },
         {
           heading: "Document Library",
-          cells: ["-", "-", "-"],
+          cells: [ "-", "-"],
         },
         {
           heading: "Rules Validation",
-          cells: ["-", "-", "-"],
+          cells: [ "-", "-"],
         },
         {
           heading: "Total Number Of Actions",
-          cells: ["-", "-", "-"],
+          cells: [ "-", "-"],
         },
       ],
       tableData11: [
@@ -1021,19 +1006,19 @@ export default {
         },
         {
           heading: "CSP To Create/Update Templates",
-          cells: ["-", "Included", "Included"],
+          cells: [ "Included", "Included"],
         },
         {
           heading: "Self Service Deployment",
-          cells: ["-", "-", "Included"],
+          cells: [ "-", "Included"],
         },
         {
           heading: "Reports For Quote Creation",
-          cells: ["-", "-", "Included"],
+          cells: [ "-", "Included"],
         },
         {
           heading: "Reports For Delivery",
-          cells: ["-", "-", "Included"],
+          cells: [ "-", "Included"],
         },
       ],
       tableData12: [
@@ -1075,114 +1060,114 @@ export default {
       tableData14: [
         {
           heading: "Self Approvals",
-          cells: ["Included", "Included", "Included", "Included"],
+          cells: ["Included", "Included", "Included"],
 
         },
         {
           heading: "Single Click Approvals",
-          cells: ["-", "Included", "Included", "Included"],
+          cells: [ "Included", "Included", "Included"],
 
         },
         {
           heading: "Mobile on the go Approvals",
-          cells: ["-", "-", "Included", "Included"],
+          cells: [ "-", "Included", "Included"],
 
         },
         {
           heading: "Sequential Approvals",
 
-          cells: ["-", "-", "Included", "Included"],
+          cells: [ "-", "Included", "Included"],
         },
         {
           heading: "Parallel Approvals",
-          cells: ["-", "-", "Included", "Included"],
+          cells: [ "-", "Included", "Included"],
         },
         {
           heading: "Threshold-based Approvals",
 
-          cells: ["-", "-", "Included", "Included"],
+          cells: [ "-", "Included", "Included"],
         },
         {
           heading: "Departmental Approvals",
-          cells: ["-", "-", "-", "Included"],
+          cells: [ "-", "-", "Included"],
         },
         {
           heading: "Approval Dashboards",
 
-          cells: ["-", "-", "Included", "Included"],
+          cells: [ "-", "Included", "Included"],
         },
       ],
       tableData15: [
         {
           heading: "Personal Settings",
-          cells: ["Included", "Included", "Included", "Included"],
+          cells: ["Included", "Included", "Included"],
 
         },
         {
           heading: "Profile Picture",
-          cells: ["Included", "Included", "Included", "Included"],
+          cells: ["Included", "Included", "Included"],
 
         },
         {
           heading: "Company Logo and Theme",
-          cells: ["Included", "Included", "Included", "Included"],
+          cells: ["Included", "Included", "Included"],
 
         },
         {
           heading: "Translations",
-          cells: ["-", "Included", "Included", "Included"],
+          cells: [ "Included", "Included", "Included"],
 
         },
         {
           heading: "Multiple Environments",
-          cells: ["-", "-", "-", "Included"],
+          cells: [ "-", "-", "Included"],
 
         },
         {
           heading: "Training",
-          cells: ["-", "-", "-", "Included"],
+          cells: [ "-", "-", "Included"],
 
         },
       ],
       tableData16: [
         {
           heading: "Leads",
-          cells: ["Included", "Included", "Included", "Included"],
+          cells: ["Included", "Included", "Included"],
 
         },
         {
           heading: "Accounts",
-          cells: ["Included", "Included", "Included", "Included"],
+          cells: ["Included", "Included", "Included"],
 
         },
         {
           heading: "Deals",
-          cells: ["Included", "Included", "Included", "Included"],
+          cells: ["Included", "Included", "Included"],
 
         },
         {
           heading: "Customizable Sales Stages",
-          cells: ["Included", "Included", "Included", "Included"],
+          cells: ["Included", "Included", "Included"],
 
         },
         {
           heading: "Notifications",
-          cells: ["Included", "Included", "Included", "Included"],
+          cells: ["Included", "Included", "Included"],
 
         },
         {
           heading: "Reminders",
-          cells: ["-", "-", "-", "Included"],
+          cells: [ "-", "-", "Included"],
 
         },
         {
           heading: "Additional Fields on Accounts ",
-          cells: ["-", "Included", "Included", "Included"],
+          cells: [ "Included", "Included", "Included"],
 
         },
         {
           heading: "Additional Fields on Opportunity",
-          cells: ["-", "Included", "Included", "Included"],
+          cells: [ "Included", "Included", "Included"],
 
         },
       ],
@@ -1192,15 +1177,15 @@ export default {
           rows: [
             {
               heading: "Guidance for products selection",
-              cells: ["Included", "Included", "Included", "Included"],
+              cells: ["Included", "Included", "Included"],
             },
             {
               heading: "Guidance based on target markets, business lines, geography, customer profiles, and custom fields",
-              cells: ["Included", "Included", "Included", "Included"],
+              cells: ["Included", "Included", "Included"],
             },
             {
               heading: "Auto-populate product SKUs based on configuration rules",
-              cells: ["Included", "Included", "Included", "Included"],
+              cells: ["Included", "Included", "Included"],
             },
 
           ],
@@ -1210,23 +1195,23 @@ export default {
           rows: [
             {
               heading: "Guided selling flows (across the CRM org Account)",
-              cells: ["10", "25", "50", "100"],
+              cells: ["25", "50", "100"],
             },
             {
               heading: "Built-in functions",
-              cells: ["100", "200", "300", "500"],
+              cells: [ "200", "300", "500"],
             },
             {
               heading: "Questions that can be added in Guided Selling ",
-              cells: ["100", "300", "1000", "2000"],
+              cells: [ "300", "1000", "2000"],
             },
             {
               heading: "Guided Selling Templates",
-              cells: ["3", "6", "9", "12"],
+              cells: [ "6", "9", "12"],
             },
             {
               heading: "Automated Guided Selling",
-              cells: ["1", "3", "5", "10"],
+              cells: [ "3", "5", "10"],
             },
           ],
         },
@@ -1235,20 +1220,20 @@ export default {
           rows: [
             {
               heading: "Price Rules",
-              cells: ["50", "75", "150", "250"],
+            cells: [ "75", "150", "250"],
             },
             {
               heading: "Module-Based Conditions Under Primary Rule Criteria",
-              cells: ["10", "15", "20", "25"],
+              cells: [ "15", "20", "25"],
             },
             {
               heading: "Cell range that can be added per item in the Volume type price rules - RULES-Formula-logical ",
-              cells: ["150", "250", "500", "1000"],
+              cells: [ "250", "500", "1000"],
             },
 
             {
               heading: "Number of record range that can be added per item in the Volume type price rules - RULES-Formula-logical",
-              cells: ["100", "250", "500", "1000"],
+              cells: [ "250", "500", "1000"],
             },
           ],
         },
@@ -1257,19 +1242,19 @@ export default {
           rows: [
             {
               heading: "Auto-populate product SKUs based on configuration rules",
-              cells: ["25", "50", "100", "500"],
+              cells: [ "50", "100", "500"],
             },
             {
               heading: "Product Configurations",
-              cells: ["25", "50", "100", "1000"],
+              cells: [ "50", "100", "1000"],
             },
             {
               heading: "Module-based Conditions Count under Primary Rule Criteria",
-              cells: ["5", "10", "50", "100"],
+              cells: [ "10", "50", "100"],
             },
             {
               heading: "Total number of Actions per Rule",
-              cells: ["25", "50", "75", "100"],
+              cells: [ "50", "75", "100"],
             },
 
           ],
@@ -1278,72 +1263,72 @@ export default {
       tableData20: [
         {
           heading: "Reports",
-          cells: ["Included", "Included", "Included", "Included"],
+          cells: ["Included", "Included", "Included"],
         },
         {
           heading: "Custom Reports",
-          cells: ["-", "Included", "Included", "Included"],
+          cells: [ "Included", "Included", "Included"],
 
         },
         {
           heading: "Design and maintain reports in-app",
-          cells: ["-", "Included", "Included", "Included"],
+          cells: [ "Included", "Included", "Included"],
 
         },
         {
           heading: "Report Scheduling",
-          cells: ["-", "-", "Included", "Included"],
+          cells: [ "-", "Included", "Included"],
 
         },
         {
           heading: "Dashboards",
-          cells: ["-", "-", "-", "Included"],
+          cells: [ "-", "-", "Included"],
 
         },
         {
           heading: "Audit Trial",
-          cells: ["-", "-", "-", "Included"],
+          cells: [ "-", "-", "Included"],
 
         },
       ],
       tableData21: [
         {
           heading: "Fine-grained Access Control",
-          cells: ["Included", "Included", "Included", "Included"],
+          cells: ["Included", "Included", "Included"],
         },
         {
           heading: "Organization Admins",
-          cells: ["-", "-", "Included", "Included"],
+          cells: [ "-", "Included", "Included"],
 
         },
         {
           heading: "Workspace Admins",
-          cells: ["-", "Included", "Included", "Included"],
+          cells: [ "Included", "Included", "Included"],
 
         },
         {
           heading: "Custom Roles",
-          cells: ["-", "-", "Included", "Included"],
+          cells: [ "-", "Included", "Included"],
 
         },
         {
           heading: "Groups",
-          cells: ["-", "-", "-", "Included"],
+          cells: [ "-", "-", "Included"],
 
         },
         {
           heading: "Access Logs",
-          cells: ["-", "-", "-", "Included"],
+          cells: [ "-", "-", "Included"],
 
         },
         {
           heading: "Activity Logs",
-          cells: ["-", "-", "-", "Included"],
+          cells: [ "-", "-", "Included"],
 
         },
         {
           heading: "Audit History",
-          cells: ["-", "-", "-", "Included"],
+          cells: [ "-", "-", "Included"],
 
         },
       ],

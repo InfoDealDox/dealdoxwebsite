@@ -1733,7 +1733,7 @@ Blog Area CSS
 .single-blog-post {
   margin-bottom: 25px;
   background: #F9F9FD;
-  padding: 20px 20px 20px 20px;
+  padding: 0px 20px 20px 20px;
   border-radius: 15px;
 }
 

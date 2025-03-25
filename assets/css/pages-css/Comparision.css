@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap"); */
 
 .comparisionAllTop {
   margin-top: 80px;
@@ -43,7 +43,7 @@
   color: white;
   animation: animateText 3s ease-in-out;
 
-  font-family: "Montserrat", serif !important;
+  /* font-family: "Montserrat", serif !important; */
 }
 .comparision-h1-content {
   text-align: center;
@@ -130,9 +130,9 @@
 .compareData-h3-container {
   width: 80%;
   padding: 20px 10px;
-  animation: animateText 5s ease-in-out;
+  /* animation: animateText 5s ease-in-out;
   animation-timeline: view();
-  animation-range: entry 70% cover 50%;
+  animation-range: entry 70% cover 50%; */
 }
 
 #customize-entry {
@@ -140,7 +140,7 @@
 }
 
 .compare-h2-tags-css {
-  font-family: "Montserrat", serif !important;
+  /* font-family: "Montserrat", serif !important; */
   margin-bottom: 20px;
   font-weight: 500;
 }

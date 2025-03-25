@@ -92,6 +92,20 @@ export default {
             window.open('https://play.google.com/store/apps/details?id=com.dealdox.io.dealdox', '_blank');
         },
     },
+    head: {
+        title: 'DealDox CPQ Mobile App | Effortless Quote Generation Anytime, Anywhere',
+        htmlAttrs: {
+            lang: 'en-us'
+        },
+        meta: [
+            { charset: 'utf-8' },
+            { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+            { hid: 'description', name: 'description', content: 'Generate, edit, and send quotes instantly with the DealDox CPQ mobile app. Access real-time pricing, product details, and customer data—anytime, anywhere.' },
+            { hid: 'keywords', name: 'keywords', content: 'DealDox CPQ, mobile quote generation, instant quoting app, sales automation, real-time pricing, CPQ mobile app, sales quoting software, accurate quotes, business quoting tool, DealDox app, generate quotes on mobile' },
+        ],
+        link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io/mobile-app' }
+        ],
+    },
 }
 
 
