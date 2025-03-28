@@ -27,53 +27,7 @@
                     </div>
                 </div>
 
-                <!-- <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-app-pricing-box active">
-                        <div class="title">
-                            <h3>Premium</h3>
-                            <p>Powerful & awesome elements</p>
-                        </div>
-                        <div class="price">
-                            $27 <span>/Month</span>
-                        </div>
-                        
-                        <ul class="features-list">
-                            <li><i class="ri-check-line"></i> All free Features</li>
-                            <li><i class="ri-check-line"></i> Personalized Document</li>
-                            <li><i class="ri-check-line"></i> Templates Sales Dashboard</li>
-                            <li><i class="ri-check-line"></i> API</li>
-                            <li><i class="ri-check-line"></i> SSO Support</li>
-                            <li><i class="ri-check-line"></i> Online forms</li>
-
-                        </ul>
-                        <div class="pricing-btn">
-                            <NuxtLink to="/" class="default-btn">Purchase Plan</NuxtLink>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-app-pricing-box">
-                        <div class="title">
-                            <h3>Business</h3>
-                            <p>Powerful & awesome elements</p>
-                        </div>
-                        <div class="price">
-                            $69 <span>/Month</span>
-                        </div>
-                        <ul class="features-list">
-                            <li><i class="ri-check-line"></i> All free Features</li>
-                            <li><i class="ri-check-line"></i> Personalized Document</li>
-                            <li><i class="ri-check-line"></i> Templates Sales Dashboard</li>
-                            <li><i class="ri-check-line"></i> API</li>
-                            <li><i class="ri-check-line"></i> SSO Support</li>
-                            <li><i class="ri-check-line"></i> Online forms</li>
-                        </ul>
-                        <div class="pricing-btn">
-                            <NuxtLink to="/" class="default-btn">Request a Quote</NuxtLink>
-                        </div>
-                    </div>
-                </div> -->
+              
             </div>
 
             <div class="app-pricing-bottom-text">
