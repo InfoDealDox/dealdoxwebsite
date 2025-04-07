@@ -6,14 +6,14 @@
             <div class="support-left-content">
                 <h1>Get Support
                 </h1>
-                <span>
+                <span class="smaller-size-content">
                     <span> We are committed to ensuring that your experience with our CPQ platform is seamless and
                         efficient.
                     </span>
                     <span> Our
                         dedicated support team and resources are here to assist you every step of the way.</span>
                 </span>
-                <a href="mailto:support@dealdox.io"><button class="partner-whyDealdoxDemo">Get Support</button></a>
+                <a href="mailto:support@dealdox.io"><button class="partner-whyDealdoxDemos">Get Support</button></a>
             </div>
             <img src="../assets/images/congaBackground.png" alt="" loading="lazy">
         </div>
@@ -69,7 +69,7 @@ export default {
     color: white;
 }
 
-.partner-whyDealdoxDemo {
+.partner-whyDealdoxDemos {
     background: white;
     color: #715cf3;
     border: none;
@@ -93,6 +93,13 @@ export default {
     .support-header-body {
         margin-top: 45px;
 
+    }
+
+    .smaller-size-content {
+        font-size: 10px;
+    }
+    .partner-whyDealdoxDemos {
+        margin: 7px 0px;
     }
 
 }

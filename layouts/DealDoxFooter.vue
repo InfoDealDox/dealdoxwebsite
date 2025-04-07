@@ -132,7 +132,7 @@
                   <NuxtLink to="/become-partner" class="footer-content">Become a Partner</NuxtLink>
                 </li>
                 <li>
-                  <NuxtLink to="/" class="footer-content">Support</NuxtLink>
+                  <NuxtLink to="/support" class="footer-content">Support</NuxtLink>
                 </li>
               </ul>
 
@@ -478,7 +478,7 @@ export default {
         { text: 'Our Team', link: '/our-team' },
         { text: 'Contact Us', link: '/contact' },
         { text: 'Become a Partner', link: '/become-partner' },
-        { text: 'Support', link: '/contact us' },
+        { text: 'Support', link: '/support' },
 
       ],
       featuresSet5: [

@@ -75,7 +75,7 @@ export default {
                     headerDescription2: "Gap between CRM and ERP",
                     description: "Despite using Lead Squared (CRM) and SAP HANA (ERP), we were still generating quotations manually, which was time-consuming and inefficient. DealDox CPQ filled this gap perfectly by automating our quoting and proposal generation process. This saved our valuable time and reduced errors.",
                     owner: "Utkarsh Bansal",
-                    designation: "FOUNDER",
+                    designation: "EXECUTIVE DIRECTOR",
                     companyRole: "Utkarsh India - Manufacturer and exporter of Steel Structures, Steel ERW Pipes and Polymer products",
                     imageSrc: require("../../assets/images/PricingAssests/UtkarshIndiaClient.webp"),
                     featureImage: require("../../assets/images/PricingAssests/thirthy.webp"),
