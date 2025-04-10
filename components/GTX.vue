@@ -1,11 +1,11 @@
 <template>
     <div class="gtx-main-container">
         <div class="gtx-popup-container">
-            <div  :class="gtxpopup ? 'cross-image-active' : 'cross-image-notactive'">
-                <img src="../assets/images/gtxImage.webp" alt="" class="gtx-image-box">
-                <div style="cursor: pointer;" class="cross-image" >
+            <div :class="gtxpopup ? 'cross-image-active' : 'cross-image-notactive'">
+                <img src="../assets/images/gtx_new_image.webp" alt="" class="gtx-image-box">
+                <div style="cursor: pointer;" class="cross-image">
                     <i class="ri-close-fill" id="cross-gtx-icon" @click="onClose"></i>
-                 
+
                 </div>
             </div>
         </div>
@@ -20,11 +20,11 @@ export default {
             this.$emit('close');
         },
     },
-    props:{
-        gtxpopup:Boolean,
-        require:true
+    props: {
+        gtxpopup: Boolean,
+        require: true
     }
-    
+
 }
 </script>
 
@@ -36,7 +36,7 @@ export default {
     overflow: hidden;
     position: fixed;
     z-index: 999;
-  
+
 }
 
 .gtx-popup-container {
@@ -65,14 +65,15 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
-   animation:zomIn 600ms ease-in-out;
+    animation: zomIn 600ms ease-in-out;
 }
 
-@keyframes zomIn{
-    0%{
+@keyframes zomIn {
+    0% {
         scale: 1.3;
     }
-    100%{
+
+    100% {
         scale: 1;
     }
 }
