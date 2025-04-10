@@ -1,198 +1,201 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
-<url>
-  <loc>https://www.dealdox.io/</loc>
-  <lastmod>2024-12-15T10:35:42+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://www.dealdox.io/pricing</loc>
-  <lastmod>2024-12-15T10:35:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dealdox.io/cpq-mobile-app</loc>
-  <lastmod>2025-01-10T10:35:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dealdox.io/services-cpq</loc>
-  <lastmod>2024-12-15T10:35:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dealdox.io/cpq-integrations</loc>
-  <lastmod>2024-12-15T10:35:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dealdox.io/quoting-software</loc>
-  <lastmod>2024-12-15T10:35:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dealdox.io/approval-software</loc>
-  <lastmod>2024-12-15T10:35:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dealdox.io/mobile-app</loc>
-  <lastmod>2024-12-15T10:35:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dealdox.io/salesforce-cpq-integration</loc>
-  <lastmod>2024-12-15T10:35:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dealdox.io/microsoft-dynamics-365-cpq-integration</loc>
-  <lastmod>2024-12-15T10:35:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dealdox.io/freshworks-cpq-integration</loc>
-  <lastmod>2024-12-15T10:35:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dealdox.io/hubspot-cpq-integration</loc>
-  <lastmod>2024-12-15T10:35:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dealdox.io/sugarcrm-cpq-integration</loc>
-  <lastmod>2024-12-15T10:35:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dealdox.io/our-team</loc>
-  <lastmod>2024-12-15T10:35:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dealdox.io/contact</loc>
-  <lastmod>2024-12-15T10:35:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dealdox.io/blogs</loc>
-  <lastmod>2024-12-15T10:35:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dealdox.io/success-stories</loc>
-  <lastmod>2024-12-15T10:35:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dealdox.io/glossary</loc>
-  <lastmod>2024-12-15T10:35:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dealdox.io/news</loc>
-  <lastmod>2024-12-15T10:35:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dealdox.io/demo</loc>
-  <lastmod>2024-12-15T10:35:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dealdox.io/security</loc>
-  <lastmod>2024-12-15T10:35:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dealdox.io/sales</loc>
-  <lastmod>2024-12-15T10:35:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dealdox.io/why-dealdox</loc>
-  <lastmod>2024-12-15T10:35:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dealdox.io/become-partner</loc>
-  <lastmod>2024-12-15T10:35:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dealdox.io/alternative-to-salesforce-cpq</loc>
-  <lastmod>2024-12-15T10:35:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dealdox.io/alternative-to-sap-cpq</loc>
-  <lastmod>2024-12-15T10:35:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dealdox.io/alternative-to-oracle-cpq</loc>
-  <lastmod>2024-12-15T10:35:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dealdox.io/alternative-to-zoho-cpq</loc>
-  <lastmod>2024-12-15T10:35:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dealdox.io/alternative-to-hubspot-cpq</loc>
-  <lastmod>2024-12-15T10:35:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dealdox.io/alternate-to-dealhub-cpq</loc>
-  <lastmod>2024-12-15T10:35:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dealdox.io/terms-of-use</loc>
-  <lastmod>2024-12-15T10:35:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dealdox.io/privacy-policy</loc>
-  <lastmod>2024-12-15T10:35:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dealdox.io/cookie-preference</loc>
-  <lastmod>2024-12-15T10:35:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dealdox.io/glossary/quote-to-cash-solution</loc>
-  <lastmod>2024-12-15T10:35:42+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.dealdox.io/glossary/accelerate-revenue-growth</loc>
-  <lastmod>2024-12-15T10:35:42+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.dealdox.io/localized-deal-documents</loc>
-  <lastmod>2024-12-15T10:35:42+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.dealdox.io/glossary/guided-selling-solutions</loc>
-  <lastmod>2024-12-15T10:35:42+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-
+  <url>
+    <loc>https://www.dealdox.io/</loc>
+    <lastmod>2024-12-15T10:35:42+00:00</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://www.dealdox.io/pricing</loc>
+    <lastmod>2024-12-15T10:35:42+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dealdox.io/cpq-mobile-app</loc>
+    <lastmod>2025-01-10T10:35:42+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dealdox.io/services-cpq</loc>
+    <lastmod>2024-12-15T10:35:42+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dealdox.io/cpq-integrations</loc>
+    <lastmod>2024-12-15T10:35:42+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dealdox.io/quoting-software</loc>
+    <lastmod>2024-12-15T10:35:42+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dealdox.io/approval-software</loc>
+    <lastmod>2024-12-15T10:35:42+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dealdox.io/mobile-app</loc>
+    <lastmod>2024-12-15T10:35:42+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dealdox.io/salesforce-cpq-integration</loc>
+    <lastmod>2024-12-15T10:35:42+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dealdox.io/microsoft-dynamics-365-cpq-integration</loc>
+    <lastmod>2024-12-15T10:35:42+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dealdox.io/freshworks-cpq-integration</loc>
+    <lastmod>2024-12-15T10:35:42+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dealdox.io/hubspot-cpq-integration</loc>
+    <lastmod>2024-12-15T10:35:42+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dealdox.io/sugarcrm-cpq-integration</loc>
+    <lastmod>2024-12-15T10:35:42+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dealdox.io/our-team</loc>
+    <lastmod>2024-12-15T10:35:42+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dealdox.io/contact</loc>
+    <lastmod>2024-12-15T10:35:42+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dealdox.io/blogs</loc>
+    <lastmod>2024-12-15T10:35:42+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dealdox.io/success-stories</loc>
+    <lastmod>2024-12-15T10:35:42+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dealdox.io/glossary</loc>
+    <lastmod>2024-12-15T10:35:42+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dealdox.io/news</loc>
+    <lastmod>2024-12-15T10:35:42+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dealdox.io/demo</loc>
+    <lastmod>2024-12-15T10:35:42+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dealdox.io/security</loc>
+    <lastmod>2024-12-15T10:35:42+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dealdox.io/sales</loc>
+    <lastmod>2024-12-15T10:35:42+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dealdox.io/why-dealdox</loc>
+    <lastmod>2024-12-15T10:35:42+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dealdox.io/become-partner</loc>
+    <lastmod>2024-12-15T10:35:42+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dealdox.io/alternative-to-salesforce-cpq</loc>
+    <lastmod>2024-12-15T10:35:42+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dealdox.io/alternative-to-sap-cpq</loc>
+    <lastmod>2024-12-15T10:35:42+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dealdox.io/alternative-to-oracle-cpq</loc>
+    <lastmod>2024-12-15T10:35:42+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dealdox.io/alternative-to-zoho-cpq</loc>
+    <lastmod>2024-12-15T10:35:42+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dealdox.io/alternative-to-hubspot-cpq</loc>
+    <lastmod>2024-12-15T10:35:42+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dealdox.io/alternate-to-dealhub-cpq</loc>
+    <lastmod>2024-12-15T10:35:42+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dealdox.io/terms-of-use</loc>
+    <lastmod>2024-12-15T10:35:42+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dealdox.io/privacy-policy</loc>
+    <lastmod>2024-12-15T10:35:42+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dealdox.io/cookie-preference</loc>
+    <lastmod>2024-12-15T10:35:42+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dealdox.io/glossary/quote-to-cash-solution</loc>
+    <lastmod>2024-12-15T10:35:42+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.dealdox.io/glossary/accelerate-revenue-growth</loc>
+    <lastmod>2024-12-15T10:35:42+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.dealdox.io/localized-deal-documents</loc>
+    <lastmod>2024-12-15T10:35:42+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.dealdox.io/glossary/guided-selling-solutions</loc>
+    <lastmod>2024-12-15T10:35:42+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc> https://www.dealdox.io/blog/dealdox-at-gitex-africa-2025</loc>
+    <lastmod>2025-05-01T10:35:42+00:00</lastmod>
+    <priority>0.8</priority>
+  </url>
 
 
 </urlset>
