@@ -41,21 +41,21 @@
           </ul>
         </div>
 
-        <div class="pricing-page-button-container">
+        <!-- <div class="pricing-page-button-container">
           <div class="pricing-page-button-sub-container">
             <div class="pricing-absolut-button" ref="toggleButton"></div>
             <button class="pricing-monthly" ref="button1" @click="leftClick">MONTHLY</button>
             <button class="pricing-yearly" ref="button2" @click="rightClick">YEARLY</button>
           </div>
-        </div>
+        </div> -->
 
 
       </div>
 
-      <div class="saveupto80">
+      <!-- <div class="saveupto80">
         <img src="../../assets/images/PricingAssests/pricingArrow.png" alt="pricing Arrow" class="peicing-Arrow">
         <span class="saveupto80text">save up to 80%</span>
-      </div>
+      </div> -->
 
     </div>
 

@@ -10,7 +10,7 @@
 <script>
 
 import Navbar from '../layouts/Navbar';
-import ThankYouPage from '../components/ThankYou/ThankYouPage'
+import ThankYouPage from '../components/ThankYou/ThankYouPage.vue'
 import DealDoxFooter from '../layouts/DealDoxFooter';
 import TrackingImage from '~/components/ThankYou/TrackingImage.vue';
 

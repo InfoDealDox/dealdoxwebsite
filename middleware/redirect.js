@@ -7,8 +7,7 @@ export default function (req, res, next) {
     "/alternatives/connectwise": "/alternative-to-connectwise-cpq",
     "/alternatives/dealhub": "/alternative-to-dealhub-cpq",
     "/alternatives/sap": "alternative-to-sap-cpq",
-    "/glossary/ns": "/glossary",
-    "/success-story/accelerating-sales-excellence-with-dealdox-1": "/glossary",
+     "/success-story/accelerating-sales-excellence-with-dealdox-1": "/glossary",
     "/glossary/ns": "/success-story/accelerating-sales-excellence-with-dealdox",
     "/glossary/saa-s-billing": "/glossary/saas-billing",
     "/glossary/request-for-quote-rfq": "/glossary/request-for-quote",
@@ -17,8 +16,13 @@ export default function (req, res, next) {
       "/blog/cpq-business-case",
     "/blog/an-overview-of-creating-an-effective-cpq-business-case":
       "/blog/cpq-business-case",
-      "/subscription":"/pricing",
-
+    "/subscription": "/pricing",
+    "/glossary/boost-sales-cpq-tools": "/glossary/cpq-tools",
+    "/glossary/cpq-integration-for-enterprise": "/glossary/cpq-for-enterprise",
+    "/glossary/mastering-complex-sales": "/glossary/complex-sales",
+    "/glossary-details/advanced-personalization-solutions":
+      "/glossary/advanced-personalization-solutions",
+    "/ebook": "/ebooks",
   };
 
   const redirectTo = redirects[req.url];

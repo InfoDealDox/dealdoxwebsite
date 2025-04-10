@@ -1,5 +1,5 @@
 <template>
-  <div style="margin: 20px 0px">
+  <div class="brand-trust-us">
     <h2 style="text-align: center; font-size: 24px; padding:0px">Brands That Trust Us</h2>
     <div class="slide-tracker-container">
       <div class="slider-2">
@@ -123,5 +123,13 @@ img.slide-span-texts {
   100% {
     transform: translateX(0);
   }
+}
+
+.brand-trust-us {
+  margin: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 </style>

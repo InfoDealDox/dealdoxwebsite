@@ -1,6 +1,7 @@
 <template>
   <div>
     <Navbar class="navbar-style-two" />
+    <GTX v-if="gtxpopup" gtxpopup="gtxpopup" @close="handleCloseGtxPopUp" />
     <MainBanner />
     <Partner />
     <TransformYourSales />
@@ -34,6 +35,7 @@ import EasyCPQ from '../components/IndexPage/EasyCPQ.vue';
 import Faq from '../components/Common/Faq.vue';
 import DealDoxFooter from '../layouts/DealDoxFooter.vue';
 import axios from 'axios';
+import GTX from '../components/GTX.vue';
 
 
 
@@ -57,6 +59,21 @@ export default {
   data() {
     return {
       seoData: [],
+      gtxpopup: true,
+    }
+  },
+  mounted() {
+    this.handleOpenGtxPopUp();
+  },
+  methods: {
+    handleOpenGtxPopUp() {
+      setTimeout(() => {
+        this.gtxpopup = true
+      }, 10000)
+
+    },
+    handleCloseGtxPopUp() {
+      this.gtxpopup = false
     }
   },
   created: async function () {
@@ -90,68 +107,68 @@ export default {
       { name: 'twitter:image', content: '' },
     ],
     script: [
-        {
-          type: 'application/ld+json',
-          json: {
-            "@context": "https://schema.org/",
-            "@type": "WebSite",
-            "name": "DealDox",
-            "url": "https://www.dealdox.io/",
-            "potentialAction": {
-              "@type": "SearchAction",
-              "target": "https://www.dealdox.io/search?q={search_term_string}",
-              "query-input": "required name=search_term_string"
-            }
-          }
-        },
-        {
-          type: 'application/ld+json',
-          json: {
-            "@context": "https://schema.org",
-            "@type": "ProfessionalService",
-            "name": "DealDox",
-            "image": "https://www.dealdox.io/_nuxt/img/DDWebsite.3a3e832.png",
-            "@id": "",
-            "url": "https://www.dealdox.io/",
-            "telephone": "91-9741429514",
-            "priceRange": "30 day Free Trial",
-            "address": {
-              "@type": "PostalAddress",
-              "streetAddress": "63/3, Arham Towers 3rd Floor, AK colony, Krishna Rajendra Rd, 7th Block,Jayanagar",
-              "addressLocality": "Bengaluru, Karnataka",
-              "postalCode": "560070",
-              "addressCountry": "IN"
-            },
-            "geo": {
-              "@type": "GeoCoordinates",
-              "latitude": 12.9264063,
-              "longitude": 77.5735908
-            },
-            "openingHoursSpecification": {
-              "@type": "OpeningHoursSpecification",
-              "dayOfWeek": [
-                "Monday",
-                "Tuesday",
-                "Wednesday",
-                "Thursday",
-                "Friday",
-                "Saturday",
-                "Sunday"
-              ],
-              "opens": "00:00",
-              "closes": "23:59"
-            },
-            "sameAs": [
-              "https://www.facebook.com/dealdox.io",
-              "https://www.instagram.com/dealdox.io/",
-              "https://www.youtube.com/channel/UCUyG5sKBn2yVwLG0PbbE8IA",
-              "https://www.linkedin.com/company/dealdox",
-              "https://twitter.com/i/flow/login?redirect_after_login=%2FDealdox_io",
-              "https://www.dealdox.io/"
-            ]
+      {
+        type: 'application/ld+json',
+        json: {
+          "@context": "https://schema.org/",
+          "@type": "WebSite",
+          "name": "DealDox",
+          "url": "https://www.dealdox.io/",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://www.dealdox.io/search?q={search_term_string}",
+            "query-input": "required name=search_term_string"
           }
         }
-      ],
+      },
+      {
+        type: 'application/ld+json',
+        json: {
+          "@context": "https://schema.org",
+          "@type": "ProfessionalService",
+          "name": "DealDox",
+          "image": "https://www.dealdox.io/_nuxt/img/DDWebsite.3a3e832.png",
+          "@id": "",
+          "url": "https://www.dealdox.io/",
+          "telephone": "91-9741429514",
+          "priceRange": "30 day Free Trial",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "63/3, Arham Towers 3rd Floor, AK colony, Krishna Rajendra Rd, 7th Block,Jayanagar",
+            "addressLocality": "Bengaluru, Karnataka",
+            "postalCode": "560070",
+            "addressCountry": "IN"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 12.9264063,
+            "longitude": 77.5735908
+          },
+          "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday",
+              "Sunday"
+            ],
+            "opens": "00:00",
+            "closes": "23:59"
+          },
+          "sameAs": [
+            "https://www.facebook.com/dealdox.io",
+            "https://www.instagram.com/dealdox.io/",
+            "https://www.youtube.com/channel/UCUyG5sKBn2yVwLG0PbbE8IA",
+            "https://www.linkedin.com/company/dealdox",
+            "https://twitter.com/i/flow/login?redirect_after_login=%2FDealdox_io",
+            "https://www.dealdox.io/"
+          ]
+        }
+      }
+    ],
     link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io' }
     ],
   },
@@ -243,19 +260,19 @@ export default {
   //   });
 
   // },
-   head: {
-        title: 'Generate Quotations in Less Than a Minute with DealDox',
-        htmlAttrs: {
-            lang: 'en-us'
-        },
-        meta: [
-            { charset: 'utf-8' },
-            { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-            { hid: 'description', name: 'description', content: 'Dealdox offer you effortless Quote Generation: Automated Quoting Solutions. Transform your quote generation process with our automated quoting tool. Discover the best quotation software for seamless quotes and quotations.' },
-            { hid: 'keywords', name: 'keywords', content: 'what is cpq software, best cpq software for small business, best cpq software, configure price quote cpq software, cpq software for manufacturing, Services CPQ, CPQ tools, CPQ Software, CPQ for services' },
-        ],
-        link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io/' }
-        ],
+  head: {
+    title: 'Generate Quotations in Less Than a Minute with DealDox',
+    htmlAttrs: {
+      lang: 'en-us'
     },
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { hid: 'description', name: 'description', content: 'Dealdox offer you effortless Quote Generation: Automated Quoting Solutions. Transform your quote generation process with our automated quoting tool. Discover the best quotation software for seamless quotes and quotations.' },
+      { hid: 'keywords', name: 'keywords', content: 'what is cpq software, best cpq software for small business, best cpq software, configure price quote cpq software, cpq software for manufacturing, Services CPQ, CPQ tools, CPQ Software, CPQ for services' },
+    ],
+    link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io/' }
+    ],
+  },
 }
 </script>

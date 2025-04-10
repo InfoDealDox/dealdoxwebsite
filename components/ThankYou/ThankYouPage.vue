@@ -8,7 +8,7 @@
                         <p>In the mean time you can enhance your knowledge by reading our
                             <span class="sub-title-faq">
                                 <NuxtLink to="/blogs">
-                                    <strong>Blogs</strong>
+                                   <strong>Blogs</strong>
                                 </NuxtLink>
                             </span>
                         </p>
