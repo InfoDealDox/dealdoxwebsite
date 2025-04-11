@@ -117,7 +117,7 @@
 
 
                 <div class="button_div">
-                  <a href="https://web.dealdox.io/register?paymentMode=payAsYouGo" rel="nofollow">
+                  <a href="https://devqa.dealdox.io/register?paymentMode=payAsYouGo" rel="nofollow">
                     <button class="try_free">Access DealDox CPQ</button>
                   </a>
          
@@ -174,7 +174,7 @@
 
 
                 <div class="button_div">
-                  <a href="https://web.dealdox.io/register?paymentMode=standard" rel="nofollow">
+                  <a href="https://devqa.dealdox.io/register?paymentMode=standard" rel="nofollow">
                     <button class="try_free">Access DealDox CPQ</button>
                   </a>
 
@@ -234,7 +234,7 @@
 
 
                 <div class="button_div">
-                  <a href="https://web.dealdox.io/register?paymentMode=premium" rel="nofollow">
+                  <a href="https://devqa.dealdox.io/register?paymentMode=premium" rel="nofollow">
                     <button class="try_free">Access DealDox CPQ</button>
                   </a>
                 </div>
@@ -280,10 +280,9 @@
 
 
                 <div class="button_div">
-                  <!-- <a href="https://web.dealdox.io/register?paymentMode=standard">
+                  <!-- <a href="https://devqa.dealdox.io/register?paymentMode=standard">
                     <button class="try_free">Connect to sales </button>
                   </a> -->
-
                   <NuxtLink :to="{
                     name: 'contact',
                     params: { source: 'Enterprise' },
@@ -322,7 +321,7 @@
                       </th>
 
                       <!-- <th role="columnheader" scope="col" class="table__cell2">
-                        <a :href="`https://web.dealdox.io/register?paymentMode=payAsYouGo`"
+                        <a :href="`https://devqa.dealdox.io/register?paymentMode=payAsYouGo`"
                           class="subscription-anker-tag" target="_blank" rel="noopener noreferrer nofollow">
                           <div class="edition_wrapper">
                             <div class="edition__copy__wrapper">
@@ -334,7 +333,7 @@
 
                       </th> -->
                       <th role="columnheader" scope="col" class="table__cell2">
-                        <a :href="`https://web.dealdox.io/register?paymentMode=standard`" class="subscription-anker-tag"
+                        <a :href="`https://devqa.dealdox.io/register?paymentMode=standard`" class="subscription-anker-tag"
                           target="_blank" rel="noopener noreferrer nofollow">
                           <div class="edition_wrapper">
                             <div class="edition__copy__wrapper">
@@ -359,7 +358,7 @@
 
                       </th>
                       <th role="columnheader" scope="col" class="table__cell2">
-                        <a :href="`https://web.dealdox.io/register?paymentMode=premium`" class="subscription-anker-tag"
+                        <a :href="`https://devqa.dealdox.io/register?paymentMode=premium`" class="subscription-anker-tag"
                           target="_blank" rel="noopener noreferrer nofollow">
                           <div class="edition_wrapper">
                             <div class="edition__copy__wrapper">
