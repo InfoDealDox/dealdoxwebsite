@@ -72,20 +72,17 @@ export default {
     }
   },
   mounted() {
-    this.handleOpenGtxPopUp();
+    console.log("Mounted");
+    if (!sessionStorage.getItem('gtx-popup-shown')) {
+      setTimeout(() => {
+        this.gtxpopup = true;
+        sessionStorage.setItem('gtx-popup-shown', 'true');
+      }, 10000);
+    }
   },
   methods: {
-    handleOpenGtxPopUp() {
-      if (!sessionStorage.getItem('gtx-popup-shown')) {
-        setTimeout(() => {
-          this.gtxpopup = true;
-          sessionStorage.setItem('gtx-popup-shown', 'true');
-        }, 10000);
-      }
-      console.log("this.gtxpopup", this.gtxpopup)
-    },
     handleCloseGtxPopUp() {
-      this.gtxpopup = false
+      this.gtxpopup = false;
     }
   },
   created: async function () {
