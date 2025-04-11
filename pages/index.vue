@@ -77,7 +77,7 @@ export default {
 
     setTimeout(() => {
       this.gtxpopup = true;
-    }, 3000);
+    }, 1000);
 
   },
   methods: {
