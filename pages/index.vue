@@ -68,17 +68,17 @@ export default {
   data() {
     return {
       seoData: [],
-      gtxpopup: true,
+      gtxpopup: false,
     }
   },
   mounted() {
+
     console.log("Mounted");
-    if (!sessionStorage.getItem('gtx-popup-shown')) {
-      setTimeout(() => {
-        this.gtxpopup = true;
-        sessionStorage.setItem('gtx-popup-shown', 'true');
-      }, 10000);
-    }
+
+    setTimeout(() => {
+      this.gtxpopup = true;
+    }, 3000);
+
   },
   methods: {
     handleCloseGtxPopUp() {
