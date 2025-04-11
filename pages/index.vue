@@ -72,9 +72,7 @@ export default {
           sessionStorage.setItem('gtx-popup-shown', 'true');
         }, 10000);
       }
-
       console.log("this.gtxpopup", this.gtxpopup)
-
     },
     handleCloseGtxPopUp() {
       this.gtxpopup = false
@@ -96,7 +94,7 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Dealdox offer you effortless Quote Generation: Automated Quoting Solutions. Transform your quote generation process with our automated quoting tool. Discover the best quotation software for seamless quotes and quotations.' },
-      { hid: 'keywords', name: 'keywords', content: 'automated quoting solution, quote generation process, automated quoting tool, Automated Quotes, Automated Quotations, Quotation software, Quoting software' },
+      { hid: 'keywords', name: 'keywords', content: 'what is cpq software, best cpq software for small business, best cpq software, configure price quote cpq software, cpq software for manufacturing, Services CPQ, CPQ tools, CPQ Software, CPQ for services' },
       { property: 'og:url', content: 'https://www.dealdox.io/' },
       { property: 'og:type', content: 'website' },
       { property: 'og:title', content: 'Generate Quotations in Less Than a Minute with DealDox' },
@@ -178,22 +176,29 @@ export default {
   },
 
 
-  head: {
-    title: 'Generate Quotations in Less Than a Minute with DealDox',
-    htmlAttrs: {
-      lang: 'en-us'
-    },
-    meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Dealdox offer you effortless Quote Generation: Automated Quoting Solutions. Transform your quote generation process with our automated quoting tool. Discover the best quotation software for seamless quotes and quotations.' },
-      { hid: 'keywords', name: 'keywords', content: 'what is cpq software, best cpq software for small business, best cpq software, configure price quote cpq software, cpq software for manufacturing, Services CPQ, CPQ tools, CPQ Software, CPQ for services' },
-    ],
-    link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io/' }
-    ],
-  },
+
 }
 </script>
+
+
+// head: {
+// title: 'Generate Quotations in Less Than a Minute with DealDox',
+// htmlAttrs: {
+// lang: 'en-us'
+// },
+// meta: [
+// { charset: 'utf-8' },
+// { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+// { hid: 'description', name: 'description', content: 'Dealdox offer you effortless Quote Generation: Automated Quoting
+Solutions. Transform your quote generation process with our automated quoting tool. Discover the best quotation software
+for seamless quotes and quotations.' },
+// { hid: 'keywords', name: 'keywords', content: 'what is cpq software, best cpq software for small business, best cpq
+software, configure price quote cpq software, cpq software for manufacturing, Services CPQ, CPQ tools, CPQ Software, CPQ
+for services' },
+// ],
+// link: [{ hid: 'canonical', rel: 'canonical', href: 'https://www.dealdox.io/' }
+// ],
+// },
 
 
 // head({ $seo }) {
