@@ -1,17 +1,6 @@
 <template>
   <div>
     <Navbar class="navbar-style-two" />
-    <div v-if="gtxpopup" class="gtx-main-container">
-      <div class="gtx-popup-container">
-        <div :class="gtxpopup ? 'cross-image-active' : 'cross-image-notactive'">
-          <img src="../assets/images/gtx_new_image.webp" alt="" class="gtx-image-box">
-          <div style="cursor: pointer;" class="cross-image">
-            <i class="ri-close-fill" id="cross-gtx-icon" @click="handleCloseGtxPopUp"></i>
-
-          </div>
-        </div>
-      </div>
-    </div>
     <MainBanner />
     <Partner />
     <TransformYourSales />
@@ -68,23 +57,9 @@ export default {
   data() {
     return {
       seoData: [],
-      gtxpopup: false,
-    }
+      }
   },
-  mounted() {
-
-    console.log("Mounted");
-
-    setTimeout(() => {
-      this.gtxpopup = true;
-    }, 1000);
-
-  },
-  methods: {
-    handleCloseGtxPopUp() {
-      this.gtxpopup = false;
-    }
-  },
+ 
   created: async function () {
     const response = await axios.get('https://cms.dealdox.io/api/pages?filters[slug][$eq]=index&populate=deep,5')
     const pageData = response.data.data?.length > 0 ? response.data.data[0] : {};
