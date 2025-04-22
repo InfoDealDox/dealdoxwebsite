@@ -163,7 +163,7 @@ export default {
 </script>
 
 
-// head: {
+
 // title: 'Generate Quotations in Less Than a Minute with DealDox',
 // htmlAttrs: {
 // lang: 'en-us'
