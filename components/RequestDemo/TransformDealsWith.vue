@@ -43,11 +43,7 @@
                         <div class="contact-area">
                             <div class="container">
                                 <div class="contact-form">
-                                    <form id="contact-form"
-                                        action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8"
-                                        @submit="onSubmit" ref="form" method="POST">
-                                        <input name="oid" type="hidden" value="00D2v000003PByK" />
-                                        <input name="retURL" type="hidden" value="https://dealdox.io/thanks" />
+                                    <form id="contact-form" @submit="onSubmit" ref="form" method="POST">
                                         <div class="row">
                                             <div class="col-lg-6 col-md-6 col-sm-6">
                                                 <div class="form-group">
@@ -77,9 +73,7 @@
                                                         :title="formData.phoneValidationMessage" />
 
 
-                                                    <!-- <p>Phone</p>
-                                                    <input type="number"  pattern="[0-9]{15}" maxlength="15" name="phone" required
-                                                        class="form-control" id="phone" placeholder="Eg: +91 12345 67890"> -->
+
                                                 </div>
                                             </div>
 
@@ -108,7 +102,6 @@
                                                         v-model="formData.company">
                                                 </div>
                                             </div>
-
                                             <div class="col-lg-6 col-md-6 col-sm-6">
                                                 <div class="form-group">
                                                     <p>Employees</p>
@@ -122,7 +115,6 @@
                                                     </select>
                                                 </div>
                                             </div>
-
                                             <div class="col-lg-6 col-md-6 col-sm-6">
                                                 <div class="form-group">
                                                     <p>Country</p>
@@ -131,39 +123,11 @@
                                                         v-model="formData.country">
                                                 </div>
                                             </div>
-
                                             <div style="display: none;">
                                                 <label for="Request_demo__c">Start</label>
                                                 <input id="Request_demo__c" maxlength="40" name="Request_demo__c"
                                                     size="20" type="text" value="True" /><br />
                                             </div>
-
-
-                                            <div style="display: none;">
-                                                <label for="lead_source">Lead Source</label>
-                                                <input id="lead_source" maxlength="40" name="lead_source" size="20"
-                                                    type="text" value="Website" /><br />
-                                            </div>
-
-
-                                            <!-- <div class="col-lg-12 col-md-12 col-sm-12">
-                                                <div class="form-group">
-                                                    <p style="margin-bottom: 0px;">Solve the Math Problem</p>
-                                                    <div class="recaptcha-content-rowss">
-                                                        <div class="ebook-captcha-container"><label
-                                                                class="ebookkss-labellsss"
-                                                                style="font-style: italic;">{{ num1 }} + {{ num2 }}
-                                                                =</label></div>
-                                                        <input type="text" required v-model="userAnswer"
-                                                            @input="validatePhoneNumber" @keypress="allowOnlyNumbers"
-                                                            class="captcha-inputs-container form-control"
-                                                            placeholder="Enter your answer" autocomplete="off" />
-                                                    </div>
-                                                    <span v-if="errors.recaptcha" class="error">{{ errors.recaptcha
-                                                        }}</span>
-                                                </div>
-                                            </div> -->
-
                                             <div class="col-lg-12 col-md-12 col-sm-12">
                                                 <div class="form-group">
                                                     <input class="form-check-input" required type="checkbox" value=""
@@ -175,7 +139,7 @@
                                                 </div>
                                             </div>
 
-
+                                            <span style="color: red;font-size: 12px;">{{ this.apiResponseData }}</span>
 
                                             <div class="col-lg-12 col-md-12 col-sm-12">
                                                 <button type="submit" name="submit" required class="default-btn"><i
@@ -194,130 +158,223 @@
     </div>
 </template>
 
+
 <script>
-// new Vue({
-//     el: '#contact-form',
-//     data: {
-//         formData: {
-//             first_name: '',
-//             last_name: '',
-//             phone: '',
-//             email: '',
-//             company: '',
-//             country: '',
-//             message: '',
-//             agree_terms: true,
-//             phoneNumber: '',
-//             maxPhoneNumberLength: 15,
-//             phoneValidationMessage: 'Please enter exactly 15 numeric digits',
-//         },
-//         errors: {}
-//     },
-// });
 
-// import Vue from 'vue'
-
+import axios from 'axios';
 export default {
+
     data() {
+
         return {
+
             formData: {
+
                 first_name: '',
+
                 last_name: '',
-                phone: '',
+
+                // phone: '',
+
                 email: '',
+
                 company: '',
+
                 country: '',
+
                 message: '',
-                agree_terms: true,
+
+                // agree_terms: true,
+
                 phoneNumber: '',
-                maxPhoneNumberLength: 15,
-                phoneValidationMessage: 'Please enter exactly 15 numeric digits',
+
+                formFrom: "DealDox demo",
+
+                adminid: "6806315dab518273bbcf04c9",
+
+
             },
+
+            apiResponseData: "",
+
             errors: {},
+
             num1: this.generateRandomNumber(),
+
             num2: this.generateRandomNumber(),
+
             userAnswer: ''
+
         }
+
     },
+
     methods: {
+
         generateRandomNumber() {
+
             return Math.floor(Math.random() * 10); // Random number between 0 and 9
+
         },
+
         validatePhoneNumber() {
+
             // Remove any non-numeric characters from the phone number
+
             this.formData.phoneNumber = this.formData.phoneNumber.replace(/\D/g, '');
+
         },
+
         allowOnlyNumbers(event) {
+
             // Allow only numeric digits (0-9) in the input field
+
             const charCode = event.which ? event.which : event.keyCode;
+
             if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+
                 event.preventDefault();
+
             }
+
         },
+
         validateForm() {
+
             this.errors = {};
 
             if (!this.formData.first_name) {
+
                 this.errors.first_name = 'First Name is required.';
+
             }
 
             if (!this.formData.last_name) {
+
                 this.errors.last_name = 'Last Name is required.';
+
             }
 
             if (!this.formData.phoneNumber) {
+
                 this.errors.phoneNumber = 'Phone is required.';
+
             }
 
             if (!this.formData.email) {
+
                 this.errors.email = 'Email is required.';
+
             } else if (!this.isValidEmail(this.formData.email)) {
+
                 this.errors.email = 'Please enter a valid email address.';
+
             }
 
             if (!this.formData.company) {
+
                 this.errors.company = 'Company is required.';
+
             }
 
             if (!this.formData.country) {
+
                 this.errors.country = 'Country is required.';
+
             }
 
             // if (!this.formData.message) {
+
             //     this.errors.message = 'Message is required.';
+
             // }
 
             // if (!this.formData.Employees__c) {
+
             //     this.errors.Employees__c = 'Message is required.';
+
             // }
 
             if (!this.formData.agree_terms) {
+
                 this.errors.agree_terms = 'You must agree to the Terms of Use.';
+
             }
+
             // if (!this.userAnswer || parseInt(this.userAnswer) !== this.num1 + this.num2) {
+
             //     this.errors.recaptcha = "You entered the wrong captcha value.";
+
             // }
 
             console.log("demo", this.errors);
 
             return Object.keys(this.errors).length === 0;
+
         },
+
         isValidEmail(email) {
+
             // You can implement your own email validation logic here.
+
             // For a simple example, let's check if the email contains '@'.
+
             return email.includes('@');
+
         },
-        onSubmit(event) {
+
+        async onSubmit(event) {
+
+            event.preventDefault();
+
             if (this.validateForm()) {
 
+                try {
+
+                    const response = await axios.post("http://localhost:4001/api/weblead/webleadUser", this.formData);
+
+                    if (response.data.status === "Success") {
+
+                        this.$router.push({ name: 'thanks' });
+
+                    } else {
+
+                        this.apiResponseData = response.data.message;
+
+                    }
+
+                } catch (error) {
+
+                    if (error.response && error.response.data) {
+
+                        // Handle specific error from backend
+
+                        this.apiResponseData = error.response.data.message || "Something went wrong";
+
+                    } else {
+
+                        console.log("Unable to create");
+
+                    }
+
+                }
+
             } else {
+
                 event.preventDefault();
+
             }
+
         }
+
     },
+
     name: 'EasyIntegration',
+
 }
 </script>
+
+
 
 
 <style>

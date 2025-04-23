@@ -434,9 +434,9 @@ export default {
           </div>
 
           <div class="others-option">
-            <a href="https://www.dealdox.io/demo" target="_blank" class="button-container">
+            <NuxtLink to="/demo" target="_blank" class="button-container">
               <button class="default-btn">Get a Demo</button>
-            </a>
+            </NuxtLink>
             <a href="https://web.dealdox.io/" target="_blank" rel="nofollow" class="button-container">
               <button class="default-btn">Login</button>
             </a>
