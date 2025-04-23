@@ -69,7 +69,7 @@
                                     <div class="form-group" id="form-group-id">
                                         <input type="text" v-model="formData.phoneNumber" @input="validatePhoneNumber"
                                             @keypress="allowOnlyNumbers" :maxlength="formData.maxPhoneNumberLength"
-                                            name="phone" class="form-control phone-numner-contact-us-border" id="phone"
+                                            name="phone" class="form-control phone-numner-contact-us-border" id="phone" required
                                             maxlength="15" placeholder="Phone Number"
                                             :title="formData.phoneValidationMessage" />
                                     </div>
@@ -248,11 +248,11 @@ export default {
 
             }
 
-            if (!nameRegex.test(this.formData.last_name)) {
+            // if (!nameRegex.test(this.formData.last_name)) {
 
-                this.formErrors.last_name = 'Last Name must contain only letters.';
+            //     this.formErrors.last_name = 'Last Name must contain only letters.';
 
-            }
+            // }
 
             // if (!phoneRegex.test(this.formData.phoneNumber)) {
 

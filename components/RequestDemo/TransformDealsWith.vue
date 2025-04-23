@@ -70,6 +70,7 @@
                                                         @input="validatePhoneNumber" @keypress="allowOnlyNumbers"
                                                         :maxlength="formData.maxPhoneNumberLength" name="phone"
                                                         class="form-control" id="phone" maxlength="15" placeholder=""
+                                                        required
                                                         :title="formData.phoneValidationMessage" />
 
 
@@ -98,7 +99,7 @@
                                                 <div class="form-group">
                                                     <p>Company</p>
                                                     <input type="text" maxlength="40" name="company"
-                                                        class="form-control" id="company" placeholder=""
+                                                        class="form-control" id="company" placeholder="" required
                                                         v-model="formData.company">
                                                 </div>
                                             </div>
@@ -249,11 +250,11 @@ export default {
 
             }
 
-            if (!this.formData.last_name) {
+            // if (!this.formData.last_name) {
 
-                this.errors.last_name = 'Last Name is required.';
+            //     this.errors.last_name = 'Last Name is required.';
 
-            }
+            // }
 
             if (!this.formData.phoneNumber) {
 
@@ -277,11 +278,11 @@ export default {
 
             }
 
-            if (!this.formData.country) {
+            // if (!this.formData.country) {
 
-                this.errors.country = 'Country is required.';
+            //     this.errors.country = 'Country is required.';
 
-            }
+            // }
 
             // if (!this.formData.message) {
 
