@@ -36,7 +36,6 @@
                     alt="Software Advice Company" style="">
 
             </div>
-
         </div>
 
         <div class="form-field-body" style="color: white;">
