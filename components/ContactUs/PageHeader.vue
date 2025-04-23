@@ -2,6 +2,7 @@
     <div class="contact-us-body-bg">
 
 
+
         <div class="left-contact-us-body">
             <h1 class="contact-us-heading">Contact Us</h1>
             <div class="queries-support">
@@ -46,7 +47,10 @@
             <div class="contact-area" style="padding: 20px;">
                 <div class="container">
                     <div class="contact-form">
-                        <form @submit="onSubmit" ref="form" method="POST">
+                        <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8"
+                            method="POST" @submit="submitForm" ref="form">
+                            <input name="oid" type="hidden" value="00D2v000003PByK" />
+                            <input name="retURL" type="hidden" value="https://dealdox.io/thank-you" />
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 col-sm-6">
                                     <div class="form-group" id="form-group-id">
@@ -99,6 +103,8 @@
                                     </div>
                                 </div>
 
+                                <!-- Honeypot Field -->
+                                <input type="text" v-model="formData.honeypot" class="honeypot" autocomplete="off" />
 
                                 <div class="col-lg-12 col-md-12 col-sm-12">
                                     <div class="form-group" id="form-group-id">
@@ -115,28 +121,31 @@
                                             id="flexCheckDefault" v-model="formData.agree">
                                         <label class="form-check-label" for="flexCheckDefault"
                                             style="color: black;margin-top: 2px;font-size: 14px;">
-
                                             By proceeding, I agree to the <NuxtLink to="/terms-of-use">Terms of Use.
                                             </NuxtLink>
                                         </label>
                                     </div>
                                 </div>
 
+                                <div style="display: none;">
+                                    <label for="Contact_us__c">Contact</label>
+                                    <input id="Contact_us__c" maxlength="40" name="Contact_us__c" size="20" type="text"
+                                        value="True" /><br />
+                                </div>
 
 
+                                <div style="display: none;">
+                                    <label for="lead_source">Lead Source</label>
+                                    <input id="lead_source" maxlength="40" name="lead_source" size="20" type="text"
+                                        :value="paramValue ? paramValue : 'Website'" /><br />
+                                </div>
 
 
-                                <span :style="{ color: 'red', fontSize: '13px' }">
-
-                                    {{ apiResponseData }}
-                                </span>
-
-
+                                <div class="g-recaptcha" data-sitekey="6Lcm03wnAAAAAJ0kn_gkod9i_BiG80TaeGw_xViZ"></div>
 
                                 <div class="col-lg-12 col-md-12 col-sm-12" style="width: 100%;justify-content: center;">
                                     <button type="submit" name="submit" required class="default-btn"><i
                                             class='bx bx-paper-plane'></i>
-
                                         Submit </button>
                                 </div>
 
@@ -148,202 +157,114 @@
         </div>
 
 
+
     </div>
 </template>
 
-
 <script>
-
-import axios from 'axios'
 
 export default {
 
-
-
-    data() {
-
-        return {
-
-            formData: {
-
-                first_name: '',
-
-                last_name: '',
-
-                email: '',
-
-                company: '',
-
-                country: '',
-
-                message: '',
-
-                agree: false,
-
-                formFrom: "DealDox Contact Us",
-
-                adminid: "6806315dab518273bbcf04c9",
-
-                phoneNumber: '',
-
-            },
-
-            formErrors: {},
-
-            num1: this.generateRandomNumber(),
-
-            num2: this.generateRandomNumber(),
-
-            userAnswer: '',
-
-            apiResponseData: ""
-
-        };
-
+    computed: {
+        paramValue() {
+            return this.$route.params.source;
+        }
     },
-
+    data() {
+        return {
+            formData: {
+                first_name: '',
+                last_name: '',
+                phone: '',
+                email: '',
+                company: '',
+                country: '',
+                message: '',
+                agree: false,
+                phoneNumber: '',
+                maxPhoneNumberLength: 15,
+                phoneValidationMessage: 'Please enter exactly 15 numeric digits',
+                honeypot: ''
+            },
+            formErrors: {},
+            num1: this.generateRandomNumber(),
+            num2: this.generateRandomNumber(),
+            userAnswer: ''
+        };
+    },
     methods: {
-
         generateRandomNumber() {
-
             return Math.floor(Math.random() * 10); // Random number between 0 and 9
-
         },
-
         validatePhoneNumber() {
-
             // Remove any non-numeric characters from the phone number
-
             this.formData.phoneNumber = this.formData.phoneNumber.replace(/\D/g, '');
-
         },
-
         allowOnlyNumbers(event) {
-
             // Allow only numeric digits (0-9) in the input field
-
             const charCode = event.which ? event.which : event.keyCode;
-
             if (charCode > 31 && (charCode < 48 || charCode > 57)) {
-
                 event.preventDefault();
-
             }
-
         },
-
         validateForm() {
-
             this.formErrors = {};
 
             const nameRegex = /^[a-zA-Z ]+$/;
-
             const phoneRegex = /^\+?\d{1,4}?\s?\d{6,}$/;
-
             const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
             if (!nameRegex.test(this.formData.first_name)) {
-
                 this.formErrors.first_name = 'First Name must contain only letters.';
-
             }
 
             if (!nameRegex.test(this.formData.last_name)) {
-
                 this.formErrors.last_name = 'Last Name must contain only letters.';
-
             }
 
             // if (!phoneRegex.test(this.formData.phoneNumber)) {
-
             //     this.formErrors.phoneNumber = 'Please enter a valid phone number.';
-
             // }
 
             if (!emailRegex.test(this.formData.email)) {
-
                 this.formErrors.email = 'Please enter a valid email address.';
-
             }
 
             if (!nameRegex.test(this.formData.company)) {
-
                 this.formErrors.company = 'Company Name must contain only letters.';
-
             }
 
             // if (!nameRegex.test(this.formData.country)) {
-
             //     this.formErrors.country = 'Country must contain only letters.';
-
             // }
 
             // if (this.formData.message.trim() === '') {
-
             //     this.formErrors.message = 'Please leave your message.';
-
             // }
 
             if (!this.formData.agree) {
-
                 this.formErrors.agree = 'You must agree to the Terms of Use and Privacy Policy.';
-
             }
-
             // if (!this.userAnswer || parseInt(this.userAnswer) !== this.num1 + this.num2) {
-
             //     this.formErrors.recaptcha = "You entered the wrong captcha value.";
-
             // }
-
             console.log("formErrors", this.formErrors)
 
 
             return Object.keys(this.formErrors).length === 0;
-
         },
 
-        async onSubmit(event) {
-
-            event.preventDefault();
-
-            if (this.validateForm()) {
-
-                try {
-
-                    const response = await axios.post("http://localhost:4001/api/weblead/webleadUser", this.formData);
-
-                    if (response.data.status === "Success") {
-
-                        this.$router.push({ name: 'thanks' });
-
-                    } else {
-
-                        this.apiResponseData = response.data.message;
-
-                    }
-
-                } catch (error) {
-
-                    if (error.response && error.response.data) {
-                        this.apiResponseData = error.response.data.message || "Something went wrong";
-                    } else {
-                        console.log("Unable to create");
-
-                    }
-
-                }
-
-            } else {
-
-                event.preventDefault();
-
+        submitForm(event) {
+            if (this.formData.honeypot) {
+                console.warn("Spam detected!"); // Log spam activity
+                return; // Block the submission
             }
-
-        }
-
+            if (this.validateForm()) {
+            } else {
+                event.preventDefault();
+            }
+        },
     },
-
 };
 </script>
 
