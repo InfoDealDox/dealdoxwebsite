@@ -70,8 +70,7 @@
                                                         @input="validatePhoneNumber" @keypress="allowOnlyNumbers"
                                                         :maxlength="formData.maxPhoneNumberLength" name="phone"
                                                         class="form-control" id="phone" maxlength="15" placeholder=""
-                                                        required
-                                                        :title="formData.phoneValidationMessage" />
+                                                        required :title="formData.phoneValidationMessage" />
 
 
 
@@ -91,7 +90,7 @@
                                                 <div class="form-group">
                                                     <p>Job Title</p>
                                                     <input type="text" maxlength="40" name="title" class="form-control"
-                                                        id="title" placeholder="">
+                                                        id="title" placeholder="" v-model="formData.jobTitle">
                                                 </div>
                                             </div>
 
@@ -107,7 +106,7 @@
                                                 <div class="form-group">
                                                     <p>Employees</p>
                                                     <select name="Employees__c" id="Employees__c" required
-                                                        class="form-control">
+                                                        class="form-control" v-model="formData.employees">
                                                         <option>--None--</option>
                                                         <option value="1-20">1-20</option>
                                                         <option value="21-200">21-200</option>
@@ -185,8 +184,9 @@ export default {
 
                 message: '',
 
-                // agree_terms: true,
+                jobTitle: '',
 
+                employees: null,
                 phoneNumber: '',
 
                 formFrom: "DealDox demo",

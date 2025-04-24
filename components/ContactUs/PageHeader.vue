@@ -69,8 +69,8 @@
                                     <div class="form-group" id="form-group-id">
                                         <input type="text" v-model="formData.phoneNumber" @input="validatePhoneNumber"
                                             @keypress="allowOnlyNumbers" :maxlength="formData.maxPhoneNumberLength"
-                                            name="phone" class="form-control phone-numner-contact-us-border" id="phone" required
-                                            maxlength="15" placeholder="Phone Number"
+                                            name="phone" class="form-control phone-numner-contact-us-border" id="phone"
+                                            required maxlength="15" placeholder="Phone Number"
                                             :title="formData.phoneValidationMessage" />
                                     </div>
                                 </div>
@@ -183,7 +183,7 @@ export default {
                 formFrom: "DealDox Contact Us",
 
                 adminid: "6806315dab518273bbcf04c9",
-
+     
                 phoneNumber: '',
 
             },
