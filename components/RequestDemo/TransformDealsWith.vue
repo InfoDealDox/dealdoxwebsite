@@ -90,7 +90,7 @@
                                                 <div class="form-group">
                                                     <p>Job Title</p>
                                                     <input type="text" maxlength="40" name="title" class="form-control"
-                                                        id="title" placeholder="" v-model="formData.jobTitle">
+                                                        id="title" placeholder="" v-model="formData.jobtitle">
                                                 </div>
                                             </div>
 
@@ -106,7 +106,7 @@
                                                 <div class="form-group">
                                                     <p>Employees</p>
                                                     <select name="Employees__c" id="Employees__c" required
-                                                        class="form-control" v-model="formData.employees">
+                                                        class="form-control" v-model="formData.noofemployees">
                                                         <option>--None--</option>
                                                         <option value="1-20">1-20</option>
                                                         <option value="21-200">21-200</option>
@@ -184,12 +184,11 @@ export default {
 
                 message: '',
 
-                jobTitle: '',
+                jobtitle: '',
 
-                employees: null,
+                noofemployees: null,
                 phoneNumber: '',
-
-                formFrom: "DealDox demo",
+                source: "DealDox demo",
 
                 adminid: "6806315dab518273bbcf04c9",
 
