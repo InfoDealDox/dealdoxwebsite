@@ -32,6 +32,8 @@ export default function (req, res, next) {
     "/contact-us": "/contact",
     "/alternatives/sap": "/alternative-to-sap-cpq",
     "/glossaries": "/glossary",
+    '/glossary-category-details/z' :'/glossary'
+
   };
 
   const redirectTo = redirects[req.url];
