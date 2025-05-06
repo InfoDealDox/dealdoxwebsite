@@ -43,7 +43,7 @@
                         <div class="icon">
                             <img src="../../assets/images/Salesforce/Subscription.png" alt="Subscription">
                         </div>
-                        <h3> <NuxtLink to="/subscription">Subscription</NuxtLink></h3>
+                        <h3> <NuxtLink to="/pricing">Subscription</NuxtLink></h3>
                         <p>Upselling, Expand and Automated renewals. Pay only for what you use.</p>
                         <NuxtLink to="/pricing" class="default-btn">Know more</NuxtLink>
                     </div>

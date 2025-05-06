@@ -32,7 +32,7 @@
           information and how to access and amend that information.
         </p>
 
-        <h6>What Personal Information We Collect</h6>
+        <h2>What Personal Information We Collect</h2>
 
         <p class="text-justify">
           We gather information about you when you offer it to us, when you use

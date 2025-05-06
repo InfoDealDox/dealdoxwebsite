@@ -75,7 +75,7 @@
                         <p>Experience a fully integrated sales workflow by utilizing the native integration between
                                 DealDox and HubSpot.</p>
                         <p>Seamlessly transition from quote to close with a unified <NuxtLink to='/services-cpq'>CPQ</NuxtLink>, Deal Management,
-                            and <NuxtLink to='/subscription'>Subscription Management</NuxtLink> stack. DealDox consolidates all deal-related
+                            and <NuxtLink to='/pricing'>Subscription Management</NuxtLink> stack. DealDox consolidates all deal-related
                             information and documents, including price quotes, terms, specifications, and sales content,
                             streamlining the process of closing deals.</p>
                         <p>Equip your sales team with SaaS Quotation software that eliminates obstacles in

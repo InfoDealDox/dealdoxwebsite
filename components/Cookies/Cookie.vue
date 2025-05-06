@@ -6,16 +6,16 @@
                     third-party partners may employ the use of cookies and similar technologies to gather user data for
                     the following purposes </h1>
 
-                <h6>Necessary Cookies </h6>
+                <h2 class="h2-for-cookies">Necessary Cookies </h2>
                 <p class="text-justify">These cookies are important for the proper functioning of the website. They
                     enable features such as remembering your login details and facilitating secure login processes.</p>
 
-                <h6>Functional Cookies</h6>
+                <h2 class="h2-for-cookies">Functional Cookies</h2>
                 <p class="text-justify"> These cookies aid in optimizing the website's performance. They assist in
                     collecting statistics, saving your preferences for social interactions, and enabling you to post
                     comments on our site. </p>
 
-                <h6>Advertising Cookies</h6>
+                <h2 class="h2-for-cookies">Advertising Cookies</h2>
                 <p class="text-justify">DealDox and our third-party partners utilize these cookies to deliver
                     interest-based advertising and personalized content across various browsers and devices.
                 </p>
@@ -36,7 +36,12 @@ export default {
 <style>
 @media screen and (min-width:1000px) {
     .coookie-policy {
-        font-size: 26px;
+        font-size: 20px !important;
     }
+
+    .h2-for-cookies {
+        font-size: 16px !important;
+    }
+
 }
 </style>

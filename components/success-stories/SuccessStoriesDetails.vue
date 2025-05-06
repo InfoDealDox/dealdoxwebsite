@@ -21,7 +21,7 @@
                                 <!-- <img :src="details[0].attributes.image.data.attributes.url" alt="image"> -->
                             </div>
                             <div class="article-content">
-                                <h4>{{ details[0].attributes.title }}</h4>
+                                <strong>{{ details[0].attributes.title }}</strong>
                                 <span v-html="details[0].attributes.longDesc"></span>
                             </div>
 

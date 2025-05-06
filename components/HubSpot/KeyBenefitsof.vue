@@ -43,7 +43,7 @@
                         <div class="icon">
                             <img src="../../assets/images/Hubspot/Subscription.png" alt="Subscription management">
                         </div>
-                        <h3><a href="https://www.dealdox.io/subscription">Subscription</a> </h3>
+                        <h3><NuxtLink to="/pricing">Subscription</NuxtLink> </h3>
                         <p>Upselling, Expand and Automated renewals. Pay only for what you use.</p>
                         <NuxtLink to="/pricing" class="default-btn">Know more</NuxtLink>
                     </div>

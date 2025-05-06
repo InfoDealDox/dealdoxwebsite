@@ -1,5 +1,5 @@
 User-agent: *
 Disallow: /glossary/configure-price-quote,
-Disallow: /glossary/accelerate-revenue-growth,/glossary/configure-price-quote,/alternatives/connectwise
+Disallow: /glossary/accelerate-revenue-growth,/glossary/configure-price-quote,/alternatives/connectwise,/glossary/ns
 Allow: /
 Sitemap: https://www.dealdox.io/sitemap.xml

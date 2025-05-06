@@ -95,7 +95,7 @@
     </script>
 
     <!-- JSON-LD Structured Data -->
-    <script type="application/ld+json">
+    <!-- <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "ProfessionalService",
@@ -131,9 +131,9 @@
           "closes": "23:59"
         }
       }
-    </script>
+    </script> -->
 
-    <script type="application/ld+json">
+    <!-- <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "Product",
@@ -194,7 +194,78 @@
           }
         ]
       }
-    </script>
+    </script> -->
+  
+  
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "DealDox Subscription Plans",
+        "description": "Flexible subscription pricing for DealDox. Choose from Standard, Premium, or Enterprise plans based on your business needs.",
+        "image": "https://res.cloudinary.com/ds6j6gokv/image/upload/v1746431580/Pricing_917966e319.png",
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "Standard Plan",
+            "description": "Yearly pricing for Standard plan",
+            "url": "https://www.dealdox.io/pricing",
+            "priceCurrency": "INR",
+            "price": "4999",
+            "priceValidUntil": "2025-12-31",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock",
+            "eligibleRegion": {
+              "@type": "Place",
+              "name": "Worldwide"
+            },
+            "seller": {
+              "@type": "Organization",
+              "name": "DealDox"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Premium Plan",
+            "description": "Yearly pricing for Premium plan",
+            "url": "https://www.dealdox.io/pricing",
+            "priceCurrency": "INR",
+            "price": "7999",
+            "priceValidUntil": "2025-12-31",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock",
+            "eligibleRegion": {
+              "@type": "Place",
+              "name": "Worldwide"
+            },
+            "seller": {
+              "@type": "Organization",
+              "name": "DealDox"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Enterprise Plan",
+            "description": "Custom yearly pricing for Enterprise clients. Contact DealDox for more information.",
+            "url": "https://www.dealdox.io/pricing",
+            "priceCurrency": "INR",
+            "price": "0",
+            "priceValidUntil": "2025-12-31",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock",
+            "eligibleRegion": {
+              "@type": "Place",
+              "name": "Worldwide"
+            },
+            "seller": {
+              "@type": "Organization",
+              "name": "DealDox"
+            }
+          }
+        ]
+      }
+      </script>
+      
   </head>
 
   <body {{ BODY_ATTRS }}>

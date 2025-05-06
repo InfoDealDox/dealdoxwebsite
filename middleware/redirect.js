@@ -8,7 +8,7 @@ export default function (req, res, next) {
     "/alternatives/dealhub": "/alternative-to-dealhub-cpq",
     "/alternatives/sap": "alternative-to-sap-cpq",
     "/success-story/accelerating-sales-excellence-with-dealdox-1": "/glossary",
-    "/glossary/ns": "/success-story/accelerating-sales-excellence-with-dealdox",
+    // "/glossary/ns": "/success-story/accelerating-sales-excellence-with-dealdox",
     "/glossary/saa-s-billing": "/glossary/saas-billing",
     "/glossary/request-for-quote-rfq": "/glossary/request-for-quote",
     "/blog/ns": "/blog",

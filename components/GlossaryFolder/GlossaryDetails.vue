@@ -5,7 +5,7 @@
                 <div class="col-lg-12 col-md-12">
                     <div class="blog-details-desc">
                         <div class="article-content">
-                            <h4>{{ details[0].attributes.title }}</h4>
+                            <strong>{{ details[0].attributes.title }}</strong>
                             <span v-html="details[0].attributes.longDesc"></span>
                         </div>
                         <!-- <div class="comments-area">
@@ -107,7 +107,10 @@ export default {
             categories: [],
             glossaries: [],
         }
+
+
     },
+    
     created: async function () {
         axios.get('https://cms.dealdox.io/api/glossary-categories')
             .then(response => {
@@ -119,6 +122,11 @@ export default {
             });
         const response = await axios.get('https://cms.dealdox.io/api/glossaries?populate=*')
         this.glossaries = response.data.data;
+
+        console.log("details[0].attributes.longDesc",this.details[0].attributes.longDesc)
+       
     },
+
+
 }
 </script>
