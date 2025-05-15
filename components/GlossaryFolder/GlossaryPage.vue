@@ -66,8 +66,10 @@ export default {
         const response1 = await axios.get('https://cms.dealdox.io/api/glossary-categories');
         const sortCat = response1?.data?.data.sort((a, b) => a.id - b.id);
         this.categories = sortCat;
+
         const response = await axios.get('https://cms.dealdox.io/api/glossaries?populate=*')
         this.glossaries = response.data.data;
+
         let groupby = {};
         this.categories.map(x => {
             const r = this.glossaries.filter(v =>
@@ -80,7 +82,24 @@ export default {
             dd.push({ value: key, data: groupby[key] })
         });
         this.groupby = dd;
-        // console.log(this.groupby);
+
+        let dataObtained = this.groupby.map((data) => {
+            data.data.sort((a, b) => {
+
+                return (a.attributes.title.slice(1)).localeCompare(b.attributes.title.slice(1));
+
+            })
+
+            return data;
+        })
+
+
+
+
+        this.groupby = dataObtained;
+
+
+
     },
     methods: {
         smoothScroll(target) {

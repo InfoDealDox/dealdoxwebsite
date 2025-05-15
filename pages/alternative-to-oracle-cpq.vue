@@ -1,7 +1,7 @@
 <template>
     <div v-if="Object.keys(compareData).length">
         <Navbar class="navbar-style-two" />
-        <div class="comparisionAllTop" style="font-family: Montserrat !important;">
+        <div class="comparisionAllTop" >
             <div class="comparision-h1-container">
                 <h1 class="comparision-h1-tag">{{ compareData.h1_tag }}</h1>
                 <div v-html="compareData.h1_Content" class="comparision-h1-content"></div>
