@@ -1,7 +1,3 @@
-
-
-
-
 <template>
     <div class="team-area pt-70 bg-FAFAFA">
         <div class="container">
@@ -14,14 +10,14 @@
             </div>
             <div class="row justify-content-center" v-if="teams !== null">
                 <div class="col-lg-4 col-md-6" v-for="team in teams.singleMedia.slice(
-                (currentPage - 1) * perPage,
-                currentPage * perPage,
-            )" :key="team.id">
+                    (currentPage - 1) * perPage,
+                    currentPage * perPage,
+                )" :key="team.id">
                     <div class="single-blog-post bg-FFFFFF">
                         <div class="image">
                             <a :href="team.link" target="_blank">
                                 <img :src="team.image.data.attributes.url"
-                                :alt="team.image.data.attributes.alternativeText">
+                                    :alt="team.image.data.attributes.alternativeText">
                             </a>
                         </div>
                         <div class="content">
@@ -66,6 +62,8 @@ export default {
         const { data: { attributes } } = response.data
         this.teams = attributes
         this.rows = this.teams?.length;
+
+        
     },
 }
 </script>
