@@ -3,7 +3,7 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
-xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                     http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd
                     http://www.google.com/schemas/sitemap-news/0.9
                     http://www.google.com/schemas/sitemap-news/0.9/sitemap-news.xsd">
@@ -194,8 +194,13 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
     <priority>0.64</priority>
   </url>
   <url>
+    <loc>https://www.dealdox.io/blog/cost-estimating-with-excel-estimator</loc>
+    <lastmod>2025-05-22T07:44:44.583Z</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.dealdox.io/blog/top-industries-leveraging-cpq-automation</loc>
-    <lastmod>2025-05-16T02:50:20.586Z</lastmod>
+    <lastmod>2025-05-22T04:45:15.971Z</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -1409,72 +1414,7 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
     <priority>0.7</priority>
   </url>
 
-  <url>
-    <loc>https://www.business-standard.com/content/press-releases-ani/dealdox-india-s-first-quotation-software-built-for-service-industries-124032300002_1.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Business Standard</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2024-03-23T00:00:00.000Z</news:publication_date>
-      <news:title>India&apos;s First CPQ for Products &amp; Services</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.aninews.in/news/business/dealdox-indias-first-quotation-software-built-for-service-industries20240322173444/</loc>
-    <news:news>
-      <news:publication>
-        <news:name></news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2024-03-22T00:00:00.000Z</news:publication_date>
-      <news:title> Proposal Software solution</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.theweek.in/wire-updates/business/2024/03/22/dcm49-dealdox.amp.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Week</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2024-03-22T00:00:00.000Z</news:publication_date>
-      <news:title>DealDox - SaaS Application</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.ptinews.com/press-release/DealDox---India-s-First-Quotation-Software-Built-for-Service-Industries/1376652</loc>
-    <news:news>
-      <news:publication>
-        <news:name>PTI</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2024-03-22T00:00:00.000Z</news:publication_date>
-      <news:title>Sales Automation Tool</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://theprint.in/ani-press-releases/dealdox-indias-first-quotation-software-built-for-service-industries/2011764/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Print</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2024-03-22T00:00:00.000Z</news:publication_date>
-      <news:title>CPQ Software Streamlines Pre-sales</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.newsvoir.com/release/dealdox-india-s-first-quotation-software-built-for-service-industries-27832.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>News Voir</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2024-03-22T00:00:00.000Z</news:publication_date>
-      <news:title>CPQ Integrations with CRM &amp; ERPs</news:title>
-    </news:news>
-  </url>
+  
   <url>
     <loc>https://theasianchronicle.com/press-release/?c_article_id=27832&amp;c_author_id=21970&amp;originurl=https%3a%2f%2ftheasianchronicle.com%2fpress-release%2f</loc>
     <news:news>
@@ -1486,17 +1426,7 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
       <news:title>Generate Proposals, Estimations &amp; Quotations</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://www.bignewsnetwork.com/news/274191597/dealdox---india-first-quotation-software-built-for-service-industries</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Big News Network</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2024-03-22T00:00:00.000Z</news:publication_date>
-      <news:title>DealDox CPQ at Tech Events</news:title>
-    </news:news>
-  </url>
+ 
   <url>
     <loc>https://news.google.com/search?q=DealDox%20-%20India%27s%20First%20Quotation%20Software%20Built%20for%20Service%20Industries&amp;hl=en-IN&amp;gl=IN&amp;ceid=IN%3Aen</loc>
     <news:news>
@@ -1508,28 +1438,8 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
       <news:title>Streamlined Efficiency and Increased Sales.</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://www.aninews.in/news/business/dealdox-ai-powered-cpq-startup-secures-43k-seed-funding-to-drive-pre-sales-automation20241011142906/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>ANI</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2024-10-11T00:00:00.000Z</news:publication_date>
-      <news:title>DealDox Secures $43K Seed Funding</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.business-standard.com/content/press-releases-ani/dealdox-ai-powered-cpq-startup-secures-43k-seed-funding-to-drive-pre-sales-automation-124101100550_1.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Business Standard</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2024-10-11T00:00:00.000Z</news:publication_date>
-      <news:title> AI-powered CPQ Startup Funding</news:title>
-    </news:news>
-  </url>
+
+
   <url>
     <loc>https://www.ptinews.com/press-release/DealDox,-AI-powered-CPQ-Startup,-Secures-43K-Seed-Funding-to-Drive-Pre-sales-Automation/1894246</loc>
     <news:news>
@@ -1541,26 +1451,5 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
       <news:title>Pre-sales Automation</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://www.aninews.in/news/business/dealdox-ai-powered-cpq-startup-secures-43k-seed-funding-to-drive-pre-sales-automation20241011142906/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>ANI</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2024-10-11T00:00:00.000Z</news:publication_date>
-      <news:title>Quotation software</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.rajpathmathura.com/dealdox-ai-powered-cpq-startup-secures-43k-seed-funding-to-drive-pre-sales-automation/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Google News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2024-10-11T00:00:00.000Z</news:publication_date>
-      <news:title>AI-driven estimations</news:title>
-    </news:news>
-  </url>
+
 </urlset>
