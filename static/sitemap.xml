@@ -2,11 +2,8 @@
 <urlset
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
-  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-                    http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd
-                    http://www.google.com/schemas/sitemap-news/0.9
-                    http://www.google.com/schemas/sitemap-news/0.9/sitemap-news.xsd">
+  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd
+                      ">
 
   <url>
     <loc>https://www.dealdox.io/</loc>
@@ -324,12 +321,14 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.dealdox.io/blog/10-reasons-why-your-business-needs-cpq-software-to-dominate-the-sales-cycle</loc>
+    <loc>
+      https://www.dealdox.io/blog/10-reasons-why-your-business-needs-cpq-software-to-dominate-the-sales-cycle</loc>
     <lastmod>2025-01-15T07:24:19.534Z</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.dealdox.io/blog/driving-revenue-growth-with-cloud-based-cpq-and-quote-automation</loc>
+    <loc>
+      https://www.dealdox.io/blog/driving-revenue-growth-with-cloud-based-cpq-and-quote-automation</loc>
     <lastmod>2025-01-15T07:20:46.735Z</lastmod>
     <priority>0.7</priority>
   </url>
@@ -1149,7 +1148,8 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.dealdox.io/glossary/discounting-boosting-sales-and-revenue-with-strategic-pricing</loc>
+    <loc>
+      https://www.dealdox.io/glossary/discounting-boosting-sales-and-revenue-with-strategic-pricing</loc>
     <lastmod>2025-02-27T07:16:27.384Z</lastmod>
     <priority>0.7</priority>
   </url>
@@ -1414,47 +1414,11 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.dealdox.io/success-story/breaking-barriers-for-seamless-integration-of-custom-gadgets</loc>
+    <loc>
+      https://www.dealdox.io/success-story/breaking-barriers-for-seamless-integration-of-custom-gadgets</loc>
     <lastmod>2024-06-10T02:21:38.162Z</lastmod>
     <priority>0.7</priority>
   </url>
 
-  
-  <url>
-    <loc>https://theasianchronicle.com/press-release/?c_article_id=27832&amp;c_author_id=21970&amp;originurl=https%3a%2f%2ftheasianchronicle.com%2fpress-release%2f</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Asian Chronicle</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2024-03-22T00:00:00.000Z</news:publication_date>
-      <news:title>Generate Proposals, Estimations &amp; Quotations</news:title>
-    </news:news>
-  </url>
- 
-  <url>
-    <loc>https://news.google.com/search?q=DealDox%20-%20India%27s%20First%20Quotation%20Software%20Built%20for%20Service%20Industries&amp;hl=en-IN&amp;gl=IN&amp;ceid=IN%3Aen</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Google News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2024-03-22T00:00:00.000Z</news:publication_date>
-      <news:title>Streamlined Efficiency and Increased Sales.</news:title>
-    </news:news>
-  </url>
-
-
-  <url>
-    <loc>https://www.ptinews.com/press-release/DealDox,-AI-powered-CPQ-Startup,-Secures-43K-Seed-Funding-to-Drive-Pre-sales-Automation/1894246</loc>
-    <news:news>
-      <news:publication>
-        <news:name>PTI</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2024-10-11T00:00:00.000Z</news:publication_date>
-      <news:title>Pre-sales Automation</news:title>
-    </news:news>
-  </url>
 
 </urlset>
