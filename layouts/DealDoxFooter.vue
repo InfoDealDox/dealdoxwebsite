@@ -91,7 +91,7 @@
                   <NuxtLink to="/sugarcrm-cpq-integration" class="footer-content">SugarCRM</NuxtLink>
                 </li>
                 <li>
-                  <NuxtLink to="/" class="footer-content">API</NuxtLink>
+                  <NuxtLink to="/api" class="footer-content">API</NuxtLink>
                 </li>
               </ul>
             </div>
@@ -465,7 +465,7 @@ export default {
         { text: 'Freshworks', link: '/freshworks-cpq-integration' },
         { text: 'HubSpot', link: '/hubspot-cpq-integration' },
         { text: 'SugarCRM', link: '/sugarcrm-cpq-integration' },
-        { text: 'API', link: '/' }
+        { text: 'API', link: '/api' }
       ],
       featuresSet3: [
         { text: 'Blogs', link: '/blogs' },
