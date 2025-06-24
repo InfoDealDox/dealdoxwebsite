@@ -13,7 +13,7 @@
                     </small>
                     <NuxtLink to="/demo"><button class="sales-optimize-demo-btn">Request Demo</button></NuxtLink>
                 </div>
-                <div class="sales-optimize-image-right"><img src="../assets/images/sales-optimize/Salesforce_automation_software.jpg" alt="" ></div>
+                <div class="sales-optimize-image-right"><img src="../assets/images/sales-optimize/Salesforce_automation_software.jpg" alt="" loading="lazy" ></div>
 
             </div>
 

@@ -399,7 +399,7 @@
   bottom: 0;
   z-index: 4;
   opacity: 0;
-  right: 20px;
+  left: 20px;
   width: 45px;
   height: 45px;
   position: fixed;
@@ -522,3 +522,35 @@
 
 /* Min width 1200px to Max width 1399px */
 /*# sourceMappingURL=footer.css.map */
+
+.chatWith_Sandya button {
+  position: fixed;
+  right: 18px;
+  bottom: 25px;
+  z-index: 99999;
+  text-align: end;
+  animation: scalePulse 1s infinite ease-in-out;
+  animation-play-state: running;
+  background: linear-gradient(99.01deg, #715cf3 20.98%, #5c99f3 94.62%);
+  border-radius: 48px;
+  border: none;
+  font-size: 13px;
+  color: white;
+  font-weight: 600;
+  padding: 5px 10px;
+  &:hover {
+    animation-play-state: paused;
+  }
+}
+
+@keyframes scalePulse {
+  0% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.9);
+  }
+}

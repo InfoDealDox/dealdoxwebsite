@@ -1,6 +1,12 @@
 <template>
-    <div @click="scrollToTop()" :class="['back-to-top-btn', { 'go-top': isTop }]">
-        <i class="ri-arrow-up-s-line"></i>
+    <div>
+        <div @click="scrollToTop()" :class="['back-to-top-btn', { 'go-top': isTop }]">
+
+            <i class="ri-arrow-up-s-line"></i>
+        </div>
+        <div class="chatWith_Sandya">
+            <a href="https://www.linkedin.com/in/sandhyadealdox/"><button> 💬Chat with Sandhya</button></a>
+        </div>
     </div>
 </template>
 

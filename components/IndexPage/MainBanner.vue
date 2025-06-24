@@ -6,7 +6,7 @@
 
 
         <div class="image-container">
-          <img src="../../assets/images/CPQ .webp" alt="DealDox Affordable" class="zoom-image">
+          <img src="../../assets/images/CPQ .webp" alt="DealDox Affordable" class="zoom-image" loading="lazy">
         </div>
         <div>
           <h1 class="new-banner-cpqforAll-content" style="padding-bottom: 0px;margin-bottom: 0px;">CPQ FOR ALL</h1>
@@ -24,26 +24,26 @@
         </button>
       </div>
       <div class="mobile-app-banner-logos">
-        <img src="../../assets/images/Startup_left.webp" alt="" class="recognized-left-image">
+        <img src="../../assets/images/Startup_left.webp" alt="" class="recognized-left-image" loading="lazy">
 
       </div>
 
       <div class="recognized-dealdox">
 
-        <img src="../../assets/images/MainBannerStartupLogo.png" alt="CPQ Software Startup" class="recognized-image">
+        <img src="../../assets/images/MainBannerStartupLogo.png" alt="CPQ Software Startup" class="recognized-image" loading="lazy">
 
       </div>
 
       <footer class="banner-logo-footer">
 
         <div class="banner-footer-logo-body">
-          <div class="banner-logo-container"><img src="../../assets/images/BannerAssets/G2.png"
+          <div class="banner-logo-container"><img loading="lazy" src="../../assets/images/BannerAssets/G2.png"
               class="banner-logo-images-first customize-banner" alt="G2-Company"></div>
-          <div class="banner-logo-container"><img src="../../assets/images/capterrawhitelogo.jpg"
+          <div class="banner-logo-container"><img loading="lazy" src="../../assets/images/capterrawhitelogo.jpg"
               class="banner-logo-images  customize-banner-capterra" alt="Capterra-Company"></div>
-          <div class="banner-logo-container"><img src="../../assets/images/Gartnerwhitelogo.png"
+          <div class="banner-logo-container"><img loading="lazy" src="../../assets/images/Gartnerwhitelogo.png"
               class="banner-logo-images  customize-banner-gartner" alt="Gartner-Company"></div>
-          <div class="banner-logo-container"><img src="../../assets/images/software_advice_webp.webp"
+          <div class="banner-logo-container"><img loading="lazy" src="../../assets/images/software_advice_webp.webp"
               class="banner-logo-images " alt="Software Advice Company" style="border-right: none;padding:1px 10px;">
           </div>
         </div>

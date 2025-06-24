@@ -2,8 +2,11 @@
 <urlset
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd
-                      ">
+  xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                    http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd
+                    http://www.google.com/schemas/sitemap-news/0.9
+                    http://www.google.com/schemas/sitemap-news/0.9/sitemap-news.xsd">
 
   <url>
     <loc>https://www.dealdox.io/</loc>
@@ -28,11 +31,6 @@
   <url>
     <loc>https://www.dealdox.io/cpq-integrations</loc>
     <lastmod>2024-12-15T10:35:42+00:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.dealdox.io/api</loc>
-    <lastmod>2025-05-28T10:35:42+00:00</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -196,8 +194,23 @@
     <priority>0.64</priority>
   </url>
   <url>
+    <loc>https://www.dealdox.io/blog/difference-between-estimation-and-costing-in-manufacturing</loc>
+    <lastmod>2025-06-23T01:41:04.874Z</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.dealdox.io/blog/pricing-automation</loc>
+    <lastmod>2025-06-13T06:44:43.941Z</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.dealdox.io/blog/bill-of-materials-automation</loc>
+    <lastmod>2025-06-03T05:10:40.833Z</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.dealdox.io/blog/engineer-to-order-estimations</loc>
-    <lastmod>2025-05-29T08:19:36.292Z</lastmod>
+    <lastmod>2025-05-30T06:53:07.128Z</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -326,14 +339,12 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>
-      https://www.dealdox.io/blog/10-reasons-why-your-business-needs-cpq-software-to-dominate-the-sales-cycle</loc>
+    <loc>https://www.dealdox.io/blog/10-reasons-why-your-business-needs-cpq-software-to-dominate-the-sales-cycle</loc>
     <lastmod>2025-01-15T07:24:19.534Z</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>
-      https://www.dealdox.io/blog/driving-revenue-growth-with-cloud-based-cpq-and-quote-automation</loc>
+    <loc>https://www.dealdox.io/blog/driving-revenue-growth-with-cloud-based-cpq-and-quote-automation</loc>
     <lastmod>2025-01-15T07:20:46.735Z</lastmod>
     <priority>0.7</priority>
   </url>
@@ -1153,8 +1164,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>
-      https://www.dealdox.io/glossary/discounting-boosting-sales-and-revenue-with-strategic-pricing</loc>
+    <loc>https://www.dealdox.io/glossary/discounting-boosting-sales-and-revenue-with-strategic-pricing</loc>
     <lastmod>2025-02-27T07:16:27.384Z</lastmod>
     <priority>0.7</priority>
   </url>
@@ -1374,8 +1384,48 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.dealdox.io/success-story/streamlining-manufacturing-quotes-with-cpq</loc>
+    <lastmod>2025-05-23T02:56:17.198Z</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.dealdox.io/success-story/revolutionizing-costing-processes</loc>
+    <lastmod>2025-05-23T02:55:40.472Z</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.dealdox.io/success-story/estimations-made-easy-for-air-receivers</loc>
+    <lastmod>2025-05-23T02:55:23.344Z</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.dealdox.io/success-story/breaking-barriers-for-seamless-integration-of-custom-gadgets</loc>
+    <lastmod>2025-05-23T02:53:05.007Z</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.dealdox.io/success-story/revolutionizing-sales-with-dealdox</loc>
-    <lastmod>2025-05-19T05:35:19.123Z</lastmod>
+    <lastmod>2025-05-23T02:52:46.150Z</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.dealdox.io/success-story/improve-quoting-accuracy-dealdox</loc>
+    <lastmod>2025-05-23T02:51:09.533Z</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.dealdox.io/success-story/cpq-for-efficient-workflows</loc>
+    <lastmod>2025-05-23T02:50:19.291Z</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.dealdox.io/success-story/automating-quoting-process</loc>
+    <lastmod>2025-05-23T02:50:01.300Z</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.dealdox.io/success-story/accelerating-sales-excellence-with-dealdox</loc>
+    <lastmod>2025-05-23T02:49:30.245Z</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -1383,47 +1433,5 @@
     <lastmod>2025-05-12T04:34:31.225Z</lastmod>
     <priority>0.7</priority>
   </url>
-  <url>
-    <loc>https://www.dealdox.io/success-story/accelerating-sales-excellence-with-dealdox</loc>
-    <lastmod>2025-01-03T05:41:28.791Z</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.dealdox.io/success-story/revolutionizing-costing-processes</loc>
-    <lastmod>2024-11-05T05:56:39.276Z</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.dealdox.io/success-story/automating-quoting-process</loc>
-    <lastmod>2024-10-10T06:37:32.465Z</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.dealdox.io/success-story/estimations-made-easy-for-air-receivers</loc>
-    <lastmod>2024-10-03T01:13:23.760Z</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.dealdox.io/success-story/streamlining-manufacturing-quotes-with-cpq</loc>
-    <lastmod>2024-07-05T06:55:15.240Z</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.dealdox.io/success-story/improve-quoting-accuracy-dealdox</loc>
-    <lastmod>2024-06-10T06:05:50.857Z</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.dealdox.io/success-story/cpq-for-efficient-workflows</loc>
-    <lastmod>2024-06-10T05:57:43.620Z</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>
-      https://www.dealdox.io/success-story/breaking-barriers-for-seamless-integration-of-custom-gadgets</loc>
-    <lastmod>2024-06-10T02:21:38.162Z</lastmod>
-    <priority>0.7</priority>
-  </url>
-
 
 </urlset>
