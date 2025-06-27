@@ -6,13 +6,12 @@
                 demo and discover how DealDox CPQ can drive your business success. </small>
         </div>
         <div class="so-form-subject">
-            <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" class=@>
-                <input name="oid" type="hidden" value="00D2v000003PByK" />
-                <input name="retURL" type="hidden" value="https://dealdox.io/thank-you" />
+            <form @submit="onSubmit" ref="form" method="POST">
                 <div class="so-gap-container">
                     <div class="so-email-container-body">
                         <label class="so-company-email">Company Email</label>
-                        <input type="email" maxlength="40" name="email" required class="" id="email" placeholder="">
+                        <input type="email" maxlength="40" name="email" required class="" id="email" placeholder=""
+                            v-model="formData.email">
                     </div>
                     <div style="display: none;">
                         <label for="Contact_us__c">Contact</label>
@@ -59,7 +58,6 @@ export default {
             formData: {
 
                 email: '',
-
                 agree: false,
                 phoneNumber: '',
                 maxPhoneNumberLength: 15,
@@ -94,24 +92,50 @@ export default {
 
 
             return Object.keys(this.formErrors).length === 0;
+
+
+
         },
 
-        submitForm() {
+        async onSubmit(event) {
+
+            event.preventDefault();
+
+            console.log("Validate Forms", this.validateForm());
+
             if (this.validateForm()) {
 
+                try {
 
+                    const response = await axios.post("https://dev-api.dealdox.io/api/weblead/webleadUser", this.formData);
 
+                    if (response.data.status === "Success") {
+                        this.$router.push({ name: 'thanks' });
 
+                    } else {
 
+                        this.apiResponseData = response.data.message;
 
-                const form = document.querySelector('form');
-                form.submit();
+                    }
 
+                } catch (error) {
+
+                    if (error.response && error.response.data) {
+                        this.apiResponseData = error.response.data.message || "Something went wrong";
+                    } else {
+                        console.log("Unable to create");
+
+                    }
+
+                }
 
             } else {
-                console.log('Form validation failed!');
+
+                event.preventDefault();
+
             }
-        },
+
+        }
     },
 
 };

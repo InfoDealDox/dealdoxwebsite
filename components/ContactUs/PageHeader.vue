@@ -183,7 +183,7 @@ export default {
                 source: "DealDox Contact Us",
 
                 adminid: "6806315dab518273bbcf04c9",
-     
+
                 phoneNumber: '',
 
             },
@@ -314,7 +314,6 @@ export default {
                     const response = await axios.post("https://dev-api.dealdox.io/api/weblead/webleadUser", this.formData);
 
                     if (response.data.status === "Success") {
-
                         this.$router.push({ name: 'thanks' });
 
                     } else {
