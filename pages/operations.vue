@@ -180,6 +180,7 @@ export default {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    
 }
 
 
@@ -214,6 +215,8 @@ export default {
     font-size: 22px;
     color: white;
 }
+
+
 
 @media (max-width:750px) {
 

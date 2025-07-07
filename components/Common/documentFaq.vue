@@ -54,12 +54,12 @@ export default {
             faqs: [
                 {
                     question: "How can automated document generation improve quote-to-cash process? ",
-                    answer: `Automated document creation speeds up the generation of accurate and professional documents. It minimizes errors, ensures compliance, and accelerates deal closure.<br/>  This efficiency boosts revenue by shortening the time it takes to generate income, supporting your overall quote-to-cash process. `
+                    answer: `Automated document creation speeds up the generation of accurate and professional documents. It minimizes errors, ensures compliance, and accelerates deal closure. This efficiency boosts revenue by shortening the time it takes to generate income, supporting your overall quote-to-cash process. `
                 },
                 {
                     question: "What types of business processes do DealDox’s document automation feature automate? ",
                     answer: `DealDox’s document generation feature helps businesses with a wide range of deal documents, including proposals, quotations, costing sheets, and delivery reports.  `,
-                    
+
                 },
 
                 {
@@ -71,7 +71,7 @@ export default {
                     answer: `Document generation simplifies the generation of deal documents. It pulls data from various sources to generate a document filled with the necessary information. This way, you get a ready-to-share document without the hassle of manual creation. `
 
                 },
-               
+
 
             ]
         };

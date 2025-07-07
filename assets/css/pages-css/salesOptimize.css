@@ -9,7 +9,9 @@
   gap: 50px;
   width: 95%;
   margin: auto;
-  height: 450px;
+  min-height: 450px;
+  height: fit-content;
+  padding: 5px 10px;
 }
 
 .sales-optimize-content-left {
@@ -17,7 +19,7 @@
   display: flex;
   flex-direction: column;
   margin-top: 20px;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .sales-optimize-image-right {
@@ -63,6 +65,9 @@
   width: fit-content;
 }
 
+.sales-optimize-demo-btn-anker {
+  width: fit-content;
+}
 /* cards */
 .sales-table-body {
   max-width: 1440px;
@@ -464,8 +469,7 @@
     justify-content: center;
     gap: 23px;
     align-items: stretch;
-
-}
+  }
   .q_a_question_content:nth-child(1),
   .q_a_answer_content:nth-child(1) {
     right: 0;
@@ -531,5 +535,4 @@
     align-items: center;
     margin-right: auto;
   }
-  
 }

@@ -42,7 +42,7 @@
                   <NuxtLink to="/mobile-app" class="footer-content">Mobile App</NuxtLink>
                 </li>
                 <li>
-                  <NuxtLink to="/" class="footer-content">Document Generation</NuxtLink>
+                  <NuxtLink to="/document-automation" class="footer-content">Document Generation</NuxtLink>
                 </li>
                 <li>
                   <NuxtLink to="/salesforce-optimization" class="footer-content">Salesforce Optimization</NuxtLink>
@@ -69,7 +69,7 @@
                   </NuxtLink>
                 </li>
                 <li>
-                  <NuxtLink to="/" class="footer-content">Operation
+                  <NuxtLink to="/operations" class="footer-content">Operation
                   </NuxtLink>
                 </li>
                 <li>
@@ -451,7 +451,7 @@ export default {
         { text: 'Workflow Approvals', link: '/approval-software' },
         { text: 'Integrations', link: '/cpq-integrations' },
         { text: 'Mobile App', link: '/mobile-app' },
-        { text: 'Document Generation', link: '/' },
+      { text: 'Document Generation', link: '/document-automation' },
         { text: 'Salesforce Optimization', link: '/salesforce-optimization' },
         { text: 'Pricing', link: '/pricing' },
         { text: 'Security', link: '/security' },
@@ -459,7 +459,7 @@ export default {
       ],
       featuresSet2: [
         { text: 'Sales', link: '/sales' },
-        { text: 'Operation', link: '/' },
+        { text: 'Operation', link: '/operations' },
         { text: 'Salesforce', link: '/salesforce-cpq-integration' },
         { text: 'Microsoft Dynamics', link: '/microsoft-dynamics-365-cpq-integration' },
         { text: 'Freshworks', link: '/freshworks-cpq-integration' },
