@@ -216,7 +216,7 @@ export default {
 
                 try {
 
-                    const response = await axios.post("https://dev-api.dealdox.io/api/weblead/webleadUser", this.formData);
+                    const response = await axios.post("https://devqa-api.dealdox.io/api/autorize/webleadUser", this.formData);
 
                     if (response.data.status === "Success") {
                         this.$router.push({ name: 'thanks' });
