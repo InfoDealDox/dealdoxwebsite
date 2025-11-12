@@ -126,7 +126,7 @@
               </div> -->
               <div class="pricing-card-body">
                 <div class="plan-text-body">
-                  <small class="pricing-plan-label">Standard</small>
+                  <small class="pricing-plan-label">Free Plan</small>
 
                 </div>
 
@@ -139,7 +139,7 @@
                 <div class="cards-cash-amount">
 
                   <span class="cards-cashs">
-                    <small style="font-size: 22px; color: #5d5d66;"><small style="font-size: 22px;"
+                    <small style="color: #5d5d66;"><small style=""
                         v-if='currency_symbol_code !== "INR"'>{{ currency_symbol_code }}</small>{{ currency_symbol
                         }}</small>
                     <span v-if="monthly">{{ monthlystandardAmount.toLocaleString() }}</span>
@@ -147,8 +147,8 @@
 
                   </span>
                   <div class="perquoteDiv">
-                    <span v-if="monthly">/user/month billed monthly</span><span v-else>
-                      /user/month billed annually</span>
+                    <span>Free for 60 days</span>
+
                   </div>
 
                 </div>
@@ -202,7 +202,7 @@
                 <div class="cards-cash-amount">
 
                   <span class="cards-cashs">
-                    <small style="font-size: 22px; color: #5d5d66;"><small style="font-size: 22px;"
+                    <small style=" color: #5d5d66;"><small style=""
                         v-if='currency_symbol_code !== "INR"'>{{ currency_symbol_code }}</small>{{ currency_symbol
                         }}</small>
                     <span v-if="monthly">{{ monthlypremiumAmount.toLocaleString() }}</span>
@@ -215,7 +215,7 @@
 
                 </div>
                 <div class="card-key-feature-lists">
-                  <span class="card-key-feature-lists-h1">Everything in Standard+ </span>
+                  <span class="card-key-feature-lists-h1">Everything in Free Plan+ </span>
                   <ul class="cards-list-item">
                     <li class="card-list-item-content-li"><i class="bi bi-check2 checkmarks-pricing"></i><span
                         class="card-list-item-content">Data import from excel </span></li>
@@ -333,11 +333,11 @@
 
                       </th> -->
                       <th role="columnheader" scope="col" class="table__cell2">
-                        <a :href="`https://devqa.dealdox.io/register?paymentMode=standard`" class="subscription-anker-tag"
-                          target="_blank" rel="noopener noreferrer nofollow">
+                        <a :href="`https://devqa.dealdox.io/register?paymentMode=standard`"
+                          class="subscription-anker-tag" target="_blank" rel="noopener noreferrer nofollow">
                           <div class="edition_wrapper">
                             <div class="edition__copy__wrapper">
-                              <div class="edition_name">Standard</div>
+                              <div class="edition_name">Free Plan</div>
 
 
                             </div>
@@ -358,8 +358,8 @@
 
                       </th>
                       <th role="columnheader" scope="col" class="table__cell2">
-                        <a :href="`https://devqa.dealdox.io/register?paymentMode=premium`" class="subscription-anker-tag"
-                          target="_blank" rel="noopener noreferrer nofollow">
+                        <a :href="`https://devqa.dealdox.io/register?paymentMode=premium`"
+                          class="subscription-anker-tag" target="_blank" rel="noopener noreferrer nofollow">
                           <div class="edition_wrapper">
                             <div class="edition__copy__wrapper">
                               <div class="edition_name">Premium</div>
@@ -470,7 +470,7 @@ export default {
       currentCountryCode: "INR",
       currentCurrencyAmount: 1,
       payAsYouGoAmount: 99,
-      standardAmount: 4999,
+      standardAmount: 0,
       premiumAmount: 7999,
       monthlystandardAmount: 8999,
       monthlypremiumAmount: 14399,
@@ -1400,7 +1400,7 @@ export default {
       try {
         const multiplier = this.currentCountryCode.toUpperCase() === "INR" ? 1 : 3;
         this.payAsYouGoAmount = this.calculateAmount(99, multiplier);
-        this.standardAmount = this.calculateAmount(4999, multiplier);
+        this.standardAmount = this.calculateAmount(0, multiplier);
         this.premiumAmount = this.calculateAmount(7999, multiplier);
         this.monthlystandardAmount = this.calculateAmount(8999, multiplier);
         this.monthlypremiumAmount = this.calculateAmount(14399, multiplier);

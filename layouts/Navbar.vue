@@ -253,6 +253,21 @@ export default {
 
 <template>
   <div :class="['navbar-area', { 'is-sticky': isSticky }]" id="navbar-two-containers-div">
+    <div class="navbar-new-banner">
+      <span class="new-banner-entire-body">
+        <span class="navbar-new-banner-content">
+          <span class="no-animate">🌟</span>
+          Meet DealDox at Bangalore Tech Summit 2025 — <b>Booth C73.</b> Discover our latest AI-driven Deal Automation
+          platform, live on 18–20 November 2025.
+
+          <!-- <NuxtLink to="/blog" class="new-navbar-banner-readbanner">
+            our Blog
+          </NuxtLink> -->
+        </span>
+      </span>
+
+    </div>
+
     <div class="jexa-nav">
       <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -434,8 +449,8 @@ export default {
           </div>
 
           <div class="others-option">
-            <NuxtLink to="/demo" target="_blank" class="button-container">
-              <button class="default-btn">Get a Demo</button>
+            <NuxtLink to="/pricing" target="_blank" class="button-container">
+              <button class="default-btn">Try It Free</button>
             </NuxtLink>
             <a href="https://web.dealdox.io/" target="_blank" rel="nofollow" class="button-container">
               <button class="default-btn">Login</button>
@@ -534,5 +549,102 @@ export default {
   .dropdown-menu1.show {
     display: block;
   }
+}
+
+
+.navbar-new-banner {
+  width: 100%;
+  background: black;
+  text-align: center;
+  padding: 12px 0;
+  font-weight: 600;
+  font-size: 15px;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  z-index: 1000;
+}
+
+.new-banner-entire-body {
+  position: relative;
+  display: inline-block;
+  background: linear-gradient(90deg,
+      #ffffff 0%,
+      #c4a8f1 25%,
+      #ffffff 50%,
+      #a57ce8 75%,
+      #ffffff 100%);
+  background-size: 300%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmerHighlight 4s linear infinite;
+}
+
+/* Disable shimmer for 🌟 and Blog link */
+.no-animate,
+.new-navbar-banner-readbanner {
+  -webkit-text-fill-color: #fff !important;
+  /* Make visible */
+  -webkit-background-clip: initial !important;
+  background: none !important;
+  animation: none !important;
+  color: #fff !important;
+}
+
+/* Underline + hover styling for Blog link */
+.new-navbar-banner-readbanner {
+  text-decoration: underline;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.new-navbar-banner-readbanner:hover {
+  color: #d3b3ff;
+  /* light purple hover */
+}
+
+/* Optional shimmer keyframes */
+@keyframes shimmerHighlight {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+
+/* Animation keyframes */
+@keyframes shimmerHighlight {
+  0% {
+    background-position: -100% 0;
+  }
+
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+
+@media (max-width: 550px) {
+  .navbar-new-banner {
+    width: 100%;
+    background: black;
+    text-align: center;
+    padding: 5px 12px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    z-index: 1000;
+    line-height: 12px;
+  }
+
+  .container {
+    padding: 7px;
+  }
+
 }
 </style>

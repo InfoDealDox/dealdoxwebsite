@@ -48,7 +48,7 @@
 }
 
 .subscription-layout .centered-table1 {
-  top: 0px;
+  top: 0;
   width: 90%;
   height: 100%;
   position: relative;
@@ -1254,6 +1254,7 @@
   /* height: 60%; */
   align-items: end;
   font-size: 13px;
+  margin-top: 5px;
 }
 .cards-list-item {
   display: flex;
@@ -1445,7 +1446,7 @@
   }
   .subscription-layout .table-container-sub1 {
     position: sticky;
-    top: 77px;
+    top: 110px;
     background-color: white;
     z-index: 3;
     height: 61px;

@@ -15,7 +15,7 @@
   display: flex;
   flex-direction: column;
   gap: 30px;
-  padding: 56px 10px;
+  padding: 80px 10px;
   width: 100%;
   z-index: 1;
   justify-content: center;
@@ -386,7 +386,7 @@
     /* font-size: 38px; */
   }
   .pricing-header-container {
-    padding: 30px 10px;
+    padding: 57px 10px;
   }
 
   .pricing-header-main-container {

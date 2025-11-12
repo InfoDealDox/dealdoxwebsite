@@ -2,7 +2,7 @@
     <div class="gtx-main-container">
         <div class="gtx-popup-container">
             <div :class="gtxpopup ? 'cross-image-active' : 'cross-image-notactive'">
-                <img src="../assets/images/gtx_new_image.webp" alt="" class="gtx-image-box">
+                <img src="../assets/images/BTSummit.png" alt="" class="gtx-image-box">
                 <div style="cursor: pointer;" class="cross-image">
                     <i class="ri-close-fill" id="cross-gtx-icon" @click="onClose"></i>
 
@@ -48,6 +48,7 @@ export default {
     height: 100vh;
     margin: auto;
     overflow: hidden;
+    width: 100vw;
 }
 
 .cross-image {

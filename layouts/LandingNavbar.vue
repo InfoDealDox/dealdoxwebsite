@@ -1,5 +1,6 @@
 <template>
     <div :class="['navbar-area', { 'is-sticky': isSticky }]">
+ 
         <div class="jexa-nav">
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -117,9 +118,9 @@
                     </div>
 
                     <div class="others-option">
-                       
-                            <button class="default-btn" @click="sendForm">Get a Demo</button>
-                     
+
+                        <button class="default-btn" @click="sendForm">Get a Demo</button>
+
 
                     </div>
 
@@ -157,23 +158,23 @@ export default {
         })
     },
     props: {
-    demoFormRef: {
-      type: Object,
-      required: true
-    }
-  },
-  methods: {
-    sendForm() {
-      // Scroll to the demoForm component using the passed prop
-      const demoForm = this.demoFormRef;
+        demoFormRef: {
+            type: Object,
+            required: true
+        }
+    },
+    methods: {
+        sendForm() {
+            // Scroll to the demoForm component using the passed prop
+            const demoForm = this.demoFormRef;
 
-      
-      if (demoForm) {
-        demoForm.$el.scrollIntoView({ behavior: 'smooth' });
-      } else {
-        console.log("demoForm is undefined");
-      }
+
+            if (demoForm) {
+                demoForm.$el.scrollIntoView({ behavior: 'smooth' });
+            } else {
+                console.log("demoForm is undefined");
+            }
+        }
     }
-  }
 }
 </script>

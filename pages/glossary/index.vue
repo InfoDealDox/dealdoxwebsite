@@ -85,9 +85,9 @@ export default {
 
 
 <style>
-@media (max-width:750px) {
+/* @media (max-width:750px) {
     #new-app-main-banner-wrap-image {
         margin-top: 46px !important;
     }
-}
+} */
 </style>

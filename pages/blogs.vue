@@ -77,11 +77,11 @@ export default {
 </script>
 
 
-<style>
+<!-- <style>
 @media only screen and (max-width: 767px) {
 
     #new-app-main-banner-wrap-image {
         margin-top: 49px !important;
     }
 }
-</style>
+</style> -->

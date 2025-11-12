@@ -438,7 +438,7 @@ p:last-child {
 }
 
 .our-team-section-title {
-  padding-top: 60px;
+  padding-top: 90px;
 }
 
 .footer-content {
@@ -9067,3 +9067,7 @@ a {
     order: 2;
   }
 }
+
+#new-app-main-banner-wrap-image {
+        margin-top: 90px !important;
+    }
