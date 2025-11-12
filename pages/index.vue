@@ -318,6 +318,7 @@ for services' },
   height: 100vh;
   margin: auto;
   overflow: hidden;
+  width: 100vw;
 }
 
 .cross-image {
