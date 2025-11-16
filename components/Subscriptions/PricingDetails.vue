@@ -126,7 +126,7 @@
               </div> -->
               <div class="pricing-card-body">
                 <div class="plan-text-body">
-                  <small class="pricing-plan-label">Free Plan</small>
+                  <small class="pricing-plan-label">Standard</small>
 
                 </div>
 
@@ -139,17 +139,25 @@
                 <div class="cards-cash-amount">
 
                   <span class="cards-cashs">
-                    <small style="color: #5d5d66;"><small style=""
-                        v-if='currency_symbol_code !== "INR"'>{{ currency_symbol_code }}</small>{{ currency_symbol
-                        }}</small>
-                    <span v-if="monthly">{{ monthlystandardAmount.toLocaleString() }}</span>
-                    <span v-else>{{ standardAmount.toLocaleString() }}</span>
+                    <small style="color: #5d5d66;"><small style="" v-if='currency_symbol_code !== "INR"'>{{
+                      currency_symbol_code }}</small>₹<span
+                        style="text-decoration: line-through;">3,999</span></small>
+                    <!-- <span v-if="monthly">{{ monthlystandardAmount.toLocaleString() }}</span>
+                    <span v-else>{{ standardAmount.toLocaleString() }}</span> -->
 
                   </span>
-                  <div class="perquoteDiv">
-                    <span>Free for 60 days</span>
-
+                  <div class="perquoteDiv" style="position: relative; display: flex;align-items: center;">
+                    ₹0 for 60 days
+                    <div>
+                      <span class=" hover_message_pricing_card" style="margin-top: 2px;">
+                        <i class="ri-information-line"></i>
+                        <span class="tooltip_text_pricing">
+                          Subject to Business Approval
+                        </span>
+                      </span>
+                    </div>
                   </div>
+
 
                 </div>
                 <div class="card-key-feature-lists">
@@ -174,7 +182,7 @@
 
 
                 <div class="button_div">
-                  <a href="https://devqa.dealdox.io/register?paymentMode=standard" rel="nofollow">
+                  <a href="https://web.dealdox.io/register?paymentMode=enterprise" rel="nofollow">
                     <button class="try_free">Access DealDox CPQ</button>
                   </a>
 
@@ -202,8 +210,8 @@
                 <div class="cards-cash-amount">
 
                   <span class="cards-cashs">
-                    <small style=" color: #5d5d66;"><small style=""
-                        v-if='currency_symbol_code !== "INR"'>{{ currency_symbol_code }}</small>{{ currency_symbol
+                    <small style=" color: #5d5d66;"><small style="" v-if='currency_symbol_code !== "INR"'>{{
+                      currency_symbol_code }}</small>{{ currency_symbol
                         }}</small>
                     <span v-if="monthly">{{ monthlypremiumAmount.toLocaleString() }}</span>
                     <span v-else>{{ premiumAmount.toLocaleString() }}</span>
@@ -215,7 +223,7 @@
 
                 </div>
                 <div class="card-key-feature-lists">
-                  <span class="card-key-feature-lists-h1">Everything in Free Plan+ </span>
+                  <span class="card-key-feature-lists-h1">Everything in Standard+ </span>
                   <ul class="cards-list-item">
                     <li class="card-list-item-content-li"><i class="bi bi-check2 checkmarks-pricing"></i><span
                         class="card-list-item-content">Data import from excel </span></li>
@@ -333,11 +341,11 @@
 
                       </th> -->
                       <th role="columnheader" scope="col" class="table__cell2">
-                        <a :href="`https://devqa.dealdox.io/register?paymentMode=standard`"
-                          class="subscription-anker-tag" target="_blank" rel="noopener noreferrer nofollow">
+                        <a href="https://web.dealdox.io/register?paymentMode=enterprise" class="subscription-anker-tag"
+                          target="_blank" rel="noopener noreferrer nofollow">
                           <div class="edition_wrapper">
                             <div class="edition__copy__wrapper">
-                              <div class="edition_name">Free Plan</div>
+                              <div class="edition_name">Standard</div>
 
 
                             </div>
@@ -1531,5 +1539,56 @@ export default {
   align-items: center;
   flex-direction: column;
   gap: -1px;
+}
+
+/* .hover_message_pricing_card {
+  right: -14px !important;
+  top: 1px !important;
+  font-size: 13px !important;
+} */
+
+
+/* @media screen and (max-width:550px) {
+
+  .hover_message_pricing_card {
+    right: -15px !important;
+    top: -2px !important;
+  }
+} */
+
+.hover_message_pricing_card {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* Tooltip box */
+.tooltip_text_pricing {
+  visibility: hidden;
+  opacity: 0;
+  width: max-content;
+  max-width: 200px;
+  background-color: white;
+  color: black;
+  text-align: left;
+  padding: 8px 10px;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 999;
+  bottom: 120%;
+  /* tooltip on top */
+  left: 50%;
+  transform: translateX(-50%);
+  transition: opacity 0.3s ease;
+  font-size: 12px;
+  line-height: 1.4;
+  white-space: normal;
+}
+
+
+/* Show on hover */
+.hover_message_pricing_card:hover .tooltip_text_pricing {
+  visibility: visible;
+  opacity: 1;
 }
 </style>

@@ -1,6 +1,7 @@
 <template>
     <div>
-        <Navbar class="navbar-style-two" />
+     <Navbar class="navbar-style-two" commong="https://web.dealdox.io/register?paymentMode=enterprise" />
+
         <!-- <PricingHeader /> -->
         <!-- <MainBannerSubscription /> -->
         <!-- <OnbaordingAssistance /> -->

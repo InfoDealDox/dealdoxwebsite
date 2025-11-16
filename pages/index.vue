@@ -4,7 +4,7 @@
     <div v-if="gtxpopup" class="gtx-main-container">
       <div class="gtx-popup-container">
         <div :class="gtxpopup ? 'cross-image-active' : 'cross-image-notactive'">
-          <img src="../assets/images/BTSummit.png" alt="" class="gtx-image-box">
+          <img src="../assets/images/BTSummit.webp" alt="" class="gtx-image-box">
           <div style="cursor: pointer;" class="cross-image">
             <i class="ri-close-fill" id="cross-gtx-icon" @click="handleCloseGtxPopUp"></i>
 
@@ -331,7 +331,7 @@ for services' },
 
 .cross-image-active {
   position: relative;
-  width: 85%;
+  width: 75%;
   height: fit-content;
   display: flex;
   justify-content: center;
@@ -350,7 +350,7 @@ for services' },
 }
 
 .gtx-image-box {
-  max-width: 100%;
+  width: 100%;
   border-radius: 10px;
 }
 
@@ -364,15 +364,21 @@ for services' },
 
 @media screen and (min-width:1024px) {
   .gtx-image-box {
-    max-width: 85%;
+    max-width: 100%;
     border-radius: 10px;
   }
 
   .cross-image {
     position: absolute;
     z-index: 99999;
-    right: 8.2%;
+    /* right: 8.2%; */
     top: 4px;
+  }
+}
+
+@media screen and (max-width:550px) {
+  .cross-image-active {
+    width: 90%;
   }
 }
 </style>
