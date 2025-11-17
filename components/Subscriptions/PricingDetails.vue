@@ -139,9 +139,16 @@
                 <div class="cards-cash-amount">
 
                   <span class="cards-cashs">
-                    <small style="color: #5d5d66;"><small style="" v-if='currency_symbol_code !== "INR"'>{{
-                      currency_symbol_code }}</small>₹<span
-                        style="text-decoration: line-through;">3,999</span></small>
+                    <div style="color: #5d5d66;display: flex;"><small style="" v-if='currency_symbol_code !== "INR"'>{{
+                      currency_symbol_code }}</small>₹<span style="text-decoration: line-through;">4,999</span>
+                      <div style="font-size: 12px;
+    color: red;
+    position: relative;
+    top: -11px;
+    font-weight: 800;
+    font-style: italic;
+    left: 0px;">Free</div>
+                    </div>
                     <!-- <span v-if="monthly">{{ monthlystandardAmount.toLocaleString() }}</span>
                     <span v-else>{{ standardAmount.toLocaleString() }}</span> -->
 
@@ -1341,7 +1348,7 @@ export default {
   async mounted() {
     document.body.removeAttribute("style");
     try {
-      await this.getCurrencyCode();
+      //await this.getCurrencyCode();
       await this.getExchangeAmount();
       this.converAmount();
     } catch (error) {
@@ -1374,16 +1381,16 @@ export default {
     },
   },
   methods: {
-    async getCurrencyCode() {
-      try {
-        const response = await axios.get(`https://ipapi.co/currency/`);
-        this.currentCountryCode = response.data;
-        console.log("Detected country code:", this.currentCountryCode);
-      } catch (error) {
-        console.error("Failed to fetch currency code:", error);
-        this.currentCountryCode = "INR";
-      }
-    },
+    // async getCurrencyCode() {
+    //   try {
+    //     const response = await axios.get(`https://ipapi.co/currency/`);
+    //     this.currentCountryCode = response.data;
+    //     console.log("Detected country code:", this.currentCountryCode);
+    //   } catch (error) {
+    //     console.error("Failed to fetch currency code:", error);
+    //     this.currentCountryCode = "INR";
+    //   }
+    // },
 
     async getExchangeAmount() {
       try {
