@@ -1,7 +1,7 @@
 <template>
   <div>
     <Navbar class="navbar-style-two" />
-    <div v-if="gtxpopup" class="gtx-main-container">
+    <!-- <div v-if="gtxpopup" class="gtx-main-container">
       <div class="gtx-popup-container">
         <div :class="gtxpopup ? 'cross-image-active' : 'cross-image-notactive'">
           <img src="../assets/images/BTSummit.webp" alt="" class="gtx-image-box">
@@ -11,7 +11,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <MainBanner />
     <Partner />
     <TransformYourSales />
