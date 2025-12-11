@@ -3,13 +3,14 @@
 
         <Navbar class="navbar-style-two" />
         <div class="new-thanks-container">
-            <img src="../assets/images/NewThankYou.webp" alt="" class="new-thank-you-image">
+            <img src="../assets/images/form_submitted.jpg" alt="" class="new-thank-you-image">
+            <div style="position: absolute; inset: 0; background-color: rgba(0,0,0,0.3);"></div>
+
             <div class="new-thanks-content-container">
                 <div class="main-thanks-content">
                     <span class="thank-you-message">Thank You</span>
-                    <small style="text-align: center;">for submitting your information. We appreciate your interest and
-                        will get back to you
-                        shortly.
+                    <small style="text-align: center;text-shadow: 1px 2px 3px #978a8a;font-weight: 600;">
+                        We appreciate your interest and will get back to you shortly.
                     </small>
                 </div>
                 <div class="final-thank-container">
@@ -86,9 +87,9 @@ export default {
     flex-direction: column;
     gap: 24px;
     margin: auto;
-    margin-top: 110px;
+    /* margin-top: 110px; */
     position: relative;
-    height: 450px;
+    /* height: 450px; */
 }
 
 .thanks-social-links {
@@ -121,7 +122,8 @@ export default {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: black;
+    font-weight: bold;
 }
 
 .thank-you-message {
@@ -166,14 +168,19 @@ export default {
 }
 
 
+.new-thank-you-image {
+    height: 600px;
+}
+
+
 @media (max-width: 750px) {
     .final-thank-container {
         flex-direction: column;
     }
 
     .new-thanks-container {
-        height: 400px;
-        margin-top: 80px;
+        /* height: 400px; */
+        margin-top: 50px;
     }
 
     .new-thank-you-image {

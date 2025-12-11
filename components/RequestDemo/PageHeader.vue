@@ -65,7 +65,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-md-12">
+                    <div class="col-lg-6 col-md-12 form_new_version_body">
                         <div class="contact-area pbt-75">
                             <div class="container">
                                 <div class="contact-form">
@@ -295,3 +295,13 @@ export default {
     name: 'AppDownload'
 }
 </script>
+
+
+<style>
+.form_new_version_body {
+    border: 0.1px solid #ccc;
+    padding: 24px 10px;
+    border-radius: 10px;
+    background: #ffffff;
+}
+</style>

@@ -13,15 +13,6 @@
                     </button>
                 </div>
             </div>
-
-            <!-- <div style="position: relative;">
-                <div style="display: flex;justify-content: flex-end;align-items: end;">
-                    <img src="../assets/images/PartnerContent.png" alt="">
-                </div>
- 
- 
-            </div> -->
-
             <div class="partner-customer-confidence">
                 <div class="partner-customer-content partner-customer-content-customize">
                     <h2 class="partner-customer-header"> Customer Confidence </h2>
@@ -60,34 +51,23 @@
                     <NuxtLink to='/cpq-integrations'><button class="partner-buttons">CPQ Integrations</button>
                     </NuxtLink>
                 </div>
-
-
-
             </div>
-
             <div style="text-align: center;">
                 <span class="partner-authorize-heading">Submit a contact request
                 </span>
-
-
             </div>
-
-
             <div>
                 <div class="partner-loadingForms">
-                    <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
-                        <input name="oid" type="hidden" value="00D2v000003PByK" />
-                        <input name="retURL" type="hidden" value="https://dealdox.io/thank-you" />
+                    <form @submit="onSubmit" ref="form" method="POST" novalidate>
                         <div class="partner-loaingDemoForm">
-
                             <div class="partner-label-input-div">
                                 <label class="loading-label" style="color: black;">Full Name</label>
                                 <input type="text" maxlength="40" name="last_name" required
-                                    class="partner-laoding-input-field" id="last_name" placeholder="">
+                                    class="partner-laoding-input-field" id="last_name" placeholder=""
+                                    v-model="formData.first_name">
+                                <div class="error" v-if="formErrors.first_name">{{ formErrors.first_name }}
+                                </div>
                             </div>
-
-
-
 
                             <div class="partner-label-input-div">
                                 <label class="loading-label" style="color: black;">Phone Number</label>
@@ -95,13 +75,16 @@
                                     @keypress="allowOnlyNumbers" :maxlength="formData.maxPhoneNumberLength" name="phone"
                                     class="partner-laoding-input-field" id="phone" maxlength="15" placeholder=""
                                     :title="formData.phoneValidationMessage" />
+
                             </div>
 
                             <div class="partner-label-input-div">
 
                                 <label class="loading-label" style="color: black;">Email</label>
                                 <input type="email" maxlength="40" name="email" required
-                                    class="partner-laoding-input-field" id="email" placeholder="">
+                                    class="partner-laoding-input-field" id="email" placeholder=""
+                                    v-model="formData.email">
+                                <div class="error" v-if="formErrors.email">{{ formErrors.email }}</div>
 
                             </div>
 
@@ -109,16 +92,19 @@
 
                                 <label class="loading-label" style="color: black;">Company</label>
                                 <input type="text" maxlength="40" name="company" class="partner-laoding-input-field"
-                                    id="company" placeholder="">
+                                    id="company" placeholder="" v-model="formData.company">
+                                <div class="error" v-if="formErrors.company">{{ formErrors.company }}
+
+                                </div>
+
+
 
                             </div>
 
 
-
-
                             <div class="input-submitting-div">
                                 <input class="partner-landing-checkbox" required type="checkbox" value=""
-                                    id="flexCheckDefault">
+                                    id="flexCheckDefault" v-model="formData.agree">
                                 <label class="partner-loading-privacy-content" for="flexCheckDefault">
                                     By submitting this form,you agree to DealDox's
                                     <NuxtLink to="/privacy-policy">
@@ -127,29 +113,23 @@
                                 </label>
                             </div>
 
-                            <div style="display: none;">
-                                <label for="Contact_us__c">Contact</label>
-                                <input id="Contact_us__c" maxlength="40" name="Contact_us__c" size="20" type="text"
-                                    value="True" /><br />
-                            </div>
 
 
-                            <div style="display: none;">
-                                <label for="lead_source">Lead Source</label>
-                                <input id="lead_source" maxlength="40" name="lead_source" size="20" type="text"
-                                    :value="paramValue ? paramValue : 'Become a Partner'" /><br />
-                            </div>
-
-
-                            <div class="g-recaptcha" data-sitekey="6Lcm03wnAAAAAJ0kn_gkod9i_BiG80TaeGw_xViZ"></div>
-
-                            <div class="col-lg-12 col-md-12 col-sm-12 loading-submit-button">
+                            <div class="col-lg-12 col-md-12 col-sm-12"
+                                style="width: 100%;justify-content: center; display: flex;">
                                 <button type="submit" name="submit" required class="default-btn"><i
                                         class='bx bx-paper-plane'></i>
+
                                     Submit </button>
                             </div>
 
                         </div>
+
+
+
+
+
+
                     </form>
                 </div>
 
@@ -168,6 +148,7 @@
 <script>
 import Navbar from '../layouts/Navbar';
 import DealDoxFooter from '../layouts/DealDoxFooter';
+import axios from 'axios';
 
 
 
@@ -200,6 +181,8 @@ export default {
                 agree: false,
                 phoneNumber: '',
                 maxPhoneNumberLength: 15,
+                source: "DealDox Become a Partner",
+                adminid: "6806315dab518273bbcf04c9",
                 phoneValidationMessage: 'Please enter exactly 15 numeric digits',
             },
             formErrors: {},
@@ -208,7 +191,7 @@ export default {
     methods: {
 
         validatePhoneNumber() {
-            // Remove any non-numeric characters from the phone number
+
             this.formData.phoneNumber = this.formData.phoneNumber.replace(/\D/g, '');
         },
         allowOnlyNumbers(event) {
@@ -221,66 +204,69 @@ export default {
         validateForm() {
             this.formErrors = {};
 
-            const nameRegex = /^[a-zA-Z]+$/;
-            const phoneRegex = /^\+?\d{1,4}?\s?\d{6,}$/;
+            const nameRegex = /^[a-zA-Z ]+$/;
             const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            const phoneRegex = /^\d{7,15}$/; // simple numeric check: 7-15 digits
 
-            if (!nameRegex.test(this.formData.first_name)) {
-                this.formErrors.first_name = 'First Name must contain only letters.';
+            // Required: first_name
+            if (!this.formData.first_name || this.formData.first_name.trim() === '') {
+                this.formErrors.first_name = 'First name is required.';
+            } else if (!nameRegex.test(this.formData.first_name)) {
+                this.formErrors.first_name = 'First name must contain only letters and spaces.';
             }
 
-            if (!nameRegex.test(this.formData.last_name)) {
-                this.formErrors.last_name = 'Last Name must contain only letters.';
-            }
-
-            if (!phoneRegex.test(this.formData.phoneNumber)) {
-                this.formErrors.phoneNumber = 'Please enter a valid phone number.';
-            }
-
-            if (!emailRegex.test(this.formData.email)) {
+            // Email required
+            if (!this.formData.email || this.formData.email.trim() === '') {
+                this.formErrors.email = 'Email is required.';
+            } else if (!emailRegex.test(this.formData.email)) {
                 this.formErrors.email = 'Please enter a valid email address.';
             }
 
-            if (!nameRegex.test(this.formData.company)) {
-                this.formErrors.company = 'Company Name must contain only letters.';
+            // Company required
+            if (!this.formData.company || this.formData.company.trim() === '') {
+                this.formErrors.company = 'Company name is required.';
+            } else if (!nameRegex.test(this.formData.company)) {
+                this.formErrors.company = 'Company name must contain only letters and spaces.';
             }
 
-            if (!nameRegex.test(this.formData.country)) {
-                this.formErrors.country = 'Country must contain only letters.';
-            }
 
-            if (this.formData.message.trim() === '') {
-                this.formErrors.message = 'Please leave your message.';
-            }
-
-            if (!this.formData.agree) {
-                this.formErrors.agree = 'You must agree to the Terms of Use and Privacy Policy.';
-            }
+            console.log("formErrors", this.formErrors)
 
             return Object.keys(this.formErrors).length === 0;
         },
 
-        submitForm() {
+
+
+        async onSubmit(event) {
+            event.preventDefault();
+
             if (this.validateForm()) {
-                // Submit the form here, e.g., using Axios or fetch API
+                try {
+                    const response = await axios.post("https://devqa-api.dealdox.io/api/autorize/webleadUser", this.formData);
+                    if (response.data.status === "Success") {
+                        this.$router.push({ name: 'thanks' });
+                        this.formData.first_name = "";
+                        this.formData.company = '';
+                        this.formData.email = '';
+                        this.formData.agree = '';
+                        this.formData.phoneNumber = ''
 
-                const response = grecaptcha.getResponse();
-
-                // Check if reCAPTCHA response is available
-                if (response.length === 0) {
-                    alert("Please complete the reCAPTCHA.");
-                    return;
+                    } else {
+                        this.apiResponseData = response.data.message;
+                    }
+                } catch (error) {
+                    if (error.response && error.response.data) {
+                        this.apiResponseData = error.response.data.message || "Something went wrong";
+                    } else {
+                        console.log("Unable to create", error);
+                    }
                 }
 
-                // If reCAPTCHA response is available, submit the form
-                const form = document.querySelector('form');
-                form.submit();
-
-
             } else {
-                console.log('Form validation failed!');
+                // validation failed — keep user on form and show field errors
             }
-        },
+
+        }
     },
     head: {
         title: 'Become a DealDox Partner | Drive Growth with Our CPQ Solutions ',
@@ -469,6 +455,13 @@ export default {
     background: linear-gradient(99.01deg, #715cf3 20.98%, #5c99f3 94.62%);
 
 }
+
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 6px;
+}
+
 
 @media (max-width: 750px) {
 

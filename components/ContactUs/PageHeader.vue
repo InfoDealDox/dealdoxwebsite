@@ -38,7 +38,7 @@
 
         </div>
 
-        <div class="form-field-body" style="color: white;">
+        <div class="form-field-body " style="color: white;">
             <div class="form-field-body-header" style="color: black;">
                 <span class="need-help-keyword">Need help?</span>
                 <small class="we-re-assist-you">We're here to assist you…</small>
@@ -46,14 +46,16 @@
             <div class="contact-area" style="padding: 20px;">
                 <div class="container">
                     <div class="contact-form">
-                        <form @submit="onSubmit" ref="form" method="POST">
+                        <form @submit="onSubmit" ref="form" method="POST" novalidate>
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 col-sm-6">
                                     <div class="form-group" id="form-group-id">
-                                        <!-- <p>First Name</p> -->
+                                       
                                         <input type="text" maxlength="40" name="first_name" required
                                             class="form-control" id="first_name" placeholder="First Name*"
                                             v-model="formData.first_name">
+                                        <div class="error" v-if="formErrors.first_name">{{ formErrors.first_name }}
+                                        </div>
                                     </div>
                                 </div>
 
@@ -62,6 +64,7 @@
                                         <!-- <p>Last Name</p> -->
                                         <input type="text" maxlength="40" name="last_name" class="form-control"
                                             id="last_name" placeholder="Last Name*" v-model="formData.last_name">
+                                     
                                     </div>
                                 </div>
 
@@ -70,8 +73,10 @@
                                         <input type="text" v-model="formData.phoneNumber" @input="validatePhoneNumber"
                                             @keypress="allowOnlyNumbers" :maxlength="formData.maxPhoneNumberLength"
                                             name="phone" class="form-control phone-numner-contact-us-border" id="phone"
-                                            required maxlength="15" placeholder="Phone Number"
+                                            required placeholder="Phone Number"
                                             :title="formData.phoneValidationMessage" />
+                                        <div class="error" v-if="formErrors.phoneNumber">{{ formErrors.phoneNumber }}
+                                        </div>
                                     </div>
                                 </div>
 
@@ -80,6 +85,7 @@
                                         <!-- <p>Email</p> -->
                                         <input type="email" maxlength="40" name="email" required class="form-control"
                                             id="email" placeholder="Email*" v-model="formData.email">
+                                        <div class="error" v-if="formErrors.email">{{ formErrors.email }}</div>
                                     </div>
                                 </div>
 
@@ -88,6 +94,7 @@
                                         <!-- <p>Company</p> -->
                                         <input type="text" maxlength="40" name="company" class="form-control" required
                                             id="company" placeholder="Company*" v-model="formData.company">
+                                        <div class="error" v-if="formErrors.company">{{ formErrors.company }}</div>
                                     </div>
                                 </div>
 
@@ -122,10 +129,6 @@
                                     </div>
                                 </div>
 
-
-
-
-
                                 <span :style="{ color: 'red', fontSize: '13px' }">
 
                                     {{ apiResponseData }}
@@ -151,41 +154,26 @@
     </div>
 </template>
 
-
 <script>
 
 import axios from 'axios'
 
 export default {
-
-
-
     data() {
-
         return {
-
             formData: {
-
                 first_name: '',
-
                 last_name: '',
-
                 email: '',
-
                 company: '',
-
                 country: '',
-
                 message: '',
-
                 agree: false,
-
                 source: "DealDox Contact Us",
-
                 adminid: "6806315dab518273bbcf04c9",
-
                 phoneNumber: '',
-
+                maxPhoneNumberLength: 15,
+                phoneValidationMessage: 'Enter phone digits only'
             },
 
             formErrors: {},
@@ -199,154 +187,94 @@ export default {
             apiResponseData: ""
 
         };
-
     },
 
     methods: {
-
         generateRandomNumber() {
-
-            return Math.floor(Math.random() * 10); // Random number between 0 and 9
-
+            return Math.floor(Math.random() * 10); 
         },
 
         validatePhoneNumber() {
-
-            // Remove any non-numeric characters from the phone number
-
+         
             this.formData.phoneNumber = this.formData.phoneNumber.replace(/\D/g, '');
-
         },
 
         allowOnlyNumbers(event) {
-
-            // Allow only numeric digits (0-9) in the input field
-
+           
             const charCode = event.which ? event.which : event.keyCode;
-
             if (charCode > 31 && (charCode < 48 || charCode > 57)) {
-
                 event.preventDefault();
-
             }
-
         },
 
         validateForm() {
-
             this.formErrors = {};
 
             const nameRegex = /^[a-zA-Z ]+$/;
-
-            const phoneRegex = /^\+?\d{1,4}?\s?\d{6,}$/;
-
             const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            const phoneRegex = /^\d{7,15}$/; 
 
-            if (!nameRegex.test(this.formData.first_name)) {
-
-                this.formErrors.first_name = 'First Name must contain only letters.';
-
+         
+            if (!this.formData.first_name || this.formData.first_name.trim() === '') {
+                this.formErrors.first_name = 'First name is required.';
+            } else if (!nameRegex.test(this.formData.first_name)) {
+                this.formErrors.first_name = 'First name must contain only letters and spaces.';
             }
 
-            // if (!nameRegex.test(this.formData.last_name)) {
-
-            //     this.formErrors.last_name = 'Last Name must contain only letters.';
-
-            // }
-
-            // if (!phoneRegex.test(this.formData.phoneNumber)) {
-
-            //     this.formErrors.phoneNumber = 'Please enter a valid phone number.';
-
-            // }
-
-            if (!emailRegex.test(this.formData.email)) {
-
+         
+            if (!this.formData.email || this.formData.email.trim() === '') {
+                this.formErrors.email = 'Email is required.';
+            } else if (!emailRegex.test(this.formData.email)) {
                 this.formErrors.email = 'Please enter a valid email address.';
-
             }
 
-            if (!nameRegex.test(this.formData.company)) {
-
-                this.formErrors.company = 'Company Name must contain only letters.';
-
+           
+            if (!this.formData.company || this.formData.company.trim() === '') {
+                this.formErrors.company = 'Company name is required.';
+            } else if (!nameRegex.test(this.formData.company)) {
+                this.formErrors.company = 'Company name must contain only letters and spaces.';
             }
 
-            // if (!nameRegex.test(this.formData.country)) {
+         
 
-            //     this.formErrors.country = 'Country must contain only letters.';
-
-            // }
-
-            // if (this.formData.message.trim() === '') {
-
-            //     this.formErrors.message = 'Please leave your message.';
-
-            // }
-
+          
             if (!this.formData.agree) {
-
                 this.formErrors.agree = 'You must agree to the Terms of Use and Privacy Policy.';
-
             }
-
-            // if (!this.userAnswer || parseInt(this.userAnswer) !== this.num1 + this.num2) {
-
-            //     this.formErrors.recaptcha = "You entered the wrong captcha value.";
-
-            // }
 
             console.log("formErrors", this.formErrors)
 
-
             return Object.keys(this.formErrors).length === 0;
-
         },
 
         async onSubmit(event) {
-
             event.preventDefault();
 
             if (this.validateForm()) {
-
                 try {
-
                     const response = await axios.post("https://devqa-api.dealdox.io/api/autorize/webleadUser", this.formData);
-
                     if (response.data.status === "Success") {
                         this.$router.push({ name: 'thanks' });
-
                     } else {
-
                         this.apiResponseData = response.data.message;
-
                     }
-
                 } catch (error) {
-
                     if (error.response && error.response.data) {
                         this.apiResponseData = error.response.data.message || "Something went wrong";
                     } else {
                         console.log("Unable to create");
-
                     }
-
                 }
 
             } else {
-
-                event.preventDefault();
-
+                // validation failed — keep user on form and show field errors
             }
 
         }
 
     },
-
 };
 </script>
-
-
 
 
 <style>
@@ -366,6 +294,7 @@ export default {
 .error {
     color: red;
     font-size: 12px;
+    margin-top: 6px;
 }
 
 .captcha-container {
@@ -385,7 +314,6 @@ export default {
     border: 0.1px solid #eeeeee;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-
 
 
 }
@@ -438,6 +366,7 @@ export default {
 #form-group-id {
     margin-bottom: 25px !important;
 }
+
 
 
 @media (max-width: 750px) {
